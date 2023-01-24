@@ -25,7 +25,7 @@ val shadowMetalAxe = <TaintedMagic:ItemShadowmetalAxe>;
 val shadowMetalShov = <TaintedMagic:ItemShadowmetalSpade>;
 val shadowMetalHoe = <TaintedMagic:ItemShadowmetalHoe>;
 
-val zephyrSword = <Thaumcraft:ItemSwordElemental>;
+val thaumiumSword = <Thaumcraft:ItemSwordThaumium>;
 
 val thaumFtrBlade = <TaintedMagic:ItemKatana:0>;
 val voidMetalFtrBlade = <TaintedMagic:ItemKatana:1>;
@@ -40,11 +40,11 @@ val voidGoggles = <TaintedMagic:ItemVoidmetalGoggles>;
 
 mods.thaumcraft.Infusion.removeRecipe(thaumFtrBlade);
 mods.thaumcraft.Infusion.addRecipe("THAUMIUMKATANA",
-/* Input                        */ zephyrSword,
+/* Input                        */ thaumiumSword,
 /* Ingredients                  */ [netherStar, thaumBlock, primeCharm, emrldBlock, qkSlvrBlock, thaumBlock, netherStar, thaumBlock, primeCharm, emrldBlock, qkSlvrBlock, thaumBlock],
 /* Essentia                     */ " metallum 105, praecantatio 55, telum 110, superbia 20, ira 30",
 /* Output                       */ thaumFtrBlade,
-/* Instability                  */ 32);
+/* Instability                  */ 16);
 mods.thaumcraft.Research.refreshResearchRecipe("THAUMIUMKATANA");
 
 // Void Metal Fortress Blade
@@ -55,7 +55,7 @@ mods.thaumcraft.Infusion.addRecipe("VOIDMETALKATANA",
 /* Ingredients                  */ [netherStar, voidMetalBlock, primeCharm, emrldBlock, qkSlvrBlock, voidMetalBlock, netherStar, voidMetalBlock, primeCharm, emrldBlock, qkSlvrBlock, voidMetalBlock],
 /* Essentia                     */ "alienis 60, metallum 130, praecantatio 80, telum 135, vacuos 115, superbia 30, ira 45",
 /* Output                       */ voidMetalFtrBlade,
-/* Instability                  */ 40);
+/* Instability                  */ 24);
 mods.thaumcraft.Research.refreshResearchRecipe("VOIDMETALKATANA");
 
 // Shadow Metal Fortress Blade
@@ -66,7 +66,7 @@ mods.thaumcraft.Infusion.addRecipe("SHADOWMETALKATANA",
 /* Ingredients                  */ [netherStar, shadowMetal, primeCharm, emrldBlock, qkSlvrBlock, shadowMetal, warpwoodStaff, shadowMetal, primeCharm, emrldBlock, qkSlvrBlock, shadowMetal],
 /* Essentia                     */ "metallum 155, praecantatio 105, telum 160, tenebrae 115, vacuos 40, superbia 40, ira 60",
 /* Output                       */ shadowMetalFtrBlade,
-/* Instability                  */ 48);
+/* Instability                  */ 32);
 mods.thaumcraft.Research.refreshResearchRecipe("SHADOWMETALKATANA");
 
 # Googles
@@ -106,58 +106,58 @@ mods.thaumcraft.Crucible.addRecipe("SHADOWMETAL",
 
 recipes.remove(shadowMetalSword);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
-/* Output                       */ shadowMetalSword,
-/* Aspects                      */ "ordo 90, perditio 140",
-/* InputArray                   */ [[null, shadowMetalNugget, shadowMetal], 
-                                    [shadowMetal, focusPortableHole, shadowMetalNugget],
-                                    [obsidianStaff, shadowMetal, null]] );
+/* Output                     */ shadowMetalSword,
+/* Aspects                    */ "ordo 90, perditio 140",
+/* InputArray                 */ [[null, shadowMetalNugget, shadowMetal], 
+                                  [shadowMetal, focusPortableHole, shadowMetalNugget],
+                                  [obsidianStaff, shadowMetal, null]] );
 
 // Shadowmetal Pickaxe
 
 recipes.remove(shadowMetalPick);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
-/* Output                       */ shadowMetalPick,
-/* Aspects                      */ "ordo 80, perditio 120",
-/* InputArray                   */ [[shadowMetalNugget, shadowMetal, shadowMetal], 
-                                    [null, focusPortableHole, shadowMetal],
-                                    [obsidianStaff, null, shadowMetalNugget]] );
+/* Output                     */ shadowMetalPick,
+/* Aspects                    */ "ordo 80, perditio 120",
+/* InputArray                 */ [[shadowMetalNugget, shadowMetal, shadowMetal], 
+                                  [null, focusPortableHole, shadowMetal],
+                                  [obsidianStaff, null, shadowMetalNugget]] );
 
 // Shadowmetal Axe
 
 recipes.remove(shadowMetalAxe);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
-/* Output                       */ shadowMetalAxe,
-/* Aspects                      */ "ordo 85, perditio 130",
-/* InputArray                   */ [[shadowMetal, shadowMetal, shadowMetalNugget], 
-                                    [shadowMetal, focusPortableHole, null],
-                                    [null, obsidianStaff, null]] );
+/* Output                     */ shadowMetalAxe,
+/* Aspects                    */ "ordo 85, perditio 130",
+/* InputArray                 */ [[shadowMetal, shadowMetal, shadowMetalNugget], 
+                                  [shadowMetal, focusPortableHole, null],
+                                  [null, obsidianStaff, null]] );
 
 // Shadowmetal Shover
 
 recipes.remove(shadowMetalShov);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
-/* Output                       */ shadowMetalShov,
-/* Aspects                      */ "ordo 75, perditio 110",
-/* InputArray                   */ [[null, shadowMetalNugget, shadowMetal], 
-                                    [null, focusPortableHole, shadowMetalNugget],
-                                    [obsidianStaff, null, null]] );
+/* Output                     */ shadowMetalShov,
+/* Aspects                    */ "ordo 75, perditio 110",
+/* InputArray                 */ [[null, shadowMetalNugget, shadowMetal], 
+                                  [null, focusPortableHole, shadowMetalNugget],
+                                  [obsidianStaff, null, null]] );
 
 // Shadowmetal Hoe
 
 recipes.remove(shadowMetalHoe);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
-/* Output                       */ shadowMetalHoe,
-/* Aspects                      */ "ordo 75, perditio 100",
-/* InputArray                   */ [[shadowMetal, shadowMetalNugget, null], 
-                                    [null, focusPortableHole, null],
-                                    [obsidianStaff, null, null]] );
+/* Output                     */ shadowMetalHoe,
+/* Aspects                    */ "ordo 75, perditio 100",
+/* InputArray                 */ [[shadowMetal, shadowMetalNugget, null], 
+                                  [null, focusPortableHole, null],
+                                  [obsidianStaff, null, null]] );
 
 # Research
 // SHADOWMETAL
 val en_text = "Once upon a time you were transmuting something in your crucible. After botching a recipe, you accidentally dropped some iron into the bubbling mess; to your surprise, out came a mysterious metal ingot.<BR>You have decided to name it Shadow Metal. It is extremely heavy and seems very durable, but it is highly unstable and difficult to craft with. You will likely have to use it alongside another magical metal.<BR>§oYou place your ear against this strange substance and hear faint whispers. Are you going mad? Who knows.§r";
 mods.thaumcraft.Research.clearPages("SHADOWMETAL");
-mods.thaumcraft.Research.addPage("SHADOWMETAL", "tnmx.1");
-game.setLocalization("tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tnmx.1", en_text);
+mods.thaumcraft.Research.addPage("SHADOWMETAL", "tnmx.tm.shadowmetal_1");
+game.setLocalization("tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tnmx.tm.shadowmetal_1", en_text);
 mods.thaumcraft.Research.addCruciblePage("SHADOWMETAL", shadowMetal);
 mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", shadowMetalSword);
 mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", shadowMetalPick);
