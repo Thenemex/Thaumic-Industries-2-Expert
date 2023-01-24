@@ -1,0 +1,17 @@
+{
+  "id": "Tent_36,75,4",
+  "name": "Tent",
+  "icon": "waypoint-normal.png",
+  "x": 36,
+  "y": 75,
+  "z": 4,
+  "r": 254,
+  "g": 255,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    68
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "Portal_-1464,84,-2280",
+  "name": "Portal",
+  "icon": "waypoint-normal.png",
+  "x": -1464,
+  "y": 84,
+  "z": -2280,
+  "r": 207,
+  "g": 0,
+  "b": 223,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    -1
+  ]
+}
