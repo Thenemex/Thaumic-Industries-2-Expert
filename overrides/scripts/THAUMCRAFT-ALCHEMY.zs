@@ -1,4 +1,4 @@
-// Recipes for Thaumcraft
+// Recipes for Thaumcraft - Alchemy
 
 import minetweaker.item.IItemStack;
 
@@ -14,15 +14,13 @@ val thaumiumPick = <Thaumcraft:ItemPickThaumium>;
 val thaumiumAxe = <Thaumcraft:ItemAxeThaumium>;
 val thaumiumShov = <Thaumcraft:ItemShovelThaumium>;
 val thaumiumHoe = <Thaumcraft:ItemHoeThaumium>;
-val thaumiumShearsWG = <WitchingGadgets:item.WG_ThaumiumShears>;
-val thaumiumShearsMC = <MagicCookie:ThaumiumShears:1>;
 
 val thaumiumHelm = <Thaumcraft:ItemHelmetThaumium>;
 val thaumiumChest = <Thaumcraft:ItemChestplateThaumium>;
 val thaumiumLegs = <Thaumcraft:ItemLeggingsThaumium>;
 val thaumiumBoots = <Thaumcraft:ItemBootsThaumium>;
 
-var thaumToolsArray = [thaumiumSword, thaumiumPick, thaumiumAxe, thaumiumShov, thaumiumHoe, thaumiumShearsWG, thaumiumHelm, thaumiumChest, thaumiumLegs, thaumiumBoots] as IItemStack[];
+var thaumToolsArray = [thaumiumSword, thaumiumPick, thaumiumAxe, thaumiumShov, thaumiumHoe, thaumiumHelm, thaumiumChest, thaumiumLegs, thaumiumBoots] as IItemStack[];
 
 # Armor
 // Thaumium Helmet
@@ -114,16 +112,6 @@ mods.thaumcraft.Arcane.addShaped("THAUMIUM",
 /* InputArray                 */ [[thaumium, thaumium, thaumiumNugget], 
                                   [null, greatwoodRod, null],
                                   [greatwoodRod, null, null]] );
-
-// Thaumium Shears
-recipes.remove(thaumiumShearsMC); // ToDo MagicCookie Shears ?
-recipes.remove(thaumiumShearsWG);
-mods.thaumcraft.Arcane.addShaped("THAUMIUM",
-/* Output                     */ thaumiumShearsWG,
-/* Aspects                    */ "terra 5, ordo 11",
-/* InputArray                 */ [[null, thaumium, thaumiumNugget], 
-                                  [greatwoodRod, thaumiumNugget, thaumium],
-                                  [ironNugget_OD, greatwoodRod, null]] );
 
 # Research
 val en_text = "Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications int the craftinf of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in an arcane worktable.";
