@@ -1,5 +1,7 @@
 // Recipes for Tainted Magic
 
+import minetweaker.item.IItemStack;
+
 val ironIngot = <minecraft:iron_ingot>;
 val enderEye = <minecraft:ender_eye>;
 val emrldBlock = <minecraft:emerald_block>;
@@ -34,6 +36,8 @@ val shadowMetalFtrBlade = <TaintedMagic:ItemKatana:2>;
 val goggles = <Thaumcraft:ItemGoggles>;
 val warpedGoggles = <TaintedMagic:ItemWarpedGoggles>;
 val voidGoggles = <TaintedMagic:ItemVoidmetalGoggles>;
+
+var shadowToolsArray = [shadowMetalSword, shadowMetalPick, shadowMetalAxe, shadowMetalShov, shadowMetalHoe] as IItemStack[];
 
 # Blades
 // Thaumium Fortress Blade
@@ -147,7 +151,7 @@ mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
 recipes.remove(shadowMetalHoe);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
 /* Output                     */ shadowMetalHoe,
-/* Aspects                    */ "ordo 75, perditio 100",
+/* Aspects                    */ "ordo 70, perditio 100",
 /* InputArray                 */ [[shadowMetal, shadowMetalNugget, null], 
                                   [null, focusPortableHole, null],
                                   [obsidianStaff, null, null]] );
@@ -159,8 +163,5 @@ mods.thaumcraft.Research.clearPages("SHADOWMETAL");
 mods.thaumcraft.Research.addPage("SHADOWMETAL", "tnmx.tm.shadowmetal_1");
 game.setLocalization("tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tnmx.tm.shadowmetal_1", en_text);
 mods.thaumcraft.Research.addCruciblePage("SHADOWMETAL", shadowMetal);
-mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", shadowMetalSword);
-mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", shadowMetalPick);
-mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", shadowMetalAxe);
-mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", shadowMetalShov);
-mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", shadowMetalHoe);
+for i, el_shadowTool in shadowToolsArray {
+    mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", el_shadowTool); }
