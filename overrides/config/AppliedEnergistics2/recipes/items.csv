@@ -548,12 +548,10 @@ minecraft:potion:8234, Potion de lenteur
 minecraft:potion:8266, Potion de lenteur
 minecraft:potion:16426, (Jetable) Potion de lenteur
 minecraft:potion:16458, (Jetable) Potion de lenteur
-minecraft:potion:8203, Potion de saut
-minecraft:potion:8235, Potion de saut
-minecraft:potion:8267, Potion de saut
-minecraft:potion:16395, (Jetable) Potion de saut
-minecraft:potion:16427, (Jetable) Potion de saut
-minecraft:potion:16459, (Jetable) Potion de saut
+minecraft:potion:8235, Potion de décomposition
+minecraft:potion:8267, Potion de décomposition
+minecraft:potion:16427, (Jetable) Potion de décomposition
+minecraft:potion:16459, (Jetable) Potion de décomposition
 minecraft:potion:8268, Potion de dégâts
 minecraft:potion:8236, Potion de dégâts
 minecraft:potion:16460, (Jetable) Potion de dégâts
@@ -2921,38 +2919,38 @@ BiblioCraft:BiblioSeats:3, Chaise en acajou
 BiblioCraft:BiblioSeats:4, Chaise en acacia
 BiblioCraft:BiblioSeats:5, Chaise en chêne noir
 BiblioCraft:BiblioSeats:6, Framed Seat
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:interface, Transvector Interface
 ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
 ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
 ThaumicTinkerer:magnet:0, Kinetic Attractor
 ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
 ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:spawner, Tablet of Necromancy
 ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -3944,365 +3942,6 @@ thaumores:bedrockInfusedOre:2, Water Infused Bedrock
 thaumores:bedrockInfusedOre:3, Earth Infused Bedrock
 thaumores:bedrockInfusedOre:4, Order Infused Bedrock
 thaumores:bedrockInfusedOre:5, Entropy Infused Bedrock
-erebus:logBaobab:0, Baobab Wood
-erebus:saplingBaobab:0, Baobab Sapling
-erebus:plankStairBaobab:0, Baobab Stairs
-erebus:slabPlanksBaobab:0, Baobab Slab
-erebus:fenceBaobab:0, Baobab Fence
-erebus:fenceGateBaobab:0, Baobab Fence Gate
-erebus:leavesBaobab:0, Baobab Leaves
-erebus:logEucalyptus:0, Eucalyptus Wood
-erebus:saplingEucalyptus:0, Eucalyptus Sapling
-erebus:plankStairEucalyptus:0, Eucalyptus Stairs
-erebus:slabPlanksEucalyptus:0, Eucalyptus Slab
-erebus:fenceEucalyptus:0, Eucalyptus Fence
-erebus:fenceGateEucalyptus:0, Eucalyptus Fence Gate
-erebus:leavesEucalyptus:0, Eucalyptus Leaves
-erebus:logMahogany:0, Mahogany Wood
-erebus:saplingMahogany:0, Mahogany Sapling
-erebus:plankStairMahogany:0, Mahogany Stairs
-erebus:slabPlanksMahogany:0, Mahogany Slab
-erebus:fenceMahogany:0, Mahogany Fence
-erebus:fenceGateMahogany:0, Mahogany Fence Gate
-erebus:leavesMahogany:0, Mahogany Leaves
-erebus:logMossbark:0, Mossbark Wood
-erebus:saplingMossbark:0, Mossbark Sapling
-erebus:plankStairMossbark:0, Mossbark Stairs
-erebus:slabPlanksMossbark:0, Mossbark Slab
-erebus:fenceMossbark:0, Mossbark Fence
-erebus:fenceGateMossbark:0, Mossbark Fence Gate
-erebus:leavesMossbark:0, Mossbark Leaves
-erebus:logAsper:0, Asper Wood
-erebus:saplingAsper:0, Asper Sapling
-erebus:plankStairAsper:0, Asper Stairs
-erebus:slabPlanksAsper:0, Asper Slab
-erebus:fenceAsper:0, Asper Fence
-erebus:fenceGateAsper:0, Asper Fence Gate
-erebus:leavesAsper:0, Asper Leaves
-erebus:logCypress:0, Cypress Wood
-erebus:saplingCypress:0, Cypress Sapling
-erebus:plankStairCypress:0, Cypress Stairs
-erebus:slabPlanksCypress:0, Cypress Slab
-erebus:fenceCypress:0, Cypress Fence
-erebus:fenceGateCypress:0, Cypress Fence Gate
-erebus:leavesCypress:0, Cypress Leaves
-erebus:logSap:0, Balsam Wood
-erebus:saplingSap:0, Balsam Sapling
-erebus:plankStairSap:0, Balsam Stairs
-erebus:slabPlanksSap:0, Balsam Slab
-erebus:fenceSap:0, Balsam Fence
-erebus:fenceGateSap:0, Balsam Fence Gate
-erebus:leavesSap:0, Balsam Leaves
-erebus:plankStairWhite:0, White Stairs
-erebus:slabPlanksWhite:0, White Slab
-erebus:fenceWhite:0, White Fence
-erebus:fenceGateWhite:0, White Fence Gate
-erebus:plankStairBamboo:0, Bamboo Stairs
-erebus:slabPlanksBamboo:0, Bamboo Slab
-erebus:fenceBamboo:0, Bamboo Fence
-erebus:fenceGateBamboo:0, Bamboo Fence Gate
-erebus:logRotten:0, Bois pourri
-erebus:plankStairRotten:0, Rotten Stairs
-erebus:slabPlanksRotten:0, Rotten Slab
-erebus:fenceRotten:0, Rotten Fence
-erebus:fenceGateRotten:0, Rotten Fence Gate
-erebus:logMarshwood:0, Marshwood Wood
-erebus:saplingMarshwood:0, Marshwood Sapling
-erebus:plankStairMarshwood:0, Marshwood Stairs
-erebus:slabPlanksMarshwood:0, Marshwood Slab
-erebus:fenceMarshwood:0, Marshwood Fence
-erebus:fenceGateMarshwood:0, Marshwood Fence Gate
-erebus:leavesMarshwood:0, Marshwood Leaves
-erebus:portal, Portail Erebus
-erebus:umberstone:0, Pierre d'ombre
-erebus:umberstone:1, Pavé d'ombre
-erebus:umberstone:2, Pavé d'ombre moussu
-erebus:umberstone:3, Pavé d'ombre entoillé
-erebus:umberstone:4, Brique d'ombre
-erebus:umberstone:5, Tuile d'ombre lissée
-erebus:umberstone:6, Tuiles d'ombre lissées
-erebus:redGem:0, Pierre précieuse rouge
-erebus:redGem:1, Lampe rouge
-erebus:amber:0, Ambre
-erebus:amber:1, Verre d'ambre
-erebus:amber:2, Briques d'ambre
-erebus:quickSand, Sable mouvant
-erebus:ghostSand, Sable fantôme
-erebus:umberstoneButton, Bouton de pierre d'ombre
-erebus:volcanicRock, Roche volcanic
-erebus:swampVent, Orifice d'aération des marais
-erebus:umberGravel, Umberpebbles
-erebus:oreCoal, Minerai de charbon
-erebus:oreIron, Minerai de fer
-erebus:oreGold, Minerai d'or
-erebus:oreLapis, Minerai de lapis
-erebus:oreDiamond, Minerai de diamant
-erebus:oreEmerald, Minerai de émeraude
-erebus:oreJade, Minerai de jade
-erebus:oreEncrustedDiamond, Minerai de diamant volcanique
-erebus:orePetrifiedWood, Minerai de bois pétrifié
-erebus:oreFossil, Minerai de fossile
-erebus:oreGneiss, Minerai de gneiss
-erebus:oreQuartz, Quartz Ore
-erebus:oreAluminium, Minerai d'aluminium
-erebus:oreCopper, Minerai de cuivre
-erebus:oreLead, Minerai de plomb
-erebus:oreSilver, Minerai d'argent
-erebus:oreTin, Minerai d'étain
-erebus:planks:0, Baobab Planks
-erebus:planks:1, Eucalyptus Planks
-erebus:planks:2, Mahogany Planks
-erebus:planks:3, Mossbark Planks
-erebus:planks:4, Asper Planks
-erebus:planks:5, Cypress Planks
-erebus:planks:6, Balsam Planks
-erebus:planks:7, White Planks
-erebus:planks:8, Bamboo Planks
-erebus:planks:9, Planches pourries
-erebus:planks:10, Marshwood Planks
-erebus:log_hollow_acacia, Rondin d'ccacia creux
-erebus:flower:0, Black Petal Block
-erebus:flower:1, Red Petal Block
-erebus:flower:2, Brown Petal Block
-erebus:flower:3, Blue Petal Block
-erebus:flower:4, Purple Petal Block
-erebus:flower:5, Cyan Petal Block
-erebus:flower:6, Light Gray Petal Block
-erebus:flower:7, Gray Petal Block
-erebus:flower:8, Pink Petal Block
-erebus:flower:9, Yellow Petal Block
-erebus:flower:10, Light Blue Petal Block
-erebus:flower:11, Magenta Petal Block
-erebus:flower:12, Orange Petal Block
-erebus:flower:13, White Petal Block
-erebus:flower:14, Exploding Stigma
-erebus:flower:15, Stem
-erebus:stigma:0, Black Stigma
-erebus:stigma:1, Red Stigma
-erebus:stigma:2, Brown Stigma
-erebus:stigma:3, Blue Stigma
-erebus:stigma:4, Purple Stigma
-erebus:stigma:5, Cyan Stigma
-erebus:stigma:6, Light Gray Stigma
-erebus:stigma:7, Gray Stigma
-erebus:stigma:8, Pink Stigma
-erebus:stigma:9, Yellow Stigma
-erebus:stigma:10, Light Blue Stigma
-erebus:stigma:11, Magenta Stigma
-erebus:stigma:12, Orange Stigma
-erebus:stigma:13, White Stigma
-erebus:log_scorched, Bois roussi
-erebus:planks_scorched, Planches roussies
-erebus:planks_varnished, Planches vernies
-erebus:saplessLog, Rondin desséché
-erebus:sundew, Rossolis
-erebus:weepingBlue, Bleu larmoyant
-erebus:bullrush, Quenouille
-erebus:droughtedShrub, Arbuste de sécheresse
-erebus:tangledStalk, Champignon embouillé sur tige
-erebus:highCapped, Champignon surélevé
-erebus:waterFlower, Tall Bloom
-erebus:fiddlehead, Tête de violon
-erebus:fern, Fougère
-erebus:fireBloom, Fleur de feu
-erebus:swampPlant, plante de marais
-erebus:nettleFlowered, Floraison d'Ortie
-erebus:nettle, Ortie
-erebus:desertShrub, Buisson du désert  
-erebus:bulbCappedShroom, Champignon Bulb Capped
-erebus:kaizerfinger, Champignon Kaizer's Fingers 
-erebus:bundleshroom, Champignon Sarcastic Czech 
-erebus:greenMushroom, Champignon Grandma's Shoes 
-erebus:dutchCap, Champignon Dutch Cap 
-erebus:thorns, Épines
-erebus:turnipsCrop, Navets
-erebus:hanger, Parasite
-erebus:wallPlants:0, Mousse
-erebus:wallPlants:1, Moisissure
-erebus:wallPlantsCultivated:0, Cultivated Moss
-erebus:wallPlantsCultivated:1, Cultivated Mould
-erebus:mushroomCap0, Champignon Bulb Capped 
-erebus:mushroomCap1, Champignon Grandma's Shoes 
-erebus:mushroomCap2, Champignon Sarcastic Czech 
-erebus:mushroomCap3, Champignon Kaizer's Fingers 
-erebus:mushroomCap4, Champignon Dutch Cap 
-erebus:glowshroom, Champilumineux
-erebus:glowshroomStalk, Tige de champilumineux
-erebus:glowshroomStalkDown1, Glowshroom Stalk
-erebus:glowshroomStalkDown2, Glowshroom Stalk
-erebus:glowshroomStalkDown3, Glowshroom Stalk
-erebus:glowshroomStalkN1, Glowshroom Stalk
-erebus:glowshroomStalkS1, Glowshroom Stalk
-erebus:glowshroomStalkNS2, Glowshroom Stalk
-erebus:glowshroomStalkW1, Glowshroom Stalk
-erebus:glowshroomStalkE1, Glowshroom Stalk
-erebus:glowshroomStalkWE2, Glowshroom Stalk
-erebus:glowshroomStalkN3, Glowshroom Stalk
-erebus:glowshroomStalkS3, Glowshroom Stalk
-erebus:glowshroomStalkW3, Glowshroom Stalk
-erebus:glowshroomStalkE3, Glowshroom Stalk
-erebus:flowerPlanted:0, Black Flower
-erebus:flowerPlanted:1, Red Flower
-erebus:flowerPlanted:2, Brown Flower
-erebus:flowerPlanted:3, Blue Flower
-erebus:flowerPlanted:4, Purple Flower
-erebus:flowerPlanted:5, Cyan Flower
-erebus:flowerPlanted:6, Light Gray Flower
-erebus:flowerPlanted:7, Gray Flower
-erebus:flowerPlanted:8, Pink Flower
-erebus:flowerPlanted:9, Yellow Flower
-erebus:flowerPlanted:10, Light Blue Flower
-erebus:flowerPlanted:11, Magenta Flower
-erebus:flowerPlanted:12, Orange Flower
-erebus:flowerPlanted:13, White Flower
-erebus:flowerPlanted:14, White Flower
-erebus:jadeBerryBush, Buisson de Jadeberry
-erebus:heartBerryBush, Buisson de Heartberry 
-erebus:swampBerryBush, Buisson de Swampberry 
-erebus:mireCoral, Corail de fange
-erebus:algae, Swamp Algae
-erebus:cabbageCrop, Chou
-erebus:giantLilyPad, Giant Lily Pad
-erebus:pricklyPair, Prickly Pair Cactus
-erebus:blockSilk, Soie
-erebus:mirbrick, Brique de mir
-erebus:petrifiedWoodPlanks, Planches de bois pétrifié
-erebus:petrifiedCraftingTable, Atelier pétrifié
-erebus:bambooCrate, Caisse en bambou
-erebus:umberFurnace, Four d'ombre
-erebus:umberPaver:0, Paveur d'ombre
-erebus:umberPaver:1, Paveur d'ombre moussu
-erebus:umberPaver:2, Paveur d'ombre entoilé
-erebus:insectRepellent, Bloc anti-insecte
-erebus:bambooShoot, tile.erebus.bambooShoot.name
-erebus:bambooCrop, Bloc de bambou
-erebus:bambooTorch, Torche en bambou
-erebus:glowingJar, Pot lumineux
-erebus:reinExo, Bloc d'exosquelette renforcé
-erebus:bambooLadder, Échelle de bambou
-erebus:bambooBridge, Pont en bambou
-erebus:umberGolemStatue, Statue de golem d'ombre
-erebus:petrifiedWoodChest, Coffre de bois pétrifié
-erebus:blockBones, Bloc d'os
-erebus:witherWeb, Toile fanée
-erebus:extenderThingy, Rallonge de bambou
-erebus:bambooPole, Nerdpole en bambou
-erebus:umberstonePillar, Pilier de pierre d'ombre
-erebus:honeyCombBlock, Alvéole de miel
-erebus:honeyBlock, Honey
-erebus:honeyTreat, Plaisir de miel
-erebus:mud, Boue
-erebus:mudBricks, Briques de boue
-erebus:jarOHoney, Pot d'miel
-erebus:blockJade, Bloc de jade
-erebus:glowGemBlock, Gemme lumineuse
-erebus:mucusBomb, Bombe de mucus 
-erebus:siloSupports, Supports de silo 
-erebus:siloTank, Réservoir de silo
-erebus:siloRoof, Sommet de silo
-erebus:composter, Composteur
-erebus:formicAcid, Formic Acid
-erebus:dooramber, Porte en ambre
-erebus:doorbaobab, Porte en baobab
-erebus:dooreucalyptus, Porte en eucalyptus 
-erebus:doormahogany, Porte en mahogany 
-erebus:doormossbark, Porte d'écorce moussue
-erebus:doorasper, Porte en asper
-erebus:doorcypress, Porte de cyprès
-erebus:doorrotten, Porte en bois pourrie
-erebus:doorpetrified, Porte en bois pétrifiée
-erebus:doorscorched, Porte roussie
-erebus:doormarshwood, Porte en bois de marais
-erebus:velocityBlock, Bloc de vitesse
-erebus:lightningSpeedBlock, Bloc de vitesse foudroyante
-erebus:altarBase, Base de l'autel
-erebus:altarLightning, Autel de foudre
-erebus:altarHealing, Autel de la santé
-erebus:altarXP, Autel d'expérience
-erebus:altarRepair, Autel de réparation
-erebus:offeringAltar, Autel d'offrande
-erebus:spiderSpawner, Spawner d'araignée
-erebus:jumpingSpiderSpawner, Spawner d'agaignée bondissante
-erebus:tarantulaSpawner, Tarantula Spawner
-erebus:waspSpawner, Spawner de guêpe
-erebus:antlionSpawner, Antlion Spawner
-erebus:magmaCrawlerSpawner, Magma Crawler Spawner
-erebus:dragonflySpawner, Dragonfly Spawner
-erebus:sldingBlockPuzzle, tile.erebus.sldingBlockPuzzle.name
-erebus:completedPuzzle, tile.erebus.completedPuzzle.name
-erebus:forceLock, Force Lock
-erebus:zombieAntSpawner, Zombie Ant Spawner
-erebus:zombieAntSoldierSpawner, Zombie Ant Soldier Spawner
-erebus:capstone, Pyramid Capstone
-erebus:waspNestBlock, Bloc de nid de guêpe
-erebus:gneiss:0, Gneiss
-erebus:gneiss:1, Hiéroglyphe en gneiss
-erebus:gneiss:2, Gneiss feuilleté
-erebus:gneiss:3, Dalles en neiss
-erebus:gneiss:4, Gneiss lisse
-erebus:gneiss:5, Tuiles en gneiss
-erebus:templeBrick, Brique de temple 
-erebus:templePillar, Pillier de temple 
-erebus:templeTile, Tuile de temple 
-erebus:gneissVent, Orifice d'aération de gneiss
-erebus:templeBrickUnbreaking, Brique incassable de temple
-erebus:templeTeleporter, Temple Teleport Pad
-erebus:forceField, Force Field
-erebus:anthillBlock, Anthill Block
-erebus:soldierAntTrap, Anthill Soldier Ant Trap
-erebus:puffShroom, Anthill Puff-Shroom
-erebus:umbercobbleStairs0, Escaliers de pierre d'ombre
-erebus:umbercobbleStairs1, Escaliers de pavés d'ombre
-erebus:umbercobbleStairs2, Escaliers de pavés d'ombre moussus
-erebus:umbercobbleStairs3, Escaliers de pavés d'ombre entoillés
-erebus:umbercobbleStairs4, Escaliers de briques d'ombre
-erebus:umbercobbleStairs5, Escaliers de tuile d'ombre lisse
-erebus:umbercobbleStairs6, Escaliers de tuiles d'ombre lisses
-erebus:slab-umberstone0:0, Umberstone Slab
-erebus:slab-umberstone1:0, Umbercobble Slab
-erebus:slab-umberstone2:0, Mossy Umbercobble Slab
-erebus:slab-umberstone3:0, Webbed Umbercobble Slab
-erebus:slab-umberstone4:0, Umberstone Bricks Slab
-erebus:slab-umberPaver0:0, Umberpaver Slab
-erebus:slab-umberPaver1:0, Mossy Umberpaver Slab
-erebus:slab-petrifiedWoodPlanks0:0, Petrified Wood Slab
-erebus:gneissStairs0, Escalliers de gneiss
-erebus:gneissStairs1, Escalliers d'hiéroglyphe en gneiss
-erebus:gneissStairs2, Escaliers de gneiss feuilleté 
-erebus:gneissStairs3, Escalliers de dalles de gneiss
-erebus:gneissStairs4, Escalliers de gneiss lisses
-erebus:gneissStairs5, Escalliers de tuile de gneiss
-erebus:wallErebus:0, Mur de pierre d'ombre
-erebus:wallErebus:1, Mur de pavés d'ombre
-erebus:wallErebus:2, Mur de pavés d'ombre moussu
-erebus:wallErebus:3, Mur de pavés d'ombre entoillé
-erebus:wallErebus:4, Mur de briques d'ombre
-erebus:wallErebus:5, Mur de paveur d'ombre
-erebus:wallErebus:6, Mur de paveur d'ombre moussu
-erebus:wallErebus:7, Mur de paveur d'ombre entoillé
-erebus:wallErebus:8, Mur de briques d'ambre
-erebus:petrifiedWoodStairs, Escaliers de bois pétrifié
-erebus:amberBrickStairs, Escaliers de briques d'ambre
-erebus:waspNestStairs, Escaliers nid de guêpe
-erebus:anthillStairs, Anthill Stairs (Unused WIP)
-erebus:smoothieMaker, ErebusCo. Smoothie-matic 2000
-erebus:gaeanKeystone, Clef de pierre de Gaean
-erebus:tarantulaEgg, Oeuf de tarantule
-erebus:antlionEgg, Antlion Egg
-erebus:preservedBlock, Preserved Block
-erebus:armchair, Adventurer's Armchair
-totemic:cedarLog, Red Cedar Log
-totemic:totemBase, Totem Base
-totemic:totemPole, Totem Pole
-totemic:totemSapling, Red Cedar Sapling
-totemic:totemLeaves, Red Cedar Leaves
-totemic:totemTorch, Totem Torch
-totemic:totemDrum, Totemist Drum
-totemic:windChime, Wind Chime
-totemic:redCedarPlank, Red Cedar Plank
-totemic:redCedarStripped, Red Cedar Stripped Log
-totemic:totemicTipi, Tipi
-totemic:dummyTotemicTipi, Tipi
 TravellersGear:armorstand, Porte-Armure
 TwilightForest:tile.TFLog:0, Twilight Oak Wood
 TwilightForest:tile.TFLog:1, Canopy Tree Wood
@@ -4670,18 +4309,6 @@ arsmagica2:vinteumOre:9, Bloc de Chimérite
 arsmagica2:blueOrchid, Cerublossom
 arsmagica2:desertNova, Nova du Désert
 arsmagica2:keystoneChest, Coffre à Cryptolithe
-minecraft:record_13, Disque
-minecraft:record_cat, Disque
-minecraft:record_blocks, Disque
-minecraft:record_chirp, Disque
-minecraft:record_far, Disque
-minecraft:record_mall, Disque
-minecraft:record_mellohi, Disque
-minecraft:record_stal, Disque
-minecraft:record_strad, Disque
-minecraft:record_ward, Disque
-minecraft:record_11, Disque
-minecraft:record_wait, Disque
 arsmagica2:blockLectern, Lettrin
 arsmagica2:manaBattery, Batterie à Mana
 arsmagica2:blockArcaneReconstructor, Reconstructeur Arcanique
@@ -4734,6 +4361,18 @@ arsmagica2:crystalMarker:5, Crystal Bidirectionel Régulé
 arsmagica2:crystalMarker:6, Crystal d'Importation Définie
 arsmagica2:crystalMarker:7, Final Export Crystal
 arsmagica2:crystalMarker:8, Spell Export Crystal
+minecraft:record_13, Disque
+minecraft:record_cat, Disque
+minecraft:record_blocks, Disque
+minecraft:record_chirp, Disque
+minecraft:record_far, Disque
+minecraft:record_mall, Disque
+minecraft:record_mellohi, Disque
+minecraft:record_stal, Disque
+minecraft:record_strad, Disque
+minecraft:record_ward, Disque
+minecraft:record_11, Disque
+minecraft:record_wait, Disque
 arsmagica2:spellBase, item.arsmagica2:spell_base.name
 arsmagica2:itemOre:0, Poudre de Vinteum
 arsmagica2:itemOre:1, Matière Arcanique
@@ -7407,124 +7046,6 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Bone
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Lump of Flesh
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Primordial Fossil
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Planar Gateway
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Baobab Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Eucalyptus Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mahogany Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mossbark Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Asper Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Cypress Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Balsam Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bois pourri
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Marshwood Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre d'ombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pavé d'ombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pavé d'ombre moussu
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pavé d'ombre entoillé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique d'ombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Tuile d'ombre lissée
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Tuiles d'ombre lissées
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre précieuse rouge
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Lampe rouge
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Sable mouvant
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roche volcanic
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Umberpebbles
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de charbon
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de fer
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai d'or
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de lapis
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de diamant
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de émeraude
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de jade
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de diamant volcanique
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de bois pétrifié
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de fossile
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de gneiss
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Quartz Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai d'aluminium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de cuivre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de plomb
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai d'argent
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai d'étain
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Baobab Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Eucalyptus Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mahogany Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mossbark Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Asper Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Cypress Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Balsam Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - White Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bamboo Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Planches pourries
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Marshwood Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Black Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Red Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brown Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Blue Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Purple Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Cyan Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Light Gray Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Gray Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pink Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Yellow Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Light Blue Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Magenta Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Orange Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - White Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Exploding Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Stem
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Black Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Red Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brown Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Blue Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Purple Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Cyan Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Light Gray Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Gray Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pink Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Yellow Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Light Blue Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Magenta Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Orange Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - White Stigma
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bois roussi
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Planches roussies
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Planches vernies
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rondin desséché
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Champignon Bulb Capped
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Champignon Grandma's Shoes
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Champignon Sarcastic Czech
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Champignon Kaizer's Fingers
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Champignon Dutch Cap
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Giant Lily Pad
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Soie
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de mir
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Planches de bois pétrifié
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Atelier pétrifié
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Paveur d'ombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Paveur d'ombre moussu
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Paveur d'ombre entoilé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc d'exosquelette renforcé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de pierre d'ombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Boue
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Briques de boue
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de jade
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bombe de mucus
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de vitesse
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de vitesse foudroyante
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pyramid Capstone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Gneiss
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Hiéroglyphe en gneiss
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Gneiss feuilleté
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalles en neiss
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Gneiss lisse
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Tuiles en gneiss
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de temple
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pillier de temple
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Tuile de temple
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique incassable de temple
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Anthill Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Red Cedar Log
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Red Cedar Plank
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Twilight Oak Wood
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Canopy Tree Wood
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Mangrove Wood
@@ -9709,285 +9230,6 @@ thaumores:shardCluster:2, Raw Water Crystal Cluster
 thaumores:shardCluster:3, Raw Earth Crystal Cluster
 thaumores:shardCluster:4, Raw Order Crystal Cluster
 thaumores:shardCluster:5, Raw Entropy Crystal Cluster
-erebus:wand_of_preservation, Wand of Preservation
-erebus:portalActivator, Bâton de Gaea
-erebus:materials:0, Exoskeleton Plate
-erebus:materials:1, Jade
-erebus:materials:2, Bone Shard
-erebus:materials:3, Bamboo
-erebus:materials:4, Compound Eyes
-erebus:materials:5, Compound Goggle Lens
-erebus:materials:6, Fly Wing
-erebus:materials:7, Petrified Wood
-erebus:materials:8, Bio-Velocity
-erebus:materials:9, Elastic Fibre
-erebus:materials:10, Wasp Sting
-erebus:materials:11, Bamboo Shoot
-erebus:materials:12, Redgem
-erebus:materials:13, Bioluminescence
-erebus:materials:14, Supernatural Velocity
-erebus:materials:15, Altar Fragment
-erebus:materials:16, Reinforced Exoskeleton Plate
-erebus:materials:17, Glider Wing
-erebus:materials:18, Scorpion Pincer
-erebus:materials:19, Camouflage Powder
-erebus:materials:20, Nectar
-erebus:materials:21, Honey Drip
-erebus:materials:22, Poison Gland
-erebus:materials:23, Mud Brick
-erebus:materials:24, Whetstone Powder
-erebus:materials:25, Dragonfly Wing
-erebus:materials:26, Weeping Blue Bell Petal
-erebus:materials:27, Papyrus
-erebus:materials:28, Enhanced Glider Wing
-erebus:materials:29, Repellent
-erebus:materials:30, Mucus Charge
-erebus:materials:31, Nettle Leaves
-erebus:materials:32, Nettle Flowers
-erebus:materials:33, Dark Fruit Seeds
-erebus:materials:34, Moss Ball
-erebus:materials:35, Glowshroom
-erebus:materials:36, Rhino Beetle Plate
-erebus:materials:37, Rhino Beetle Horn
-erebus:materials:38, Ant Pheromones
-erebus:materials:39, Gaean Gem
-erebus:materials:40, Crimson Heart
-erebus:materials:41, Tree Resin
-erebus:materials:42, Amber Star
-erebus:materials:43, Aluminium Ingot
-erebus:materials:44, Copper Ingot
-erebus:materials:45, Lead Ingot
-erebus:materials:46, Silver Ingot
-erebus:materials:47, Tin Ingot
-erebus:materials:48, Gneiss Rock
-erebus:materials:49, Mushroom Hide
-erebus:materials:50, Beetle Riding Kit
-erebus:materials:51, Beetle Amulet
-erebus:materials:52, Umbergolem Torso
-erebus:materials:53, Umbergolem Head
-erebus:materials:54, Umbergolem Claw
-erebus:materials:55, Umbergolem Legs
-erebus:materials:56, Jadeberries
-erebus:materials:57, Bog Maw Root
-erebus:materials:58, Hydrofuge
-erebus:materials:59, Water Repellent
-erebus:materials:60, Empty Smoothie Glass
-erebus:materials:61, Magma Crawler Eye
-erebus:materials:62, Stew Pot
-erebus:materials:63, Un-cooked Titan Stew
-erebus:materials:64, Force Key (Unused WIP)
-erebus:materials:65, Soul Crystal
-erebus:materials:66, Zombie Ant Plate
-erebus:materials:67, Stag Beetle Mandibles
-erebus:materials:68, Terpsishroom
-erebus:food:0, Beetle Larva
-erebus:food:1, Cooked Beetle Larva
-erebus:food:2, Grasshopper Leg
-erebus:food:3, Cooked Grasshopper Leg
-erebus:food:4, Tarantula Leg
-erebus:food:5, Crispy Tarantula Leg
-erebus:food:6, Bamboo Soup
-erebus:food:7, Melonade
-erebus:food:8, Sparkly Melonade
-erebus:food:9, Larvae-on-a-Stick
-erebus:food:10, Honey Sandwich
-erebus:food:11, Dark Fruit
-erebus:food:12, Raw Titan Chop
-erebus:food:13, Cooked Titan Chop
-erebus:food:14, Swampberries
-erebus:food:15, Cabbage
-erebus:food:16, Cooked Titan Stew
-erebus:food:17, Raw Prickly Pair
-erebus:food:18, Cooked Prickly Pair
-erebus:smoothie:0, Green Tea Grasshopper Smoothie
-erebus:smoothie:1, Money Honey Smoothie
-erebus:smoothie:2, Nothing In The Middle Smoothie
-erebus:smoothie:3, Green Giant Smoothie
-erebus:smoothie:4, Seedy Goodness Smoothie
-erebus:smoothie:5, Givin' Me The Blues Smoothie
-erebus:smoothie:6, Hot Hot Baby Smoothie
-erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
-erebus:smoothie:8, Liquid Gold Smoothie
-erebus:smoothie:9, Bryuf's Brew Smoothie
-erebus:heartBerries, Heartberries
-erebus:lifeBlood, Life Blood
-erebus:turnips, Navet
-erebus:sprayCan, Insect Repellent
-erebus:wandOfAnimation, Wand Of Animation
-erebus:hornOfSummoning, Horn of the Swarm
-erebus:nectarCollector, Nectar Collector
-erebus:beeTamingAmulet, Bee Pendant
-erebus:homingBeecon, Homing Beecon
-erebus:homingBeeconAdvanced, Advanced Homing Beecon
-erebus:deathCompass, Block o' Bones Compass
-erebus:cabbageSeeds, Graine de chou
-erebus:idols:0, Mud Scarab Idol
-erebus:idols:1, Iron Scarab Idol
-erebus:idols:2, Gold Scarab Idol
-erebus:idols:3, Jade Scarab Idol
-erebus:idols:4, Spawn Mud Idol Guardian
-erebus:idols:5, Spawn Iron Idol Guardian
-erebus:idols:6, Spawn Gold Idol Guardian
-erebus:idols:7, Spawn Jade Idol Guardian
-erebus:heart_stag_raw, Heart of the Stag
-erebus:heart_stag_cooked, Roasted Heart of the Stag
-erebus:flowerSeeds:0, Black Flower Bulb
-erebus:flowerSeeds:1, Red Flower Bulb
-erebus:flowerSeeds:2, Brown Flower Bulb
-erebus:flowerSeeds:3, Blue Flower Bulb
-erebus:flowerSeeds:4, Purple Flower Bulb
-erebus:flowerSeeds:5, Cyan Flower Bulb
-erebus:flowerSeeds:6, Light Gray Flower Bulb
-erebus:flowerSeeds:7, Gray Flower Bulb
-erebus:flowerSeeds:8, Pink Flower Bulb
-erebus:flowerSeeds:9, Yellow Flower Bulb
-erebus:flowerSeeds:10, Light Blue Flower Bulb
-erebus:flowerSeeds:11, Magenta Flower Bulb
-erebus:flowerSeeds:12, Orange Flower Bulb
-erebus:flowerSeeds:13, White Flower Bulb
-erebus:flowerSeeds:14, Rainbow Flower Bulb
-erebus:whetstone:0, Whetstone
-erebus:whetstone:1, Whetstone
-erebus:whetstone:2, Whetstone
-erebus:whetstone:3, Whetstone
-erebus:whetstone:4, Whetstone
-erebus:whetstone:5, Whetstone
-erebus:encrustedDiamond, Diamant incrusté
-erebus:antTamingAmulet, Ant Medallion
-erebus:compost, Compost
-erebus:planticide, Herbicide
-erebus:door_amber, item.erebus.door_amber.name
-erebus:door_baobab, item.erebus.door_baobab.name
-erebus:door_eucalyptus, item.erebus.door_eucalyptus.name
-erebus:door_mahogany, item.erebus.door_mahogany.name
-erebus:door_mossbark, item.erebus.door_mossbark.name
-erebus:door_asper, item.erebus.door_asper.name
-erebus:door_cypress, item.erebus.door_cypress.name
-erebus:door_rotten, item.erebus.door_rotten.name
-erebus:door_petrified, item.erebus.door_petrified.name
-erebus:door_scorched, item.erebus.door_scorched.name
-erebus:door_marshwood, item.erebus.door_marshwood.name
-erebus:helmetJade, Casque en jade 
-erebus:chestplateJade, Plastron en jade
-erebus:leggingsJade, Jambières en jade
-erebus:bootsJade, Bottes en jade
-erebus:swordJade, Épée en jade
-erebus:pickaxeJade, Pioche en jade
-erebus:axeJade, Hâche en jade
-erebus:shovelJade, Pelle en jade
-erebus:paxelJade, Piobèche en jade
-erebus:hoeJade, Houe en jade
-erebus:helmetExo, Casque exosquelette
-erebus:chestplateExo, Plastron exosquelette
-erebus:leggingsExo, Jambières exosquelette
-erebus:bootsExo, Bottes exosquelette
-erebus:exoHelmetRein, Casque exosquelette renforcé
-erebus:exoChestplateRein, Plastron exosquelette renforcé
-erebus:exoLeggingsRein, Jambières exosquelette renforcé
-erebus:exoBootsRein, Bottes exosquelette renforcé
-erebus:clubBone, Gourdin d'homme des cavernes
-erebus:waspSword, Wasp Sword
-erebus:maxSpeedBow, Arc rapide
-erebus:waspDagger, Wasp Dagger
-erebus:scorpionPincer, Augmented Scorpion Pincer
-erebus:webSlinger, Web Slinger
-erebus:witherWebSlinger, Wither Web Slinger
-erebus:blockExtractor, Block Extractor
-erebus:woodlouseBall, Woodlouse Ball
-erebus:rolledNewspaper, Rolled Up Newspaper
-erebus:warHammer, Quake Hammer
-erebus:reinCompoundGoggles, Lunettes composées renforcées
-erebus:compoundGoggles, Lunettes composées
-erebus:sprintLeggings, Janbières de sprint
-erebus:jumpBoots, Bottes de saut
-erebus:armorGlider, Plaston à planeur
-erebus:armorGliderPowered, Plaston à planeur alimenté
-erebus:mushroomHelm, Gouvernail de bouillie
-erebus:spiderTShirt, Trophée du boss tarentule
-erebus:waterStriders, Araignées d'eau
-erebus:rhinoHelmet, Rhino Plate Helmet
-erebus:rhinoChestplate, Rhino Plate Chestplate
-erebus:rhinoLeggings, Rhino Plate Leggings
-erebus:rhinoBoots, Rhino Plate Boots
-erebus:monsterPlacer:0, Spawn Beetle Larva
-erebus:monsterPlacer:1, Spawn Wasp
-erebus:monsterPlacer:2, Spawn Centipede
-erebus:monsterPlacer:3, Spawn Beetle
-erebus:monsterPlacer:4, Spawn Fly
-erebus:monsterPlacer:5, Spawn Mosquito
-erebus:monsterPlacer:6, Spawn Tarantula
-erebus:monsterPlacer:7, Spawn Bot Fly
-erebus:monsterPlacer:8, Spawn Scorpion
-erebus:monsterPlacer:9, Spawn Solifuge
-erebus:monsterPlacer:10, Spawn Grasshopper
-erebus:monsterPlacer:11, Spawn Locust
-erebus:monsterPlacer:12, Spawn Moth
-erebus:monsterPlacer:13, Spawn Rhinoceros Beetle
-erebus:monsterPlacer:14, Spawn Antlion
-erebus:monsterPlacer:15, Spawn Black Widow
-erebus:monsterPlacer:16, Spawn Glowworm
-erebus:monsterPlacer:17, Spawn Bombardier Beetle
-erebus:monsterPlacer:18, Spawn Scytodes
-erebus:monsterPlacer:19, Spawn Money Spider
-erebus:monsterPlacer:20, Spawn Praying Mantis
-erebus:monsterPlacer:21, Spawn Jumping Spider
-erebus:monsterPlacer:22, Spawn Fire Ant
-erebus:monsterPlacer:23, Spawn Worker Bee
-erebus:monsterPlacer:24, Spawn Velvet Worm
-erebus:monsterPlacer:25, Spawn Dragonfly
-erebus:monsterPlacer:26, Spawn Blood Snail
-erebus:monsterPlacer:27, Spawn Titan Beetle
-erebus:monsterPlacer:29, Spawn Crushling
-erebus:monsterPlacer:30, Spawn Crop Weevil
-erebus:monsterPlacer:31, Spawn Woodlouse
-erebus:monsterPlacer:32, Spawn Cicada
-erebus:monsterPlacer:33, Spawn Fire Ant Soldier
-erebus:monsterPlacer:34, Spawn Lava Web Spider
-erebus:monsterPlacer:35, Spawn Antlion Mini Boss
-erebus:monsterPlacer:36, Spawn Chameleon Tick
-erebus:monsterPlacer:38, Spawn Midge Swarm
-erebus:monsterPlacer:39, Spawn Punchroom
-erebus:monsterPlacer:40, Spawn Crushroom
-erebus:monsterPlacer:41, Spawn Black Ant
-erebus:monsterPlacer:42, Spawn Zombie Ant
-erebus:monsterPlacer:43, Spawn Tarantula Brood Mother
-erebus:monsterPlacer:44, Spawn Tarantula Baby
-erebus:monsterPlacer:45, Spawn Pond Skater
-erebus:monsterPlacer:46, Spawn Leech
-erebus:monsterPlacer:47, Spawn Snapper
-erebus:monsterPlacer:48, Spawn Swamp Wisp
-erebus:monsterPlacer:49, Spawn Magma Crawler
-erebus:monsterPlacer:57, Spawn Antlion Overlord
-erebus:monsterPlacer:58, Spawn Honey Pot Ant
-erebus:monsterPlacer:59, Spawn Bombardier Beetle Larva
-erebus:monsterPlacer:60, Spawn Zombie Ant Soldier
-erebus:monsterPlacer:62, Spawn Stag Beetle
-erebus:bambucket, Bambucket
-erebus:bambucketWater, Water Bambucket
-erebus:bambucketHoney, Honey Bambucket
-erebus:bambucketBeetleJuice:0, Beetle Juice Bambucket
-erebus:bambucketAntiVenom:0, Anti-Venom Bambucket
-erebus:bambucketMilk:0, Milk Bambucket
-erebus:bambucketFormicAcid, Formic Acid Bambucket (Unused WIP)
-erebus:bucketAntiVenom, Anti-Venom Bucket
-erebus:bucketBeetleJuice, Beetle Juice Bucket
-erebus:bucketHoney, Bucket Of Honey
-erebus:bucketFormicAcid, Formic Acid Bucket (Unused WIP)
-erebus:bottleAntiVenom, Anti-Venom Bottle
-totemic:totemWhittlingKnife, Totem Whittling Knife
-totemic:totemicStaff, Totemic Staff
-totemic:subItems:0, Iron Nugget
-totemic:subItems:1, Iron Bells
-totemic:jingleDress, Jingle Dress
-totemic:barkStripper, Bark Stripper
-totemic:buffaloItems:0, Buffalo Hide
-totemic:buffaloItems:1, Buffalo Teeth
-totemic:buffaloMeat, Raw Buffalo Meat
-totemic:buffaloCookedMeat, Cooked Buffalo Meat
-totemic:ceremonialRattle, Rattle
-totemic:totempedia, Totempedia
-totemic:flute, Flute
-totemic:tipiItem, Tipi
 TravellersGear:simpleGear:0, Cape
 TravellersGear:simpleGear:1, Ceinture
 TravellersGear:simpleGear:2, Anneau d'Or
@@ -10453,9 +9695,6 @@ WitchingGadgets:item.WG_PrimordialHelm, Primordial Helm
 WitchingGadgets:item.WG_PrimordialChest, Primordial Cuirass
 WitchingGadgets:item.WG_PrimordialLegs, Primordial Greaves
 WitchingGadgets:item.WG_PrimordialBoots, Primordial Boots
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule

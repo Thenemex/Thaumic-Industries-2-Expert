@@ -10,12 +10,17 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Thaumic World 2.0.6r",
+  "name": "TCIe 2.1",
   "author": "",
   "files": [
     {
       "projectID": 285063,
       "fileID": 2518745,
+      "required": true
+    },
+    {
+      "projectID": 300550,
+      "fileID": 2716182,
       "required": true
     },
     {
@@ -145,7 +150,7 @@
     },
     {
       "projectID": 665627,
-      "fileID": 3970252,
+      "fileID": 4296124,
       "required": true
     },
     {
@@ -171,11 +176,6 @@
     {
       "projectID": 227870,
       "fileID": 2230497,
-      "required": true
-    },
-    {
-      "projectID": 237541,
-      "fileID": 2273691,
       "required": true
     },
     {
@@ -225,7 +225,7 @@
     },
     {
       "projectID": 278494,
-      "fileID": 3557116,
+      "fileID": 4054718,
       "required": true
     },
     {
@@ -264,18 +264,8 @@
       "required": true
     },
     {
-      "projectID": 32274,
-      "fileID": 2367915,
-      "required": true
-    },
-    {
       "projectID": 221389,
       "fileID": 2204696,
-      "required": true
-    },
-    {
-      "projectID": 220698,
-      "fileID": 2305035,
       "required": true
     },
     {
@@ -394,6 +384,11 @@
       "required": true
     },
     {
+      "projectID": 32274,
+      "fileID": 2367916,
+      "required": true
+    },
+    {
       "projectID": 251561,
       "fileID": 2623451,
       "required": true
@@ -406,11 +401,6 @@
     {
       "projectID": 65764,
       "fileID": 2468320,
-      "required": true
-    },
-    {
-      "projectID": 233180,
-      "fileID": 2297853,
       "required": true
     },
     {
@@ -440,7 +430,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 3826275,
+      "fileID": 4120055,
       "required": true
     },
     {
@@ -640,7 +630,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 3981320,
+      "fileID": 4076976,
       "required": true
     },
     {
