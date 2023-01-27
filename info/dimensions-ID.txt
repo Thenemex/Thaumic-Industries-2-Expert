@@ -1,0 +1,51 @@
+Vanilla :
+-------------------------------
+-1  Nether
+0   Overworld
+1   End
+
+Aether II :
+-------------------------------
+    I:"Aether Dimension ID"=3
+    I:"Dungeon Dimension ID"=4
+
+AbyssalCraft:
+-------------------------------
+    I:Omothol=52
+    I:"The Abyssal Wasteland"=50
+    I:"The Dark Realm"=53
+    I:"The Dreadlands"=51
+
+EssentialCraft :
+-------------------------------
+    I:"Hoanna ID"=63
+
+Gadomancy :
+-------------------------------
+    I:dimOuterId=-73
+
+Sanguimancy :
+-------------------------------
+    I:soulNetworkDimensionID=42
+
+Thaumcraft :
+-------------------------------
+    I:outer_lands_dim=-42
+
+Thaumic Horizons :
+-------------------------------
+    I:pocket_plane_dim=69
+
+Thaumic Tinkerer :
+-------------------------------
+        I:"Bedrock dimension id"=-19
+
+Twilight Forest :
+-------------------------------
+    I:dimensionID=-50
+    I:dimensionProviderID=-777
+
+Witchery :
+-------------------------------
+    I:MirrorDimensionID=-39
+    I:TormentDimensionID=-38
