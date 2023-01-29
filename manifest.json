@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "TCIe 2.1",
+  "name": "TCIe 2.2",
   "author": "",
   "files": [
     {
@@ -31,11 +31,6 @@
     {
       "projectID": 238003,
       "fileID": 2286894,
-      "required": true
-    },
-    {
-      "projectID": 77191,
-      "fileID": 2221721,
       "required": true
     },
     {
@@ -104,6 +99,11 @@
       "required": true
     },
     {
+      "projectID": 244509,
+      "fileID": 2296740,
+      "required": true
+    },
+    {
       "projectID": 225251,
       "fileID": 2282522,
       "required": true
@@ -124,8 +124,8 @@
       "required": true
     },
     {
-      "projectID": 228990,
-      "fileID": 2232356,
+      "projectID": 309110,
+      "fileID": 2655844,
       "required": true
     },
     {
@@ -199,6 +199,11 @@
       "required": true
     },
     {
+      "projectID": 224614,
+      "fileID": 2276280,
+      "required": true
+    },
+    {
       "projectID": 233785,
       "fileID": 2519595,
       "required": true
@@ -226,11 +231,6 @@
     {
       "projectID": 278494,
       "fileID": 4054718,
-      "required": true
-    },
-    {
-      "projectID": 234851,
-      "fileID": 2363530,
       "required": true
     },
     {
@@ -366,11 +366,6 @@
     {
       "projectID": 227639,
       "fileID": 3039937,
-      "required": true
-    },
-    {
-      "projectID": 53686,
-      "fileID": 2311135,
       "required": true
     },
     {
@@ -649,11 +644,6 @@
       "required": true
     },
     {
-      "projectID": 67313,
-      "fileID": 2280862,
-      "required": true
-    },
-    {
       "projectID": 60089,
       "fileID": 2209265,
       "required": true
@@ -671,6 +661,11 @@
     {
       "projectID": 238061,
       "fileID": 2273402,
+      "required": true
+    },
+    {
+      "projectID": 285789,
+      "fileID": 2531565,
       "required": true
     },
     {

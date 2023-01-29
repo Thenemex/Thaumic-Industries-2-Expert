@@ -250,11 +250,18 @@ minecraft:log2:0, Bois d'acacia
 minecraft:log2:1, Bois de chêne noir
 minecraft:acacia_stairs, Escaliers en bois d'acacia
 minecraft:dark_oak_stairs, Escaliers en bois de chêne noir
-abyssalcraft:darkstone, Pierre Sombre
-abyssalcraft:darkstone_cobble, Roche Sombre
-abyssalcraft:darkstone_brick, Briques de Pierre Sombre
-abyssalcraft:dsglow, Brique de Pierres Sombre brillantes
-abyssalcraft:darkbrickslab1:0, Dalle de Brique de Pierre Sombre
+Thaumcraft:blockFluxGoo:0, Flux boueux
+Thaumcraft:blockFluxGas:0, Flux gazeux
+Thaumcraft:blockFluidPure, Fluide purifiant
+Thaumcraft:blockFluidDeath, Mort liquide
+Thaumcraft:blockCustomOre:0, Minerai de cinabre
+Thaumcraft:blockCustomOre:1, Roche infusée d'air
+Thaumcraft:blockCustomOre:2, Roche Infusée de feu
+Thaumcraft:blockCustomOre:3, Roche Infusée d'eau
+Thaumcraft:blockCustomOre:4, Roche Infusée de terre
+Thaumcraft:blockCustomOre:5, Roche Infusée d'ordre
+Thaumcraft:blockCustomOre:6, Roche Infusée d'entropie
+Thaumcraft:blockCustomOre:7, Ambre brute
 minecraft:hay_block, Bloc de paille
 minecraft:carpet:0, Tapis blanc
 minecraft:carpet:1, Tapis orange
@@ -281,532 +288,6 @@ minecraft:double_plant:2, Très hautes herbes
 minecraft:double_plant:3, Grande fougère
 minecraft:double_plant:4, Rosier
 minecraft:double_plant:5, Pivoine
-abyssalcraft:darkbrickslab2:0, Dalle de Brique de Pierre Sombre
-abyssalcraft:darkcobblelsab1:0, Dalle de Roche Sombre
-abyssalcraft:darkcobblelsab2:0, Dalle de Roche Sombre
-abyssalcraft:darkgrass, Herbe des Terres Sombres
-abyssalcraft:dbstairs, Escaliers de Brique de Pierre Sombre
-abyssalcraft:dcstairs, Escaliers de Brique de Roche Sombre
-abyssalcraft:dltleaves, Feuilles de Chêne des Terres Sombres
-abyssalcraft:dltlog, Bois de Chêne des Terres Sombres
-abyssalcraft:dltsapling, Pousse de Chêne des Terres Sombres
-abyssalcraft:abystone, Pierre Abyssale
-abyssalcraft:abybrick, Briques de Pierre Abyssale
-abyssalcraft:abyslab1:0, §9Dalle de Brique de Pierre Abyssale
-abyssalcraft:abyslab2:0, §9Double-Dalle de Brique de Pierre Abyssale
-abyssalcraft:abystairs, Escaliers de Brique de Pierre Abyssale
-abyssalcraft:coraliumore, Minerai de Coralium
-abyssalcraft:abyore, Minerai d'Abyssalnite
-abyssalcraft:abyfence, Barrière de Brique de Pierre Abyssale
-abyssalcraft:dscwall, Mur de Roche de Pierre Sombre
-abyssalcraft:odb, Bombe de la Mort d'Oblivion
-abyssalcraft:abyblock, Bloc d'Abyssalnite
-abyssalcraft:coraliumstone, Coralium Infusé de Pierre
-abyssalcraft:odbcore, Coeur de l'ODB
-abyssalcraft:Crate, Caisse de Bois
-abyssalcraft:portal, Porte Abyssale
-abyssalcraft:darkstoneslab1:0, Dalle de Pierre Sombre
-abyssalcraft:darkstoneslab2:0, Dalle de Pierre Sombre
-abyssalcraft:coraliumfire, Feu de Coralium
-abyssalcraft:dsbutton, Bouton de Pierre Sombre
-abyssalcraft:dspplate, Plaque de Pression de Pierre Sombre
-abyssalcraft:dltplank, Planche de Bois de Chêne des Terres Sombres
-abyssalcraft:dltbutton, Boutton de Bois de Chêne des Terres Sombres
-abyssalcraft:dltpplate, Plaque de Pression de Bois de Chêne des Terres Sombres
-abyssalcraft:dltstairs, Escaliers de Bois de Chêne des Terres Sombres
-abyssalcraft:dltslab1:0, Dalle de Bois de Chêne des Terres Sombres
-abyssalcraft:dltslab2:0, Dalle de Bois de Chêne des Terres Sombres
-abyssalcraft:cwater, Liquide de Coralium
-abyssalcraft:corblock, Bloc de Coralium Raffiné
-abyssalcraft:psdl, Pierre de Puissance Infusée par les Terres de L'Effroi
-abyssalcraft:abycorore, Minerai de Coralium Abyssal
-abyssalcraft:altar, Altar
-abyssalcraft:abybutton, Boutton de Pierre Abyssale
-abyssalcraft:abypplate, Plaque de Pression de Pierre Abyssale
-abyssalcraft:dsbfence, Barrière de Brique de Pierre Sombre
-abyssalcraft:dltfence, Barrière de Bois de Chêne des Terres Sombres
-abyssalcraft:dreadstone, Pierre Redouté
-abyssalcraft:abydreadstone, Roche d'Abyssalnite
-abyssalcraft:abydreadore, Minerai d'Abyssalnite des Terres de L'Effroi
-abyssalcraft:dreadore, Minerai d'Abyssalnite Redouté
-abyssalcraft:dreadbrick, Briques de Pierre Redouté
-abyssalcraft:abydreadbrick, Briques de Pierre d'Abyssalnite
-abyssalcraft:dreadgrass, Pierre des Terres de l'Effroi
-abyssalcraft:dreadlog, Bûche de Bois des Terres de l'Effroi
-abyssalcraft:dreadleaves, Feuille de Bois des Terres de l'Effroi
-abyssalcraft:dreadsapling, Pousse de Bois des Terres de l'Effroi
-abyssalcraft:dreadplanks, Planches de Bois des Terres de l'Effroi
-abyssalcraft:dreadportal, Porte des Terres de l'Effroi
-abyssalcraft:dreadfire, Feu Redouté
-abyssalcraft:dghead, Tête de Goule des Profondeurs
-abyssalcraft:phead, Tête de Pete
-abyssalcraft:whead, Tête de Mr. Wilson
-abyssalcraft:ohead, Tête de Dr. Orange
-abyssalcraft:dreadbrickstairs, Escaliers de Brique de Pierre Redouté
-abyssalcraft:dreadbrickfence, Barrière de Brique de Pierre Redouté
-abyssalcraft:dreadbrickslab1:0, Dalle de Brique de Pierre Redouté
-abyssalcraft:dreadbrickslab2:0, Dalle de Brique de Pierre Redouté
-abyssalcraft:abydreadbrickstairs, Escaliers de Brique de Pierre d'Abyssalnite
-abyssalcraft:abydreadbrickfence, Barrière de Brique de Pierre d'Abyssalnite
-abyssalcraft:abydreadbrick1:0, Dalle de Brique de Pierre d'Abyssalnite
-abyssalcraft:abydreadbrick2:0, Dalle de Brique de Pierre d'Abyssalnite
-abyssalcraft:antiwater, Liquide d'AntiMatière
-abyssalcraft:cstone, Pierre de Coralium
-abyssalcraft:cstonebrick, Brique de Coralium
-abyssalcraft:cstonebrickfence, Barrière de Brique de Coralium
-abyssalcraft:cstonebrickslab1:0, Dalle de Brique de Coralium
-abyssalcraft:cstobebrickslab2:0, Dalle de Brique de Coralium
-abyssalcraft:cstonebrickstairs, Escaliers de Brique de Coraliu
-abyssalcraft:cstonebutton, Bouton de Pierre de Coralium
-abyssalcraft:cstonepplate, Plaque de Pression de Pierre de Coralium
-abyssalcraft:dreadaltartop, Altar of Cha'garoth (top)
-abyssalcraft:dreadaltarbottom, Altar of Cha'garoth (bottom)
-minecraft:iron_shovel, Pelle en fer
-minecraft:iron_pickaxe, Pioche en fer
-minecraft:iron_axe, Hache en fer
-minecraft:flint_and_steel, Briquet
-minecraft:apple, Pomme
-minecraft:bow, Arc
-minecraft:arrow, Flèche
-minecraft:coal:0, Charbon
-minecraft:coal:1, Charbon de bois
-minecraft:diamond, Diamant
-minecraft:iron_ingot, Lingot de fer
-minecraft:gold_ingot, Lingot d'or
-minecraft:iron_sword, Épée en fer
-minecraft:wooden_sword, Épée en bois
-minecraft:wooden_shovel, Pelle en bois
-minecraft:wooden_pickaxe, Pioche en bois
-minecraft:wooden_axe, Hache en bois
-minecraft:stone_sword, Épée en pierre
-minecraft:stone_shovel, Pelle en pierre
-minecraft:stone_pickaxe, Pioche en pierre
-minecraft:stone_axe, Hache en pierre
-minecraft:diamond_sword, Épée en diamant
-minecraft:diamond_shovel, Pelle en diamant
-minecraft:diamond_pickaxe, Pioche en diamant
-minecraft:diamond_axe, Hache en diamant
-minecraft:stick, Bâton
-minecraft:bowl, Bol
-minecraft:mushroom_stew, Soupe de champignons
-minecraft:golden_sword, Épée en or
-minecraft:golden_shovel, Pelle en or
-minecraft:golden_pickaxe, Pioche en or
-minecraft:golden_axe, Hache en or
-minecraft:string, Ficelle
-minecraft:feather, Plume
-minecraft:gunpowder, Poudre à canon
-minecraft:wooden_hoe, Houe en bois
-minecraft:stone_hoe, Houe en pierre
-minecraft:iron_hoe, Houe en fer
-minecraft:diamond_hoe, Houe en diamant
-minecraft:golden_hoe, Houe en or
-minecraft:wheat_seeds, Graines de blé
-minecraft:wheat, Blé
-minecraft:bread, Pain
-minecraft:leather_helmet, Chapeau en cuir
-minecraft:leather_chestplate, Tunique en cuir
-minecraft:leather_leggings, Pantalon en cuir
-minecraft:leather_boots, Bottes en cuir
-minecraft:chainmail_helmet, Casque de mailles
-minecraft:chainmail_chestplate, Cotte de mailles
-minecraft:chainmail_leggings, Jambières de mailles
-minecraft:chainmail_boots, Bottes de mailles
-minecraft:iron_helmet, Casque en fer
-minecraft:iron_chestplate, Plastron en fer
-minecraft:iron_leggings, Jambières en fer
-minecraft:iron_boots, Bottes en fer
-minecraft:diamond_helmet, Casque en diamant
-minecraft:diamond_chestplate, Plastron en diamant
-minecraft:diamond_leggings, Jambières en diamant
-minecraft:diamond_boots, Bottes en diamant
-minecraft:golden_helmet, Casque en or
-minecraft:golden_chestplate, Plastron en or
-minecraft:golden_leggings, Jambières en or
-minecraft:golden_boots, Bottes en or
-minecraft:flint, Silex
-minecraft:porkchop, Côtelette de porc crue
-minecraft:cooked_porkchop, Côtelette de porc cuite
-minecraft:painting, Tableau
-minecraft:golden_apple:0, Pomme dorée
-minecraft:golden_apple:1, Pomme dorée
-minecraft:sign, Pancarte
-minecraft:wooden_door, Porte en bois
-minecraft:bucket, Seau
-minecraft:water_bucket, Seau d'eau
-minecraft:lava_bucket, Seau de lave
-minecraft:minecart, Wagonnet
-minecraft:saddle, Selle
-minecraft:iron_door, Porte en fer
-minecraft:redstone, Redstone
-minecraft:snowball, Boule de neige
-minecraft:boat, Bateau
-minecraft:leather, Cuir
-minecraft:milk_bucket, Seau de lait
-minecraft:brick, Brique
-minecraft:clay_ball, Argile
-minecraft:reeds, Canne à sucre
-minecraft:paper, Papier
-minecraft:book, Livre
-minecraft:slime_ball, Boule de Slime
-minecraft:chest_minecart, Wagonnet de stockage
-minecraft:furnace_minecart, Wagonnet motorisé
-minecraft:egg, Oeuf
-minecraft:compass, Boussole
-minecraft:fishing_rod, Canne à pêche
-minecraft:clock, Montre
-minecraft:glowstone_dust, Poudre de pierre luisante
-minecraft:fish:0, Poisson cru
-minecraft:fish:1, Saumon cru
-minecraft:fish:2, Poisson-clown
-minecraft:fish:3, Poisson-globe
-minecraft:cooked_fished:0, Poisson cuit
-minecraft:cooked_fished:1, Saumon cuit
-minecraft:dye:0, Poche d'encre
-minecraft:dye:1, Rouge de rose
-minecraft:dye:2, Vert de cactus
-minecraft:dye:3, Fèves de cacao
-minecraft:dye:4, Lapis-lazuli
-minecraft:dye:5, Teinture violette
-minecraft:dye:6, Teinture cyan
-minecraft:dye:7, Teinture gris clair
-minecraft:dye:8, Teinture grise
-minecraft:dye:9, Teinture rose
-minecraft:dye:10, Teinture vert clair
-minecraft:dye:11, Jaune pissenlit
-minecraft:dye:12, Teinture bleu clair
-minecraft:dye:13, Teinture magenta
-minecraft:dye:14, Teinture orange
-minecraft:dye:15, Poudre d'os
-minecraft:bone, Os
-minecraft:sugar, Sucre
-minecraft:cake, Gâteau
-minecraft:bed, Lit
-minecraft:repeater, Répéteur
-minecraft:cookie, Cookie
-minecraft:filled_map:0, Carte
-minecraft:shears, Cisailles
-minecraft:melon, Pastèque
-minecraft:pumpkin_seeds, Graines de citrouille
-minecraft:melon_seeds, Graines de pastèque
-minecraft:beef, Boeuf cru
-minecraft:cooked_beef, Steak
-minecraft:chicken, Poulet cru
-minecraft:cooked_chicken, Poulet rôti
-minecraft:rotten_flesh, Chair putréfiée
-minecraft:ender_pearl, Perle du Néant
-minecraft:blaze_rod, Bâton de Blaze
-minecraft:ghast_tear, Larme de Ghast
-minecraft:gold_nugget, Pépite d'or
-minecraft:nether_wart, Verrue du Nether
-minecraft:potion:0, Fiole d'eau
-minecraft:potion:8193, Potion de régénération
-minecraft:potion:8225, Potion de régénération
-minecraft:potion:8257, Potion de régénération
-minecraft:potion:16385, (Jetable) Potion de régénération
-minecraft:potion:16417, (Jetable) Potion de régénération
-minecraft:potion:16449, (Jetable) Potion de régénération
-minecraft:potion:8194, Potion de rapidité
-minecraft:potion:8226, Potion de rapidité
-minecraft:potion:8258, Potion de rapidité
-minecraft:potion:16386, (Jetable) Potion de rapidité
-minecraft:potion:16418, (Jetable) Potion de rapidité
-minecraft:potion:16450, (Jetable) Potion de rapidité
-minecraft:potion:8227, Potion de résistance au feu
-minecraft:potion:8259, Potion de résistance au feu
-minecraft:potion:16419, (Jetable) Potion de résistance au feu
-minecraft:potion:16451, (Jetable) Potion de résistance au feu
-minecraft:potion:8196, Potion de poison
-minecraft:potion:8228, Potion de poison
-minecraft:potion:8260, Potion de poison
-minecraft:potion:16388, (Jetable) Potion de poison
-minecraft:potion:16420, (Jetable) Potion de poison
-minecraft:potion:16452, (Jetable) Potion de poison
-minecraft:potion:8261, Potion de soin
-minecraft:potion:8229, Potion de soin
-minecraft:potion:16453, (Jetable) Potion de soin
-minecraft:potion:16421, (Jetable) Potion de soin
-minecraft:potion:8230, Potion de vision nocturne
-minecraft:potion:8262, Potion de vision nocturne
-minecraft:potion:16422, (Jetable) Potion de vision nocturne
-minecraft:potion:16454, (Jetable) Potion de vision nocturne
-minecraft:potion:8231, Potion de nausée
-minecraft:potion:8263, Potion de nausée
-minecraft:potion:16423, (Jetable) Potion de nausée
-minecraft:potion:16455, (Jetable) Potion de nausée
-minecraft:potion:8232, Potion de faiblesse
-minecraft:potion:8264, Potion de faiblesse
-minecraft:potion:16424, (Jetable) Potion de faiblesse
-minecraft:potion:16456, (Jetable) Potion de faiblesse
-minecraft:potion:8201, Potion de force
-minecraft:potion:8233, Potion de force
-minecraft:potion:8265, Potion de force
-minecraft:potion:16393, (Jetable) Potion de force
-minecraft:potion:16425, (Jetable) Potion de force
-minecraft:potion:16457, (Jetable) Potion de force
-minecraft:potion:8234, Potion de lenteur
-minecraft:potion:8266, Potion de lenteur
-minecraft:potion:16426, (Jetable) Potion de lenteur
-minecraft:potion:16458, (Jetable) Potion de lenteur
-minecraft:potion:8235, Potion de décomposition
-minecraft:potion:8267, Potion de décomposition
-minecraft:potion:16427, (Jetable) Potion de décomposition
-minecraft:potion:16459, (Jetable) Potion de décomposition
-minecraft:potion:8268, Potion de dégâts
-minecraft:potion:8236, Potion de dégâts
-minecraft:potion:16460, (Jetable) Potion de dégâts
-minecraft:potion:16428, (Jetable) Potion de dégâts
-minecraft:potion:8237, Potion de respiration aquatique
-minecraft:potion:8269, Potion de respiration aquatique
-minecraft:potion:16429, (Jetable) Potion de respiration aquatique
-minecraft:potion:16461, (Jetable) Potion de respiration aquatique
-minecraft:potion:8238, Potion d'invisibilité
-minecraft:potion:8270, Potion d'invisibilité
-minecraft:potion:16430, (Jetable) Potion d'invisibilité
-minecraft:potion:16462, (Jetable) Potion d'invisibilité
-minecraft:glass_bottle, Fiole
-minecraft:spider_eye, Oeil d'araignée
-minecraft:fermented_spider_eye, Oeil d'araignée fermenté
-minecraft:blaze_powder, Poudre de Blaze
-minecraft:magma_cream, Crème de magma
-minecraft:brewing_stand, Alambic
-minecraft:cauldron, Chaudron
-minecraft:ender_eye, Oeil du Néant
-minecraft:speckled_melon, Pastèque scintillante
-minecraft:spawn_egg:50, Oeuf de Creeper
-minecraft:spawn_egg:51, Oeuf de Squelette
-minecraft:spawn_egg:52, Oeuf de Araignée
-minecraft:spawn_egg:54, Oeuf de Zombie
-minecraft:spawn_egg:55, Oeuf de Slime
-minecraft:spawn_egg:56, Oeuf de Ghast
-minecraft:spawn_egg:57, Oeuf de Cochon-zombie
-minecraft:spawn_egg:58, Oeuf de Enderman
-minecraft:spawn_egg:59, Oeuf de Araignée venimeuse
-minecraft:spawn_egg:60, Oeuf de Poisson d'argent
-minecraft:spawn_egg:61, Oeuf de Blaze
-minecraft:spawn_egg:62, Oeuf de Cube de magma
-minecraft:spawn_egg:65, Oeuf de Chauve-souris
-minecraft:spawn_egg:66, Oeuf de Sorcière
-minecraft:spawn_egg:90, Oeuf de Cochon
-minecraft:spawn_egg:91, Oeuf de Mouton
-minecraft:spawn_egg:92, Oeuf de Vache
-minecraft:spawn_egg:93, Oeuf de Poule
-minecraft:spawn_egg:94, Oeuf de Poulpe
-minecraft:spawn_egg:95, Oeuf de Loup
-minecraft:spawn_egg:96, Oeuf de Champimeuh
-minecraft:spawn_egg:98, Oeuf de Ocelot
-minecraft:spawn_egg:100, Oeuf de Cheval
-minecraft:spawn_egg:120, Oeuf de Villageois
-minecraft:spawn_egg:301, Oeuf de Goule des Profondeurs
-minecraft:spawn_egg:302, Oeuf de Cochon
-minecraft:spawn_egg:303, Oeuf de Zombie des Abysses
-minecraft:spawn_egg:304, Oeuf de J'zahar, Gardien de la Porte des Abysses
-minecraft:spawn_egg:305, Oeuf de Golem d'Abyssalnite
-minecraft:spawn_egg:306, Oeuf de Golem d'Abyssalnite Redouté
-minecraft:spawn_egg:307, Oeuf de Gardien Redouté
-minecraft:spawn_egg:308, Oeuf de Dragon Spectral
-minecraft:spawn_egg:309, Oeuf de Asorah, Le Déchu
-minecraft:spawn_egg:310, Oeuf de Créature de l'Ombre
-minecraft:spawn_egg:311, Oeuf de Monstre de l'Ombre
-minecraft:spawn_egg:312, Oeuf de Lingue Redouté
-minecraft:spawn_egg:313, Oeuf de Spawn Redouté
-minecraft:spawn_egg:314, Oeuf de Cochon Démon
-minecraft:spawn_egg:315, Oeuf de Skeleton Goliath
-minecraft:spawn_egg:316, Oeuf de Spawn of Cha'garoth
-minecraft:spawn_egg:317, Oeuf de Fist of Cha'garoth
-minecraft:spawn_egg:318, Oeuf de Cha'garoth, The Dreadbeast
-minecraft:spawn_egg:319, Oeuf de Shadow Beast
-minecraft:spawn_egg:320, Oeuf de Sacthoth, Harbinger of Doom
-minecraft:spawn_egg:321, Oeuf de Abyssal Anti-Zombie
-minecraft:spawn_egg:322, Oeuf de Anti-Bat
-minecraft:spawn_egg:323, Oeuf de Anti-Chicken
-minecraft:spawn_egg:324, Oeuf de Anti-Cow
-minecraft:spawn_egg:325, Oeuf de Anti-Creeper
-minecraft:spawn_egg:326, Oeuf de Anti-Ghoul
-minecraft:spawn_egg:327, Oeuf de Anti-Pig
-minecraft:spawn_egg:328, Oeuf de Anti-Player
-minecraft:spawn_egg:329, Oeuf de Anti-Skeleton
-minecraft:spawn_egg:330, Oeuf de Anti-Spider
-minecraft:spawn_egg:331, Oeuf de Anti-Zombie
-minecraft:spawn_egg:332, Oeuf de Remnant
-minecraft:spawn_egg:333, Oeuf de Omothol Ghoul
-minecraft:spawn_egg:334, Oeuf de Minion of The Gatekeeper
-minecraft:spawn_egg:335, Oeuf de Greater Dread Spawn
-minecraft:spawn_egg:336, Oeuf de Lesser Dreadbeast
-minecraft:spawn_egg:337, Oeuf de Lesser Shoggoth
-minecraft:spawn_egg:338, Oeuf de Cow
-minecraft:spawn_egg:339, Oeuf de Chicken
-minecraft:spawn_egg:340, Oeuf de Demon Cow
-minecraft:spawn_egg:341, Oeuf de Demon Chicken
-minecraft:spawn_egg:3, Oeuf de Manaseal Creeper
-minecraft:spawn_egg:4, Oeuf de Enderminus
-minecraft:spawn_egg:5, Oeuf de Creeper à Concussion
-minecraft:spawn_egg:6, Oeuf de Chevalier Déchu
-minecraft:spawn_egg:7, Oeuf de Étalon Déchu
-minecraft:spawn_egg:23, Oeuf de Sorcière du Wither
-minecraft:spawn_egg:24, Oeuf de Chat du Wither
-minecraft:spawn_egg:25, Oeuf de Loup Désespéré
-minecraft:spawn_egg:26, Oeuf de Khndrel Keght
-minecraft:spawn_egg:342, Oeuf de Chicken Minion
-minecraft:spawn_egg:6396, Oeuf de Demon
-minecraft:spawn_egg:6397, Oeuf de Mandrake
-minecraft:spawn_egg:6398, Oeuf de Treefyd
-minecraft:spawn_egg:6399, Oeuf de Horned Huntsman
-minecraft:spawn_egg:6400, Oeuf de Ent
-minecraft:spawn_egg:6401, Oeuf de Owl
-minecraft:spawn_egg:6402, Oeuf de Toad
-minecraft:spawn_egg:6403, Oeuf de Baba Yaga
-minecraft:spawn_egg:6404, Oeuf de Coven Witch
-minecraft:spawn_egg:6405, Oeuf de Nightmare
-minecraft:spawn_egg:6406, Oeuf de Spectre
-minecraft:spawn_egg:6407, Oeuf de Poltergeist
-minecraft:spawn_egg:6408, Oeuf de Banshee
-minecraft:spawn_egg:6409, Oeuf de Spirit
-minecraft:spawn_egg:6410, Oeuf de Death
-minecraft:spawn_egg:6411, Oeuf de Witch Hunter
-minecraft:spawn_egg:6412, Oeuf de Lord of Torment
-minecraft:spawn_egg:6413, Oeuf de Flame Imp
-minecraft:spawn_egg:6414, Oeuf de Minedrake
-minecraft:spawn_egg:6415, Oeuf de Hobgoblin
-minecraft:spawn_egg:6416, Oeuf de Mog
-minecraft:spawn_egg:6417, Oeuf de Gulg
-minecraft:spawn_egg:6418, Oeuf de Shade of Leonard
-minecraft:spawn_egg:6419, Oeuf de Lost Soul
-minecraft:spawn_egg:6420, Oeuf de Werewolf
-minecraft:spawn_egg:6421, Oeuf de Hellhound
-minecraft:spawn_egg:6422, Oeuf de Villager
-minecraft:spawn_egg:6423, Oeuf de Guard
-minecraft:spawn_egg:6424, Oeuf de Vampire
-minecraft:spawn_egg:6425, Oeuf de Lilith
-minecraft:spawn_egg:6426, Oeuf de Winged Monkey
-minecraft:spawn_egg:6427, Oeuf de Reflection
-minecraft:experience_bottle, Fiole d'expérience
-minecraft:fire_charge, Boule de feu
-minecraft:writable_book, Livre et plume
-minecraft:written_book, Livre écrit
-minecraft:emerald, Émeraude
-minecraft:item_frame, Cadre
-minecraft:flower_pot, Pot de fleurs
-minecraft:carrot, Carotte
-minecraft:potato, Pomme de terre
-minecraft:baked_potato, Pomme de terre cuite
-minecraft:poisonous_potato, Pomme de terre empoisonnée
-minecraft:map, Carte vierge
-minecraft:golden_carrot, Carotte dorée
-minecraft:skull:0, Crâne de squelette
-minecraft:skull:1, Crâne de Wither squelette
-minecraft:skull:2, Tête de zombie
-minecraft:skull:3, Tête
-minecraft:skull:4, Tête de Creeper
-minecraft:carrot_on_a_stick, Carotte sur un bâton
-minecraft:nether_star, Étoile du Nether
-minecraft:pumpkin_pie, Tarte à la citrouille
-minecraft:fireworks, Fusée de feu d'artifice
-minecraft:firework_charge, Étoile de feu d'artifice
-minecraft:enchanted_book, Livre enchanté
-minecraft:comparator, Comparateur
-minecraft:netherbrick, Brique du Nether
-minecraft:quartz, Quartz du Nether
-minecraft:tnt_minecart, Wagonnet à TNT
-minecraft:hopper_minecart, Wagonnet à entonnoir
-abyssalcraft:crystallizer, Crystallizer
-abyssalcraft:crystallizer_on, Crystallizer
-abyssalcraft:dreadiumblock, Block of Dreadium
-abyssalcraft:transmutator, Transmutator
-abyssalcraft:transmutator_on, Transmutator
-abyssalcraft:dreadguardspawner, Dreadguard Spawner Block
-abyssalcraft:chagarothspawner, Cha'garoth Spawner Block
-abyssalcraft:drtfence, Dreadlands Wood Fence
-minecraft:iron_horse_armor, Armure pour cheval en fer
-minecraft:golden_horse_armor, Armure pour cheval en or
-minecraft:diamond_horse_armor, Armure pour cheval en diamant
-minecraft:lead, Laisse
-minecraft:name_tag, Étiquette
-minecraft:command_block_minecart, Wagonnet avec bloc de commande
-abyssalcraft:nitreore, Nitre Ore
-abyssalcraft:abyiroore, Abyssal Iron Ore
-abyssalcraft:abygolore, Abyssal Gold Ore
-abyssalcraft:abydiaore, Abyssal Diamond Ore
-abyssalcraft:abynitore, Abyssal Nitre Ore
-abyssalcraft:abytinore, Abyssal Tin Ore
-abyssalcraft:abycopore, Abyssal Copper Ore
-abyssalcraft:abypcorore, Pearlescent Coralium Ore
-abyssalcraft:abylcorore, Liquified Coralium Ore
-abyssalcraft:solidlava, Solid lava
-abyssalcraft:ethaxium, Ethaxium
-abyssalcraft:ethaxiumbrick:0, §bEthaxium Brick
-abyssalcraft:ethaxiumbrick:1, §bChiseled Ethaxium Brick
-abyssalcraft:ethaxiumpillar, Ethaxium Pillar
-abyssalcraft:ethaxiumbrickstairs, Ethaxium Brick Stairs
-abyssalcraft:ethaxiumbrickslab1:0, §bEthaxium Brick Slab
-abyssalcraft:ethaxiumbrickslab2:0, §bEthaxium Brick Doubleslab
-abyssalcraft:ethaxiumfence, Ethaxium Brick Fence
-abyssalcraft:ethaxiumblock, Block of Ethaxium
-abyssalcraft:omotholstone, Omothol Stone
-abyssalcraft:omotholportal, Omothol Gateway
-abyssalcraft:omotholfire, Omothol Fire
-abyssalcraft:engraver, Engraver
-abyssalcraft:engraver_on, A House
-abyssalcraft:materializer, Materializer
-abyssalcraft:darkethaxiumbrick:0, §4Dark Ethaxium Brick
-abyssalcraft:darkethaxiumbrick:1, §4Chiseled Dark Ethaxium Brick
-abyssalcraft:darkethaxiumpillar, Dark Ethaxium Pillar
-abyssalcraft:darkethaxiumbrickstairs, Dark Ethaxium Brick Stairs
-abyssalcraft:darkethaxiumbrickslab1:0, §4Dark Ethaxium Brick Slab
-abyssalcraft:darkethaxiumbrickslab2:0, §4Dark Ethaxium Brick Doubleslab
-abyssalcraft:darkethaxiumbrickfence, Dark Ethaxium Brick Fence
-abyssalcraft:ritualaltar:0, Ritual Altar
-abyssalcraft:ritualaltar:1, Ritual Altar
-abyssalcraft:ritualaltar:2, Ritual Altar
-abyssalcraft:ritualaltar:3, Ritual Altar
-abyssalcraft:ritualaltar:4, Ritual Altar
-abyssalcraft:ritualaltar:5, Ritual Altar
-abyssalcraft:ritualaltar:6, Ritual Altar
-abyssalcraft:ritualaltar:7, Ritual Altar
-abyssalcraft:ritualpedestal:0, Ritual Pedestal
-abyssalcraft:ritualpedestal:1, Ritual Pedestal
-abyssalcraft:ritualpedestal:2, Ritual Pedestal
-abyssalcraft:ritualpedestal:3, Ritual Pedestal
-abyssalcraft:ritualpedestal:4, Ritual Pedestal
-abyssalcraft:ritualpedestal:5, Ritual Pedestal
-abyssalcraft:ritualpedestal:6, Ritual Pedestal
-abyssalcraft:ritualpedestal:7, Ritual Pedestal
-abyssalcraft:shoggothblock, Shoggoth Ooze
-abyssalcraft:cthulhustatue, Cthulhu Statue
-abyssalcraft:hasturstatue, Hastur Statue
-abyssalcraft:jzahatstatue, J'zahar Statue
-abyssalcraft:azathothstatue, Azathoth Statue
-abyssalcraft:nyarlathotepstatue, Nyarlathotep Statue
-abyssalcraft:yogsothothstatue, Yog-Sothoth Statue
-abyssalcraft:shubniggurathstatue, Shub-Niggurath Statue
-abyssalcraft:monolithstone, Monolith Stone
-abyssalcraft:shoggothbiomass, Shoggoth Biomass
-abyssalcraft:energypedestal, Energy Pedestal
-abyssalcraft:monolithpillar, Monolith Stone Pillar
-abyssalcraft:sacrificialaltar, Sacrificial Altar
-abyssalcraft:tieredenergypedestal:0, Overworld Energy Pedestal
-abyssalcraft:tieredenergypedestal:1, Abyssal Wasteland Energy Pedestal
-abyssalcraft:tieredenergypedestal:2, Dreadlands Energy Pedestal
-abyssalcraft:tieredenergypedestal:3, Omothol Energy Pedestal
-abyssalcraft:tieredsacrificialaltar:0, Overworld Sacrificial Altar
-abyssalcraft:tieredsacrificialaltar:1, Abyssal Wasteland Sacrificial Altar
-abyssalcraft:tieredsacrificialaltar:2, Dreadlands Sacrificial Altar
-abyssalcraft:tieredsacrificialaltar:3, Omothol Sacrificial Altar
-abyssalcraft:jzaharspawner, J'zahar Spawner Block
-abyssalcraft:gatekeeperminionspawner, Minion of The Gatekeeper Spawner Block
-abyssalcraft:fire, Feu
-Thaumcraft:blockFluxGoo:0, Flux boueux
-Thaumcraft:blockFluxGas:0, Flux gazeux
-Thaumcraft:blockFluidPure, Fluide purifiant
-Thaumcraft:blockFluidDeath, Mort liquide
-Thaumcraft:blockCustomOre:0, Minerai de cinabre
-Thaumcraft:blockCustomOre:1, Roche infusée d'air
-Thaumcraft:blockCustomOre:2, Roche Infusée de feu
-Thaumcraft:blockCustomOre:3, Roche Infusée d'eau
-Thaumcraft:blockCustomOre:4, Roche Infusée de terre
-Thaumcraft:blockCustomOre:5, Roche Infusée d'ordre
-Thaumcraft:blockCustomOre:6, Roche Infusée d'entropie
-Thaumcraft:blockCustomOre:7, Ambre brute
 Thaumcraft:blockMagicalLog:0, Bois arcanique
 Thaumcraft:blockMagicalLog:1, Bois d'argent
 Thaumcraft:blockMagicalLeaves:0, Feuilles de bois arcanique
@@ -1053,6 +534,313 @@ HardcoreEnderExpansion:transport_beacon, Balise de transport
 HardcoreEnderExpansion:energy_extraction_table, Table d'extraction
 HardcoreEnderExpansion:laboratory_glass, Verre de laboratoire
 HardcoreEnderExpansion:spooky_log, Bois lugubre
+minecraft:iron_shovel, Pelle en fer
+minecraft:iron_pickaxe, Pioche en fer
+minecraft:iron_axe, Hache en fer
+minecraft:flint_and_steel, Briquet
+minecraft:apple, Pomme
+minecraft:bow, Arc
+minecraft:arrow, Flèche
+minecraft:coal:0, Charbon
+minecraft:coal:1, Charbon de bois
+minecraft:diamond, Diamant
+minecraft:iron_ingot, Lingot de fer
+minecraft:gold_ingot, Lingot d'or
+minecraft:iron_sword, Épée en fer
+minecraft:wooden_sword, Épée en bois
+minecraft:wooden_shovel, Pelle en bois
+minecraft:wooden_pickaxe, Pioche en bois
+minecraft:wooden_axe, Hache en bois
+minecraft:stone_sword, Épée en pierre
+minecraft:stone_shovel, Pelle en pierre
+minecraft:stone_pickaxe, Pioche en pierre
+minecraft:stone_axe, Hache en pierre
+minecraft:diamond_sword, Épée en diamant
+minecraft:diamond_shovel, Pelle en diamant
+minecraft:diamond_pickaxe, Pioche en diamant
+minecraft:diamond_axe, Hache en diamant
+minecraft:stick, Bâton
+minecraft:bowl, Bol
+minecraft:mushroom_stew, Soupe de champignons
+minecraft:golden_sword, Épée en or
+minecraft:golden_shovel, Pelle en or
+minecraft:golden_pickaxe, Pioche en or
+minecraft:golden_axe, Hache en or
+minecraft:string, Ficelle
+minecraft:feather, Plume
+minecraft:gunpowder, Poudre à canon
+minecraft:wooden_hoe, Houe en bois
+minecraft:stone_hoe, Houe en pierre
+minecraft:iron_hoe, Houe en fer
+minecraft:diamond_hoe, Houe en diamant
+minecraft:golden_hoe, Houe en or
+minecraft:wheat_seeds, Graines de blé
+minecraft:wheat, Blé
+minecraft:bread, Pain
+minecraft:leather_helmet, Chapeau en cuir
+minecraft:leather_chestplate, Tunique en cuir
+minecraft:leather_leggings, Pantalon en cuir
+minecraft:leather_boots, Bottes en cuir
+minecraft:chainmail_helmet, Casque de mailles
+minecraft:chainmail_chestplate, Cotte de mailles
+minecraft:chainmail_leggings, Jambières de mailles
+minecraft:chainmail_boots, Bottes de mailles
+minecraft:iron_helmet, Casque en fer
+minecraft:iron_chestplate, Plastron en fer
+minecraft:iron_leggings, Jambières en fer
+minecraft:iron_boots, Bottes en fer
+minecraft:diamond_helmet, Casque en diamant
+minecraft:diamond_chestplate, Plastron en diamant
+minecraft:diamond_leggings, Jambières en diamant
+minecraft:diamond_boots, Bottes en diamant
+minecraft:golden_helmet, Casque en or
+minecraft:golden_chestplate, Plastron en or
+minecraft:golden_leggings, Jambières en or
+minecraft:golden_boots, Bottes en or
+minecraft:flint, Silex
+minecraft:porkchop, Côtelette de porc crue
+minecraft:cooked_porkchop, Côtelette de porc cuite
+minecraft:painting, Tableau
+minecraft:golden_apple:0, Pomme dorée
+minecraft:golden_apple:1, Pomme dorée
+minecraft:sign, Pancarte
+minecraft:wooden_door, Porte en bois
+minecraft:bucket, Seau
+minecraft:water_bucket, Seau d'eau
+minecraft:lava_bucket, Seau de lave
+minecraft:minecart, Wagonnet
+minecraft:saddle, Selle
+minecraft:iron_door, Porte en fer
+minecraft:redstone, Redstone
+minecraft:snowball, Boule de neige
+minecraft:boat, Bateau
+minecraft:leather, Cuir
+minecraft:milk_bucket, Seau de lait
+minecraft:brick, Brique
+minecraft:clay_ball, Argile
+minecraft:reeds, Canne à sucre
+minecraft:paper, Papier
+minecraft:book, Livre
+minecraft:slime_ball, Boule de Slime
+minecraft:chest_minecart, Wagonnet de stockage
+minecraft:furnace_minecart, Wagonnet motorisé
+minecraft:egg, Oeuf
+minecraft:compass, Boussole
+minecraft:fishing_rod, Canne à pêche
+minecraft:clock, Montre
+minecraft:glowstone_dust, Poudre de pierre luisante
+minecraft:fish:0, Poisson cru
+minecraft:fish:1, Saumon cru
+minecraft:fish:2, Poisson-clown
+minecraft:fish:3, Poisson-globe
+minecraft:cooked_fished:0, Poisson cuit
+minecraft:cooked_fished:1, Saumon cuit
+minecraft:dye:0, Poche d'encre
+minecraft:dye:1, Rouge de rose
+minecraft:dye:2, Vert de cactus
+minecraft:dye:3, Fèves de cacao
+minecraft:dye:4, Lapis-lazuli
+minecraft:dye:5, Teinture violette
+minecraft:dye:6, Teinture cyan
+minecraft:dye:7, Teinture gris clair
+minecraft:dye:8, Teinture grise
+minecraft:dye:9, Teinture rose
+minecraft:dye:10, Teinture vert clair
+minecraft:dye:11, Jaune pissenlit
+minecraft:dye:12, Teinture bleu clair
+minecraft:dye:13, Teinture magenta
+minecraft:dye:14, Teinture orange
+minecraft:dye:15, Poudre d'os
+minecraft:bone, Os
+minecraft:sugar, Sucre
+minecraft:cake, Gâteau
+minecraft:bed, Lit
+minecraft:repeater, Répéteur
+minecraft:cookie, Cookie
+minecraft:filled_map:0, Carte
+minecraft:shears, Cisailles
+minecraft:melon, Pastèque
+minecraft:pumpkin_seeds, Graines de citrouille
+minecraft:melon_seeds, Graines de pastèque
+minecraft:beef, Boeuf cru
+minecraft:cooked_beef, Steak
+minecraft:chicken, Poulet cru
+minecraft:cooked_chicken, Poulet rôti
+minecraft:rotten_flesh, Chair putréfiée
+minecraft:ender_pearl, Perle du Néant
+minecraft:blaze_rod, Bâton de Blaze
+minecraft:ghast_tear, Larme de Ghast
+minecraft:gold_nugget, Pépite d'or
+minecraft:nether_wart, Verrue du Nether
+minecraft:potion:0, Fiole d'eau
+minecraft:potion:8193, Potion de régénération
+minecraft:potion:8225, Potion de régénération
+minecraft:potion:8257, Potion de régénération
+minecraft:potion:16385, (Jetable) Potion de régénération
+minecraft:potion:16417, (Jetable) Potion de régénération
+minecraft:potion:16449, (Jetable) Potion de régénération
+minecraft:potion:8194, Potion de rapidité
+minecraft:potion:8226, Potion de rapidité
+minecraft:potion:8258, Potion de rapidité
+minecraft:potion:16386, (Jetable) Potion de rapidité
+minecraft:potion:16418, (Jetable) Potion de rapidité
+minecraft:potion:16450, (Jetable) Potion de rapidité
+minecraft:potion:8227, Potion de résistance au feu
+minecraft:potion:8259, Potion de résistance au feu
+minecraft:potion:16419, (Jetable) Potion de résistance au feu
+minecraft:potion:16451, (Jetable) Potion de résistance au feu
+minecraft:potion:8196, Potion de poison
+minecraft:potion:8228, Potion de poison
+minecraft:potion:8260, Potion de poison
+minecraft:potion:16388, (Jetable) Potion de poison
+minecraft:potion:16420, (Jetable) Potion de poison
+minecraft:potion:16452, (Jetable) Potion de poison
+minecraft:potion:8261, Potion de soin
+minecraft:potion:8229, Potion de soin
+minecraft:potion:16453, (Jetable) Potion de soin
+minecraft:potion:16421, (Jetable) Potion de soin
+minecraft:potion:8230, Potion de vision nocturne
+minecraft:potion:8262, Potion de vision nocturne
+minecraft:potion:16422, (Jetable) Potion de vision nocturne
+minecraft:potion:16454, (Jetable) Potion de vision nocturne
+minecraft:potion:8231, Potion de nausée
+minecraft:potion:8263, Potion de nausée
+minecraft:potion:16423, (Jetable) Potion de nausée
+minecraft:potion:16455, (Jetable) Potion de nausée
+minecraft:potion:8232, Potion de faiblesse
+minecraft:potion:8264, Potion de faiblesse
+minecraft:potion:16424, (Jetable) Potion de faiblesse
+minecraft:potion:16456, (Jetable) Potion de faiblesse
+minecraft:potion:8201, Potion de force
+minecraft:potion:8233, Potion de force
+minecraft:potion:8265, Potion de force
+minecraft:potion:16393, (Jetable) Potion de force
+minecraft:potion:16425, (Jetable) Potion de force
+minecraft:potion:16457, (Jetable) Potion de force
+minecraft:potion:8234, Potion de lenteur
+minecraft:potion:8266, Potion de lenteur
+minecraft:potion:16426, (Jetable) Potion de lenteur
+minecraft:potion:16458, (Jetable) Potion de lenteur
+minecraft:potion:8235, Potion de décomposition
+minecraft:potion:8267, Potion de décomposition
+minecraft:potion:16427, (Jetable) Potion de décomposition
+minecraft:potion:16459, (Jetable) Potion de décomposition
+minecraft:potion:8268, Potion de dégâts
+minecraft:potion:8236, Potion de dégâts
+minecraft:potion:16460, (Jetable) Potion de dégâts
+minecraft:potion:16428, (Jetable) Potion de dégâts
+minecraft:potion:8237, Potion de respiration aquatique
+minecraft:potion:8269, Potion de respiration aquatique
+minecraft:potion:16429, (Jetable) Potion de respiration aquatique
+minecraft:potion:16461, (Jetable) Potion de respiration aquatique
+minecraft:potion:8238, Potion d'invisibilité
+minecraft:potion:8270, Potion d'invisibilité
+minecraft:potion:16430, (Jetable) Potion d'invisibilité
+minecraft:potion:16462, (Jetable) Potion d'invisibilité
+minecraft:glass_bottle, Fiole
+minecraft:spider_eye, Oeil d'araignée
+minecraft:fermented_spider_eye, Oeil d'araignée fermenté
+minecraft:blaze_powder, Poudre de Blaze
+minecraft:magma_cream, Crème de magma
+minecraft:brewing_stand, Alambic
+minecraft:cauldron, Chaudron
+minecraft:ender_eye, Oeil du Néant
+minecraft:speckled_melon, Pastèque scintillante
+minecraft:spawn_egg:50, Oeuf de Creeper
+minecraft:spawn_egg:51, Oeuf de Squelette
+minecraft:spawn_egg:52, Oeuf de Araignée
+minecraft:spawn_egg:54, Oeuf de Zombie
+minecraft:spawn_egg:55, Oeuf de Slime
+minecraft:spawn_egg:56, Oeuf de Ghast
+minecraft:spawn_egg:57, Oeuf de Cochon-zombie
+minecraft:spawn_egg:58, Oeuf de Enderman
+minecraft:spawn_egg:59, Oeuf de Araignée venimeuse
+minecraft:spawn_egg:60, Oeuf de Poisson d'argent
+minecraft:spawn_egg:61, Oeuf de Blaze
+minecraft:spawn_egg:62, Oeuf de Cube de magma
+minecraft:spawn_egg:65, Oeuf de Chauve-souris
+minecraft:spawn_egg:66, Oeuf de Sorcière
+minecraft:spawn_egg:90, Oeuf de Cochon
+minecraft:spawn_egg:91, Oeuf de Mouton
+minecraft:spawn_egg:92, Oeuf de Vache
+minecraft:spawn_egg:93, Oeuf de Poule
+minecraft:spawn_egg:94, Oeuf de Poulpe
+minecraft:spawn_egg:95, Oeuf de Loup
+minecraft:spawn_egg:96, Oeuf de Champimeuh
+minecraft:spawn_egg:98, Oeuf de Ocelot
+minecraft:spawn_egg:100, Oeuf de Cheval
+minecraft:spawn_egg:120, Oeuf de Villageois
+minecraft:spawn_egg:3, Oeuf de Manaseal Creeper
+minecraft:spawn_egg:4, Oeuf de Enderminus
+minecraft:spawn_egg:5, Oeuf de Creeper à Concussion
+minecraft:spawn_egg:6, Oeuf de Chevalier Déchu
+minecraft:spawn_egg:7, Oeuf de Étalon Déchu
+minecraft:spawn_egg:23, Oeuf de Sorcière du Wither
+minecraft:spawn_egg:24, Oeuf de Chat du Wither
+minecraft:spawn_egg:25, Oeuf de Loup Désespéré
+minecraft:spawn_egg:26, Oeuf de Khndrel Keght
+minecraft:spawn_egg:301, Oeuf de Chicken Minion
+minecraft:spawn_egg:6396, Oeuf de Demon
+minecraft:spawn_egg:6397, Oeuf de Mandrake
+minecraft:spawn_egg:6398, Oeuf de Treefyd
+minecraft:spawn_egg:6399, Oeuf de Horned Huntsman
+minecraft:spawn_egg:6400, Oeuf de Ent
+minecraft:spawn_egg:6401, Oeuf de Owl
+minecraft:spawn_egg:6402, Oeuf de Toad
+minecraft:spawn_egg:6403, Oeuf de Baba Yaga
+minecraft:spawn_egg:6404, Oeuf de Coven Witch
+minecraft:spawn_egg:6405, Oeuf de Nightmare
+minecraft:spawn_egg:6406, Oeuf de Spectre
+minecraft:spawn_egg:6407, Oeuf de Poltergeist
+minecraft:spawn_egg:6408, Oeuf de Banshee
+minecraft:spawn_egg:6409, Oeuf de Spirit
+minecraft:spawn_egg:6410, Oeuf de Death
+minecraft:spawn_egg:6411, Oeuf de Witch Hunter
+minecraft:spawn_egg:6412, Oeuf de Lord of Torment
+minecraft:spawn_egg:6413, Oeuf de Flame Imp
+minecraft:spawn_egg:6414, Oeuf de Minedrake
+minecraft:spawn_egg:6415, Oeuf de Hobgoblin
+minecraft:spawn_egg:6416, Oeuf de Mog
+minecraft:spawn_egg:6417, Oeuf de Gulg
+minecraft:spawn_egg:6418, Oeuf de Shade of Leonard
+minecraft:spawn_egg:6419, Oeuf de Lost Soul
+minecraft:spawn_egg:6420, Oeuf de Werewolf
+minecraft:spawn_egg:6421, Oeuf de Hellhound
+minecraft:spawn_egg:6422, Oeuf de Villager
+minecraft:spawn_egg:6423, Oeuf de Guard
+minecraft:spawn_egg:6424, Oeuf de Vampire
+minecraft:spawn_egg:6425, Oeuf de Lilith
+minecraft:spawn_egg:6426, Oeuf de Winged Monkey
+minecraft:spawn_egg:6427, Oeuf de Reflection
+minecraft:experience_bottle, Fiole d'expérience
+minecraft:fire_charge, Boule de feu
+minecraft:writable_book, Livre et plume
+minecraft:written_book, Livre écrit
+minecraft:emerald, Émeraude
+minecraft:item_frame, Cadre
+minecraft:flower_pot, Pot de fleurs
+minecraft:carrot, Carotte
+minecraft:potato, Pomme de terre
+minecraft:baked_potato, Pomme de terre cuite
+minecraft:poisonous_potato, Pomme de terre empoisonnée
+minecraft:map, Carte vierge
+minecraft:golden_carrot, Carotte dorée
+minecraft:skull:0, Crâne de squelette
+minecraft:skull:1, Crâne de Wither squelette
+minecraft:skull:2, Tête de zombie
+minecraft:skull:3, Tête
+minecraft:skull:4, Tête de Creeper
+minecraft:carrot_on_a_stick, Carotte sur un bâton
+minecraft:nether_star, Étoile du Nether
+minecraft:pumpkin_pie, Tarte à la citrouille
+minecraft:fireworks, Fusée de feu d'artifice
+minecraft:firework_charge, Étoile de feu d'artifice
+minecraft:enchanted_book, Livre enchanté
+minecraft:comparator, Comparateur
+minecraft:netherbrick, Brique du Nether
+minecraft:quartz, Quartz du Nether
+minecraft:tnt_minecart, Wagonnet à TNT
+minecraft:hopper_minecart, Wagonnet à entonnoir
 HardcoreEnderExpansion:energy_cluster, Grappe d'énergie
 HardcoreEnderExpansion:enhanced_brewing_stand_block, tile.brewingStand.name
 HardcoreEnderExpansion:ender_goo, Matière visqueuse du Néant
@@ -1061,6 +849,12 @@ HardcoreEnderExpansion:ravaged_brick_smooth, Brique ravagée lisse
 HardcoreEnderExpansion:ravaged_brick_stairs, Escalier de brique ravagée
 HardcoreEnderExpansion:accumulation_table, Table d'accumulation
 HardcoreEnderExpansion:laser_beam, tile.laserBeam.name
+minecraft:iron_horse_armor, Armure pour cheval en fer
+minecraft:golden_horse_armor, Armure pour cheval en or
+minecraft:diamond_horse_armor, Armure pour cheval en diamant
+minecraft:lead, Laisse
+minecraft:name_tag, Étiquette
+minecraft:command_block_minecart, Wagonnet avec bloc de commande
 HardcoreEnderExpansion:instability_orb_ore, Minerai d'orbe d'instabilité
 IC2:blockOreCopper, ic2.blockOreCopper.name
 IC2:blockOreTin, ic2.blockOreTin.name
@@ -2919,38 +2713,38 @@ BiblioCraft:BiblioSeats:3, Chaise en acajou
 BiblioCraft:BiblioSeats:4, Chaise en acacia
 BiblioCraft:BiblioSeats:5, Chaise en chêne noir
 BiblioCraft:BiblioSeats:6, Framed Seat
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:warpGate, Celestial Gateway
 ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:platform, Ethereal Platform
 ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
 ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
 ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:animationTablet, Dynamism Tablet
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -4286,81 +4080,6 @@ WitchingGadgets:WG_MetalDevice:8, Terrestrial Focus: Tainted Lands
 WitchingGadgets:WG_MetalDevice:9, Terrestrial Focus: Mushroom Island
 WitchingGadgets:WG_RoseVine, Rose Vines
 WitchingGadgets:WG_CustomAir, Glimmer of Light
-arsmagica2:essenceRefiner, Raffineur d'Essence
-arsmagica2:mageTorch, Mage Light
-arsmagica2:essenceConduit, Conduit à Étherium
-arsmagica2:obelisk, Obélisque
-arsmagica2:calefactor, Caléfacteur
-arsmagica2:keystoneReceptacle, Réceptacle à Cryptolithe
-arsmagica2:astralBarrier, Barrière Astrale
-arsmagica2:blackAurem, Aurem Noir
-arsmagica2:celestialPrism, Prisme Céleste
-arsmagica2:seerStone, Pierre Voyante
-arsmagica2:vinteumOre:0, Minerai de Vinteum
-arsmagica2:vinteumOre:1, Minerai de Chimerite
-arsmagica2:vinteumOre:2, Minerai de Topaze Bleue
-arsmagica2:vinteumOre:3, Minerai de Pierre Lunaire
-arsmagica2:vinteumOre:4, Minerai de Pierre Solaire
-arsmagica2:vinteumOre:5, Bloc de Pierre Lunaire
-arsmagica2:vinteumOre:6, Bloc de Vinteum
-arsmagica2:vinteumOre:7, Bloc de Topaze Bleue
-arsmagica2:vinteumOre:8, Bloc de Pierre Solaire
-arsmagica2:vinteumOre:9, Bloc de Chimérite
-arsmagica2:blueOrchid, Cerublossom
-arsmagica2:desertNova, Nova du Désert
-arsmagica2:keystoneChest, Coffre à Cryptolithe
-arsmagica2:blockLectern, Lettrin
-arsmagica2:manaBattery, Batterie à Mana
-arsmagica2:blockArcaneReconstructor, Reconstructeur Arcanique
-arsmagica2:magicWall, Mur Magique
-arsmagica2:occulus, Oculus
-arsmagica2:CraftingAltar, Autel de Création
-arsmagica2:SpellRune, Rune de Sort
-arsmagica2:VinteumTorch, Torche de Vinteum
-arsmagica2:ParticleEmitter, Émetteur de Particules
-arsmagica2:InscriptionTable, Table d'Inscription
-arsmagica2:invisibleUtility, tile.arsmagica2:invisibleUtility.name
-arsmagica2:Aum, Aum
-arsmagica2:TarmaRoot, Racine de Tarma
-arsmagica2:WitchwoodLog, Bois Magique
-arsmagica2:WitchwoodLeaves, Feuillage Magique
-arsmagica2:Summoner, Invocateur
-arsmagica2:liquidEssence, Liquid Etherium
-arsmagica2:redstoneInlay, Marquage en Redstone
-arsmagica2:ironInlay, Marquage en Fer
-arsmagica2:goldInlay, Marquage en Or
-arsmagica2:planksWitchwood, Planches Magiques
-arsmagica2:stairsWitchwood, Escaliers en Bois Magique
-arsmagica2:saplingWitchwood, Pousse Magique
-arsmagica2:magiciansWorkbench, Établi du Magicien
-arsmagica2:everstone, Pierre de Toujours
-arsmagica2:keystoneDoor, Keystone Door
-arsmagica2:keystoneTrapDoor, Trappe à Cryptolihe
-arsmagica2:slipstreamGenerator, Générateur de Courants
-arsmagica2:elementalAttuner, Habitat à Lucioles
-arsmagica2:wizardChalk, Wizard's Chalk Rune
-arsmagica2:inertSpawner, Générateur Inerte
-arsmagica2:candle, Bougie Délimitatrice
-arsmagica2:brokenLinkBlock, Lien Énergétique Brisé
-arsmagica2:armorInfuser, Table d'Imbuement d'Armure
-arsmagica2:flickerLure, Appât à Lucioles
-arsmagica2:arcaneDeconstructor, Déconstructeur Arcanique
-arsmagica2:wakebloom, Fleur d'Aube
-arsmagica2:otherworldAura, Otherworld Aura
-arsmagica2:spellSealedDoor, Spell-Sealed Door
-arsmagica2:witchwoodSingleSlab:0, Witchwood Slab
-arsmagica2:witchwoodDoubleSlab:0, Witchwood Slab
-arsmagica2:illusionBlock:0, Bloc Illusoire
-arsmagica2:illusionBlock:1, Bloc Illusoire Étheré
-arsmagica2:crystalMarker:0, Cristal d'Importation
-arsmagica2:crystalMarker:1, Crystal d'Exportation
-arsmagica2:crystalMarker:2, Crystal d'Exportation Mimiquée
-arsmagica2:crystalMarker:3, Crystal de d'Exportation Définie
-arsmagica2:crystalMarker:4, Crystal d'Exporation Régulée
-arsmagica2:crystalMarker:5, Crystal Bidirectionel Régulé
-arsmagica2:crystalMarker:6, Crystal d'Importation Définie
-arsmagica2:crystalMarker:7, Final Export Crystal
-arsmagica2:crystalMarker:8, Spell Export Crystal
 minecraft:record_13, Disque
 minecraft:record_cat, Disque
 minecraft:record_blocks, Disque
@@ -4373,438 +4092,6 @@ minecraft:record_strad, Disque
 minecraft:record_ward, Disque
 minecraft:record_11, Disque
 minecraft:record_wait, Disque
-arsmagica2:spellBase, item.arsmagica2:spell_base.name
-arsmagica2:itemOre:0, Poudre de Vinteum
-arsmagica2:itemOre:1, Matière Arcanique
-arsmagica2:itemOre:2, Poussière Arcanique
-arsmagica2:itemOre:3, Poudre de Vinteum Purifiée
-arsmagica2:itemOre:4, Chimérite
-arsmagica2:itemOre:5, Topaze Bleue
-arsmagica2:itemOre:6, Pierre Solaire
-arsmagica2:itemOre:7, Lunepierre
-arsmagica2:itemOre:8, Graisse de Porc
-arsmagica2:essence:0, Essence Arcanique
-arsmagica2:essence:1, Essence Tellurique
-arsmagica2:essence:2, Essence Aérienne
-arsmagica2:essence:3, Essence Ignique
-arsmagica2:essence:4, Essence Aquatique
-arsmagica2:essence:5, Essence Naturelle
-arsmagica2:essence:6, Essence Glaciale
-arsmagica2:essence:7, Essence Électrique
-arsmagica2:essence:8, Essence Vitale
-arsmagica2:essence:9, Essence Nihilique
-arsmagica2:essence:10, Essence Pure
-arsmagica2:essence:11, Cœur d'Essence Amélioré
-arsmagica2:essence:12, Cœur d'Essence Basique
-arsmagica2:essenceBag, Sac à Essences
-arsmagica2:spellParchment, Parchemin de Sort
-arsmagica2:spellBook, item.arsmagica2:spell_book.name
-arsmagica2:rune:0, Rune Noire
-arsmagica2:rune:1, Rune Vide
-arsmagica2:rune:2, Rune Bleue
-arsmagica2:rune:3, Rune Brune
-arsmagica2:rune:4, Rune Cyan
-arsmagica2:rune:5, Rune Grise
-arsmagica2:rune:6, Rune Verte
-arsmagica2:rune:7, Rune Bleu Clair
-arsmagica2:rune:8, Rune Gris Clair
-arsmagica2:rune:9, Rune Vert Clair
-arsmagica2:rune:10, Rune Magenta
-arsmagica2:rune:11, Rune Orange
-arsmagica2:rune:12, Rune Rose
-arsmagica2:rune:13, Rune Violette
-arsmagica2:rune:14, Rune Rouge
-arsmagica2:rune:15, Rune Blanche
-arsmagica2:rune:16, Rune Jaune
-arsmagica2:rune:17, Orbe d'Infini
-arsmagica2:rune:18, Orbe d'Infini
-arsmagica2:rune:19, Orbe d'Infini
-arsmagica2:rune:20, Rune de Débogage
-arsmagica2:lesserFocus, Lentille Inférieure
-arsmagica2:standardFocus, Lentille Standard
-arsmagica2:greaterFocus, Lentille Supérieure
-arsmagica2:manaFocus, Lentille à Mana
-arsmagica2:chargeFocus, Lentille de Charge
-arsmagica2:playerFocus, Lentille à Joueurs
-arsmagica2:mobFocus, Lentille à Monstres
-arsmagica2:itemFocus, Lentille à Objets
-arsmagica2:creatureFocus, Lentille à Créatures
-arsmagica2:blueChalk, Craie de Sorcier
-arsmagica2:manaCake, Cake au Mana
-arsmagica2:keystone, Cryptolithe
-arsmagica2:bookAffinity:0, Tome d'Affinité: NONE
-arsmagica2:bookAffinity:1, Tome d'Affinité: ARCANE
-arsmagica2:bookAffinity:2, Tome d'Affinité: WATER
-arsmagica2:bookAffinity:3, Tome d'Affinité: FIRE
-arsmagica2:bookAffinity:4, Tome d'Affinité: EARTH
-arsmagica2:bookAffinity:5, Tome d'Affinité: AIR
-arsmagica2:bookAffinity:6, Tome d'Affinité: LIGHTNING
-arsmagica2:bookAffinity:7, Tome d'Affinité: ICE
-arsmagica2:bookAffinity:8, Tome d'Affinité: NATURE
-arsmagica2:bookAffinity:9, Tome d'Affinité: LIFE
-arsmagica2:bookAffinity:10, Tome d'Affinité: ENDER
-arsmagica2:lesserManaPotion, Potion de Mana Inférieure
-arsmagica2:standardManaPotion, Potion de Mana Standard
-arsmagica2:greaterManaPotion, Potion de Mana Supérieure
-arsmagica2:epicManaPotion, Potion de Mana Épique
-arsmagica2:legendaryManaPotion, Potion de Mana Légendaire
-arsmagica2:manaPotionBundle:3, Potion de Mana Inférieure Paquet
-arsmagica2:manaPotionBundle:259, Potion de Mana Standard Paquet
-arsmagica2:manaPotionBundle:515, Potion de Mana Supérieure Paquet
-arsmagica2:manaPotionBundle:771, Potion de Mana Épique Paquet
-arsmagica2:manaPotionBundle:1027, Potion de Mana Légendaire Paquet
-arsmagica2:mageHood, Chapeau de Mage
-arsmagica2:mageArmor, Robes de Mage
-arsmagica2:mageLeggings, Pantalon de Mage
-arsmagica2:mageBoots, Bottes de Mage
-arsmagica2:battlemageHood, Casque de Mage de Combat
-arsmagica2:battlemageArmor, Plastron de Mage de Combat
-arsmagica2:battlemageLeggings, Jambières de Mage de Combat
-arsmagica2:battlemageBoots, Bottes de Mage de Combat
-arsmagica2:BoundHoeNor, Faux Liée
-arsmagica2:BoundShovelNor, Pelle Liée
-arsmagica2:BoundAxeNor, Hache Liée
-arsmagica2:BoundPickaxeNor, Pioche Liée
-arsmagica2:BoundSwordNor, Épée Liée
-arsmagica2:AMSpawnEgg:0, Oeuf de Creeper Mana
-arsmagica2:AMSpawnEgg:1, Oeuf de Driade
-arsmagica2:AMSpawnEgg:2, Oeuf de Hécate
-arsmagica2:AMSpawnEgg:3, Oeuf de Mage Villageois
-arsmagica2:AMSpawnEgg:4, Oeuf de Élémental de Mana
-arsmagica2:AMSpawnEgg:5, Oeuf de Élémental Aquatique
-arsmagica2:AMSpawnEgg:6, Oeuf de Mage de Lumière
-arsmagica2:AMSpawnEgg:7, Oeuf de Mage Sombre
-arsmagica2:AMSpawnEgg:8, Oeuf de Vache des Enfers
-arsmagica2:AMSpawnEgg:9, Oeuf de Luciole
-arsmagica2:AMSpawnEgg:10, Oeuf de Élémental Tellurique
-arsmagica2:AMSpawnEgg:11, Oeuf de Élémental Ignique
-arsmagica2:AMSpawnEgg:12, Oeuf de Sombrelin
-arsmagica2:AMSpawnEgg:13, Oeuf de Gardien de la Nature
-arsmagica2:AMSpawnEgg:14, Oeuf de Gardien Arcanique
-arsmagica2:AMSpawnEgg:15, Oeuf de Gardien Tellurique
-arsmagica2:AMSpawnEgg:16, Oeuf de Gardien Aquatique
-arsmagica2:AMSpawnEgg:17, Oeuf de Gardien Hivernal
-arsmagica2:AMSpawnEgg:18, Oeuf de Gardien Aérien
-arsmagica2:AMSpawnEgg:19, Oeuf de Gardien Ignique
-arsmagica2:AMSpawnEgg:20, Oeuf de Gardien de Vie
-arsmagica2:AMSpawnEgg:21, Oeuf de Gardien Électrique
-arsmagica2:AMSpawnEgg:22, Oeuf de Gardien Nihilique
-arsmagica2:deficitCrystal, Cristal Déficitaire
-arsmagica2:crystal_wrench, Clé de Cristal
-arsmagica2:ArcaneCompendium, Compendium Arcanique
-arsmagica2:SpellComponent, item.null.name
-arsmagica2:Crystal Phylactery, Phylactère de Cristal
-arsmagica2:liquidEssenceBucket, Seau d'Éther Liquide
-arsmagica2:natureScythe, §6Faux de la Nature§f
-arsmagica2:magitechStaff, Bâton Magitech
-arsmagica2:liquidEssenceBottle, Potion d'Etherium
-arsmagica2:bindingCatalyst:0, Catalyste de Liaison: Pioche
-arsmagica2:bindingCatalyst:1, Catalyste de Liaison: Hache
-arsmagica2:bindingCatalyst:3, Catalyste de Liaison: Pelle
-arsmagica2:bindingCatalyst:2, Catalyste de Liaison: Épée
-arsmagica2:bindingCatalyst:4, Catalyste de Liaison: Faux
-arsmagica2:evilBook, Livre Diabolique
-arsmagica2:woodenLeg, Jambe de Bois
-arsmagica2:cowHorn, Corne de Vache des Enfers
-arsmagica2:magicBroom, Balai Magique
-arsmagica2:arcane_spellbook, item.arsmagica2:arcane_spellbook.name
-arsmagica2:winter_arm, §6Poigne d'Hiver§f
-arsmagica2:air_sled, §6Luge Aérienne§f
-arsmagica2:earth_armor, §6Armure Tellurique§f
-arsmagica2:water_orbs, §6Orbes Aquatiques§f
-arsmagica2:fire_ears, §6Antennes Igniques§f
-arsmagica2:workbenchUpgrade, Amélioration de l'établi du Magicien: Fabrication
-arsmagica2:keystoneDoorPlacer:0, Porte à Cryptolithe
-arsmagica2:keystoneDoorPlacer:1, Spell-Sealed Door
-arsmagica2:enderBoots, §6Bottes du Néant§f
-arsmagica2:wardingCandle:0, Bougie délimitatrice (Non accordé)
-arsmagica2:magitechGoggles, Lunettes Magitech
-arsmagica2:flickerJar:0, Vide Jarre à Lucioles
-arsmagica2:flickerJar:1, Arcane Jarre à Lucioles
-arsmagica2:flickerJar:2, Water Jarre à Lucioles
-arsmagica2:flickerJar:3, Fire Jarre à Lucioles
-arsmagica2:flickerJar:4, Earth Jarre à Lucioles
-arsmagica2:flickerJar:5, Air Jarre à Lucioles
-arsmagica2:flickerJar:6, Lightning Jarre à Lucioles
-arsmagica2:flickerJar:7, Ice Jarre à Lucioles
-arsmagica2:flickerJar:8, Nature Jarre à Lucioles
-arsmagica2:flickerJar:9, Life Jarre à Lucioles
-arsmagica2:flickerJar:10, Ender Jarre à Lucioles
-arsmagica2:runeBag, Sac à Runes
-arsmagica2:lightningCharm, §6Charme Électrique§f
-arsmagica2:lifeWard, §6Protection Vitale§f
-arsmagica2:playerjournal, Journal
-arsmagica2:manaMartini, Mana Martini
-arsmagica2:inscriptionUpgrade:0, Inscription Table Tier 1 Upgrade
-arsmagica2:inscriptionUpgrade:1, Inscription Table Tier 2 Upgrade
-arsmagica2:inscriptionUpgrade:2, Inscription Table Tier 3 Upgrade
-abyssalcraft:devsword, La Lame du Développeur
-abyssalcraft:OC, Catalyseur d'Oblivion
-abyssalcraft:portalplacer, Clé de la Porte
-abyssalcraft:staff, Bâton du Gardien de la Porte
-abyssalcraft:cbucket, Seau de Coralium liquide
-abyssalcraft:psdlfinder, Traqueur de Pierre de Puissance
-abyssalcraft:eoa, Oeil de l'Abysse
-abyssalcraft:portalplacerdl, Clé de la Porte Redouté d'Asorah
-abyssalcraft:dreadshard, Tesson Redouté d'Abyssalnite
-abyssalcraft:dreadchunk, Gros Morceau Redouté d'Abyssalnite
-abyssalcraft:abychunk, Morceau d'Abyssalnite
-abyssalcraft:abyingot, Lingot d'Abyssalnite
-abyssalcraft:coralium, Gemme de Coralium
-abyssalcraft:ccluster2, Groupe de Gemme de Coralium
-abyssalcraft:ccluster3, Groupe de Gemme de Coralium
-abyssalcraft:ccluster4, Groupe de Gemme de Coralium
-abyssalcraft:ccluster5, Groupe de Gemme de Coralium
-abyssalcraft:ccluster6, Groupe de Gemme de Coralium
-abyssalcraft:ccluster7, Groupe de Gemme de Coralium
-abyssalcraft:ccluster8, Groupe de Gemme de Coralium
-abyssalcraft:ccluster9, Groupe de Gemme de Coralium
-abyssalcraft:cpearl, Perle de Coralium
-abyssalcraft:cchunk, Gros Morceau de Coralium
-abyssalcraft:cingot, Lingot de Coralium Raffiné
-abyssalcraft:platec, Plaque de Coralium
-abyssalcraft:corb, Gemme de Transformation
-abyssalcraft:corflesh, Chair empestée de Coralium
-abyssalcraft:corbone, Chair empestée de Coralium sur un Os
-abyssalcraft:dpick, Pioche de Pierre Sombre
-abyssalcraft:daxe, Hache de Pierre Sombre
-abyssalcraft:dshovel, Pelle de Pierre Sombre
-abyssalcraft:dsword, Épée de Pierre Sombre
-abyssalcraft:dhoe, Houe de Pierre Sombre
-abyssalcraft:apick, Pioche d'Abyssalnite
-abyssalcraft:aaxe, Hache d'Abyssalnite
-abyssalcraft:ashovel, Pelle d'Abyssalnite
-abyssalcraft:asword, Épée d'Abyssalnite
-abyssalcraft:ahoe, Houe d'Abyssalnite
-abyssalcraft:corpick, Pioche de Coralium Raffiné
-abyssalcraft:coraxe, Hache de Coralium Raffiné
-abyssalcraft:corshovel, Pelle de Coralium Raffiné
-abyssalcraft:corsword, Épée de Coralium Raffiné
-abyssalcraft:corhoe, Houe de Coralium Raffiné
-abyssalcraft:aboots, Bottes d'Abyssalnite
-abyssalcraft:ahelmet, Heaume d'Abyssalnite
-abyssalcraft:aplate, Plastron d'Abyssalnite
-abyssalcraft:alegs, Jambières d'Abyssalnite
-abyssalcraft:dboots, Bottes d'Abyssalnite Redoutées
-abyssalcraft:dhelmet, Heaume d'Abyssalnite Redouté
-abyssalcraft:dplate, Plastron d'Abyssalnite Redouté
-abyssalcraft:dlegs, Jambières d'Abyssalnite Redoutées
-abyssalcraft:corboots, Bottes de Coralium Raffinées
-abyssalcraft:corhelmet, Heaume de Coralium Raffiné
-abyssalcraft:corplate, Plastron de Coralium Raffiné
-abyssalcraft:corlegs, Jambières de Coralium Raffinées
-abyssalcraft:corbootsp, Bottes Plaquées de Coralium
-abyssalcraft:corhelmetp, Heaume Plaqué de Coralium
-abyssalcraft:corplatep, Plastron Plaqué de Coralium
-abyssalcraft:corlegsp, Jambières Plaquées de Coralium
-abyssalcraft:depthsboots, Bottes des Profondeurs
-abyssalcraft:depthshelmet, Visage des Profondeurs
-abyssalcraft:depthsplate, Plastron des Profondeurs
-abyssalcraft:depthslegs, Garde-Jambes des Profondeurs
-abyssalcraft:cobbleu, Kit de Mise à Niveau de la Roche
-abyssalcraft:ironu, Kit de Mise à Niveau du Fer
-abyssalcraft:goldu, Kit de Mise à Niveau de l'Or
-abyssalcraft:diamondu, Kit de Mise à Niveau du Diamand
-abyssalcraft:abyssalniteu, Kit de Mise à Niveau de l'Abyssalnite
-abyssalcraft:coraliumu, Kit de Mise à Niveau du Coralium
-abyssalcraft:mre, MRE
-abyssalcraft:ironp, Plaque de Fer
-abyssalcraft:chickenp, Poulet sur une Plaque
-abyssalcraft:porkp, Côtelette de Porc sur une Plaque
-abyssalcraft:beefp, Steak sur une Plate
-abyssalcraft:fishp, Poisson sur une Plaque
-abyssalcraft:dirtyplate, Plaque Sale
-abyssalcraft:friedegg, Fried Egg
-abyssalcraft:eggp, Oeuf Frit sur une Plaque
-abyssalcraft:cloth, Débarbouillette
-abyssalcraft:shadowfragment, Fragment d'Ombre
-abyssalcraft:shadowshard, Tesson de Gemme d'Ombre
-abyssalcraft:shadowgem, Gemme d'Ombre
-abyssalcraft:oblivionshard, Tesson d'Oblivion
-abyssalcraft:corbow, Arc-Long de Coralium
-abyssalcraft:antibucket, Sceau d'Antimatière Liquide
-abyssalcraft:cbrick, Brique de Coralium
-abyssalcraft:cudgel, Cudgel
-abyssalcraft:dreadumingot, Dreadium Ingot
-abyssalcraft:dreadfragment, Dread Fragment
-abyssalcraft:dreadiumboots, Dreadium Boots
-abyssalcraft:dreadiumhelmet, Dreadium Helmet
-abyssalcraft:dreadiumplate, Dreadium Chestplate
-abyssalcraft:dreadiumlegs, Dreadium Leggings
-abyssalcraft:dreadiumpickaxe, Dreadium Pickaxe
-abyssalcraft:dreadiumaxe, Dreadium Axe
-abyssalcraft:dreadiumshovel, Dreadium Shovel
-abyssalcraft:dreadiumsword, Dreadium Sword
-abyssalcraft:dreadiumhoe, Dreadium Hoe
-abyssalcraft:dreadiumu, Dreadium Upgrade Kit
-abyssalcraft:carboncluster, Carbon Cluster
-abyssalcraft:densecarboncluster, Dense Carbon Cluster
-abyssalcraft:methane, Methane
-abyssalcraft:nitre, Nitre
-abyssalcraft:sulfur, Sulfur
-abyssalcraft:crystal:0, Crystallized Iron
-abyssalcraft:crystal:1, Crystallized Gold
-abyssalcraft:crystal:2, Crystallized Sulfur
-abyssalcraft:crystal:3, Crystallized Carbon
-abyssalcraft:crystal:4, Crystallized Oxygen
-abyssalcraft:crystal:5, Crystallized Hydrogen
-abyssalcraft:crystal:6, Crystallized Nitrogen
-abyssalcraft:crystal:7, Crystallized Phosphorus
-abyssalcraft:crystal:8, Crystallized Potassium
-abyssalcraft:crystal:9, Crystallized Nitrate
-abyssalcraft:crystal:10, Crystallized Methane
-abyssalcraft:crystal:11, Crystallized Redstone
-abyssalcraft:crystal:12, Crystallized Abyssalnite
-abyssalcraft:crystal:13, Crystallized Coralium
-abyssalcraft:crystal:14, Crystallized Dreadium
-abyssalcraft:crystal:15, Crystallized Blaze
-abyssalcraft:crystal:16, Crystallized Tin
-abyssalcraft:crystal:17, Crystallized Copper
-abyssalcraft:crystal:18, Crystallized Silicon
-abyssalcraft:crystal:19, Crystallized Magnesium
-abyssalcraft:crystal:20, Crystallized Aluminium
-abyssalcraft:crystal:21, Crystallized Silica
-abyssalcraft:crystal:22, Crystallized Alumina
-abyssalcraft:crystal:23, Crystallized Magnesia
-abyssalcraft:crystal:24, Crystallized Zinc
-abyssalcraft:crystalshard:0, Crystallized Iron Shard
-abyssalcraft:crystalshard:1, Crystallized Gold Shard
-abyssalcraft:crystalshard:2, Crystallized Sulfur Shard
-abyssalcraft:crystalshard:3, Crystallized Carbon Shard
-abyssalcraft:crystalshard:4, Crystallized Oxygen Shard
-abyssalcraft:crystalshard:5, Crystallized Hydrogen Shard
-abyssalcraft:crystalshard:6, Crystallized Nitrogen Shard
-abyssalcraft:crystalshard:7, Crystallized Phosphorus Shard
-abyssalcraft:crystalshard:8, Crystallized Potassium Shard
-abyssalcraft:crystalshard:9, Crystallized Nitrate Shard
-abyssalcraft:crystalshard:10, Crystallized Methane Shard
-abyssalcraft:crystalshard:11, Crystallized Redstone Shard
-abyssalcraft:crystalshard:12, Crystallized Abyssalnite Shard
-abyssalcraft:crystalshard:13, Crystallized Coralium Shard
-abyssalcraft:crystalshard:14, Crystallized Dreadium Shard
-abyssalcraft:crystalshard:15, Crystallized Blaze Shard
-abyssalcraft:crystalshard:16, Crystallized Tin Shard
-abyssalcraft:crystalshard:17, Crystallized Copper Shard
-abyssalcraft:crystalshard:18, Crystallized Silicon Shard
-abyssalcraft:crystalshard:19, Crystallized Magnesium Shard
-abyssalcraft:crystalshard:20, Crystallized Aluminium Shard
-abyssalcraft:crystalshard:21, Crystallized Silica Shard
-abyssalcraft:crystalshard:22, Crystallized Alumina Shard
-abyssalcraft:crystalshard:23, Crystallized Magnesia Shard
-abyssalcraft:crystalshard:24, Crystallized Zinc Shard
-abyssalcraft:dreadcloth, Dread Cloth
-abyssalcraft:dreadplate, Dreadium Plate
-abyssalcraft:dreadblade, Dreadium Katana Blade
-abyssalcraft:dreadhilt, Dreadium Katana Hilt
-abyssalcraft:dreadkatana, Dreadium Katana
-abyssalcraft:dreadkey, Dread-plagued Gateway Key
-abyssalcraft:portalplacerjzh, Cha'garoth's R'lyehian Gateway Key
-abyssalcraft:dreadiumsamuraiboots, Dreadium Samurai Boots
-abyssalcraft:dreadiumsamuraihelmet, Dreadium Samurai Helmet
-abyssalcraft:dreadiumsamuraiplate, Dreadium Samurai Chestplate
-abyssalcraft:dreadiumsamurailegs, Dreadium Samurai Leggings
-abyssalcraft:tingingot, Tin Ingot
-abyssalcraft:copperingot, Copper Ingot
-abyssalcraft:antibeef, Anti-Beef
-abyssalcraft:antichicken, Anti-Chicken
-abyssalcraft:antipork, Anti-Pork
-abyssalcraft:antiflesh, Rotten Anti-Flesh
-abyssalcraft:antibone, Anti-Bone
-abyssalcraft:antispidereye, Anti-Spider Eye
-abyssalcraft:soulreaper, Sacthoth's Soul Reaper Blade
-abyssalcraft:ethbrick, Ethaxium Brick
-abyssalcraft:ethaxiumingot, Ethaxium Ingot
-abyssalcraft:lifecrystal, Life Crystal
-abyssalcraft:ethaxiumboots, Ethaxium Boots
-abyssalcraft:ethaxiumhelmet, Ethaxium Helmet
-abyssalcraft:ethaxiumplate, Ethaxium Chestplate
-abyssalcraft:ethaxiumlegs, Ethaxium Leggings
-abyssalcraft:ethaxiumpickaxe, Ethaxium Pickaxe
-abyssalcraft:ethaxiumaxe, Ethaxium Axe
-abyssalcraft:ethaxiumshovel, Ethaxium Shovel
-abyssalcraft:ethaxiumsword, Ethaxium Sword
-abyssalcraft:ethaxiumhoe, Ethaxium Hoe
-abyssalcraft:ethaxiumu, Ethaxium Upgrade Kit
-abyssalcraft:coin, Coin
-abyssalcraft:cthulhucoin, Cthulhu Engraved Coin
-abyssalcraft:eldercoin, Elder Engraved Coin
-abyssalcraft:jzaharcoin, J'zahar Engraved Coin
-abyssalcraft:engraving_blank, Blank Coin Engraving
-abyssalcraft:engraving_cthulhu, Cthulhu Coin Engraving
-abyssalcraft:engraving_elder, Elder Coin Engraving
-abyssalcraft:engraving_jzahar, J'zahar Coin Engraving
-abyssalcraft:eldritchscale, Eldritch Scale
-abyssalcraft:omotholflesh, Omothol Ghoul Flesh
-abyssalcraft:anticorflesh, Anti-plagued Flesh
-abyssalcraft:anticorbone, Anti-plagued Flesh on A Bone
-abyssalcraft:necronomicon, Necronomicon
-abyssalcraft:necronomicon_cor, Abyssal Wasteland Necronomicon
-abyssalcraft:necronomicon_dre, Dreadlands Necronomicon
-abyssalcraft:necronomicon_omt, Omothol Necronomicon
-abyssalcraft:abyssalnomicon, Abyssalnomicon
-abyssalcraft:crystalbag_small, Small Crystal Bag
-abyssalcraft:crystalbag_medium, Medium Crystal Bag
-abyssalcraft:crystalbag_large, Large Crystal Bag
-abyssalcraft:crystalbag_huge, Huge Crystal Bag
-abyssalcraft:shoggothflesh:0, Shoggoth Flesh
-abyssalcraft:shoggothflesh:1, Abyssal Shoggoth Flesh
-abyssalcraft:shoggothflesh:2, Dreaded Shoggoth Flesh
-abyssalcraft:shoggothflesh:3, Omothol Shoggoth Flesh
-abyssalcraft:shoggothflesh:4, Shadow Shoggoth Flesh
-abyssalcraft:ingotnugget:0, Abyssalnite Nugget
-abyssalcraft:ingotnugget:1, Refined Coralium Nugget
-abyssalcraft:ingotnugget:2, Dreadium Nugget
-abyssalcraft:ingotnugget:3, Ethaxium Nugget
-abyssalcraft:drainstaff, Staff of Rending
-abyssalcraft:essence:0, Abyssal Wasteland Essence
-abyssalcraft:essence:1, Dreadlands Essence
-abyssalcraft:essence:2, Omothol Essence
-abyssalcraft:skin:0, Skin of The Abyssal Wasteland
-abyssalcraft:skin:1, Skin of The Dreadlands
-abyssalcraft:skin:2, Skin of Omothol
-abyssalcraft:charm:0, Ritual Charm
-abyssalcraft:charm:1, Ritual Charm
-abyssalcraft:charm:2, Ritual Charm
-abyssalcraft:charm:3, Ritual Charm
-abyssalcraft:cthulhucharm:0, Cthulhu Charm
-abyssalcraft:cthulhucharm:1, Cthulhu Charm
-abyssalcraft:cthulhucharm:2, Cthulhu Charm
-abyssalcraft:cthulhucharm:3, Cthulhu Charm
-abyssalcraft:hasturcharm:0, Hastur Charm
-abyssalcraft:hasturcharm:1, Hastur Charm
-abyssalcraft:hasturcharm:2, Hastur Charm
-abyssalcraft:hasturcharm:3, Hastur Charm
-abyssalcraft:jzaharcharm:0, J'zahar Charm
-abyssalcraft:jzaharcharm:1, J'zahar Charm
-abyssalcraft:jzaharcharm:2, J'zahar Charm
-abyssalcraft:jzaharcharm:3, J'zahar Charm
-abyssalcraft:azathothcharm:0, Azathoth Charm
-abyssalcraft:azathothcharm:1, Azathoth Charm
-abyssalcraft:azathothcharm:2, Azathoth Charm
-abyssalcraft:azathothcharm:3, Azathoth Charm
-abyssalcraft:nyarlathotepcharm:0, Nyarlathotep Charm
-abyssalcraft:nyarlathotepcharm:1, Nyarlathotep Charm
-abyssalcraft:nyarlathotepcharm:2, Nyarlathotep Charm
-abyssalcraft:nyarlathotepcharm:3, Nyarlathotep Charm
-abyssalcraft:yogsothothcharm:0, Yog-Sothoth Charm
-abyssalcraft:yogsothothcharm:1, Yog-Sothoth Charm
-abyssalcraft:yogsothothcharm:2, Yog-Sothoth Charm
-abyssalcraft:yogsothothcharm:3, Yog-Sothoth Charm
-abyssalcraft:shubniggurathcharm:0, Shub-Niggurath Charm
-abyssalcraft:shubniggurathcharm:1, Shub-Niggurath Charm
-abyssalcraft:shubniggurathcharm:2, Shub-Niggurath Charm
-abyssalcraft:shubniggurathcharm:3, Shub-Niggurath Charm
-abyssalcraft:hasturcoin, Hastur Engraved Coin
-abyssalcraft:azathothcoin, Azathoth Engraved Coin
-abyssalcraft:nyarlathotepcoin, Nyarlathotep Engraved Coin
-abyssalcraft:yogsothothcoin, Yog-Sothoth Engraved Coin
-abyssalcraft:shubniggurathcoin, Shub-Niggurath Engraved Coin
-abyssalcraft:engraving_hastur, Hastur Coin Engraving
-abyssalcraft:engraving_azathoth, Azathoth Coin Engraving
-abyssalcraft:engraving_nyarlathotep, Nyarlathotep Coin Engraving
-abyssalcraft:engraving_yogsothoth, Yog-Sothoth Coin Engraving
-abyssalcraft:engraving_shubniggurath, Shub-Niggurath Coin Engraving
-abyssalcraft:gatekeeperessence, Essence of The Gatekeeper
 Baubles:Ring:0, Anneau du mineur
 Thaumcraft:WandCasting:0, Baguette en bois à embout de fer
 Thaumcraft:WandCasting:9, Baguette en bois arcanique à embout d'or
@@ -4902,11 +4189,7 @@ Thaumcraft:ItemEssence:1, Fiole d'Essentia
 Thaumcraft:ItemEssence:1, Fiole d'Essentia
 Thaumcraft:ItemEssence:1, Fiole d'Essentia
 Thaumcraft:ItemEssence:1, Fiole d'Essentia
-Thaumcraft:ItemEssence:1, Fiole d'Essentia
-Thaumcraft:ItemEssence:1, Fiole d'Essentia
 Thaumcraft:ItemManaBean:0, Gousse de mana
-Thaumcraft:ItemWispEssence:0, Essence éthérée
-Thaumcraft:ItemWispEssence:0, Essence éthérée
 Thaumcraft:ItemWispEssence:0, Essence éthérée
 Thaumcraft:ItemWispEssence:0, Essence éthérée
 Thaumcraft:ItemWispEssence:0, Essence éthérée
@@ -5163,19 +4446,6 @@ Thaumcraft:ItemLootBag:1, Trésor peu commun
 Thaumcraft:ItemLootBag:2, Trésor rare
 Thaumcraft:ItemCompassStone:0, Aimant Sinistre
 Thaumcraft:ItemPrimalCrusher, Broyeur Primordial
-acintegration:dust:0, Abyssalnite Dust
-acintegration:dust:1, Refined Coralium Dust
-acintegration:dust:2, Dreadium Dust
-acintegration:wandcap:0, Abyssalnite Cap
-acintegration:wandcap:1, Refined Coralium Cap
-acintegration:wandcap:2, Dreadium Cap
-acintegration:wandcap:3, Ethaxium Cap
-acintegration:wandcore:0, Darklands Oak Rod
-acintegration:wandcore:1, Coralium Stone Rod
-acintegration:wandcore:2, Dreadlands Wood Rod
-acintegration:wandcore:3, Omothol Stone Rod
-acintegration:thaumiumu, Thaumium Upgrade Kit
-acintegration:voidmetalu, Void metal Upgrade Kit
 HardcoreEnderExpansion:silverfish_blood, Sang de Lépisme
 HardcoreEnderExpansion:exp_bottle_consistent, Fiole d'expérience
 HardcoreEnderExpansion:altar_nexus, Noyau d'autel
@@ -6350,65 +5620,10 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Terre cuite rouge
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Terre cuite noire
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bois d'acacia
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bois de chêne noir
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre Sombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roche Sombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Briques de Pierre Sombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de Pierres Sombre brillantes
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de paille
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Terre cuite
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de charbon
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Glace compactée
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Brique de Pierre Sombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Roche Sombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bois de Chêne des Terres Sombres
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §9Pierre Abyssale
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §9Briques de Pierre Abyssale
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §9Double-Dalle de Brique de Pierre Abyssale
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de Coralium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai d'Abyssalnite
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §3Bloc d'Abyssalnite
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Coralium Infusé de Pierre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Pierre Sombre
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Planche de Bois de Chêne des Terres Sombres
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Bois de Chêne des Terres Sombres
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §bBloc de Coralium Raffiné
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de Coralium Abyssal
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre Redouté
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roche d'Abyssalnite
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai d'Abyssalnite des Terres de L'Effroi
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai d'Abyssalnite Redouté
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Briques de Pierre Redouté
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Briques de Pierre d'Abyssalnite
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bûche de Bois des Terres de l'Effroi
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Planches de Bois des Terres de l'Effroi
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Brique de Pierre Redouté
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Brique de Pierre d'Abyssalnite
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de Coralium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Brique de Coralium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §4Block of Dreadium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Nitre Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Abyssal Iron Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Abyssal Gold Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Abyssal Diamond Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Abyssal Nitre Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Abyssal Tin Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Abyssal Copper Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pearlescent Coralium Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Liquified Coralium Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Solid lava
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §bEthaxium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §bEthaxium Brick
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §bChiseled Ethaxium Brick
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §bEthaxium Pillar
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §bEthaxium Brick Doubleslab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §bBlock of Ethaxium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Omothol Stone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §4Dark Ethaxium Brick
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §4Chiseled Dark Ethaxium Brick
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §4Dark Ethaxium Pillar
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §4Dark Ethaxium Brick Doubleslab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shoggoth Ooze
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Monolith Stone
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bois arcanique
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bois d'argent
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de poudre du Néant
@@ -6821,10 +6036,10 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Obsidienne runée (Cr
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Obsidienne runée (Slime)
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Obsidienne runée (Chauve-souris)
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Obsidienne runée (Feu-follet)
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pillar Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Tainted Planks
@@ -7126,19 +6341,6 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Snow Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Blood-stained Wool
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Mirror Surface
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Torment Stone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de Vinteum
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de Chimerite
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de Topaze Bleue
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de Pierre Lunaire
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de Pierre Solaire
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Pierre Lunaire
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Vinteum
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Topaze Bleue
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Pierre Solaire
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Chimérite
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bois Magique
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Planches Magiques
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Witchwood Slab
 appliedenergistics2:item.ItemCrystalSeed:0, Graine de Quartz Certus
 appliedenergistics2:item.ItemCrystalSeed:600, Graine de Quartz du Nether
 appliedenergistics2:item.ItemCrystalSeed:1200, Graine de Fluix
@@ -8129,8 +7331,6 @@ ForbiddenMagic:WandCores:2000, Bâton Neutronium cosmique Orichalcum Studded
 ForbiddenMagic:WandCores:36, Baguette Profane à embout de fer
 ForbiddenMagic:WandCores:84, Baguette Sang Alchemically Crowned
 ForbiddenMagic:WandCores:168, Bâton Sang Alchemically Crowned
-ForbiddenMagic:WandCores:72, Baguette Bois de sorcière Vinteum Bossed
-ForbiddenMagic:WandCores:144, Bâton Bois de sorcière Vinteum Bossed
 ForbiddenMagic:WandCores:84, Baguette Bois vivant Manasteel Entwined
 ForbiddenMagic:WandCores:84, Baguette Dreamwood Elementium Kissed
 ForbiddenMagic:WandCores:144, Bâton Dreamwood Elementium Kissed
@@ -8673,8 +7873,6 @@ MagicCookie:ItemGrog:1, Jug
 MagicCookie:ItemGrog:2, Hardened Clay flask
 MagicCookie:ItemGrog:3, Soft clay flask
 MagicCookie:ItemGolemBell, Advanced Golem Bell
-MagicCookie:MagicCookie:0, Mana Cookie
-MagicCookie:MagicCookie:0, Mana Cookie
 MagicCookie:MagicCookie:0, Mana Cookie
 MagicCookie:MagicCookie:0, Mana Cookie
 MagicCookie:MagicCookie:0, Mana Cookie
@@ -9695,9 +8893,6 @@ WitchingGadgets:item.WG_PrimordialHelm, Primordial Helm
 WitchingGadgets:item.WG_PrimordialChest, Primordial Cuirass
 WitchingGadgets:item.WG_PrimordialLegs, Primordial Greaves
 WitchingGadgets:item.WG_PrimordialBoots, Primordial Boots
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
