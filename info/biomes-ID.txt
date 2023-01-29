@@ -67,29 +67,9 @@ Aether II :
     I:"Aether Biome ID"=40
     I:"Dungeon Biome ID"=41
 
-Ars Magica 2 :
--------------------------------
-    I:WitchwoodForestBiomeID=200
-
 Applied Energistics 2 :
 -------------------------------
     I:storageBiomeID=42
-
-AbyssalCraft :
--------------------------------
-    I:"Abyssal Wasteland"=101
-    I:"Coralium Infested Swamp"=110
-    I:"Dark Realm"=113
-    I:Darklands=100
-    I:"Darklands Forest"=106
-    I:"Darklands Highland"=108
-    I:"Darklands Mountains"=109
-    I:"Darklands Plains"=107
-    I:Dreadlands=114
-    I:"Dreadlands Forest"=116
-    I:"Dreadlands Mountains"=117
-    I:Omothol=112
-    I:"Purified Dreadlands"=115
 
 EssentialCraft :
 -------------------------------
@@ -103,7 +83,7 @@ EssentialCraft :
 Thaumcraft
 -------------------------------
     I:biome_eerie=150
-    I:biome_eldritch=151
+    I:biome_eldritch=43
     I:biome_magical_forest=152
     I:biome_taint=153
 

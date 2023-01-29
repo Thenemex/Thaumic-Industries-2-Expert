@@ -9,13 +9,6 @@ Aether II :
     I:"Aether Dimension ID"=3
     I:"Dungeon Dimension ID"=4
 
-AbyssalCraft:
--------------------------------
-    I:Omothol=52
-    I:"The Abyssal Wasteland"=50
-    I:"The Dark Realm"=53
-    I:"The Dreadlands"=51
-
 EssentialCraft :
 -------------------------------
     I:"Hoanna ID"=63
