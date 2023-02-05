@@ -1,7 +1,7 @@
 var colorpalette={
   "version": 3,
   "name": "Palette de couleurs de JourneyMap",
-  "generated": "Generated using JourneyMap 5.1.4p2 FairPlay for 1.7.10 on Fri Jan 27 19:08:58 CET 2023",
+  "generated": "Generated using JourneyMap 5.1.4p2 FairPlay for 1.7.10 on Sun Feb 05 11:41:18 CET 2023",
   "description": [
     "Ce fichier peut être utilisé pour garder les même couleurs lorsque on change le pack de ressources.",
     "Editez à vos risques et périls. Vous pouvez le voir en utilisant le fichier colorpalette.html .",
@@ -11,14 +11,8 @@ var colorpalette={
   ],
   "permanent": false,
   "resourcePacks": "Faithful.zip:zip:1492956712000, ThaumcraftHD_0.6.zip:zip:1492938224000",
-  "modNames": "AI Improvements:0.0.1.8, AMCore:0.0.3, AbyssalCraft Integration:1.4.7, AbyssalCraft:1.9.1.3, AdvancedVanilla2:2.0.0.0, Aether Aspects:Alpha 1.7.10-1.2, Aether II:1.7.10-1.6, AnimationAPI:1.2.4, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, Applied Energistics 2 Core:rv3-beta-6, Applied Energistics 2:rv3-beta-6, Arcane Engineering:0.2.7, Ars Magica 2 Plant Fix:1.0, Ars Magica 2:1.4.0.009, Automagy:0.28.2, Avaritia:1.13, BD Lib:1.9.4.109, Baubles:1.0.1.10, Better Boat:1.1.0, BiblioCraft:1.11.7, Blood Arsenal:1.2-5, Blood Magic: Alchemical Wizardry:v1.3.3, Bookshelf:1.0.4.187, Botania:r1.8-249, BotaniaVisualizer:1.7.2-1.0a, Botanic-Energistics:@version@, Botanical Addons:0.1.20, ChickenChunks:1.3.4.19, Classic Oceans:1.7.10-1.0.0, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.48, Compact Solar Arrays:4.4.39.315, CosmeticArmorReworked:1.7.10-v7, Craft Arcanum:1.1.1, CraftPresence:1.9.6, Crafting Tweaks:1.0.88, Custom Main Menu:1.9.2, Dense Ores:1.0, Ding:MC1.7.10v2, DummyCore:1.13, Electro-Magic Tools:1.2.6.2, Ender Zoo:1.7.10-1.0.15.32, Essential Craft 4:4.6.1710.70, Essential Thaumaturgy:1.1.1710.0, Extra Cells 2:2.4.0, FPS Reducer:mc1.7.10-1.10.3, FalsePatternLib:0.10.14, Fast Leaf Decay:1.4, FoamFix:@VERSION@, FoamFixCore:1.0.2, Forbidden Magic:1.7.10-0.575, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, Forgotten Relics:1.7.3, Fullscreen Windowed:1.3.0, Gadomancy:1.0.7.3, GenDustry:1.6.3.132, Gilded Games Utility:1.7.10-1.2, Gravestone:0.7.10.3, Guide-API:1.7.10-1.0.1-20, Hardcore Ender Expansion:1.8.6, Hardcore Wither:1.1.3, HelpFixer:1.0.7, IC2 Wrench Plugin:0.0.1, Immersive Engineering:0.7.7, Immersive Integration:0.6.8, In-Game wiki Mod:1.1.12-34, IndustrialCraft 2:2.2.827-experimental, Infernal Mobs:1.6.0, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Backpacks:1.7.10-1.2.20, Iron Chest:6.0.62.742, JCTweaks:1.25, Journey Map Api for 1.7.10:0.8.9, JourneyMap:5.1.4p2, LLibrary:1.5.1, Lava Monsters:2.2.1, MJUtils:1.6.1, Magic Bees:2.4.4, Magic Cookies, something yummy:1.0.7.1, Magical Decorations:0.3.5, MineTweaker 3:3.0.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, MmmMmmMmmMmm:1.0, Mob Properties:1.0.2, Mod Checker:0.0.6, Mod Tweaker 2:0.9.6, Morpheus:1.7.10-1.6.21, Mouse Tweaks:2.4.4, NEI Addons: Applied Energistics 2:1.12.14.40, NEI Addons: Botany:1.12.14.40, NEI Addons: Crafting Tables:1.12.14.40, NEI Addons: Developer Tools:1.12.14.40, NEI Addons: Ex Nihilo:1.12.14.40, NEI Addons: Forestry:1.12.14.40, NEI Addons:1.12.14.40, NEI Integration:1.1.2, NOVA:2015-10-09, Nether Ores:1.7.10R2.3.1, Nether Portal Fix:1.0, NodalMechanics:1.7.10R1.0, Not Enough Items:1.0.5.120, Not Enough Resources:0.1.0.ManuallyBuilt, NotEnoughEnergistics:@VERSION@, NotEnoughIDs:1.4.3.4, NotEnoughThaumcraftTabs:1.0.2, Nuclear Control 2:2.4.5a, Player API:1.4, ReAuth:4.0.3, Resource Loader:1.3, Sanguimancy:1.7.10-1.1.9-35, Server Tab Info:Final-b3, Special AI:1.1.2, SpongeMixins Loader:1.2.0, Storage Drawers NEI Fix:1.0, Storage Drawers: Forestry Pack:1.7.10-1.1.2, Storage Drawers:1.7.10-1.10.9, Symcalc:0.14, TC Inventory Scanning:1.0.11, TC Node Tracker:1.1.2, TCBotaniaExoflame:1.0, Tainted Magic:8.1.1, Talismans 2:1.1.6, ThaumOres:1.6.0, Thaumaturgical Knowledge:0.1.5.1, Thaumcraft Mob Aspects:1.7.2-2A, Thaumcraft NEI Plugin:@VERSION@, Thaumcraft:4.2.3.5, Thaumic Bases:1.3.1710.2, Thaumic Dyes:1.10.5, Thaumic Energistics Core:1.0.0.1, Thaumic Energistics:1.1.3.0, Thaumic Exploration:0.6.0, Thaumic Horizons:1.1.9, Thaumic Tinkerer Core:0.1, Thaumic Tinkerer:unspecified, Thaumic Upholstry:1.0, The Twilight Forest:2.3.8dev, Threaded Lighting:1.7.10-1.0, Tick Dynamic:0.1.5, Traveller\u0027s Gear:1.16.6, UniDict:1.7.10-2.9.2, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, Witchery:0.24.1, WitcheryPatch:1.0.0, Witching Gadgets Core:1.1.10, Witching Gadgets:1.1.10, debug:1.0, kinetic anti-cheat:7.3.1",
+  "modNames": "AI Improvements:0.0.1.8, AdvancedVanilla2:2.0.0.0, Aether Aspects:Alpha 1.7.10-1.2, Aether II:1.7.10-1.6, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, Applied Energistics 2 Core:rv3-beta-6, Applied Energistics 2:rv3-beta-6, Arcane Engineering:0.2.7, Automagy:0.28.2, Avaritia:1.13, BD Lib:1.9.4.109, Baubles:1.0.1.10, Better Boat:1.1.0, BiblioCraft:1.11.7, Bigger Packets, please !:1.2, Blood Arsenal:1.2-5, Blood Magic: Alchemical Wizardry:v1.3.3, Bookshelf:1.0.4.187, Botania:r1.8-249, BotaniaVisualizer:1.7.2-1.0a, Botanic-Energistics:@version@, Botanical Addons:0.1.20, ChickenChunks:1.3.4.19, Classic Oceans:1.7.10-1.0.0, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.48, Compact Solar Arrays:4.4.39.315, CosmeticArmorReworked:1.7.10-v7, Craft Arcanum:1.1.1, CraftPresence:1.9.6, Crafting Tweaks:1.0.88, Custom Main Menu:1.9.2, Dense Ores:1.0, Ding:MC1.7.10v2, DummyCore:1.13, Electro-Magic Tools:1.2.6.2, Ender Zoo:1.7.10-1.0.15.32, Essential Craft 4:4.6.1710.70, Essential Thaumaturgy:1.1.1710.0, Extra Cells 2:2.4.0, FPS Reducer:mc1.7.10-1.10.3, FalsePatternLib:0.10.14, Fast Leaf Decay:1.4, FoamFix:@VERSION@, FoamFixCore:1.0.2, Forbidden Magic:1.7.10-0.575, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, Forgotten Relics:1.7.3, Fullscreen Windowed:1.3.0, Gadomancy:1.0.7.3, Garden Containers:1.7.10-1.7.0, Garden Core:1.7.10-1.7.0, Garden Stuff:1.7.10-1.7.0, Garden Trees:1.7.10-1.7.0, GenDustry:1.6.3.132, Gilded Games Utility:1.7.10-1.2, Gravestone:0.7.10.3, Guide-API:1.7.10-1.0.1-20, Hardcore Ender Expansion:1.8.6, Hardcore Wither:1.1.3, HelpFixer:1.0.7, IC2 Wrench Plugin:0.0.1, Immersive Engineering:0.7.7, Immersive Integration:0.6.8, In-Game wiki Mod:1.1.12-34, IncreaseMobs:1.0.0, IndustrialCraft 2:2.2.827-experimental, Infernal Mobs:1.6.0, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Backpacks:1.7.10-1.2.20, Iron Chest:6.0.62.742, JCTweaks:1.25, Journey Map Api for 1.7.10:0.8.9, JourneyMap:5.1.4p2, LLibrary:1.5.1, Lava Monsters:2.2.1, MJUtils:1.6.1, Magic Bees:2.4.4, Magic Cookies, something yummy:1.0.7.1, Magical Decorations:0.3.5, MineTweaker 3:3.0.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, MmmMmmMmmMmm:1.0, Mob Properties:1.0.2, Mod Tweaker 2:0.9.6, Morpheus:1.7.10-1.6.21, Mouse Tweaks:2.4.4, NEI Addons: Applied Energistics 2:1.12.14.40, NEI Addons: Botany:1.12.14.40, NEI Addons: Crafting Tables:1.12.14.40, NEI Addons: Developer Tools:1.12.14.40, NEI Addons: Ex Nihilo:1.12.14.40, NEI Addons: Forestry:1.12.14.40, NEI Addons:1.12.14.40, NEI Integration:1.1.2, NOVA:2015-10-09, Nether Ores:1.7.10R2.3.1, Nether Portal Fix:1.0, NodalMechanics:1.7.10R1.0, Not Enough Items:1.0.5.120, Not Enough Resources:0.1.0.ManuallyBuilt, NotEnoughEnergistics:@VERSION@, NotEnoughIDs:1.4.3.4, NotEnoughKeys:@MOD_VERSION@, NotEnoughThaumcraftTabs:1.0.2, Nuclear Control 2:2.4.5a, Player API:1.4, ReAuth:4.0.3, Resource Loader:1.3, Sanguimancy:1.7.10-1.1.9-35, Server Tab Info:Final-b3, Special AI:1.1.2, SpongeMixins Loader:1.2.0, Storage Drawers NEI Fix:1.0, Storage Drawers: Forestry Pack:1.7.10-1.1.2, Storage Drawers:1.7.10-1.10.9, Symcalc:0.14, TC Inventory Scanning:1.0.11, TC Node Tracker:1.1.2, TCBotaniaExoflame:1.0, Tainted Magic:8.1.1, Talismans 2:1.1.6, ThaumOres:1.6.0, Thaumaturgical Knowledge:0.1.5.1, Thaumcraft Mob Aspects:1.7.2-2A, Thaumcraft NEI Plugin:@VERSION@, Thaumcraft:4.2.3.5, Thaumic Bases:1.3.1710.2, Thaumic Dyes:1.10.5, Thaumic Energistics Core:1.0.0.1, Thaumic Energistics:1.1.3.0, Thaumic Exploration:0.6.0, Thaumic Horizons:1.1.9, Thaumic Tinkerer Core:0.1, Thaumic Tinkerer:unspecified, Thaumic Upholstry:1.0, The Twilight Forest:2.3.8dev, Threaded Lighting:1.7.10-1.0, Tick Dynamic:0.1.5, Traveller\u0027s Gear:1.16.6, UniDict:1.7.10-2.9.2, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, Witchery:0.24.1, WitcheryPatch:1.0.0, Witching Gadgets Core:1.1.10, Witching Gadgets:1.1.10, debug:1.0, kinetic anti-cheat:7.3.1",
   "basicColors": [
-    {
-      "name": "A House",
-      "uid": "abyssalcraft:engraver_on",
-      "meta": 0,
-      "color": "#9a7f54"
-    },
     {
       "name": "ADN liquide",
       "uid": "gendustry:fluid.LiquidDNA",
@@ -31,54 +25,6 @@ var colorpalette={
       "uid": "Forestry:apiculture",
       "meta": 2,
       "color": "#6e5231"
-    },
-    {
-      "name": "Abyssal Copper Ore",
-      "uid": "abyssalcraft:abycopore",
-      "meta": 0,
-      "color": "#26210a"
-    },
-    {
-      "name": "Abyssal Diamond Ore",
-      "uid": "abyssalcraft:abydiaore",
-      "meta": 0,
-      "color": "#1e352d"
-    },
-    {
-      "name": "Abyssal Gold Ore",
-      "uid": "abyssalcraft:abygolore",
-      "meta": 0,
-      "color": "#2c341a"
-    },
-    {
-      "name": "Abyssal Iron Ore",
-      "uid": "abyssalcraft:abyiroore",
-      "meta": 0,
-      "color": "#252b1c"
-    },
-    {
-      "name": "Abyssal Nitre Ore",
-      "uid": "abyssalcraft:abynitore",
-      "meta": 0,
-      "color": "#141e0f"
-    },
-    {
-      "name": "Abyssal Tin Ore",
-      "uid": "abyssalcraft:abytinore",
-      "meta": 0,
-      "color": "#283328"
-    },
-    {
-      "name": "Abyssal Wasteland Energy Pedestal",
-      "uid": "abyssalcraft:tieredenergypedestal",
-      "meta": 1,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Abyssal Wasteland Sacrificial Altar",
-      "uid": "abyssalcraft:tieredsacrificialaltar",
-      "meta": 1,
-      "color": "#413e3e"
     },
     {
       "name": "Acacia Drawer",
@@ -397,6 +343,18 @@ var colorpalette={
       "color": "#896834"
     },
     {
+      "name": "Alder Wood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 5827,
+      "color": "#aa765e"
+    },
+    {
+      "name": "Alder Wood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 5827,
+      "color": "#aa765e"
+    },
+    {
       "name": "Alfglass Pane",
       "uid": "Botania:elfGlassPane",
       "meta": 0,
@@ -423,12 +381,6 @@ var colorpalette={
     },
     {
       "name": "Altar",
-      "uid": "abyssalcraft:altar",
-      "meta": 0,
-      "color": "#6d5422"
-    },
-    {
-      "name": "Altar",
       "uid": "witchery:altar",
       "meta": 0,
       "color": "#aeaeae"
@@ -450,18 +402,6 @@ var colorpalette={
       "uid": "Sanguimancy:BlockAltarManipulator",
       "meta": 0,
       "color": "#7c007c"
-    },
-    {
-      "name": "Altar of Cha\u0027garoth (bottom)",
-      "uid": "abyssalcraft:dreadaltarbottom",
-      "meta": 0,
-      "color": "#7f0000"
-    },
-    {
-      "name": "Altar of Cha\u0027garoth (top)",
-      "uid": "abyssalcraft:dreadaltartop",
-      "meta": 0,
-      "color": "#7f0000"
     },
     {
       "name": "Aluminium Fence",
@@ -552,7 +492,8 @@ var colorpalette={
       "name": "Ambre rayonnant",
       "uid": "Automagy:blockTranslucent",
       "meta": 0,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "Amélioration Diabolo des Maléfices",
@@ -831,12 +772,6 @@ var colorpalette={
       "color": "#2b5150"
     },
     {
-      "name": "Appât à Lucioles",
-      "uid": "arsmagica2:flickerLure",
-      "meta": 0,
-      "color": "#a9abd6"
-    },
-    {
       "name": "Aqua Imbued Fire",
       "uid": "ThaumicTinkerer:fireWater",
       "meta": 0,
@@ -951,12 +886,6 @@ var colorpalette={
       "color": "#38331c"
     },
     {
-      "name": "Aum",
-      "uid": "arsmagica2:Aum",
-      "meta": 0,
-      "color": "#779767"
-    },
-    {
       "name": "Aura Pylon",
       "uid": "gadomancy:BlockAuraPylon",
       "meta": 0,
@@ -1021,12 +950,6 @@ var colorpalette={
       "color": "#a1a1a1"
     },
     {
-      "name": "Autel de Création",
-      "uid": "arsmagica2:CraftingAltar",
-      "meta": 0,
-      "color": "#676767"
-    },
-    {
       "name": "Autel de Sang",
       "uid": "AWWayofTime:Altar",
       "meta": 0,
@@ -1067,12 +990,6 @@ var colorpalette={
       "uid": "AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm",
       "meta": 1,
       "color": "#7c007c"
-    },
-    {
-      "name": "Azathoth Statue",
-      "uid": "abyssalcraft:azathothstatue",
-      "meta": 0,
-      "color": "#181f1c"
     },
     {
       "name": "Azuléjo",
@@ -1353,47 +1270,6 @@ var colorpalette={
       "uid": "minecraft:fence",
       "meta": 0,
       "color": "#a68753",
-      "alpha": 0.4
-    },
-    {
-      "name": "Barrière Astrale",
-      "uid": "arsmagica2:astralBarrier",
-      "meta": 0,
-      "color": "#5a759c"
-    },
-    {
-      "name": "Barrière de Bois de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltfence",
-      "meta": 0,
-      "color": "#25211a",
-      "alpha": 0.4
-    },
-    {
-      "name": "Barrière de Brique de Coralium",
-      "uid": "abyssalcraft:cstonebrickfence",
-      "meta": 0,
-      "color": "#445856",
-      "alpha": 0.4
-    },
-    {
-      "name": "Barrière de Brique de Pierre Redouté",
-      "uid": "abyssalcraft:dreadbrickfence",
-      "meta": 0,
-      "color": "#410704",
-      "alpha": 0.4
-    },
-    {
-      "name": "Barrière de Brique de Pierre Sombre",
-      "uid": "abyssalcraft:dsbfence",
-      "meta": 0,
-      "color": "#22212a",
-      "alpha": 0.4
-    },
-    {
-      "name": "Barrière de Brique de Pierre d\u0027Abyssalnite",
-      "uid": "abyssalcraft:abydreadbrickfence",
-      "meta": 0,
-      "color": "#240949",
       "alpha": 0.4
     },
     {
@@ -1842,6 +1718,30 @@ var colorpalette={
       "color": "#ebebeb"
     },
     {
+      "name": "Barrière en fer forgé",
+      "uid": "GardenStuff:fence",
+      "meta": 0,
+      "color": "#181818"
+    },
+    {
+      "name": "Barrière en fer forgé",
+      "uid": "GardenStuff:fence",
+      "meta": 1,
+      "color": "#1b1b1b"
+    },
+    {
+      "name": "Barrière en fer forgé",
+      "uid": "GardenStuff:fence",
+      "meta": 2,
+      "color": "#151515"
+    },
+    {
+      "name": "Barrière en fer forgé",
+      "uid": "GardenStuff:fence",
+      "meta": 3,
+      "color": "#161616"
+    },
+    {
       "name": "Basalt",
       "uid": "Botania:stone",
       "meta": 1,
@@ -1936,12 +1836,6 @@ var colorpalette={
       "uid": "IC2:blockElectric",
       "meta": 7,
       "color": "#a24f14"
-    },
-    {
-      "name": "Batterie à Mana",
-      "uid": "arsmagica2:manaBattery",
-      "meta": 0,
-      "color": "#9ea39c"
     },
     {
       "name": "Beartrap",
@@ -2204,18 +2098,6 @@ var colorpalette={
       "color": "#fee3d0"
     },
     {
-      "name": "Bloc Illusoire",
-      "uid": "arsmagica2:illusionBlock",
-      "meta": 0,
-      "color": "#6b0e70"
-    },
-    {
-      "name": "Bloc Illusoire",
-      "uid": "arsmagica2:illusionBlock",
-      "meta": 1,
-      "color": "#6b0e70"
-    },
-    {
       "name": "Bloc d\u0027acier",
       "uid": "ImmersiveEngineering:storage",
       "meta": 7,
@@ -2231,13 +2113,15 @@ var colorpalette={
       "name": "Bloc d\u0027ambre",
       "uid": "Thaumcraft:blockCosmeticOpaque",
       "meta": 0,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "Bloc d\u0027ambre taillé",
       "uid": "Thaumcraft:blockCosmeticOpaque",
       "meta": 1,
-      "color": "#ebae5b"
+      "color": "#ebae5b",
+      "alpha": 0.9098039
     },
     {
       "name": "Bloc d\u0027apatite",
@@ -2384,54 +2268,6 @@ var colorpalette={
       "color": "#cfcfcf"
     },
     {
-      "name": "Bloc de Chimérite",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 9,
-      "color": "#b9c2b5"
-    },
-    {
-      "name": "Bloc de Pierre Lunaire",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 2,
-      "color": "#828488"
-    },
-    {
-      "name": "Bloc de Pierre Lunaire",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 5,
-      "color": "#bcc4d0"
-    },
-    {
-      "name": "Bloc de Pierre Solaire",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 8,
-      "color": "#d78350"
-    },
-    {
-      "name": "Bloc de Topaze Bleue",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 3,
-      "color": "#89918b"
-    },
-    {
-      "name": "Bloc de Topaze Bleue",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 7,
-      "color": "#a2d5f8"
-    },
-    {
-      "name": "Bloc de Vinteum",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 4,
-      "color": "#3b2122"
-    },
-    {
-      "name": "Bloc de Vinteum",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 6,
-      "color": "#444fe0"
-    },
-    {
       "name": "Bloc de bronze",
       "uid": "Forestry:resourceStorage",
       "meta": 3,
@@ -2448,6 +2284,12 @@ var colorpalette={
       "uid": "minecraft:coal_block",
       "meta": 0,
       "color": "#121212"
+    },
+    {
+      "name": "Bloc de charbon de bois",
+      "uid": "GardenStuff:stone_block",
+      "meta": 0,
+      "color": "#1a1712"
     },
     {
       "name": "Bloc de commande",
@@ -2496,6 +2338,12 @@ var colorpalette={
       "uid": "minecraft:iron_block",
       "meta": 0,
       "color": "#dddddd"
+    },
+    {
+      "name": "Bloc de fer forgé",
+      "uid": "GardenStuff:metal_block",
+      "meta": 0,
+      "color": "#232323"
     },
     {
       "name": "Bloc de ferme",
@@ -2909,7 +2757,8 @@ var colorpalette={
       "name": "Bloc mémoire",
       "uid": "Automagy:blockMetalGlow",
       "meta": 0,
-      "color": "#4c3e2e"
+      "color": "#4c3e2e",
+      "alpha": 0.99607843
     },
     {
       "name": "Block d\u0027uranium",
@@ -2951,7 +2800,8 @@ var colorpalette={
       "name": "Blood Burned String",
       "uid": "BloodArsenal:block_burned_string",
       "meta": 0,
-      "color": "#945d5d"
+      "color": "#945d5d",
+      "alpha": 0.62352943
     },
     {
       "name": "Blood Cake",
@@ -3063,97 +2913,113 @@ var colorpalette={
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 0,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 1,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 2,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 3,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 4,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 5,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 6,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 7,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 8,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 9,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 10,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 11,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 12,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 13,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 14,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Tank",
       "uid": "Sanguimancy:BlockBloodTank",
       "meta": 15,
-      "color": "#940000"
+      "color": "#940000",
+      "alpha": 0.87058824
     },
     {
       "name": "Blood Torch",
@@ -3208,7 +3074,8 @@ var colorpalette={
       "name": "Blue Force Field",
       "uid": "TwilightForest:tile.ForceField",
       "meta": 4,
-      "color": "#0ddeff"
+      "color": "#0ddeff",
+      "alpha": 0.52156866
     },
     {
       "name": "Blue Portuguese Pavement",
@@ -3300,15 +3167,21 @@ var colorpalette={
       "color": "#d9eff3"
     },
     {
-      "name": "Bois Magique",
-      "uid": "arsmagica2:WitchwoodLog",
-      "meta": 0,
-      "color": "#574f6a"
-    },
-    {
       "name": "Bois arcanique",
       "uid": "Thaumcraft:blockMagicalLog",
       "meta": 0,
+      "color": "#886d48"
+    },
+    {
+      "name": "Bois arcanique Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 176,
+      "color": "#886d48"
+    },
+    {
+      "name": "Bois arcanique Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 176,
       "color": "#886d48"
     },
     {
@@ -3330,10 +3203,16 @@ var colorpalette={
       "color": "#a89d84"
     },
     {
-      "name": "Bois de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltlog",
-      "meta": 0,
-      "color": "#0f0e0e"
+      "name": "Bois d\u0027argent Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 4272,
+      "color": "#a89d84"
+    },
+    {
+      "name": "Bois d\u0027argent Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 4272,
+      "color": "#a89d84"
     },
     {
       "name": "Bois de Mélèze",
@@ -3865,24 +3744,6 @@ var colorpalette={
       "color": "#a68753"
     },
     {
-      "name": "Bouton de Pierre Sombre",
-      "uid": "abyssalcraft:dsbutton",
-      "meta": 0,
-      "color": "#23202c"
-    },
-    {
-      "name": "Bouton de Pierre de Coralium",
-      "uid": "abyssalcraft:cstonebutton",
-      "meta": 0,
-      "color": "#435956"
-    },
-    {
-      "name": "Boutton de Bois de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltbutton",
-      "meta": 0,
-      "color": "#25211a"
-    },
-    {
       "name": "Boîte aux lettres",
       "uid": "Forestry:mail",
       "meta": 0,
@@ -3892,7 +3753,8 @@ var colorpalette={
       "name": "Bras structurel",
       "uid": "ImmersiveEngineering:metalDecoration",
       "meta": 3,
-      "color": "#464646"
+      "color": "#464646",
+      "alpha": 0.9843137
     },
     {
       "name": "Brazier",
@@ -3904,7 +3766,8 @@ var colorpalette={
       "name": "Briar",
       "uid": "thaumicbases:briar",
       "meta": 0,
-      "color": "#0e5600"
+      "color": "#0e5600",
+      "alpha": 0.91764706
     },
     {
       "name": "Bricoleur d\u0027étincelle",
@@ -3943,22 +3806,10 @@ var colorpalette={
       "color": "#432a1b"
     },
     {
-      "name": "Brique de Coralium",
-      "uid": "abyssalcraft:cstonebrick",
-      "meta": 0,
-      "color": "#445856"
-    },
-    {
       "name": "Brique de Holystone",
       "uid": "aether:holystoneBrick",
       "meta": 0,
       "color": "#8d8d8d"
-    },
-    {
-      "name": "Brique de Pierres Sombre brillantes",
-      "uid": "abyssalcraft:dsglow",
-      "meta": 0,
-      "color": "#212029"
     },
     {
       "name": "Brique de Roche-Sang",
@@ -4204,7 +4055,8 @@ var colorpalette={
       "name": "Briques d\u0027ambre rayonnant",
       "uid": "Automagy:blockTranslucent",
       "meta": 1,
-      "color": "#ebae5b"
+      "color": "#ebae5b",
+      "alpha": 0.9098039
     },
     {
       "name": "Briques d\u0027andésite",
@@ -4217,24 +4069,6 @@ var colorpalette={
       "uid": "AWWayofTime:blockCrystal",
       "meta": 1,
       "color": "#560254"
-    },
-    {
-      "name": "Briques de Pierre Redouté",
-      "uid": "abyssalcraft:dreadbrick",
-      "meta": 0,
-      "color": "#530503"
-    },
-    {
-      "name": "Briques de Pierre Sombre",
-      "uid": "abyssalcraft:darkstone_brick",
-      "meta": 0,
-      "color": "#212029"
-    },
-    {
-      "name": "Briques de Pierre d\u0027Abyssalnite",
-      "uid": "abyssalcraft:abydreadbrick",
-      "meta": 0,
-      "color": "#2c0660"
     },
     {
       "name": "Briques de basalt",
@@ -4259,6 +4093,48 @@ var colorpalette={
       "uid": "Botania:stone",
       "meta": 15,
       "color": "#a57967"
+    },
+    {
+      "name": "Briques de pierre moussue",
+      "uid": "GardenStuff:moss_brick",
+      "meta": 0,
+      "color": "#6c745a"
+    },
+    {
+      "name": "Briques de pierre moussue",
+      "uid": "GardenStuff:moss_brick",
+      "meta": 1,
+      "color": "#66724c"
+    },
+    {
+      "name": "Briques de pierre moussue",
+      "uid": "GardenStuff:moss_brick",
+      "meta": 2,
+      "color": "#606f3c"
+    },
+    {
+      "name": "Briques de pierre moussue craquelée",
+      "uid": "GardenStuff:moss_brick",
+      "meta": 3,
+      "color": "#6f7367"
+    },
+    {
+      "name": "Briques de pierre moussue craquelée",
+      "uid": "GardenStuff:moss_brick",
+      "meta": 4,
+      "color": "#697157"
+    },
+    {
+      "name": "Briques de pierre moussue craquelée",
+      "uid": "GardenStuff:moss_brick",
+      "meta": 5,
+      "color": "#65704a"
+    },
+    {
+      "name": "Briques de pierre moussue craquelée",
+      "uid": "GardenStuff:moss_brick",
+      "meta": 6,
+      "color": "#5f6d3b"
     },
     {
       "name": "Briques du Nether",
@@ -4393,12 +4269,6 @@ var colorpalette={
       "uid": "ImmersiveEngineering:stoneDecoration",
       "meta": 4,
       "color": "#776d66"
-    },
-    {
-      "name": "Bûche de Bois des Terres de l\u0027Effroi",
-      "uid": "abyssalcraft:dreadlog",
-      "meta": 0,
-      "color": "#680909"
     },
     {
       "name": "Cabled Daisy",
@@ -4689,12 +4559,6 @@ var colorpalette={
       "color": "#666e71"
     },
     {
-      "name": "Caisse de Bois",
-      "uid": "abyssalcraft:Crate",
-      "meta": 0,
-      "color": "#9a7f54"
-    },
-    {
       "name": "Caisse de stockage en bois",
       "uid": "ImmersiveEngineering:woodenDevice",
       "meta": 4,
@@ -4713,16 +4577,16 @@ var colorpalette={
       "color": "#7c007c"
     },
     {
-      "name": "Caléfacteur",
-      "uid": "arsmagica2:calefactor",
-      "meta": 0,
-      "color": "#676767"
-    },
-    {
       "name": "Candelabra",
       "uid": "witchery:candelabra",
       "meta": 0,
       "color": "#6e6b5c"
+    },
+    {
+      "name": "Candelilla",
+      "uid": "GardenTrees:candelilla_bush",
+      "meta": 0,
+      "color": "#8aa324"
     },
     {
       "name": "Canne à sucre",
@@ -4749,6 +4613,18 @@ var colorpalette={
       "color": "#53402c"
     },
     {
+      "name": "Canopy Tree Wood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 5757,
+      "color": "#53402c"
+    },
+    {
+      "name": "Canopy Tree Wood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 5757,
+      "color": "#53402c"
+    },
+    {
       "name": "Capteur de lumière du jour",
       "uid": "minecraft:daylight_detector",
       "meta": 0,
@@ -4758,13 +4634,15 @@ var colorpalette={
       "name": "Capuchon de connection BT",
       "uid": "ImmersiveEngineering:metalDevice",
       "meta": 0,
-      "color": "#86543e"
+      "color": "#86543e",
+      "alpha": 0.99607843
     },
     {
       "name": "Capuchon de connection HT",
       "uid": "ImmersiveEngineering:metalDevice",
       "meta": 6,
-      "color": "#4e352a"
+      "color": "#4e352a",
+      "alpha": 0.99607843
     },
     {
       "name": "Capuchon de connection MT",
@@ -4857,23 +4735,11 @@ var colorpalette={
       "color": "#323232"
     },
     {
-      "name": "Cerublossom",
-      "uid": "arsmagica2:blueOrchid",
-      "meta": 0,
-      "color": "#6482ba"
-    },
-    {
       "name": "Cerveau en bocal",
       "uid": "Thaumcraft:blockJar",
       "meta": 1,
       "color": "#6a7683",
       "alpha": 0.4
-    },
-    {
-      "name": "Cha\u0027garoth Spawner Block",
-      "uid": "abyssalcraft:chagarothspawner",
-      "meta": 0,
-      "color": "#7f0000"
     },
     {
       "name": "Chaise en acacia",
@@ -4993,7 +4859,8 @@ var colorpalette={
       "name": "Champignon miroitant cyan",
       "uid": "Botania:mushroom",
       "meta": 9,
-      "color": "#42ad9e"
+      "color": "#42ad9e",
+      "alpha": 0.9843137
     },
     {
       "name": "Champignon miroitant gris",
@@ -5005,7 +4872,8 @@ var colorpalette={
       "name": "Champignon miroitant gris clair",
       "uid": "Botania:mushroom",
       "meta": 8,
-      "color": "#b5a99c"
+      "color": "#b5a99c",
+      "alpha": 0.99607843
     },
     {
       "name": "Champignon miroitant jaune",
@@ -5047,7 +4915,8 @@ var colorpalette={
       "name": "Champignon miroitant vert",
       "uid": "Botania:mushroom",
       "meta": 6,
-      "color": "#e09188"
+      "color": "#e09188",
+      "alpha": 0.9882353
     },
     {
       "name": "Champignon miroitant vert",
@@ -5179,43 +5048,50 @@ var colorpalette={
       "name": "Chaos Corruption",
       "uid": "essentialcraft:chaos",
       "meta": 1,
-      "color": "#f73a38"
+      "color": "#f73a38",
+      "alpha": 0.101960786
     },
     {
       "name": "Chaos Corruption",
       "uid": "essentialcraft:chaos",
       "meta": 2,
-      "color": "#f63432"
+      "color": "#f63432",
+      "alpha": 0.20784314
     },
     {
       "name": "Chaos Corruption",
       "uid": "essentialcraft:chaos",
       "meta": 3,
-      "color": "#f63837"
+      "color": "#f63837",
+      "alpha": 0.23529412
     },
     {
       "name": "Chaos Corruption",
       "uid": "essentialcraft:chaos",
       "meta": 4,
-      "color": "#f63332"
+      "color": "#f63332",
+      "alpha": 0.25882354
     },
     {
       "name": "Chaos Corruption",
       "uid": "essentialcraft:chaos",
       "meta": 5,
-      "color": "#f6302f"
+      "color": "#f6302f",
+      "alpha": 0.29411766
     },
     {
       "name": "Chaos Corruption",
       "uid": "essentialcraft:chaos",
       "meta": 6,
-      "color": "#f62f2e"
+      "color": "#f62f2e",
+      "alpha": 0.3019608
     },
     {
       "name": "Chaos Corruption",
       "uid": "essentialcraft:chaos",
       "meta": 7,
-      "color": "#f62e2c"
+      "color": "#f62e2c",
+      "alpha": 0.30980393
     },
     {
       "name": "Chaos Fortified Glass",
@@ -5294,7 +5170,8 @@ var colorpalette={
       "name": "Charging Station",
       "uid": "ImmersiveEngineering:metalDevice2",
       "meta": 10,
-      "color": "#785f52"
+      "color": "#785f52",
+      "alpha": 0.9137255
     },
     {
       "name": "Chaudière alchimique",
@@ -5313,6 +5190,66 @@ var colorpalette={
       "uid": "Botania:thatch",
       "meta": 0,
       "color": "#b89c12"
+    },
+    {
+      "name": "Chaîne lourde en fer",
+      "uid": "GardenStuff:heavy_chain",
+      "meta": 0,
+      "color": "#706f6f"
+    },
+    {
+      "name": "Chaîne lourde en fer forgé",
+      "uid": "GardenStuff:heavy_chain",
+      "meta": 4,
+      "color": "#1c1c1c"
+    },
+    {
+      "name": "Chaîne lourde en or",
+      "uid": "GardenStuff:heavy_chain",
+      "meta": 1,
+      "color": "#e0b72a"
+    },
+    {
+      "name": "Chaîne lourde moussue",
+      "uid": "GardenStuff:heavy_chain",
+      "meta": 5,
+      "color": "#62612a"
+    },
+    {
+      "name": "Chaîne lourde rouillée",
+      "uid": "GardenStuff:heavy_chain",
+      "meta": 3,
+      "color": "#964520"
+    },
+    {
+      "name": "Chaîne légère en fer",
+      "uid": "GardenStuff:light_chain",
+      "meta": 0,
+      "color": "#717171"
+    },
+    {
+      "name": "Chaîne légère en fer forgé",
+      "uid": "GardenStuff:light_chain",
+      "meta": 4,
+      "color": "#1c1c1c"
+    },
+    {
+      "name": "Chaîne légère en or",
+      "uid": "GardenStuff:light_chain",
+      "meta": 1,
+      "color": "#deb128"
+    },
+    {
+      "name": "Chaîne légère moussue",
+      "uid": "GardenStuff:light_chain",
+      "meta": 5,
+      "color": "#62622e"
+    },
+    {
+      "name": "Chaîne légère rouillée",
+      "uid": "GardenStuff:light_chain",
+      "meta": 3,
+      "color": "#914521"
     },
     {
       "name": "Cheminée de Corporea",
@@ -6092,6 +6029,12 @@ var colorpalette={
       "color": "#795352"
     },
     {
+      "name": "Composteur",
+      "uid": "GardenCore:compost_bin",
+      "meta": 0,
+      "color": "#463522"
+    },
+    {
       "name": "Compressed Crafting Table",
       "uid": "Avaritia:Double_Craft",
       "meta": 0,
@@ -6200,22 +6143,18 @@ var colorpalette={
       "color": "#710504"
     },
     {
-      "name": "Conduit à Étherium",
-      "uid": "arsmagica2:essenceConduit",
-      "meta": 0,
-      "color": "#676767"
-    },
-    {
       "name": "Connecteur HT",
       "uid": "ImmersiveEngineering:metalDevice",
       "meta": 5,
-      "color": "#398565"
+      "color": "#398565",
+      "alpha": 0.84313726
     },
     {
       "name": "Connecteur de câcle structurel",
       "uid": "ImmersiveEngineering:metalDecoration",
       "meta": 8,
-      "color": "#4e4e4e"
+      "color": "#4e4e4e",
+      "alpha": 0.99607843
     },
     {
       "name": "Construction Foam",
@@ -6234,7 +6173,8 @@ var colorpalette={
       "name": "Construction alchimique anvancée",
       "uid": "Thaumcraft:blockMetalDevice",
       "meta": 3,
-      "color": "#82623d"
+      "color": "#82623d",
+      "alpha": 0.99607843
     },
     {
       "name": "Conteneur à cordes rouges",
@@ -6261,12 +6201,6 @@ var colorpalette={
       "color": "#980406"
     },
     {
-      "name": "Coralium Infusé de Pierre",
-      "uid": "abyssalcraft:coraliumstone",
-      "meta": 0,
-      "color": "#5e6669"
-    },
-    {
       "name": "Corporea Retainer",
       "uid": "Botania:corporeaRetainer",
       "meta": 0,
@@ -6288,7 +6222,8 @@ var colorpalette={
       "name": "Corruption fibreuse",
       "uid": "Thaumcraft:blockTaintFibres",
       "meta": 0,
-      "color": "#4b4b4b"
+      "color": "#4b4b4b",
+      "alpha": 0.60784316
     },
     {
       "name": "Corruption fibreuse",
@@ -6514,18 +6449,6 @@ var colorpalette={
       "color": "#7bc0bd"
     },
     {
-      "name": "Crystallizer",
-      "uid": "abyssalcraft:crystallizer",
-      "meta": 0,
-      "color": "#690808"
-    },
-    {
-      "name": "Crystallizer",
-      "uid": "abyssalcraft:crystallizer_on",
-      "meta": 0,
-      "color": "#690808"
-    },
-    {
       "name": "Crâne de squelette",
       "uid": "minecraft:skull",
       "meta": 0,
@@ -6536,12 +6459,6 @@ var colorpalette={
       "uid": "Botania:starfield",
       "meta": 0,
       "color": "#8f088d"
-    },
-    {
-      "name": "Cthulhu Statue",
-      "uid": "abyssalcraft:cthulhustatue",
-      "meta": 0,
-      "color": "#181f1c"
     },
     {
       "name": "Cube de cristal Corporea",
@@ -6655,7 +6572,8 @@ var colorpalette={
       "name": "Curative Vat",
       "uid": "ThaumicHorizons:vat",
       "meta": 0,
-      "color": "#91b7e2"
+      "color": "#91b7e2",
+      "alpha": 0.34117648
     },
     {
       "name": "Curative Vat",
@@ -6762,66 +6680,6 @@ var colorpalette={
       "color": "#ebd07f"
     },
     {
-      "name": "Dalle de Bois de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltslab1",
-      "meta": 0,
-      "color": "#25211a"
-    },
-    {
-      "name": "Dalle de Bois de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltslab2",
-      "meta": 0,
-      "color": "#25211a"
-    },
-    {
-      "name": "Dalle de Brique de Coralium",
-      "uid": "abyssalcraft:cstobebrickslab2",
-      "meta": 0,
-      "color": "#445856"
-    },
-    {
-      "name": "Dalle de Brique de Coralium",
-      "uid": "abyssalcraft:cstonebrickslab1",
-      "meta": 0,
-      "color": "#445856"
-    },
-    {
-      "name": "Dalle de Brique de Pierre Redouté",
-      "uid": "abyssalcraft:dreadbrickslab1",
-      "meta": 0,
-      "color": "#530503"
-    },
-    {
-      "name": "Dalle de Brique de Pierre Redouté",
-      "uid": "abyssalcraft:dreadbrickslab2",
-      "meta": 0,
-      "color": "#530503"
-    },
-    {
-      "name": "Dalle de Brique de Pierre Sombre",
-      "uid": "abyssalcraft:darkbrickslab1",
-      "meta": 0,
-      "color": "#212029"
-    },
-    {
-      "name": "Dalle de Brique de Pierre Sombre",
-      "uid": "abyssalcraft:darkbrickslab2",
-      "meta": 0,
-      "color": "#212029"
-    },
-    {
-      "name": "Dalle de Brique de Pierre d\u0027Abyssalnite",
-      "uid": "abyssalcraft:abydreadbrick1",
-      "meta": 0,
-      "color": "#2c0660"
-    },
-    {
-      "name": "Dalle de Brique de Pierre d\u0027Abyssalnite",
-      "uid": "abyssalcraft:abydreadbrick2",
-      "meta": 0,
-      "color": "#2c0660"
-    },
-    {
       "name": "Dalle de Holystone",
       "uid": "aether:tile.holystoneDoubleSlab",
       "meta": 0,
@@ -6844,30 +6702,6 @@ var colorpalette={
       "uid": "aether:tile.mossyHolystoneSingleSlab",
       "meta": 0,
       "color": "#879493"
-    },
-    {
-      "name": "Dalle de Pierre Sombre",
-      "uid": "abyssalcraft:darkstoneslab1",
-      "meta": 0,
-      "color": "#211f2c"
-    },
-    {
-      "name": "Dalle de Pierre Sombre",
-      "uid": "abyssalcraft:darkstoneslab2",
-      "meta": 0,
-      "color": "#211f2c"
-    },
-    {
-      "name": "Dalle de Roche Sombre",
-      "uid": "abyssalcraft:darkcobblelsab1",
-      "meta": 0,
-      "color": "#1a1921"
-    },
-    {
-      "name": "Dalle de Roche Sombre",
-      "uid": "abyssalcraft:darkcobblelsab2",
-      "meta": 0,
-      "color": "#1a1921"
     },
     {
       "name": "Dalle de basalt",
@@ -7916,6 +7750,18 @@ var colorpalette={
       "color": "#6b492c"
     },
     {
+      "name": "Darkwood Wood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 13949,
+      "color": "#6b492c"
+    },
+    {
+      "name": "Darkwood Wood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 13949,
+      "color": "#6b492c"
+    },
+    {
       "name": "Deadrock",
       "uid": "TwilightForest:tile.TFDeadrock",
       "meta": 2,
@@ -8010,7 +7856,8 @@ var colorpalette={
       "name": "Diamond Studded Golden Bars",
       "uid": "MagicCookie:goldenFenceDiamondStudded",
       "meta": 0,
-      "color": "#9c9f34"
+      "color": "#9c9f34",
+      "alpha": 0.8784314
     },
     {
       "name": "Diffuseur de mana",
@@ -8094,7 +7941,8 @@ var colorpalette={
       "name": "Disease",
       "uid": "witchery:disease",
       "meta": 0,
-      "color": "#6a2300"
+      "color": "#6a2300",
+      "alpha": 0.003921569
     },
     {
       "name": "Dispensateur à cordes rouges",
@@ -8180,38 +8028,14 @@ var colorpalette={
       "name": "Double vitrage",
       "uid": "ImmersiveEngineering:stoneDevice",
       "meta": 4,
-      "color": "#21b163"
+      "color": "#21b163",
+      "alpha": 0.79607844
     },
     {
       "name": "Dread Dirt",
       "uid": "essentialcraft:dreadDirt",
       "meta": 0,
       "color": "#28180e"
-    },
-    {
-      "name": "Dreadguard Spawner Block",
-      "uid": "abyssalcraft:dreadguardspawner",
-      "meta": 0,
-      "color": "#7f0000"
-    },
-    {
-      "name": "Dreadlands Energy Pedestal",
-      "uid": "abyssalcraft:tieredenergypedestal",
-      "meta": 2,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Dreadlands Sacrificial Altar",
-      "uid": "abyssalcraft:tieredsacrificialaltar",
-      "meta": 2,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Dreadlands Wood Fence",
-      "uid": "abyssalcraft:drtfence",
-      "meta": 0,
-      "color": "#590808",
-      "alpha": 0.4
     },
     {
       "name": "Dream Weaver",
@@ -8350,12 +8174,6 @@ var colorpalette={
       "uid": "IC2NuclearControl:blockNuclearControlMain",
       "meta": 8,
       "color": "#7a7a7a"
-    },
-    {
-      "name": "Déconstructeur Arcanique",
-      "uid": "arsmagica2:arcaneDeconstructor",
-      "meta": 0,
-      "color": "#b09d87"
     },
     {
       "name": "Détecteur de luminiseur",
@@ -8517,31 +8335,36 @@ var colorpalette={
       "name": "Elemental Infused Ore",
       "uid": "essentialcraft:oreDrops",
       "meta": 5,
-      "color": "#653130"
+      "color": "#653130",
+      "alpha": 0.9764706
     },
     {
       "name": "Elemental Infused Ore",
       "uid": "essentialcraft:oreDrops",
       "meta": 6,
-      "color": "#653130"
+      "color": "#653130",
+      "alpha": 0.9764706
     },
     {
       "name": "Elemental Infused Ore",
       "uid": "essentialcraft:oreDrops",
       "meta": 7,
-      "color": "#653130"
+      "color": "#653130",
+      "alpha": 0.9764706
     },
     {
       "name": "Elemental Infused Ore",
       "uid": "essentialcraft:oreDrops",
       "meta": 8,
-      "color": "#653130"
+      "color": "#653130",
+      "alpha": 0.9764706
     },
     {
       "name": "Elemental Infused Ore",
       "uid": "essentialcraft:oreDrops",
       "meta": 9,
-      "color": "#653130"
+      "color": "#653130",
+      "alpha": 0.9764706
     },
     {
       "name": "Elemental Infused Ore",
@@ -8607,7 +8430,8 @@ var colorpalette={
       "name": "Emerald Studded Golden Bars",
       "uid": "MagicCookie:goldenFenceEmeraldStudded",
       "meta": 0,
-      "color": "#989915"
+      "color": "#989915",
+      "alpha": 0.8862745
     },
     {
       "name": "Encased Fire Jet",
@@ -8673,7 +8497,8 @@ var colorpalette={
       "name": "Ender Bramble",
       "uid": "witchery:bramble",
       "meta": 0,
-      "color": "#533032"
+      "color": "#533032",
+      "alpha": 0.99215686
     },
     {
       "name": "Ender Brick Slab",
@@ -8710,18 +8535,6 @@ var colorpalette={
       "uid": "thaumicbases:enderPlanks",
       "meta": 0,
       "color": "#d2873e"
-    },
-    {
-      "name": "Energy Pedestal",
-      "uid": "abyssalcraft:energypedestal",
-      "meta": 0,
-      "color": "#181f1c"
-    },
-    {
-      "name": "Engraver",
-      "uid": "abyssalcraft:engraver",
-      "meta": 0,
-      "color": "#413e3e"
     },
     {
       "name": "Enrichment Chamber Controller",
@@ -8928,7 +8741,8 @@ var colorpalette={
       "name": "Escaliers d\u0027Aeromousse",
       "uid": "aether:aerogelStairs",
       "meta": 0,
-      "color": "#c1c7e2"
+      "color": "#c1c7e2",
+      "alpha": 0.7372549
     },
     {
       "name": "Escaliers d\u0027Icestone",
@@ -8941,42 +8755,6 @@ var colorpalette={
       "uid": "Botania:stone0Stairs",
       "meta": 0,
       "color": "#838383"
-    },
-    {
-      "name": "Escaliers de Bois de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltstairs",
-      "meta": 0,
-      "color": "#25211a"
-    },
-    {
-      "name": "Escaliers de Brique de Coraliu",
-      "uid": "abyssalcraft:cstonebrickstairs",
-      "meta": 0,
-      "color": "#445856"
-    },
-    {
-      "name": "Escaliers de Brique de Pierre Redouté",
-      "uid": "abyssalcraft:dreadbrickstairs",
-      "meta": 0,
-      "color": "#530503"
-    },
-    {
-      "name": "Escaliers de Brique de Pierre Sombre",
-      "uid": "abyssalcraft:dbstairs",
-      "meta": 0,
-      "color": "#212029"
-    },
-    {
-      "name": "Escaliers de Brique de Pierre d\u0027Abyssalnite",
-      "uid": "abyssalcraft:abydreadbrickstairs",
-      "meta": 0,
-      "color": "#2c0660"
-    },
-    {
-      "name": "Escaliers de Brique de Roche Sombre",
-      "uid": "abyssalcraft:dcstairs",
-      "meta": 0,
-      "color": "#1a1921"
     },
     {
       "name": "Escaliers de Holystone",
@@ -9567,12 +9345,6 @@ var colorpalette={
       "color": "#565640"
     },
     {
-      "name": "Escaliers en Bois Magique",
-      "uid": "arsmagica2:stairsWitchwood",
-      "meta": 0,
-      "color": "#645d78"
-    },
-    {
       "name": "Escaliers en bois d\u0027acacia",
       "uid": "minecraft:acacia_stairs",
       "meta": 0,
@@ -9654,7 +9426,8 @@ var colorpalette={
       "name": "Escaliers en briques prismarine",
       "uid": "Botania:prismarine1Stairs",
       "meta": 0,
-      "color": "#68a191"
+      "color": "#68a191",
+      "alpha": 0.99607843
     },
     {
       "name": "Escaliers en grès",
@@ -10393,97 +10166,113 @@ var colorpalette={
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 0,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 1,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 2,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 3,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 4,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 5,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 6,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 7,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 8,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 9,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 10,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 11,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 12,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 13,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 14,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy MRU Tile",
       "uid": "essentialcraft:fancyBlock.mru",
       "meta": 15,
-      "color": "#6000c0"
+      "color": "#6000c0",
+      "alpha": 0.7647059
     },
     {
       "name": "Fancy Magic Plating Tile",
@@ -10883,33 +10672,9 @@ var colorpalette={
     },
     {
       "name": "Feu",
-      "uid": "abyssalcraft:fire",
-      "meta": 0,
-      "color": "#dca152"
-    },
-    {
-      "name": "Feu",
       "uid": "minecraft:fire",
       "meta": 0,
       "color": "#dca152"
-    },
-    {
-      "name": "Feu Redouté",
-      "uid": "abyssalcraft:dreadfire",
-      "meta": 0,
-      "color": "#c44b46"
-    },
-    {
-      "name": "Feu de Coralium",
-      "uid": "abyssalcraft:coraliumfire",
-      "meta": 0,
-      "color": "#57a357"
-    },
-    {
-      "name": "Feuillage Magique",
-      "uid": "arsmagica2:WitchwoodLeaves",
-      "meta": 0,
-      "color": "#b3bdc5"
     },
     {
       "name": "Feuillage de chêne en or",
@@ -10954,12 +10719,6 @@ var colorpalette={
       "color": "#698a44"
     },
     {
-      "name": "Feuille de Bois des Terres de l\u0027Effroi",
-      "uid": "abyssalcraft:dreadleaves",
-      "meta": 0,
-      "color": "#310000"
-    },
-    {
       "name": "Feuilles d\u0027acacia",
       "uid": "minecraft:leaves2",
       "meta": 0,
@@ -10982,12 +10741,6 @@ var colorpalette={
       "uid": "Forestry:leaves",
       "meta": 0,
       "color": "#808080"
-    },
-    {
-      "name": "Feuilles de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltleaves",
-      "meta": 0,
-      "color": "#120c2f"
     },
     {
       "name": "Feuilles de bois arcanique",
@@ -11035,7 +10788,8 @@ var colorpalette={
       "name": "Ficelle",
       "uid": "minecraft:tripwire",
       "meta": 0,
-      "color": "#818181"
+      "color": "#818181",
+      "alpha": 0.41960785
     },
     {
       "name": "Fiddlehead",
@@ -11240,12 +10994,6 @@ var colorpalette={
       "color": "#723876"
     },
     {
-      "name": "Fleur d\u0027Aube",
-      "uid": "arsmagica2:wakebloom",
-      "meta": 0,
-      "color": "#d36b73"
-    },
-    {
       "name": "Fleur flottante Bleue claire",
       "uid": "Botania:miniIsland",
       "meta": 3,
@@ -11369,7 +11117,8 @@ var colorpalette={
       "name": "Fleur mystique blanche haute",
       "uid": "Botania:doubleFlower1",
       "meta": 0,
-      "color": "#93c1af"
+      "color": "#93c1af",
+      "alpha": 0.99215686
     },
     {
       "name": "Fleur mystique bleue",
@@ -11471,7 +11220,8 @@ var colorpalette={
       "name": "Fleur mystique marron",
       "uid": "Botania:flower",
       "meta": 12,
-      "color": "#493308"
+      "color": "#493308",
+      "alpha": 0.99215686
     },
     {
       "name": "Fleur mystique marron haute",
@@ -11501,7 +11251,8 @@ var colorpalette={
       "name": "Fleur mystique orange haute",
       "uid": "Botania:doubleFlower1",
       "meta": 1,
-      "color": "#827f0d"
+      "color": "#827f0d",
+      "alpha": 0.9019608
     },
     {
       "name": "Fleur mystique rose",
@@ -11519,7 +11270,8 @@ var colorpalette={
       "name": "Fleur mystique rouge",
       "uid": "Botania:flower",
       "meta": 14,
-      "color": "#8f3316"
+      "color": "#8f3316",
+      "alpha": 0.9882353
     },
     {
       "name": "Fleur mystique rouge haute",
@@ -11543,7 +11295,8 @@ var colorpalette={
       "name": "Fleur mystique violette",
       "uid": "Botania:flower",
       "meta": 10,
-      "color": "#62206a"
+      "color": "#62206a",
+      "alpha": 0.99215686
     },
     {
       "name": "Fleur mystique violette haute",
@@ -11561,13 +11314,15 @@ var colorpalette={
       "name": "Fleur éthérée",
       "uid": "Thaumcraft:blockCustomPlant",
       "meta": 4,
-      "color": "#448765"
+      "color": "#448765",
+      "alpha": 0.99607843
     },
     {
       "name": "Floodlight",
       "uid": "ImmersiveEngineering:metalDevice2",
       "meta": 4,
-      "color": "#ffbb51"
+      "color": "#ffbb51",
+      "alpha": 0.49803922
     },
     {
       "name": "Flowing Spirit",
@@ -11625,13 +11380,15 @@ var colorpalette={
       "name": "Flux boueux",
       "uid": "Thaumcraft:blockFluxGoo",
       "meta": 0,
-      "color": "#9228c2"
+      "color": "#9228c2",
+      "alpha": 0.80784315
     },
     {
       "name": "Flux gazeux",
       "uid": "Thaumcraft:blockFluxGas",
       "meta": 0,
-      "color": "#841ba4"
+      "color": "#841ba4",
+      "alpha": 0.31764707
     },
     {
       "name": "Fluxium",
@@ -11643,7 +11400,8 @@ var colorpalette={
       "name": "Focalisateur d\u0027aspects composés",
       "uid": "Thaumcraft:blockStoneDevice",
       "meta": 8,
-      "color": "#817d18"
+      "color": "#817d18",
+      "alpha": 0.99215686
     },
     {
       "name": "Forest Grass",
@@ -11655,7 +11413,8 @@ var colorpalette={
       "name": "Foret de carotte",
       "uid": "ImmersiveEngineering:metalDevice",
       "meta": 14,
-      "color": "#59524d"
+      "color": "#59524d",
+      "alpha": 0.99215686
     },
     {
       "name": "Foreuse arcanique",
@@ -11699,6 +11458,12 @@ var colorpalette={
       "uid": "Thaumcraft:blockAlchemyFurnace",
       "meta": 0,
       "color": "#3d3d3d"
+    },
+    {
+      "name": "Four de forge",
+      "uid": "GardenStuff:bloomery_furnace",
+      "meta": 0,
+      "color": "#62473f"
     },
     {
       "name": "Four en fer",
@@ -11915,49 +11680,57 @@ var colorpalette={
       "name": "Frozen Corruption",
       "uid": "essentialcraft:frozen",
       "meta": 0,
-      "color": "#7895fe"
+      "color": "#7895fe",
+      "alpha": 0.047058824
     },
     {
       "name": "Frozen Corruption",
       "uid": "essentialcraft:frozen",
       "meta": 1,
-      "color": "#7895fe"
+      "color": "#7895fe",
+      "alpha": 0.14509805
     },
     {
       "name": "Frozen Corruption",
       "uid": "essentialcraft:frozen",
       "meta": 2,
-      "color": "#7895fe"
+      "color": "#7895fe",
+      "alpha": 0.28235295
     },
     {
       "name": "Frozen Corruption",
       "uid": "essentialcraft:frozen",
       "meta": 3,
-      "color": "#7895fe"
+      "color": "#7895fe",
+      "alpha": 0.3137255
     },
     {
       "name": "Frozen Corruption",
       "uid": "essentialcraft:frozen",
       "meta": 4,
-      "color": "#7894fe"
+      "color": "#7894fe",
+      "alpha": 0.3529412
     },
     {
       "name": "Frozen Corruption",
       "uid": "essentialcraft:frozen",
       "meta": 5,
-      "color": "#7793fe"
+      "color": "#7793fe",
+      "alpha": 0.36862746
     },
     {
       "name": "Frozen Corruption",
       "uid": "essentialcraft:frozen",
       "meta": 6,
-      "color": "#7693fe"
+      "color": "#7693fe",
+      "alpha": 0.38431373
     },
     {
       "name": "Frozen Corruption",
       "uid": "essentialcraft:frozen",
       "meta": 7,
-      "color": "#7693fe"
+      "color": "#7693fe",
+      "alpha": 0.38431373
     },
     {
       "name": "Frozen Star",
@@ -12398,7 +12171,8 @@ var colorpalette={
       "name": "Green Force Field",
       "uid": "TwilightForest:tile.ForceField",
       "meta": 3,
-      "color": "#89e701"
+      "color": "#89e701",
+      "alpha": 0.52156866
     },
     {
       "name": "Green Portuguese Pavement",
@@ -12558,18 +12332,6 @@ var colorpalette={
       "color": "#bdc3c5"
     },
     {
-      "name": "Générateur Inerte",
-      "uid": "arsmagica2:inertSpawner",
-      "meta": 0,
-      "color": "#1f2d38"
-    },
-    {
-      "name": "Générateur de Courants",
-      "uid": "arsmagica2:slipstreamGenerator",
-      "meta": 0,
-      "color": "#a3adc1"
-    },
-    {
       "name": "Générateur de Particule",
       "uid": "AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm",
       "meta": 0,
@@ -12610,18 +12372,6 @@ var colorpalette={
       "uid": "immersiveintegration:inductionCharger",
       "meta": 2,
       "color": "#503225"
-    },
-    {
-      "name": "Habitat à Lucioles",
-      "uid": "arsmagica2:elementalAttuner",
-      "meta": 0,
-      "color": "#6f6d6b"
-    },
-    {
-      "name": "Hastur Statue",
-      "uid": "abyssalcraft:hasturstatue",
-      "meta": 0,
-      "color": "#181f1c"
     },
     {
       "name": "Hawthorn Leaves",
@@ -12669,6 +12419,18 @@ var colorpalette={
       "name": "Hawthorn Wood",
       "uid": "witchery:witchlog",
       "meta": 2,
+      "color": "#b8b6b2"
+    },
+    {
+      "name": "Hawthorn Wood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 9923,
+      "color": "#b8b6b2"
+    },
+    {
+      "name": "Hawthorn Wood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 9923,
       "color": "#b8b6b2"
     },
     {
@@ -12730,12 +12492,6 @@ var colorpalette={
       "uid": "aether:enchantedAetherGrass",
       "meta": 0,
       "color": "#bfb157"
-    },
-    {
-      "name": "Herbe des Terres Sombres",
-      "uid": "abyssalcraft:darkgrass",
-      "meta": 0,
-      "color": "#1b1346"
     },
     {
       "name": "Herbe enchantée",
@@ -12894,7 +12650,8 @@ var colorpalette={
       "name": "IC2 Hot Coolant",
       "uid": "IC2:fluidHotCoolant",
       "meta": 0,
-      "color": "#b32733"
+      "color": "#b32733",
+      "alpha": 0.7764706
     },
     {
       "name": "Ice Door",
@@ -13124,7 +12881,8 @@ var colorpalette={
       "name": "Infusion Provider",
       "uid": "thaumicenergistics:thaumicenergistics.block.infusion.provider",
       "meta": 0,
-      "color": "#535353"
+      "color": "#535353",
+      "alpha": 0.3529412
     },
     {
       "name": "Inhibiteur golémique",
@@ -13150,12 +12908,6 @@ var colorpalette={
       "uid": "extracells:ecbaseblock",
       "meta": 0,
       "color": "#4e8a91"
-    },
-    {
-      "name": "Invocateur",
-      "uid": "arsmagica2:Summoner",
-      "meta": 0,
-      "color": "#3e372f"
     },
     {
       "name": "Ipe Drawer",
@@ -13383,7 +13135,8 @@ var colorpalette={
       "name": "Iridescent Double Grass",
       "uid": "shadowfox_botany:rainbowDoubleGrass",
       "meta": 0,
-      "color": "#b17f1d"
+      "color": "#b17f1d",
+      "alpha": 0.8980392
     },
     {
       "name": "Iridescent Grass",
@@ -13485,7 +13238,8 @@ var colorpalette={
       "name": "Iridescent Grass",
       "uid": "shadowfox_botany:rainbowGrass",
       "meta": 0,
-      "color": "#9a7020"
+      "color": "#9a7020",
+      "alpha": 0.94509804
     },
     {
       "name": "Iridescent Lantern",
@@ -14148,22 +13902,82 @@ var colorpalette={
       "color": "#494442"
     },
     {
-      "name": "J\u0027zahar Spawner Block",
-      "uid": "abyssalcraft:jzaharspawner",
-      "meta": 0,
-      "color": "#7f0000"
-    },
-    {
-      "name": "J\u0027zahar Statue",
-      "uid": "abyssalcraft:jzahatstatue",
-      "meta": 0,
-      "color": "#181f1c"
-    },
-    {
       "name": "Jaillissement des Vents",
       "uid": "AWWayofTime:AlchemicalWizardrytile.blockSpellEffect",
       "meta": 2,
       "color": "#7c007c"
+    },
+    {
+      "name": "Jardinière en acacia",
+      "uid": "GardenContainers:wood_window_box",
+      "meta": 4,
+      "color": "#af5f34"
+    },
+    {
+      "name": "Jardinière en acajou",
+      "uid": "GardenContainers:wood_window_box",
+      "meta": 3,
+      "color": "#a37552"
+    },
+    {
+      "name": "Jardinière en bouleau",
+      "uid": "GardenContainers:wood_window_box",
+      "meta": 2,
+      "color": "#caba7f"
+    },
+    {
+      "name": "Jardinière en briques",
+      "uid": "GardenContainers:stone_window_box",
+      "meta": 3,
+      "color": "#885547"
+    },
+    {
+      "name": "Jardinière en briques de pierre",
+      "uid": "GardenContainers:stone_window_box",
+      "meta": 1,
+      "color": "#797979"
+    },
+    {
+      "name": "Jardinière en briques de pierres moussues",
+      "uid": "GardenContainers:stone_window_box",
+      "meta": 2,
+      "color": "#72766a"
+    },
+    {
+      "name": "Jardinière en briques du nether",
+      "uid": "GardenContainers:stone_window_box",
+      "meta": 4,
+      "color": "#2d161a"
+    },
+    {
+      "name": "Jardinière en chêne",
+      "uid": "GardenContainers:wood_window_box",
+      "meta": 0,
+      "color": "#a68753"
+    },
+    {
+      "name": "Jardinière en chêne noir",
+      "uid": "GardenContainers:wood_window_box",
+      "meta": 5,
+      "color": "#402913"
+    },
+    {
+      "name": "Jardinière en grès",
+      "uid": "GardenContainers:stone_window_box",
+      "meta": 5,
+      "color": "#dad29e"
+    },
+    {
+      "name": "Jardinière en pierre",
+      "uid": "GardenContainers:stone_window_box",
+      "meta": 0,
+      "color": "#a0a0a0"
+    },
+    {
+      "name": "Jardinière en sapin",
+      "uid": "GardenContainers:wood_window_box",
+      "meta": 1,
+      "color": "#6e5231"
     },
     {
       "name": "Jet de flamme",
@@ -14237,12 +14051,6 @@ var colorpalette={
       "uid": "witchery:kettle",
       "meta": 0,
       "color": "#837a70"
-    },
-    {
-      "name": "Keystone Door",
-      "uid": "arsmagica2:keystoneDoor",
-      "meta": 0,
-      "color": "#545e78"
     },
     {
       "name": "Keystone Receptacle",
@@ -14655,6 +14463,102 @@ var colorpalette={
       "color": "#393939"
     },
     {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 0,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 1,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 2,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 3,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 4,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 5,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 6,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 7,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 8,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 9,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 10,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 11,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 12,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 13,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 14,
+      "color": "#1a1a1a"
+    },
+    {
+      "name": "Lanterne de jardin",
+      "uid": "GardenStuff:lantern",
+      "meta": 15,
+      "color": "#1a1a1a"
+    },
+    {
       "name": "Lanterne dorée",
       "uid": "BiblioCraft:BiblioIronLantern",
       "meta": 0,
@@ -15010,12 +14914,6 @@ var colorpalette={
       "color": "#a68753"
     },
     {
-      "name": "Lettrin",
-      "uid": "arsmagica2:blockLectern",
-      "meta": 0,
-      "color": "#605354"
-    },
-    {
       "name": "Leurre des sirènes",
       "uid": "Automagy:blockMobLure",
       "meta": 0,
@@ -15058,17 +14956,17 @@ var colorpalette={
       "color": "#876c47"
     },
     {
+      "name": "Liane du démon",
+      "uid": "GardenTrees:ivy",
+      "meta": 0,
+      "color": "#757575"
+    },
+    {
       "name": "Lianes",
       "uid": "minecraft:vine",
       "meta": 0,
       "color": "#747474",
       "alpha": 0.2
-    },
-    {
-      "name": "Lien Énergétique Brisé",
-      "uid": "arsmagica2:brokenLinkBlock",
-      "meta": 0,
-      "color": "#ea1616"
     },
     {
       "name": "Life Essence Materializer",
@@ -15178,12 +15076,6 @@ var colorpalette={
       "color": "#bb9464"
     },
     {
-      "name": "Liquid Etherium",
-      "uid": "arsmagica2:liquidEssence",
-      "meta": 0,
-      "color": "#b7daff"
-    },
-    {
       "name": "Liquid Heat Exchanger",
       "uid": "IC2:blockMachine2",
       "meta": 0,
@@ -15206,26 +15098,6 @@ var colorpalette={
       "uid": "IC2:blockMachine2",
       "meta": 8,
       "color": "#a9a9b0"
-    },
-    {
-      "name": "Liquide d\u0027AntiMatière",
-      "uid": "abyssalcraft:antiwater",
-      "meta": 0,
-      "color": "#e9f2ef",
-      "alpha": 0.3
-    },
-    {
-      "name": "Liquide de Coralium",
-      "uid": "abyssalcraft:cwater",
-      "meta": 0,
-      "color": "#07d0e6",
-      "alpha": 0.3
-    },
-    {
-      "name": "Liquified Coralium Ore",
-      "uid": "abyssalcraft:abylcorore",
-      "meta": 0,
-      "color": "#092a1c"
     },
     {
       "name": "Liquifieur de protéine",
@@ -15589,49 +15461,57 @@ var colorpalette={
       "name": "Magic Corruption",
       "uid": "essentialcraft:magic",
       "meta": 0,
-      "color": "#9741ab"
+      "color": "#9741ab",
+      "alpha": 0.28627452
     },
     {
       "name": "Magic Corruption",
       "uid": "essentialcraft:magic",
       "meta": 1,
-      "color": "#9133a7"
+      "color": "#9133a7",
+      "alpha": 0.53333336
     },
     {
       "name": "Magic Corruption",
       "uid": "essentialcraft:magic",
       "meta": 2,
-      "color": "#8c2ca5"
+      "color": "#8c2ca5",
+      "alpha": 0.6392157
     },
     {
       "name": "Magic Corruption",
       "uid": "essentialcraft:magic",
       "meta": 3,
-      "color": "#8a2ca4"
+      "color": "#8a2ca4",
+      "alpha": 0.6666667
     },
     {
       "name": "Magic Corruption",
       "uid": "essentialcraft:magic",
       "meta": 4,
-      "color": "#9039ae"
+      "color": "#9039ae",
+      "alpha": 0.7019608
     },
     {
       "name": "Magic Corruption",
       "uid": "essentialcraft:magic",
       "meta": 5,
-      "color": "#9441b0"
+      "color": "#9441b0",
+      "alpha": 0.74509805
     },
     {
       "name": "Magic Corruption",
       "uid": "essentialcraft:magic",
       "meta": 6,
-      "color": "#9748b5"
+      "color": "#9748b5",
+      "alpha": 0.7490196
     },
     {
       "name": "Magic Corruption",
       "uid": "essentialcraft:magic",
       "meta": 7,
-      "color": "#9b4fb9"
+      "color": "#9b4fb9",
+      "alpha": 0.7254902
     },
     {
       "name": "Magic Fence",
@@ -15982,7 +15862,8 @@ var colorpalette={
       "name": "Mandrake",
       "uid": "witchery:mandrake",
       "meta": 0,
-      "color": "#0d5d06"
+      "color": "#0d5d06",
+      "alpha": 0.6666667
     },
     {
       "name": "Mangrove Leaves",
@@ -15994,6 +15875,18 @@ var colorpalette={
       "name": "Mangrove Wood",
       "uid": "TwilightForest:tile.TFLog",
       "meta": 2,
+      "color": "#bdae87"
+    },
+    {
+      "name": "Mangrove Wood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 9853,
+      "color": "#bdae87"
+    },
+    {
+      "name": "Mangrove Wood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 9853,
       "color": "#bdae87"
     },
     {
@@ -16043,30 +15936,6 @@ var colorpalette={
       "uid": "minecraft:red_flower",
       "meta": 8,
       "color": "#b3b3b3"
-    },
-    {
-      "name": "Marquage en Fer",
-      "uid": "arsmagica2:ironInlay",
-      "meta": 0,
-      "color": "#d8d8d8"
-    },
-    {
-      "name": "Marquage en Or",
-      "uid": "arsmagica2:goldInlay",
-      "meta": 0,
-      "color": "#f2e950"
-    },
-    {
-      "name": "Marquage en Redstone",
-      "uid": "arsmagica2:redstoneInlay",
-      "meta": 0,
-      "color": "#c11f09"
-    },
-    {
-      "name": "Materializer",
-      "uid": "abyssalcraft:materializer",
-      "meta": 0,
-      "color": "#818378"
     },
     {
       "name": "Matière visqueuse du Néant",
@@ -16169,7 +16038,8 @@ var colorpalette={
       "name": "Metalleat Crop",
       "uid": "thaumicbases:metalleat",
       "meta": 0,
-      "color": "#91b4b4"
+      "color": "#91b4b4",
+      "alpha": 0.6666667
     },
     {
       "name": "Metamorphic Desert Cobblestone Slab",
@@ -16339,37 +16209,21 @@ var colorpalette={
       "name": "Minedrake",
       "uid": "witchery:mindrake",
       "meta": 0,
-      "color": "#175112"
+      "color": "#175112",
+      "alpha": 0.64705884
     },
     {
       "name": "Miner\u0027s Leaves",
       "uid": "TwilightForest:tile.TFMagicLeaves",
       "meta": 2,
-      "color": "#828282"
+      "color": "#828282",
+      "alpha": 0.99607843
     },
     {
       "name": "Miner\u0027s Tree Sapling",
       "uid": "TwilightForest:tile.TFSapling",
       "meta": 7,
       "color": "#958753"
-    },
-    {
-      "name": "Minerai d\u0027Abyssalnite",
-      "uid": "abyssalcraft:abyore",
-      "meta": 0,
-      "color": "#746e7d"
-    },
-    {
-      "name": "Minerai d\u0027Abyssalnite Redouté",
-      "uid": "abyssalcraft:dreadore",
-      "meta": 0,
-      "color": "#970006"
-    },
-    {
-      "name": "Minerai d\u0027Abyssalnite des Terres de L\u0027Effroi",
-      "uid": "abyssalcraft:abydreadore",
-      "meta": 0,
-      "color": "#940313"
     },
     {
       "name": "Minerai d\u0027Ambrosium",
@@ -16448,30 +16302,6 @@ var colorpalette={
       "uid": "aether:continuumOre",
       "meta": 0,
       "color": "#aca794"
-    },
-    {
-      "name": "Minerai de Coralium",
-      "uid": "abyssalcraft:coraliumore",
-      "meta": 0,
-      "color": "#4c6261"
-    },
-    {
-      "name": "Minerai de Coralium Abyssal",
-      "uid": "abyssalcraft:abycorore",
-      "meta": 0,
-      "color": "#0b231a"
-    },
-    {
-      "name": "Minerai de Pierre Solaire",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 1,
-      "color": "#8b8c8c"
-    },
-    {
-      "name": "Minerai de Vinteum",
-      "uid": "arsmagica2:vinteumOre",
-      "meta": 0,
-      "color": "#768499"
     },
     {
       "name": "Minerai de bauxite",
@@ -16636,10 +16466,16 @@ var colorpalette={
       "color": "#b39f84"
     },
     {
-      "name": "Minion of The Gatekeeper Spawner Block",
-      "uid": "abyssalcraft:gatekeeperminionspawner",
-      "meta": 0,
-      "color": "#7f0000"
+      "name": "Minewood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 9869,
+      "color": "#b39f84"
+    },
+    {
+      "name": "Minewood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 9869,
+      "color": "#b39f84"
     },
     {
       "name": "Minuscule planète",
@@ -16831,18 +16667,6 @@ var colorpalette={
       "color": "#737474"
     },
     {
-      "name": "Monolith Stone",
-      "uid": "abyssalcraft:monolithstone",
-      "meta": 0,
-      "color": "#181f1c"
-    },
-    {
-      "name": "Monolith Stone Pillar",
-      "uid": "abyssalcraft:monolithpillar",
-      "meta": 0,
-      "color": "#232a27"
-    },
-    {
       "name": "Monster Duplicator",
       "uid": "essentialcraft:monsterHarvester",
       "meta": 0,
@@ -16991,20 +16815,14 @@ var colorpalette={
       "name": "Mur Aeromousse",
       "uid": "aether:aerogelWall",
       "meta": 0,
-      "color": "#c1c7e2"
+      "color": "#c1c7e2",
+      "alpha": 0.7372549
     },
     {
       "name": "Mur Holystone moussue",
       "uid": "aether:mossyHolystoneWall",
       "meta": 0,
       "color": "#879493"
-    },
-    {
-      "name": "Mur Magique",
-      "uid": "arsmagica2:magicWall",
-      "meta": 0,
-      "color": "#3e7e9f",
-      "alpha": 0.4
     },
     {
       "name": "Mur d\u0027Icestone",
@@ -17023,12 +16841,6 @@ var colorpalette={
       "uid": "aether:holystoneWall",
       "meta": 0,
       "color": "#a1a1a1"
-    },
-    {
-      "name": "Mur de Roche de Pierre Sombre",
-      "uid": "abyssalcraft:dscwall",
-      "meta": 0,
-      "color": "#1a1921"
     },
     {
       "name": "Mur de basalt",
@@ -17332,12 +17144,6 @@ var colorpalette={
       "color": "#929292"
     },
     {
-      "name": "Nitre Ore",
-      "uid": "abyssalcraft:nitreore",
-      "meta": 0,
-      "color": "#777571"
-    },
-    {
       "name": "Node Destabilizer",
       "uid": "arcane_engineering:destabilizer",
       "meta": 0,
@@ -17376,22 +17182,10 @@ var colorpalette={
       "alpha": 0.4
     },
     {
-      "name": "Nova du Désert",
-      "uid": "arsmagica2:desertNova",
-      "meta": 0,
-      "color": "#81533c"
-    },
-    {
       "name": "Nutrificateur à cordes rouges",
       "uid": "Botania:redStringFertilizer",
       "meta": 0,
       "color": "#adaa99"
-    },
-    {
-      "name": "Nyarlathotep Statue",
-      "uid": "abyssalcraft:nyarlathotepstatue",
-      "meta": 0,
-      "color": "#181f1c"
     },
     {
       "name": "Nénuphar",
@@ -17575,36 +17369,6 @@ var colorpalette={
       "color": "#0c090f"
     },
     {
-      "name": "Omothol Energy Pedestal",
-      "uid": "abyssalcraft:tieredenergypedestal",
-      "meta": 3,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Omothol Fire",
-      "uid": "abyssalcraft:omotholfire",
-      "meta": 0,
-      "color": "#384334"
-    },
-    {
-      "name": "Omothol Gateway",
-      "uid": "abyssalcraft:omotholportal",
-      "meta": 0,
-      "color": "#0d110b"
-    },
-    {
-      "name": "Omothol Sacrificial Altar",
-      "uid": "abyssalcraft:tieredsacrificialaltar",
-      "meta": 3,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Omothol Stone",
-      "uid": "abyssalcraft:omotholstone",
-      "meta": 0,
-      "color": "#151a17"
-    },
-    {
       "name": "Orange Crystal",
       "uid": "ThaumicHorizons:crystalTH",
       "meta": 1,
@@ -17621,7 +17385,8 @@ var colorpalette={
       "name": "Orange Force Field",
       "uid": "TwilightForest:tile.ForceField",
       "meta": 2,
-      "color": "#ff5b02"
+      "color": "#ff5b02",
+      "alpha": 0.33333334
     },
     {
       "name": "Orange Lamp",
@@ -17752,18 +17517,6 @@ var colorpalette={
       "uid": "thaumicbases:overchanter",
       "meta": 0,
       "color": "#634c1d"
-    },
-    {
-      "name": "Overworld Energy Pedestal",
-      "uid": "abyssalcraft:tieredenergypedestal",
-      "meta": 0,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Overworld Sacrificial Altar",
-      "uid": "abyssalcraft:tieredsacrificialaltar",
-      "meta": 0,
-      "color": "#413e3e"
     },
     {
       "name": "Padauk Drawer",
@@ -18000,12 +17753,6 @@ var colorpalette={
       "color": "#b8a679"
     },
     {
-      "name": "Pearlescent Coralium Ore",
-      "uid": "abyssalcraft:abypcorore",
-      "meta": 0,
-      "color": "#163435"
-    },
-    {
       "name": "Perditio Imbued Fire",
       "uid": "ThaumicTinkerer:fireChaos",
       "meta": 0,
@@ -18031,6 +17778,12 @@ var colorpalette={
       "color": "#615c52"
     },
     {
+      "name": "Petit feu",
+      "uid": "GardenCore:small_fire",
+      "meta": 0,
+      "color": "#dca152"
+    },
+    {
       "name": "Petit hydromel",
       "uid": "Forestry:fluid.short.mead",
       "meta": 0,
@@ -18050,12 +17803,6 @@ var colorpalette={
       "color": "#13121d"
     },
     {
-      "name": "Pierre Redouté",
-      "uid": "abyssalcraft:dreadstone",
-      "meta": 0,
-      "color": "#a20000"
-    },
-    {
       "name": "Pierre Rituelle",
       "uid": "AWWayofTime:ritualStone",
       "meta": 0,
@@ -18072,19 +17819,6 @@ var colorpalette={
       "uid": "AWWayofTime:masterStone",
       "meta": 0,
       "color": "#434141"
-    },
-    {
-      "name": "Pierre Sombre",
-      "uid": "abyssalcraft:darkstone",
-      "meta": 0,
-      "color": "#23202c"
-    },
-    {
-      "name": "Pierre Voyante",
-      "uid": "arsmagica2:seerStone",
-      "meta": 0,
-      "color": "#676767",
-      "alpha": 0.4
     },
     {
       "name": "Pierre ancienne",
@@ -18121,30 +17855,6 @@ var colorpalette={
       "uid": "Automagy:blockXPStone",
       "meta": 0,
       "color": "#504741"
-    },
-    {
-      "name": "Pierre de Coralium",
-      "uid": "abyssalcraft:cstone",
-      "meta": 0,
-      "color": "#435956"
-    },
-    {
-      "name": "Pierre de Puissance Infusée par les Terres de L\u0027Effroi",
-      "uid": "abyssalcraft:psdl",
-      "meta": 0,
-      "color": "#7f0000"
-    },
-    {
-      "name": "Pierre de Toujours",
-      "uid": "arsmagica2:everstone",
-      "meta": 0,
-      "color": "#6d6f75"
-    },
-    {
-      "name": "Pierre des Terres de l\u0027Effroi",
-      "uid": "abyssalcraft:dreadgrass",
-      "meta": 0,
-      "color": "#480000"
     },
     {
       "name": "Pierre du Néant",
@@ -18476,7 +18186,8 @@ var colorpalette={
       "name": "Pink Force Field",
       "uid": "TwilightForest:tile.ForceField",
       "meta": 1,
-      "color": "#fa057e"
+      "color": "#fa057e",
+      "alpha": 0.42745098
     },
     {
       "name": "Pink Shaded Glass",
@@ -18654,22 +18365,10 @@ var colorpalette={
       "color": "#752b96"
     },
     {
-      "name": "Planche de Bois de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltplank",
-      "meta": 0,
-      "color": "#25211a"
-    },
-    {
       "name": "Planche skyroot",
       "uid": "aether:skyrootPlank",
       "meta": 0,
       "color": "#565640"
-    },
-    {
-      "name": "Planches Magiques",
-      "uid": "arsmagica2:planksWitchwood",
-      "meta": 0,
-      "color": "#645d78"
     },
     {
       "name": "Planches d\u0027acacia",
@@ -18682,12 +18381,6 @@ var colorpalette={
       "uid": "minecraft:planks",
       "meta": 3,
       "color": "#a37552"
-    },
-    {
-      "name": "Planches de Bois des Terres de l\u0027Effroi",
-      "uid": "abyssalcraft:dreadplanks",
-      "meta": 0,
-      "color": "#590808"
     },
     {
       "name": "Planches de Mélèze ",
@@ -19116,28 +18809,16 @@ var colorpalette={
       "color": "#4d2d1f"
     },
     {
+      "name": "Plante étrange",
+      "uid": "GardenTrees:strange_plant",
+      "meta": 0,
+      "color": "#55740b"
+    },
+    {
       "name": "Plaque d\u0027agglomération terrestre",
       "uid": "Botania:terraPlate",
       "meta": 0,
       "color": "#2f3354"
-    },
-    {
-      "name": "Plaque de Pression de Bois de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltpplate",
-      "meta": 0,
-      "color": "#25211a"
-    },
-    {
-      "name": "Plaque de Pression de Pierre Sombre",
-      "uid": "abyssalcraft:dspplate",
-      "meta": 0,
-      "color": "#23202c"
-    },
-    {
-      "name": "Plaque de Pression de Pierre de Coralium",
-      "uid": "abyssalcraft:cstonepplate",
-      "meta": 0,
-      "color": "#435956"
     },
     {
       "name": "Plaque de pression",
@@ -19404,22 +19085,10 @@ var colorpalette={
       "color": "#00ca2b"
     },
     {
-      "name": "Porte Abyssale",
-      "uid": "abyssalcraft:portal",
-      "meta": 0,
-      "color": "#09160a"
-    },
-    {
       "name": "Porte arcanique",
       "uid": "Thaumcraft:blockArcaneDoor",
       "meta": 0,
       "color": "#262128"
-    },
-    {
-      "name": "Porte des Terres de l\u0027Effroi",
-      "uid": "abyssalcraft:dreadportal",
-      "meta": 0,
-      "color": "#ae0000"
     },
     {
       "name": "Porte du labyrinthe du Glisseur",
@@ -19484,16 +19153,316 @@ var colorpalette={
       "alpha": 0.4
     },
     {
+      "name": "Pot de fleur décoratif",
+      "uid": "GardenContainers:decorative_pot",
+      "meta": 0,
+      "color": "#ece9e2"
+    },
+    {
+      "name": "Pot de fleur décoratif (Cisellé)",
+      "uid": "GardenContainers:decorative_pot",
+      "meta": 1,
+      "color": "#e6e3da"
+    },
+    {
+      "name": "Pot de fleur décoratif (Pillier)",
+      "uid": "GardenContainers:decorative_pot",
+      "meta": 2,
+      "color": "#e9e6de"
+    },
+    {
+      "name": "Pot de fleur large",
+      "uid": "GardenContainers:large_pot",
+      "meta": 0,
+      "color": "#965c42"
+    },
+    {
+      "name": "Pot de fleur large",
+      "uid": "GardenContainers:large_pot",
+      "meta": 1,
+      "color": "#9ea4b0"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 0,
+      "color": "#251610"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 1,
+      "color": "#8f3d2e"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 2,
+      "color": "#4c532a"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 3,
+      "color": "#4d3323"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 4,
+      "color": "#4a3b5b"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 5,
+      "color": "#764656"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 6,
+      "color": "#565b5b"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 7,
+      "color": "#876a61"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 8,
+      "color": "#392a23"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 9,
+      "color": "#a14e4e"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 10,
+      "color": "#677534"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 11,
+      "color": "#ba8523"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 12,
+      "color": "#716c89"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 13,
+      "color": "#95586c"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 14,
+      "color": "#a15325"
+    },
+    {
+      "name": "Pot de fleur large noir",
+      "uid": "GardenContainers:large_pot_colored",
+      "meta": 15,
+      "color": "#d1b2a1"
+    },
+    {
+      "name": "Pot de fleur moyen",
+      "uid": "GardenContainers:medium_pot",
+      "meta": 0,
+      "color": "#965c43"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 0,
+      "color": "#251710"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 1,
+      "color": "#8f3d2f"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 2,
+      "color": "#4c532a"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 3,
+      "color": "#4d3323"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 4,
+      "color": "#4a3b5b"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 5,
+      "color": "#764656"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 6,
+      "color": "#565b5b"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 7,
+      "color": "#876b61"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 8,
+      "color": "#3a2a23"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 9,
+      "color": "#a14e4e"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 10,
+      "color": "#677534"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 11,
+      "color": "#ba8523"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 12,
+      "color": "#716c89"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 13,
+      "color": "#95586c"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 14,
+      "color": "#a15425"
+    },
+    {
+      "name": "Pot de fleur moyen noir",
+      "uid": "GardenContainers:medium_pot_colored",
+      "meta": 15,
+      "color": "#d1b2a1"
+    },
+    {
       "name": "Pot de fleurs",
       "uid": "minecraft:flower_pot",
       "meta": 0,
       "color": "#774233"
     },
     {
+      "name": "Poteau de barrière en  bouleau",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 2,
+      "color": "#bba97c"
+    },
+    {
+      "name": "Poteau de barrière en acacia",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 4,
+      "color": "#9c5e42"
+    },
+    {
+      "name": "Poteau de barrière en acajou",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 3,
+      "color": "#997749"
+    },
+    {
+      "name": "Poteau de barrière en chêne",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 0,
+      "color": "#9e804f"
+    },
+    {
+      "name": "Poteau de barrière en chêne noir",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 5,
+      "color": "#504029"
+    },
+    {
+      "name": "Poteau de barrière en sapin",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 1,
+      "color": "#654c2b"
+    },
+    {
+      "name": "Poteau en acacia",
+      "uid": "GardenTrees:thin_log",
+      "meta": 4,
+      "color": "#9c5e42"
+    },
+    {
+      "name": "Poteau en acajou",
+      "uid": "GardenTrees:thin_log",
+      "meta": 3,
+      "color": "#997749"
+    },
+    {
       "name": "Poteau en bois",
       "uid": "ImmersiveEngineering:woodenDevice",
       "meta": 0,
       "color": "#4c3328"
+    },
+    {
+      "name": "Poteau en bouleau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 2,
+      "color": "#bba97c"
+    },
+    {
+      "name": "Poteau en chêne",
+      "uid": "GardenTrees:thin_log",
+      "meta": 0,
+      "color": "#9e804f"
+    },
+    {
+      "name": "Poteau en chêne noir",
+      "uid": "GardenTrees:thin_log",
+      "meta": 5,
+      "color": "#504029"
+    },
+    {
+      "name": "Poteau en sapin",
+      "uid": "GardenTrees:thin_log",
+      "meta": 1,
+      "color": "#654c2b"
     },
     {
       "name": "Potentia Generator",
@@ -19518,12 +19487,6 @@ var colorpalette={
       "uid": "Forestry:saplingGE",
       "meta": 0,
       "color": "#6e8e4c"
-    },
-    {
-      "name": "Pousse Magique",
-      "uid": "arsmagica2:saplingWitchwood",
-      "meta": 0,
-      "color": "#9095a1"
     },
     {
       "name": "Pousse d\u0027acacia",
@@ -19577,25 +19540,15 @@ var colorpalette={
       "name": "Pousse d\u0027arbre à caoutchouc",
       "uid": "IC2:blockRubSapling",
       "meta": 0,
-      "color": "#3e3d23"
-    },
-    {
-      "name": "Pousse de Bois des Terres de l\u0027Effroi",
-      "uid": "abyssalcraft:dreadsapling",
-      "meta": 0,
-      "color": "#6a0306"
-    },
-    {
-      "name": "Pousse de Chêne des Terres Sombres",
-      "uid": "abyssalcraft:dltsapling",
-      "meta": 0,
-      "color": "#1a1431"
+      "color": "#3e3d23",
+      "alpha": 0.99607843
     },
     {
       "name": "Pousse de bois arcanique",
       "uid": "Thaumcraft:blockCustomPlant",
       "meta": 0,
-      "color": "#214a1e"
+      "color": "#214a1e",
+      "alpha": 0.9490196
     },
     {
       "name": "Pousse de bois d\u0027argent",
@@ -19622,10 +19575,29 @@ var colorpalette={
       "color": "#3d5c1f"
     },
     {
+      "name": "Pousse de grand bouleau",
+      "uid": "GardenTrees:sapling",
+      "meta": 2,
+      "color": "#799958"
+    },
+    {
+      "name": "Pousse de pin",
+      "uid": "GardenTrees:sapling",
+      "meta": 0,
+      "color": "#313821"
+    },
+    {
       "name": "Pousse de sapin",
       "uid": "minecraft:sapling",
       "meta": 1,
-      "color": "#323820"
+      "color": "#323820",
+      "alpha": 0.99607843
+    },
+    {
+      "name": "Pousse des marais",
+      "uid": "GardenTrees:sapling",
+      "meta": 1,
+      "color": "#5d6b31"
     },
     {
       "name": "Presse",
@@ -19661,7 +19633,8 @@ var colorpalette={
       "name": "Primal Shroom",
       "uid": "thaumicbases:ashroom",
       "meta": 0,
-      "color": "#9d497a"
+      "color": "#9d497a",
+      "alpha": 0.9647059
     },
     {
       "name": "Primordial Fossil",
@@ -19868,12 +19841,6 @@ var colorpalette={
       "color": "#ccc67b"
     },
     {
-      "name": "Racine de Tarma",
-      "uid": "arsmagica2:TarmaRoot",
-      "meta": 0,
-      "color": "#715e21"
-    },
-    {
       "name": "Racine vivante",
       "uid": "Botania:root",
       "meta": 0,
@@ -19890,12 +19857,6 @@ var colorpalette={
       "uid": "IC2:blockHeatGenerator",
       "meta": 2,
       "color": "#959fa2"
-    },
-    {
-      "name": "Raffineur d\u0027Essence",
-      "uid": "arsmagica2:essenceRefiner",
-      "meta": 0,
-      "color": "#3e3956"
     },
     {
       "name": "Rail spectral",
@@ -20254,106 +20215,10 @@ var colorpalette={
       "color": "#7c007c"
     },
     {
-      "name": "Ritual Altar",
-      "uid": "abyssalcraft:ritualaltar",
-      "meta": 0,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Altar",
-      "uid": "abyssalcraft:ritualaltar",
-      "meta": 1,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Altar",
-      "uid": "abyssalcraft:ritualaltar",
-      "meta": 2,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Altar",
-      "uid": "abyssalcraft:ritualaltar",
-      "meta": 3,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Altar",
-      "uid": "abyssalcraft:ritualaltar",
-      "meta": 4,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Altar",
-      "uid": "abyssalcraft:ritualaltar",
-      "meta": 5,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Altar",
-      "uid": "abyssalcraft:ritualaltar",
-      "meta": 6,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Altar",
-      "uid": "abyssalcraft:ritualaltar",
-      "meta": 7,
-      "color": "#413e3e"
-    },
-    {
       "name": "Ritual Glyph",
       "uid": "witchery:circleglyphritual",
       "meta": 0,
       "color": "#f5f5f5"
-    },
-    {
-      "name": "Ritual Pedestal",
-      "uid": "abyssalcraft:ritualpedestal",
-      "meta": 0,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Pedestal",
-      "uid": "abyssalcraft:ritualpedestal",
-      "meta": 1,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Pedestal",
-      "uid": "abyssalcraft:ritualpedestal",
-      "meta": 2,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Pedestal",
-      "uid": "abyssalcraft:ritualpedestal",
-      "meta": 3,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Pedestal",
-      "uid": "abyssalcraft:ritualpedestal",
-      "meta": 4,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Pedestal",
-      "uid": "abyssalcraft:ritualpedestal",
-      "meta": 5,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Pedestal",
-      "uid": "abyssalcraft:ritualpedestal",
-      "meta": 6,
-      "color": "#413e3e"
-    },
-    {
-      "name": "Ritual Pedestal",
-      "uid": "abyssalcraft:ritualpedestal",
-      "meta": 7,
-      "color": "#413e3e"
     },
     {
       "name": "Ritual Representation",
@@ -20404,22 +20269,10 @@ var colorpalette={
       "color": "#7a7a7a"
     },
     {
-      "name": "Roche Sombre",
-      "uid": "abyssalcraft:darkstone_cobble",
-      "meta": 0,
-      "color": "#1a1921"
-    },
-    {
       "name": "Roche ancienne",
       "uid": "Thaumcraft:blockCosmeticSolid",
       "meta": 12,
       "color": "#3a3f47"
-    },
-    {
-      "name": "Roche d\u0027Abyssalnite",
-      "uid": "abyssalcraft:abydreadstone",
-      "meta": 0,
-      "color": "#411a77"
     },
     {
       "name": "Roche du Nether",
@@ -20590,6 +20443,18 @@ var colorpalette={
       "color": "#3f4b30"
     },
     {
+      "name": "Rowan Wood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 1731,
+      "color": "#a98b47"
+    },
+    {
+      "name": "Rowan Wood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 1731,
+      "color": "#a98b47"
+    },
+    {
       "name": "Ruche",
       "uid": "Forestry:alveary",
       "meta": 0,
@@ -20704,12 +20569,6 @@ var colorpalette={
       "color": "#585553"
     },
     {
-      "name": "Rune de Sort",
-      "uid": "arsmagica2:SpellRune",
-      "meta": 0,
-      "color": "#90b0e2"
-    },
-    {
       "name": "Rune de Vitesse",
       "uid": "AWWayofTime:speedRune",
       "meta": 0,
@@ -20752,12 +20611,6 @@ var colorpalette={
       "color": "#6e77ff"
     },
     {
-      "name": "Réceptacle à Cryptolithe",
-      "uid": "arsmagica2:keystoneReceptacle",
-      "meta": 0,
-      "color": "#737a9e"
-    },
-    {
       "name": "Réplicateur génétique",
       "uid": "gendustry:Replicator",
       "meta": 0,
@@ -20798,7 +20651,8 @@ var colorpalette={
       "name": "Réservoir à Essentia",
       "uid": "Thaumcraft:blockEssentiaReservoir",
       "meta": 0,
-      "color": "#708cab"
+      "color": "#708cab",
+      "alpha": 0.4117647
     },
     {
       "name": "SHADE Corrupted Crystal",
@@ -20840,13 +20694,8 @@ var colorpalette={
       "name": "Sablier plannant",
       "uid": "Botania:hourglass",
       "meta": 0,
-      "color": "#b1bdff"
-    },
-    {
-      "name": "Sacrificial Altar",
-      "uid": "abyssalcraft:sacrificialaltar",
-      "meta": 0,
-      "color": "#181f1c"
+      "color": "#b1bdff",
+      "alpha": 0.2
     },
     {
       "name": "Salis Mundus Block",
@@ -21041,24 +20890,6 @@ var colorpalette={
       "color": "#a38751"
     },
     {
-      "name": "Shoggoth Biomass",
-      "uid": "abyssalcraft:shoggothbiomass",
-      "meta": 0,
-      "color": "#0e2c20"
-    },
-    {
-      "name": "Shoggoth Ooze",
-      "uid": "abyssalcraft:shoggothblock",
-      "meta": 0,
-      "color": "#1d2520"
-    },
-    {
-      "name": "Shub-Niggurath Statue",
-      "uid": "abyssalcraft:shubniggurathstatue",
-      "meta": 0,
-      "color": "#181f1c"
-    },
-    {
       "name": "Siamese Rug",
       "uid": "MagicCookie:ocelotRug",
       "meta": 8,
@@ -21234,6 +21065,18 @@ var colorpalette={
       "color": "#590b05"
     },
     {
+      "name": "Sol de jardin",
+      "uid": "GardenCore:garden_soil",
+      "meta": 0,
+      "color": "#502c13"
+    },
+    {
+      "name": "Sol de jardin labouré",
+      "uid": "GardenCore:garden_farmland",
+      "meta": 0,
+      "color": "#45260f"
+    },
+    {
       "name": "Sol du laboratoire",
       "uid": "HardcoreEnderExpansion:laboratory_floor",
       "meta": 0,
@@ -21256,12 +21099,6 @@ var colorpalette={
       "uid": "IC2:blockHeatGenerator",
       "meta": 0,
       "color": "#bdc3c5"
-    },
-    {
-      "name": "Solid lava",
-      "uid": "abyssalcraft:solidlava",
-      "meta": 0,
-      "color": "#d2530e"
     },
     {
       "name": "Sonic Amplifier",
@@ -21291,6 +21128,18 @@ var colorpalette={
       "name": "Sortingwood Engine",
       "uid": "TwilightForest:tile.TFMagicLogSpecial",
       "meta": 3,
+      "color": "#634426"
+    },
+    {
+      "name": "Sortingwood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 13965,
+      "color": "#634426"
+    },
+    {
+      "name": "Sortingwood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 13965,
       "color": "#634426"
     },
     {
@@ -21394,12 +21243,6 @@ var colorpalette={
       "color": "#080400"
     },
     {
-      "name": "Spell-Sealed Door",
-      "uid": "arsmagica2:spellSealedDoor",
-      "meta": 0,
-      "color": "#545e78"
-    },
-    {
       "name": "Sphalérite",
       "uid": "HardcoreEnderExpansion:sphalerite",
       "meta": 0,
@@ -21494,7 +21337,8 @@ var colorpalette={
       "name": "Steam",
       "uid": "IC2:fluidSteam",
       "meta": 0,
-      "color": "#bbbbbb"
+      "color": "#bbbbbb",
+      "alpha": 0.95686275
     },
     {
       "name": "Steam Generator",
@@ -21617,7 +21461,8 @@ var colorpalette={
       "name": "Superheated Steam",
       "uid": "IC2:fluidSuperheatedSteam",
       "meta": 0,
-      "color": "#c9d0d0"
+      "color": "#c9d0d0",
+      "alpha": 0.95686275
     },
     {
       "name": "Support mural d\u0027acier",
@@ -21674,18 +21519,6 @@ var colorpalette={
       "color": "#453425"
     },
     {
-      "name": "Table d\u0027Imbuement d\u0027Armure",
-      "uid": "arsmagica2:armorInfuser",
-      "meta": 0,
-      "color": "#415a6f"
-    },
-    {
-      "name": "Table d\u0027Inscription",
-      "uid": "arsmagica2:InscriptionTable",
-      "meta": 0,
-      "color": "#605354"
-    },
-    {
       "name": "Table d\u0027accumulation",
       "uid": "HardcoreEnderExpansion:accumulation_table",
       "meta": 0,
@@ -21726,6 +21559,12 @@ var colorpalette={
       "uid": "Thaumcraft:blockTable",
       "meta": 14,
       "color": "#453425"
+    },
+    {
+      "name": "Table de poterie",
+      "uid": "GardenContainers:pottery_table",
+      "meta": 0,
+      "color": "#5e4530"
     },
     {
       "name": "Table de travail",
@@ -21896,7 +21735,8 @@ var colorpalette={
       "name": "Tampon à Essentia",
       "uid": "Thaumcraft:blockTube",
       "meta": 4,
-      "color": "#433e2b"
+      "color": "#433e2b",
+      "alpha": 0.93333334
     },
     {
       "name": "Tapis blanc",
@@ -22341,49 +22181,57 @@ var colorpalette={
       "name": "The SHADE",
       "uid": "essentialcraft:shade",
       "meta": 0,
-      "color": "#f1f1f1"
+      "color": "#f1f1f1",
+      "alpha": 0.5019608
     },
     {
       "name": "The SHADE",
       "uid": "essentialcraft:shade",
       "meta": 1,
-      "color": "#e3e3e3"
+      "color": "#e3e3e3",
+      "alpha": 0.5019608
     },
     {
       "name": "The SHADE",
       "uid": "essentialcraft:shade",
       "meta": 2,
-      "color": "#cecece"
+      "color": "#cecece",
+      "alpha": 0.5019608
     },
     {
       "name": "The SHADE",
       "uid": "essentialcraft:shade",
       "meta": 3,
-      "color": "#b3b3b3"
+      "color": "#b3b3b3",
+      "alpha": 0.5019608
     },
     {
       "name": "The SHADE",
       "uid": "essentialcraft:shade",
       "meta": 4,
-      "color": "#959595"
+      "color": "#959595",
+      "alpha": 0.5019608
     },
     {
       "name": "The SHADE",
       "uid": "essentialcraft:shade",
       "meta": 5,
-      "color": "#767676"
+      "color": "#767676",
+      "alpha": 0.5019608
     },
     {
       "name": "The SHADE",
       "uid": "essentialcraft:shade",
       "meta": 6,
-      "color": "#595959"
+      "color": "#595959",
+      "alpha": 0.5019608
     },
     {
       "name": "The SHADE",
       "uid": "essentialcraft:shade",
       "meta": 7,
-      "color": "#404040"
+      "color": "#404040",
+      "alpha": 0.5019608
     },
     {
       "name": "Thorn Rose",
@@ -22467,7 +22315,20 @@ var colorpalette={
       "name": "Timewood Leaves",
       "uid": "TwilightForest:tile.TFMagicLeaves",
       "meta": 0,
-      "color": "#828282"
+      "color": "#828282",
+      "alpha": 0.99607843
+    },
+    {
+      "name": "Timewood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 1677,
+      "color": "#5b3e28"
+    },
+    {
+      "name": "Timewood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 1677,
+      "color": "#5b3e28"
     },
     {
       "name": "Tiroir d\u0027acacia",
@@ -22722,12 +22583,6 @@ var colorpalette={
       "color": "#68493e"
     },
     {
-      "name": "Torche de Vinteum",
-      "uid": "arsmagica2:VinteumTorch",
-      "meta": 0,
-      "color": "#625657"
-    },
-    {
       "name": "Torche de redstone",
       "uid": "minecraft:redstone_torch",
       "meta": 0,
@@ -22812,18 +22667,6 @@ var colorpalette={
       "color": "#5b472c"
     },
     {
-      "name": "Transmutator",
-      "uid": "abyssalcraft:transmutator",
-      "meta": 0,
-      "color": "#384e4b"
-    },
-    {
-      "name": "Transmutator",
-      "uid": "abyssalcraft:transmutator_on",
-      "meta": 0,
-      "color": "#384e4b"
-    },
-    {
       "name": "Transposeur génétique",
       "uid": "gendustry:Transposer",
       "meta": 0,
@@ -22848,6 +22691,18 @@ var colorpalette={
       "color": "#81796a"
     },
     {
+      "name": "Transwood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 5773,
+      "color": "#81796a"
+    },
+    {
+      "name": "Transwood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 5773,
+      "color": "#81796a"
+    },
+    {
       "name": "Trappe de skyroot",
       "uid": "aether:skyrootTrapDoor",
       "meta": 0,
@@ -22858,12 +22713,6 @@ var colorpalette={
       "uid": "minecraft:trapdoor",
       "meta": 0,
       "color": "#82602f"
-    },
-    {
-      "name": "Trappe à Cryptolihe",
-      "uid": "arsmagica2:keystoneTrapDoor",
-      "meta": 0,
-      "color": "#626681"
     },
     {
       "name": "Treated Wood Stairs",
@@ -22888,6 +22737,66 @@ var colorpalette={
       "uid": "TwilightForest:tile.TFSapling",
       "meta": 6,
       "color": "#5c707c"
+    },
+    {
+      "name": "Treillis en acacia",
+      "uid": "GardenStuff:lattice_wood",
+      "meta": 4,
+      "color": "#af5f34"
+    },
+    {
+      "name": "Treillis en acajou",
+      "uid": "GardenStuff:lattice_wood",
+      "meta": 3,
+      "color": "#a37552"
+    },
+    {
+      "name": "Treillis en bouleau",
+      "uid": "GardenStuff:lattice_wood",
+      "meta": 2,
+      "color": "#caba7f"
+    },
+    {
+      "name": "Treillis en chêne",
+      "uid": "GardenStuff:lattice_wood",
+      "meta": 0,
+      "color": "#a68753"
+    },
+    {
+      "name": "Treillis en chêne noir",
+      "uid": "GardenStuff:lattice_wood",
+      "meta": 5,
+      "color": "#402913"
+    },
+    {
+      "name": "Treillis en fer",
+      "uid": "GardenStuff:lattice",
+      "meta": 0,
+      "color": "#706e6d"
+    },
+    {
+      "name": "Treillis en fer forgé",
+      "uid": "GardenStuff:lattice",
+      "meta": 2,
+      "color": "#1f1e1e"
+    },
+    {
+      "name": "Treillis en sapin",
+      "uid": "GardenStuff:lattice_wood",
+      "meta": 1,
+      "color": "#6e5231"
+    },
+    {
+      "name": "Treillis moussus",
+      "uid": "GardenStuff:lattice",
+      "meta": 3,
+      "color": "#706f38"
+    },
+    {
+      "name": "Treillis rouillés",
+      "uid": "GardenStuff:lattice",
+      "meta": 1,
+      "color": "#ae532a"
     },
     {
       "name": "Trent Effigy",
@@ -23058,6 +22967,18 @@ var colorpalette={
       "color": "#a18355"
     },
     {
+      "name": "Twilight Oak Wood Poteau",
+      "uid": "GardenTrees:thin_log",
+      "meta": 1661,
+      "color": "#a18355"
+    },
+    {
+      "name": "Twilight Oak Wood Poteau de barrière",
+      "uid": "GardenTrees:thin_log_fence",
+      "meta": 1661,
+      "color": "#a18355"
+    },
+    {
       "name": "Téléporteur",
       "uid": "IC2:blockMachine2",
       "meta": 1,
@@ -23134,30 +23055,6 @@ var colorpalette={
       "uid": "HardcoreEnderExpansion:enderman_head_block",
       "meta": 0,
       "color": "#554134"
-    },
-    {
-      "name": "Tête de Dr. Orange",
-      "uid": "abyssalcraft:ohead",
-      "meta": 0,
-      "color": "#576163"
-    },
-    {
-      "name": "Tête de Goule des Profondeurs",
-      "uid": "abyssalcraft:dghead",
-      "meta": 0,
-      "color": "#5c6769"
-    },
-    {
-      "name": "Tête de Mr. Wilson",
-      "uid": "abyssalcraft:whead",
-      "meta": 0,
-      "color": "#5c6769"
-    },
-    {
-      "name": "Tête de Pete",
-      "uid": "abyssalcraft:phead",
-      "meta": 0,
-      "color": "#5c685f"
     },
     {
       "name": "UU-Matter",
@@ -23350,7 +23247,8 @@ var colorpalette={
       "name": "Verre liquide",
       "uid": "Forestry:fluid.glass",
       "meta": 0,
-      "color": "#a3a3a3"
+      "color": "#a3a3a3",
+      "alpha": 0.7019608
     },
     {
       "name": "Verre magenta",
@@ -23391,7 +23289,8 @@ var colorpalette={
       "name": "Verre renforcé",
       "uid": "Thaumcraft:blockCosmeticOpaque",
       "meta": 2,
-      "color": "#798ca2"
+      "color": "#798ca2",
+      "alpha": 0.42745098
     },
     {
       "name": "Verre rose",
@@ -23486,7 +23385,8 @@ var colorpalette={
       "name": "Violet Force Field",
       "uid": "TwilightForest:tile.ForceField",
       "meta": 0,
-      "color": "#5c1074"
+      "color": "#5c1074",
+      "alpha": 0.29803923
     },
     {
       "name": "Vis Apiary Booster",
@@ -23679,7 +23579,8 @@ var colorpalette={
       "name": "Void Bramble",
       "uid": "witchery:voidbramble",
       "meta": 0,
-      "color": "#50263a"
+      "color": "#50263a",
+      "alpha": 0.99215686
     },
     {
       "name": "Void Crop",
@@ -23992,7 +23893,8 @@ var colorpalette={
       "name": "Wild Bramble",
       "uid": "witchery:bramble",
       "meta": 1,
-      "color": "#463625"
+      "color": "#463625",
+      "alpha": 0.99215686
     },
     {
       "name": "Willow Drawer",
@@ -24034,7 +23936,8 @@ var colorpalette={
       "name": "Wispy Cotton",
       "uid": "witchery:somniancotton",
       "meta": 0,
-      "color": "#5f814d"
+      "color": "#5f814d",
+      "alpha": 0.92941177
     },
     {
       "name": "Witch\u0027s Cauldron",
@@ -24059,24 +23962,6 @@ var colorpalette={
       "uid": "witchery:witchesovenidle",
       "meta": 0,
       "color": "#12110f"
-    },
-    {
-      "name": "Witchwood Slab",
-      "uid": "arsmagica2:witchwoodDoubleSlab",
-      "meta": 0,
-      "color": "#645d78"
-    },
-    {
-      "name": "Witchwood Slab",
-      "uid": "arsmagica2:witchwoodSingleSlab",
-      "meta": 0,
-      "color": "#645d78"
-    },
-    {
-      "name": "Wizard\u0027s Chalk Rune",
-      "uid": "arsmagica2:wizardChalk",
-      "meta": 0,
-      "color": "#f4fdff"
     },
     {
       "name": "Wolf Altar",
@@ -24139,6 +24024,12 @@ var colorpalette={
       "color": "#201325"
     },
     {
+      "name": "Wrought Iron Hoop",
+      "uid": "GardenStuff:hoop",
+      "meta": 0,
+      "color": "#232323"
+    },
+    {
       "name": "Yellow Castle Rune Brick",
       "uid": "TwilightForest:tile.CastleMagic",
       "meta": 2,
@@ -24195,12 +24086,6 @@ var colorpalette={
       "color": "#c2c216"
     },
     {
-      "name": "Yog-Sothoth Statue",
-      "uid": "abyssalcraft:yogsothothstatue",
-      "meta": 0,
-      "color": "#181f1c"
-    },
-    {
       "name": "Zebrawood Drawer",
       "uid": "StorageDrawersForestry:fullDrawers1B",
       "meta": 12,
@@ -24234,97 +24119,113 @@ var colorpalette={
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 0,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 1,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 2,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 3,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 4,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 5,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 6,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 7,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 8,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 9,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 10,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 11,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 12,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 13,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 14,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Amber Tile",
       "uid": "essentialcraft:fancyBlock.blockCosmeticOpaque",
       "meta": 15,
-      "color": "#f1b761"
+      "color": "#f1b761",
+      "alpha": 0.9098039
     },
     {
       "name": "[TC]Fancy Obsidian Tile",
@@ -24777,13 +24678,20 @@ var colorpalette={
       "name": "tile.essentialcraft.torch.name",
       "uid": "essentialcraft:torch",
       "meta": 0,
-      "color": "#6a5637"
+      "color": "#6a5637",
+      "alpha": 0.003921569
     },
     {
       "name": "tile.flowerPot.name",
       "uid": "HardcoreEnderExpansion:death_flower_pot",
       "meta": 0,
       "color": "#774233"
+    },
+    {
+      "name": "tile.gardenstuff.rootCover.name",
+      "uid": "GardenStuff:root_cover",
+      "meta": 0,
+      "color": "#755d38"
     },
     {
       "name": "tile.holystoneFurnaceBurning.name",
@@ -24869,7 +24777,8 @@ var colorpalette={
       "name": "tile.witchery:brewgas.name",
       "uid": "witchery:brewgas",
       "meta": 0,
-      "color": "#c6c6c6"
+      "color": "#c6c6c6",
+      "alpha": 0.5411765
     },
     {
       "name": "tile.witchery:brewliquid.name",
@@ -24898,183 +24807,6 @@ var colorpalette={
       "color": "#dddddd"
     },
     {
-      "name": "§3Bloc d\u0027Abyssalnite",
-      "uid": "abyssalcraft:abyblock",
-      "meta": 0,
-      "color": "#47217c"
-    },
-    {
-      "name": "§4Block of Dreadium",
-      "uid": "abyssalcraft:dreadiumblock",
-      "meta": 0,
-      "color": "#810000"
-    },
-    {
-      "name": "§4Bombe de la Mort d\u0027Oblivion",
-      "uid": "abyssalcraft:odb",
-      "meta": 0,
-      "color": "#300507"
-    },
-    {
-      "name": "§4Chiseled Dark Ethaxium Brick",
-      "uid": "abyssalcraft:darkethaxiumbrick",
-      "meta": 1,
-      "color": "#262720"
-    },
-    {
-      "name": "§4Coeur de l\u0027ODB",
-      "uid": "abyssalcraft:odbcore",
-      "meta": 0,
-      "color": "#47217c"
-    },
-    {
-      "name": "§4Dark Ethaxium Brick",
-      "uid": "abyssalcraft:darkethaxiumbrick",
-      "meta": 0,
-      "color": "#2e2f26"
-    },
-    {
-      "name": "§4Dark Ethaxium Brick Doubleslab",
-      "uid": "abyssalcraft:darkethaxiumbrickslab2",
-      "meta": 0,
-      "color": "#2e2f26"
-    },
-    {
-      "name": "§4Dark Ethaxium Brick Fence",
-      "uid": "abyssalcraft:darkethaxiumbrickfence",
-      "meta": 0,
-      "color": "#2e2f26",
-      "alpha": 0.4
-    },
-    {
-      "name": "§4Dark Ethaxium Brick Slab",
-      "uid": "abyssalcraft:darkethaxiumbrickslab1",
-      "meta": 0,
-      "color": "#2e2f26"
-    },
-    {
-      "name": "§4Dark Ethaxium Brick Stairs",
-      "uid": "abyssalcraft:darkethaxiumbrickstairs",
-      "meta": 0,
-      "color": "#2e2f26"
-    },
-    {
-      "name": "§4Dark Ethaxium Pillar",
-      "uid": "abyssalcraft:darkethaxiumpillar",
-      "meta": 0,
-      "color": "#32332b"
-    },
-    {
-      "name": "§9Barrière de Brique de Pierre Abyssale",
-      "uid": "abyssalcraft:abyfence",
-      "meta": 0,
-      "color": "#0e1d0f",
-      "alpha": 0.4
-    },
-    {
-      "name": "§9Boutton de Pierre Abyssale",
-      "uid": "abyssalcraft:abybutton",
-      "meta": 0,
-      "color": "#09170a"
-    },
-    {
-      "name": "§9Briques de Pierre Abyssale",
-      "uid": "abyssalcraft:abybrick",
-      "meta": 0,
-      "color": "#0d1e0e"
-    },
-    {
-      "name": "§9Dalle de Brique de Pierre Abyssale",
-      "uid": "abyssalcraft:abyslab1",
-      "meta": 0,
-      "color": "#0d1e0e"
-    },
-    {
-      "name": "§9Double-Dalle de Brique de Pierre Abyssale",
-      "uid": "abyssalcraft:abyslab2",
-      "meta": 0,
-      "color": "#0d1e0e"
-    },
-    {
-      "name": "§9Escaliers de Brique de Pierre Abyssale",
-      "uid": "abyssalcraft:abystairs",
-      "meta": 0,
-      "color": "#0d1e0e"
-    },
-    {
-      "name": "§9Pierre Abyssale",
-      "uid": "abyssalcraft:abystone",
-      "meta": 0,
-      "color": "#09170a"
-    },
-    {
-      "name": "§9Plaque de Pression de Pierre Abyssale",
-      "uid": "abyssalcraft:abypplate",
-      "meta": 0,
-      "color": "#09170a"
-    },
-    {
-      "name": "§bBloc de Coralium Raffiné",
-      "uid": "abyssalcraft:corblock",
-      "meta": 0,
-      "color": "#3c615c"
-    },
-    {
-      "name": "§bBlock of Ethaxium",
-      "uid": "abyssalcraft:ethaxiumblock",
-      "meta": 0,
-      "color": "#91968a"
-    },
-    {
-      "name": "§bChiseled Ethaxium Brick",
-      "uid": "abyssalcraft:ethaxiumbrick",
-      "meta": 1,
-      "color": "#929385"
-    },
-    {
-      "name": "§bEthaxium",
-      "uid": "abyssalcraft:ethaxium",
-      "meta": 0,
-      "color": "#8d9083"
-    },
-    {
-      "name": "§bEthaxium Brick",
-      "uid": "abyssalcraft:ethaxiumbrick",
-      "meta": 0,
-      "color": "#9a9c8d"
-    },
-    {
-      "name": "§bEthaxium Brick Doubleslab",
-      "uid": "abyssalcraft:ethaxiumbrickslab2",
-      "meta": 0,
-      "color": "#9a9c8d"
-    },
-    {
-      "name": "§bEthaxium Brick Fence",
-      "uid": "abyssalcraft:ethaxiumfence",
-      "meta": 0,
-      "color": "#9a9c8d",
-      "alpha": 0.4
-    },
-    {
-      "name": "§bEthaxium Brick Slab",
-      "uid": "abyssalcraft:ethaxiumbrickslab1",
-      "meta": 0,
-      "color": "#9a9c8d"
-    },
-    {
-      "name": "§bEthaxium Brick Stairs",
-      "uid": "abyssalcraft:ethaxiumbrickstairs",
-      "meta": 0,
-      "color": "#9a9c8d"
-    },
-    {
-      "name": "§bEthaxium Pillar",
-      "uid": "abyssalcraft:ethaxiumpillar",
-      "meta": 0,
-      "color": "#9c9e93"
-    },
-    {
       "name": "Échafaudage",
       "uid": "IC2:blockScaffold",
       "meta": 0,
@@ -25084,7 +24816,8 @@ var colorpalette={
       "name": "Échafaudage en acier",
       "uid": "ImmersiveEngineering:metalDecoration",
       "meta": 1,
-      "color": "#464646"
+      "color": "#464646",
+      "alpha": 0.9843137
     },
     {
       "name": "Échafaudage en bois traité",
@@ -25129,13 +24862,6 @@ var colorpalette={
       "color": "#477f2c"
     },
     {
-      "name": "Émetteur de Particules",
-      "uid": "arsmagica2:ParticleEmitter",
-      "meta": 0,
-      "color": "#424242",
-      "alpha": 0.4
-    },
-    {
       "name": "Éolienne",
       "uid": "ImmersiveEngineering:woodenDevice",
       "meta": 2,
@@ -25170,12 +24896,6 @@ var colorpalette={
       "uid": "aether:skyrootCraftingTable",
       "meta": 0,
       "color": "#333224"
-    },
-    {
-      "name": "Établi du Magicien",
-      "uid": "arsmagica2:magiciansWorkbench",
-      "meta": 0,
-      "color": "#645d78"
     },
     {
       "name": "Étagère en acajou",

@@ -10,7 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Thaumic Industries 2.2",
+  "name": "Thaumic Industries",
+  "version": "2.2.1",
   "author": "",
   "files": [
     {
@@ -316,6 +317,11 @@
     {
       "projectID": 228268,
       "fileID": 2262119,
+      "required": true
+    },
+    {
+      "projectID": 225903,
+      "fileID": 2269692,
       "required": true
     },
     {

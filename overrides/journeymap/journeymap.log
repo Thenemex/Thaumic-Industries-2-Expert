@@ -1,12 +1,12 @@
-[19:08:09] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[19:08:09] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[19:08:09] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.core.config
-[19:08:09] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.fullmap.config
-[19:08:09] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.minimap.config
-[19:08:09] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.minimap2.config
-[19:08:09] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.webmap.config
-[19:08:09] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.waypoint.config
-[19:08:09] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 FairPlay, built with Forge 10.13.4.1558
+[11:40:58] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[11:40:58] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[11:40:58] [Client thread/INFO] [PropertiesBase] Loaded CoreProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.core.config
+[11:40:58] [Client thread/INFO] [PropertiesBase] Loaded FullMapProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.fullmap.config
+[11:40:58] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.minimap.config
+[11:40:58] [Client thread/INFO] [PropertiesBase] Loaded MiniMapProperties2 from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.minimap2.config
+[11:40:58] [Client thread/INFO] [PropertiesBase] Loaded WebMapProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.webmap.config
+[11:40:58] [Client thread/INFO] [PropertiesBase] Loaded WaypointProperties from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\config\5.1\journeymap.waypoint.config
+[11:40:58] [Client thread/INFO] [?] Version: JourneyMap 5.1.4p2 FairPlay, built with Forge 10.13.4.1558
 Forge: 10.13.4.1614
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=fr_FR, locale=fr_fr
 FairPlay Features: 
@@ -17,15 +17,15 @@ FairPlay Features:
 	MapCaves : singleplayer = true , multiplayer = false
 MiniMapProperties{entityIconSetName=2D, showAnimals=false, showMobs=false, showPets=false, showPlayers=false, showSelf=true, showVillagers=false, showWaypoints=true, zoomLevel=0, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=false, showWaypointLabels=true, showMobHeading=false, showPlayerHeading=true, textureSmall=true, active=true, compassFontScale=1, enabled=true, frameAlpha=100, name=minimap, orientation=Nord, position=En Haut à Droite, preferredMapType=day, reticleOrientation=Compas, shape=Rond, showBiome=true, showCompass=true, showFps=true, showLocation=true, showReticle=true, sizePercent=35, terrainAlpha=100}
 MiniMapProperties2{enabled=true, shape=Rectangle, position=En Haut au Centre, showFps=true, showBiome=true, showLocation=true, showWaypointLabels=true, sizePercent=40, frameAlpha=80, terrainAlpha=80, orientation=Mon Orientation, compassFontScale=1, showCompass=true, showReticle=true, reticleOrientation=Compas, preferredMapType=day, name=minimap2, id=2}
-FullMapProperties{entityIconSetName=2D, showAnimals=false, showMobs=false, showPets=false, showPlayers=false, showSelf=true, showVillagers=false, showWaypoints=false, zoomLevel=0, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=false, showWaypointLabels=true, showMobHeading=false, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=false}
+FullMapProperties{entityIconSetName=2D, showAnimals=false, showMobs=false, showPets=false, showPlayers=false, showSelf=true, showVillagers=false, showWaypoints=false, zoomLevel=3, fontScale=1, locationFormat=xzyv, locationFormatVerbose=true, showCaves=false, showWaypointLabels=true, showMobHeading=false, showPlayerHeading=true, textureSmall=true, preferredMapType=day, showGrid=false}
 WaypointProperties{autoHideLabel=true, beaconEnabled=true, boldLabel=true, createDeathpoints=true, fontScale=2, managerEnabled=true, maxDistance=0, name=waypoint, showDistance=true, showName=true, showRotatingBeam=false, showStaticBeam=false, showTexture=true, textureSmall=true}
 WebMapProperties: , enabled=false, port=8080, showMobs=true, showAnimals=true, showVillagers=true, showPets=true, showPlayers=true, showWaypoints=true, entityIconSetName=2D
-CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=10000, cacheMobsData=10000, cachePlayerData=1000, cachePlayersData=10000, cacheVillagersData=10000, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=1, maxMobsData=1, maxPlayersData=1, maxVillagersData=1, optionsManagerViewed=5.1.4p2, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=7, revealShape=Rond, themeName=Victorian, tileRenderType=1}
-[19:08:09] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
-[19:08:49] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
-[19:08:49] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
-[19:08:49] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
-[19:08:49] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+CoreProperties{announceMod=true, autoMapPoll=2000, browserPoll=2000, cacheAnimalsData=10000, cacheMobsData=10000, cachePlayerData=1000, cachePlayersData=10000, cacheVillagersData=10000, caveIgnoreGlass=true, isUpdateCheckEnabled=true, renderDelay=2, hideSneakingEntities=true, logLevel=INFO, mapAntialiasing=true, mapBathymetry=false, mapCaveLighting=true, mapCrops=true, mapPlants=false, mapPlantShadows=false, mapSurfaceAboveCaves=true, tileHighDisplayQuality=true, mapTransparency=true, maxAnimalsData=1, maxMobsData=1, maxPlayersData=1, maxVillagersData=1, optionsManagerViewed=5.1.4p2, radarLateralDistance=64, radarVerticalDistance=16, recordCacheStats=false, renderOverlayEventTypeName=ALL, renderOverlayPreEvent=true, renderDistanceCaveMin=3, renderDistanceCaveMax=3, renderDistanceSurfaceMin=4, renderDistanceSurfaceMax=6, revealShape=Rond, themeName=Victorian, tileRenderType=1}
+[11:40:58] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[11:41:05] [Client thread/INFO] [JourneymapClient] postInitialize ENTER
+[11:41:05] [Client thread/INFO] [WorldInfoHandler] Registered channel: world_info
+[11:41:05] [Client thread/INFO] [IconSetFileHandler] Initializing icon sets...
+[11:41:06] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
 java.net.UnknownHostException: widget.mcf.li
 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_51]
 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_51]
@@ -60,121 +60,121 @@ java.net.UnknownHostException: widget.mcf.li
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
-[19:08:49] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r351§8ms§r
-[19:08:58] [Client thread/INFO] [ColorManager] Loading blocks and textures...
-[19:08:58] [Client thread/INFO] [BlockMD] Built BlockMD cache (4598) : BlockMD.reset count 1 avg 46.17ms
-[19:08:58] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 4096x2048 loaded in 94.1185ms
-[19:08:58] [Client thread/INFO] [ColorPalette] Existing color palette's resource packs and mod names match current loadout.
-[19:08:58] [Client thread/INFO] [ColorManager] Loaded 4150 block colors from color palette file in 6ms: C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\colorpalette.json
-[19:08:58] [Client thread/INFO] [ColorManager] Initialized 141 block colors from mods and resource packs in 19ms
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.SkyStoneSlabBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockIOPort:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCharger:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCraftingStorage:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCellWorkbench:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCraftingUnit:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:mrucuAbsorber:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ThaumicHorizons:light:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzPillarSlabBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantObsidian:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.OreQuartz:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzPillar:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockAiry:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockWarded:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [MagicCookie:blockDarkStone:13] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:mrucuStabilizer:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzTorch:0] (HasAir,NoShadow,Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCraftingMonitor:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockMolecularAssembler:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [AWWayofTime:spectralContainer:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockEnergyAcceptor:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [mdeco:tclanternsw:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuantumLinkChamber:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockFluix:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCrank:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSkyChest:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ThaumicExploration:thinkTankJar:0] (OpenToSky,Transparency,Error,TransparentRoof)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzPillarStairBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSecurity:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSpatialPylon:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.CastleDoorVanished:0] (OpenToSky,Transparency,Error,TransparentRoof)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.FluixSlabBlock.double:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ThaumicHorizons:lightSolar:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockController:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockEldritchNothing:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSpatialIOPort:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [mdeco:mdecomatrixblock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:fluxWiper:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.ChiseledQuartzSlabBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzChiseled:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockVibrationChamber:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuantumRing:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.OreQuartzCharged:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockPortalEldritch:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TaintedMagic:BlockLumos:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockGrinder:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzSlabBlock.double:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantLeaves:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [witchery:force:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzSlabBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essentialcraft:chest:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essentialcraft:chest:1] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzStairBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.FluixSlabBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockInterface:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockChest:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCreativeEnergyCell:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartz:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.FluixStairBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.SkyStoneSlabBlock.double:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockDrive:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantCobble:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EMT:electricCloud:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSkyStone:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzLamp:0] (OpenToSky,Transparency,Error,TransparentRoof)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:radiatedNode:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockWireless:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:mruSpreader:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockInscriber:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.SkyStoneStairBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzGrowthAccelerator:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzGlass:0] (OpenToSky,Transparency,Error,TransparentRoof)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [neenergistics:tile.pattern_interface:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [AWWayofTime:bloodLight:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockLightDetector:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.HugeLilyPad:0] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.ChiseledQuartzStairBlock:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:0] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:2] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:1] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:4] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:3] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:6] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:5] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:8] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:7] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:10] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:9] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:12] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:11] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:14] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:13] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:15] (NoShadow,Transparency,Error,Plant,NoTopo)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [WitchingGadgets:WG_CustomAir:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [gadomancy:BlockAdditionalEldritchPortal:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantLog:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:nodeIrradiator:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockTinyTNT:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [mdeco:tclanterngw:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzPillarSlabBlock.double:0] (Transparency,Error)
-[19:08:58] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCondenser:0] (Transparency,Error)
-[19:08:58] [Client thread/INFO] [ColorPalette] Color palette file generated with 4150 colors in 46ms for: C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\colorpalette.json
-[19:08:58] [Client thread/INFO] [ColorManager] Updated color palette file: C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\colorpalette.json
-[19:13:19] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
-[19:13:30] [Client thread/INFO] [WorldInfoHandler] Requesting World ID
-[19:13:30] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\data\mp\TW2\waypoints
-[19:13:30] [Client thread/INFO] [ColorManager] Blocks and textures are current
-[19:13:30] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\data\mp\TW2\DIM0. Memory: 3419MB total, 2840MB free 
-[19:13:37] [Client thread/INFO] [ChatLog] JourneyMap: Appuyer [J]
-[19:13:40] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\data\mp\TW2\DIM0
+[11:41:06] [Client thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r363.65§8ms§r
+[11:41:17] [Client thread/INFO] [ColorManager] Loading blocks and textures...
+[11:41:17] [Client thread/INFO] [BlockMD] Built BlockMD cache (4514) : BlockMD.reset count 1 avg 42.44ms
+[11:41:18] [Client thread/INFO] [ColorHelper_1_7_10] initBlocksTexture: 4096x2048 loaded in 112.5397ms
+[11:41:18] [Client thread/WARN] [ColorPalette] Existing color palette's mods no longer match current loadout.
+[11:41:18] [Client thread/INFO] [ColorPalette] WAS: AI Improvements:0.0.1.8, AdvancedVanilla2:2.0.0.0, Aether Aspects:Alpha 1.7.10-1.2, Aether II:1.7.10-1.6, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, Applied Energistics 2 Core:rv3-beta-6, Applied Energistics 2:rv3-beta-6, Arcane Engineering:0.2.7, Automagy:0.28.2, Avaritia:1.13, BD Lib:1.9.4.109, Baubles:1.0.1.10, Better Boat:1.1.0, BiblioCraft:1.11.7, Bigger Packets, please !:1.2, Blood Arsenal:1.2-5, Blood Magic: Alchemical Wizardry:v1.3.3, Bookshelf:1.0.4.187, Botania:r1.8-249, BotaniaVisualizer:1.7.2-1.0a, Botanic-Energistics:@version@, Botanical Addons:0.1.20, ChickenChunks:1.3.4.19, Classic Oceans:1.7.10-1.0.0, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.48, Compact Solar Arrays:4.4.39.315, CosmeticArmorReworked:1.7.10-v7, Craft Arcanum:1.1.1, CraftPresence:1.9.6, Crafting Tweaks:1.0.88, Custom Main Menu:1.9.2, Dense Ores:1.0, Ding:MC1.7.10v2, DummyCore:1.13, Electro-Magic Tools:1.2.6.2, Ender Zoo:1.7.10-1.0.15.32, Essential Craft 4:4.6.1710.70, Essential Thaumaturgy:1.1.1710.0, Extra Cells 2:2.4.0, FPS Reducer:mc1.7.10-1.10.3, FalsePatternLib:0.10.14, Fast Leaf Decay:1.4, FoamFix:@VERSION@, FoamFixCore:1.0.2, Forbidden Magic:1.7.10-0.575, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, Forgotten Relics:1.7.3, Fullscreen Windowed:1.3.0, Gadomancy:1.0.7.3, GenDustry:1.6.3.132, Gilded Games Utility:1.7.10-1.2, Gravestone:0.7.10.3, Guide-API:1.7.10-1.0.1-20, Hardcore Ender Expansion:1.8.6, Hardcore Wither:1.1.3, HelpFixer:1.0.7, IC2 Wrench Plugin:0.0.1, Immersive Engineering:0.7.7, Immersive Integration:0.6.8, In-Game wiki Mod:1.1.12-34, IncreaseMobs:1.0.0, IndustrialCraft 2:2.2.827-experimental, Infernal Mobs:1.6.0, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Backpacks:1.7.10-1.2.20, Iron Chest:6.0.62.742, JCTweaks:1.25, Journey Map Api for 1.7.10:0.8.9, JourneyMap:5.1.4p2, LLibrary:1.5.1, Lava Monsters:2.2.1, MJUtils:1.6.1, Magic Bees:2.4.4, Magic Cookies, something yummy:1.0.7.1, Magical Decorations:0.3.5, MineTweaker 3:3.0.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, MmmMmmMmmMmm:1.0, Mob Properties:1.0.2, Mod Tweaker 2:0.9.6, Morpheus:1.7.10-1.6.21, Mouse Tweaks:2.4.4, NEI Addons: Applied Energistics 2:1.12.14.40, NEI Addons: Botany:1.12.14.40, NEI Addons: Crafting Tables:1.12.14.40, NEI Addons: Developer Tools:1.12.14.40, NEI Addons: Ex Nihilo:1.12.14.40, NEI Addons: Forestry:1.12.14.40, NEI Addons:1.12.14.40, NEI Integration:1.1.2, NOVA:2015-10-09, Nether Ores:1.7.10R2.3.1, Nether Portal Fix:1.0, NodalMechanics:1.7.10R1.0, Not Enough Items:1.0.5.120, Not Enough Resources:0.1.0.ManuallyBuilt, NotEnoughEnergistics:@VERSION@, NotEnoughIDs:1.4.3.4, NotEnoughKeys:@MOD_VERSION@, NotEnoughThaumcraftTabs:1.0.2, Nuclear Control 2:2.4.5a, Player API:1.4, ReAuth:4.0.3, Resource Loader:1.3, Sanguimancy:1.7.10-1.1.9-35, Server Tab Info:Final-b3, Special AI:1.1.2, SpongeMixins Loader:1.2.0, Storage Drawers NEI Fix:1.0, Storage Drawers: Forestry Pack:1.7.10-1.1.2, Storage Drawers:1.7.10-1.10.9, Symcalc:0.14, TC Inventory Scanning:1.0.11, TC Node Tracker:1.1.2, TCBotaniaExoflame:1.0, Tainted Magic:8.1.1, Talismans 2:1.1.6, ThaumOres:1.6.0, Thaumaturgical Knowledge:0.1.5.1, Thaumcraft Mob Aspects:1.7.2-2A, Thaumcraft NEI Plugin:@VERSION@, Thaumcraft:4.2.3.5, Thaumic Bases:1.3.1710.2, Thaumic Dyes:1.10.5, Thaumic Energistics Core:1.0.0.1, Thaumic Energistics:1.1.3.0, Thaumic Exploration:0.6.0, Thaumic Horizons:1.1.9, Thaumic Tinkerer Core:0.1, Thaumic Tinkerer:unspecified, Thaumic Upholstry:1.0, The Twilight Forest:2.3.8dev, Threaded Lighting:1.7.10-1.0, Tick Dynamic:0.1.5, Traveller's Gear:1.16.6, UniDict:1.7.10-2.9.2, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, Witchery:0.24.1, WitcheryPatch:1.0.0, Witching Gadgets Core:1.1.10, Witching Gadgets:1.1.10, debug:1.0, kinetic anti-cheat:7.3.1
+NOW: AI Improvements:0.0.1.8, AdvancedVanilla2:2.0.0.0, Aether Aspects:Alpha 1.7.10-1.2, Aether II:1.7.10-1.6, Another One Bites The Dust:2.9.2, AppleCore:3.1.1, Applied Energistics 2 Core:rv3-beta-6, Applied Energistics 2:rv3-beta-6, Arcane Engineering:0.2.7, Automagy:0.28.2, Avaritia:1.13, BD Lib:1.9.4.109, Baubles:1.0.1.10, Better Boat:1.1.0, BiblioCraft:1.11.7, Bigger Packets, please !:1.2, Blood Arsenal:1.2-5, Blood Magic: Alchemical Wizardry:v1.3.3, Bookshelf:1.0.4.187, Botania:r1.8-249, BotaniaVisualizer:1.7.2-1.0a, Botanic-Energistics:@version@, Botanical Addons:0.1.20, ChickenChunks:1.3.4.19, Classic Oceans:1.7.10-1.0.0, CoFH ASM:000, CoFH Core:1.7.10R3.1.4, CodeChicken Core:1.0.7.48, Compact Solar Arrays:4.4.39.315, CosmeticArmorReworked:1.7.10-v7, Craft Arcanum:1.1.1, CraftPresence:1.9.6, Crafting Tweaks:1.0.88, Custom Main Menu:1.9.2, Dense Ores:1.0, Ding:MC1.7.10v2, DummyCore:1.13, Electro-Magic Tools:1.2.6.2, Ender Zoo:1.7.10-1.0.15.32, Essential Craft 4:4.6.1710.70, Essential Thaumaturgy:1.1.1710.0, Extra Cells 2:2.4.0, FPS Reducer:mc1.7.10-1.10.3, FalsePatternLib:0.10.14, Fast Leaf Decay:1.4, FoamFix:@VERSION@, FoamFixCore:1.0.2, Forbidden Magic:1.7.10-0.575, Forestry for Minecraft:4.2.16.64, Forge Mod Loader:7.10.99.99, Forgotten Relics:1.7.3, Fullscreen Windowed:1.3.0, Gadomancy:1.0.7.3, Garden Containers:1.7.10-1.7.0, Garden Core:1.7.10-1.7.0, Garden Stuff:1.7.10-1.7.0, Garden Trees:1.7.10-1.7.0, GenDustry:1.6.3.132, Gilded Games Utility:1.7.10-1.2, Gravestone:0.7.10.3, Guide-API:1.7.10-1.0.1-20, Hardcore Ender Expansion:1.8.6, Hardcore Wither:1.1.3, HelpFixer:1.0.7, IC2 Wrench Plugin:0.0.1, Immersive Engineering:0.7.7, Immersive Integration:0.6.8, In-Game wiki Mod:1.1.12-34, IncreaseMobs:1.0.0, IndustrialCraft 2:2.2.827-experimental, Infernal Mobs:1.6.0, Inventory Tweaks:1.59-dev-152-cf6e263, Iron Backpacks:1.7.10-1.2.20, Iron Chest:6.0.62.742, JCTweaks:1.25, Journey Map Api for 1.7.10:0.8.9, JourneyMap:5.1.4p2, LLibrary:1.5.1, Lava Monsters:2.2.1, MJUtils:1.6.1, Magic Bees:2.4.4, Magic Cookies, something yummy:1.0.7.1, Magical Decorations:0.3.5, MineTweaker 3:3.0.10, Minecraft Coder Pack:9.05, Minecraft Forge:10.13.4.1614, MmmMmmMmmMmm:1.0, Mob Properties:1.0.2, Mod Tweaker 2:0.9.6, Morpheus:1.7.10-1.6.21, Mouse Tweaks:2.4.4, NEI Addons: Applied Energistics 2:1.12.14.40, NEI Addons: Botany:1.12.14.40, NEI Addons: Crafting Tables:1.12.14.40, NEI Addons: Developer Tools:1.12.14.40, NEI Addons: Ex Nihilo:1.12.14.40, NEI Addons: Forestry:1.12.14.40, NEI Addons:1.12.14.40, NEI Integration:1.1.2, NOVA:2015-10-09, Nether Ores:1.7.10R2.3.1, Nether Portal Fix:1.0, NodalMechanics:1.7.10R1.0, Not Enough Items:1.0.5.120, Not Enough Resources:0.1.0.ManuallyBuilt, NotEnoughEnergistics:@VERSION@, NotEnoughIDs:1.4.3.4, NotEnoughKeys:@MOD_VERSION@, NotEnoughThaumcraftTabs:1.0.2, Nuclear Control 2:2.4.5a, Player API:1.4, ReAuth:4.0.3, Resource Loader:1.3, Sanguimancy:1.7.10-1.1.9-35, Server Tab Info:Final-b3, Special AI:1.1.2, SpongeMixins Loader:1.2.0, Storage Drawers NEI Fix:1.0, Storage Drawers: Forestry Pack:1.7.10-1.1.2, Storage Drawers:1.7.10-1.10.9, Symcalc:0.14, TC Inventory Scanning:1.0.11, TC Node Tracker:1.1.2, TCBotaniaExoflame:1.0, Tainted Magic:8.1.1, Talismans 2:1.1.6, ThaumOres:1.6.0, Thaumaturgical Knowledge:0.1.5.1, Thaumcraft Mob Aspects:1.7.2-2A, Thaumcraft NEI Plugin:@VERSION@, Thaumcraft:4.2.3.5, Thaumic Bases:1.3.1710.2, Thaumic Dyes:1.10.5, Thaumic Energistics Core:1.0.0.1, Thaumic Energistics:1.1.3.0, Thaumic Exploration:0.6.0, Thaumic Horizons:1.1.9, Thaumic Tinkerer Core:0.1, Thaumic Tinkerer:unspecified, Thaumic Upholstry:1.0, The Twilight Forest:2.3.8dev, Threaded Lighting:1.7.10-1.0, Tick Dynamic:0.1.5, Traveller's Gear:1.16.6, UniDict:1.7.10-2.9.2, Waila Harvestability:1.1.6, Waila:1.5.10, WanionLib:1.7.10-1.8, What Are We Looking At:1.3.1, Witchery:0.24.1, WitcheryPatch:1.0.0, Witching Gadgets Core:1.1.10, Witching Gadgets:1.1.10, debug:1.0, kinetic anti-cheat:7.3.1
+[11:41:18] [Client thread/INFO] [ColorManager] Initialized 4196 block colors from mods and resource packs in 218ms
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.SkyStoneSlabBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockIOPort:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCharger:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCraftingStorage:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCellWorkbench:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCraftingUnit:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:mrucuAbsorber:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ThaumicHorizons:light:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzPillarSlabBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantObsidian:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.OreQuartz:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzPillar:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockAiry:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockWarded:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [MagicCookie:blockDarkStone:13] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:mrucuStabilizer:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzTorch:0] (HasAir,NoShadow,Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCraftingMonitor:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockMolecularAssembler:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [AWWayofTime:spectralContainer:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockEnergyAcceptor:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [mdeco:tclanternsw:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuantumLinkChamber:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockFluix:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCrank:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSkyChest:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ThaumicExploration:thinkTankJar:0] (OpenToSky,Transparency,Error,TransparentRoof)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzPillarStairBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSecurity:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSpatialPylon:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.CastleDoorVanished:0] (OpenToSky,Transparency,Error,TransparentRoof)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.FluixSlabBlock.double:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [ThaumicHorizons:lightSolar:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockController:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockEldritchNothing:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSpatialIOPort:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [mdeco:mdecomatrixblock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:fluxWiper:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.ChiseledQuartzSlabBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzChiseled:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockVibrationChamber:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuantumRing:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.OreQuartzCharged:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Thaumcraft:blockPortalEldritch:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TaintedMagic:BlockLumos:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockGrinder:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzSlabBlock.double:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantLeaves:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [witchery:force:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzSlabBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essentialcraft:chest:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essentialcraft:chest:1] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzStairBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.FluixSlabBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockInterface:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [GardenCore:garden_proxy:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockChest:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCreativeEnergyCell:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartz:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.FluixStairBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.SkyStoneSlabBlock.double:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockDrive:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantCobble:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [EMT:electricCloud:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockSkyStone:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzLamp:0] (OpenToSky,Transparency,Error,TransparentRoof)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:radiatedNode:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockWireless:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:mruSpreader:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockInscriber:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.SkyStoneStairBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzGrowthAccelerator:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockQuartzGlass:0] (OpenToSky,Transparency,Error,TransparentRoof)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [neenergistics:tile.pattern_interface:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [AWWayofTime:bloodLight:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockLightDetector:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.HugeLilyPad:0] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.ChiseledQuartzStairBlock:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:0] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:2] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:1] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:4] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:3] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:6] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:5] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:8] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:7] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:10] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:9] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:12] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:11] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:14] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:13] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [Botania:buriedPetals:15] (NoShadow,Transparency,Error,Plant,NoTopo)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [WitchingGadgets:WG_CustomAir:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [gadomancy:BlockAdditionalEldritchPortal:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [TwilightForest:tile.GiantLog:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [essenthaum:nodeIrradiator:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockTinyTNT:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [mdeco:tclanterngw:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.QuartzPillarSlabBlock.double:0] (Transparency,Error)
+[11:41:18] [Client thread/WARN] [ColorPalette] Block with Error flag won't be saved to color palette: BlockMD [appliedenergistics2:tile.BlockCondenser:0] (Transparency,Error)
+[11:41:18] [Client thread/INFO] [ColorPalette] Color palette file generated with 4080 colors in 64ms for: C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\colorpalette.json
+[11:41:18] [Client thread/INFO] [ColorManager] Updated color palette file: C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\colorpalette.json
+[11:41:30] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\data\sp\Tests\waypoints
+[11:41:30] [Client thread/INFO] [ColorManager] Blocks and textures are current
+[11:41:30] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\data\sp\Tests\DIM0. Memory: 3347MB total, 2039MB free 
+[11:41:30] [Client thread/INFO] [ChatLog] JourneyMap: Appuyer [J]
+[12:43:28] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Maxime\Twitch\Minecraft\Instances\Thaumic World 2\journeymap\data\sp\Tests\DIM0
