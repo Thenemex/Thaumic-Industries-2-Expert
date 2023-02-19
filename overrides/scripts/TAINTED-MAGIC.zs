@@ -2,12 +2,12 @@
 
 import minetweaker.item.IItemStack;
 
-val ironIngot = <minecraft:iron_ingot>;
 val enderEye = <minecraft:ender_eye>;
 val emrldBlock = <minecraft:emerald_block>;
 val netherStar = <minecraft:nether_star>;
 
 val qkSlvrBlock = <thaumicbases:quicksilverBlock>;
+val thaumIngot = <Thaumcraft:ItemResource:2>;
 val thaumBlock = <Thaumcraft:blockCosmeticSolid:4>;
 val voidMetalBlock = <thaumicbases:voidBlock>;
 val shadowMetal = <TaintedMagic:ItemMaterial:0>;
@@ -102,8 +102,8 @@ mods.thaumcraft.Research.refreshResearchRecipe("VOIDGOGGLES");
 mods.thaumcraft.Crucible.removeRecipe(shadowMetal);
 mods.thaumcraft.Crucible.addRecipe("SHADOWMETAL",
 /* Output                       */ shadowMetal,
-/* Input                        */ ironIngot,
-/* Essentia                     */ "alienis 1, metallum 8, praecantatio 6, perditio 3, tenebrae 12, vacuos 5");
+/* Input                        */ thaumIngot,
+/* Essentia                     */ "alienis 2, metallum 8, perditio 3, tenebrae 12, vacuos 5");
 
 # Tools
 // Shadowmetal Sword
