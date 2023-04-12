@@ -9,7 +9,7 @@ val primalCharm = <Thaumcraft:ItemResource:15>;
 val obsidianRod = <Thaumcraft:WandRod:1>;
 val voidmetalNugget = <Thaumcraft:ItemNugget:7>;
 val voidmetal = <Thaumcraft:ItemResource:16>;
-val voidmetalBlock = <thaumicbases:voidBlock>;
+val voidmetalBlock = <WitchingGadgets:WG_MetalDevice:7>;
 
 val voidmetalSword = <Thaumcraft:ItemSwordVoid>;
 val voidmetalPick = <Thaumcraft:ItemPickVoid>;

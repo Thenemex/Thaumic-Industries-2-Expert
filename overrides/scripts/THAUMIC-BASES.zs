@@ -1,5 +1,7 @@
 // Recipes for Thaumic Bases
 
+val voidmetalBlock = <thaumicbases:voidBlock>;
+
 val roseBush = <minecraft:double_plant:4>;
 val vishroom = <Thaumcraft:blockCustomPlant:5>;
 
@@ -43,6 +45,10 @@ mods.thaumcraft.Crucible.addRecipe("TB.Ashroom",
 /* InputStack                   */ vishroom, 
 /* AspectString                 */ "lucrum 3, messis 4, praecantatio 2");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Ashroom");
+
+# Misc
+// Void Metal Block
+recipes.remove(voidmetalBlock);
 
 #/ Research
 // Aurelia
