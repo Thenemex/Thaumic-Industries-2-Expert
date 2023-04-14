@@ -10,6 +10,7 @@ val netherStar = <minecraft:nether_star>;
 
 val cultistBook = <Thaumcraft:ItemEldritchObject:1>;
 val deathBucket = <Thaumcraft:ItemBucketDeath>;
+val pureBucket = <Thaumcraft:ItemBucketPure>;
 val qkSlvrBlock = <thaumicbases:quicksilverBlock>;
 val thaumIngot = <Thaumcraft:ItemResource:2>;
 val thaumBlock = <Thaumcraft:blockCosmeticSolid:4>;
@@ -47,10 +48,10 @@ var shadowToolsArray = [shadowMetalSword, shadowMetalPick, shadowMetalAxe, shado
 mods.thaumcraft.Infusion.removeRecipe(thaumFtrBlade);
 mods.thaumcraft.Infusion.addRecipe("THAUMIUMKATANA",
 /* Input                        */ shadowMetalSword,
-/* Ingredients                  */ [cultistBook, deathBucket, primeCharm, emerald, qkSlvrBlock, thaumBlock, obsidianStaff, thaumBlock, primeCharm, emerald, qkSlvrBlock, netherStar],
-/* Essentia                     */ " metallum 105, praecantatio 55, telum 110, superbia 20, ira 30",
+/* Ingredients                  */ [cultistBook, deathBucket, primeCharm, emerald, qkSlvrBlock, thaumBlock, obsidianStaff, thaumBlock, primeCharm, emerald, qkSlvrBlock, pureBucket],
+/* Essentia                     */ "metallum 105, praecantatio 55, telum 110, superbia 20, ira 30, terminus 2",
 /* Output                       */ thaumFtrBlade,
-/* Instability                  */ 16);
+/* Instability                  */ 24);
 mods.thaumcraft.Research.refreshResearchRecipe("THAUMIUMKATANA");
 
 // Void Metal Fortress Blade
@@ -59,9 +60,9 @@ mods.thaumcraft.Infusion.removeRecipe(voidMetalFtrBlade);
 mods.thaumcraft.Infusion.addRecipe("VOIDMETALKATANA",
 /* Input                        */ thaumFtrBlade,
 /* Ingredients                  */ [netherStar, voidMetalBlock, primeCharm, emrldBlock, qkSlvrBlock, voidMetalBlock, netherStar, voidMetalBlock, primeCharm, emrldBlock, qkSlvrBlock, voidMetalBlock],
-/* Essentia                     */ "alienis 60, metallum 130, praecantatio 80, telum 135, vacuos 115, superbia 30, ira 45",
+/* Essentia                     */ "alienis 60, metallum 130, praecantatio 80, telum 135, vacuos 115, superbia 30, ira 45, terminus 3",
 /* Output                       */ voidMetalFtrBlade,
-/* Instability                  */ 24);
+/* Instability                  */ 32);
 mods.thaumcraft.Research.refreshResearchRecipe("VOIDMETALKATANA");
 
 // Shadow Metal Fortress Blade
@@ -70,9 +71,9 @@ mods.thaumcraft.Infusion.removeRecipe(shadowMetalFtrBlade);
 mods.thaumcraft.Infusion.addRecipe("SHADOWMETALKATANA",
 /* Input                        */ voidMetalFtrBlade,
 /* Ingredients                  */ [netherStar, shadowMetal, primeCharm, emrldBlock, qkSlvrBlock, shadowMetal, warpwoodStaff, shadowMetal, primeCharm, emrldBlock, qkSlvrBlock, shadowMetal],
-/* Essentia                     */ "metallum 155, praecantatio 105, telum 160, tenebrae 115, vacuos 40, superbia 40, ira 60",
+/* Essentia                     */ "metallum 155, praecantatio 105, telum 160, tenebrae 115, vacuos 40, superbia 40, ira 60, terminus 5",
 /* Output                       */ shadowMetalFtrBlade,
-/* Instability                  */ 32);
+/* Instability                  */ 40);
 mods.thaumcraft.Research.refreshResearchRecipe("SHADOWMETALKATANA");
 
 # Googles
