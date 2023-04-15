@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Thaumic Industries",
-  "version": "2.2.3",
+  "version": "2.3",
   "author": "",
   "files": [
     {
@@ -42,6 +42,11 @@
     {
       "projectID": 228839,
       "fileID": 2247215,
+      "required": true
+    },
+    {
+      "projectID": 361579,
+      "fileID": 4271867,
       "required": true
     },
     {
@@ -245,6 +250,11 @@
       "required": true
     },
     {
+      "projectID": 250398,
+      "fileID": 4173844,
+      "required": true
+    },
+    {
       "projectID": 230969,
       "fileID": 2263414,
       "required": true
@@ -292,11 +302,6 @@
     {
       "projectID": 224791,
       "fileID": 2264826,
-      "required": true
-    },
-    {
-      "projectID": 237152,
-      "fileID": 2281661,
       "required": true
     },
     {
@@ -370,6 +375,11 @@
       "required": true
     },
     {
+      "projectID": 445557,
+      "fileID": 4375843,
+      "required": true
+    },
+    {
       "projectID": 227639,
       "fileID": 3039937,
       "required": true
@@ -397,11 +407,6 @@
     {
       "projectID": 226447,
       "fileID": 2292845,
-      "required": true
-    },
-    {
-      "projectID": 65764,
-      "fileID": 2468320,
       "required": true
     },
     {
@@ -560,11 +565,6 @@
       "required": true
     },
     {
-      "projectID": 59751,
-      "fileID": 2333823,
-      "required": true
-    },
-    {
       "projectID": 621947,
       "fileID": 3966316,
       "required": true
@@ -672,11 +672,6 @@
     {
       "projectID": 285789,
       "fileID": 2531565,
-      "required": true
-    },
-    {
-      "projectID": 70492,
-      "fileID": 2269267,
       "required": true
     },
     {
