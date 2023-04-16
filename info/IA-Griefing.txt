@@ -1,0 +1,33 @@
+Lists of Blocks that can be griefed by mobs :
+
+Vanilla:
+-------------------------------
+20      Glass
+58      Crafting Table
+60      Farmland
+65      Ladder
+85      Fence
+96      Trapdoor
+102     Glass Pane
+107     Fence Gate
+324     Wooden Door
+355     Bed
+
+Thaumcraft:
+-------------------------------
+189:*   Table(s)
+
+Botania:
+-------------------------------
+655:0   Livingwood
+656     Special Flowers
+657:0   Mana Spreader
+657:1   Pulse Mana Spreader
+
+Storage Drawers:
+-------------------------------
+1321:*  Drawer
+1322:*  Drawer 1x2
+1323:*  Drawer 2x2
+1324:*  Compact Drawer 1x2
+1325:*  Compact Drawer 2x2
