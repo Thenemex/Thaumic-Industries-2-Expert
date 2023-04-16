@@ -82,7 +82,7 @@ EssentialCraft :
 
 Thaumcraft
 -------------------------------
-    I:biome_eerie=150
+    I:biome_eerie=44
     I:biome_eldritch=43
     I:biome_magical_forest=152
     I:biome_taint=153
