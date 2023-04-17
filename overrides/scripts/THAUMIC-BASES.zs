@@ -43,7 +43,7 @@ mods.thaumcraft.Crucible.removeRecipe(primalShroom);
 mods.thaumcraft.Crucible.addRecipe("TB.Ashroom",
 /* OutputStack                  */ primalShroom,
 /* InputStack                   */ vishroom, 
-/* AspectString                 */ "lucrum 3, messis 4, praecantatio 2");
+/* AspectString                 */ "lucrum 16, praecantatio 10, aer 5, ignis 5, aqua 5, terra 5, ordo 6, perditio 6");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Ashroom");
 
 # Misc
