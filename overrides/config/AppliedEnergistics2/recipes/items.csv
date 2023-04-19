@@ -211,8 +211,6 @@ minecraft:hopper, Entonnoir
 minecraft:quartz_block:0, Bloc de quartz
 minecraft:quartz_block:1, Bloc de quartz sculpté
 minecraft:quartz_block:2, Bloc de quartz rayé
-minecraft:quartz_block:5, Darkened Quartz Block
-minecraft:quartz_block:6, Smooth Quartz Block
 minecraft:quartz_stairs, Escaliers en quartz
 minecraft:activator_rail, Rails déclencheurs
 minecraft:dropper, Dropper
@@ -1015,6 +1013,151 @@ aether:tile.divineSentryStoneSingleSlab:0, Dalle de pierre du Gardien divine
 aether:tile.divineSentryStoneDoubleSlab:0, Dalle de pierre du Gardien divine
 aether:tile.aerogelSingleSlab:0, Dalle d'Aeromousse
 aether:tile.aerogelDoubleSlab:0, Dalle d'Aeromousse
+appliedenergistics2:tile.OreQuartz, Minerai de Quartz Certus
+appliedenergistics2:tile.OreQuartzCharged, Minerai de Quartz Certus chargé
+appliedenergistics2:tile.BlockMatrixFrame, Cadre de la matrice
+appliedenergistics2:tile.BlockQuartz, Bloc de Quartz Certus
+appliedenergistics2:tile.BlockQuartzPillar, Pilier de Quartz Certus
+appliedenergistics2:tile.BlockQuartzChiseled, Bloc de Quartz Certus ciselé
+appliedenergistics2:tile.BlockQuartzGlass, Verre de Quartz
+appliedenergistics2:tile.BlockQuartzLamp, Verre de  Quartz vibrant
+appliedenergistics2:tile.BlockQuartzTorch, Quartz chargé à accrocher
+appliedenergistics2:tile.BlockFluix, Bloc de Fluix
+appliedenergistics2:tile.BlockSkyStone:0, Pierre de ciel
+appliedenergistics2:tile.BlockSkyStone:1, Bloc de pierre de ciel
+appliedenergistics2:tile.BlockSkyStone:2, Brique de pierre de ciel
+appliedenergistics2:tile.BlockSkyStone:3, Briquettes de pierre de ciel
+appliedenergistics2:tile.BlockSkyChest:0, Coffre de pierre de ciel
+appliedenergistics2:tile.BlockSkyChest:1, Coffre de bloc de pierre de ciel
+appliedenergistics2:tile.BlockSkyCompass, Boussole à météorite
+appliedenergistics2:tile.BlockGrinder, Meule en Quartz
+appliedenergistics2:tile.BlockCrank, Manivelle en bois
+appliedenergistics2:tile.BlockInscriber, Presse
+appliedenergistics2:tile.BlockWireless, Point d'accès sans-fil ME
+appliedenergistics2:tile.BlockCharger, Chargeur
+appliedenergistics2:tile.BlockTinyTNT, Minuscule TNT
+appliedenergistics2:tile.BlockSecurity, Terminal de sécurité ME
+appliedenergistics2:tile.BlockQuantumRing, Anneau quantique ME
+appliedenergistics2:tile.BlockQuantumLinkChamber, Chambre de lien quantique ME
+appliedenergistics2:tile.BlockSpatialPylon, Pilier spatial
+appliedenergistics2:tile.BlockSpatialIOPort, Port d'E/S spatial
+appliedenergistics2:tile.BlockCableBus, Câble et/ou bus AE2
+appliedenergistics2:tile.BlockController, Contrôleur ME
+appliedenergistics2:tile.BlockDrive, Range-disque ME
+appliedenergistics2:tile.BlockChest, Coffre ME
+appliedenergistics2:tile.BlockInterface, Interface ME
+appliedenergistics2:tile.BlockCellWorkbench, Etabli de cellules
+appliedenergistics2:tile.BlockIOPort, Port d'E/S ME
+appliedenergistics2:tile.BlockCondenser, Condenseur de matière
+appliedenergistics2:tile.BlockEnergyAcceptor, Acceptateur énergétique
+appliedenergistics2:tile.BlockVibrationChamber, Chambre de vibration
+appliedenergistics2:tile.BlockQuartzGrowthAccelerator, Accélérateur de croissance de cristal
+appliedenergistics2:tile.BlockEnergyCell, Cellule énergétique
+appliedenergistics2:tile.BlockDenseEnergyCell, Cellule énergétique dense
+appliedenergistics2:tile.BlockCreativeEnergyCell, Cellule énergétique en créatif
+appliedenergistics2:tile.BlockCraftingUnit:0, Unité de fabrication
+appliedenergistics2:tile.BlockCraftingUnit:1, Unité de co-traitement
+appliedenergistics2:tile.BlockCraftingStorage:0, Disque 1k pour la fabrication
+appliedenergistics2:tile.BlockCraftingStorage:1, Disque 4k pour la fabrication
+appliedenergistics2:tile.BlockCraftingStorage:2, Disque 16k pour la fabrication
+appliedenergistics2:tile.BlockCraftingStorage:3, Disque 64k pour la fabrication
+appliedenergistics2:tile.BlockCraftingMonitor:0, Moniteur de fabrication
+appliedenergistics2:tile.BlockMolecularAssembler, Assembleur moléculaire
+appliedenergistics2:tile.BlockLightDetector, Détecteur de lumière à accrocher
+appliedenergistics2:tile.BlockPaint, tile.appliedenergistics2.BlockPaint.name
+appliedenergistics2:tile.SkyStoneStairBlock, Escaliers de pierre de ciel
+appliedenergistics2:tile.SkyStoneBlockStairBlock, Escaliers de bloc de pierre de ciel
+appliedenergistics2:tile.SkyStoneBrickStairBlock, Escaliers de briques de pierre de ciel
+appliedenergistics2:tile.SkyStoneSmallBrickStairBlock, Escaliers de petites briques de pierre de ciel
+appliedenergistics2:tile.FluixStairBlock, Escaliers de Fluix
+appliedenergistics2:tile.QuartzStairBlock, Escaliers de Quartz Certus
+appliedenergistics2:tile.ChiseledQuartzStairBlock, Escaliers de Quartz Certus ciselé
+appliedenergistics2:tile.QuartzPillarStairBlock, Escaliers de pilier de Quartz Certus
+appliedenergistics2:tile.SkyStoneSlabBlock:0, Dalle de pierre de ciel
+appliedenergistics2:tile.SkyStoneSlabBlock.double:0, Dalle de pierre de ciel
+appliedenergistics2:tile.SkyStoneBlockSlabBlock:0, Dalle de bloc de pierre de ciel
+appliedenergistics2:tile.SkyStoneBlockSlabBlock.double:0, Dalle de bloc de pierre de ciel
+appliedenergistics2:tile.SkyStoneBrickSlabBlock:0, Dalle de briques de pierre de ciel
+appliedenergistics2:tile.SkyStoneBrickSlabBlock.double:0, Dalle de briques de pierre de ciel
+appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock:0, Dalle de petites briques de pierre de ciel
+appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock.double:0, Dalle de petites briques de pierre de ciel
+appliedenergistics2:tile.FluixSlabBlock:0, Dalle de Fluix
+appliedenergistics2:tile.FluixSlabBlock.double:0, Dalle de Fluix
+appliedenergistics2:tile.QuartzSlabBlock:0, Dalle de Quartz Certus
+appliedenergistics2:tile.QuartzSlabBlock.double:0, Dalle de Quartz Certus
+appliedenergistics2:tile.ChiseledQuartzSlabBlock:0, Dalle de Quartz Certus ciselé
+appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0, Dalle de Quartz Certus ciselé
+appliedenergistics2:tile.QuartzPillarSlabBlock:0, Dalle de pilier de Quartz Certus
+appliedenergistics2:tile.QuartzPillarSlabBlock.double:0, Dalle de pilier de Quartz Certus
+AWWayofTime:Altar, Autel de Sang
+AWWayofTime:AlchemicalWizardrybloodRune:0, Rune de Sang
+AWWayofTime:AlchemicalWizardrybloodRune:1, Rune de Capacité Augmentée
+AWWayofTime:AlchemicalWizardrybloodRune:2, Rune de Dislocation
+AWWayofTime:AlchemicalWizardrybloodRune:3, Rune of the Orb
+AWWayofTime:AlchemicalWizardrybloodRune:4, Rune de la Capacité Supérieure
+AWWayofTime:AlchemicalWizardrybloodRune:5, Rune d'Accélération
+AWWayofTime:lifeEssence, Extrait de Vitalité
+AWWayofTime:speedRune, Rune de Vitesse
+AWWayofTime:efficiencyRune, Rune d’Efficacité
+AWWayofTime:runeOfSacrifice, Rune du Sacrifice
+AWWayofTime:runeOfSelfSacrifice, Rune de l’Auto-Sacrifice
+AWWayofTime:ritualStone, Pierre Rituelle
+AWWayofTime:masterStone, Pierre Rituelle Maître
+AWWayofTime:bloodSocket, Poche Remplie
+AWWayofTime:imperfectRitualStone, Pierre Rituelle Imparfaite
+AWWayofTime:armourForge, Forge d’Armure d’Âme
+AWWayofTime:emptySocket, Poche Vide
+AWWayofTime:bloodStoneBrick, Brique de Roche-Sang
+AWWayofTime:largeBloodStoneBrick, Brique Large de Roche-Sang
+AWWayofTime:blockWritingTable, Matériel d’Alchimie
+AWWayofTime:blockHomHeart, Table des Maléfices
+AWWayofTime:blockPedestal, Piédéstal Arcanique
+AWWayofTime:blockPlinth, Socle Arcanique
+AWWayofTime:blockTeleposer, Téléposeur
+AWWayofTime:spectralBlock, Spectral Block
+AWWayofTime:bloodLight, Blood Light
+AWWayofTime:blockConduit, Conduit des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:0, Générateur de Particule
+AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1, Auto-Augmenteur
+AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2, Agrégation à la Mêlée
+AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3, Forgeron Outilleur
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:0, Renforcement Instable des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:1, Renforcement Standard des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:2, Renforcement Renforcé des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:3, Renforcement Imprégné des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:4, Renforcement Diabolo des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:5, Ristourne Instable des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:6, Ristourne Standard des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:7, Ristourne Renforcée des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:8, Ristourne Imprégnée des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:9, Ristourne Démoniaque des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:10, Amélioration Instable des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:11, Amélioration Standard des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:12, Amélioration Renforcée des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:13, Amélioration Imprégnée des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:14, Amélioration Diabolo des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:0, Modification Basique des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1, Modification Offensive des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2, Modification Défensive des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3, Modification Environnementale des Maléfices
+AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:0, Creuset des Flammes
+AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1, Geyser de Glace
+AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2, Jaillissement des Vents
+AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3, Assembleur des Terres
+AWWayofTime:spectralContainer, Spectral Container
+AWWayofTime:demonPortalMain, Portail Diabolo
+AWWayofTime:blockSchemSaver, Schematic Saver
+AWWayofTime:blockReagentConduit, Relais Alchimique
+AWWayofTime:blockAlchemicCalcinator, Calcinateur Alchimique
+AWWayofTime:blockCrystalBelljar:0, Cloche de Cristal
+AWWayofTime:blockDemonChest, Demon's Chest
+AWWayofTime:blockCrystal:0, Fragments de Cristaux
+AWWayofTime:blockCrystal:1, Briques de Fragments de Cristaux
+AWWayofTime:blockMimic, Mimic Block
+AWWayofTime:blockEnchantmentGlyph:0, Glyph of the Adept Enchanter
+AWWayofTime:blockEnchantmentGlyph:1, Glyph of Arcane Potential
+AWWayofTime:blockStabilityGlyph:0, Glyph of Rigid Stability
+AWWayofTime:blockCrucible, Incense Crucible
 Botania:flower:0, Fleur mystique blanche
 Botania:flower:1, Fleur mystique orange
 Botania:flower:2, Fleur mystique magenta
@@ -1040,7 +1183,6 @@ Botania:altar:5, Apothicaire de pétale des marais
 Botania:altar:6, Apothicaire de pétale des déserts
 Botania:altar:7, Apothicaire de pétale des taigas
 Botania:altar:8, Apothicaire de pétale des messas
-Botania:altar:9, Living Petal Apothecary
 Botania:livingrock:0, Viveroche
 Botania:livingrock:1, Brique de viveroche
 Botania:livingrock:2, Brique de viveroche moussue
@@ -1057,7 +1199,6 @@ Botania:spreader:0, Diffuseur de mana
 Botania:spreader:1, Diffuseur de mana redstone
 Botania:spreader:2, Diffuseur de mana elfique
 Botania:spreader:3, Diffuseur de mana de Gaïa
-Botania:spreader:4, Mauftrium Mana Spreader
 Botania:pool:0, Bassin de mana
 Botania:pool:2, Bassin de mana dilué
 Botania:pool:3, Fabulous Mana Pool
@@ -1287,8 +1428,6 @@ Botania:felPumpkin, tile.felPumpkin.name
 Botania:cocoon, tile.cocoon.name
 Botania:lightRelay:0, Luminiseur
 Botania:lightRelay:1, Détecteur de luminiseur
-Botania:lightRelay:2, Toggle Luminizer
-Botania:lightRelay:3, Fork Luminizer
 Botania:lightLauncher, tile.lightLauncher.name
 Botania:manaBomb, tile.manaBomb.name
 Botania:cacophoniumBlock, tile.cacophoniumBlock.name
@@ -1385,48 +1524,30 @@ Botania:pavement:5, Green Portuguese Pavement
 Botania:quartzTypeDark:0, Bloc de quartz fumé
 Botania:quartzTypeDark:1, Bloc de quartz fumé sculpté
 Botania:quartzTypeDark:2, Pilier de quartz fumé
-Botania:quartzTypeDark:5, Lightened Smokey Quartz Block
-Botania:quartzTypeDark:6, Smooth Smokey Quartz Block
 Botania:quartzStairsDark, tile.quartzStairsDark.name
 Botania:quartzTypeMana:0, Bloc de quartz mana
 Botania:quartzTypeMana:1, Bloc de quartz mana sculpté
 Botania:quartzTypeMana:2, Pilier de quartz mana
-Botania:quartzTypeMana:5, Darkened Mana Quartz Block
-Botania:quartzTypeMana:6, Smooth Mana Quartz Block
 Botania:quartzStairsMana, tile.quartzStairsMana.name
 Botania:quartzTypeBlaze:0, Bloc de quartz flambé
 Botania:quartzTypeBlaze:1, Bloc de quartz flambé sculpté
 Botania:quartzTypeBlaze:2, Pilier de quartz flambé
-Botania:quartzTypeBlaze:5, Darkened Blaze Quartz Block
-Botania:quartzTypeBlaze:6, Smooth Blaze Quartz Block
 Botania:quartzStairsBlaze, tile.quartzStairsBlaze.name
 Botania:quartzTypeLavender:0, Bloc de quartz lavande
 Botania:quartzTypeLavender:1, Bloc de quartz lavande sculpté
 Botania:quartzTypeLavender:2, Pilier de quartz lavande
-Botania:quartzTypeLavender:5, Darkened Lavender Quartz Block
-Botania:quartzTypeLavender:6, Smooth Lavender Quartz Block
 Botania:quartzStairsLavender, tile.quartzStairsLavender.name
 Botania:quartzTypeRed:0, Bloc de quartz rouge
 Botania:quartzTypeRed:1, Bloc de quartz rouge sculpté
 Botania:quartzTypeRed:2, Pilier de quartz rouge
-Botania:quartzTypeRed:5, Darkened Redstone Quartz Block
-Botania:quartzTypeRed:6, Smooth Redstone Quartz Block
 Botania:quartzStairsRed, tile.quartzStairsRed.name
 Botania:quartzTypeElf:0, Bloc de quartz elfique
 Botania:quartzTypeElf:1, Bloc de quartz elfique sculpté
 Botania:quartzTypeElf:2, Pilier de quartz elfique
-Botania:quartzTypeElf:5, Darkened Elven Quartz Block
-Botania:quartzTypeElf:6, Smooth Elven Quartz Block
-Botania:quartzTypeElf:7, Chiseled Elven Quartz Block
-Botania:quartzTypeElf:8, Ornate Elven Quartz Block
-Botania:quartzTypeElf:9, Panel Elven Quartz Block
-Botania:quartzTypeElf:10, Bricky Elven Quartz Block
 Botania:quartzStairsElf, tile.quartzStairsElf.name
 Botania:quartzTypeSunny:0, Bloc de quartz ensoleillé
 Botania:quartzTypeSunny:1, Bloc de quartz ensoleillé sculpté
 Botania:quartzTypeSunny:2, Pilier de quartz ensoleillé
-Botania:quartzTypeSunny:5, Darkened Sunny Quartz Block
-Botania:quartzTypeSunny:6, Smooth Sunny Quartz Block
 Botania:quartzStairsSunny, tile.quartzStairsSunny.name
 Botania:biomeStoneA0Stairs, tile.biomeStoneA0Stairs.name
 Botania:biomeStoneA1Stairs, tile.biomeStoneA1Stairs.name
@@ -1615,535 +1736,6 @@ Botania:pavement4Slab:0, Yellow Portuguese Pavement Slab
 Botania:pavement4SlabFull:0, Yellow Portuguese Pavement Slab
 Botania:pavement5Slab:0, Green Portuguese Pavement Slab
 Botania:pavement5SlabFull:0, Green Portuguese Pavement Slab
-alfheim:AiryVirus:0, Airy Virus
-alfheim:AiryVirus:1, Airy Antivirus
-alfheim:AlfheimPortal, tile.AlfheimPortal.name
-alfheim:AlfheimPylons:0, Elven Pylon
-alfheim:AlfheimPylons:1, Yordin Pylon
-alfheim:AlfheimPylons:2, §4Anti-Pylon
-alfheim:AlfheimPylons:3, Pylon of Creation
-alfheim:alfStorage:0, Block of Elvorium
-alfheim:alfStorage:1, §6Block of Mauftrium
-alfheim:alfStorage:2, Block of Muspelheim Power
-alfheim:alfStorage:3, Block of Niflheim Power
-alfheim:amplifier, tile.amplifier.name
-alfheim:AnimatedTorch, tile.AnimatedTorch.name
-alfheim:Anomaly, tile.Anomaly.name
-alfheim:AnomalyHarvester, tile.AnomalyHarvester.name
-alfheim:Anyavil, tile.Anyavil.name
-alfheim:auroraDirt, Iridescent Dirt
-alfheim:auroraLeaves, Iridescent Leaves
-alfheim:auroraPlanks, Iridescent Planks
-alfheim:auroraPlanksSlab17:0, Iridescent Planks Slab
-alfheim:auroraPlanksSlabFull17:0, Iridescent Planks Slab
-alfheim:auroraPlanksStairs17:0, Iridescent Planks Stairs
-alfheim:auroraWood, Iridescent Wood
-alfheim:barrel, tile.barrel.name
-alfheim:barrier, tile.barrier.name
-alfheim:CorporeaAutocrafter, tile.CorporeaAutocrafter.name
-alfheim:CorporeaInjector, tile.CorporeaInjector.name
-alfheim:CorporeaRatBase, tile.CorporeaRatBase.name
-alfheim:CorporeaSparkBase, tile.CorporeaSparkBase.name
-alfheim:dirt, tile.dirt.name
-alfheim:DomainDoor:0, Domain Wall
-alfheim:DomainDoor:1, Domain Core
-alfheim:DomainDoor:2, Domain Gate
-alfheim:DomainDoor:3, Domain Column
-alfheim:DomainDoor:4, Domain Slab
-alfheim:DreamSapling, tile.DreamSapling.name
-alfheim:ElvenOre:0, Dragonstone Ore
-alfheim:ElvenOre:1, Elementium Ore
-alfheim:ElvenOre:2, Elven Quartz Ore
-alfheim:ElvenOre:3, Gold Ore
-alfheim:ElvenOre:4, Iffesal Ore
-alfheim:ElvenOre:5, Lapis Lazuli Ore
-alfheim:ElvenSand, tile.ElvenSand.name
-alfheim:EnderActuator, tile.EnderActuator.name
-alfheim:FlugelHeadBlock, tile.FlugelHeadBlock.name
-alfheim:MikuHeadBlock, tile.MikuHeadBlock.name
-alfheim:RedGrape1, Red Grape
-alfheim:RedGrape2, Red Grape
-alfheim:RedGrape3, Red Grape
-alfheim:RedGrapePlanted, Red Grape
-alfheim:WhiteGrape, Green Grape
-alfheim:Icicle:0, Icicles
-alfheim:Icicle:1, Icicles
-alfheim:Icicle:2, Icicles
-alfheim:Icicle:3, Icicles
-alfheim:itemDisplay:0, Manasteel Item Platform
-alfheim:itemDisplay:1, Terrasteel Item Platform
-alfheim:itemDisplay:2, Elementium Item Platform
-alfheim:itemDisplay:3, Elvorium Item Platform
-alfheim:itemDisplay:4, Mauftrium Item Platform
-alfheim:coloredDirt:0, Iridescent Dirt
-alfheim:coloredDirt:1, Iridescent Dirt
-alfheim:coloredDirt:2, Iridescent Dirt
-alfheim:coloredDirt:3, Iridescent Dirt
-alfheim:coloredDirt:4, Iridescent Dirt
-alfheim:coloredDirt:5, Iridescent Dirt
-alfheim:coloredDirt:6, Iridescent Dirt
-alfheim:coloredDirt:7, Iridescent Dirt
-alfheim:coloredDirt:8, Iridescent Dirt
-alfheim:coloredDirt:9, Iridescent Dirt
-alfheim:coloredDirt:10, Iridescent Dirt
-alfheim:coloredDirt:11, Iridescent Dirt
-alfheim:coloredDirt:12, Iridescent Dirt
-alfheim:coloredDirt:13, Iridescent Dirt
-alfheim:coloredDirt:14, Iridescent Dirt
-alfheim:coloredDirt:15, Iridescent Dirt
-alfheim:irisLamp, tile.irisLamp.name
-alfheim:irisLeaves0:0, Iridescent Leaves
-alfheim:irisLeaves0:1, Iridescent Leaves
-alfheim:irisLeaves0:2, Iridescent Leaves
-alfheim:irisLeaves0:3, Iridescent Leaves
-alfheim:irisLeaves0:4, Iridescent Leaves
-alfheim:irisLeaves0:5, Iridescent Leaves
-alfheim:irisLeaves0:6, Iridescent Leaves
-alfheim:irisLeaves0:7, Iridescent Leaves
-alfheim:irisLeaves1:0, Iridescent Leaves
-alfheim:irisLeaves1:1, Iridescent Leaves
-alfheim:irisLeaves1:2, Iridescent Leaves
-alfheim:irisLeaves1:3, Iridescent Leaves
-alfheim:irisLeaves1:4, Iridescent Leaves
-alfheim:irisLeaves1:5, Iridescent Leaves
-alfheim:irisLeaves1:6, Iridescent Leaves
-alfheim:irisLeaves1:7, Iridescent Leaves
-alfheim:irisGrass:0, Iridescent Grass
-alfheim:irisGrass:1, Iridescent Grass
-alfheim:irisGrass:2, Iridescent Grass
-alfheim:irisGrass:3, Iridescent Grass
-alfheim:irisGrass:4, Iridescent Grass
-alfheim:irisGrass:5, Iridescent Grass
-alfheim:irisGrass:6, Iridescent Grass
-alfheim:irisGrass:7, Iridescent Grass
-alfheim:irisGrass:8, Iridescent Grass
-alfheim:irisGrass:9, Iridescent Grass
-alfheim:irisGrass:10, Iridescent Grass
-alfheim:irisGrass:11, Iridescent Grass
-alfheim:irisGrass:12, Iridescent Grass
-alfheim:irisGrass:13, Iridescent Grass
-alfheim:irisGrass:14, Iridescent Grass
-alfheim:irisGrass:15, Iridescent Grass
-alfheim:irisPlanks:0, Iridescent Planks
-alfheim:irisPlanks:1, Iridescent Planks
-alfheim:irisPlanks:2, Iridescent Planks
-alfheim:irisPlanks:3, Iridescent Planks
-alfheim:irisPlanks:4, Iridescent Planks
-alfheim:irisPlanks:5, Iridescent Planks
-alfheim:irisPlanks:6, Iridescent Planks
-alfheim:irisPlanks:7, Iridescent Planks
-alfheim:irisPlanks:8, Iridescent Planks
-alfheim:irisPlanks:9, Iridescent Planks
-alfheim:irisPlanks:10, Iridescent Planks
-alfheim:irisPlanks:11, Iridescent Planks
-alfheim:irisPlanks:12, Iridescent Planks
-alfheim:irisPlanks:13, Iridescent Planks
-alfheim:irisPlanks:14, Iridescent Planks
-alfheim:irisPlanks:15, Iridescent Planks
-alfheim:irisSapling, tile.irisSapling.name
-alfheim:irisPlanksSlab0:0, Iridescent Slab
-alfheim:irisPlanksSlab1:0, Iridescent Slab
-alfheim:irisPlanksSlab2:0, Iridescent Slab
-alfheim:irisPlanksSlab3:0, Iridescent Slab
-alfheim:irisPlanksSlab4:0, Iridescent Slab
-alfheim:irisPlanksSlab5:0, Iridescent Slab
-alfheim:irisPlanksSlab6:0, Iridescent Slab
-alfheim:irisPlanksSlab7:0, Iridescent Slab
-alfheim:irisPlanksSlab8:0, Iridescent Slab
-alfheim:irisPlanksSlab9:0, Iridescent Slab
-alfheim:irisPlanksSlab10:0, Iridescent Slab
-alfheim:irisPlanksSlab11:0, Iridescent Slab
-alfheim:irisPlanksSlab12:0, Iridescent Slab
-alfheim:irisPlanksSlab13:0, Iridescent Slab
-alfheim:irisPlanksSlab14:0, Iridescent Slab
-alfheim:irisPlanksSlab15:0, Iridescent Slab
-alfheim:irisPlanksSlabFull0:0, Iridescent Slab
-alfheim:irisPlanksSlabFull1:0, Iridescent Slab
-alfheim:irisPlanksSlabFull2:0, Iridescent Slab
-alfheim:irisPlanksSlabFull3:0, Iridescent Slab
-alfheim:irisPlanksSlabFull4:0, Iridescent Slab
-alfheim:irisPlanksSlabFull5:0, Iridescent Slab
-alfheim:irisPlanksSlabFull6:0, Iridescent Slab
-alfheim:irisPlanksSlabFull7:0, Iridescent Slab
-alfheim:irisPlanksSlabFull8:0, Iridescent Slab
-alfheim:irisPlanksSlabFull9:0, Iridescent Slab
-alfheim:irisPlanksSlabFull10:0, Iridescent Slab
-alfheim:irisPlanksSlabFull11:0, Iridescent Slab
-alfheim:irisPlanksSlabFull12:0, Iridescent Slab
-alfheim:irisPlanksSlabFull13:0, Iridescent Slab
-alfheim:irisPlanksSlabFull14:0, Iridescent Slab
-alfheim:irisPlanksSlabFull15:0, Iridescent Slab
-alfheim:irisPlanksStairs0:0, Iridescent Stairs
-alfheim:irisPlanksStairs1:0, Iridescent Stairs
-alfheim:irisPlanksStairs2:0, Iridescent Stairs
-alfheim:irisPlanksStairs3:0, Iridescent Stairs
-alfheim:irisPlanksStairs4:0, Iridescent Stairs
-alfheim:irisPlanksStairs5:0, Iridescent Stairs
-alfheim:irisPlanksStairs6:0, Iridescent Stairs
-alfheim:irisPlanksStairs7:0, Iridescent Stairs
-alfheim:irisPlanksStairs8:0, Iridescent Stairs
-alfheim:irisPlanksStairs9:0, Iridescent Stairs
-alfheim:irisPlanksStairs10:0, Iridescent Stairs
-alfheim:irisPlanksStairs11:0, Iridescent Stairs
-alfheim:irisPlanksStairs12:0, Iridescent Stairs
-alfheim:irisPlanksStairs13:0, Iridescent Stairs
-alfheim:irisPlanksStairs14:0, Iridescent Stairs
-alfheim:irisPlanksStairs15:0, Iridescent Stairs
-alfheim:irisDoubleGrass0:0, Iridescent Double Grass
-alfheim:irisDoubleGrass0:1, Iridescent Double Grass
-alfheim:irisDoubleGrass0:2, Iridescent Double Grass
-alfheim:irisDoubleGrass0:3, Iridescent Double Grass
-alfheim:irisDoubleGrass0:4, Iridescent Double Grass
-alfheim:irisDoubleGrass0:5, Iridescent Double Grass
-alfheim:irisDoubleGrass0:6, Iridescent Double Grass
-alfheim:irisDoubleGrass0:7, Iridescent Double Grass
-alfheim:irisDoubleGrass1:0, Iridescent Double Grass
-alfheim:irisDoubleGrass1:1, Iridescent Double Grass
-alfheim:irisDoubleGrass1:2, Iridescent Double Grass
-alfheim:irisDoubleGrass1:3, Iridescent Double Grass
-alfheim:irisDoubleGrass1:4, Iridescent Double Grass
-alfheim:irisDoubleGrass1:5, Iridescent Double Grass
-alfheim:irisDoubleGrass1:6, Iridescent Double Grass
-alfheim:irisDoubleGrass1:7, Iridescent Double Grass
-alfheim:irisWood0:0, Iridescent Wood
-alfheim:irisWood0:1, Iridescent Wood
-alfheim:irisWood0:2, Iridescent Wood
-alfheim:irisWood0:3, Iridescent Wood
-alfheim:irisWood1:0, Iridescent Wood
-alfheim:irisWood1:1, Iridescent Wood
-alfheim:irisWood1:2, Iridescent Wood
-alfheim:irisWood1:3, Iridescent Wood
-alfheim:irisWood2:0, Iridescent Wood
-alfheim:irisWood2:1, Iridescent Wood
-alfheim:irisWood2:2, Iridescent Wood
-alfheim:irisWood2:3, Iridescent Wood
-alfheim:irisWood3:0, Iridescent Wood
-alfheim:irisWood3:1, Iridescent Wood
-alfheim:irisWood3:2, Iridescent Wood
-alfheim:irisWood3:3, Iridescent Wood
-alfheim:HelheimBlock, Solid of Helheim
-alfheim:kindling, tile.kindling.name
-alfheim:LivingCobble:0, Livingrock Cobblestone
-alfheim:LivingCobble:1, Polished Livingrock
-alfheim:LivingCobble:2, Compressed Livingrock
-alfheim:LivingCobble:3, Mossy Livingrock Cobblestone
-alfheim:livingwoodFunnel, tile.livingwoodFunnel.name
-alfheim:ManaAccelerator, tile.ManaAccelerator.name
-alfheim:manaFluid, Liquid Mana
-alfheim:ManaInfuser, tile.ManaInfuser.name
-alfheim:NiflheimBlock:0, Deepfrozen Stone
-alfheim:NiflheimBlock:1, Deepfrozen Cobblestone
-alfheim:NiflheimBlock:2, Nifleur Ore
-alfheim:NiflheimBlock:3, Deepfrozen Stone Bricks
-alfheim:NiflheimBlock:4, Cracked Deepfrozen Stone Bricks
-alfheim:NiflheimBlock:5, Chiseled Deepfrozen Stone Bricks
-alfheim:NiflheimBlock:6, Polished Deepfrozen Stone
-alfheim:NiflheimBlock:7, Deepfrozen Stone Pillar
-alfheim:NiflheimBlock:10, Runic Deepfrozen Stone
-alfheim:NiflheimPortal, Waters of Hvergelmir
-alfheim:NiflheimIce, tile.NiflheimIce.name
-alfheim:PowerStone:0, Stone of Null
-alfheim:PowerStone:1, Stone of Berserker
-alfheim:PowerStone:2, Stone of Tank
-alfheim:PowerStone:3, Stone of Ninja
-alfheim:PowerStone:4, Stone of Overmage
-alfheim:RaceSelector, tile.RaceSelector.name
-alfheim:rainbowDirt:0, Iridescent Dirt
-alfheim:rainbowFlame, tile.rainbowFlame.name
-alfheim:miniIslandRainbow:0, tile.botania:miniIslandRainbow0.name
-alfheim:rainbowLeaves:0, Iridescent Leaves
-alfheim:rainbowGrass:0, Iridescent Grass
-alfheim:rainbowGrass:1, Iridescent Grass
-alfheim:rainbowGrass:2, Mystical Bifrost Flower
-alfheim:rainbowGrass:3, Glimmering Bifrost Flower
-alfheim:rainbowMushroom, tile.rainbowMushroom.name
-alfheim:rainbowPetalBlock, tile.rainbowPetalBlock.name
-alfheim:rainbowPlanks:0, Iridescent Planks
-alfheim:rainbowPlanksSlab:0, Iridescent Slab
-alfheim:rainbowPlanksSlabFull:0, Iridescent Slab
-alfheim:rainbowPlanksStairs:0, Iridescent Stairs
-alfheim:rainbowDoubleGrass:0, Iridescent Double Grass
-alfheim:rainbowDoubleGrass:1, Iridescent Double Grass
-alfheim:rainbowDoubleFlower:0, Tall Mystical Bifrost Flower
-alfheim:rainbowWood:0, Iridescent Wood
-alfheim:RealityAnchor, tile.RealityAnchor.name
-alfheim:MuspelheimFire, tile.MuspelheimFire.name
-alfheim:Rift, Rift
-alfheim:RealmPowerCollector:0, Realm Power Collector Fiery Core
-alfheim:RealmPowerCollector:1, Realm Power Collector Icy Core
-alfheim:RealmPowerCollector:2, Realm Power Collector Fiery Frame
-alfheim:RealmPowerCollector:3, Realm Power Collector Icy Frame
-alfheim:schematicAnnihilator, tile.schematicAnnihilator.name
-alfheim:schemaController, tile.schemaController.name
-alfheim:schemaFiller, tile.schemaFiller.name
-alfheim:schematicOak, tile.schematicOak.name
-alfheim:schemaMarker, tile.schemaMarker.name
-alfheim:quartzTypeShimmer:0, Block of Shimmerquartz
-alfheim:quartzTypeShimmer:1, Chiseled Shimmerquartz Block
-alfheim:quartzTypeShimmer:2, Shimmerquartz Pillar
-alfheim:quartzTypeShimmer:5, Darkened Shimmering Quartz Block
-alfheim:quartzTypeShimmer:6, Smooth Shimmering Quartz Block
-alfheim:quartzSlabShimmerHalf:0, Shimmerquartz Slab
-alfheim:quartzSlabShimmerFull:0, Shimmerquartz Slab
-alfheim:quartzStairsShimmer, tile.quartzStairsShimmer.name
-alfheim:SnowGrass, tile.SnowGrass.name
-alfheim:SnowLayer, tile.SnowLayer.name
-alfheim:Spire, tile.Spire.name
-alfheim:starBlock, tile.starBlock.name
-alfheim:cracklingStar, tile.cracklingStar.name
-alfheim:Stalactite:0, Stalactite
-alfheim:Stalactite:1, Stalactite
-alfheim:Stalactite:2, Stalactite
-alfheim:Stalactite:3, Stalactite
-alfheim:Stalactite:4, Stalactite
-alfheim:Stalactite:5, Stalactite
-alfheim:Stalactite:6, Stalactite
-alfheim:Stalactite:7, Stalactite
-alfheim:Stalagmite:0, Stalagmite
-alfheim:Stalagmite:1, Stalagmite
-alfheim:Stalagmite:2, Stalagmite
-alfheim:Stalagmite:3, Stalagmite
-alfheim:Stalagmite:4, Stalagmite
-alfheim:Stalagmite:5, Stalagmite
-alfheim:Stalagmite:6, Stalagmite
-alfheim:Stalagmite:7, Stalagmite
-alfheim:TradePortal, tile.TradePortal.name
-alfheim:treeCrafter, tile.treeCrafter.name
-alfheim:treeCrafterRB, tile.treeCrafterRB.name
-alfheim:treeCrafterAU, tile.treeCrafterAU.name
-alfheim:YggdrasilFlower, Flower of Yggdrasil
-alfheim:altLeaves:0, Dry Leaves
-alfheim:altLeaves:1, Golden Leaves
-alfheim:altLeaves:2, Vivid Leaves
-alfheim:altLeaves:3, Scorched Leaves
-alfheim:altLeaves:4, Infused Leaves
-alfheim:altLeaves:5, Mutated Leaves
-alfheim:altLeaves:6, Yggdrasil Leaves
-alfheim:altLeaves:7, Dreamwood Leaves
-alfheim:altPlanks:0, Dry Planks
-alfheim:altPlanks:1, Golden Planks
-alfheim:altPlanks:2, Vivid Planks
-alfheim:altPlanks:3, Scorched Planks
-alfheim:altPlanks:4, Infused Planks
-alfheim:altPlanks:5, Mutated Planks
-alfheim:altPlanks:6, Yggdrasil Planks
-alfheim:altPlanksSlab:0, Dry Planks Slab
-alfheim:altPlanksSlab:1, Golden Planks Slab
-alfheim:altPlanksSlab:2, Vivid Planks Slab
-alfheim:altPlanksSlab:3, Scorched Planks Slab
-alfheim:altPlanksSlab:4, Infused Planks Slab
-alfheim:altPlanksSlab:5, Mutated Planks Slab
-alfheim:altPlanksSlab:6, Yggdrasil Planks Slab
-alfheim:altPlanksSlabFull:0, Dry Planks Slab
-alfheim:altPlanksSlabFull:1, Golden Planks Slab
-alfheim:altPlanksSlabFull:2, Vivid Planks Slab
-alfheim:altPlanksSlabFull:3, Scorched Planks Slab
-alfheim:altPlanksSlabFull:4, Infused Planks Slab
-alfheim:altPlanksSlabFull:5, Mutated Planks Slab
-alfheim:altPlanksSlabFull:6, Yggdrasil Planks Slab
-alfheim:altPlanksStairs0, tile.altPlanksStairs0.name
-alfheim:altPlanksStairs1, tile.altPlanksStairs1.name
-alfheim:altPlanksStairs2, tile.altPlanksStairs2.name
-alfheim:altPlanksStairs3, tile.altPlanksStairs3.name
-alfheim:altPlanksStairs4, tile.altPlanksStairs4.name
-alfheim:altPlanksStairs5, tile.altPlanksStairs5.name
-alfheim:altPlanksStairs6, tile.altPlanksStairs6.name
-alfheim:altWood0:0, Dry Wood
-alfheim:altWood0:1, Golden Wood
-alfheim:altWood0:2, Vivid Wood
-alfheim:altWood0:3, Scorched Wood
-alfheim:altWood1:0, Infused Wood
-alfheim:altWood1:1, Mutated Wood
-alfheim:altWood1:2, Yggdrasil Wood
-alfheim:altWood1:3, Dreamwood Log
-alfheim:calicoLeaves, tile.calicoLeaves.name
-alfheim:calicoPlanks, tile.calicoPlanks.name
-alfheim:calicoSapling, tile.calicoSapling.name
-alfheim:calicoPlanksSlab:0, Calico Planks Slab
-alfheim:calicoPlanksSlabFull:0, Calico Planks Slab
-alfheim:calicoPlanksStairs, tile.calicoPlanksStairs.name
-alfheim:calicoWood, tile.calicoWood.name
-alfheim:circuitLeaves, tile.circuitLeaves.name
-alfheim:circuitPlanks, tile.circuitPlanks.name
-alfheim:circuitSapling, tile.circuitSapling.name
-alfheim:circuitPlanksSlab:0, Circuitree Planks Slab
-alfheim:circuitPlanksSlabFull:0, Circuitree Planks Slabs
-alfheim:circuitPlanksStairs, tile.circuitPlanksStairs.name
-alfheim:circuitWood, tile.circuitWood.name
-alfheim:lightningLeaves, tile.lightningLeaves.name
-alfheim:lightningPlanks, tile.lightningPlanks.name
-alfheim:lightningSapling, tile.lightningSapling.name
-alfheim:lightningPlanksSlab:0, Thunderous Slab
-alfheim:lightningPlanksSlabFull:0, Thunderous Slab
-alfheim:lightningPlanksStairs, tile.lightningPlanksStairs.name
-alfheim:lightningWood, tile.lightningWood.name
-alfheim:netherLeaves, tile.netherLeaves.name
-alfheim:netherPlanks, tile.netherPlanks.name
-alfheim:netherSapling, tile.netherSapling.name
-alfheim:netherPlanksSlab:0, Infernal Slab
-alfheim:netherPlanksSlabFull:0, Infernal Slab
-alfheim:netherPlanksStairs, tile.netherPlanksStairs.name
-alfheim:netherWood, tile.netherWood.name
-alfheim:sealingLeaves, tile.sealingLeaves.name
-alfheim:sealingPlanks, tile.sealingPlanks.name
-alfheim:sealingSapling, tile.sealingSapling.name
-alfheim:sealingPlanksSlab:0, Sealing Slab
-alfheim:sealingPlanksSlabFull:0, Sealing Slab
-alfheim:sealingPlanksStairs, tile.sealingPlanksStairs.name
-alfheim:sealingWood, tile.sealingWood.name
-alfheim:AlfheimThaumOre:0, Minerai de cinabre
-alfheim:AlfheimThaumOre:1, Roche infusée d'air
-alfheim:AlfheimThaumOre:2, Roche Infusée de feu
-alfheim:AlfheimThaumOre:3, Roche Infusée d'eau
-alfheim:AlfheimThaumOre:4, Roche Infusée de terre
-alfheim:AlfheimThaumOre:5, Roche Infusée d'ordre
-alfheim:AlfheimThaumOre:6, Roche Infusée d'entropie
-alfheim:AlfheimThaumOre:7, Ambre brute
-appliedenergistics2:tile.OreQuartz, Minerai de Quartz Certus
-appliedenergistics2:tile.OreQuartzCharged, Minerai de Quartz Certus chargé
-appliedenergistics2:tile.BlockMatrixFrame, Cadre de la matrice
-appliedenergistics2:tile.BlockQuartz, Bloc de Quartz Certus
-appliedenergistics2:tile.BlockQuartzPillar, Pilier de Quartz Certus
-appliedenergistics2:tile.BlockQuartzChiseled, Bloc de Quartz Certus ciselé
-appliedenergistics2:tile.BlockQuartzGlass, Verre de Quartz
-appliedenergistics2:tile.BlockQuartzLamp, Verre de  Quartz vibrant
-appliedenergistics2:tile.BlockQuartzTorch, Quartz chargé à accrocher
-appliedenergistics2:tile.BlockFluix, Bloc de Fluix
-appliedenergistics2:tile.BlockSkyStone:0, Pierre de ciel
-appliedenergistics2:tile.BlockSkyStone:1, Bloc de pierre de ciel
-appliedenergistics2:tile.BlockSkyStone:2, Brique de pierre de ciel
-appliedenergistics2:tile.BlockSkyStone:3, Briquettes de pierre de ciel
-appliedenergistics2:tile.BlockSkyChest:0, Coffre de pierre de ciel
-appliedenergistics2:tile.BlockSkyChest:1, Coffre de bloc de pierre de ciel
-appliedenergistics2:tile.BlockSkyCompass, Boussole à météorite
-appliedenergistics2:tile.BlockGrinder, Meule en Quartz
-appliedenergistics2:tile.BlockCrank, Manivelle en bois
-appliedenergistics2:tile.BlockInscriber, Presse
-appliedenergistics2:tile.BlockWireless, Point d'accès sans-fil ME
-appliedenergistics2:tile.BlockCharger, Chargeur
-appliedenergistics2:tile.BlockTinyTNT, Minuscule TNT
-appliedenergistics2:tile.BlockSecurity, Terminal de sécurité ME
-appliedenergistics2:tile.BlockQuantumRing, Anneau quantique ME
-appliedenergistics2:tile.BlockQuantumLinkChamber, Chambre de lien quantique ME
-appliedenergistics2:tile.BlockSpatialPylon, Pilier spatial
-appliedenergistics2:tile.BlockSpatialIOPort, Port d'E/S spatial
-appliedenergistics2:tile.BlockCableBus, Câble et/ou bus AE2
-appliedenergistics2:tile.BlockController, Contrôleur ME
-appliedenergistics2:tile.BlockDrive, Range-disque ME
-appliedenergistics2:tile.BlockChest, Coffre ME
-appliedenergistics2:tile.BlockInterface, Interface ME
-appliedenergistics2:tile.BlockCellWorkbench, Etabli de cellules
-appliedenergistics2:tile.BlockIOPort, Port d'E/S ME
-appliedenergistics2:tile.BlockCondenser, Condenseur de matière
-appliedenergistics2:tile.BlockEnergyAcceptor, Acceptateur énergétique
-appliedenergistics2:tile.BlockVibrationChamber, Chambre de vibration
-appliedenergistics2:tile.BlockQuartzGrowthAccelerator, Accélérateur de croissance de cristal
-appliedenergistics2:tile.BlockEnergyCell, Cellule énergétique
-appliedenergistics2:tile.BlockDenseEnergyCell, Cellule énergétique dense
-appliedenergistics2:tile.BlockCreativeEnergyCell, Cellule énergétique en créatif
-appliedenergistics2:tile.BlockCraftingUnit:0, Unité de fabrication
-appliedenergistics2:tile.BlockCraftingUnit:1, Unité de co-traitement
-appliedenergistics2:tile.BlockCraftingStorage:0, Disque 1k pour la fabrication
-appliedenergistics2:tile.BlockCraftingStorage:1, Disque 4k pour la fabrication
-appliedenergistics2:tile.BlockCraftingStorage:2, Disque 16k pour la fabrication
-appliedenergistics2:tile.BlockCraftingStorage:3, Disque 64k pour la fabrication
-appliedenergistics2:tile.BlockCraftingMonitor:0, Moniteur de fabrication
-appliedenergistics2:tile.BlockMolecularAssembler, Assembleur moléculaire
-appliedenergistics2:tile.BlockLightDetector, Détecteur de lumière à accrocher
-appliedenergistics2:tile.BlockPaint, tile.appliedenergistics2.BlockPaint.name
-appliedenergistics2:tile.SkyStoneStairBlock, Escaliers de pierre de ciel
-appliedenergistics2:tile.SkyStoneBlockStairBlock, Escaliers de bloc de pierre de ciel
-appliedenergistics2:tile.SkyStoneBrickStairBlock, Escaliers de briques de pierre de ciel
-appliedenergistics2:tile.SkyStoneSmallBrickStairBlock, Escaliers de petites briques de pierre de ciel
-appliedenergistics2:tile.FluixStairBlock, Escaliers de Fluix
-appliedenergistics2:tile.QuartzStairBlock, Escaliers de Quartz Certus
-appliedenergistics2:tile.ChiseledQuartzStairBlock, Escaliers de Quartz Certus ciselé
-appliedenergistics2:tile.QuartzPillarStairBlock, Escaliers de pilier de Quartz Certus
-appliedenergistics2:tile.SkyStoneSlabBlock:0, Dalle de pierre de ciel
-appliedenergistics2:tile.SkyStoneSlabBlock.double:0, Dalle de pierre de ciel
-appliedenergistics2:tile.SkyStoneBlockSlabBlock:0, Dalle de bloc de pierre de ciel
-appliedenergistics2:tile.SkyStoneBlockSlabBlock.double:0, Dalle de bloc de pierre de ciel
-appliedenergistics2:tile.SkyStoneBrickSlabBlock:0, Dalle de briques de pierre de ciel
-appliedenergistics2:tile.SkyStoneBrickSlabBlock.double:0, Dalle de briques de pierre de ciel
-appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock:0, Dalle de petites briques de pierre de ciel
-appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock.double:0, Dalle de petites briques de pierre de ciel
-appliedenergistics2:tile.FluixSlabBlock:0, Dalle de Fluix
-appliedenergistics2:tile.FluixSlabBlock.double:0, Dalle de Fluix
-appliedenergistics2:tile.QuartzSlabBlock:0, Dalle de Quartz Certus
-appliedenergistics2:tile.QuartzSlabBlock.double:0, Dalle de Quartz Certus
-appliedenergistics2:tile.ChiseledQuartzSlabBlock:0, Dalle de Quartz Certus ciselé
-appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0, Dalle de Quartz Certus ciselé
-appliedenergistics2:tile.QuartzPillarSlabBlock:0, Dalle de pilier de Quartz Certus
-appliedenergistics2:tile.QuartzPillarSlabBlock.double:0, Dalle de pilier de Quartz Certus
-AWWayofTime:Altar, Autel de Sang
-AWWayofTime:AlchemicalWizardrybloodRune:0, Rune de Sang
-AWWayofTime:AlchemicalWizardrybloodRune:1, Rune de Capacité Augmentée
-AWWayofTime:AlchemicalWizardrybloodRune:2, Rune de Dislocation
-AWWayofTime:AlchemicalWizardrybloodRune:3, Rune of the Orb
-AWWayofTime:AlchemicalWizardrybloodRune:4, Rune de la Capacité Supérieure
-AWWayofTime:AlchemicalWizardrybloodRune:5, Rune d'Accélération
-AWWayofTime:lifeEssence, Extrait de Vitalité
-AWWayofTime:speedRune, Rune de Vitesse
-AWWayofTime:efficiencyRune, Rune d’Efficacité
-AWWayofTime:runeOfSacrifice, Rune du Sacrifice
-AWWayofTime:runeOfSelfSacrifice, Rune de l’Auto-Sacrifice
-AWWayofTime:ritualStone, Pierre Rituelle
-AWWayofTime:masterStone, Pierre Rituelle Maître
-AWWayofTime:bloodSocket, Poche Remplie
-AWWayofTime:imperfectRitualStone, Pierre Rituelle Imparfaite
-AWWayofTime:armourForge, Forge d’Armure d’Âme
-AWWayofTime:emptySocket, Poche Vide
-AWWayofTime:bloodStoneBrick, Brique de Roche-Sang
-AWWayofTime:largeBloodStoneBrick, Brique Large de Roche-Sang
-AWWayofTime:blockWritingTable, Matériel d’Alchimie
-AWWayofTime:blockHomHeart, Table des Maléfices
-AWWayofTime:blockPedestal, Piédéstal Arcanique
-AWWayofTime:blockPlinth, Socle Arcanique
-AWWayofTime:blockTeleposer, Téléposeur
-AWWayofTime:spectralBlock, Spectral Block
-AWWayofTime:bloodLight, Blood Light
-AWWayofTime:blockConduit, Conduit des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:0, Générateur de Particule
-AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:1, Auto-Augmenteur
-AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:2, Agrégation à la Mêlée
-AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm:3, Forgeron Outilleur
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:0, Renforcement Instable des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:1, Renforcement Standard des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:2, Renforcement Renforcé des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:3, Renforcement Imprégné des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:4, Renforcement Diabolo des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:5, Ristourne Instable des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:6, Ristourne Standard des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:7, Ristourne Renforcée des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:8, Ristourne Imprégnée des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:9, Ristourne Démoniaque des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:10, Amélioration Instable des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:11, Amélioration Standard des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:12, Amélioration Renforcée des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:13, Amélioration Imprégnée des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:14, Amélioration Diabolo des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:0, Modification Basique des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1, Modification Offensive des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2, Modification Défensive des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3, Modification Environnementale des Maléfices
-AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:0, Creuset des Flammes
-AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1, Geyser de Glace
-AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2, Jaillissement des Vents
-AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3, Assembleur des Terres
-AWWayofTime:spectralContainer, Spectral Container
-AWWayofTime:demonPortalMain, Portail Diabolo
-AWWayofTime:blockSchemSaver, Schematic Saver
-AWWayofTime:blockReagentConduit, Relais Alchimique
-AWWayofTime:blockAlchemicCalcinator, Calcinateur Alchimique
-AWWayofTime:blockCrystalBelljar:0, Cloche de Cristal
-AWWayofTime:blockDemonChest, Demon's Chest
-AWWayofTime:blockCrystal:0, Fragments de Cristaux
-AWWayofTime:blockCrystal:1, Briques de Fragments de Cristaux
-AWWayofTime:blockMimic, Mimic Block
-AWWayofTime:blockEnchantmentGlyph:0, Glyph of the Adept Enchanter
-AWWayofTime:blockEnchantmentGlyph:1, Glyph of Arcane Potential
-AWWayofTime:blockStabilityGlyph:0, Glyph of Rigid Stability
-AWWayofTime:blockCrucible, Incense Crucible
 Avaritia:Double_Craft, Compressed Crafting Table
 Avaritia:Triple_Craft, Double Compressed Crafting Table
 Avaritia:Dire_Crafting, Dire Crafting Table
@@ -2576,38 +2168,38 @@ BiblioCraft:BiblioSeats:3, Chaise en acajou
 BiblioCraft:BiblioSeats:4, Chaise en acacia
 BiblioCraft:BiblioSeats:5, Chaise en chêne noir
 BiblioCraft:BiblioSeats:6, Framed Seat
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
 ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:dislocator, Transvector Dislocator
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -3176,180 +2768,6 @@ StorageDrawers:fullCustom4, Framed Drawers 2x2
 StorageDrawers:halfCustom2, Framed Drawers 1x2
 StorageDrawers:halfCustom4, Framed Drawers 2x2
 StorageDrawers:trimCustom, Framed Trim
-StorageDrawersForestry:fullDrawers1A:0, Larch Drawer
-StorageDrawersForestry:fullDrawers1A:1, Teak Drawer
-StorageDrawersForestry:fullDrawers1A:2, Acacia Drawer
-StorageDrawersForestry:fullDrawers1A:3, Lime Drawer
-StorageDrawersForestry:fullDrawers1A:4, Chestnut Drawer
-StorageDrawersForestry:fullDrawers1A:5, Wenge Drawer
-StorageDrawersForestry:fullDrawers1A:6, Baobab Drawer
-StorageDrawersForestry:fullDrawers1A:7, Sequoia Drawer
-StorageDrawersForestry:fullDrawers1A:8, Kapok Drawer
-StorageDrawersForestry:fullDrawers1A:9, Ebony Drawer
-StorageDrawersForestry:fullDrawers1A:10, Mahogany Drawer
-StorageDrawersForestry:fullDrawers1A:11, Balsa Drawer
-StorageDrawersForestry:fullDrawers1A:12, Willow Drawer
-StorageDrawersForestry:fullDrawers1A:13, Walnut Drawer
-StorageDrawersForestry:fullDrawers1A:14, Greenheart Drawer
-StorageDrawersForestry:fullDrawers1A:15, Cherry Drawer
-StorageDrawersForestry:fullDrawers1B:0, Mahoe Drawer
-StorageDrawersForestry:fullDrawers1B:1, Poplar Drawer
-StorageDrawersForestry:fullDrawers1B:2, Palm Drawer
-StorageDrawersForestry:fullDrawers1B:3, Papaya Drawer
-StorageDrawersForestry:fullDrawers1B:4, Pine Drawer
-StorageDrawersForestry:fullDrawers1B:5, Plum Drawer
-StorageDrawersForestry:fullDrawers1B:6, Maple Drawer
-StorageDrawersForestry:fullDrawers1B:7, Citrus Drawer
-StorageDrawersForestry:fullDrawers1B:8, Giant Sequoia Drawer
-StorageDrawersForestry:fullDrawers1B:9, Ipe Drawer
-StorageDrawersForestry:fullDrawers1B:10, Padauk Drawer
-StorageDrawersForestry:fullDrawers1B:11, Cocobolo Drawer
-StorageDrawersForestry:fullDrawers1B:12, Zebrawood Drawer
-StorageDrawersForestry:fullDrawers2A:0, Larch Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:1, Teak Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:2, Acacia Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:3, Lime Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:4, Chestnut Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:5, Wenge Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:6, Baobab Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:7, Sequoia Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:8, Kapok Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:9, Ebony Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:10, Mahogany Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:11, Balsa Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:12, Willow Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:13, Walnut Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:14, Greenheart Drawers 1x2
-StorageDrawersForestry:fullDrawers2A:15, Cherry Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:0, Mahoe Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:1, Poplar Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:2, Palm Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:3, Papaya Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:4, Pine Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:5, Plum Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:6, Maple Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:7, Citrus Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:8, Giant Sequoia Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:9, Ipe Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:10, Padauk Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:11, Cocobolo Drawer 1x2
-StorageDrawersForestry:fullDrawers2B:12, Zebrawood Drawer 1x2
-StorageDrawersForestry:fullDrawers4A:0, Larch Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:1, Teak Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:2, Acacia Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:3, Lime Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:4, Chestnut Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:5, Wenge Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:6, Baobab Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:7, Sequoia Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:8, Kapok Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:9, Ebony Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:10, Mahogany Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:11, Balsa Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:12, Willow Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:13, Walnut Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:14, Greenheart Drawers 2x2
-StorageDrawersForestry:fullDrawers4A:15, Cherry Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:0, Mahoe Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:1, Poplar Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:2, Palm Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:3, Papaya Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:4, Pine Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:5, Plum Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:6, Maple Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:7, Citrus Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:8, Giant Sequoia Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:9, Ipe Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:10, Padauk Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:11, Cocobolo Drawer 2x2
-StorageDrawersForestry:fullDrawers4B:12, Zebrawood Drawer 2x2
-StorageDrawersForestry:halfDrawers2A:0, Compact Larch Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:1, Compact Teak Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:2, Compact Acacia Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:3, Compact Lime Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:4, Compact Chestnut Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:5, Compact Wenge Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:6, Compact Baobab Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:7, Compact Sequoia Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:8, Compact Kapok Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:9, Compact Ebony Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:10, Compact Mahogany Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:11, Compact Balsa Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:12, Compact Willow Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:13, Compact Walnut Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:14, Compact Greenheart Drawers 1x2
-StorageDrawersForestry:halfDrawers2A:15, Compact Cherry Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:0, Compact Mahoe Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:1, Compact Poplar Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:2, Compact Palm Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:3, Compact Papaya Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:4, Compact Pine Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:5, Compact Plum Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:6, Compact Maple Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:7, Compact Citrus Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:8, Compact Giant Sequoia Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:9, Compact Ipe Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:10, Compact Padauk Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:11, Compact Cocobolo Drawer 1x2
-StorageDrawersForestry:halfDrawers2B:12, Compact Zebrawood Drawer 1x2
-StorageDrawersForestry:halfDrawers4A:0, Compact Larch Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:1, Compact Teak Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:2, Compact Acacia Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:3, Compact Lime Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:4, Compact Chestnut Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:5, Compact Wenge Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:6, Compact Baobab Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:7, Compact Sequoia Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:8, Compact Kapok Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:9, Compact Ebony Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:10, Compact Mahogany Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:11, Compact Balsa Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:12, Compact Willow Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:13, Compact Walnut Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:14, Compact Greenheart Drawers 2x2
-StorageDrawersForestry:halfDrawers4A:15, Compact Cherry Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:0, Compact Mahoe Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:1, Compact Poplar Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:2, Compact Palm Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:3, Compact Papaya Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:4, Compact Pine Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:5, Compact Plum Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:6, Compact Maple Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:7, Compact Citrus Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:8, Compact Giant Sequoia Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:9, Compact Ipe Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:10, Compact Padauk Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:11, Compact Cocobolo Drawer 2x2
-StorageDrawersForestry:halfDrawers4B:12, Compact Zebrawood Drawer 2x2
-StorageDrawersForestry:trimA:0, Larch Trim
-StorageDrawersForestry:trimA:1, Teak Trim
-StorageDrawersForestry:trimA:2, Acacia Trim
-StorageDrawersForestry:trimA:3, Lime Trim
-StorageDrawersForestry:trimA:4, Chestnut Trim
-StorageDrawersForestry:trimA:5, Wenge Trim
-StorageDrawersForestry:trimA:6, Baobab Trim
-StorageDrawersForestry:trimA:7, Sequoia Trim
-StorageDrawersForestry:trimA:8, Kapok Trim
-StorageDrawersForestry:trimA:9, Ebony Trim
-StorageDrawersForestry:trimA:10, Mahogany Trim
-StorageDrawersForestry:trimA:11, Balsa Trim
-StorageDrawersForestry:trimA:12, Willow Trim
-StorageDrawersForestry:trimA:13, Walnut Trim
-StorageDrawersForestry:trimA:14, Greenheart Trim
-StorageDrawersForestry:trimA:15, Cherry Trim
-StorageDrawersForestry:trimB:0, Mahoe Trim
-StorageDrawersForestry:trimB:1, Poplar Trim
-StorageDrawersForestry:trimB:2, Palm Trim
-StorageDrawersForestry:trimB:3, Papaya Trim
-StorageDrawersForestry:trimB:4, Pine Trim
-StorageDrawersForestry:trimB:5, Plum Trim
-StorageDrawersForestry:trimB:6, Maple Trim
-StorageDrawersForestry:trimB:7, Citrus Trim
-StorageDrawersForestry:trimB:8, Giant Sequoia Trim
-StorageDrawersForestry:trimB:9, Ipe Trim
-StorageDrawersForestry:trimB:10, Padauk Trim
-StorageDrawersForestry:trimB:11, Cocobolo Trim
-StorageDrawersForestry:trimB:12, Zebrawood Trim
 TaintedMagic:BlockWarpwoodLog, Warpwood Log
 TaintedMagic:BlockWarpwoodPlanks, Warpwood Planks
 TaintedMagic:BlockWarpwoodLeaves, Warped Leaves
@@ -3934,104 +3352,6 @@ WitchingGadgets:WG_MetalDevice:8, Terrestrial Focus: Tainted Lands
 WitchingGadgets:WG_MetalDevice:9, Terrestrial Focus: Mushroom Island
 WitchingGadgets:WG_RoseVine, Rose Vines
 WitchingGadgets:WG_CustomAir, Glimmer of Light
-alfheim:Wisdomwood:0, Mossy Yggdrasil Planks
-alfheim:Wisdomwood:1, Framed Yggdrasil Planks
-alfheim:Wisdomwood:2, Pattern Framed Yggdrasil Planks
-alfheim:ShrineRock:0, Shrine Rock
-alfheim:ShrineRock:1, Shrine Rock
-alfheim:ShrineRock:2, Shrine Rock
-alfheim:ShrineRock:3, Shrine Rock
-alfheim:ShrineRock:4, Shrine Rock
-alfheim:ShrineRock:5, Shrine Rock
-alfheim:ShrineRock:6, Shrine Rock
-alfheim:ShrineRock:7, Shrine Rock
-alfheim:ShrineRock:8, Shrine Rock
-alfheim:ShrineRock:9, Shrine Rock
-alfheim:ShrineRock:10, Shrine Rock
-alfheim:ShrineRock:11, Shrine Rock
-alfheim:ShrineRock:12, Shrine Rock
-alfheim:ShrineRock:13, Shrine Rock
-alfheim:ShrineRock:14, Shrine Rock
-alfheim:ShrineRock:15, Shrine Rock
-alfheim:ShrinePillar, tile.ShrinePillar.name
-alfheim:ShrineRockWhiteStairs, tile.ShrineRockWhiteStairs.name
-alfheim:ShrineRock0Slab:0, Shrine Rock Slab
-alfheim:ShrineRock0SlabFull:0, Shrine Rock Slab
-alfheim:CustomRoof:0, Roof Tile
-alfheim:CustomRoof:1, Roof Tile
-alfheim:CustomRoof:2, Roof Tile
-alfheim:CustomRoof0Slab:0, Roof Tile Slab
-alfheim:CustomRoof1Slab:0, Roof Tile Slab
-alfheim:CustomRoof2Slab:0, Roof Tile Slab
-alfheim:CustomRoof0SlabFull:0, Roof Tile Slab
-alfheim:CustomRoof1SlabFull:0, Roof Tile Slab
-alfheim:CustomRoof2SlabFull:0, Roof Tile Slab
-alfheim:CustomRoofStairs0, tile.CustomRoofStairs0.name
-alfheim:CustomRoofStairs1, tile.CustomRoofStairs1.name
-alfheim:CustomRoofStairs2, tile.CustomRoofStairs2.name
-alfheim:LivingMountain:0, Livingrock Mountain
-alfheim:DarkLivingRock:0, Dark Livingrock
-alfheim:DarkLivingRock:1, Dark Livingrock Brick
-alfheim:DarkLivingRock:2, Chiseled Dark Livingrock
-alfheim:DarkLivingRock:3, Dark Livingrock Tile
-alfheim:DarkLivingRockStairs0, tile.DarkLivingRockStairs0.name
-alfheim:DarkLivingRockStairs1, tile.DarkLivingRockStairs1.name
-alfheim:DarkLivingRockStairs3, tile.DarkLivingRockStairs3.name
-alfheim:DarkLivingRock0Slab:0, Dark Livingrock Slab
-alfheim:DarkLivingRock1Slab:0, Dark Livingrock Brick Slab
-alfheim:DarkLivingRock3Slab:0, Dark Livingrock Tile Slab
-alfheim:DarkLivingRock0SlabFull:0, Dark Livingrock Slab
-alfheim:DarkLivingRock1SlabFull:0, Dark Livingrock Brick Slab
-alfheim:DarkLivingRock3SlabFull:0, Dark Livingrock Tile Slab
-alfheim:DarkLivingRock0Wall, tile.DarkLivingRock0Wall.name
-alfheim:DarkLivingRock1Wall, tile.DarkLivingRock1Wall.name
-alfheim:DwarfLantern, tile.DwarfLantern.name
-alfheim:ShrineLight:0, Shrine Light
-alfheim:ShrineLight:1, Shrine Light
-alfheim:ShrineLight:2, Shrine Light
-alfheim:ShrineLight:3, Shrine Light
-alfheim:ShrineLight:4, Shrine Light
-alfheim:ShrineLight:5, Shrine Light
-alfheim:ShrineGlass:0, Shrine Glass
-alfheim:ShrineGlass:1, Shrine Glass
-alfheim:ShrineGlass:2, Shrine Glass
-alfheim:ShrineGlass:3, Shrine Glass
-alfheim:ShrineGlass:4, Shrine Glass
-alfheim:quartzTypeElf0Wall, tile.quartzTypeElf0Wall.name
-alfheim:DwarfPlanks:0, Dwarf Planks
-alfheim:ElvenSandstone:0, Elven Sandstone
-alfheim:ElvenSandstone:1, Chiseled Elven Sandstone
-alfheim:ElvenSandstone:2, Smooth Elven Sandstone
-alfheim:ElvenSandstone:3, Polished Elven Sandstone
-alfheim:ElvenSandstone:4, Cracked Elven Sandstone
-alfheim:ElvenSandstoneStairs0, tile.ElvenSandstoneStairs0.name
-alfheim:ElvenSandstoneStairs2, tile.ElvenSandstoneStairs2.name
-alfheim:ElvenSandstone0Slab:0, Elven Sandstone Slab
-alfheim:ElvenSandstone0SlabFull:0, Elven Sandstone Slab
-alfheim:ElvenSandstone2Slab:0, Smooth Elven Sandstone Slab
-alfheim:ElvenSandstone2SlabFull:0, Smooth Elven Sandstone Slab
-alfheim:ElvenSandstone0Wall, tile.ElvenSandstone0Wall.name
-alfheim:ElvenSandstone2Wall, tile.ElvenSandstone2Wall.name
-alfheim:LivingCobbleStairs, tile.LivingCobbleStairs.name
-alfheim:LivingCobbleStairs1, tile.LivingCobbleStairs1.name
-alfheim:LivingCobbleStairs2, tile.LivingCobbleStairs2.name
-alfheim:LivingCobble0Slab:0, Livingrock Cobblestone Slab
-alfheim:LivingCobble0SlabFull:0, Livingrock Cobblestone Slab
-alfheim:LivingCobble1Slab:0, Polished Livingrock Slab
-alfheim:LivingCobble1SlabFull:0, Polished Livingrock Slab
-alfheim:LivingCobble2Slab:0, Compressed Livingrock Slab
-alfheim:LivingCobble2SlabFull:0, Compressed Livingrock Slab
-alfheim:LivingCobble0Wall, tile.LivingCobble0Wall.name
-alfheim:livingrock1Wall, tile.livingrock1Wall.name
-alfheim:LivingwoodBarkFenceGate, Livingwood Bark Fence Gate
-alfheim:LivingwoodBarkFence, Livingwood Bark Fence
-alfheim:DreamwoodBarkFenceGate, Dreamwood Bark Fence Gate
-alfheim:DreamwoodBarkFence, Dreamwood Bark Fence
-alfheim:LivingwoodFenceGate, Livingwood Planks Fence Gate
-alfheim:LivingwoodFence, Livingwood Planks Fence
-alfheim:DreamwoodFenceGate, Dreamwood Planks Fence Gate
-alfheim:DreamwoodFence, Dreamwood Planks Fence
-alfheim:DwarfTrapDoor, tile.DwarfTrapDoor.name
 minecraft:record_13, Disque
 minecraft:record_cat, Disque
 minecraft:record_blocks, Disque
@@ -4084,7 +3404,6 @@ Thaumcraft:FocusPech, Foci de baguette : Malédiction Pech
 Thaumcraft:FocusWarding, Foci de baguette : Protection
 Thaumcraft:FocusPrimal, Foci de baguette : Primaire
 Thaumcraft:ItemEssence:0, Fiole en verre
-Thaumcraft:ItemEssence:1, Fiole d'Essentia
 Thaumcraft:ItemEssence:1, Fiole d'Essentia
 Thaumcraft:ItemEssence:1, Fiole d'Essentia
 Thaumcraft:ItemEssence:1, Fiole d'Essentia
@@ -4196,7 +3515,6 @@ Thaumcraft:ItemWispEssence:0, Essence éthérée
 Thaumcraft:ItemWispEssence:0, Essence éthérée
 Thaumcraft:ItemWispEssence:0, Essence éthérée
 Thaumcraft:ItemWispEssence:0, Essence éthérée
-Thaumcraft:ItemWispEssence:0, Essence éthérée
 Thaumcraft:ItemResource:0, Alumentum
 Thaumcraft:ItemResource:1, Nitor
 Thaumcraft:ItemResource:2, Lingot de thaumium
@@ -4244,7 +3562,6 @@ Thaumcraft:ItemNugget:6, Pépite de thaumium
 Thaumcraft:ItemNugget:7, Pépite de métal du Vide
 Thaumcraft:ItemNugget:16, Amas inné de fer
 Thaumcraft:ItemNugget:31, Amas inné d'or
-Thaumcraft:ItemNugget:22, Native Elementium Cluster
 Thaumcraft:BootsTraveller, Bottes du voyageur
 Thaumcraft:ItemNuggetChicken, Morceau de poulet
 Thaumcraft:ItemNuggetBeef, Morceau de bœuf
@@ -4889,588 +4206,6 @@ aether:frostboundStone:0, Frostbound Stone
 aether:candyRing, Candy Ring
 aether:boneRing, Bone Ring
 aether:skyrootRing, Skyroot Ring
-Botania:lexicon, item.lexicon.name
-Botania:petal:0, Pétale de fleur mystique blanche
-Botania:petal:1, Pétale de fleur mystique orange
-Botania:petal:2, Pétale de fleur mystique magenta
-Botania:petal:3, Pétale de fleur mystique bleue claire
-Botania:petal:4, Pétale de fleur mystique jaune
-Botania:petal:5, Pétale de fleur mystique citron
-Botania:petal:6, Pétale de fleur mystique rose
-Botania:petal:7, Pétale de fleur mystique grise
-Botania:petal:8, Pétale de fleur mystique grise claire
-Botania:petal:9, Pétale de fleur mystique cyan
-Botania:petal:10, Pétale de fleur mystique violette
-Botania:petal:11, Pétale de fleur mystique bleue
-Botania:petal:12, Pétale de fleur mystique marron
-Botania:petal:13, Pétale de fleur mystique verte
-Botania:petal:14, Pétale de fleur mystique rouge
-Botania:petal:15, Pétale de fleur mystique noire
-Botania:dye:0, Poudre florale bhanche
-Botania:dye:1, Poudre florale orange
-Botania:dye:2, Poudre florale magenta
-Botania:dye:3, Poudre florale bleue
-Botania:dye:4, Poudre florale jaune
-Botania:dye:5, Poudre florale citron
-Botania:dye:6, Poudre florale rose
-Botania:dye:7, Poudre florale grise
-Botania:dye:8, Poudre florale grise claire
-Botania:dye:9, Poudre florale cyan
-Botania:dye:10, Poudre florale violette
-Botania:dye:11, Poudre florale bleue
-Botania:dye:12, Poudre florale marron
-Botania:dye:13, Poudre florale verte
-Botania:dye:14, Poudre florale rouge
-Botania:dye:15, Poudre florale noire
-Botania:pestleAndMortar, item.pestleAndMortar.name
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:twigWand:0, Baguette de la forêt
-Botania:manaResource:0, Lingot de manacier
-Botania:manaResource:1, Perle de mana
-Botania:manaResource:2, Diamant de mana
-Botania:manaResource:3, Brindille de vifbois
-Botania:manaResource:4, Lingot de terracier
-Botania:manaResource:5, Esprit de Gaïa
-Botania:manaResource:6, Racine de Redstone
-Botania:manaResource:7, Lingot d'élémentium
-Botania:manaResource:8, Poudre de lutin
-Botania:manaResource:9, Dragonite
-Botania:manaResource:10, Éclat de prismarin
-Botania:manaResource:11, Mainteneur d'artisanat
-Botania:manaResource:12, Ficelle rouge
-Botania:manaResource:13, Brindille de boisrève
-Botania:manaResource:14, Lingot d'esprit de Gaïa
-Botania:manaResource:15, Bouteille d'air du néant
-Botania:manaResource:16, Ficelle infusée de mana
-Botania:manaResource:17, Pépite de manacier
-Botania:manaResource:18, Pépite de terracier
-Botania:manaResource:19, Pépite d'élémentium
-Botania:manaResource:22, Manaweave Cloth
-Botania:manaResource:23, Mana Powder
-Botania:lens:0, Lentilles de mana
-Botania:lens:1, Lentilles de mana: Vélocité
-Botania:lens:2, Lentilles de mana: Puissance
-Botania:lens:3, Lentilles de mana: Résistance
-Botania:lens:4, Lentilles de mana: Efficacité
-Botania:lens:5, Lentilles de mana: Rebond
-Botania:lens:6, Lentilles de mana: Gravité
-Botania:lens:7, Lentilles de mana: Ennui
-Botania:lens:8, Lentilles de mana: Endommagement
-Botania:lens:9, Lentilles de mana: Fantôme
-Botania:lens:10, Lentilles de mana: Magnétisation
-Botania:lens:11, Lentilles de mana: Entropique
-Botania:lens:12, Lentilles de mana: Influence
-Botania:lens:13, Lentilles de mana: Poids
-Botania:lens:14, Lentilles de mana: Frondeur
-Botania:lens:15, Lentilles de mana: Allumer
-Botania:lens:16, Lentilles de mana: Force
-Botania:lens:17, Lentilles de mana: Flash
-Botania:lens:18, Lentilles de mana: Déformation
-Botania:lens:19, Mana Lens: Redirective
-Botania:lens:20, Mana Lens: Celebratory
-Botania:lens:21, Mana Lens: Flare
-Botania:lens:22, Mana Lens: Messenger
-Botania:lens:23, Mana Lens: Tripwire
-Botania:lens:24, Mana Lens: Push
-Botania:lens:25, Mana Lens: Smelt
-Botania:lens:26, Mana Lens: Superconductor
-Botania:lens:27, Mana Lens: Track
-Botania:lens:28, Mana Lens: Purification
-Botania:lens:5000, Mana Lens: Manastorm
-Botania:rune:0, Rune d'eau
-Botania:rune:1, Rune de feu
-Botania:rune:2, Rune de terre
-Botania:rune:3, Rune d'air
-Botania:rune:4, Rune du printemps
-Botania:rune:5, Rune de l'été
-Botania:rune:6, Rune de l'automne
-Botania:rune:7, Rune de l'hiver
-Botania:rune:8, Rune de mana
-Botania:rune:9, Rune de soif
-Botania:rune:10, Rune de gloutonnerie
-Botania:rune:11, Rune d'avidité
-Botania:rune:12, Rune de paresse
-Botania:rune:13, Rune de colère
-Botania:rune:14, Rune d'envie
-Botania:rune:15, Rune de fierté
-Botania:signalFlare, item.signalFlare.name
-Botania:manaTablet, item.manaTablet.name
-Botania:manaGun, item.manaGun.name
-Botania:manaCookie, item.manaCookie.name
-Botania:fertilizer, item.fertilizer.name
-Botania:grassSeeds:0, Graines de pâturage
-Botania:grassSeeds:1, Graines boréales
-Botania:grassSeeds:2, Spore d'infestation
-Botania:grassSeeds:3, Dry Pasture Seeds
-Botania:grassSeeds:4, Golden Pasture Seeds
-Botania:grassSeeds:5, Vivid Pasture Seeds
-Botania:grassSeeds:6, Scorched Pasture Seeds
-Botania:grassSeeds:7, Infused Pasture Seeds
-Botania:grassSeeds:8, Mutated Pasture Seeds
-Botania:dirtRod, item.dirtRod.name
-Botania:terraformRod, item.terraformRod.name
-Botania:grassHorn:0, Corne du sauvage
-Botania:grassHorn:1, Corne de la canopée
-Botania:grassHorn:2, Corne de la couverture
-Botania:manaMirror, item.manaMirror.name
-Botania:manasteelHelm, item.manasteelHelm.name
-Botania:manasteelHelmReveal, item.manasteelHelmReveal.name
-Botania:manasteelChest, item.manasteelChest.name
-Botania:manasteelLegs, item.manasteelLegs.name
-Botania:manasteelBoots, item.manasteelBoots.name
-Botania:manasteelPick, item.manasteelPick.name
-Botania:manasteelShovel, item.manasteelShovel.name
-Botania:manasteelAxe, item.manasteelAxe.name
-Botania:manasteelSword, item.manasteelSword.name
-Botania:manasteelShears, item.manasteelShears.name
-Botania:terrasteelHelm, item.terrasteelHelm.name
-Botania:terrasteelHelmReveal, item.terrasteelHelmReveal.name
-Botania:terrasteelChest, item.terrasteelChest.name
-Botania:terrasteelLegs, item.terrasteelLegs.name
-Botania:terrasteelBoots, item.terrasteelBoots.name
-Botania:terraSword, item.terraSword.name
-Botania:tinyPlanet, item.tinyPlanet.name
-Botania:manaRing, item.manaRing.name
-Botania:auraRing, item.auraRing.name
-Botania:manaRingGreater, item.manaRingGreater.name
-Botania:auraRingGreater, item.auraRingGreater.name
-Botania:travelBelt, item.travelBelt.name
-Botania:knockbackBelt, item.knockbackBelt.name
-Botania:icePendant, Collier de Glace
-Botania:lavaPendant, item.lavaPendant.name
-Botania:goldenLaurel, item.goldenLaurel.name
-Botania:magnetRing, item.magnetRing.name
-Botania:waterRing, item.waterRing.name
-Botania:miningRing, item.miningRing.name
-Botania:terraPick, item.terraPick.name
-Botania:divaCharm, item.divaCharm.name
-Botania:flightTiara:0, Flügel Tiara
-Botania:flightTiara:1, Flügel Tiara
-Botania:flightTiara:2, Flügel Tiara
-Botania:flightTiara:3, Flügel Tiara
-Botania:flightTiara:4, Flügel Tiara
-Botania:flightTiara:5, Flügel Tiara
-Botania:flightTiara:6, Flügel Tiara
-Botania:flightTiara:7, Flügel Tiara
-Botania:flightTiara:8, Flügel Tiara
-Botania:enderDagger, item.enderDagger.name
-Botania:quartz:0, Quartz fumé
-Botania:quartz:1, Quartz de mana
-Botania:quartz:2, Quartz flambé
-Botania:quartz:3, Quartz lavande
-Botania:quartz:4, Redquartz
-Botania:quartz:5, Quartz elfique
-Botania:quartz:6, Quartz ensoleillé
-Botania:waterRod, item.waterRod.name
-Botania:elementiumHelm, item.elementiumHelm.name
-Botania:elementiumHelmReveal, item.elementiumHelmReveal.name
-Botania:elementiumChest, item.elementiumChest.name
-Botania:elementiumLegs, item.elementiumLegs.name
-Botania:elementiumBoots, item.elementiumBoots.name
-Botania:elementiumPick, item.elementiumPick.name
-Botania:elementiumShovel, item.elementiumShovel.name
-Botania:elementiumAxe, item.elementiumAxe.name
-Botania:elementiumSword, item.elementiumSword.name
-Botania:elementiumShears, item.elementiumShears.name
-Botania:openBucket, item.openBucket.name
-Botania:spawnerMover, item.spawnerMover.name
-Botania:pixieRing, item.pixieRing.name
-Botania:superTravelBelt, item.superTravelBelt.name
-Botania:rainbowRod, item.rainbowRod.name
-Botania:tornadoRod, item.tornadoRod.name
-Botania:fireRod, item.fireRod.name
-Botania:vineBall, item.vineBall.name
-Botania:slingshot, item.slingshot.name
-Botania:manaBottle, item.manaBottle.name
-Botania:laputaShard:0, Éclat de Laputa
-Botania:laputaShard:4, Éclat de Laputa
-Botania:laputaShard:9, Éclat de Laputa
-Botania:laputaShard:14, Éclat de Laputa
-Botania:laputaShard:19, Éclat de Laputa
-Botania:virus:0, Virus nécrodermal
-Botania:virus:1, Virus nullodermal
-Botania:reachRing, item.reachRing.name
-Botania:skyDirtRod, item.skyDirtRod.name
-Botania:itemFinder, item.itemFinder.name
-Botania:superLavaPendant, item.superLavaPendant.name
-Botania:enderHand, item.enderHand.name
-Botania:glassPick, item.glassPick.name
-Botania:spark, item.spark.name
-Botania:sparkUpgrade:0, Augmentation d'étincelle : Dispersive
-Botania:sparkUpgrade:1, Augmentation d'étincelle : Dominante
-Botania:sparkUpgrade:2, Augmentation d'étincelle : Récessive
-Botania:sparkUpgrade:3, Augmentation d'étincelle : Isolée
-Botania:diviningRod, item.diviningRod.name
-Botania:gravityRod, item.gravityRod.name
-Botania:regenIvy, item.regenIvy.name
-Botania:manaInkwell, item.manaInkwell.name
-Botania:vial:0, Fiole en verre de mana
-Botania:vial:1, Flasque en verre elfique
-Botania:brewVial, item.brewVial.name
-Botania:brewFlask, item.brewFlask.name
-Botania:bloodPendant, item.bloodPendant.name
-Botania:missileRod, item.missileRod.name
-Botania:holyCloak, item.holyCloak.name
-Botania:unholyCloak, item.unholyCloak.name
-Botania:craftingHalo, item.craftingHalo.name
-Botania:blackLotus:0, Lotus noir
-Botania:blackLotus:1, Lotus plus noir
-Botania:monocle, item.monocle.name
-Botania:clip, item.clip.name
-Botania:cobbleRod, item.cobbleRod.name
-Botania:smeltRod, item.smeltRod.name
-Botania:worldSeed, item.worldSeed.name
-Botania:spellCloth, Spellbinding Cloth
-Botania:thornChakram:0, Thorn Chakram
-Botania:thornChakram:1, Flare Chakram
-Botania:overgrowthSeed, item.overgrowthSeed.name
-Botania:craftPattern:0, Modèle d'artisanat #1: 1x1
-Botania:craftPattern:1, Modèle d'artisanat #2: 2x2
-Botania:craftPattern:2, Modèle d'artisanat #3: 1x2
-Botania:craftPattern:3, Modèle d'artisanat #4: 2x1
-Botania:craftPattern:4, Modèle d'artisanat #5: 1x3
-Botania:craftPattern:5, Modèle d'artisanat #6: 3x1
-Botania:craftPattern:6, Modèle d'artisanat #7: 2x3
-Botania:craftPattern:7, Modèle d'artisanat #8: 3x2
-Botania:craftPattern:8, Modèle d'artisanat #9: Beignet
-Botania:ancientWill:0, Volonté d'Ahrim
-Botania:ancientWill:1, Volonté de Dharok
-Botania:ancientWill:2, Volonté de Guthan
-Botania:ancientWill:3, Volonté de Torag
-Botania:ancientWill:4, Volonté de Verac
-Botania:ancientWill:5, Volonté de Karil
-Botania:ancientWill:6, Will of Zaros
-Botania:corporeaSpark:0, Étincelle de Corporea
-Botania:corporeaSpark:1, Étincelle maitresse de Corporea
-Botania:livingwoodBow, item.livingwoodBow.name
-Botania:crystalBow, item.crystalBow.name
-Botania:cosmetic:0, Noeud papillon noir
-Botania:cosmetic:1, Tenue de soirée
-Botania:cosmetic:2, Lunettes rouges
-Botania:cosmetic:3, Écharpe gonflée
-Botania:cosmetic:4, Lunettes d'ingénieur
-Botania:cosmetic:5, Cache
-Botania:cosmetic:6, Mauvais cache
-Botania:cosmetic:7, Ruban rouge
-Botania:cosmetic:8, Bouton à fleurs rose
-Botania:cosmetic:9, Noeud à pois
-Botania:cosmetic:10, Papillon bleu
-Botania:cosmetic:11, Oreille de chat
-Botania:cosmetic:12, Épingle de sorcière
-Botania:cosmetic:13, Queue de démon
-Botania:cosmetic:14, Oeil de Kamui
-Botania:cosmetic:15, Yeux écarquillés
-Botania:cosmetic:16, Trèfle à quatre feuilles
-Botania:cosmetic:17, Yeux pendule
-Botania:cosmetic:18, Corne de licorne
-Botania:cosmetic:19, Cornes de démon
-Botania:cosmetic:20, Hyper plus
-Botania:cosmetic:21, Emblème du botaniste
-Botania:cosmetic:22, Masque antique
-Botania:cosmetic:23, Masque à faire frémir
-Botania:cosmetic:24, Antenne d'alien
-Botania:cosmetic:25, Lunettes d'anaglyphe
-Botania:cosmetic:26, Nuances d'oranges
-Botania:cosmetic:27, Lunettes de Groucho
-Botania:cosmetic:28, Sourcils épais
-Botania:cosmetic:29, Protection lusitanique
-Botania:cosmetic:30, Masque de la minuscule pomme de terre
-Botania:cosmetic:31, Marque du donneur de quète
-Botania:swapRing, item.swapRing.name
-Botania:flowerBag, item.flowerBag.name
-Botania:phantomInk, item.phantomInk.name
-Botania:poolMinecart, item.poolMinecart.name
-Botania:pinkinator, item.pinkinator.name
-Botania:infiniteFruit, item.infiniteFruit.name
-Botania:kingKey, item.kingKey.name
-Botania:flugelEye, item.flugelEye.name
-Botania:thorRing, item.thorRing.name
-Botania:odinRing, item.odinRing.name
-Botania:lokiRing, item.lokiRing.name
-Botania:aesirRing, item.aesirRing.name
-Botania:dice, item.dice.name
-Botania:keepIvy, item.keepIvy.name
-Botania:blackHoleTalisman:0, Talisman du trou noir
-Botania:recordGaia1, item.recordGaia1.name
-Botania:recordGaia2, item.recordGaia2.name
-Botania:temperanceStone:0, Pierre de modération
-Botania:incenseStick, item.incenseStick.name
-Botania:terraAxe, item.terraAxe.name
-Botania:waterBowl, item.waterBowl.name
-Botania:obedienceStick, item.obedienceStick.name
-Botania:cacophonium, item.cacophonium.name
-Botania:slimeBottle:0, Slime in a Bottle
-Botania:starSword, item.starSword.name
-Botania:exchangeRod, item.exchangeRod.name
-Botania:magnetRingGreater, item.magnetRingGreater.name
-Botania:thunderSword, item.thunderSword.name
-Botania:manaweaveHelm, item.manaweaveHelm.name
-Botania:manaweaveLegs, item.manaweaveLegs.name
-Botania:manaweaveChest, item.manaweaveChest.name
-Botania:manaweaveBoots, item.manaweaveBoots.name
-Botania:autocraftingHalo, item.autocraftingHalo.name
-Botania:gaiaHead, item.gaiaHead.name
-Botania:sextant, item.sextant.name
-Botania:speedUpBelt, item.speedUpBelt.name
-Botania:baubleBox, item.baubleBox.name
-alfheim:AkashicRecords, item.AkashicRecords.name
-alfheim:AesirCloak, item.AesirCloak.name
-alfheim:aesirEmblem:0, Priestly Emblem: §6Aesir§r
-alfheim:Armilla, item.Armilla.name
-alfheim:Astrolabe, item.Astrolabe.name
-alfheim:attributionBauble:0, Holy Symbol
-alfheim:AuraRingElven, item.AuraRingElven.name
-alfheim:AuraRingGod, item.AuraRingGod.name
-alfheim:AuraRingPink, item.AuraRingPink.name
-alfheim:BalanceCloak, item.BalanceCloak.name
-alfheim:CloudPendant, item.CloudPendant.name
-alfheim:SuperCloudPendant, item.SuperCloudPendant.name
-alfheim:coatOfArms:0, Chilean Shield
-alfheim:coatOfArms:1, French Shield
-alfheim:coatOfArms:2, Japanese Shield
-alfheim:coatOfArms:3, Germanic Shield
-alfheim:coatOfArms:4, Greek Shield
-alfheim:coatOfArms:5, Icelandic Shield
-alfheim:coatOfArms:6, Irish Shield
-alfheim:coatOfArms:7, Israeli Shield
-alfheim:coatOfArms:8, Jamaican Shield
-alfheim:coatOfArms:9, Singaporean Shield
-alfheim:coatOfArms:10, South African Shield
-alfheim:coatOfArms:11, Spanish Shield
-alfheim:coatOfArms:12, Swiss Shield
-alfheim:coatOfArms:13, Texan Shield
-alfheim:coatOfArms:14, Ukrainian Shield
-alfheim:coatOfArms:15, American Shield
-alfheim:coatOfArms:16, Fabulous Shield
-alfheim:coatOfArms:17, Soviet Shield
-alfheim:coatOfArms:18, Parisian Shield
-alfheim:colorOverride:0, Clerical Colorizer
-alfheim:CorporeaRat, item.CorporeaRat.name
-alfheim:CreativeReachPendant, Creative Reach Pendant
-alfheim:CrescentMoonAmulet, item.CrescentMoonAmulet.name
-alfheim:Daolos, item.Daolos.name
-alfheim:DeathSeed, item.DeathSeed.name
-alfheim:DodgeRing, item.DodgeRing.name
-alfheim:fireGrenade, item.fireGrenade.name
-alfheim:ElementalWaterHelm, item.ElementalWaterHelm.name
-alfheim:ElementalWaterHelmRevealing, item.ElementalWaterHelmRevealing.name
-alfheim:ElementalEarthChest, item.ElementalEarthChest.name
-alfheim:ElementalFireLeggings, item.ElementalFireLeggings.name
-alfheim:ElementalAirBoots, item.ElementalAirBoots.name
-alfheim:FirePendant, item.FirePendant.name
-alfheim:IcePendant, item.IcePendant.name
-alfheim:ElvenFood:0, Elven Lembas
-alfheim:ElvenFood:1, Red Grapes
-alfheim:ElvenFood:2, Green Grapes
-alfheim:ElvenFood:3, Nectar Drop
-alfheim:ElvenFood:4, Red Wine
-alfheim:ElvenFood:5, White Wine
-alfheim:ElvenFood:6, Jellyfish Jelly
-alfheim:ElvenFood:7, Jelly Sandwich
-alfheim:ElvenFood:8, Fish in Jellyfish Jelly
-alfheim:ElvenFood:9, Dreamberry
-alfheim:ElvenItems:0, Interdimensional Gateway Core
-alfheim:ElvenItems:1, Mana Infusion Core
-alfheim:ElvenItems:2, Das Rheingold
-alfheim:ElvenItems:3, Elvorium Ingot
-alfheim:ElvenItems:4, §6Mauftrium Ingot
-alfheim:ElvenItems:5, Muspelheim Power Ingot
-alfheim:ElvenItems:6, Niflheim Power Ingot
-alfheim:ElvenItems:7, Elvorium Nugget
-alfheim:ElvenItems:8, §6Mauftrium Nugget
-alfheim:ElvenItems:9, Muspelheim Essence
-alfheim:ElvenItems:10, Niflheim Essence
-alfheim:ElvenItems:11, Shimmerquartz
-alfheim:ElvenItems:12, Mystical Bifrost Petal
-alfheim:ElvenItems:13, Floral Bifrost Powder
-alfheim:ElvenItems:14, Iffesal Dust
-alfheim:ElvenItems:15, §5Primordial Rune
-alfheim:ElvenItems:16, Muspelheim Rune
-alfheim:ElvenItems:17, Niflheim Rune
-alfheim:ElvenItems:18, Infused Dreamwood Twig
-alfheim:ElvenItems:19, Thunderous Twig
-alfheim:ElvenItems:20, Infernal Twig
-alfheim:ElvenItems:21, Thunderous Splinters
-alfheim:ElvenItems:22, Infernal Splinters
-alfheim:ElvenItems:23, Flame-Laced Charcoal
-alfheim:ElvenItems:25, Jug
-alfheim:ElvenItems:26, Grape Leaf
-alfheim:ElvenItems:27, Fenrir Fur
-alfheim:ElvenItems:29, Nifleur
-alfheim:ElvenItems:30, The Fruit of Yggdrasil
-alfheim:ElvenItems:31, Rift Shard
-alfheim:ElvenItems:32, Dark Rift Shard
-alfheim:ElvenItems:33, Hot Rift Shard
-alfheim:ElvenItems:34, Cold Rift Shard
-alfheim:ElvenItems:35, Domain Key
-alfheim:ElvoriumHelmet, Elvorium Helmet
-alfheim:ElvoriumHelmetRevealing, Elvorium Helmet Of Revealing
-alfheim:ElvoriumChestplate, Elvorium Chestplate
-alfheim:ElvoriumLeggings, Elvorium Leggings
-alfheim:ElvoriumBoots, Elvorium Boots
-alfheim:Enlighter, item.Enlighter.name
-alfheim:EventResource:0, Relic of the Blizzard
-alfheim:EventResource:1, Relic of the Volcano
-alfheim:EventResource:2, Lavamelon
-alfheim:Excaliber, item.Excaliber.name
-alfheim:FenrirHelmet, Helm of Fenrir
-alfheim:FenrirHelmetRevealing, Helm of Fenrir of Revealing
-alfheim:FenrirChestplate, Chestplate of Fenrir
-alfheim:FenrirLeggings, Platelegs of Fenrir
-alfheim:FenrirBoots, Greaves of Fenrir
-alfheim:FenrirClaws, item.FenrirClaws.name
-alfheim:FlugelDisc, item.FlugelDisc.name
-alfheim:MikuDisc, item.MikuDisc.name
-alfheim:FlugelHead, item.FlugelHead.name
-alfheim:MikuHead, item.MikuHead.name
-alfheim:FlugelSoul, item.FlugelSoul.name
-alfheim:GaiaSlayer, item.GaiaSlayer.name
-alfheim:GoddessCharm, item.GoddessCharm.name
-alfheim:Gjallarhorn, item.Gjallarhorn.name
-alfheim:Gleipnir, item.Gleipnir.name
-alfheim:Gungnir, item.Gungnir.name
-alfheim:HyperpolatedBucket, item.HyperpolatedBucket.name
-alfheim:InvisibilityCloak, item.InvisibilityCloak.name
-alfheim:lensPhantomLight, item.lensPhantomLight.name
-alfheim:irisSeeds:0, Iridescent Seeds
-alfheim:irisSeeds:1, Iridescent Seeds
-alfheim:irisSeeds:2, Iridescent Seeds
-alfheim:irisSeeds:3, Iridescent Seeds
-alfheim:irisSeeds:4, Iridescent Seeds
-alfheim:irisSeeds:5, Iridescent Seeds
-alfheim:irisSeeds:6, Iridescent Seeds
-alfheim:irisSeeds:7, Iridescent Seeds
-alfheim:irisSeeds:8, Iridescent Seeds
-alfheim:irisSeeds:9, Iridescent Seeds
-alfheim:irisSeeds:10, Iridescent Seeds
-alfheim:irisSeeds:11, Iridescent Seeds
-alfheim:irisSeeds:12, Iridescent Seeds
-alfheim:irisSeeds:13, Iridescent Seeds
-alfheim:irisSeeds:14, Iridescent Seeds
-alfheim:irisSeeds:15, Iridescent Seeds
-alfheim:irisSeeds:16, Iridescent Seeds
-alfheim:irisSeeds:17, Iridescent Seeds
-alfheim:LivingrockPickaxe, Livingrock Pickaxe
-alfheim:LootInterceptor, item.LootInterceptor.name
-alfheim:ManaweaveGloves, item.ManaweaveGloves.name
-alfheim:manaMirrorImba, item.manaMirrorImba.name
-alfheim:ManaRingElven, item.ManaRingElven.name
-alfheim:ManaRingGod, item.ManaRingGod.name
-alfheim:ManaRingPink, item.ManaRingPink.name
-alfheim:ManaStone, item.ManaStone.name
-alfheim:ManaStoneGreater, item.ManaStoneGreater.name
-alfheim:TankMask, item.TankMask.name
-alfheim:Mjolnir:0, Mjölnir
-alfheim:MoonlightBow, Phoebus Catastrophe
-alfheim:multibauble, item.multibauble.name
-alfheim:PaperBreak, item.PaperBreak.name
-alfheim:PeacePipe, item.PeacePipe.name
-alfheim:SuperIcePendant, item.SuperIcePendant.name
-alfheim:PixieAttractor, item.PixieAttractor.name
-alfheim:priestCloak, item.priestCloak.name
-alfheim:priestEmblem:0, Priestly Emblem: Thor
-alfheim:priestEmblem:1, Priestly Emblem: Sif
-alfheim:priestEmblem:2, Priestly Emblem: Njord
-alfheim:priestEmblem:3, Priestly Emblem: Loki
-alfheim:priestEmblem:4, Priestly Emblem: Heimdall
-alfheim:priestEmblem:5, Priestly Emblem: Odin
-alfheim:HeimdallRing, item.HeimdallRing.name
-alfheim:NjordRing, item.NjordRing.name
-alfheim:SifRing, item.SifRing.name
-alfheim:ragnarokEmblem, item.ragnarokEmblem.name
-alfheim:RationBelt, item.RationBelt.name
-alfheim:RealitySword, Sword of Reality
-alfheim:FeedFlower, item.FeedFlower.name
-alfheim:SpiderRing, item.SpiderRing.name
-alfheim:RodFracturedSpace, item.RodFracturedSpace.name
-alfheim:rodColorfulSkyDirt:0, Rod of the Vibrant Plains
-alfheim:RodClicker, item.RodClicker.name
-alfheim:grassRod, item.grassRod.name
-alfheim:rodFlameStar, item.rodFlameStar.name
-alfheim:rodInterdiction, item.rodInterdiction.name
-alfheim:rodLightning, item.rodLightning.name
-alfheim:MuspelheimRod, item.MuspelheimRod.name
-alfheim:NiflheimRod, item.NiflheimRod.name
-alfheim:rodPortal, item.rodPortal.name
-alfheim:rodRainbowLight, item.rodRainbowLight.name
-alfheim:RodRedstone, item.RodRedstone.name
-alfheim:SnowSword, item.SnowSword.name
-alfheim:SnowHelmet, item.SnowHelmet.name
-alfheim:SnowHelmetRevealing, item.SnowHelmetRevealing.name
-alfheim:SnowChest, item.SnowChest.name
-alfheim:SnowLeggings, item.SnowLeggings.name
-alfheim:SnowBoots, item.SnowBoots.name
-alfheim:SoulHorn, item.SoulHorn.name
-alfheim:SoulSword, item.SoulSword.name
-alfheim:spatiotemporalRing, item.spatiotemporalRing.name
-alfheim:splashPotion, item.splashPotion.name
-alfheim:SpawnEgg:0, Oeuf de Butterfly
-alfheim:SpawnEgg:1, Oeuf de Elf
-alfheim:SpawnEgg:2, Oeuf de Ubercrieper
-alfheim:SpawnEgg:3, Oeuf de Jellyfish
-alfheim:SpawnEgg:4, Oeuf de Muspelz Sonur
-alfheim:SpawnEgg:5, Oeuf de Pixie
-alfheim:SpawnEgg:6, Oeuf de Rolling Watermelon
-alfheim:SpawnEgg:7, Oeuf de Snow Sprite
-alfheim:SpawnEgg:8, Oeuf de Manaseal Creeper
-alfheim:starPlacer, item.starPlacer.name
-alfheim:starPlacer2, item.starPlacer2.name
-alfheim:SpearSubspace, item.SpearSubspace.name
-alfheim:SurtrSword, item.SurtrSword.name
-alfheim:TerrasteelHoe, Terra Reaper
-alfheim:ThinkingHand, item.ThinkingHand.name
-alfheim:ThrymAxe, item.ThrymAxe.name
-alfheim:ThunderChakram, item.ThunderChakram.name
-alfheim:reactionDagger, item.reactionDagger.name
-alfheim:Triquetrum, item.Triquetrum.name
-alfheim:VolcanoMace, item.VolcanoMace.name
-alfheim:VolcanoHelmet, item.VolcanoHelmet.name
-alfheim:VolcanoHelmetRevealing, item.VolcanoHelmetRevealing.name
-alfheim:VolcanoChest, item.VolcanoChest.name
-alfheim:VolcanoLeggings, item.VolcanoLeggings.name
-alfheim:VolcanoBoots, item.VolcanoBoots.name
-alfheim:axeRevelation, item.axeRevelation.name
-alfheim:wiltedLotus:0, Wilted Lotus
-alfheim:wiltedLotus:1, Deathly Lotus
-alfheim:RoyalStaff, item.RoyalStaff.name
-alfheim:AlfheimCap:0, Manasteel Cap
-alfheim:AlfheimCap:1, Terrasteel Cap
-alfheim:AlfheimCap:2, Elementium Cap
-alfheim:AlfheimCap:3, Elvorium Cap
-alfheim:AlfheimCap:4, Mauftrium Cap
-alfheim:AlfheimRod:0, Livingwood Rod
-alfheim:AlfheimRod:1, Dreamwood Rod
-alfheim:AlfheimRod:2, Spiritual Staff Core
 appliedenergistics2:item.ToolCertusQuartzAxe, Hache en Quartz Certus
 appliedenergistics2:item.ToolCertusQuartzHoe, Houe en Quartz Certus
 appliedenergistics2:item.ToolCertusQuartzSpade, Pelle en Quartz Certus
@@ -5600,8 +4335,6 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Minerai de quartz du 
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz sculpté
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz rayé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Darkened Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Terre cuite blanche
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Terre cuite orange
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Terre cuite magenta
@@ -5669,6 +4402,42 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Bibliothèque de skyr
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Holystone Headstone
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Holystone Keystone
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Holystone Highlight
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Quartz Certus
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de Quartz Certus
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Quartz Certus ciselé
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Fluix
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre de ciel
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de pierre de ciel
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de pierre de ciel
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Briquettes de pierre de ciel
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de pierre de ciel
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de bloc de pierre de ciel
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de briques de pierre de ciel
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de petites briques de pierre de ciel
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Fluix
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Quartz Certus
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Quartz Certus ciselé
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de pilier de Quartz Certus
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de Sang
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de Capacité Augmentée
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de Dislocation
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune of the Orb
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de la Capacité Supérieure
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune d'Accélération
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de Vitesse
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune d’Efficacité
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune du Sacrifice
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de l’Auto-Sacrifice
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre Rituelle
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre Rituelle Imparfaite
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Forge d’Armure d’Âme
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de Roche-Sang
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique Large de Roche-Sang
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Fragments de Cristaux
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Briques de Fragments de Cristaux
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Glyph of the Adept Enchanter
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Glyph of Arcane Potential
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Glyph of Rigid Stability
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Viveroche
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de viveroche
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de viveroche moussue
@@ -5799,42 +4568,24 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Green Portuguese Pave
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz fumé
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz fumé sculpté
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de quartz fumé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Lightened Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz mana
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz mana sculpté
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de quartz mana
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Darkened Mana Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Mana Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz flambé
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz flambé sculpté
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de quartz flambé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Darkened Blaze Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Blaze Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz lavande
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz lavande sculpté
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de quartz lavande
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Darkened Lavender Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Lavender Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz rouge
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz rouge sculpté
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de quartz rouge
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Darkened Redstone Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Redstone Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz elfique
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz elfique sculpté
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de quartz elfique
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Darkened Elven Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Elven Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Chiseled Elven Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Ornate Elven Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Panel Elven Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bricky Elven Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz ensoleillé
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de quartz ensoleillé sculpté
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de quartz ensoleillé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Darkened Sunny Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Sunny Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Mana Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Blaze Quartz Slab
@@ -5900,188 +4651,6 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Blue Portuguese Pavem
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Red Portuguese Pavement Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Yellow Portuguese Pavement Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Green Portuguese Pavement Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Block of Elvorium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - §6Block of Mauftrium
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Block of Muspelheim Power
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Block of Niflheim Power
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Sonic Amplifier
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dragonstone Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Elementium Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Elven Quartz Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Gold Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iffesal Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Lapis Lazuli Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Elven Sand
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Lantern
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Solid of Helheim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Blaze Kindling
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Livingrock Cobblestone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Polished Livingrock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Compressed Livingrock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mossy Livingrock Cobblestone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Deepfrozen Stone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Deepfrozen Cobblestone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Nifleur Ore
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Deepfrozen Stone Bricks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Cracked Deepfrozen Stone Bricks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Chiseled Deepfrozen Stone Bricks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Polished Deepfrozen Stone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Deepfrozen Stone Pillar
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Runic Deepfrozen Stone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Dirt
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bifrost Petal Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Iridescent Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Realm Power Collector Fiery Core
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Realm Power Collector Icy Core
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Realm Power Collector Fiery Frame
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Realm Power Collector Icy Frame
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Block of Shimmerquartz
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Chiseled Shimmerquartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shimmerquartz Pillar
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Darkened Shimmering Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Shimmering Quartz Block
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shimmerquartz Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dry Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Golden Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Vivid Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Scorched Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Infused Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mutated Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Yggdrasil Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dry Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Golden Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Vivid Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Scorched Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Infused Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mutated Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Yggdrasil Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dry Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Golden Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Vivid Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Scorched Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Infused Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mutated Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Yggdrasil Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dreamwood Log
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Calico Planks Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Calico Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Circuitree Planks Slabs
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Thunderous Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Thunderous Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Thunderous Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Infernal Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Infernal Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Infernal Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Sealing Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Sealing Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Sealing Wood
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Quartz Certus
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pilier de Quartz Certus
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Quartz Certus ciselé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de Fluix
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre de ciel
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Bloc de pierre de ciel
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de pierre de ciel
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Briquettes de pierre de ciel
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de pierre de ciel
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de bloc de pierre de ciel
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de briques de pierre de ciel
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de petites briques de pierre de ciel
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Fluix
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Quartz Certus
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de Quartz Certus ciselé
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dalle de pilier de Quartz Certus
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de Sang
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de Capacité Augmentée
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de Dislocation
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune of the Orb
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de la Capacité Supérieure
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune d'Accélération
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de Vitesse
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune d’Efficacité
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune du Sacrifice
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Rune de l’Auto-Sacrifice
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre Rituelle
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pierre Rituelle Imparfaite
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Forge d’Armure d’Âme
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique de Roche-Sang
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Brique Large de Roche-Sang
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Fragments de Cristaux
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Briques de Fragments de Cristaux
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Glyph of the Adept Enchanter
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Glyph of Arcane Potential
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Glyph of Rigid Stability
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Double Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Crystal Matrix
@@ -6130,10 +4699,10 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Obsidienne runée (Cr
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Obsidienne runée (Slime)
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Obsidienne runée (Chauve-souris)
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Obsidienne runée (Feu-follet)
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Pillar Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Façade de câble - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Tainted Planks
@@ -6241,35 +4810,6 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Rebord en bouleau
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Rebord en acajou
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Rebord en acacia
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Rebord en chêne noir
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Larch Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Teak Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Acacia Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Lime Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Chestnut Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Wenge Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Baobab Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Sequoia Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Kapok Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Ebony Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mahogany Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Balsa Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Willow Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Walnut Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Greenheart Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Cherry Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mahoe Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Poplar Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Palm Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Papaya Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pine Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Plum Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Maple Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Citrus Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Giant Sequoia Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Ipe Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Padauk Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Cocobolo Trim
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Zebrawood Trim
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Warpwood Log
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Warpwood Planks
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Warped Leaves
@@ -6406,59 +4946,6 @@ appliedenergistics2:item.ItemFacade:0, Façade de câble - Snow Slab
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Blood-stained Wool
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Mirror Surface
 appliedenergistics2:item.ItemFacade:0, Façade de câble - Torment Stone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Mossy Yggdrasil Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Framed Yggdrasil Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Pattern Framed Yggdrasil Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Pillar
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Rock Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roof Tile
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roof Tile
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roof Tile
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roof Tile Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roof Tile Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Roof Tile Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Livingrock Mountain
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dark Livingrock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dark Livingrock Brick
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Chiseled Dark Livingrock
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dark Livingrock Tile
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dark Livingrock Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dark Livingrock Brick Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dark Livingrock Tile Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Livingrock Lantern
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Light
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Light
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Light
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Light
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Light
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Shrine Light
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Dwarf Planks
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Elven Sandstone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Chiseled Elven Sandstone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Elven Sandstone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Polished Elven Sandstone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Cracked Elven Sandstone
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Elven Sandstone Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Smooth Elven Sandstone Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Livingrock Cobblestone Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Polished Livingrock Slab
-appliedenergistics2:item.ItemFacade:0, Façade de câble - Compressed Livingrock Slab
 appliedenergistics2:item.ItemCrystalSeed:0, Graine de Quartz Certus
 appliedenergistics2:item.ItemCrystalSeed:600, Graine de Quartz du Nether
 appliedenergistics2:item.ItemCrystalSeed:1200, Graine de Fluix
@@ -6814,6 +5301,335 @@ AWWayofTime:bloodMagicIncenseItem:2, Livens
 AWWayofTime:bloodMagicIncenseItem:3, Viridis
 AWWayofTime:bloodMagicIncenseItem:4, Purpura
 AWWayofTime:ritualDismantler, Ritual Dismantler
+Botania:lexicon, item.lexicon.name
+Botania:petal:0, Pétale de fleur mystique blanche
+Botania:petal:1, Pétale de fleur mystique orange
+Botania:petal:2, Pétale de fleur mystique magenta
+Botania:petal:3, Pétale de fleur mystique bleue claire
+Botania:petal:4, Pétale de fleur mystique jaune
+Botania:petal:5, Pétale de fleur mystique citron
+Botania:petal:6, Pétale de fleur mystique rose
+Botania:petal:7, Pétale de fleur mystique grise
+Botania:petal:8, Pétale de fleur mystique grise claire
+Botania:petal:9, Pétale de fleur mystique cyan
+Botania:petal:10, Pétale de fleur mystique violette
+Botania:petal:11, Pétale de fleur mystique bleue
+Botania:petal:12, Pétale de fleur mystique marron
+Botania:petal:13, Pétale de fleur mystique verte
+Botania:petal:14, Pétale de fleur mystique rouge
+Botania:petal:15, Pétale de fleur mystique noire
+Botania:dye:0, Poudre florale bhanche
+Botania:dye:1, Poudre florale orange
+Botania:dye:2, Poudre florale magenta
+Botania:dye:3, Poudre florale bleue
+Botania:dye:4, Poudre florale jaune
+Botania:dye:5, Poudre florale citron
+Botania:dye:6, Poudre florale rose
+Botania:dye:7, Poudre florale grise
+Botania:dye:8, Poudre florale grise claire
+Botania:dye:9, Poudre florale cyan
+Botania:dye:10, Poudre florale violette
+Botania:dye:11, Poudre florale bleue
+Botania:dye:12, Poudre florale marron
+Botania:dye:13, Poudre florale verte
+Botania:dye:14, Poudre florale rouge
+Botania:dye:15, Poudre florale noire
+Botania:pestleAndMortar, item.pestleAndMortar.name
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:twigWand:0, Baguette de la forêt
+Botania:manaResource:0, Lingot de manacier
+Botania:manaResource:1, Perle de mana
+Botania:manaResource:2, Diamant de mana
+Botania:manaResource:3, Brindille de vifbois
+Botania:manaResource:4, Lingot de terracier
+Botania:manaResource:5, Esprit de Gaïa
+Botania:manaResource:6, Racine de Redstone
+Botania:manaResource:7, Lingot d'élémentium
+Botania:manaResource:8, Poudre de lutin
+Botania:manaResource:9, Dragonite
+Botania:manaResource:10, Éclat de prismarin
+Botania:manaResource:11, Mainteneur d'artisanat
+Botania:manaResource:12, Ficelle rouge
+Botania:manaResource:13, Brindille de boisrève
+Botania:manaResource:14, Lingot d'esprit de Gaïa
+Botania:manaResource:15, Bouteille d'air du néant
+Botania:manaResource:16, Ficelle infusée de mana
+Botania:manaResource:17, Pépite de manacier
+Botania:manaResource:18, Pépite de terracier
+Botania:manaResource:19, Pépite d'élémentium
+Botania:manaResource:22, Manaweave Cloth
+Botania:manaResource:23, Mana Powder
+Botania:lens:0, Lentilles de mana
+Botania:lens:1, Lentilles de mana: Vélocité
+Botania:lens:2, Lentilles de mana: Puissance
+Botania:lens:3, Lentilles de mana: Résistance
+Botania:lens:4, Lentilles de mana: Efficacité
+Botania:lens:5, Lentilles de mana: Rebond
+Botania:lens:6, Lentilles de mana: Gravité
+Botania:lens:7, Lentilles de mana: Ennui
+Botania:lens:8, Lentilles de mana: Endommagement
+Botania:lens:9, Lentilles de mana: Fantôme
+Botania:lens:10, Lentilles de mana: Magnétisation
+Botania:lens:11, Lentilles de mana: Entropique
+Botania:lens:12, Lentilles de mana: Influence
+Botania:lens:13, Lentilles de mana: Poids
+Botania:lens:14, Lentilles de mana: Frondeur
+Botania:lens:15, Lentilles de mana: Allumer
+Botania:lens:16, Lentilles de mana: Force
+Botania:lens:17, Lentilles de mana: Flash
+Botania:lens:18, Lentilles de mana: Déformation
+Botania:lens:19, Mana Lens: Redirective
+Botania:lens:20, Mana Lens: Celebratory
+Botania:lens:21, Mana Lens: Flare
+Botania:rune:0, Rune d'eau
+Botania:rune:1, Rune de feu
+Botania:rune:2, Rune de terre
+Botania:rune:3, Rune d'air
+Botania:rune:4, Rune du printemps
+Botania:rune:5, Rune de l'été
+Botania:rune:6, Rune de l'automne
+Botania:rune:7, Rune de l'hiver
+Botania:rune:8, Rune de mana
+Botania:rune:9, Rune de soif
+Botania:rune:10, Rune de gloutonnerie
+Botania:rune:11, Rune d'avidité
+Botania:rune:12, Rune de paresse
+Botania:rune:13, Rune de colère
+Botania:rune:14, Rune d'envie
+Botania:rune:15, Rune de fierté
+Botania:signalFlare, item.signalFlare.name
+Botania:manaTablet, item.manaTablet.name
+Botania:manaGun, item.manaGun.name
+Botania:manaCookie, item.manaCookie.name
+Botania:fertilizer, item.fertilizer.name
+Botania:grassSeeds:0, Graines de pâturage
+Botania:grassSeeds:1, Graines boréales
+Botania:grassSeeds:2, Spore d'infestation
+Botania:grassSeeds:3, Dry Pasture Seeds
+Botania:grassSeeds:4, Golden Pasture Seeds
+Botania:grassSeeds:5, Vivid Pasture Seeds
+Botania:grassSeeds:6, Scorched Pasture Seeds
+Botania:grassSeeds:7, Infused Pasture Seeds
+Botania:grassSeeds:8, Mutated Pasture Seeds
+Botania:dirtRod, item.dirtRod.name
+Botania:terraformRod, item.terraformRod.name
+Botania:grassHorn:0, Corne du sauvage
+Botania:grassHorn:1, Corne de la canopée
+Botania:grassHorn:2, Corne de la couverture
+Botania:manaMirror, item.manaMirror.name
+Botania:manasteelHelm, item.manasteelHelm.name
+Botania:manasteelHelmReveal, item.manasteelHelmReveal.name
+Botania:manasteelChest, item.manasteelChest.name
+Botania:manasteelLegs, item.manasteelLegs.name
+Botania:manasteelBoots, item.manasteelBoots.name
+Botania:manasteelPick, item.manasteelPick.name
+Botania:manasteelShovel, item.manasteelShovel.name
+Botania:manasteelAxe, item.manasteelAxe.name
+Botania:manasteelSword, item.manasteelSword.name
+Botania:manasteelShears, item.manasteelShears.name
+Botania:terrasteelHelm, item.terrasteelHelm.name
+Botania:terrasteelHelmReveal, item.terrasteelHelmReveal.name
+Botania:terrasteelChest, item.terrasteelChest.name
+Botania:terrasteelLegs, item.terrasteelLegs.name
+Botania:terrasteelBoots, item.terrasteelBoots.name
+Botania:terraSword, item.terraSword.name
+Botania:tinyPlanet, item.tinyPlanet.name
+Botania:manaRing, item.manaRing.name
+Botania:auraRing, item.auraRing.name
+Botania:manaRingGreater, item.manaRingGreater.name
+Botania:auraRingGreater, item.auraRingGreater.name
+Botania:travelBelt, item.travelBelt.name
+Botania:knockbackBelt, item.knockbackBelt.name
+Botania:icePendant, Collier de Glace
+Botania:lavaPendant, item.lavaPendant.name
+Botania:goldenLaurel, item.goldenLaurel.name
+Botania:magnetRing, item.magnetRing.name
+Botania:waterRing, item.waterRing.name
+Botania:miningRing, item.miningRing.name
+Botania:terraPick, item.terraPick.name
+Botania:divaCharm, item.divaCharm.name
+Botania:flightTiara:0, Flügel Tiara
+Botania:flightTiara:1, Flügel Tiara
+Botania:flightTiara:2, Flügel Tiara
+Botania:flightTiara:3, Flügel Tiara
+Botania:flightTiara:4, Flügel Tiara
+Botania:flightTiara:5, Flügel Tiara
+Botania:flightTiara:6, Flügel Tiara
+Botania:flightTiara:7, Flügel Tiara
+Botania:flightTiara:8, Flügel Tiara
+Botania:enderDagger, item.enderDagger.name
+Botania:quartz:0, Quartz fumé
+Botania:quartz:1, Quartz de mana
+Botania:quartz:2, Quartz flambé
+Botania:quartz:3, Quartz lavande
+Botania:quartz:4, Redquartz
+Botania:quartz:5, Quartz elfique
+Botania:quartz:6, Quartz ensoleillé
+Botania:waterRod, item.waterRod.name
+Botania:elementiumHelm, item.elementiumHelm.name
+Botania:elementiumHelmReveal, item.elementiumHelmReveal.name
+Botania:elementiumChest, item.elementiumChest.name
+Botania:elementiumLegs, item.elementiumLegs.name
+Botania:elementiumBoots, item.elementiumBoots.name
+Botania:elementiumPick, item.elementiumPick.name
+Botania:elementiumShovel, item.elementiumShovel.name
+Botania:elementiumAxe, item.elementiumAxe.name
+Botania:elementiumSword, item.elementiumSword.name
+Botania:elementiumShears, item.elementiumShears.name
+Botania:openBucket, item.openBucket.name
+Botania:spawnerMover, item.spawnerMover.name
+Botania:pixieRing, item.pixieRing.name
+Botania:superTravelBelt, item.superTravelBelt.name
+Botania:rainbowRod, item.rainbowRod.name
+Botania:tornadoRod, item.tornadoRod.name
+Botania:fireRod, item.fireRod.name
+Botania:vineBall, item.vineBall.name
+Botania:slingshot, item.slingshot.name
+Botania:manaBottle, item.manaBottle.name
+Botania:laputaShard:0, Éclat de Laputa
+Botania:laputaShard:4, Éclat de Laputa
+Botania:laputaShard:9, Éclat de Laputa
+Botania:laputaShard:14, Éclat de Laputa
+Botania:laputaShard:19, Éclat de Laputa
+Botania:virus:0, Virus nécrodermal
+Botania:virus:1, Virus nullodermal
+Botania:reachRing, item.reachRing.name
+Botania:skyDirtRod, item.skyDirtRod.name
+Botania:itemFinder, item.itemFinder.name
+Botania:superLavaPendant, item.superLavaPendant.name
+Botania:enderHand, item.enderHand.name
+Botania:glassPick, item.glassPick.name
+Botania:spark, item.spark.name
+Botania:sparkUpgrade:0, Augmentation d'étincelle : Dispersive
+Botania:sparkUpgrade:1, Augmentation d'étincelle : Dominante
+Botania:sparkUpgrade:2, Augmentation d'étincelle : Récessive
+Botania:sparkUpgrade:3, Augmentation d'étincelle : Isolée
+Botania:diviningRod, item.diviningRod.name
+Botania:gravityRod, item.gravityRod.name
+Botania:regenIvy, item.regenIvy.name
+Botania:manaInkwell, item.manaInkwell.name
+Botania:vial:0, Fiole en verre de mana
+Botania:vial:1, Flasque en verre elfique
+Botania:brewVial, item.brewVial.name
+Botania:brewFlask, item.brewFlask.name
+Botania:bloodPendant, item.bloodPendant.name
+Botania:missileRod, item.missileRod.name
+Botania:holyCloak, item.holyCloak.name
+Botania:unholyCloak, item.unholyCloak.name
+Botania:craftingHalo, item.craftingHalo.name
+Botania:blackLotus:0, Lotus noir
+Botania:blackLotus:1, Lotus plus noir
+Botania:monocle, item.monocle.name
+Botania:clip, item.clip.name
+Botania:cobbleRod, item.cobbleRod.name
+Botania:smeltRod, item.smeltRod.name
+Botania:worldSeed, item.worldSeed.name
+Botania:spellCloth, Spellbinding Cloth
+Botania:thornChakram:0, Thorn Chakram
+Botania:thornChakram:1, Flare Chakram
+Botania:overgrowthSeed, item.overgrowthSeed.name
+Botania:craftPattern:0, Modèle d'artisanat #1: 1x1
+Botania:craftPattern:1, Modèle d'artisanat #2: 2x2
+Botania:craftPattern:2, Modèle d'artisanat #3: 1x2
+Botania:craftPattern:3, Modèle d'artisanat #4: 2x1
+Botania:craftPattern:4, Modèle d'artisanat #5: 1x3
+Botania:craftPattern:5, Modèle d'artisanat #6: 3x1
+Botania:craftPattern:6, Modèle d'artisanat #7: 2x3
+Botania:craftPattern:7, Modèle d'artisanat #8: 3x2
+Botania:craftPattern:8, Modèle d'artisanat #9: Beignet
+Botania:ancientWill:0, Volonté d'Ahrim
+Botania:ancientWill:1, Volonté de Dharok
+Botania:ancientWill:2, Volonté de Guthan
+Botania:ancientWill:3, Volonté de Torag
+Botania:ancientWill:4, Volonté de Verac
+Botania:ancientWill:5, Volonté de Karil
+Botania:corporeaSpark:0, Étincelle de Corporea
+Botania:corporeaSpark:1, Étincelle maitresse de Corporea
+Botania:livingwoodBow, item.livingwoodBow.name
+Botania:crystalBow, item.crystalBow.name
+Botania:cosmetic:0, Noeud papillon noir
+Botania:cosmetic:1, Tenue de soirée
+Botania:cosmetic:2, Lunettes rouges
+Botania:cosmetic:3, Écharpe gonflée
+Botania:cosmetic:4, Lunettes d'ingénieur
+Botania:cosmetic:5, Cache
+Botania:cosmetic:6, Mauvais cache
+Botania:cosmetic:7, Ruban rouge
+Botania:cosmetic:8, Bouton à fleurs rose
+Botania:cosmetic:9, Noeud à pois
+Botania:cosmetic:10, Papillon bleu
+Botania:cosmetic:11, Oreille de chat
+Botania:cosmetic:12, Épingle de sorcière
+Botania:cosmetic:13, Queue de démon
+Botania:cosmetic:14, Oeil de Kamui
+Botania:cosmetic:15, Yeux écarquillés
+Botania:cosmetic:16, Trèfle à quatre feuilles
+Botania:cosmetic:17, Yeux pendule
+Botania:cosmetic:18, Corne de licorne
+Botania:cosmetic:19, Cornes de démon
+Botania:cosmetic:20, Hyper plus
+Botania:cosmetic:21, Emblème du botaniste
+Botania:cosmetic:22, Masque antique
+Botania:cosmetic:23, Masque à faire frémir
+Botania:cosmetic:24, Antenne d'alien
+Botania:cosmetic:25, Lunettes d'anaglyphe
+Botania:cosmetic:26, Nuances d'oranges
+Botania:cosmetic:27, Lunettes de Groucho
+Botania:cosmetic:28, Sourcils épais
+Botania:cosmetic:29, Protection lusitanique
+Botania:cosmetic:30, Masque de la minuscule pomme de terre
+Botania:cosmetic:31, Marque du donneur de quète
+Botania:swapRing, item.swapRing.name
+Botania:flowerBag, item.flowerBag.name
+Botania:phantomInk, item.phantomInk.name
+Botania:poolMinecart, item.poolMinecart.name
+Botania:pinkinator, item.pinkinator.name
+Botania:infiniteFruit, item.infiniteFruit.name
+Botania:kingKey, item.kingKey.name
+Botania:flugelEye, item.flugelEye.name
+Botania:thorRing, item.thorRing.name
+Botania:odinRing, item.odinRing.name
+Botania:lokiRing, item.lokiRing.name
+Botania:aesirRing, item.aesirRing.name
+Botania:dice, item.dice.name
+Botania:keepIvy, item.keepIvy.name
+Botania:blackHoleTalisman:0, Talisman du trou noir
+Botania:recordGaia1, item.recordGaia1.name
+Botania:recordGaia2, item.recordGaia2.name
+Botania:temperanceStone:0, Pierre de modération
+Botania:incenseStick, item.incenseStick.name
+Botania:terraAxe, item.terraAxe.name
+Botania:waterBowl, item.waterBowl.name
+Botania:obedienceStick, item.obedienceStick.name
+Botania:cacophonium, item.cacophonium.name
+Botania:slimeBottle:0, Slime in a Bottle
+Botania:starSword, item.starSword.name
+Botania:exchangeRod, item.exchangeRod.name
+Botania:magnetRingGreater, item.magnetRingGreater.name
+Botania:thunderSword, item.thunderSword.name
+Botania:manaweaveHelm, item.manaweaveHelm.name
+Botania:manaweaveLegs, item.manaweaveLegs.name
+Botania:manaweaveChest, item.manaweaveChest.name
+Botania:manaweaveBoots, item.manaweaveBoots.name
+Botania:autocraftingHalo, item.autocraftingHalo.name
+Botania:gaiaHead, item.gaiaHead.name
+Botania:sextant, item.sextant.name
+Botania:speedUpBelt, item.speedUpBelt.name
+Botania:baubleBox, item.baubleBox.name
 Avaritia:Resource:0, Diamond Lattice
 Avaritia:Resource:1, Crystal Matrix Ingot
 Avaritia:Resource:2, Pile of Neutrons
@@ -7673,7 +6489,6 @@ MagicCookie:ItemGrog:1, Jug
 MagicCookie:ItemGrog:2, Hardened Clay flask
 MagicCookie:ItemGrog:3, Soft clay flask
 MagicCookie:ItemGolemBell, Advanced Golem Bell
-MagicCookie:MagicCookie:0, Mana Cookie
 MagicCookie:MagicCookie:0, Mana Cookie
 MagicCookie:MagicCookie:0, Mana Cookie
 MagicCookie:MagicCookie:0, Mana Cookie
@@ -8692,8 +7507,6 @@ WitchingGadgets:item.WG_PrimordialHelm, Primordial Helm
 WitchingGadgets:item.WG_PrimordialChest, Primordial Cuirass
 WitchingGadgets:item.WG_PrimordialLegs, Primordial Greaves
 WitchingGadgets:item.WG_PrimordialBoots, Primordial Boots
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
 WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
