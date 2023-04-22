@@ -13,7 +13,6 @@ val blazeWandRod = <Thaumcraft:WandRod:6>;
 val enchantCloth = <Thaumcraft:ItemResource:7>;
 
 val thaumIngot = <Thaumcraft:ItemResource:2>;
-val thaumBlock = <Thaumcraft:blockCosmeticSolid:4>;
 val goldIngot = <minecraft:gold_ingot>;
 val emerald = <minecraft:emerald>;
 
@@ -22,7 +21,7 @@ val emerald = <minecraft:emerald>;
 mods.thaumcraft.Infusion.removeRecipe(thaumFortressHelm);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 /* Input                        */ thaumHelm,
-/* Ingredients                  */ [emerald, blazeWandRod, goldIngot, thaumIngot, thaumBlock, thaumIngot, goldIngot, blazeWandRod],
+/* Ingredients                  */ [emerald, blazeWandRod, goldIngot, thaumIngot, thaumIngot, thaumIngot, goldIngot, blazeWandRod],
 /* Essentia                     */ "metallum 48, tutamen 32, praecantatio 40, sensus 16",
 /* Output                       */ thaumFortressHelm,
 /* Instability                  */ 4);
@@ -31,7 +30,7 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 mods.thaumcraft.Infusion.removeRecipe(thaumFortressChest);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 /* Input                        */ thaumChest,
-/* Ingredients                  */ [thaumBlock, thaumIngot, enchantCloth, goldIngot, thaumostaticBelt, goldIngot, enchantCloth, thaumIngot],
+/* Ingredients                  */ [thaumIngot, thaumIngot, enchantCloth, goldIngot, thaumostaticBelt, goldIngot, enchantCloth, thaumIngot],
 /* Essentia                     */ "metallum 48, tutamen 48, praecantatio 40, sensus 24",
 /* Output                       */ thaumFortressChest,
 /* Instability                  */ 4);
@@ -40,7 +39,7 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 mods.thaumcraft.Infusion.removeRecipe(thaumFortressLegs);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 /* Input                        */ thaumLegs,
-/* Ingredients                  */ [thaumBlock, thaumIngot, enchantCloth, goldIngot, goldIngot, enchantCloth, thaumIngot],
+/* Ingredients                  */ [thaumIngot, thaumIngot, enchantCloth, goldIngot, goldIngot, enchantCloth, thaumIngot],
 /* Essentia                     */ "metallum 48, tutamen 40, praecantatio 40, sensus 20",
 /* Output                       */ thaumFortressLegs,
 /* Instability                  */ 4);
