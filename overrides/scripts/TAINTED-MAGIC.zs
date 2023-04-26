@@ -4,27 +4,21 @@ import minetweaker.item.IItemStack;
 
 val enderEye = <minecraft:ender_eye>;
 val emerald = <minecraft:emerald>;
-val emrldBlock = <minecraft:emerald_block>;
-val witherSkull = <minecraft:skull:1>;
-val netherStar = <minecraft:nether_star>;
+val goldBlock = <minecraft:gold_block>;
 
-val cultistBook = <Thaumcraft:ItemEldritchObject:1>;
-val deathBucket = <Thaumcraft:ItemBucketDeath>;
-val pureBucket = <Thaumcraft:ItemBucketPure>;
-val qkSlvrBlock = <thaumicbases:quicksilverBlock>;
 val thaumIngot = <Thaumcraft:ItemResource:2>;
-val thaumBlock = <Thaumcraft:blockCosmeticSolid:4>;
+val voidMetalIngot = <Thaumcraft:ItemResource:16>;
 val voidMetalBlock = <thaumicbases:voidBlock>;
 val shadowMetal = <TaintedMagic:ItemMaterial:0>;
 val shadowMetalNugget = <TaintedMagic:ItemMaterial:8>;
 
 val quickSilver = <Thaumcraft:ItemResource:3>;
+val quickSilverBlock = <thaumicbases:quicksilverBlock>;
 val primeCharm = <Thaumcraft:ItemResource:15>;
 val magicMirror = <Thaumcraft:blockMirror:0>;
 val focusPortableHole = <Thaumcraft:FocusPortableHole>;
 val eldritchEye = <Thaumcraft:ItemEldritchObject:0>;
 val obsidianStaff = <Thaumcraft:WandRod:51>;
-val warpwoodStaff = <TaintedMagic:ItemWandRod:1>;
 val thaumSword = <Thaumcraft:ItemSwordThaumium>;
 
 val shadowMetalSword = <TaintedMagic:ItemShadowmetalSword>;
@@ -49,10 +43,10 @@ var shadowToolsArray = [shadowMetalSword, shadowMetalPick, shadowMetalAxe, shado
 mods.thaumcraft.Infusion.removeRecipe(thaumFtrBlade);
 mods.thaumcraft.Infusion.addRecipe("THAUMIUMKATANA",
 /* Input                        */ thaumSword,
-/* Ingredients                  */ [cultistBook, deathBucket, primeCharm, emerald, qkSlvrBlock, thaumBlock, obsidianStaff, thaumBlock, primeCharm, emerald, qkSlvrBlock, pureBucket],
-/* Essentia                     */ "metallum 105, praecantatio 55, telum 110, superbia 20, ira 30",
+/* Ingredients                  */ [primeCharm, thaumIngot, goldBlock, emerald, quickSilverBlock, thaumIngot, obsidianStaff, thaumIngot, goldBlock, emerald, quickSilverBlock, thaumIngot],
+/* Essentia                     */ "metallum 84, praecantatio 44, telum 90",
 /* Output                       */ thaumFtrBlade,
-/* Instability                  */ 24);
+/* Instability                  */ 16);
 mods.thaumcraft.Research.refreshResearchRecipe("THAUMIUMKATANA");
 
 // Void Metal Fortress Blade
@@ -60,10 +54,10 @@ mods.thaumcraft.Research.refreshResearchRecipe("THAUMIUMKATANA");
 mods.thaumcraft.Infusion.removeRecipe(voidMetalFtrBlade);
 mods.thaumcraft.Infusion.addRecipe("VOIDMETALKATANA",
 /* Input                        */ thaumFtrBlade,
-/* Ingredients                  */ [netherStar, voidMetalBlock, primeCharm, emrldBlock, qkSlvrBlock, voidMetalBlock, netherStar, voidMetalBlock, primeCharm, emrldBlock, qkSlvrBlock, voidMetalBlock],
-/* Essentia                     */ "alienis 60, metallum 130, praecantatio 80, telum 135, vacuos 115, superbia 30, ira 45, terminus 2",
+/* Ingredients                  */ [primeCharm, voidMetalIngot, goldBlock, emerald, quickSilverBlock, voidMetalIngot, obsidianStaff, voidMetalIngot, goldBlock, emerald, quickSilverBlock, voidMetalIngot],
+/* Essentia                     */ "alienis 24, metallum 104, praecantatio 64, telum 110, vacuos 92",
 /* Output                       */ voidMetalFtrBlade,
-/* Instability                  */ 32);
+/* Instability                  */ 20);
 mods.thaumcraft.Research.refreshResearchRecipe("VOIDMETALKATANA");
 
 // Shadow Metal Fortress Blade
@@ -71,10 +65,10 @@ mods.thaumcraft.Research.refreshResearchRecipe("VOIDMETALKATANA");
 mods.thaumcraft.Infusion.removeRecipe(shadowMetalFtrBlade);
 mods.thaumcraft.Infusion.addRecipe("SHADOWMETALKATANA",
 /* Input                        */ voidMetalFtrBlade,
-/* Ingredients                  */ [netherStar, shadowMetal, primeCharm, emrldBlock, qkSlvrBlock, shadowMetal, warpwoodStaff, shadowMetal, primeCharm, emrldBlock, qkSlvrBlock, shadowMetal],
-/* Essentia                     */ "metallum 155, praecantatio 105, telum 160, tenebrae 115, vacuos 40, superbia 40, ira 60, terminus 2",
+/* Ingredients                  */ [primeCharm, shadowMetal, goldBlock, emerald, quickSilverBlock, shadowMetal, obsidianStaff, shadowMetal, goldBlock, emerald, quickSilverBlock, shadowMetal],
+/* Essentia                     */ "metallum 124, praecantatio 84, telum 110, tenebrae 92, vacuos 32",
 /* Output                       */ shadowMetalFtrBlade,
-/* Instability                  */ 40);
+/* Instability                  */ 24);
 mods.thaumcraft.Research.refreshResearchRecipe("SHADOWMETALKATANA");
 
 # Googles
