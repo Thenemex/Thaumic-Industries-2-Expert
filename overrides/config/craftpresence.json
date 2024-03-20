@@ -376,7 +376,8 @@
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
       "Thenemex": "https://crafatar.com/avatars/63a3d0d54d6640638f1082e43111199e",
-      "thaumicindustries2.mcserver.us": "https://api.mcsrvstat.us/icon/thaumicindustries2.mcserver.us"
+      "thaumicindustries2.mcserver.us": "https://api.mcsrvstat.us/icon/thaumicindustries2.mcserver.us",
+      "localhost": "https://api.mcsrvstat.us/icon/localhost"
     },
     "dynamicVariables": {
       "default": "Example Text",
