@@ -6,9 +6,10 @@ More information about downloads and everything here on the CurseForge page : ht
 
 Reporting bugs & problems here on GitHub : https://github.com/Thenemex/Thaumic-Industries-2/issues
 
-### Modlist
+### Mod-list
 https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2/relations/dependenciesx
 
-Special thanks to NexWiz for co-authoring the project to this day
-Also big thanks to my players and testers :
- - 5parte, AQUOI-LORDE, BaIzD1ThOn, naekooo, naixoo, Pokebulbbi, raiko, Vertf
+### Helpers & Authors
+Project leaded by Thenemex & NexWiz
+Big thanks to my players and testers :
+ - 5parte, AQUOI-LORDE, BaIzD1ThOn, CloudyOrangeFox, Pokebulbbi, Vertf
