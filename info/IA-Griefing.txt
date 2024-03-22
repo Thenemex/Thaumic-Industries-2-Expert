@@ -6,11 +6,9 @@ Vanilla:
 58      Crafting Table
 60      Farmland
 65      Ladder
-95      Stained Glass
 96      Trapdoor
 102     Glass Pane
 107     Fence Gate
-160     Stained Glass Pane
 324     Wooden Door
 355     Bed
 
