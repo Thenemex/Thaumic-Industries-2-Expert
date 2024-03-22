@@ -11,5 +11,6 @@ https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2/relations/dep
 
 ### Helpers & Authors
 Project leaded by Thenemex & NexWiz
+
 Big thanks to my players and testers :
  - 5parte, AQUOI-LORDE, BaIzD1ThOn, CloudyOrangeFox, Pokebulbbi, Vertf

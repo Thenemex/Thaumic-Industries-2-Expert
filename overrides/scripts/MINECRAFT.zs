@@ -2,8 +2,6 @@
 
 import minetweaker.item.IItemStack;
 
-val charcoal = <minecraft:coal:1>;
-
 // Array of all the 6 vanilla woods (oak, spruce, birch, jungle, acacia, darkOak)
 var woodArray = [<minecraft:log:0>,
                  <minecraft:log:1>,
@@ -52,7 +50,7 @@ oreDict_logWood.add(<minecraft:log:2>);
 # Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
 for i, el_wood in woodArray {
     furnace.remove(<*>, el_wood);
-    furnace.addRecipe(charcoal, el_wood); }
+    furnace.addRecipe(<minecraft:coal:1>, el_wood); }
     
 # Setting vanilla Tools & Armor durability to very low - Have to use magical tools (Thaumium, etc...)
 for i, el_tool in vanillaToolsArray {
