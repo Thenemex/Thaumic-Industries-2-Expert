@@ -5,6 +5,14 @@ import minetweaker.item.IItemStack;
 // Array of the 5 Thaumium tools + 4 Armor pieces
 var thaumToolsArray = [<Thaumcraft:ItemSwordThaumium>, <Thaumcraft:ItemPickThaumium>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemShovelThaumium>, <Thaumcraft:ItemHoeThaumium>, <Thaumcraft:ItemHelmetThaumium>, <Thaumcraft:ItemChestplateThaumium>, <Thaumcraft:ItemLeggingsThaumium>, <Thaumcraft:ItemBootsThaumium>] as IItemStack[];
 
+# Resources
+// Thaumium (1 Iron = 1 Thaumium)
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
+mods.thaumcraft.Crucible.addRecipe("THAUMIUM",
+/* OutputStack                  */ <Thaumcraft:ItemResource:2>,
+/* InputStack                   */ <minecraft:iron_ingot>, 
+/* AspectString                 */ "praecantatio 5");
+
 # Armor
 // Thaumium Helmet (5 Thaumium)
 recipes.remove(<Thaumcraft:ItemHelmetThaumium>);
@@ -41,14 +49,6 @@ mods.thaumcraft.Arcane.addShaped("THAUMIUM",
 /* InputArray                 */ [[null, null, null], 
                                   [<Thaumcraft:ItemResource:2>, null, <Thaumcraft:ItemResource:2>],
                                   [<Thaumcraft:ItemResource:2>, null, <Thaumcraft:ItemResource:2>]] );
-
-# Resources
-// Thaumium (1 Iron + 5 Praecantatio = 1 Thaumium)
-mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
-mods.thaumcraft.Crucible.addRecipe("THAUMIUM",
-/* OutputStack                  */ <Thaumcraft:ItemResource:2>,
-/* InputStack                   */ <minecraft:iron_ingot>, 
-/* AspectString                 */ "praecantatio 5");
 
 # Tools
 // Thaumium Sword (1 GreatWoodRod + 2,2 Thaumium)
