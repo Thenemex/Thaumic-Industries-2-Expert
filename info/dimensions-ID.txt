@@ -4,15 +4,6 @@ Vanilla :
 0   Overworld
 1   End
 
-Aether II :
--------------------------------
-    I:"Aether Dimension ID"=3
-    I:"Dungeon Dimension ID"=4
-
-EssentialCraft :
--------------------------------
-    I:"Hoanna ID"=63
-
 Gadomancy :
 -------------------------------
     I:dimOuterId=-73
@@ -37,8 +28,3 @@ Twilight Forest :
 -------------------------------
     I:dimensionID=-50
     I:dimensionProviderID=-777
-
-Witchery :
--------------------------------
-    I:MirrorDimensionID=-39
-    I:TormentDimensionID=-38

@@ -62,24 +62,6 @@ Vanilla:
 166 Mesa Plateau F M
 167 Mesa Plateau M
 
-Aether II :
--------------------------------
-    I:"Aether Biome ID"=40
-    I:"Dungeon Biome ID"=41
-
-Applied Energistics 2 :
--------------------------------
-    I:storageBiomeID=42
-
-EssentialCraft :
--------------------------------
-    I:ChaosCorruptionID=91
-    I:DesertID=95
-    I:DreadLandsID=96
-    I:FrozenCorruptionID=92
-    I:MagicCorruptionID=94
-    I:ShadowCorruptionID=93
-
 Thaumcraft
 -------------------------------
     I:biome_eerie=44

@@ -15,7 +15,15 @@ Vanilla:
 
 Thaumcraft:
 -------------------------------
+178:4   Ethereal Bloom
+183:*   Crystal Cluster(s)
+186:0   Arcane Bellows
+186:4   Arcane Bore Base
+186:5   Arcane Bore
 189:*   Table(s)
+190     Hungry Chest
+192     Arcane Levitator
+195:*   Warded Jar(s)
 
 Botania:
 -------------------------------
@@ -23,6 +31,14 @@ Botania:
 656     Special Flowers
 657:0   Mana Spreader
 657:1   Pulse Mana Spreader
+
+Traveller's Gear
+-------------------------------
+1201    Armor Stand
+
+Witching Gadgets:
+-------------------------------
+1266:0  Spinning Wheel
 
 Storage Drawers:
 -------------------------------
