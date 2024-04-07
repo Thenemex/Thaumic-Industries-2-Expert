@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Thaumic Industries 2 - Expert",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "author": "",
   "files": [
     {
@@ -75,6 +75,11 @@
       "required": true
     },
     {
+      "projectID": 227914,
+      "fileID": 5198022,
+      "required": true
+    },
+    {
       "projectID": 231837,
       "fileID": 2247162,
       "required": true
@@ -102,6 +107,11 @@
     {
       "projectID": 285789,
       "fileID": 2531565,
+      "required": true
+    },
+    {
+      "projectID": 227639,
+      "fileID": 4629338,
       "required": true
     },
     {
@@ -145,6 +155,11 @@
       "required": true
     },
     {
+      "projectID": 70496,
+      "fileID": 2269259,
+      "required": true
+    },
+    {
       "projectID": 73488,
       "fileID": 2230518,
       "required": true
@@ -185,11 +200,6 @@
       "required": true
     },
     {
-      "projectID": 227914,
-      "fileID": 2265882,
-      "required": true
-    },
-    {
       "projectID": 278494,
       "fileID": 4473363,
       "required": true
@@ -200,8 +210,8 @@
       "required": true
     },
     {
-      "projectID": 227639,
-      "fileID": 3039937,
+      "projectID": 665627,
+      "fileID": 4480799,
       "required": true
     },
     {
@@ -245,18 +255,13 @@
       "required": true
     },
     {
-      "projectID": 445557,
-      "fileID": 4375843,
-      "required": true
-    },
-    {
       "projectID": 231951,
       "fileID": 2299019,
       "required": true
     },
     {
       "projectID": 297038,
-      "fileID": 4483532,
+      "fileID": 5236338,
       "required": true
     },
     {
@@ -322,6 +327,11 @@
     {
       "projectID": 223722,
       "fileID": 2299730,
+      "required": true
+    },
+    {
+      "projectID": 445557,
+      "fileID": 4375843,
       "required": true
     },
     {
@@ -525,18 +535,8 @@
       "required": true
     },
     {
-      "projectID": 665627,
-      "fileID": 4480799,
-      "required": true
-    },
-    {
       "projectID": 238061,
       "fileID": 2273402,
-      "required": true
-    },
-    {
-      "projectID": 70496,
-      "fileID": 2269259,
       "required": true
     },
     {
@@ -557,11 +557,6 @@
     {
       "projectID": 228832,
       "fileID": 2241379,
-      "required": true
-    },
-    {
-      "projectID": 69118,
-      "fileID": 2280761,
       "required": true
     },
     {
