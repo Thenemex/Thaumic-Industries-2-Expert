@@ -63,3 +63,13 @@ for i, el_armor in armorArray {
     el_armor.maxDamage = 10;
     el_armor.addTooltip(format.red("FOR CRAFTING ONLY"));
     el_armor.addTooltip(format.green("Find a magical way instead !")); }
+    
+# Reducing the output amount of crafted Smooth Sandstone
+recipes.remove(<minecraft:sandstone:2>);
+recipes.addShapedMirrored(<minecraft:sandstone:2>,
+                          [[<ore:sandstone>, <ore:sandstone>],
+                           [<ore:sandstone>, <ore:sandstone>]]);
+    
+# Aspects
+// Removing the Praecantatio in the Sculpted Sandstone
+mods.thaumcraft.Aspects.set(<minecraft:sandstone:1>, "perditio 3, terra 3");
