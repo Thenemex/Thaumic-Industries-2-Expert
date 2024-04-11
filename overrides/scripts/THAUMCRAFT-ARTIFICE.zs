@@ -53,7 +53,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("ARMORFORTRESS");
 // Adding the Enchanted Fabric as prereq for the Thaumium Fortress Armor
 mods.thaumcraft.Research.addPrereq("ARMORFORTRESS", "ENCHFABRIC", true);
 // Adding the Deconstruction Table, Void Jar, Elemental Pickaxe & Elemental Shovel as prereqs for the Arcane Bore
-mods.thaumcraft.Research.addPrereq("DECONSTRUCTOR", "ARCANEBORE", true);
-mods.thaumcraft.Research.addPrereq("DECONSTRUCTOR", "ELEMENTALPICK", true);
-mods.thaumcraft.Research.addPrereq("DECONSTRUCTOR", "ELEMENTALSHOVEL", true);
-mods.thaumcraft.Research.addPrereq("DECONSTRUCTOR", "JARVOID", true);
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "DECONSTRUCTOR", true);
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALPICK", true);
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALSHOVEL", true);
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "JARVOID", true);
