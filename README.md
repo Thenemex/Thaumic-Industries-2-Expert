@@ -7,7 +7,7 @@ More information about downloads and everything here on the CurseForge page : ht
 Reporting bugs & problems here on GitHub : https://github.com/Thenemex/Thaumic-Industries-2-Expert/issues
 
 ### Mod-list
-https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relations/dependenciesx
+https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relations/dependencies
 
 ### Helpers & Authors
 Project leaded by Thenemex & NexWiz
