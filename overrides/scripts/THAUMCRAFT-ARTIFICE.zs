@@ -49,6 +49,10 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 /* Instability                  */ 4);
 mods.thaumcraft.Research.refreshResearchRecipe("ARMORFORTRESS");
 
+# Aspects
+// Removing Alienis from Banners
+mods.thaumcraft.Aspects.set(<Thaumcraft:blockWoodenDevice:8>, "arbor 3, pannus 10, fabrico 2");
+
 # Research Prereqs
 // Adding the Enchanted Fabric as prereq for the Thaumium Fortress Armor
 mods.thaumcraft.Research.addPrereq("ARMORFORTRESS", "ENCHFABRIC", true);
