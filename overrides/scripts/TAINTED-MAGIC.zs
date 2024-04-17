@@ -68,49 +68,49 @@ mods.thaumcraft.Crucible.addRecipe("SHADOWMETAL",
 /* Essentia                     */ "alienis 2, metallum 8, perditio 3, tenebrae 12, vacuos 5");
 
 # Tools
-// Shadowmetal Sword (3.2 Shadowmetal + 1 Obsidian Staff + Wand Focus : Portable Hole)
+// Shadowmetal Sword (3.2 Shadowmetal + 1 Obsidian Staff + 1 Primal Charm)
 recipes.remove(<TaintedMagic:ItemShadowmetalSword>);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
 /* Output                     */ <TaintedMagic:ItemShadowmetalSword>,
 /* Aspects                    */ "ordo 90, perditio 140",
 /* InputArray                 */ [[null, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:0>], 
-                                  [<TaintedMagic:ItemMaterial:0>, <Thaumcraft:FocusPortableHole>, <TaintedMagic:ItemMaterial:8>],
+                                  [<TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:15>, <TaintedMagic:ItemMaterial:8>],
                                   [<Thaumcraft:WandRod:51>, <TaintedMagic:ItemMaterial:0>, null]] );
 
-// Shadowmetal Pickaxe (3.2 Shadowmetal + 1 Obsidian Staff + Wand Focus : Portable Hole)
+// Shadowmetal Pickaxe (3.2 Shadowmetal + 1 Obsidian Staff + 1 Primal Charm)
 recipes.remove(<TaintedMagic:ItemShadowmetalPick>);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
 /* Output                     */ <TaintedMagic:ItemShadowmetalPick>,
 /* Aspects                    */ "ordo 80, perditio 120",
 /* InputArray                 */ [[<TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:0>, <TaintedMagic:ItemMaterial:0>], 
-                                  [null, <Thaumcraft:FocusPortableHole>, <TaintedMagic:ItemMaterial:0>],
+                                  [null, <Thaumcraft:ItemResource:15>, <TaintedMagic:ItemMaterial:0>],
                                   [<Thaumcraft:WandRod:51>, null, <TaintedMagic:ItemMaterial:8>]] );
 
-// Shadowmetal Axe (3.1 Shadowmetal + 1 Obsidian Staff + Wand Focus : Portable Hole)
+// Shadowmetal Axe (3.1 Shadowmetal + 1 Obsidian Staff + 1 Primal Charm)
 recipes.remove(<TaintedMagic:ItemShadowmetalAxe>);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
 /* Output                     */ <TaintedMagic:ItemShadowmetalAxe>,
 /* Aspects                    */ "ordo 85, perditio 130",
 /* InputArray                 */ [[<TaintedMagic:ItemMaterial:0>, <TaintedMagic:ItemMaterial:0>, <TaintedMagic:ItemMaterial:8>], 
-                                  [<TaintedMagic:ItemMaterial:0>, <Thaumcraft:FocusPortableHole>, null],
+                                  [<TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:15>, null],
                                   [null, <Thaumcraft:WandRod:51>, null]] );
 
-// Shadowmetal Shover (1.2 Shadowmetal + 1 Obsidian Staff + Wand Focus : Portable Hole)
+// Shadowmetal Shover (1.2 Shadowmetal + 1 Obsidian Staff + 1 Primal Charm)
 recipes.remove(<TaintedMagic:ItemShadowmetalSpade>);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
 /* Output                     */ <TaintedMagic:ItemShadowmetalSpade>,
 /* Aspects                    */ "ordo 75, perditio 110",
 /* InputArray                 */ [[null, <TaintedMagic:ItemMaterial:8>, <TaintedMagic:ItemMaterial:0>], 
-                                  [null, <Thaumcraft:FocusPortableHole>, <TaintedMagic:ItemMaterial:8>],
+                                  [null, <Thaumcraft:ItemResource:15>, <TaintedMagic:ItemMaterial:8>],
                                   [<Thaumcraft:WandRod:51>, null, null]] );
 
-// Shadowmetal Hoe (1.1 Shadowmetal + 1 Obsidian Staff + Wand Focus : Portable Hole)
+// Shadowmetal Hoe (1.1 Shadowmetal + 1 Obsidian Staff + 1 Primal Charm)
 recipes.remove(<TaintedMagic:ItemShadowmetalHoe>);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
 /* Output                     */ <TaintedMagic:ItemShadowmetalHoe>,
 /* Aspects                    */ "ordo 70, perditio 100",
 /* InputArray                 */ [[<TaintedMagic:ItemMaterial:0>, <TaintedMagic:ItemMaterial:8>, null], 
-                                  [null, <Thaumcraft:FocusPortableHole>, null],
+                                  [null, <Thaumcraft:ItemResource:15>, null],
                                   [<Thaumcraft:WandRod:51>, null, null]] );
 
 # Research
