@@ -52,6 +52,19 @@ for i, el_wood in woodArray {
     furnace.remove(<*>, el_wood);
     furnace.addRecipe(<minecraft:coal:1>, el_wood); }
     
+# Reducing the output amount of crafted Smooth Sandstone
+recipes.remove(<minecraft:sandstone:2>);
+recipes.addShapedMirrored(<minecraft:sandstone:2>,
+                          [[<ore:sandstone>, <ore:sandstone>],
+                           [<ore:sandstone>, <ore:sandstone>]]);
+
+# Gold Ingots can only be crafted with gold nuggets and not coins
+recipes.remove(<minecraft:gold_ingot>);
+recipes.addShaped(<minecraft:gold_ingot>,
+                  [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
+                   [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
+                   [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
+    
 # Setting vanilla Tools & Armor durability to very low - Have to use magical tools (Thaumium, etc...)
 <minecraft:iron_pickaxe>.maxDamage = 15;
 <minecraft:iron_pickaxe>.addTooltip(format.gold("You can only break a few blocks with this"));
@@ -63,12 +76,6 @@ for i, el_armor in armorArray {
     el_armor.maxDamage = 10;
     el_armor.addTooltip(format.red("FOR CRAFTING ONLY"));
     el_armor.addTooltip(format.green("Find a magical way instead !")); }
-    
-# Reducing the output amount of crafted Smooth Sandstone
-recipes.remove(<minecraft:sandstone:2>);
-recipes.addShapedMirrored(<minecraft:sandstone:2>,
-                          [[<ore:sandstone>, <ore:sandstone>],
-                           [<ore:sandstone>, <ore:sandstone>]]);
     
 # Aspects
 // Removing the Praecantatio in the Sculpted Sandstone
