@@ -125,6 +125,5 @@ for i, el_shadowTool in shadowToolsArray {
     mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", el_shadowTool); }
     
 # Research Prereqs
-// Adding the Obsidian Staff and Portable Hole Focus as prereqs for the Shadow Metal
+// Adding the Obsidian Staff as prereqs for the Shadow Metal
 mods.thaumcraft.Research.addPrereq("SHADOWMETAL", "ROD_obsidian_staff", true);
-mods.thaumcraft.Research.addPrereq("SHADOWMETAL", "FOCUSPORTABLEHOLE", true);
