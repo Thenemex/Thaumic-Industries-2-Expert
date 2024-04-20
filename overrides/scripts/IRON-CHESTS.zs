@@ -47,6 +47,36 @@ mods.thaumcraft.Arcane.addShaped("WOODTOIRON",
                                   [<minecraft:iron_ingot>, <minecraft:chest>, <minecraft:iron_ingot>],
                                   [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>]] );
 mods.thaumcraft.Research.addArcanePage("WOODTOIRON", <IronChest:BlockIronChest:0>);
+// Setting aspects
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:0>, "arbor 4, metallum 20, ordo 3, vacuos 8");
 // Adding the Thaumium as prereqs for the Iron Chest
 mods.thaumcraft.Research.addPrereq("WOODTOIRON", "THAUMIUM", true);
 
+# Adding a craft & research for the Gold Chest
+// Adding the research (English + French)
+mods.thaumcraft.Research.addResearch("IRONTOGOLD",
+/* TabKey                         */ "IRONCHEST",
+/* AspectList                     */ "fabrico 4, lucrum 5, metallum 6, ordo 3, vacuos 10",
+/* X                              */ 3,
+/* Y                              */ -1,
+/* Complexity                     */ 2,
+/* ItemStack                      */ <IronChest:BlockIronChest:1>);
+game.setLocalization("tc.research_name.IRONTOGOLD", "Gold Chest");
+game.setLocalization("fr_FR", "tc.research_name.IRONTOGOLD", "Coffre en Or");
+game.setLocalization("tc.research_text.IRONTOGOLD", "Oh baby a triple!");
+mods.thaumcraft.Research.addPage("IRONTOGOLD", "tnmx.ic.irontogold_1");
+game.setLocalization("tnmx.ic.irontogold_1", "By taking your iron chest and trying to use a more easy-to-work metal than iron - the precious gold, you reached an even more interesting result. This chest thanks to the properties of gold and magic, is three times more bigger than a mundane chest.");
+game.setLocalization("fr_FR", "tnmx.ic.irontogold_1", "En expérimentant avec votre coffre en fer et un métal davantage malléable - l'or, vous avez atteint un nouveau stade encore plus intéressant. Ce coffre grâce aux propriétés spéciales de l'or, est trois fois plus grand qu'un coffre standard.");
+// Gold Chest (1 Chest + 1 Thaumium + 6 Gold + 1 Iron Gold)
+mods.thaumcraft.Arcane.addShaped("IRONTOGOLD",
+/* Output                     */ <IronChest:BlockIronChest:1>,
+/* Aspects                    */ "aer 12, terra 24, ordo 40",
+/* InputArray                 */ [[<minecraft:gold_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>], 
+                                  [<minecraft:gold_ingot>, <IronChest:BlockIronChest:0>, <minecraft:gold_ingot>],
+                                  [<minecraft:gold_ingot>, <minecraft:gold_block>, <minecraft:gold_ingot>]] );
+mods.thaumcraft.Research.addArcanePage("IRONTOGOLD", <IronChest:BlockIronChest:1>);
+// Setting aspects
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:1>, "lucrum 5, metallum 18, ordo 4, vacuos 10");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOIRON", false);
+mods.thaumcraft.Research.setConcealed("IRONTOGOLD", true);
