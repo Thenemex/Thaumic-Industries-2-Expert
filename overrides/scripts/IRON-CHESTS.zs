@@ -49,8 +49,38 @@ mods.thaumcraft.Arcane.addShaped("WOODTOIRON",
 mods.thaumcraft.Research.addArcanePage("WOODTOIRON", <IronChest:BlockIronChest:0>);
 // Setting aspects
 mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:0>, "arbor 4, metallum 20, ordo 3, vacuos 8");
-// Adding the Thaumium as prereqs for the Iron Chest
+// Prereqs (Thaumium)
 mods.thaumcraft.Research.addPrereq("WOODTOIRON", "THAUMIUM", true);
+
+# Adding a craft & research for the Copper Chest
+// Adding the research (English + French)
+mods.thaumcraft.Research.addResearch("WOODTOCOPPER",
+/* TabKey                         */ "IRONCHEST",
+/* AspectList                     */ "fabrico 3, metallum 15, ordo 3, permutatio 6, vacuos 6",
+/* X                              */ 0,
+/* Y                              */ -2,
+/* Complexity                     */ 0,
+/* ItemStack                      */ <IronChest:BlockIronChest:3>);
+game.setLocalization("tc.research_name.WOODTOCOPPER", "Copper Chest");
+game.setLocalization("fr_FR", "tc.research_name.WOODTOCOPPER", "Coffre en Cuivre");
+game.setLocalization("tc.research_text.WOODTOCOPPER", "At least we're trying ...");
+game.setLocalization("fr_FR", "tc.research_text.WOODTOCOPPER", "Ce n'est pas une réussite ...");
+mods.thaumcraft.Research.addPage("WOODTOCOPPER", "tnmx.ic.woodtocopper_1");
+game.setLocalization("tnmx.ic.woodtocopper_1", "Once upon a time, your cat pushed a magic chest and all the empty jars around into a boiling crucible while his fellow master was trying to transmute some quicksilver into copper... Then the chest started to eat some of the essentia in there. What came out was a chest with a bit less than double the space of the hungry chest. <BR>You immediately took some notes about this experience, hoping that this unexpected discovery could lead you to more.");
+game.setLocalization("fr_FR", "tnmx.ic.woodtocopper_1", "Un beau jour, votre chat durant un excès de folie fut tomber un coffre magique et toutes les fioles vides environnantes dans un creuset mijotant, pendant que son maître essayait de transmuter du vif-argent en cuivre... Le coffre commença ainsi à avaler une partie de l'essentia ; ce qui sortit ensuite du creuset fut un coffre avec un peu moins du double de stockage d'un coffre classique. <BR> Vous avez immédiatement pris des notes sur cett expérience, en espérant que cette recette suprise vous dévoile de nouvelles possibilités.");
+// Copper Chest (1 Hungry Chest + 25 Metallum)
+mods.thaumcraft.Crucible.addRecipe("WOODTOCOPPER",
+/* Output                       */ <IronChest:BlockIronChest:3>,
+/* Input                        */ <Thaumcraft:blockChestHungry>,
+/* Aspects                      */ "metallum 25, permutatio 10,praecantatio 6, ordo 5, vacuos 8" );
+mods.thaumcraft.Research.addCruciblePage("WOODTOCOPPER", <IronChest:BlockIronChest:3>);
+// Setting aspects
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:3>, "metallum 15, ordo 2, permutatio 5, vacuos 6");
+// Prereqs (Iron Chest + Hungry Chest)
+mods.thaumcraft.Research.addPrereq("WOODTOCOPPER", "WOODTOIRON", true);
+mods.thaumcraft.Research.addPrereq("WOODTOCOPPER", "HUNGRYCHEST", true);
+mods.thaumcraft.Research.setSecondary("WOODTOCOPPER", true);
+mods.thaumcraft.Research.setConcealed("WOODTOCOPPER", true);
 
 # Adding a craft & research for the Gold Chest
 // Adding the research (English + French)
@@ -77,6 +107,7 @@ mods.thaumcraft.Arcane.addShaped("IRONTOGOLD",
 mods.thaumcraft.Research.addArcanePage("IRONTOGOLD", <IronChest:BlockIronChest:1>);
 // Setting aspects
 mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:1>, "lucrum 5, metallum 18, ordo 4, vacuos 10");
-// Prereqs
+// Prereqs (Iron Chest + Copper Chest)
 mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOIRON", false);
+mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOCOPPER", false);
 mods.thaumcraft.Research.setConcealed("IRONTOGOLD", true);
