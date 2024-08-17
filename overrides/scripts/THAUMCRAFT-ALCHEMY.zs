@@ -107,4 +107,5 @@ game.setLocalization("fr_FR", "tnmx.alchemy.thaumium.1", "Les metaux se sont rev
 mods.thaumcraft.Research.addCruciblePage("THAUMIUM", <Thaumcraft:ItemResource:2>);
 for i, el_thaumTool in thaumToolsArray {
     mods.thaumcraft.Research.addArcanePage("THAUMIUM", el_thaumTool); }
-
+// Prereqs (Greatwood Wand Core)
+mods.thaumcraft.Research.addPrereq("THAUMIUM", "ROD_greatwood", true);
