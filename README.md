@@ -10,7 +10,7 @@ Reporting bugs & problems here on GitHub : https://github.com/Thenemex/Thaumic-I
 https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relations/dependencies
 
 ### Helpers & Authors
-Project leaded by Thenemex & NexWiz
+Project leaded by Thenemex
 
 Big thanks to my players and testers :
- - AQUOI-LORDE, BaIzD1ThOn, CloudyOrangeFox, Pokebulbbi, Vertf
+ - AQUOI-LORDE, BaIzD1ThOn, CloudyOrangeFox, NexWiz, Pokebulbbi, Vertf
