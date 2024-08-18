@@ -72,7 +72,7 @@ game.setLocalization("fr_FR", "tnmx.ic.woodtocopper_1", "Un beau jour, votre cha
 mods.thaumcraft.Crucible.addRecipe("WOODTOCOPPER",
 /* Output                       */ <IronChest:BlockIronChest:3>,
 /* Input                        */ <Thaumcraft:blockChestHungry>,
-/* Aspects                      */ "metallum 25, permutatio 10,praecantatio 6, ordo 5, vacuos 8" );
+/* Aspects                      */ "metallum 25, permutatio 10, praecantatio 6, ordo 5, vacuos 8" );
 mods.thaumcraft.Research.addCruciblePage("WOODTOCOPPER", <IronChest:BlockIronChest:3>);
 // Setting aspects
 mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:3>, "metallum 15, ordo 2, permutatio 5, vacuos 6");
@@ -111,3 +111,29 @@ mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:1>, "lucrum 5, metallum 18
 mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOIRON", false);
 mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOCOPPER", false);
 mods.thaumcraft.Research.setConcealed("IRONTOGOLD", true);
+
+# Adding a craft & research for the Silver Chest
+// Adding the research (English + French)
+mods.thaumcraft.Research.addResearch("COPPERTOSILVER",
+/* TabKey                         */ "IRONCHEST",
+/* AspectList                     */ "lucrum 6, metallum 20, terra 6, permutatio 10, vacuos 10",
+/* X                              */ 3,
+/* Y                              */ -3,
+/* Complexity                     */ 0,
+/* ItemStack                      */ <IronChest:BlockIronChest:4>);
+game.setLocalization("tc.research_name.COPPERTOSILVER", "Silver Chest");
+game.setLocalization("fr_FR", "tc.research_name.COPPERTOSILVER", "Coffre en Argent");
+game.setLocalization("tc.research_text.COPPERTOSILVER", "An alternative path");
+game.setLocalization("fr_FR", "tc.research_text.COPPERTOSILVER", "Une autre voie");
+mods.thaumcraft.Research.addPage("COPPERTOSILVER", "tnmx.ic.coppertosilver_1");
+game.setLocalization("tnmx.ic.coppertosilver_1", "After some analysis on the gray and shiny ores you mined inside the caves, you found that you could extend the internal size of the copper chest by bathing him into more metal essentia. <BR> Once dry, you just seen that the chest turned out gray, shiny and with some more storage");
+game.setLocalization("tnmx.ic.coppertosilver_1", "Apres une analyse des minerais gris et brillants que vous avez mines en souterrain ; il devient clair que la structure interne du coffre en cuivre peut etre poussee plus loin en la baignant dans encore plus d'essentia de metaux. <BR> Une fois sec, vous remarquez que le coffre a change de couleur et est devenu beaucoup plus brillant, avec davantage de place libre");
+// Silver Chest (1 Copper Chest + 40 Metallum)
+mods.thaumcraft.Crucible.addRecipe("COPPERTOSILVER",
+/* Output                       */ <IronChest:BlockIronChest:4>,
+/* Input                        */ <IronChest:BlockIronChest:3>,
+/* Aspects                      */ "lucrum 8, metallum 40, permutatio 15, terra 10, vacuos 12, vitreus 6");
+mods.thaumcraft.Research.addCruciblePage("COPPERTOSILVER", <IronChest:BlockIronChest:4>);
+// Prereqs (Copper Chest)
+mods.thaumcraft.Research.addPrereq("COPPERTOSILVER", "WOODTOCOPPER", false);
+mods.thaumcraft.Research.setConcealed("COPPERTOSILVER", true);
