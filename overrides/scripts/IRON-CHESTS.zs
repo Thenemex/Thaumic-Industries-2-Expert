@@ -110,7 +110,7 @@ mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:1>, "lucrum 5, metallum 18
 // Prereqs (Iron Chest + Copper Chest)
 mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOIRON", false);
 mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOCOPPER", false);
-mods.thaumcraft.Research.setConcealed("IRONTOGOLD", true);
+mods.thaumcraft.Research.setConcealed("IRONTOGOLD", false);
 
 # Adding a craft & research for the Silver Chest
 // Adding the research (English + French)
@@ -127,7 +127,7 @@ game.setLocalization("tc.research_text.COPPERTOSILVER", "An alternative path");
 game.setLocalization("fr_FR", "tc.research_text.COPPERTOSILVER", "Une autre voie");
 mods.thaumcraft.Research.addPage("COPPERTOSILVER", "tnmx.ic.coppertosilver_1");
 game.setLocalization("tnmx.ic.coppertosilver_1", "After some analysis on the gray and shiny ores you mined inside the caves, you found that you could extend the internal size of the copper chest by bathing him into more metal essentia. <BR> Once dry, you just seen that the chest turned out gray, shiny and with some more storage");
-game.setLocalization("tnmx.ic.coppertosilver_1", "Apres une analyse des minerais gris et brillants que vous avez mines en souterrain ; il devient clair que la structure interne du coffre en cuivre peut etre poussee plus loin en la baignant dans encore plus d'essentia de metaux. <BR> Une fois sec, vous remarquez que le coffre a change de couleur et est devenu beaucoup plus brillant, avec davantage de place libre");
+game.setLocalization("fr_FR", "tnmx.ic.coppertosilver_1", "Apres une analyse des minerais gris et brillants que vous avez mines en souterrain ; il devient clair que la structure interne du coffre en cuivre peut etre poussee plus loin en la baignant dans encore plus d'essentia de metaux. <BR> Une fois sec, vous remarquez que le coffre a change de couleur et est devenu beaucoup plus brillant, avec davantage de place libre");
 // Silver Chest (1 Copper Chest + 40 Metallum)
 mods.thaumcraft.Crucible.addRecipe("COPPERTOSILVER",
 /* Output                       */ <IronChest:BlockIronChest:4>,
@@ -137,3 +137,44 @@ mods.thaumcraft.Research.addCruciblePage("COPPERTOSILVER", <IronChest:BlockIronC
 // Prereqs (Copper Chest)
 mods.thaumcraft.Research.addPrereq("COPPERTOSILVER", "WOODTOCOPPER", false);
 mods.thaumcraft.Research.setConcealed("COPPERTOSILVER", true);
+
+# Adding a craft & research for the black chest
+mods.thaumcraft.Research.addResearch("GOLDTOBLACK",
+/* TabKey                         */ "IRONCHEST",
+/* AspectList                     */ "alienis 40, cognitio 35, fabrico 10, lucrum 20, metallum 30, permutatio 10, praecantatio 20, tenebrae 25, vacuos 15",
+/* X                              */ 6,
+/* Y                              */ -2,
+/* Complexity                     */ 5,
+/* ItemStack                      */ <IronChest:BlockIronChest:6>);
+mods.thaumcraft.Research.setSpikey("GOLDTOBLACK", true);
+game.setLocalization("tc.research_name.GOLDTOBLACK", "The Black Chest");
+game.setLocalization("fr_FR", "tc.research_name.GOLDTOBLACK", "Le Coffre Noir");
+game.setLocalization("tc.research_text.GOLDTOBLACK", "A vision through the deep dark");
+game.setLocalization("fr_FR", "tc.research_text.GOLDTOBLACK", "Une vision à travers le néant");
+mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_1");
+mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_2");
+game.setLocalization("tnmx.ic.goldtoblack_1", "The voices in your head kept hurting until you finally let them take the control for a few seconds. All your papers were scattered and written with insanities about the deep void and it's resonating call ... You quickly hide all of this in your side chest to try to forget about this experience, but you are still seeing those symbols and bloody writings. <BR> After a nightmare, you woke up all sweating and you rushed to your chest to have a look at the papers inside from yesterday.");
+game.setLocalization("tnmx.ic.goldtoblack_2", "They were all bathing in flux, and one of them got it's writing changed to a drawing of a dark chest ; even the light of a nitor on your research table can't light this drawing, like it was made of something else, something from the void ... <LINE>");
+
+// Black Chest (1 Gold Chest + 1 Silver Chest + 1 Focus : Portable Hole + 4 Void Metal + Shadowmetal)
+mods.thaumcraft.Infusion.addRecipe("GOLDTOBLACK",
+/* Input                        */ <IronChest:BlockIronChest:1>,
+/* Ingredients                  */ [<IronChest:BlockIronChest:4>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:0>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>, <Thaumcraft:FocusPortableHole>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:0>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>],
+/* Essentia                     */ "alienis 32, metallum 50, permutatio 15, praecantatio 20, tenebrae 28, vacuos 22",
+/* Output                       */ <IronChest:BlockIronChest:6>,
+/* Instability                  */ 8);
+mods.thaumcraft.Research.addInfusionPage("GOLDTOBLACK", <IronChest:BlockIronChest:6>);
+mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_4");
+game.setLocalization("tnmx.ic.goldtoblack_4", "You quickly realised a chest of this size will be super useful for tidying all your mess, but you will have to hide it so your mates can't discover what it really is. <BR> You are sure you'll find a way to change the external appearance of the Black Chest to keep the irradiating warp and it's irresistible call of the void contained within it's walls ...");
+// Prereqs (Gold Chest + Silver Chest + Focus : Portable Hole + Void Metal)
+mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "IRONTOGOLD", false);
+mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "COPPERTOSILVER", false);
+mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "FOCUSPORTABLEHOLE", true);
+mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "VOIDMETAL", true);
+mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "SHADOWMETAL", true);
+mods.thaumcraft.Research.setConcealed("GOLDTOBLACK", true);
+// Renaming items + Warping
+mods.thaumcraft.Warp.addToResearch("GOLDTOBLACK", 5);
+mods.thaumcraft.Warp.addToItem(<IronChest:BlockIronChest:6>, 3);
+<IronChest:BlockIronChest:6>.displayName = "Black Chest";
+<IronChest:BlockIronChest:6>.addTooltip(format.red("It weights a dead whale ..."));
