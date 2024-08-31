@@ -146,7 +146,6 @@ mods.thaumcraft.Research.addResearch("GOLDTOBLACK",
 /* Y                              */ -2,
 /* Complexity                     */ 5,
 /* ItemStack                      */ <IronChest:BlockIronChest:6>);
-mods.thaumcraft.Research.setSpikey("GOLDTOBLACK", true);
 game.setLocalization("tc.research_name.GOLDTOBLACK", "The Black Chest");
 game.setLocalization("fr_FR", "tc.research_name.GOLDTOBLACK", "Le Coffre Noir");
 game.setLocalization("tc.research_text.GOLDTOBLACK", "A vision through the deep dark");
@@ -173,9 +172,37 @@ mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "COPPERTOSILVER", false);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "FOCUSPORTABLEHOLE", true);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "VOIDMETAL", true);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "SHADOWMETAL", true);
+mods.thaumcraft.Research.setSpikey("GOLDTOBLACK", true);
 mods.thaumcraft.Research.setConcealed("GOLDTOBLACK", true);
 // Renaming items + Warping
 mods.thaumcraft.Warp.addToResearch("GOLDTOBLACK", 5);
 mods.thaumcraft.Warp.addToItem(<IronChest:BlockIronChest:6>, 3);
 <IronChest:BlockIronChest:6>.displayName = "Black Chest";
 <IronChest:BlockIronChest:6>.addTooltip(format.red("It weights a dead whale ..."));
+
+# Adding a craft & research for Diamond chest
+mods.thaumcraft.Research.addResearch("BLACKTODIAMOND",
+/* TabKey                         */ "IRONCHEST",
+/* AspectList                     */ " lucrum 9, ordo 6, metallum 3, vitreus 9",
+/* X                              */ 8,
+/* Y                              */ -3,
+/* Complexity                     */ 0,
+/* ItemStack                      */ <IronChest:BlockIronChest:2>);
+game.setLocalization("tc.research_name.BLACKTODIAMOND", "Concealement : Diamond");
+game.setLocalization("fr_FR", "tc.research_name.BLACKTODIAMOND", "Camouflage : Diamant");
+game.setLocalization("tc.research_text.BLACKTODIAMOND", "My precious");
+game.setLocalization("fr_FR", "tc.research_text.BLACKTODIAMOND", "Mon précieux");
+mods.thaumcraft.Research.addPage("BLACKTODIAMOND", "tnmx.ic.blacktodiamond_1");
+game.setLocalization("tnmx.ic.blacktodiamond_1", "It would not be possible to count all the diamonds and precious stones that have been wasted in the process ... <BR> But there it is ! You succeeded in concealing and shutting the mouth of this warped void from the Black chest, into something more usual.");
+// Diamond Chest (1 Dark Chest + 4 Diamonds + 3 Mirrored Glass + 1 Primal Charm
+mods.thaumcraft.Arcane.addShaped("BLACKTODIAMOND",
+/* Output                     */ <IronChest:BlockIronChest:2>,
+/* Aspects                    */ "aer 10, terra 25, ordo 18",
+/* InputArray                 */ [[<minecraft:diamond>, <Thaumcraft:ItemResource:10>, <minecraft:diamond>],
+                                  [<Thaumcraft:ItemResource:10>, <IronChest:BlockIronChest:6>, <Thaumcraft:ItemResource:10>],
+                                  [<minecraft:diamond>, <Thaumcraft:ItemResource:15>, <minecraft:diamond>]] );
+mods.thaumcraft.Research.addArcanePage("BLACKTODIAMOND", <IronChest:BlockIronChest:2>);
+// Prereqs
+mods.thaumcraft.Research.addPrereq("BLACKTODIAMOND", "GOLDTOBLACK", false);
+mods.thaumcraft.Research.setSecondary("BLACKTODIAMOND", true);
+mods.thaumcraft.Research.setConcealed("BLACKTODIAMOND", true);
