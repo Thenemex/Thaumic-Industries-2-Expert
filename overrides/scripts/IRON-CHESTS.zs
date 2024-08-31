@@ -155,8 +155,7 @@ mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_1");
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_2");
 game.setLocalization("tnmx.ic.goldtoblack_1", "The voices in your head kept hurting until you finally let them take the control for a few seconds. All your papers were scattered and written with insanities about the deep void and it's resonating call ... You quickly hide all of this in your side chest to try to forget about this experience, but you are still seeing those symbols and bloody writings. <BR> After a nightmare, you woke up all sweating and you rushed to your chest to have a look at the papers inside from yesterday.");
 game.setLocalization("tnmx.ic.goldtoblack_2", "They were all bathing in flux, and one of them got it's writing changed to a drawing of a dark chest ; even the light of a nitor on your research table can't light this drawing, like it was made of something else, something from the void ... <LINE>");
-
-// Black Chest (1 Gold Chest + 1 Silver Chest + 1 Focus : Portable Hole + 4 Void Metal + Shadowmetal)
+// Black Chest (1 Gold Chest + 1 Silver Chest + 1 Focus : Portable Hole + 4 Void Metal + 4 Shadowmetal)
 mods.thaumcraft.Infusion.addRecipe("GOLDTOBLACK",
 /* Input                        */ <IronChest:BlockIronChest:1>,
 /* Ingredients                  */ [<IronChest:BlockIronChest:4>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:0>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>, <Thaumcraft:FocusPortableHole>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:0>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>],
@@ -166,6 +165,8 @@ mods.thaumcraft.Infusion.addRecipe("GOLDTOBLACK",
 mods.thaumcraft.Research.addInfusionPage("GOLDTOBLACK", <IronChest:BlockIronChest:6>);
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_4");
 game.setLocalization("tnmx.ic.goldtoblack_4", "You quickly realised a chest of this size will be super useful for tidying all your mess, but you will have to hide it so your mates can't discover what it really is. <BR> You are sure you'll find a way to change the external appearance of the Black Chest to keep the irradiating warp and it's irresistible call of the void contained within it's walls ...");
+// Setting aspects
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:6>, "alienis 6, lucrum 8, metallum 24, tenebrae 10, vacuos 15");
 // Prereqs (Gold Chest + Silver Chest + Focus : Portable Hole + Void Metal)
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "IRONTOGOLD", false);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "COPPERTOSILVER", false);
