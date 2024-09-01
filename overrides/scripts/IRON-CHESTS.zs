@@ -202,6 +202,8 @@ mods.thaumcraft.Arcane.addShaped("BLACKTODIAMOND",
                                   [<Thaumcraft:ItemResource:10>, <IronChest:BlockIronChest:6>, <Thaumcraft:ItemResource:10>],
                                   [<minecraft:diamond>, <Thaumcraft:ItemResource:15>, <minecraft:diamond>]] );
 mods.thaumcraft.Research.addArcanePage("BLACKTODIAMOND", <IronChest:BlockIronChest:2>);
+// Setting aspects
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:2>, " lucrum 15, metallum 8, vitreus 12");
 // Prereqs
 mods.thaumcraft.Research.addPrereq("BLACKTODIAMOND", "GOLDTOBLACK", false);
 mods.thaumcraft.Research.setSecondary("BLACKTODIAMOND", true);
