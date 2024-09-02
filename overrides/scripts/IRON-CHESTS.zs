@@ -43,7 +43,7 @@ game.setLocalization("fr_FR", "tnmx.ic.woodtoiron_1", "A la suite de plusieurs r
 mods.thaumcraft.Arcane.addShaped("WOODTOIRON",
 /* Output                     */ <IronChest:BlockIronChest:0>,
 /* Aspects                    */ "aer 5, terra 12, ordo 20",
-/* InputArray                 */ [[<minecraft:iron_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:iron_ingot>], 
+/* InputArray                 */ [[<minecraft:iron_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:iron_ingot>],
                                   [<minecraft:iron_ingot>, <minecraft:chest>, <minecraft:iron_ingot>],
                                   [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>]] );
 mods.thaumcraft.Research.addArcanePage("WOODTOIRON", <IronChest:BlockIronChest:0>);
@@ -101,7 +101,7 @@ game.setLocalization("fr_FR", "tnmx.ic.irontogold_1", "En experimentant avec vot
 mods.thaumcraft.Arcane.addShaped("IRONTOGOLD",
 /* Output                     */ <IronChest:BlockIronChest:1>,
 /* Aspects                    */ "aer 12, terra 24, ordo 40",
-/* InputArray                 */ [[<minecraft:gold_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>], 
+/* InputArray                 */ [[<minecraft:gold_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>],
                                   [<minecraft:gold_ingot>, <IronChest:BlockIronChest:0>, <minecraft:gold_ingot>],
                                   [<minecraft:gold_ingot>, <minecraft:gold_block>, <minecraft:gold_ingot>]] );
 mods.thaumcraft.Research.addArcanePage("IRONTOGOLD", <IronChest:BlockIronChest:1>);
@@ -183,18 +183,18 @@ mods.thaumcraft.Warp.addToItem(<IronChest:BlockIronChest:6>, 3);
 # Adding a craft & research for Diamond chest
 mods.thaumcraft.Research.addResearch("BLACKTODIAMOND",
 /* TabKey                         */ "IRONCHEST",
-/* AspectList                     */ " lucrum 9, ordo 6, metallum 3, vitreus 9",
+/* AspectList                     */ "lucrum 9, ordo 6, metallum 3, vitreus 9",
 /* X                              */ 8,
 /* Y                              */ -3,
 /* Complexity                     */ 0,
 /* ItemStack                      */ <IronChest:BlockIronChest:2>);
 game.setLocalization("tc.research_name.BLACKTODIAMOND", "Concealement : Diamond");
 game.setLocalization("fr_FR", "tc.research_name.BLACKTODIAMOND", "Camouflage : Diamant");
-game.setLocalization("tc.research_text.BLACKTODIAMOND", "My precious");
-game.setLocalization("fr_FR", "tc.research_text.BLACKTODIAMOND", "Mon précieux");
+game.setLocalization("tc.research_text.BLACKTODIAMOND", "My precious ...");
+game.setLocalization("fr_FR", "tc.research_text.BLACKTODIAMOND", "Mon précieux ...");
 mods.thaumcraft.Research.addPage("BLACKTODIAMOND", "tnmx.ic.blacktodiamond_1");
 game.setLocalization("tnmx.ic.blacktodiamond_1", "It would not be possible to count all the diamonds and precious stones that have been wasted in the process ... <BR> But there it is ! You succeeded in concealing and shutting the mouth of this warped void from the Black chest, into something more usual.");
-// Diamond Chest (1 Dark Chest + 4 Diamonds + 3 Mirrored Glass + 1 Primal Charm
+// Diamond Chest (1 Black Chest + 4 Diamonds + 3 Mirrored Glass + 1 Primal Charm
 mods.thaumcraft.Arcane.addShaped("BLACKTODIAMOND",
 /* Output                     */ <IronChest:BlockIronChest:2>,
 /* Aspects                    */ "aer 10, terra 25, ordo 18",
@@ -203,8 +203,35 @@ mods.thaumcraft.Arcane.addShaped("BLACKTODIAMOND",
                                   [<minecraft:diamond>, <Thaumcraft:ItemResource:15>, <minecraft:diamond>]] );
 mods.thaumcraft.Research.addArcanePage("BLACKTODIAMOND", <IronChest:BlockIronChest:2>);
 // Setting aspects
-mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:2>, " lucrum 15, metallum 8, vitreus 12");
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:2>, "lucrum 15, metallum 8, vitreus 5");
 // Prereqs
 mods.thaumcraft.Research.addPrereq("BLACKTODIAMOND", "GOLDTOBLACK", false);
 mods.thaumcraft.Research.setSecondary("BLACKTODIAMOND", true);
 mods.thaumcraft.Research.setConcealed("BLACKTODIAMOND", true);
+
+# Adding a craft & research for Crystal chest
+mods.thaumcraft.Research.addResearch("BLACKTOCRYSTAL",
+/* TabKey                         */ "IRONCHEST",
+/* AspectList                     */ "ordo 9, metallum 6, permutatio 6, vitreus 15",
+/* X                              */ 8,
+/* Y                              */ -1,
+/* Complexity                     */ 0,
+/* ItemStack                      */ <IronChest:BlockIronChest:5>);
+game.setLocalization("tc.research_name.BLACKTOCRYSTAL", "Concealement : Crystal");
+game.setLocalization("fr_FR", "tc.research_name.BLACKTOCRYSTAL", "Camouflage : Cristal");
+game.setLocalization("tc.research_text.BLACKTOCRYSTAL", "I can see the dust behind !");
+game.setLocalization("fr_FR", "tc.research_text.BLACKTOCRYSTAL", "Je vois même la poussière en dessous !");
+mods.thaumcraft.Research.addPage("BLACKTOCRYSTAL", "tnmx.ic.blacktocrystal_1");
+game.setLocalization("tnmx.ic.blacktocrystal_1", "You were so obsessed with your plan of hiding the true nature of the Black chest, that something had to go wrong ... <BR> In your quest of hiding the dark warped void ; it started to be one with the structural integrity of the chest and all the essentia you dumped within. <LINE> This chest is so clear that you can see right through it, showing the blocks hidden behind and the items you put within !");
+// Crystal Chest (1 Black Chest + 80 Vitreus)
+mods.thaumcraft.Crucible.addRecipe("BLACKTOCRYSTAL",
+/* OutputStack                  */ <IronChest:BlockIronChest:5>,
+/* InputStack                   */ <IronChest:BlockIronChest:6>,
+/* AspectString                 */ "alienis 12, fabrico 20, ordo 24, tenebrae 8, vitreus 80");
+mods.thaumcraft.Research.addCruciblePage("BLACKTOCRYSTAL", <IronChest:BlockIronChest:5>);
+// Setting aspects
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:5>, "vitreus 15, fabrico 8, ordo 5");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("BLACKTOCRYSTAL", "GOLDTOBLACK", false);
+mods.thaumcraft.Research.setSecondary("BLACKTOCRYSTAL", true);
+mods.thaumcraft.Research.setConcealed("BLACKTOCRYSTAL", true);
