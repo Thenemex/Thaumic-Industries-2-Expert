@@ -1,6 +1,7 @@
 {
   "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_schemaVersion": 3,
+  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
+  "_schemaVersion": 6,
   "_lastMCVersionId": 5,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -8,6 +9,7 @@
     "detectMultiMCManifest": true,
     "detectMCUpdaterInstance": true,
     "detectTechnicPack": true,
+    "detectModrinthPack": true,
     "detectBiomeData": false,
     "detectDimensionData": true,
     "detectWorldData": true,
@@ -252,13 +254,10 @@
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
-    "renderTooltips": true,
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
     "refreshRate": 2,
-    "roundSize": 3,
-    "includeExtraGuiClasses": false,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
@@ -340,18 +339,61 @@
     },
     "allowEndpointIcons": true,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
-    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s"
+    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10
   },
   "accessibilitySettings": {
-    "tooltipBackgroundColor": "0xF0100010",
-    "tooltipBorderColor": "0x505000FF",
-    "guiBackgroundColor": "minecraft:textures/gui/options_background.png",
-    "buttonBackgroundColor": "minecraft:textures/gui/widgets.png",
+    "tooltipBackground": {
+      "start": {
+        "red": 16,
+        "green": 0,
+        "blue": 16,
+        "alpha": 240
+      }
+    },
+    "tooltipBorder": {
+      "start": {
+        "red": 80,
+        "green": 0,
+        "blue": 255,
+        "alpha": 80
+      },
+      "end": {
+        "red": 255,
+        "green": 255,
+        "blue": 255,
+        "alpha": 255
+      }
+    },
+    "guiBackground": {
+      "start": {
+        "red": 64,
+        "green": 64,
+        "blue": 64,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/options_background.png"
+    },
+    "altGuiBackground": {
+      "start": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 192
+      },
+      "end": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 208
+      }
+    },
     "languageId": "en_US",
-    "showBackgroundAsDark": true,
     "stripTranslationColors": false,
-    "showLoggingInChat": false,
+    "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
+    "renderTooltips": true,
     "configKeyCode": 209
   },
   "displaySettings": {
