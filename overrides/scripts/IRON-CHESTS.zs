@@ -1,4 +1,4 @@
-// Recipes for IronChests
+// Expert recipes for IronChests, with brand new TC tab.
 
 # Removing all recipes
 recipes.remove(<IronChest:BlockIronChest:0>);
