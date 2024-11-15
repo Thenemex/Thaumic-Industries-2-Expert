@@ -23,4 +23,11 @@ for i, el_plank in planksArray {
 // 2 Planks -> 2 Sticks
 recipes.remove(<minecraft:stick>);
 recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>, null],
-                                          [<ore:plankWood>, null]]);
+                                          [<ore:plankWood>, null]] );
+
+// 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
+recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
+                                                 <minecraft:iron_ore>, <minecraft:coal>] );
+
+// Todo - Phial arcane craft without glass
+// Todo - Research of the vanilla furnace
