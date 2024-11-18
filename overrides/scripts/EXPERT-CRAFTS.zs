@@ -29,5 +29,4 @@ recipes.addShaped(<minecraft:stick> * 2, [[<ore:plankWood>, null],
 recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
                                                  <minecraft:iron_ore>, <minecraft:coal>] );
 
-// Todo - Phial arcane craft without glass
 // Todo - Research of the vanilla furnace

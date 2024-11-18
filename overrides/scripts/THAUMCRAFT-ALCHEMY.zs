@@ -2,8 +2,29 @@
 
 import minetweaker.item.IItemStack;
 
+# Adding new oredict for Thaumcraft crystal clusters
+val oreDictCrystalClusters = <ore:thaumcraftCrystalClusters>;
+oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:0>);
+oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:1>);
+oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:2>);
+oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:3>);
+oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:4>);
+oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:5>);
+oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:6>);
+
 // Array of the 5 Thaumium tools + 4 Armor pieces
 var thaumToolsArray = [<Thaumcraft:ItemSwordThaumium>, <Thaumcraft:ItemPickThaumium>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemShovelThaumium>, <Thaumcraft:ItemHoeThaumium>, <Thaumcraft:ItemHelmetThaumium>, <Thaumcraft:ItemChestplateThaumium>, <Thaumcraft:ItemLeggingsThaumium>, <Thaumcraft:ItemBootsThaumium>] as IItemStack[];
+
+# Essentia
+// Glass Phial (1 Greatwood + 1 Cluster + 3 Sand
+mods.thaumcraft.Arcane.addShaped("THAUMIUM",
+/* Output                     */ <Thaumcraft:ItemEssence:0> * 2,
+/* Aspects                    */ "ignis 20, terra 10, ordo 15",
+/* InputArray                 */ [[null, <Thaumcraft:blockMagicalLog:0>, null],
+                                  [<ore:sand>, oreDictCrystalClusters, <ore:sand>],
+                                  [null, <ore:sand>, null]] );
+// Adding the page to Phial auto-unlocked research
+mods.thaumcraft.Research.addArcanePage("PHIAL", <Thaumcraft:ItemEssence:0>);
 
 # Resources
 // Thaumium (1 Iron = 1 Thaumium)
