@@ -1,5 +1,32 @@
 // Recipes for Thaumcraft - Artifice
 
+# Furnace
+// Adding the research
+recipes.remove(<minecraft:furnace>);
+mods.thaumcraft.Research.addResearch("VANILLAFURNACE",
+/* TabKey                         */ "ARTIFICE",
+/* AspectList                     */ "ignis 2, perditio 6, terra 6",
+/* X                              */ 1,
+/* Y                              */ -5,
+/* Complexity                     */ 1,
+/* ItemStack                      */ <minecraft:furnace>);
+game.setLocalization("tc.research_name.VANILLAFURNACE", "Stone Furnace");
+game.setLocalization("fr_FR", "tc.research_name.VANILLAFURNACE", "Four en pierre");
+game.setLocalization("tc.research_text.VANILLAFURNACE", "It burns !");
+game.setLocalization("fr_FR", "tc.research_text.VANILLAFURNACE", "Ca cuit !");
+game.setLocalization("fr_FR", "tc.research_text.WOODTOCOPPER", "Ce n'est pas une reussite ...");
+mods.thaumcraft.Research.addPage("VANILLAFURNACE", "tnmx.artifice.vanillafurnace_1");
+game.setLocalization("tnmx.artifice.vanillafurnace_1", "After some struggles on your first steps through this world, you finally discover how to smelt items like your ancestors did.");
+game.setLocalization("fr_FR", "tnmx.artifice.vanillafurnace_1", "Après avoir rencontré des difficultés lors de vos premiers pas dans ce monde, vous avez enfin découvert une voie pour cuire des objets comme vos ancêtres.");
+// Adding the craft
+mods.thaumcraft.Arcane.addShaped("VANILLAFURNACE",
+/* Output                     */ <minecraft:furnace>,
+/* Aspects                    */ "ignis 25, ordo 20, perditio 10, terra 10",
+/* InputArray                 */ [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
+                                  [<minecraft:cobblestone>, <Thaumcraft:ItemShard:1>, <minecraft:cobblestone>],
+                                  [<minecraft:cobblestone>, <ore:blockCoal>, <minecraft:cobblestone>]] );
+mods.thaumcraft.Research.addArcanePage("VANILLAFURNACE", <minecraft:furnace>);
+
 # Arcane Bore
 // Arcane Bore (1 Deconstruction Table + 1 Thaumometer + 2 Gold + 1 Elemental Pickaxe + 1 Elemental Shovel + 1 Void Jar)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
