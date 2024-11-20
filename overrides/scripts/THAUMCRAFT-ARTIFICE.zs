@@ -30,7 +30,7 @@ game.setLocalization("fr_FR", "tnmx.artifice.vanillafurnace_1", "Après avoir re
 // Adding the craft
 mods.thaumcraft.Arcane.addShaped("VANILLAFURNACE",
 /* Output                     */ <minecraft:furnace>,
-/* Aspects                    */ "ignis 25, ordo 20, perditio 10, terra 10",
+/* Aspects                    */ "ignis 10, ordo 5, perditio 5, terra 10",
 /* InputArray                 */ [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
                                   [<minecraft:cobblestone>, oreDictShards, <minecraft:cobblestone>],
                                   [<minecraft:cobblestone>, <ore:blockCoal>, <minecraft:cobblestone>]] );
@@ -55,7 +55,7 @@ game.setLocalization("fr_FR", "tnmx.artifice.ironpickaxe_1", "Ce four est un len
 // Adding the craft
 mods.thaumcraft.Arcane.addShaped("IRONPICKAXE",
 /* Output                     */ <minecraft:iron_pickaxe>,
-/* Aspects                    */ "aer 5, ordo 10, perditio 5, terra 20",
+/* Aspects                    */ "aer 2, ordo 6, perditio 5, terra 10",
 /* InputArray                 */ [[<Thaumcraft:ItemNugget:0>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
                                   [null, <minecraft:stick>, <minecraft:iron_ingot>],
                                   [<minecraft:stick>, null, <Thaumcraft:ItemNugget:0>]] );
