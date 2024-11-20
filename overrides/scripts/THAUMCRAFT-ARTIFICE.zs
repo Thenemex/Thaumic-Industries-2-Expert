@@ -1,5 +1,15 @@
 // Recipes for Thaumcraft - Artifice
 
+# Adding new oredict for Thaumcraft shards
+val oreDictShards = <ore:thaumcraftShards>;
+oreDictShards.add(<Thaumcraft:ItemShard:0>);
+oreDictShards.add(<Thaumcraft:ItemShard:1>);
+oreDictShards.add(<Thaumcraft:ItemShard:2>);
+oreDictShards.add(<Thaumcraft:ItemShard:3>);
+oreDictShards.add(<Thaumcraft:ItemShard:4>);
+oreDictShards.add(<Thaumcraft:ItemShard:5>);
+oreDictShards.add(<Thaumcraft:ItemShard:6>);
+
 # Furnace
 // Adding the research
 recipes.remove(<minecraft:furnace>);
@@ -22,7 +32,7 @@ mods.thaumcraft.Arcane.addShaped("VANILLAFURNACE",
 /* Output                     */ <minecraft:furnace>,
 /* Aspects                    */ "ignis 25, ordo 20, perditio 10, terra 10",
 /* InputArray                 */ [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-                                  [<minecraft:cobblestone>, <Thaumcraft:ItemShard:1>, <minecraft:cobblestone>],
+                                  [<minecraft:cobblestone>, oreDictShards, <minecraft:cobblestone>],
                                   [<minecraft:cobblestone>, <ore:blockCoal>, <minecraft:cobblestone>]] );
 mods.thaumcraft.Research.addArcanePage("VANILLAFURNACE", <minecraft:furnace>);
 
