@@ -56,9 +56,9 @@ game.setLocalization("fr_FR", "tnmx.artifice.ironpickaxe_1", "Ce four est un len
 mods.thaumcraft.Arcane.addShaped("IRONPICKAXE",
 /* Output                     */ <minecraft:iron_pickaxe>,
 /* Aspects                    */ "aer 2, ordo 6, perditio 5, terra 10",
-/* InputArray                 */ [[<Thaumcraft:ItemNugget:0>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+/* InputArray                 */ [[<ore:nuggetIron>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
                                   [null, <minecraft:stick>, <minecraft:iron_ingot>],
-                                  [<minecraft:stick>, null, <Thaumcraft:ItemNugget:0>]] );
+                                  [<minecraft:stick>, null, <ore:nuggetIron>]] );
 mods.thaumcraft.Research.addArcanePage("IRONPICKAXE", <minecraft:iron_pickaxe>);
 // Prereqs
 mods.thaumcraft.Research.addPrereq("IRONPICKAXE", "VANILLAFURNACE", false);

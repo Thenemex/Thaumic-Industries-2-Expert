@@ -27,10 +27,10 @@ mods.thaumcraft.Arcane.addShaped("THAUMIUM",
 mods.thaumcraft.Research.addArcanePage("PHIAL", <Thaumcraft:ItemEssence:0>);
 
 # Resources
-// Thaumium (1 Iron = 1 Thaumium)
+// Thaumium (1 Iron Ingot = 8 Thaumium Nuggets)
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
 mods.thaumcraft.Crucible.addRecipe("THAUMIUM",
-/* OutputStack                  */ <Thaumcraft:ItemResource:2>,
+/* OutputStack                  */ <Thaumcraft:ItemNugget:6> * 8,
 /* InputStack                   */ <minecraft:iron_ingot>, 
 /* AspectString                 */ "praecantatio 5");
 
@@ -125,8 +125,9 @@ mods.thaumcraft.Research.addPage("THAUMIUM", "tnmx.alchemy.thaumium.1");
 game.setLocalization("tnmx.alchemy.thaumium.1", "Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in an arcane worktable.");
 game.setLocalization("fr_FR", "tnmx.alchemy.thaumium.1", "Les metaux se sont reveles etre assez faciles a manipuler via les principes thaumaturgiques. Vos premieres experiences ont conduit a la decouverte du Thaumium. Le Thaumium est le resultat de l'infusion du metal de base avec de la magie brute. C'est un metal plus dur que le fer avec la capacite d'accepter des enchantements superieurs a ce que permet le fer.<BR> Un metal comme celui-la a plusieurs applications dans l'elaboration de dispositifs thaumaturgiques plus avances.<BR>Il peut etre utilise pour fabriquer des outils, armes et armures dans un atelier arcanique.");
 // Re-adding all the pages with arcane crafting
-mods.thaumcraft.Research.addCruciblePage("THAUMIUM", <Thaumcraft:ItemResource:2>);
+mods.thaumcraft.Research.addCruciblePage("THAUMIUM", <Thaumcraft:ItemNugget:6>);
 for i, el_thaumTool in thaumToolsArray {
     mods.thaumcraft.Research.addArcanePage("THAUMIUM", el_thaumTool); }
 // Prereqs (Greatwood Wand Core)
+mods.thaumcraft.Research.addPrereq("THAUMIUM", "IRONPICKAXE", true);
 mods.thaumcraft.Research.addPrereq("THAUMIUM", "ROD_greatwood", true);
