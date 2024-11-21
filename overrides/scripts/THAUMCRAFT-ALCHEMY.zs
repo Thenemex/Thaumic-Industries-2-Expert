@@ -26,6 +26,18 @@ mods.thaumcraft.Arcane.addShaped("THAUMIUM",
 // Adding the page to Phial auto-unlocked research
 mods.thaumcraft.Research.addArcanePage("PHIAL", <Thaumcraft:ItemEssence:0>);
 
+// Alchemical Furnace (1 Furnace + 1 Crucible + 1 Thaumium Block + 2 Alchemical Construct + 4 Arcane Stone
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:0>);
+mods.thaumcraft.Arcane.addShaped("DISTILESSENTIA",
+/* Output                     */ <Thaumcraft:blockStoneDevice:0>,
+/* Aspects                    */ "aer 8, aqua 32, ignis 10, ordo 25, terra 15",
+/* InputArray                 */ [[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockMetalDevice:0>, <Thaumcraft:blockCosmeticSolid:6>],
+                                  [<Thaumcraft:blockMetalDevice:9>, <minecraft:furnace>, <Thaumcraft:blockMetalDevice:9>],
+                                  [<Thaumcraft:blockCosmeticSolid:6>, <ore:blockThaumium>, <Thaumcraft:blockCosmeticSolid:6>]] );
+mods.thaumcraft.Research.refreshResearchRecipe("DISTILESSENTIA");
+// Adding Thaumium as prereq
+mods.thaumcraft.Research.addPrereq("DISTILESSENTIA", "THAUMIUM", true);
+
 # Resources
 // Thaumium (1 Iron Ingot = 8 Thaumium Nuggets)
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
@@ -117,7 +129,6 @@ mods.thaumcraft.Arcane.addShaped("THAUMIUM",
                                   [null, <Thaumcraft:WandRod:0>, null],
                                   [<Thaumcraft:WandRod:0>, null, null]] );
 
-# Research
 // Have to replace all the pages to add arcane crafting
 mods.thaumcraft.Research.clearPages("THAUMIUM");
 mods.thaumcraft.Research.addPage("THAUMIUM", "tnmx.alchemy.thaumium.1");
