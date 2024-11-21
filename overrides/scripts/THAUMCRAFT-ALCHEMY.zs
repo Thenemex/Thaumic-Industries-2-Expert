@@ -15,6 +15,15 @@ oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:6>);
 // Array of the 5 Thaumium tools + 4 Armor pieces
 var thaumToolsArray = [<Thaumcraft:ItemSwordThaumium>, <Thaumcraft:ItemPickThaumium>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemShovelThaumium>, <Thaumcraft:ItemHoeThaumium>, <Thaumcraft:ItemHelmetThaumium>, <Thaumcraft:ItemChestplateThaumium>, <Thaumcraft:ItemLeggingsThaumium>, <Thaumcraft:ItemBootsThaumium>] as IItemStack[];
 
+# Crucible
+// Nitor (1 Glowstone = 1 Nitor)
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:1>);
+mods.thaumcraft.Crucible.addRecipe("NITOR",
+/* OutputStack                  */ <Thaumcraft:ItemResource:1>,
+/* InputStack                   */ <minecraft:glowstone_dust>,
+/* AspectString                 */ "ignis 5, lux 8, potentia 5");
+mods.thaumcraft.Research.refreshResearchRecipe("NITOR");
+
 # Essentia
 // Glass Phial (1 Greatwood + 1 Cluster + 3 Sand
 mods.thaumcraft.Arcane.addShaped("THAUMIUM",
