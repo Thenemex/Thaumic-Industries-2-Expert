@@ -38,30 +38,38 @@ mods.thaumcraft.Research.addArcanePage("VANILLAFURNACE", <minecraft:furnace>);
 
 # Iron Pickaxe
 recipes.remove(<minecraft:iron_pickaxe>);
-mods.thaumcraft.Research.addResearch("IRONPICKAXE",
+recipes.remove(<minecraft:iron_axe>);
+mods.thaumcraft.Research.addResearch("IRONTOOLS",
 /* TabKey                         */ "ARTIFICE",
 /* AspectList                     */ "metallum 15, ordo 10, terra 6, vitreus 6",
 /* X                              */ -1,
 /* Y                              */ -5,
 /* Complexity                     */ 1,
 /* ItemStack                      */ <minecraft:iron_pickaxe>);
-game.setLocalization("tc.research_name.IRONPICKAXE", "Iron Pickaxe");
-game.setLocalization("fr_FR", "tc.research_name.IRONPICKAXE", "Pioche en Fer");
-game.setLocalization("tc.research_text.IRONPICKAXE", "Finally I can mine gold ...");
-game.setLocalization("fr_FR", "tc.research_text.IRONPICKAXE", "Je peux enfin miner de l'or ...");
-mods.thaumcraft.Research.addPage("IRONPICKAXE", "tnmx.artifice.ironpickaxe_1");
-game.setLocalization("tnmx.artifice.ironpickaxe_1", "This furnace is a bit slow, but still a blessing ! I can finally get my hand on some iron bars.<LINE>This metal is in fact pretty weak, but I need some mining tool to get the gold I need for my researchs ...<BR>So I started drawing and figured I can mine a few blocks with an iron pickaxe infused with some aspects from my wand to strengthen it.");
-game.setLocalization("fr_FR", "tnmx.artifice.ironpickaxe_1", "Ce four est un lent à cuire les minerais, mais ça reste très utile ! Je peux enfin obtenir quelques lingots de fer.<LINE>Malheureusement ce matériau est assez fragile et peu vigoureux, mais il me faut absolument de quoi miner le peu d'or dont j'ai besoin pour mes recherches ...<BR>J'ai ainsi commencé à travailler dessus ; le résultat est une pioche en fer renforcée avec les aspects de ma baguette magique ; qui ne pourra miner que quelques blocs.");
+game.setLocalization("tc.research_name.IRONTOOLS", "Iron Tools");
+game.setLocalization("fr_FR", "tc.research_name.IRONTOOLS", "Outils en Fer");
+game.setLocalization("tc.research_text.IRONTOOLS", "Finally I can mine gold ...");
+game.setLocalization("fr_FR", "tc.research_text.IRONTOOLS", "Je peux enfin miner de l'or ...");
+mods.thaumcraft.Research.addPage("IRONTOOLS", "tnmx.artifice.irontools_1");
+game.setLocalization("tnmx.artifice.irontools_1", "This furnace is a bit slow, but still a blessing ! I can finally get my hand on some iron bars.<LINE>This metal is in fact pretty weak, but I need some mining tool to get the gold I need for my researchs ...<BR>So I started drawing and figured I can mine a few blocks with an iron pickaxe infused with some aspects from my wand to strengthen it.<BR>I can also make other weak tools with these bars");
+game.setLocalization("fr_FR", "tnmx.artifice.irontools_1", "Ce four est un lent à cuire les minerais, mais ça reste très utile ! Je peux enfin obtenir quelques lingots de fer.<LINE>Malheureusement ce matériau est assez fragile et peu vigoureux, mais il me faut absolument de quoi miner le peu d'or dont j'ai besoin pour mes recherches ...<BR>J'ai ainsi commencé à travailler dessus ; le résultat est une pioche en fer renforcée avec les aspects de ma baguette magique ; qui ne pourra miner que quelques blocs.<BR>D'autres outils peuvent également être fabriqués avec ces lingots.");
 // Adding the craft
-mods.thaumcraft.Arcane.addShaped("IRONPICKAXE",
+mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
 /* Output                     */ <minecraft:iron_pickaxe>,
 /* Aspects                    */ "aer 2, ordo 6, perditio 5, terra 10",
 /* InputArray                 */ [[<ore:nuggetIron>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
                                   [null, <minecraft:stick>, <minecraft:iron_ingot>],
                                   [<minecraft:stick>, null, <ore:nuggetIron>]] );
-mods.thaumcraft.Research.addArcanePage("IRONPICKAXE", <minecraft:iron_pickaxe>);
+mods.thaumcraft.Research.addArcanePage("IRONTOOLS", <minecraft:iron_pickaxe>);
+mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
+/* Output                     */ <minecraft:iron_axe>,
+/* Aspects                    */ "aer 2, ordo 5, perditio 4, terra 8",
+/* InputArray                 */ [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <ore:nuggetIron>],
+                                  [<minecraft:iron_ingot>, <minecraft:stick>, null],
+                                  [null, <minecraft:stick>, null]] );
+mods.thaumcraft.Research.addArcanePage("IRONTOOLS", <minecraft:iron_axe>);
 // Prereqs
-mods.thaumcraft.Research.addPrereq("IRONPICKAXE", "VANILLAFURNACE", false);
+mods.thaumcraft.Research.addPrereq("IRONTOOLS", "VANILLAFURNACE", false);
 
 # Arcane Bore
 // Arcane Bore (1 Deconstruction Table + 1 Thaumometer + 2 Gold + 1 Elemental Pickaxe + 1 Elemental Shovel + 1 Void Jar)

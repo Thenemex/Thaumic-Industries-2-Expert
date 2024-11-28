@@ -13,4 +13,4 @@ https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relati
 Project leaded by Thenemex
 
 Big thanks to my players and testers :
- - AQUOI-LORDE, BaIzD1ThOn, CloudyOrangeFox, NexWiz, Pokebulbbi, Vertf
+ - AQUOI-LORDE, BaIzD1ThOn, CloudyOrangeFox, NexWiz, Pokebulbbi, 5parte, Vertf
