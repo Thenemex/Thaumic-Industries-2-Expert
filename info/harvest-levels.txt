@@ -1,0 +1,17 @@
+Lists of Blocks that have a customized expert harvest level :
+
+Vanilla:
+-------------------------------
+54      Chest                   Axe         Stone
+56      Diamond Ore             Pickaxe     Diamond
+58      Crafting Table          Axe         Stone
+61      Furnace                 Pickaxe     Iron
+62      Lit Furnace             Pickaxe     Iron
+116     Enchanting Table        Pickaxe     Diamond
+146     Trapped Chest           Axe         Stone
+
+Thaumcraft:
+-------------------------------
+176     Greatwood               Axe         Iron
+176     Silverwood              Axe         Iron
+189     Tables                  Axe         Stone

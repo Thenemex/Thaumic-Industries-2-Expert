@@ -1,0 +1,68 @@
+{
+  "blocks":[
+    {
+      "name": "minecraft:chest",
+      "metadata": -1,
+      "tools": {
+        "axe": 1
+      }
+    },
+    {
+      "name": "minecraft:diamond_ore",
+      "metadata": -1,
+      "tools": {
+        "pickaxe": 3
+      }
+    },
+    {
+      "name": "minecraft:crafting_table",
+      "metadata": -1,
+      "tools": {
+        "axe": 1
+      }
+    },
+    {
+      "name": "minecraft:furnace",
+      "metadata": -1,
+      "tools": {
+        "pickaxe": 2
+      }
+    },
+    {
+      "name": "minecraft:lit_furnace",
+      "metadata": -1,
+      "tools": {
+        "pickaxe": 2
+      }
+    },
+    {
+      "name": "minecraft:enchanting_table",
+      "metadata": -1,
+      "tools": {
+        "pickaxe": 3
+      }
+    },
+    {
+      "name": "minecraft:trapped_chest",
+      "metadata": -1,
+      "tools": {
+        "axe": 1
+      }
+    },
+
+    {
+      "name": "Thaumcraft:blockMagicalLog",
+      "metadata": -1,
+      "tools": {
+        "axe": 2
+      }
+    },
+    {
+      "name": "Thaumcraft:blockTable",
+      "metadata": -1,
+      "tools": {
+        "axe": 1
+      }
+    }
+  ]
+}
