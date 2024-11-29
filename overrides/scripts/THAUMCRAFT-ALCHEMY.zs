@@ -43,6 +43,14 @@ mods.thaumcraft.Arcane.addShaped("DISTILESSENTIA",
 /* InputArray                 */ [[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockMetalDevice:0>, <Thaumcraft:blockCosmeticSolid:6>],
                                   [<Thaumcraft:blockMetalDevice:9>, <minecraft:furnace>, <Thaumcraft:blockMetalDevice:9>],
                                   [<Thaumcraft:blockCosmeticSolid:6>, <ore:blockThaumium>, <Thaumcraft:blockCosmeticSolid:6>]] );
+// Arcane Alembic (3 Thaumium + 2 Iron + 1 Gold + 1 Bucket + 1 Vis Filter + 1 Jarded War
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:1>);
+mods.thaumcraft.Arcane.addShaped("DISTILESSENTIA",
+/* Output                     */ <Thaumcraft:blockMetalDevice:1>,
+/* Aspects                    */ "aer 10, aqua 15, ordo 8",
+/* InputArray                 */ [[<Thaumcraft:ItemResource:8>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>],
+                                  [<minecraft:iron_ingot>, <Thaumcraft:blockJar:0>, <minecraft:iron_ingot>],
+                                  [<Thaumcraft:ItemResource:2>, <minecraft:bucket>, <Thaumcraft:ItemResource:2>]] );
 mods.thaumcraft.Research.refreshResearchRecipe("DISTILESSENTIA");
 // Adding Thaumium as prereq
 mods.thaumcraft.Research.addPrereq("DISTILESSENTIA", "THAUMIUM", true);
