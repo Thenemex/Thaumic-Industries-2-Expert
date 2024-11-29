@@ -8,10 +8,17 @@ Vanilla:
 61      Furnace                 Pickaxe     Iron
 62      Lit Furnace             Pickaxe     Iron
 116     Enchanting Table        Pickaxe     Diamond
+129     Emerald Ore             Pickaxe     Diamond
+130     Ender Chest             Pickaxe     Diamond
 146     Trapped Chest           Axe         Stone
+355     Bed                     Axe         Stone
 
 Thaumcraft:
 -------------------------------
 176     Greatwood               Axe         Iron
 176     Silverwood              Axe         Iron
 189     Tables                  Axe         Stone
+
+Iron Chests:
+-------------------------------
+942     Chests                  Pickaxe     Iron
