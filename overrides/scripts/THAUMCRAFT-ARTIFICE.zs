@@ -36,7 +36,7 @@ mods.thaumcraft.Arcane.addShaped("VANILLAFURNACE",
                                   [<minecraft:cobblestone>, <ore:blockCoal>, <minecraft:cobblestone>]] );
 mods.thaumcraft.Research.addArcanePage("VANILLAFURNACE", <minecraft:furnace>);
 
-# Iron Pickaxe
+# Iron Tools
 recipes.remove(<minecraft:iron_pickaxe>);
 recipes.remove(<minecraft:iron_axe>);
 mods.thaumcraft.Research.addResearch("IRONTOOLS",
@@ -70,6 +70,25 @@ mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
 mods.thaumcraft.Research.addArcanePage("IRONTOOLS", <minecraft:iron_axe>);
 // Prereqs
 mods.thaumcraft.Research.addPrereq("IRONTOOLS", "VANILLAFURNACE", false);
+
+# Matrix Infusion
+// Runic Matrix (4 Arcane Stone + 4 Balanced Shards + 1 Ender Pearl)
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:2>);
+mods.thaumcraft.Arcane.addShaped("INFUSION",
+/* Output                     */ <Thaumcraft:blockStoneDevice:2>,
+/* Aspects                    */ "ordo 53",
+/* InputArray                 */ [[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCosmeticSolid:6>],
+                                  [<Thaumcraft:ItemShard:6>, <minecraft:ender_pearl>, <Thaumcraft:ItemShard:6>],
+                                  [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:ItemShard:6>, <Thaumcraft:blockCosmeticSolid:6>]] );
+// Arcane Pedestal
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:1>);
+mods.thaumcraft.Arcane.addShaped("INFUSION",
+/* Output                     */ <Thaumcraft:blockStoneDevice:1> * 2,
+/* Aspects                    */ "aer 12, ordo 5",
+/* InputArray                 */ [[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:7>, <Thaumcraft:blockCosmeticSolid:6>],
+                                  [null, <Thaumcraft:blockCosmeticSolid:6>, null],
+                                  [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]] );
+mods.thaumcraft.Research.refreshResearchRecipe("INFUSION");
 
 # Arcane Bore
 // Arcane Bore (1 Deconstruction Table + 1 Thaumometer + 2 Gold + 1 Elemental Pickaxe + 1 Elemental Shovel + 1 Void Jar)
