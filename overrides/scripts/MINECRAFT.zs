@@ -3,19 +3,21 @@
 import minetweaker.item.IItemStack;
 
 // Array of all the 6 vanilla woods (oak, spruce, birch, jungle, acacia, darkOak)
-var woodArray = [<minecraft:log:0>,
+val woodArray = [<minecraft:log:0>,
                  <minecraft:log:1>,
                  <minecraft:log:2>,
                  <minecraft:log:3>, 
                  <minecraft:log2:0>, 
                  <minecraft:log2:1>] as IItemStack[];
-                       
+
+// Array of iron tools
+val ironArray = [<minecraft:iron_sword>,
+                 <minecraft:iron_pickaxe>,
+                 <minecraft:iron_axe>,
+                 <minecraft:iron_shovel>,
+                 <minecraft:iron_hoe>] as IItemStack[];
 // Array of all >iron tools
-var toolsArray = [<minecraft:iron_sword>,
-                  <minecraft:iron_axe>,
-                  <minecraft:iron_shovel>,
-                  <minecraft:iron_hoe>,
-                  <minecraft:golden_sword>,
+val toolsArray = [<minecraft:golden_sword>,
                   <minecraft:golden_pickaxe>,
                   <minecraft:golden_axe>,
                   <minecraft:golden_shovel>,
@@ -26,7 +28,7 @@ var toolsArray = [<minecraft:iron_sword>,
                   <minecraft:diamond_shovel>,
                   <minecraft:diamond_hoe>,
                   <minecraft:shears>] as IItemStack[];
-var armorArray = [<minecraft:iron_helmet>,
+val armorArray = [<minecraft:iron_helmet>,
                          <minecraft:iron_chestplate>,
                          <minecraft:iron_leggings>,
                          <minecraft:iron_boots>,
@@ -65,9 +67,12 @@ recipes.addShaped(<minecraft:gold_ingot>,
                    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
                    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
     
+# Setting Iron tools to 15 durability
+for i, el_ironTool in ironArray {
+    el_ironTool.maxDamage = 15;
+    el_ironTool.addTooltip(format.gold("You can only break a few blocks with this")); }
+
 # Setting vanilla Tools & Armor durability to very low - Have to use magical tools (Thaumium, etc...)
-<minecraft:iron_pickaxe>.maxDamage = 15;
-<minecraft:iron_pickaxe>.addTooltip(format.gold("You can only break a few blocks with this"));
 for i, el_tool in toolsArray {
     el_tool.maxDamage = 1;
     el_tool.addTooltip(format.red("FOR CRAFTING ONLY"));
