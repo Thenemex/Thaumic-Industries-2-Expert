@@ -36,13 +36,13 @@ game.setLocalization("tc.research_name.ENCHANTINGTABLE", "Enchanting table");
 game.setLocalization("fr_FR", "tc.research_name.ENCHANTINGTABLE", "Table d'enchantement");
 game.setLocalization("tc.research_text.ENCHANTINGTABLE", "Enchantment from the void");
 game.setLocalization("fr_FR", "tc.research_text.ENCHANTINGTABLE", "Enchantement par le vide");
-mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "tnmx.artifice.enchantingtable_1");
-game.setLocalization("tnmx.artifice.enchantingtable_1", "Whispers from the void are beginning to drive you mad");
-game.setLocalization("fr_FR", "tnmx.artifice.enchantingtable_1", "A");
+mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "tnmx.eldritch.enchantingtable_1");
+game.setLocalization("tnmx.eldritch.enchantingtable_1", "Whispers from the void are beginning to drive you mad, but in the middle you heard a a singular voice. Guided by this voice, you started to write and conceive a device that can - in theory, enchant weapons and armory with the power of the void.<LINE>This process wouldn't use any additional items like the infusion enchantement, but will devour large amount of XP from the user.");
+game.setLocalization("fr_FR", "tnmx.eldritch.enchantingtable_1", "Les voix dans votre tête commencent à vous rendre complètement fou ; mais parmi ces voix, une se distingue du reste : guidé par cette voix, vous commencez ainsi frénétiquement à écrire une nouvelle recherche. Elle traite d'un nouveau dispositif occulte qui permettrait d'enchanter armes et armures avec le pouvoir infini du vide.<LINE>L'enchantement n'utiliserait aucun objet additionnel contrairement à l'infusion, mais il dévorerait des quantités immenses d'XP de l'utilisateur.");
 // Adding craft
 mods.thaumcraft.Infusion.addRecipe("RESEARCH",
 /* Input                        */ <Thaumcraft:ItemThaumonomicon:0>,
-/* Ingredients                  */ [<minecraft:carpet:14>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>, <Thaumcraft:blockCosmeticSolid:0>, <Thaumcraft:blockCosmeticSolid:1>, <WitchingGadgets:WG_MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:0>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>],
+/* Ingredients                  */ [<minecraft:carpet:14>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>, <Thaumcraft:blockCosmeticSolid:0>,<WitchingGadgets:WG_MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:1>, <WitchingGadgets:WG_MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:0>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>],
 /* Essentia                     */ "alienis 42, cognitio 150, fabrico 22, lucrum 50, praecantatio 92, tenebrae 30",
 /* Output                       */ <minecraft:enchanting_table>,
 /* Instability                  */ 8);
