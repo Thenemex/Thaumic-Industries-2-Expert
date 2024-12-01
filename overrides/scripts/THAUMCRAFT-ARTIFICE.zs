@@ -109,6 +109,11 @@ mods.thaumcraft.Arcane.addShaped("ARCANEBORE",
                                   [<minecraft:iron_ingot>, <minecraft:dispenser>, <minecraft:iron_ingot>],
                                   [<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>]] );
 mods.thaumcraft.Research.refreshResearchRecipe("ARCANEBORE");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "DECONSTRUCTOR", true);
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALPICK", true);
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALSHOVEL", true);
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "JARVOID", true);
 
 # Fortress Armor
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
@@ -138,16 +143,10 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 /* Output                       */ <Thaumcraft:ItemLeggingsFortress>,
 /* Instability                  */ 4);
 mods.thaumcraft.Research.refreshResearchRecipe("ARMORFORTRESS");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ARMORFORTRESS", "ENCHFABRIC", true);
+
 
 # Aspects
 // Removing Alienis from Banners
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockWoodenDevice:8>, "arbor 3, pannus 10, fabrico 2");
-
-# Research Prereqs
-// Adding the Enchanted Fabric as prereq for the Thaumium Fortress Armor
-mods.thaumcraft.Research.addPrereq("ARMORFORTRESS", "ENCHFABRIC", true);
-// Adding the Deconstruction Table, Void Jar, Elemental Pickaxe & Elemental Shovel as prereqs for the Arcane Bore
-mods.thaumcraft.Research.addPrereq("ARCANEBORE", "DECONSTRUCTOR", true);
-mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALPICK", true);
-mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALSHOVEL", true);
-mods.thaumcraft.Research.addPrereq("ARCANEBORE", "JARVOID", true);

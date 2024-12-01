@@ -30,6 +30,17 @@ mods.thaumcraft.Crucible.addRecipe("TB.Ashroom",
 /* AspectString                 */ "lucrum 16, praecantatio 10, aer 5, ignis 5, aqua 5, terra 5, ordo 6, perditio 6");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Ashroom");
 
+# Void Block (Replacement)
+// Void Metal Anvil
+mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:voidAnvil>);
+mods.thaumcraft.Infusion.addRecipe("TB.VoidAnvil",
+/* Input                        */ <thaumicbases:thaumicAnvil>,
+/* Ingredients                  */ [<WitchingGadgets:WG_MetalDevice:7>, <WitchingGadgets:WG_MetalDevice:7>, <WitchingGadgets:WG_MetalDevice:7>, <WitchingGadgets:WG_MetalDevice:7>, <WitchingGadgets:WG_MetalDevice:7>],
+/* Essentia                     */ "fabrico 32, instrumentum 24, ordo 48, telum 24",
+/* Output                       */ <thaumicbases:voidAnvil>,
+/* Instability                  */ 4);
+mods.thaumcraft.Research.refreshResearchRecipe("TB.VoidAnvil");
+
 # Misc
 // Void Metal Block
 recipes.remove(<thaumicbases:voidBlock>);
