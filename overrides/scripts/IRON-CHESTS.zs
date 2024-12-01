@@ -176,7 +176,6 @@ mods.thaumcraft.Research.setSpikey("GOLDTOBLACK", true);
 mods.thaumcraft.Research.setConcealed("GOLDTOBLACK", true);
 // Renaming items + Warping
 mods.thaumcraft.Warp.addToResearch("GOLDTOBLACK", 5);
-mods.thaumcraft.Warp.addToItem(<IronChest:BlockIronChest:6>, 3);
 <IronChest:BlockIronChest:6>.displayName = "Black Chest";
 <IronChest:BlockIronChest:6>.addTooltip(format.red("It weights a dead whale ..."));
 

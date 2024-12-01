@@ -22,6 +22,37 @@ mods.thaumcraft.Crucible.addRecipe("VOIDMETAL",
 /* AspectString                 */ "metallum 12");
 mods.thaumcraft.Research.refreshResearchRecipe("VOIDMETAL");
 
+# Enchanting Table
+// Adding the research
+recipes.remove(<minecraft:enchanting_table>);
+mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE",
+/* TabKey                         */ "ELDRITCH",
+/* AspectList                     */ "cognitio 15, fabrico 8, lucrum 5, praecantatio 20, tenebrae 15",
+/* X                              */ 2,
+/* Y                              */ -4,
+/* Complexity                     */ 3,
+/* ItemStack                      */ <minecraft:enchanting_table>);
+game.setLocalization("tc.research_name.ENCHANTINGTABLE", "Enchanting table");
+game.setLocalization("fr_FR", "tc.research_name.ENCHANTINGTABLE", "Table d'enchantement");
+game.setLocalization("tc.research_text.ENCHANTINGTABLE", "Enchantment from the void");
+game.setLocalization("fr_FR", "tc.research_text.ENCHANTINGTABLE", "Enchantement par le vide");
+mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "tnmx.artifice.enchantingtable_1");
+game.setLocalization("tnmx.artifice.enchantingtable_1", "Whispers from the void are beginning to drive you mad");
+game.setLocalization("fr_FR", "tnmx.artifice.enchantingtable_1", "A");
+// Adding craft
+mods.thaumcraft.Infusion.addRecipe("RESEARCH",
+/* Input                        */ <Thaumcraft:ItemThaumonomicon:0>,
+/* Ingredients                  */ [<minecraft:carpet:14>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>, <Thaumcraft:blockCosmeticSolid:0>, <Thaumcraft:blockCosmeticSolid:1>, <WitchingGadgets:WG_MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:0>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>],
+/* Essentia                     */ "alienis 42, cognitio 150, fabrico 22, lucrum 50, praecantatio 92, tenebrae 30",
+/* Output                       */ <minecraft:enchanting_table>,
+/* Instability                  */ 8);
+// Prereqs
+mods.thaumcraft.Warp.addToResearch("ENCHANTINGTABLE", 4);
+mods.thaumcraft.Research.addInfusionPage("ENCHANTINGTABLE", <minecraft:enchanting_table>);
+mods.thaumcraft.Research.setConcealed("ENCHANTINGTABLE", false);
+mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "INFUSIONENCHANTMENT", true);
+mods.thaumcraft.Research.addPrereq("ENCHANTINGTABLE", "VOIDMETAL", false);
+
 # Armor
 // Voidmetal Helmet (5 Void Metal)
 recipes.remove(<Thaumcraft:ItemHelmetVoid>);
