@@ -26,7 +26,7 @@ game.setLocalization("tc.research_text.VANILLAFURNACE", "It burns !");
 game.setLocalization("fr_FR", "tc.research_text.VANILLAFURNACE", "Ca cuit !");
 mods.thaumcraft.Research.addPage("VANILLAFURNACE", "tnmx.artifice.vanillafurnace_1");
 game.setLocalization("tnmx.artifice.vanillafurnace_1", "After some struggles on your first steps through this world, you finally discover how to smelt items like your ancestors did.");
-game.setLocalization("fr_FR", "tnmx.artifice.vanillafurnace_1", "Après avoir rencontré des difficultés lors de vos premiers pas dans ce monde, vous avez enfin découvert une voie pour cuire des objets comme vos ancêtres.");
+game.setLocalization("fr_FR", "tnmx.artifice.vanillafurnace_1", "Apres avoir rencontre des difficultes lors de vos premiers pas dans ce monde, vous avez enfin decouvert une voie pour cuire des objets comme vos ancetres.");
 // Adding the craft
 mods.thaumcraft.Arcane.addShaped("VANILLAFURNACE",
 /* Output                     */ <minecraft:furnace>,
@@ -52,7 +52,7 @@ game.setLocalization("tc.research_text.IRONTOOLS", "Finally I can mine gold ..."
 game.setLocalization("fr_FR", "tc.research_text.IRONTOOLS", "Je peux enfin miner de l'or ...");
 mods.thaumcraft.Research.addPage("IRONTOOLS", "tnmx.artifice.irontools_1");
 game.setLocalization("tnmx.artifice.irontools_1", "This furnace is a bit slow, but still a blessing ! I can finally get my hand on some iron bars.<LINE>This metal is in fact pretty weak, but I need some mining tool to get the gold I need for my researchs ...<BR>So I started drawing and figured I can mine a few blocks with an iron pickaxe infused with some aspects from my wand to strengthen it.<BR>I can also make other weak tools with these bars");
-game.setLocalization("fr_FR", "tnmx.artifice.irontools_1", "Ce four est un lent à cuire les minerais, mais ça reste très utile ! Je peux enfin obtenir quelques lingots de fer.<LINE>Malheureusement ce matériau est assez fragile et peu vigoureux, mais il me faut absolument de quoi miner le peu d'or dont j'ai besoin pour mes recherches ...<BR>J'ai ainsi commencé à travailler dessus ; le résultat est une pioche en fer renforcée avec les aspects de ma baguette magique ; qui ne pourra miner que quelques blocs.<BR>D'autres outils peuvent également être fabriqués avec ces lingots.");
+game.setLocalization("fr_FR", "tnmx.artifice.irontools_1", "Ce four est un lent a cuire les minerais, mais il reste tres utile ! Je peux enfin obtenir quelques lingots de fer.<LINE>Malheureusement ce materiau est assez fragile et peu vigoureux, mais il me faut absolument de quoi miner le peu d'or dont j'ai besoin pour mes recherches ...<BR>J'ai ainsi commence a travailler dessus ; le resultat est une pioche en fer renforcee avec les aspects de ma baguette magique ; qui ne pourra miner que quelques blocs. D'autres outils peuvent egalement etre fabriques avec ces lingots.");
 // Adding the craft
 mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
 /* Output                     */ <minecraft:iron_pickaxe>,
