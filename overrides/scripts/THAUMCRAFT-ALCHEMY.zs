@@ -24,6 +24,15 @@ mods.thaumcraft.Crucible.addRecipe("NITOR",
 /* AspectString                 */ "ignis 5, lux 8, potentia 5");
 mods.thaumcraft.Research.refreshResearchRecipe("NITOR");
 
+# Tallow
+// Magic Tallow (1 Rotten Flesh = 1 Tallow)
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:4>);
+mods.thaumcraft.Crucible.addRecipe("TALLOW",
+/* OutputStack                  */ <Thaumcraft:ItemResource:4> * 2,
+/* InputStack                   */ <minecraft:rotten_flesh>,
+/* AspectString                 */ "corpus 3, praecantatio 5");
+mods.thaumcraft.Research.refreshResearchRecipe("TALLOW");
+
 # Essentia
 // Glass Phial (1 Greatwood + 1 Cluster + 3 Sand
 mods.thaumcraft.Arcane.addShaped("THAUMIUM",
