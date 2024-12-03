@@ -24,7 +24,6 @@ mods.thaumcraft.Crucible.addRecipe("NITOR",
 /* AspectString                 */ "ignis 5, lux 8, potentia 5");
 mods.thaumcraft.Research.refreshResearchRecipe("NITOR");
 
-# Tallow
 // Magic Tallow (1 Rotten Flesh = 1 Tallow)
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:4>);
 mods.thaumcraft.Crucible.addRecipe("TALLOW",
@@ -63,6 +62,16 @@ mods.thaumcraft.Arcane.addShaped("DISTILESSENTIA",
 mods.thaumcraft.Research.refreshResearchRecipe("DISTILESSENTIA");
 // Adding Thaumium as prereq
 mods.thaumcraft.Research.addPrereq("DISTILESSENTIA", "THAUMIUM", true);
+
+// Warded Jar (7 Glass + 1 Greatwood slab)
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockJar:0>);
+mods.thaumcraft.Arcane.addShaped("JARLABEL",
+/* Output                     */ <Thaumcraft:blockJar:0>,
+/* Aspects                    */ "aqua 3, ordo 1",
+/* InputArray                 */ [[<minecraft:glass_pane>, <Thaumcraft:blockCosmeticSlabWood:0>, <minecraft:glass_pane>],
+                                  [<minecraft:glass_pane>, null, <minecraft:glass_pane>],
+                                  [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]] );
+mods.thaumcraft.Research.refreshResearchRecipe("JARLABEL");
 
 # Resources
 // Thaumium (1 Iron Ingot = 8 Thaumium Nuggets)
