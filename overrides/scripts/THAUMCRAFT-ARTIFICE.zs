@@ -111,6 +111,7 @@ mods.thaumcraft.Arcane.addShaped("ARCANEBORE",
 mods.thaumcraft.Research.refreshResearchRecipe("ARCANEBORE");
 // Prereqs
 mods.thaumcraft.Research.addPrereq("ARCANEBORE", "DECONSTRUCTOR", true);
+mods.thaumcraft.Research.addPrereq("ARCANEBORE", "THAUMOMETER", true);
 mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALPICK", true);
 mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALSHOVEL", true);
 mods.thaumcraft.Research.addPrereq("ARCANEBORE", "JARVOID", true);
