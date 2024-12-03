@@ -49,6 +49,18 @@ oreDict_logWood.add(<minecraft:log:0>);
 oreDict_logWood.add(<minecraft:log:1>);
 oreDict_logWood.add(<minecraft:log:2>);
 
+# Chest
+// 1 Chest = 8 Greatwood / Silverwood Planks
+recipes.remove(<minecraft:chest>);
+recipes.addShaped(<minecraft:chest>,
+                  [[<Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockMagicalLog:0>],
+                   [<Thaumcraft:blockWoodenDevice:6>, null, <Thaumcraft:blockWoodenDevice:6>],
+                   [<Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockMagicalLog:0>]]);
+recipes.addShaped(<minecraft:chest>,
+                  [[<Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>],
+                   [<Thaumcraft:blockWoodenDevice:7>, null, <Thaumcraft:blockWoodenDevice:7>],
+                   [<Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>]]);
+
 # Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
 for i, el_wood in woodArray {
     furnace.remove(<*>, el_wood);
