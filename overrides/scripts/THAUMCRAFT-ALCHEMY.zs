@@ -34,7 +34,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("TALLOW");
 
 # Essentia
 // Glass Phial (1 Greatwood + 1 Cluster + 3 Sand
-mods.thaumcraft.Arcane.addShaped("THAUMIUM",
+mods.thaumcraft.Arcane.addShaped("PHIAL",
 /* Output                     */ <Thaumcraft:ItemEssence:0> * 2,
 /* Aspects                    */ "ignis 20, terra 10, ordo 15",
 /* InputArray                 */ [[null, <Thaumcraft:blockMagicalLog:0>, null],
