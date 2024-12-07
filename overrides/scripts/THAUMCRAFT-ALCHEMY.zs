@@ -73,7 +73,7 @@ mods.thaumcraft.Arcane.addShaped("JARLABEL",
                                   [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]] );
 mods.thaumcraft.Research.refreshResearchRecipe("JARLABEL");
 
-# Resources
+# Thaumium
 // Thaumium (1 Iron Ingot = 8 Thaumium Nuggets)
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
 mods.thaumcraft.Crucible.addRecipe("THAUMIUM",
@@ -81,7 +81,6 @@ mods.thaumcraft.Crucible.addRecipe("THAUMIUM",
 /* InputStack                   */ <minecraft:iron_ingot>, 
 /* AspectString                 */ "praecantatio 5");
 
-# Armor
 // Thaumium Helmet (5 Thaumium)
 recipes.remove(<Thaumcraft:ItemHelmetThaumium>);
 mods.thaumcraft.Arcane.addShaped("THAUMIUM",
@@ -175,5 +174,4 @@ mods.thaumcraft.Research.addCruciblePage("THAUMIUM", <Thaumcraft:ItemNugget:6>);
 for i, el_thaumTool in thaumToolsArray {
     mods.thaumcraft.Research.addArcanePage("THAUMIUM", el_thaumTool); }
 // Prereqs (Greatwood Wand Core)
-mods.thaumcraft.Research.addPrereq("THAUMIUM", "IRONPICKAXE", true);
 mods.thaumcraft.Research.addPrereq("THAUMIUM", "ROD_greatwood", true);
