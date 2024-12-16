@@ -12,6 +12,11 @@ oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:4>);
 oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:5>);
 oreDictCrystalClusters.add(<Thaumcraft:blockCrystal:6>);
 
+# Adding new oredict for Glass phials
+val oreDictGlassPhial = <ore:glassPhial>;
+oreDictGlassPhial.add(<Thaumcraft:ItemEssence:0>);
+oreDictGlassPhial.add(<minecraft:glass_bottle>);
+
 // Array of the 5 Thaumium tools + 4 Armor pieces
 var thaumToolsArray = [<Thaumcraft:ItemSwordThaumium>, <Thaumcraft:ItemPickThaumium>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemShovelThaumium>, <Thaumcraft:ItemHoeThaumium>, <Thaumcraft:ItemHelmetThaumium>, <Thaumcraft:ItemChestplateThaumium>, <Thaumcraft:ItemLeggingsThaumium>, <Thaumcraft:ItemBootsThaumium>] as IItemStack[];
 
