@@ -38,11 +38,11 @@ mods.thaumcraft.Crucible.addRecipe("TALLOW",
 mods.thaumcraft.Research.refreshResearchRecipe("TALLOW");
 
 # Essentia
-// Glass Phial (1 Greatwood + 1 Cluster + 3 Sand
+// Glass Phial (1 Wood Slab + 1 Cluster + 3 Sand)
 mods.thaumcraft.Arcane.addShaped("PHIAL",
 /* Output                     */ <Thaumcraft:ItemEssence:0> * 2,
 /* Aspects                    */ "ignis 20, terra 10, ordo 15",
-/* InputArray                 */ [[null, <Thaumcraft:blockMagicalLog:0>, null],
+/* InputArray                 */ [[null, <ore:slabWood>, null],
                                   [<ore:sand>, oreDictCrystalClusters, <ore:sand>],
                                   [null, <ore:sand>, null]] );
 // Adding the page to Phial auto-unlocked research
