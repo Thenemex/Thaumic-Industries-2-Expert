@@ -149,7 +149,7 @@ mods.thaumcraft.Research.addResearch("GOLDTOBLACK",
 game.setLocalization("tc.research_name.GOLDTOBLACK", "The Black Chest");
 game.setLocalization("fr_FR", "tc.research_name.GOLDTOBLACK", "Le Coffre Noir");
 game.setLocalization("tc.research_text.GOLDTOBLACK", "A vision through the deep dark");
-game.setLocalization("fr_FR", "tc.research_text.GOLDTOBLACK", "Une vision a travers le néant");
+game.setLocalization("fr_FR", "tc.research_text.GOLDTOBLACK", "Une vision a travers le neant");
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_1");
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_2");
 game.setLocalization("tnmx.ic.goldtoblack_1", "The voices in your head kept hurting until you finally let them take the control for a few seconds. All your papers were scattered and written with insanities about the deep void and it's resonating call ... You quickly hide all of this in your side chest to try to forget about this experience, but you are still seeing those symbols and bloody writings. <BR> After a nightmare, you woke up all sweating and you rushed to your chest to have a look at the papers inside from yesterday.");
@@ -190,7 +190,7 @@ mods.thaumcraft.Research.addResearch("BLACKTODIAMOND",
 game.setLocalization("tc.research_name.BLACKTODIAMOND", "Concealement : Diamond");
 game.setLocalization("fr_FR", "tc.research_name.BLACKTODIAMOND", "Camouflage : Diamant");
 game.setLocalization("tc.research_text.BLACKTODIAMOND", "My precious ...");
-game.setLocalization("fr_FR", "tc.research_text.BLACKTODIAMOND", "Mon précieux ...");
+game.setLocalization("fr_FR", "tc.research_text.BLACKTODIAMOND", "Mon precieux ...");
 mods.thaumcraft.Research.addPage("BLACKTODIAMOND", "tnmx.ic.blacktodiamond_1");
 game.setLocalization("tnmx.ic.blacktodiamond_1", "It would not be possible to count all the diamonds and precious stones that have been wasted in the process ... <BR> But there it is ! You succeeded in concealing and shutting the mouth of this warped void from the Black chest, into something more usual.");
 // Diamond Chest (1 Black Chest + 4 Diamonds + 3 Mirrored Glass + 1 Primal Charm
@@ -219,7 +219,7 @@ mods.thaumcraft.Research.addResearch("BLACKTOCRYSTAL",
 game.setLocalization("tc.research_name.BLACKTOCRYSTAL", "Concealement : Crystal");
 game.setLocalization("fr_FR", "tc.research_name.BLACKTOCRYSTAL", "Camouflage : Cristal");
 game.setLocalization("tc.research_text.BLACKTOCRYSTAL", "I can see the dust behind !");
-game.setLocalization("fr_FR", "tc.research_text.BLACKTOCRYSTAL", "Je vois même la poussière en dessous !");
+game.setLocalization("fr_FR", "tc.research_text.BLACKTOCRYSTAL", "Je vois meme la poussiere en dessous !");
 mods.thaumcraft.Research.addPage("BLACKTOCRYSTAL", "tnmx.ic.blacktocrystal_1");
 game.setLocalization("tnmx.ic.blacktocrystal_1", "You were so obsessed with your plan of hiding the true nature of the Black chest, that something had to go wrong ... <BR> In your quest of hiding the dark warped void ; it started to be one with the structural integrity of the chest and all the essentia you dumped within. <LINE> This chest is so clear that you can see right through it, showing the blocks hidden behind and the items you put within !");
 // Crystal Chest (1 Black Chest + 80 Vitreus)
