@@ -149,7 +149,7 @@ mods.thaumcraft.Research.addResearch("GOLDTOBLACK",
 game.setLocalization("tc.research_name.GOLDTOBLACK", "The Black Chest");
 game.setLocalization("fr_FR", "tc.research_name.GOLDTOBLACK", "Le Coffre Noir");
 game.setLocalization("tc.research_text.GOLDTOBLACK", "A vision through the deep dark");
-game.setLocalization("fr_FR", "tc.research_text.GOLDTOBLACK", "Une vision à travers le néant");
+game.setLocalization("fr_FR", "tc.research_text.GOLDTOBLACK", "Une vision a travers le néant");
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_1");
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_2");
 game.setLocalization("tnmx.ic.goldtoblack_1", "The voices in your head kept hurting until you finally let them take the control for a few seconds. All your papers were scattered and written with insanities about the deep void and it's resonating call ... You quickly hide all of this in your side chest to try to forget about this experience, but you are still seeing those symbols and bloody writings. <BR> After a nightmare, you woke up all sweating and you rushed to your chest to have a look at the papers inside from yesterday.");
