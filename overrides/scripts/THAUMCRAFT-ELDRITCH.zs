@@ -40,7 +40,7 @@ mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "tnmx.eldritch.enchantingtab
 game.setLocalization("tnmx.eldritch.enchantingtable_1", "Whispers from the void are beginning to drive you mad, but in the middle you heard a a singular voice. Guided by this voice, you started to write and conceive a device that can - in theory, enchant weapons and armory with the power of the void.<LINE>This process wouldn't use any additional items like the infusion enchantement, but will devour large amount of XP from the user.");
 game.setLocalization("fr_FR", "tnmx.eldritch.enchantingtable_1", "Les voix dans votre tete commencent a vous rendre completement fou ; mais parmi ces voix, une se distingue du reste : guide par cette voix, vous commencez ainsi frenetiquement a ecrire une nouvelle recherche. Elle traite d'un nouveau dispositif occulte qui permettrait d'enchanter armes et armures avec le pouvoir infini du vide.<LINE>L'enchantement n'utiliserait aucun objet additionnel contrairement a l'infusion, mais il devorerait des quantites immenses d'XP de l'utilisateur.");
 // Adding craft
-mods.thaumcraft.Infusion.addRecipe("RESEARCH",
+mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE",
 /* Input                        */ <Thaumcraft:ItemThaumonomicon:0>,
 /* Ingredients                  */ [<minecraft:carpet:14>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>, <Thaumcraft:blockCosmeticSolid:0>,<WitchingGadgets:WG_MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:1>, <WitchingGadgets:WG_MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:0>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>],
 /* Essentia                     */ "alienis 42, cognitio 150, fabrico 22, lucrum 50, praecantatio 92, tenebrae 30",
