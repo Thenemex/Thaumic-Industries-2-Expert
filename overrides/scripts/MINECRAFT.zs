@@ -61,6 +61,13 @@ recipes.addShaped(<minecraft:chest>,
                    [<Thaumcraft:blockWoodenDevice:7>, null, <Thaumcraft:blockWoodenDevice:7>],
                    [<Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>]]);
 
+# Wood slab bug with oreDict :
+recipes.remove(<minecraft:wooden_slab:0>);
+recipes.addShaped(<minecraft:wooden_slab:0> * 6,
+                  [[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>],
+                   [null, null, null],
+                   [null, null, null]]);
+
 # Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
 for i, el_wood in woodArray {
     furnace.remove(<*>, el_wood);
