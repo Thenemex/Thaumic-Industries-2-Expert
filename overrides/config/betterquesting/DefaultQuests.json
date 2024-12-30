@@ -754,6 +754,57 @@
         }
       },
       "rewards:9": {}
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemThaumometer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Scanning the world",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "For the last quest of the starting questline, we will ask you to make a §e§lThaumometer§r out of Gold, Shards and Glass.\nThis device allows for scanning items, blocks, entities, yourself and other players to gain new research aspects ; every thing is only scannable once !\n\nTo scan something, you must have discovered all the \"child\" aspects of the aspects contained within.\nFor exemple : you can scan Snow, as it contains §b§lGelum§r, combined from §c§lIgnis§r and §7§lPerditio§r. Or you can combine them in the research table ; two paths to choose.\nYou already know §b§lPotentia§r, §b§lVitreus§r, §2§lPermutatio§r and §lMetallum§r from your previous researchs.\n\nHere\u0027s a walkthrough / optimized path to get to tier 6 aspects and be able to scan everything without losing too much aspects :\n\n§\n§c§lVictus§r (tier 1)\n- Combine §a§lTerra§r + §b§lAqua§r\n§l§a§lHerba§r (tier 2)\n- Scan a Grass block, or combine §c§lVictus§r + §a§lTerra§\n§r\n§4§\n\n§\n§r§7§lMortuus§r (tier 2)\n- Combine §c§lVictus §r+ §r§r§7§lPerditio§r\n§r\n§l§r§lMotus§r (tier 1)\n- Scan a §nTrapdoor§r, or combine §l§e§lAer §r+ §lOrdo\n§\n§0§1§2§3§4§3§4§5§6§7§8§9§a§a§b§c§d§e§f§4§l§lBestia§r (tier 2)\n- Scan a §nSquid§r, or combine §lMotus§r + §4§l§c§lVictus§r\n§d§\n\n§7§lSpiritus§r (tier 3) and §7§lVinculum§r (tier 2)\n- Scan § §nSoul Sand§r, or combine §7§lMortuus§r + §c§lVictus§r\n- Combine §lMotus§r + §7§lPerditio§r (for the second, or scan §nAmber§r)\n§6§lCognitio§r (tier 4)\n- Scan §l§r§nPaper§r, or combine §7§lSpiritus§r + §c§lIgnis§r\n§b§lSensus§r (tier 4)\n- Scan §nFlowers§r / §nInks§r, or combine §7§lSpiritus§r + §e§lAer§r\n§lHumanus§r (tier 5)\n- Scan §nRotten Flesh§r, or combine §6§lCognitio§r + §4§lBestia§r\n§9§lInstrumentum§r (tier 6)\n- Scan §nFlint§r / §nTable§r, or combine §lHumanus§r + §lOrdo§r\n\nThere you go, you can scan almost anything ! If you are missing some aspects, try discovering them on your own or google it to find the last ones !\nYou are free to continue researchs on your own or continue to the next questline (on next update !)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:ItemThaumometer",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -835,6 +886,13 @@
           "y:3": 84,
           "id:3": 10,
           "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 48,
+          "x:3": 24,
+          "y:3": 72,
+          "id:3": 11,
+          "sizeY:3": 48
         }
       },
       "lineID:3": 0,
