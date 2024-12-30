@@ -29,18 +29,18 @@ val toolsArray = [<minecraft:golden_sword>,
                   <minecraft:diamond_hoe>,
                   <minecraft:shears>] as IItemStack[];
 val armorArray = [<minecraft:iron_helmet>,
-                         <minecraft:iron_chestplate>,
-                         <minecraft:iron_leggings>,
-                         <minecraft:iron_boots>,
-                         <minecraft:golden_helmet>,
-                         <minecraft:golden_chestplate>,
-                         <minecraft:golden_leggings>,
-                         <minecraft:golden_boots>,
-                         <minecraft:diamond_helmet>,
-                         <minecraft:diamond_chestplate>,
-                         <minecraft:diamond_leggings>,
-                         <minecraft:diamond_boots>,
-                         <minecraft:bow>] as IItemStack[];
+                  <minecraft:iron_chestplate>,
+                  <minecraft:iron_leggings>,
+                  <minecraft:iron_boots>,
+                  <minecraft:golden_helmet>,
+                  <minecraft:golden_chestplate>,
+                  <minecraft:golden_leggings>,
+                  <minecraft:golden_boots>,
+                  <minecraft:diamond_helmet>,
+                  <minecraft:diamond_chestplate>,
+                  <minecraft:diamond_leggings>,
+                  <minecraft:diamond_boots>,
+                  <minecraft:bow>] as IItemStack[];
 
 val oreDict_logWood = <ore:logWood>;
 
@@ -49,7 +49,7 @@ oreDict_logWood.add(<minecraft:log:0>);
 oreDict_logWood.add(<minecraft:log:1>);
 oreDict_logWood.add(<minecraft:log:2>);
 
-# Chest
+# Editing item crafts
 // 1 Chest = 8 Greatwood / Silverwood Planks
 recipes.remove(<minecraft:chest>);
 recipes.addShaped(<minecraft:chest>,
@@ -67,6 +67,23 @@ recipes.addShaped(<minecraft:wooden_slab:0> * 6,
                   [[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>],
                    [null, null, null],
                    [null, null, null]]);
+
+// 1 Wood -> 2 Planks
+val logsArray = [<minecraft:log:0>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2:0>, <minecraft:log2:1>, <Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockMagicalLog:1>] as IItemStack[];
+val planksArray = [<minecraft:planks:0>, <minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:3>, <minecraft:planks:4>,<minecraft:planks:5>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:7>] as IItemStack[];
+for i, el_plank in planksArray {
+    var log = logsArray[i];
+    recipes.remove(el_plank);
+    recipes.addShapeless(el_plank * 2, [log]); }
+
+// 2 Planks -> 2 Sticks
+recipes.remove(<minecraft:stick>);
+recipes.addShapedMirrored(<minecraft:stick> * 2, [[<ore:plankWood>, null],
+                                          [<ore:plankWood>, null]] );
+
+// 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
+recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
+                                                 <minecraft:iron_ore>, <minecraft:coal>] );
 
 # Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
 for i, el_wood in woodArray {
@@ -99,7 +116,7 @@ for i, el_tool in toolsArray {
 for i, el_armor in armorArray {
     el_armor.maxDamage = 10;
     el_armor.addTooltip(format.red("FOR CRAFTING ONLY"));
-    el_armor.addTooltip(format.green("Find a magical way instead !")); }
+    el_armor.addTooltip(format.green("Low durability, find a magical way instead !")); }
     
 # Aspects
 // Removing the Praecantatio in the Sculpted Sandstone
