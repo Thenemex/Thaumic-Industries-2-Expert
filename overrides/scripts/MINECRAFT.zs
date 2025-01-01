@@ -3,12 +3,19 @@
 import minetweaker.item.IItemStack;
 
 // Array of all the 6 vanilla woods (oak, spruce, birch, jungle, acacia, darkOak)
-val woodArray = [<minecraft:log:0>,
+val logsArray = [<minecraft:log:0>,
                  <minecraft:log:1>,
                  <minecraft:log:2>,
-                 <minecraft:log:3>, 
-                 <minecraft:log2:0>, 
+                 <minecraft:log:3>,
+                 <minecraft:log2:0>,
                  <minecraft:log2:1>] as IItemStack[];
+// Array of all the 6 vanilla planks
+val planksArray = [<minecraft:planks:0>,
+                   <minecraft:planks:1>,
+                   <minecraft:planks:2>,
+                   <minecraft:planks:3>,
+                   <minecraft:planks:4>,
+                   <minecraft:planks:5>] as IItemStack[];
 
 // Array of iron tools
 val ironArray = [<minecraft:iron_sword>,
@@ -42,12 +49,16 @@ val armorArray = [<minecraft:iron_helmet>,
                   <minecraft:diamond_boots>,
                   <minecraft:bow>] as IItemStack[];
 
-val oreDict_logWood = <ore:logWood>;
-
 # Adding missing vanilla logs to OreDict logWood
+val oreDict_logWood = <ore:logWood>;
 oreDict_logWood.add(<minecraft:log:0>);
 oreDict_logWood.add(<minecraft:log:1>);
 oreDict_logWood.add(<minecraft:log:2>);
+
+# Added new oreDict for mundane wood planks
+val oreDictMundaneWoodPlanks = <ore:mundaneWoodPlanks>;
+for i, el_mundanePlank in planksArray {
+    oreDictMundaneWoodPlanks.add(el_mundanePlank); }
 
 # Editing item crafts
 // 1 Chest = 8 Greatwood / Silverwood Planks
@@ -62,15 +73,22 @@ recipes.addShaped(<minecraft:chest>,
                    [<Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>]]);
 
 # Wood slab bug with oreDict :
+// Added the three lines on the crafting table
 recipes.remove(<minecraft:wooden_slab:0>);
 recipes.addShaped(<minecraft:wooden_slab:0> * 6,
                   [[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>],
                    [null, null, null],
                    [null, null, null]]);
+recipes.addShaped(<minecraft:wooden_slab:0> * 6,
+                  [[null, null, null],
+                   [<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>],
+                   [null, null, null]]);
+recipes.addShaped(<minecraft:wooden_slab:0> * 6,
+                  [[null, null, null],
+                   [null, null, null],
+                   [<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>]]);
 
 // 1 Wood -> 2 Planks
-val logsArray = [<minecraft:log:0>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2:0>, <minecraft:log2:1>, <Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockMagicalLog:1>] as IItemStack[];
-val planksArray = [<minecraft:planks:0>, <minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:3>, <minecraft:planks:4>,<minecraft:planks:5>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:7>] as IItemStack[];
 for i, el_plank in planksArray {
     var log = logsArray[i];
     recipes.remove(el_plank);
@@ -78,8 +96,9 @@ for i, el_plank in planksArray {
 
 // 2 Planks -> 2 Sticks
 recipes.remove(<minecraft:stick>);
-recipes.addShapedMirrored(<minecraft:stick> * 2, [[<ore:plankWood>, null],
-                                          [<ore:plankWood>, null]] );
+recipes.addShapedMirrored(<minecraft:stick> * 2,
+                          [[oreDictMundaneWoodPlanks, null],
+                           [oreDictMundaneWoodPlanks, null]]);
 
 // 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
 recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
@@ -91,7 +110,7 @@ recipes.addShapeless(<minecraft:paper> * 3,
                      [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]);
 
 # Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
-for i, el_wood in woodArray {
+for i, el_wood in logsArray {
     furnace.remove(<*>, el_wood);
     furnace.addRecipe(<minecraft:coal:1>, el_wood); }
     
