@@ -10,6 +10,11 @@ oreDictShards.add(<Thaumcraft:ItemShard:4>);
 oreDictShards.add(<Thaumcraft:ItemShard:5>);
 oreDictShards.add(<Thaumcraft:ItemShard:6>);
 
+# Adding new oredict for Coal/Charcoal blocks
+val oreDictCoalBlocks = <ore:allCoalBlocks>;
+oreDictCoalBlocks.add(<minecraft:coal_block>);
+oreDictCoalBlocks.add(<GardenStuff:stone_block>);
+
 # Furnace
 // Adding the research
 recipes.remove(<minecraft:furnace>);
@@ -33,7 +38,7 @@ mods.thaumcraft.Arcane.addShaped("VANILLAFURNACE",
 /* Aspects                    */ "ignis 10, ordo 5, perditio 5, terra 10",
 /* InputArray                 */ [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
                                   [<minecraft:cobblestone>, oreDictShards, <minecraft:cobblestone>],
-                                  [<minecraft:cobblestone>, <ore:blockCoal>, <minecraft:cobblestone>]] );
+                                  [<minecraft:cobblestone>, oreDictCoalBlocks, <minecraft:cobblestone>]] );
 mods.thaumcraft.Research.addArcanePage("VANILLAFURNACE", <minecraft:furnace>);
 
 # Iron Tools
