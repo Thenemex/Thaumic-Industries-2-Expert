@@ -127,7 +127,7 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetFortress>);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 /* Input                        */ <Thaumcraft:ItemHelmetThaumium>,
 /* Ingredients                  */ [<minecraft:emerald>, <minecraft:blaze_rod>, <minecraft:gold_ingot>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>, <minecraft:blaze_rod>],
-/* Essentia                     */ "metallum 48, tutamen 32, praecantatio 40, sensus 16",
+/* Essentia                     */ "metallum 48, tutamen 16, praecantatio 40, sensus 16",
 /* Output                       */ <Thaumcraft:ItemHelmetFortress>,
 /* Instability                  */ 4);
 
@@ -136,7 +136,7 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemChestplateFortress>);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 /* Input                        */ <Thaumcraft:ItemChestplateThaumium>,
 /* Ingredients                  */ [<Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:7>, <minecraft:gold_ingot>, <Thaumcraft:ItemBaubleBlanks:2>, <minecraft:gold_ingot>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>],
-/* Essentia                     */ "metallum 72, tutamen 48, praecantatio 40, sensus 24",
+/* Essentia                     */ "metallum 72, tutamen 24, praecantatio 40, sensus 24",
 /* Output                       */ <Thaumcraft:ItemChestplateFortress>,
 /* Instability                  */ 4);
 
@@ -145,7 +145,7 @@ mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemLeggingsFortress>);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 /* Input                        */ <Thaumcraft:ItemLeggingsThaumium>,
 /* Ingredients                  */ [<minecraft:gold_ingot>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:7>],
-/* Essentia                     */ "metallum 60, tutamen 40, praecantatio 40, sensus 20",
+/* Essentia                     */ "metallum 60, tutamen 20, praecantatio 40, sensus 20",
 /* Output                       */ <Thaumcraft:ItemLeggingsFortress>,
 /* Instability                  */ 4);
 mods.thaumcraft.Research.refreshResearchRecipe("ARMORFORTRESS");
