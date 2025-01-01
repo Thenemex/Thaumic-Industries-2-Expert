@@ -40,6 +40,11 @@ mods.thaumcraft.Arcane.addShaped("VANILLAFURNACE",
                                   [<minecraft:cobblestone>, oreDictShards, <minecraft:cobblestone>],
                                   [<minecraft:cobblestone>, oreDictCoalBlocks, <minecraft:cobblestone>]] );
 mods.thaumcraft.Research.addArcanePage("VANILLAFURNACE", <minecraft:furnace>);
+recipes.addShaped(<minecraft:furnace>,
+                  [[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>],
+                   [<Thaumcraft:blockCosmeticSolid:6>, null, <Thaumcraft:blockCosmeticSolid:6>],
+                   [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]]);
+mods.thaumcraft.Research.addCraftingPage("VANILLAFURNACE", <minecraft:furnace>);
 
 # Iron Tools
 recipes.remove(<minecraft:iron_pickaxe>);
