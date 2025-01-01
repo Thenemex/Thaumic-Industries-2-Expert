@@ -85,6 +85,11 @@ recipes.addShapedMirrored(<minecraft:stick> * 2, [[<ore:plankWood>, null],
 recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
                                                  <minecraft:iron_ore>, <minecraft:coal>] );
 
+# Making paper in by hand (2x2 Shapeless)
+recipes.remove(<minecraft:paper>);
+recipes.addShapeless(<minecraft:paper> * 3,
+                     [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]);
+
 # Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
 for i, el_wood in woodArray {
     furnace.remove(<*>, el_wood);
