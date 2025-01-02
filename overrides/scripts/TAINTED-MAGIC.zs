@@ -4,6 +4,12 @@ import minetweaker.item.IItemStack;
 
 var shadowToolsArray = [<TaintedMagic:ItemShadowmetalSword>, <TaintedMagic:ItemShadowmetalPick>, <TaintedMagic:ItemShadowmetalAxe>, <TaintedMagic:ItemShadowmetalSpade>, <TaintedMagic:ItemShadowmetalHoe>] as IItemStack[];
 
+# Aspects
+// Adding Alienis to Warpwood Log and Sapling
+mods.thaumcraft.Aspects.set(<TaintedMagic:BlockWarpwoodLog>, "arbor 3, alienis 1");
+mods.thaumcraft.Aspects.set(<TaintedMagic:BlockWarpwoodSapling>, "herba 2, arbor 1, alienis 1");
+
+
 # Blades
 // Thaumium Fortress Blade (1 Thaumium Blade + 1 Primal Charm + 1 Obsidian Staff + 4 Thaumium + 2 Gold Block + 2 Block of Quicksilver + 2 Emerald)
 mods.thaumcraft.Infusion.removeRecipe(<TaintedMagic:ItemKatana:0>);
@@ -95,7 +101,7 @@ mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
                                   [<TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:15>, null],
                                   [null, <Thaumcraft:WandRod:51>, null]] );
 
-// Shadowmetal Shover (1.2 Shadowmetal + 1 Obsidian Staff + 1 Primal Charm)
+// Shadowmetal Shovel (1.2 Shadowmetal + 1 Obsidian Staff + 1 Primal Charm)
 recipes.remove(<TaintedMagic:ItemShadowmetalSpade>);
 mods.thaumcraft.Arcane.addShaped("SHADOWMETAL",
 /* Output                     */ <TaintedMagic:ItemShadowmetalSpade>,
@@ -123,7 +129,6 @@ game.setLocalization("tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETA
 mods.thaumcraft.Research.addCruciblePage("SHADOWMETAL", <TaintedMagic:ItemMaterial:0>);
 for i, el_shadowTool in shadowToolsArray {
     mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", el_shadowTool); }
-    
 # Research Prereqs
 // Adding the Obsidian Staff as prereqs for the Shadow Metal
 mods.thaumcraft.Research.addPrereq("SHADOWMETAL", "ROD_obsidian_staff", true);
