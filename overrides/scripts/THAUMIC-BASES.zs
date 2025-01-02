@@ -30,6 +30,17 @@ mods.thaumcraft.Crucible.addRecipe("TB.Ashroom",
 /* AspectString                 */ "lucrum 16, praecantatio 10, aer 5, ignis 5, aqua 5, terra 5, ordo 6, perditio 6");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Ashroom");
 
+# Wands nerf
+// Thaumic Wand Rod (3 Thaumium Block + 4 Salis Mundis
+mods.thaumcraft.Arcane.removeRecipe(<thaumicbases:resource:3>);
+mods.thaumcraft.Arcane.addShaped("ROD_tbthaumium",
+/* Output                     */ <thaumicbases:resource:3>,
+/* Aspects                    */ "aer 180, aqua 180, terra 180, ignis 180, ordo 180, perditio 180",
+/* InputArray                 */ [[null, <Thaumcraft:ItemResource:14>, <Thaumcraft:blockCosmeticSolid:4>],
+                                  [<Thaumcraft:ItemResource:14>, <Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:14>],
+                                  [<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:14>, null]] );
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_tbthaumium");
+
 # Void Block (Replacement)
 // Void Metal Anvil
 mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:voidAnvil>);
