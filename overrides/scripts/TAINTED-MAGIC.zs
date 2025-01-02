@@ -5,10 +5,13 @@ import minetweaker.item.IItemStack;
 var shadowToolsArray = [<TaintedMagic:ItemShadowmetalSword>, <TaintedMagic:ItemShadowmetalPick>, <TaintedMagic:ItemShadowmetalAxe>, <TaintedMagic:ItemShadowmetalSpade>, <TaintedMagic:ItemShadowmetalHoe>] as IItemStack[];
 
 # Aspects
-// Adding Alienis to Warpwood Log and Sapling
-mods.thaumcraft.Aspects.set(<TaintedMagic:BlockWarpwoodLog>, "arbor 3, alienis 1");
-mods.thaumcraft.Aspects.set(<TaintedMagic:BlockWarpwoodSapling>, "herba 2, arbor 1, alienis 1");
-
+mods.thaumcraft.Aspects.set(<TaintedMagic:BlockWarpwoodLog>, "arbor 3, alienis 1"); // Warpwood
+mods.thaumcraft.Aspects.set(<TaintedMagic:BlockWarpwoodSapling>, "herba 2, arbor 1, alienis 1"); // Warpwood Sapling
+mods.thaumcraft.Aspects.set(<TaintedMagic:BlockWarpwoodLeaves>, "herba 1"); // Warped Leaves
+mods.thaumcraft.Aspects.set(<TaintedMagic:ItemMaterial:8>, "metallum 1"); // Shadowmetal Nugget
+mods.thaumcraft.Aspects.set(<TaintedMagic:BlockNightshadeBush>, "herba 2, praecantatio 2, venenum 2"); // Atropa Belladonna
+mods.thaumcraft.Aspects.set(<TaintedMagic:ItemNightshadeBerries>, "fames 2, mortuus 3, venenum 2"); // Nightshade Berries
+mods.thaumcraft.Aspects.set(<TaintedMagic:ItemCrimsonBlood>, "alienis 1, tenebrae 3, vacuos 3, ordo 2, perditio 3"); // Phial of Crimson Blood
 
 # Blades
 // Thaumium Fortress Blade (1 Thaumium Blade + 1 Primal Charm + 1 Obsidian Staff + 4 Thaumium + 2 Gold Block + 2 Block of Quicksilver + 2 Emerald)
