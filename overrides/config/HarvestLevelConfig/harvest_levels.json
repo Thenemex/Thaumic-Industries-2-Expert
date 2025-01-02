@@ -36,6 +36,20 @@
       }
     },
     {
+      "name": "minecraft:glowstone",
+      "metadata": -1,
+      "tools": {
+        "pickaxe": 3
+      }
+    },
+    {
+      "name": "minecraft:enchanting_table",
+      "metadata": -1,
+      "tools": {
+        "pickaxe": 3
+      }
+    },
+    {
       "name": "minecraft:emerald_ore",
       "metadata": -1,
       "tools": {
@@ -44,13 +58,6 @@
     },
     {
       "name": "minecraft:ender_chest",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 3
-      }
-    },
-    {
-      "name": "minecraft:enchanting_table",
       "metadata": -1,
       "tools": {
         "pickaxe": 3
