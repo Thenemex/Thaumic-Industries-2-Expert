@@ -154,10 +154,10 @@ mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_1");
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_2");
 game.setLocalization("tnmx.ic.goldtoblack_1", "The voices in your head kept hurting until you finally let them take the control for a few seconds. All your papers were scattered and written with insanities about the deep void and it's resonating call ... You quickly hide all of this in your side chest to try to forget about this experience, but you are still seeing those symbols and bloody writings. <BR> After a nightmare, you woke up all sweating and you rushed to your chest to have a look at the papers inside from yesterday.");
 game.setLocalization("tnmx.ic.goldtoblack_2", "They were all bathing in flux, and one of them got it's writing changed to a drawing of a dark chest ; even the light of a nitor on your research table can't light this drawing, like it was made of something else, something from the void ... <LINE>");
-// Black Chest (1 Gold Chest + 1 Silver Chest + 1 Focus : Portable Hole + 4 Void Metal + 4 Shadowmetal)
+// Black Chest (1 Gold Chest + 1 Silver Chest + 1 Focus : Portable Hole + 4 Void Metal + 4 Shadowmetal + 2 Obsidian Tiles)
 mods.thaumcraft.Infusion.addRecipe("GOLDTOBLACK",
 /* Input                        */ <IronChest:BlockIronChest:1>,
-/* Ingredients                  */ [<IronChest:BlockIronChest:4>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:0>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>, <Thaumcraft:FocusPortableHole>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:0>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>],
+/* Ingredients                  */ [<IronChest:BlockIronChest:4>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:1>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>, <Thaumcraft:FocusPortableHole>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:1>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>],
 /* Essentia                     */ "alienis 32, metallum 50, permutatio 15, praecantatio 20, tenebrae 28, vacuos 22",
 /* Output                       */ <IronChest:BlockIronChest:6>,
 /* Instability                  */ 8);
@@ -226,7 +226,7 @@ game.setLocalization("tnmx.ic.blacktocrystal_1", "You were so obsessed with your
 mods.thaumcraft.Crucible.addRecipe("BLACKTOCRYSTAL",
 /* OutputStack                  */ <IronChest:BlockIronChest:5>,
 /* InputStack                   */ <IronChest:BlockIronChest:6>,
-/* AspectString                 */ "alienis 12, fabrico 20, ordo 24, tenebrae 8, vitreus 80");
+/* AspectString                 */ "fabrico 10, ordo 15, tenebrae 8, vitreus 42");
 mods.thaumcraft.Research.addCruciblePage("BLACKTOCRYSTAL", <IronChest:BlockIronChest:5>);
 // Setting aspects
 mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:5>, "vitreus 15, fabrico 8, ordo 5");
