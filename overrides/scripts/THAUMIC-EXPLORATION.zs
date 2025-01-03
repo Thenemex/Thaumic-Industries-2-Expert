@@ -13,3 +13,15 @@ mods.thaumcraft.Research.refreshResearchRecipe("METEORBOOTS");
 mods.thaumcraft.Research.addPrereq("METEORBOOTS", "BRIGHT_NITOR", true);
 mods.thaumcraft.Research.addPrereq("METEORBOOTS", "FOCUSFIRE", true);
 mods.thaumcraft.Research.addPrereq("METEORBOOTS", "FOCUSHELLBAT", true);
+
+# Wand cores
+// Transmutative Wand Core (1 Primal Charm + 1 Wand Focus: Primal + 3 Salis Mundis + 4 Balanced Shards + 1 of each Shard
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicExploration:transmutationCore>);
+mods.thaumcraft.Infusion.addRecipe("ROD_TRANSMUTATION",
+/* Input                        */ <Thaumcraft:ItemResource:15>,
+/* Ingredients                  */ [<Thaumcraft:FocusPrimal>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemShard:0>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>, <Thaumcraft:ItemShard:6>, <Thaumcraft:ItemResource:14>],
+/* Essentia                     */ "praecantatio 80, permutatio 48, auram 122, lucrum 25, instrumentum 76",
+/* Output                       */ <ThaumicExploration:transmutationCore>,
+/* Instability                  */ 12);
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_TRANSMUTATION");
+mods.thaumcraft.Research.addPrereq("METEORBOOTS", "FOCUSPRIMAL", true);
