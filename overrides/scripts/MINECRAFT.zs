@@ -16,6 +16,20 @@ val planksArray = [<minecraft:planks:0>,
                    <minecraft:planks:3>,
                    <minecraft:planks:4>,
                    <minecraft:planks:5>] as IItemStack[];
+// Array of magical wood logs
+val magicalLogsArray = [<Thaumcraft:blockMagicalLog:0>, // Greatwood
+                        <Thaumcraft:blockMagicalLog:1>, // Silverwood
+                        <ForbiddenMagic:TaintLog>, // Tainted [FB]
+                        <TaintedMagic:BlockWarpwoodLog>, // Warpwood [TM]
+                        <thaumicbases:genLogs:2>, // Ender [TB]
+                        ] as IItemStack[];
+// Array of magical wood planks (associated with their log upper)
+val magicalPlanksArray = [<Thaumcraft:blockWoodenDevice:6>, // Greatwood
+                          <Thaumcraft:blockWoodenDevice:7>, // Silverwood
+                          <ForbiddenMagic:TaintPlank>, // Tainted [FB]
+                          <TaintedMagic:BlockWarpwoodPlanks>, // Warpwood [TM]
+                          <thaumicbases:enderPlanks>, // Ender [TB]
+                          ] as IItemStack[];
 
 // Array of iron tools
 val ironArray = [<minecraft:iron_sword>,
@@ -60,6 +74,11 @@ val oreDictMundaneWoodPlanks = <ore:mundaneWoodPlanks>;
 for i, el_mundanePlank in planksArray {
     oreDictMundaneWoodPlanks.add(el_mundanePlank); }
 
+# Added new oreDict for magical wood planks
+val oreDictMagicalWoodPlanks = <ore:magicalWoodPlanks>;
+for i, el_magicalPlank in magicalPlanksArray {
+    oreDictMagicalWoodPlanks.add(el_magicalPlank); }
+
 # Editing item crafts
 // 1 Chest = 8 Greatwood / Silverwood Planks
 recipes.remove(<minecraft:chest>);
@@ -71,6 +90,39 @@ recipes.addShaped(<minecraft:chest>,
                   [[<Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>],
                    [<Thaumcraft:blockWoodenDevice:7>, null, <Thaumcraft:blockWoodenDevice:7>],
                    [<Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>]]);
+
+// 1 Wood -> 2 Planks
+for i, el_plank in planksArray {
+    var log = logsArray[i];
+    recipes.remove(el_plank);
+    recipes.addShapeless(el_plank * 2, [log]); }
+
+// 1 Magical Wood = 3 Planks
+for i, el_plank in magicalPlanksArray {
+    var log = magicalLogsArray[i];
+    recipes.remove(el_plank);
+    recipes.addShapeless(el_plank * 3, [log]); }
+recipes.addShapeless(<minecraft:planks:1> * 3, [<thaumicbases:genLogs:1>]); // Nether [TB]
+recipes.addShapeless(<minecraft:planks:2> * 3, [<thaumicbases:genLogs:0>]); // Peaceful [TB]
+
+// 2 Planks -> 2 Sticks
+recipes.remove(<minecraft:stick>);
+recipes.addShapedMirrored(<minecraft:stick> * 2,
+                          [[oreDictMundaneWoodPlanks, null],
+                           [oreDictMundaneWoodPlanks, null]]);
+// 2 Magical Planks = 3 Sticks
+recipes.addShapedMirrored(<minecraft:stick> * 3,
+                          [[oreDictMagicalWoodPlanks, null],
+                           [oreDictMagicalWoodPlanks, null]]);
+
+// 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
+recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
+                                                 <minecraft:iron_ore>, <minecraft:coal>] );
+
+# Making paper in by hand (2x2 Shapeless)
+recipes.remove(<minecraft:paper>);
+recipes.addShapeless(<minecraft:paper> * 3,
+                     [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]);
 
 # Wood slab bug with oreDict :
 // Added the three lines on the crafting table
@@ -87,27 +139,6 @@ recipes.addShaped(<minecraft:wooden_slab:0> * 6,
                   [[null, null, null],
                    [null, null, null],
                    [<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>]]);
-
-// 1 Wood -> 2 Planks
-for i, el_plank in planksArray {
-    var log = logsArray[i];
-    recipes.remove(el_plank);
-    recipes.addShapeless(el_plank * 2, [log]); }
-
-// 2 Planks -> 2 Sticks
-recipes.remove(<minecraft:stick>);
-recipes.addShapedMirrored(<minecraft:stick> * 2,
-                          [[oreDictMundaneWoodPlanks, null],
-                           [oreDictMundaneWoodPlanks, null]]);
-
-// 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
-recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
-                                                 <minecraft:iron_ore>, <minecraft:coal>] );
-
-# Making paper in by hand (2x2 Shapeless)
-recipes.remove(<minecraft:paper>);
-recipes.addShapeless(<minecraft:paper> * 3,
-                     [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]);
 
 # Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
 for i, el_wood in logsArray {
