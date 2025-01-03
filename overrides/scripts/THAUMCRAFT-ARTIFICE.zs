@@ -63,7 +63,8 @@ game.setLocalization("fr_FR", "tc.research_text.IRONTOOLS", "Je peux enfin miner
 mods.thaumcraft.Research.addPage("IRONTOOLS", "tnmx.artifice.irontools_1");
 game.setLocalization("tnmx.artifice.irontools_1", "This furnace is a bit slow, but still a blessing ! I can finally get my hand on some iron bars.<LINE>This metal is in fact pretty weak, but I need some mining tool to get the gold I need for my researchs ...<BR>So I started drawing and figured I can mine a few blocks with an iron pickaxe infused with some aspects from my wand to strengthen it.<BR>I can also make other weak tools with these bars");
 game.setLocalization("fr_FR", "tnmx.artifice.irontools_1", "Ce four est un lent a cuire les minerais, mais il reste tres utile ! Je peux enfin obtenir quelques lingots de fer.<LINE>Malheureusement ce materiau est assez fragile et peu vigoureux, mais il me faut absolument de quoi miner le peu d'or dont j'ai besoin pour mes recherches ...<BR>J'ai ainsi commence a travailler dessus ; le resultat est une pioche en fer renforcee avec les aspects de ma baguette magique ; qui ne pourra miner que quelques blocs. D'autres outils peuvent egalement etre fabriques avec ces lingots.");
-// Adding the craft
+// Adding the crafts
+// Iron Pickaxe (3.2 Iron + 2 sticks)
 mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
 /* Output                     */ <minecraft:iron_pickaxe>,
 /* Aspects                    */ "aer 2, ordo 6, perditio 5, terra 10",
@@ -71,6 +72,7 @@ mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
                                   [null, <minecraft:stick>, <minecraft:iron_ingot>],
                                   [<minecraft:stick>, null, <ore:nuggetIron>]] );
 mods.thaumcraft.Research.addArcanePage("IRONTOOLS", <minecraft:iron_pickaxe>);
+// Iron Axe (3.1 Iron + 2 sticks)
 mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
 /* Output                     */ <minecraft:iron_axe>,
 /* Aspects                    */ "aer 2, ordo 5, perditio 4, terra 8",
@@ -78,6 +80,15 @@ mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
                                   [<minecraft:iron_ingot>, <minecraft:stick>, null],
                                   [null, <minecraft:stick>, null]] );
 mods.thaumcraft.Research.addArcanePage("IRONTOOLS", <minecraft:iron_axe>);
+// Iron Bucket (3.2 Iron)
+recipes.remove(<minecraft:bucket>);
+mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
+/* Output                     */ <minecraft:bucket>,
+/* Aspects                    */ "terra 3, ordo 2, aer 3",
+/* InputArray                 */ [[<ore:nuggetIron>, null, <ore:nuggetIron>],
+                                  [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
+                                  [null, <minecraft:iron_ingot>, null]] );
+mods.thaumcraft.Research.addArcanePage("IRONTOOLS", <minecraft:bucket>);
 // Prereqs
 mods.thaumcraft.Research.addPrereq("IRONTOOLS", "VANILLAFURNACE", false);
 
