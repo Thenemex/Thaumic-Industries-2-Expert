@@ -24,4 +24,4 @@ mods.thaumcraft.Infusion.addRecipe("ROD_TRANSMUTATION",
 /* Output                       */ <ThaumicExploration:transmutationCore>,
 /* Instability                  */ 12);
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_TRANSMUTATION");
-mods.thaumcraft.Research.addPrereq("METEORBOOTS", "FOCUSPRIMAL", true);
+mods.thaumcraft.Research.addPrereq("ROD_TRANSMUTATION", "FOCUSPRIMAL", true);
