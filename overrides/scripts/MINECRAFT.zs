@@ -176,3 +176,8 @@ for i, el_armor in armorArray {
 # Aspects
 // Removing the Praecantatio in the Sculpted Sandstone
 mods.thaumcraft.Aspects.set(<minecraft:sandstone:1>, "perditio 3, terra 3");
+// Slabs
+mods.thaumcraft.Aspects.set(<minecraft:stone_slab:0>, "terra 1"); // Stone
+mods.thaumcraft.Aspects.set(<minecraft:stone_slab:3>, "terra 1, perditio 1"); // Cobblestone
+mods.thaumcraft.Aspects.set(<minecraft:stone_slab:5>, "terra 1"); // Stone Bricks
+mods.thaumcraft.Aspects.set(<minecraft:stone_slab:6>, "terra 1, ignis 1"); // Nether Brick
