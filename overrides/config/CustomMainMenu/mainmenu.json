@@ -21,7 +21,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : -40,
+            "posY" : -70,
             "width" : 196,
             "height" : 30,
 			imageWidth : 100,
@@ -41,7 +41,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : -10,
+            "posY" : -40,
             "width" : 196,
             "height" : 30,
 			imageWidth : 100,
@@ -61,7 +61,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : 30,
+            "posY" : 0,
             "width" : 196,
             "height" : 20,
 			imageWidth : 100,
@@ -73,22 +73,22 @@
                 "gui" : "options"
             }
         },
-		        
-		"language":
+
+        "discord":
         {
-            "text" : "options.language",
-			"texture" : "Textures:btn.png",
+            "text" : "Discord",
+            "texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : 50,
+            "posY" : 20,
             "width" : 196,
             "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,			
-			"alignment" : "left_center",
-            "action" : 
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "action" :
             {
-                "type" : "openGui",
-                "gui" : "languages"
+                "type": "openLink",
+                "link": "" // ToDo Server Discord Link
             }
         },
                     
@@ -99,7 +99,7 @@
 			"hoverTextColor" : 14483456,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : 70,
+            "posY" : 40,
             "width" : 196,
             "height" : 20,
 			imageWidth : 100,
@@ -119,8 +119,8 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : 100,
-            "width" : 96,
+            "posY" : 70,
+            "width" : 196,
             "height" : 20,
 			imageWidth : 100,
 			imageHeight : 50,
@@ -150,20 +150,11 @@
     
     "texts":
     {
-        "mojang":
-        {
-            "text" : "  Forge #forgeversion# pour Minecraft #mcversion# - Copyright Mojang AB.",
-            "posX" : 2,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        },
-        
-		"packTxt":
+        "packTxt":
         {
             "text" : " Thaumic Industries 2 - Expert - v2.6.1.3",
             "posX" : 2,
-            "posY" : -25,
+            "posY" : -12,
             "color" : -1,
             "alignment" : "bottom_left"
         }
