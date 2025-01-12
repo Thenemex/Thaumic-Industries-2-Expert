@@ -12,5 +12,11 @@ https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relati
 ### Helpers & Authors
 Project leaded by Thenemex
 
-Big thanks to my testers :
- - AQUOI-LORDE, BaIzD1ThOn, CloudyOrangeFox, HypeShadow, NexWiz, Pokebulbbi, 5parte, Vertf
+Founders of the pack :
+ - AQUOI-LORDE, NexWiz and myself
+
+Big thanks to my close testers :
+ - BaIzD1ThOn, HypeShadow, Pokebulbbi, 5parte, Vertf
+
+And also huge thanks to the online players who submitted and shared opinions & reports about the pack that made it through development :
+- CloudyOrangeFox, goofy_fermat5688369, hron84
