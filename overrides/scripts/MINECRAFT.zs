@@ -80,12 +80,12 @@ for i, el_magicalPlank in magicalPlanksArray {
     oreDictMagicalWoodPlanks.add(el_magicalPlank); }
 
 # Editing item crafts
-// 1 Chest = 8 Greatwood / Silverwood Planks
+// 1 Chest = 8 Greatwood Logs / 8 Silverwood Planks
 recipes.remove(<minecraft:chest>);
-recipes.addShaped(<minecraft:chest>,
-                  [[<Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockMagicalLog:0>],
-                   [<Thaumcraft:blockWoodenDevice:6>, null, <Thaumcraft:blockWoodenDevice:6>],
-                   [<Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockMagicalLog:0>]]);
+recipes.addShaped(<minecraft:chest> * 2,
+                  [[<Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockMagicalLog:0>],
+                   [<Thaumcraft:blockMagicalLog:0>, null, <Thaumcraft:blockMagicalLog:0>],
+                   [<Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockMagicalLog:0>]]);
 recipes.addShaped(<minecraft:chest>,
                   [[<Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>],
                    [<Thaumcraft:blockWoodenDevice:7>, null, <Thaumcraft:blockWoodenDevice:7>],
