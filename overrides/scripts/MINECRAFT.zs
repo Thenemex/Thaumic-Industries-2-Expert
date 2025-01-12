@@ -30,6 +30,37 @@ val magicalPlanksArray = [<Thaumcraft:blockWoodenDevice:6>, // Greatwood
                           <TaintedMagic:BlockWarpwoodPlanks>, // Warpwood [TM]
                           <thaumicbases:enderPlanks>, // Ender [TB]
                           ] as IItemStack[];
+// Array of stairs
+val stairsArray = [<minecraft:oak_stairs>, // Vanilla
+                   <minecraft:spruce_stairs>,
+                   <minecraft:birch_stairs>,
+                   <minecraft:jungle_stairs>,
+                   <minecraft:acacia_stairs>,
+                   <minecraft:dark_oak_stairs>,
+                   <minecraft:stone_stairs>,
+                   <minecraft:stone_brick_stairs>,
+                   <minecraft:brick_stairs>,
+                   <minecraft:sandstone_stairs>,
+                   <minecraft:quartz_stairs>,
+                   <minecraft:nether_brick_stairs>,
+                   <Thaumcraft:blockStairsGreatwood>, // Thaumcraft
+                   <Thaumcraft:blockStairsSilverwood>,
+                   <Thaumcraft:blockStairsArcaneStone>] as IItemStack[];
+val stairsComponentArray = [<minecraft:planks:0>, // Vanilla
+                            <minecraft:planks:1>,
+                            <minecraft:planks:2>,
+                            <minecraft:planks:3>,
+                            <minecraft:planks:4>,
+                            <minecraft:planks:5>,
+                            <minecraft:cobblestone>,
+                            <minecraft:stonebrick:0>,
+                            <minecraft:brick_block>,
+                            <minecraft:sandstone>,
+                            <minecraft:quartz_block:0>,
+                            <minecraft:nether_brick>,
+                            <Thaumcraft:blockWoodenDevice:6>, // Thaumcraft
+                            <Thaumcraft:blockWoodenDevice:7>,
+                            <Thaumcraft:blockCosmeticSolid:7>] as IItemStack[];
 
 // Array of iron tools
 val ironArray = [<minecraft:iron_sword>,
@@ -118,6 +149,14 @@ recipes.addShapedMirrored(<minecraft:stick> * 3,
 // 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
 recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
                                                  <minecraft:iron_ore>, <minecraft:coal>] );
+
+// Stairs
+for i, el_component in stairsComponentArray {
+    recipes.remove(stairsArray[i]);
+    recipes.addShapedMirrored(stairsArray[i] * 8,
+                              [[el_component, null, null],
+                              [el_component, el_component, null],
+                              [el_component, el_component, el_component]]); }
 
 # Making paper in by hand (2x2 Shapeless)
 recipes.remove(<minecraft:paper>);
