@@ -82,36 +82,6 @@ mods.thaumcraft.Research.addPrereq("WOODTOCOPPER", "HUNGRYCHEST", true);
 mods.thaumcraft.Research.setSecondary("WOODTOCOPPER", true);
 mods.thaumcraft.Research.setConcealed("WOODTOCOPPER", true);
 
-# Adding a craft & research for the Gold Chest
-// Adding the research (English + French)
-mods.thaumcraft.Research.addResearch("IRONTOGOLD",
-/* TabKey                         */ "IRONCHEST",
-/* AspectList                     */ "fabrico 4, lucrum 5, metallum 6, ordo 3, vacuos 10",
-/* X                              */ 3,
-/* Y                              */ -1,
-/* Complexity                     */ 2,
-/* ItemStack                      */ <IronChest:BlockIronChest:1>);
-game.setLocalization("tc.research_name.IRONTOGOLD", "Gold Chest");
-game.setLocalization("fr_FR", "tc.research_name.IRONTOGOLD", "Coffre en Or");
-game.setLocalization("tc.research_text.IRONTOGOLD", "Oh baby a triple!");
-mods.thaumcraft.Research.addPage("IRONTOGOLD", "tnmx.ic.irontogold_1");
-game.setLocalization("tnmx.ic.irontogold_1", "By taking your iron chest and trying to use a more easy-to-work metal than iron - the precious gold, you reached an even more interesting result. This chest thanks to the properties of gold and magic, is three times more bigger than a mundane chest.");
-game.setLocalization("fr_FR", "tnmx.ic.irontogold_1", "En experimentant avec votre coffre en fer et un metal davantage malleable - l'or, vous avez atteint un nouveau stade encore plus interessant. Ce coffre grace aux proprietes speciales de l'or, est trois fois plus grand qu'un coffre standard.");
-// Gold Chest (1 Chest + 1 Thaumium + 6 Gold + 1 Iron Gold)
-mods.thaumcraft.Arcane.addShaped("IRONTOGOLD",
-/* Output                     */ <IronChest:BlockIronChest:1>,
-/* Aspects                    */ "aer 12, terra 24, ordo 40",
-/* InputArray                 */ [[<minecraft:gold_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>],
-                                  [<minecraft:gold_ingot>, <IronChest:BlockIronChest:0>, <minecraft:gold_ingot>],
-                                  [<minecraft:gold_ingot>, <minecraft:gold_block>, <minecraft:gold_ingot>]] );
-mods.thaumcraft.Research.addArcanePage("IRONTOGOLD", <IronChest:BlockIronChest:1>);
-// Setting aspects
-mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:1>, "lucrum 5, metallum 18, ordo 4, vacuos 10");
-// Prereqs (Iron Chest + Copper Chest)
-mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOIRON", false);
-mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOCOPPER", false);
-mods.thaumcraft.Research.setConcealed("IRONTOGOLD", false);
-
 # Adding a craft & research for the Silver Chest
 // Adding the research (English + French)
 mods.thaumcraft.Research.addResearch("COPPERTOSILVER",
@@ -137,6 +107,41 @@ mods.thaumcraft.Research.addCruciblePage("COPPERTOSILVER", <IronChest:BlockIronC
 // Prereqs (Copper Chest)
 mods.thaumcraft.Research.addPrereq("COPPERTOSILVER", "WOODTOCOPPER", false);
 mods.thaumcraft.Research.setConcealed("COPPERTOSILVER", true);
+
+# Adding a craft & research for the Gold Chest
+// Adding the research (English + French)
+mods.thaumcraft.Research.addResearch("IRONTOGOLD",
+/* TabKey                         */ "IRONCHEST",
+/* AspectList                     */ "fabrico 4, lucrum 5, metallum 6, ordo 3, vacuos 10",
+/* X                              */ 3,
+/* Y                              */ -1,
+/* Complexity                     */ 2,
+/* ItemStack                      */ <IronChest:BlockIronChest:1>);
+game.setLocalization("tc.research_name.IRONTOGOLD", "Gold Chest");
+game.setLocalization("fr_FR", "tc.research_name.IRONTOGOLD", "Coffre en Or");
+game.setLocalization("tc.research_text.IRONTOGOLD", "Oh baby a triple!");
+mods.thaumcraft.Research.addPage("IRONTOGOLD", "tnmx.ic.irontogold_1");
+game.setLocalization("tnmx.ic.irontogold_1", "By taking your iron chest and trying to use a more easy-to-work metal than iron - the precious gold, you reached an even more interesting result. This chest thanks to the properties of gold and magic, is three times more bigger than a mundane chest.");
+game.setLocalization("fr_FR", "tnmx.ic.irontogold_1", "En experimentant avec votre coffre en fer et un metal davantage malleable - l'or, vous avez atteint un nouveau stade encore plus interessant. Ce coffre grace aux proprietes speciales de l'or, est trois fois plus grand qu'un coffre standard.");
+// Gold Chest (1 Chest + 1 Thaumium + 6 Gold + 1 Iron Gold)
+mods.thaumcraft.Arcane.addShaped("IRONTOGOLD",
+/* Output                     */ <IronChest:BlockIronChest:1>,
+/* Aspects                    */ "aer 12, terra 24, ordo 40",
+/* InputArray                 */ [[<minecraft:gold_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>],
+                                  [<minecraft:gold_ingot>, <IronChest:BlockIronChest:0>, <minecraft:gold_ingot>],
+                                  [<minecraft:gold_ingot>, <minecraft:gold_block>, <minecraft:gold_ingot>]] );
+mods.thaumcraft.Research.addArcanePage("IRONTOGOLD", <IronChest:BlockIronChest:1>);
+mods.thaumcraft.Crucible.addRecipe("IRONTOGOLD",
+/* OutputStack                  */ <IronChest:BlockIronChest:1>,
+/* InputStack                   */ <IronChest:BlockIronChest:4>,
+/* AspectString                 */ "lucrum 10, metallum 20, vacuos 5");
+mods.thaumcraft.Research.addCruciblePage("IRONTOGOLD", <IronChest:BlockIronChest:1>);
+// Setting aspects
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:1>, "lucrum 5, metallum 18, ordo 4, vacuos 10");
+// Prereqs (Iron Chest + Copper Chest)
+mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "WOODTOIRON", false);
+mods.thaumcraft.Research.addPrereq("IRONTOGOLD", "COPPERTOSILVER", false);
+mods.thaumcraft.Research.setConcealed("IRONTOGOLD", false);
 
 # Adding a craft & research for the black chest
 mods.thaumcraft.Research.addResearch("GOLDTOBLACK",
@@ -172,7 +177,6 @@ mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "COPPERTOSILVER", false);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "FOCUSPORTABLEHOLE", true);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "VOIDMETAL", true);
 mods.thaumcraft.Research.setSpikey("GOLDTOBLACK", true);
-mods.thaumcraft.Research.setConcealed("GOLDTOBLACK", false);
 // Renaming items + Warping
 mods.thaumcraft.Warp.addToResearch("GOLDTOBLACK", 5);
 <IronChest:BlockIronChest:6>.displayName = "Black Chest";
