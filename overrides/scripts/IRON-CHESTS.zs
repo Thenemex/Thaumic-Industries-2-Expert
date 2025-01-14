@@ -157,10 +157,10 @@ game.setLocalization("tnmx.ic.goldtoblack_2", "They were all bathing in flux, an
 // Black Chest (1 Gold Chest + 1 Silver Chest + 1 Focus : Portable Hole + 4 Void Metal + 4 Shadowmetal + 2 Obsidian Tiles)
 mods.thaumcraft.Infusion.addRecipe("GOLDTOBLACK",
 /* Input                        */ <IronChest:BlockIronChest:1>,
-/* Ingredients                  */ [<IronChest:BlockIronChest:4>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:1>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>, <Thaumcraft:FocusPortableHole>, <Thaumcraft:ItemResource:16>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:blockCosmeticSolid:1>, <TaintedMagic:ItemMaterial:0>, <Thaumcraft:ItemResource:16>],
-/* Essentia                     */ "alienis 32, metallum 50, permutatio 15, praecantatio 20, tenebrae 28, vacuos 22",
+/* Ingredients                  */ [<Thaumcraft:ItemResource:2>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>,  <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:FocusPortableHole>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>],
+/* Essentia                     */ "alienis 12, metallum 50, fabrico 30, lucrum 25, tenebrae 22, vacuos 45",
 /* Output                       */ <IronChest:BlockIronChest:6>,
-/* Instability                  */ 8);
+/* Instability                  */ 10);
 mods.thaumcraft.Research.addInfusionPage("GOLDTOBLACK", <IronChest:BlockIronChest:6>);
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_4");
 game.setLocalization("tnmx.ic.goldtoblack_4", "You quickly realised a chest of this size will be super useful for tidying all your mess, but you will have to hide it so your mates can't discover what it really is. <BR> You are sure you'll find a way to change the external appearance of the Black Chest to keep the irradiating warp and it's irresistible call of the void contained within it's walls ...");
@@ -171,9 +171,8 @@ mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "IRONTOGOLD", false);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "COPPERTOSILVER", false);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "FOCUSPORTABLEHOLE", true);
 mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "VOIDMETAL", true);
-mods.thaumcraft.Research.addPrereq("GOLDTOBLACK", "SHADOWMETAL", true);
 mods.thaumcraft.Research.setSpikey("GOLDTOBLACK", true);
-mods.thaumcraft.Research.setConcealed("GOLDTOBLACK", true);
+mods.thaumcraft.Research.setConcealed("GOLDTOBLACK", false);
 // Renaming items + Warping
 mods.thaumcraft.Warp.addToResearch("GOLDTOBLACK", 5);
 <IronChest:BlockIronChest:6>.displayName = "Black Chest";
