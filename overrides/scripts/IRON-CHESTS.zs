@@ -72,10 +72,10 @@ game.setLocalization("fr_FR", "tnmx.ic.woodtocopper_1", "Un beau jour, votre cha
 mods.thaumcraft.Crucible.addRecipe("WOODTOCOPPER",
 /* Output                       */ <IronChest:BlockIronChest:3>,
 /* Input                        */ <Thaumcraft:blockChestHungry>,
-/* Aspects                      */ "metallum 25, permutatio 10, praecantatio 6, ordo 5, vacuos 8" );
+/* Aspects                      */ "metallum 15, permutatio 6, praecantatio 3, ordo 5, vacuos 8" );
 mods.thaumcraft.Research.addCruciblePage("WOODTOCOPPER", <IronChest:BlockIronChest:3>);
 // Setting aspects
-mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:3>, "metallum 15, ordo 2, permutatio 5, vacuos 6");
+mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:3>, "metallum 10, ordo 2, permutatio 5, vacuos 6");
 // Prereqs (Iron Chest + Hungry Chest)
 mods.thaumcraft.Research.addPrereq("WOODTOCOPPER", "WOODTOIRON", true);
 mods.thaumcraft.Research.addPrereq("WOODTOCOPPER", "HUNGRYCHEST", true);
@@ -86,7 +86,7 @@ mods.thaumcraft.Research.setConcealed("WOODTOCOPPER", true);
 // Adding the research (English + French)
 mods.thaumcraft.Research.addResearch("COPPERTOSILVER",
 /* TabKey                         */ "IRONCHEST",
-/* AspectList                     */ "lucrum 6, metallum 20, terra 6, permutatio 10, vacuos 10",
+/* AspectList                     */ "lucrum 6, metallum 20, terra 6, permutatio 5, vacuos 10",
 /* X                              */ 3,
 /* Y                              */ -3,
 /* Complexity                     */ 0,
@@ -102,7 +102,7 @@ game.setLocalization("fr_FR", "tnmx.ic.coppertosilver_1", "Apres une analyse des
 mods.thaumcraft.Crucible.addRecipe("COPPERTOSILVER",
 /* Output                       */ <IronChest:BlockIronChest:4>,
 /* Input                        */ <IronChest:BlockIronChest:3>,
-/* Aspects                      */ "lucrum 8, metallum 40, permutatio 15, terra 10, vacuos 12, vitreus 6");
+/* Aspects                      */ "lucrum 8, metallum 25, permutatio 15, terra 4, vacuos 15, vitreus 6");
 mods.thaumcraft.Research.addCruciblePage("COPPERTOSILVER", <IronChest:BlockIronChest:4>);
 // Prereqs (Copper Chest)
 mods.thaumcraft.Research.addPrereq("COPPERTOSILVER", "WOODTOCOPPER", false);
