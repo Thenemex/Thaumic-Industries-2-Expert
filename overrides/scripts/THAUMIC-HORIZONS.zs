@@ -17,6 +17,15 @@ recipes.addShaped(<ThaumicHorizons:boneTH>,
 // 1 Bone [TH] -> 9 Bones
 recipes.addShapeless(<minecraft:bone> * 9, [<ThaumicHorizons:boneTH>]);
 
+// 9 Spider Eyes -> 1 Eye Cluster [TH]
+recipes.addShaped(<ThaumicHorizons:eyeTH>,
+                  [[<minecraft:spider_eye>, <minecraft:spider_eye>, <minecraft:spider_eye>],
+                   [<minecraft:spider_eye>, <minecraft:spider_eye>, <minecraft:spider_eye>],
+                   [<minecraft:spider_eye>, <minecraft:spider_eye>, <minecraft:spider_eye>]]);
+// 1 Eye Cluster [TH] -> 9 Spider Eyes
+recipes.addShapeless(<minecraft:spider_eye> * 9, [<ThaumicHorizons:eyeTH>]);
+
 # Aspects
 mods.thaumcraft.Aspects.set(<ThaumicHorizons:brainTH>, "cognitio 27, corpus 13, exanimis 13"); // Lump of Brain
 mods.thaumcraft.Aspects.set(<ThaumicHorizons:boneTH>, "mortuus 13, corpus 6"); // Bone
+mods.thaumcraft.Aspects.set(<ThaumicHorizons:eyeTH>, "sensus 13, bestia 13, venenum 13"); // Eye Cluster
