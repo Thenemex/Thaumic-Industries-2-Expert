@@ -111,6 +111,18 @@ mods.thaumcraft.Arcane.addShaped("INFUSION",
                                   [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]] );
 mods.thaumcraft.Research.refreshResearchRecipe("INFUSION");
 
+# Arcane Bellows
+// Arcane Bellows (4 Magical planks + 1 Leather + 1 Air Shard + 1 Thaumium
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockWoodenDevice:0>);
+mods.thaumcraft.Arcane.addShaped("BELLOWS",
+/* Output                     */ <Thaumcraft:blockWoodenDevice:0>,
+/* Aspects                    */ "aer 15, ordo 8",
+/* InputArray                 */ [[<ore:magicalWoodPlanks>, <ore:magicalWoodPlanks>, null],
+                                  [<minecraft:leather>, <Thaumcraft:ItemShard:0>, <Thaumcraft:ItemResource:2>],
+                                  [<ore:magicalWoodPlanks>, <ore:magicalWoodPlanks>, null]] );
+mods.thaumcraft.Research.refreshResearchRecipe("BELLOWS");
+mods.thaumcraft.Research.addPrereq("BELLOWS", "THAUMIUM", true);
+
 # Warded Glass
 // Warded Glass (6 Glass + 2 Zombie Brains + 1 Thaumium
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticOpaque:2>);
