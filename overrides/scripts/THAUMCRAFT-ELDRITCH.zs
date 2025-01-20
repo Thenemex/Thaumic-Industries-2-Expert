@@ -156,3 +156,6 @@ mods.thaumcraft.Research.addCraftingPage("VOIDMETAL", <Thaumcraft:ItemResource:1
 # Research Prereqs
 // Adding the Obsidian Rod as prereqs for the Void Metal
 mods.thaumcraft.Research.addPrereq("VOIDMETAL", "ROD_obsidian", true);
+
+# Aspects
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemNugget:7>, "metallum 1"); // Voidmetal Nugget
