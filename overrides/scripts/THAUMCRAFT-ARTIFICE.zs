@@ -111,6 +111,18 @@ mods.thaumcraft.Arcane.addShaped("INFUSION",
                                   [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]] );
 mods.thaumcraft.Research.refreshResearchRecipe("INFUSION");
 
+# Warded Glass
+// Warded Glass (6 Glass + 2 Zombie Brains + 1 Thaumium
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticOpaque:2>);
+mods.thaumcraft.Arcane.addShaped("WARDEDARCANA",
+/* Output                     */ <Thaumcraft:blockCosmeticOpaque:2> * 12,
+/* Aspects                    */ "ordo 12, aqua 8, terra 8, ignis 10",
+/* InputArray                 */ [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+                                  [<Thaumcraft:ItemZombieBrain>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemZombieBrain>],
+                                  [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]] );
+mods.thaumcraft.Research.refreshResearchRecipe("WARDEDARCANA");
+mods.thaumcraft.Aspects.set(<Thaumcraft:blockCosmeticOpaque:2>, "vitreus 3, tutamen 1");
+
 # Arcane Bore
 // Arcane Bore (1 Deconstruction Table + 1 Thaumometer + 2 Gold + 1 Elemental Pickaxe + 1 Elemental Shovel + 1 Void Jar)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
