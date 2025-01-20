@@ -24,3 +24,4 @@ for i, el_shard in shardsArray {
 
 # Aspects
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemNugget:7>, "metallum 1"); // Voidmetal Nugget
+mods.thaumcraft.Aspects.set(<Thaumcraft:blockCosmeticOpaque:2>, "vitreus 3, tutamen 1"); // Warded Glass
