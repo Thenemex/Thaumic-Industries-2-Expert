@@ -124,9 +124,8 @@ recipes.addShaped(<minecraft:chest>,
 
 // 1 Wood -> 2 Planks
 for i, el_plank in planksArray {
-    var log = logsArray[i];
     recipes.remove(el_plank);
-    recipes.addShapeless(el_plank * 2, [log]); }
+    recipes.addShapeless(el_plank * 2, [logsArray[i]]); }
 
 // 1 Magical Wood = 3 Planks
 for i, el_plank in magicalPlanksArray {

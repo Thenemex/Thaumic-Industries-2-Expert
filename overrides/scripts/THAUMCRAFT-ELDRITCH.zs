@@ -3,7 +3,15 @@
 import minetweaker.item.IItemStack;
 
 // Array of the 5 Void metal tools + 4 Armor pieces
-var voidToolsArray = [<Thaumcraft:ItemSwordVoid>, <Thaumcraft:ItemPickVoid>, <Thaumcraft:ItemAxeVoid>, <Thaumcraft:ItemShovelVoid>, <Thaumcraft:ItemHoeVoid>, <Thaumcraft:ItemHelmetVoid>, <Thaumcraft:ItemChestplateVoid>, <Thaumcraft:ItemLeggingsVoid>, <Thaumcraft:ItemBootsVoid>] as IItemStack[];
+val voidToolsArray = [<Thaumcraft:ItemSwordVoid>,
+                      <Thaumcraft:ItemPickVoid>,
+                      <Thaumcraft:ItemAxeVoid>,
+                      <Thaumcraft:ItemShovelVoid>,
+                      <Thaumcraft:ItemHoeVoid>,
+                      <Thaumcraft:ItemHelmetVoid>,
+                      <Thaumcraft:ItemChestplateVoid>,
+                      <Thaumcraft:ItemLeggingsVoid>,
+                      <Thaumcraft:ItemBootsVoid>] as IItemStack[];
 
 # Resources
 // Void seed (1 Wheat Seed = 1 Void Seed)
@@ -156,6 +164,3 @@ mods.thaumcraft.Research.addCraftingPage("VOIDMETAL", <Thaumcraft:ItemResource:1
 # Research Prereqs
 // Adding the Obsidian Rod as prereqs for the Void Metal
 mods.thaumcraft.Research.addPrereq("VOIDMETAL", "ROD_obsidian", true);
-
-# Aspects
-mods.thaumcraft.Aspects.set(<Thaumcraft:ItemNugget:7>, "metallum 1"); // Voidmetal Nugget
