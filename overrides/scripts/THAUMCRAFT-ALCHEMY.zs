@@ -18,7 +18,16 @@ oreDictGlassPhial.add(<Thaumcraft:ItemEssence:0>);
 oreDictGlassPhial.add(<minecraft:glass_bottle>);
 
 // Array of the 5 Thaumium tools + 4 Armor pieces
-var thaumToolsArray = [<Thaumcraft:ItemSwordThaumium>, <Thaumcraft:ItemPickThaumium>, <Thaumcraft:ItemAxeThaumium>, <Thaumcraft:ItemShovelThaumium>, <Thaumcraft:ItemHoeThaumium>, <Thaumcraft:ItemHelmetThaumium>, <Thaumcraft:ItemChestplateThaumium>, <Thaumcraft:ItemLeggingsThaumium>, <Thaumcraft:ItemBootsThaumium>] as IItemStack[];
+var thaumToolsArray = [<Thaumcraft:ItemSwordThaumium>,
+                       <Thaumcraft:ItemPickThaumium>,
+                       <Thaumcraft:ItemAxeThaumium>,
+                       <Thaumcraft:ItemShovelThaumium>,
+                       <Thaumcraft:ItemHoeThaumium>,
+                       <WitchingGadgets:item.WG_ThaumiumShears>,
+                       <Thaumcraft:ItemHelmetThaumium>,
+                       <Thaumcraft:ItemChestplateThaumium>,
+                       <Thaumcraft:ItemLeggingsThaumium>,
+                       <Thaumcraft:ItemBootsThaumium>] as IItemStack[];
 
 # Crucible
 // Nitor (1 Glowstone = 1 Nitor)
@@ -167,6 +176,15 @@ mods.thaumcraft.Arcane.addShaped("THAUMIUM",
 /* InputArray                 */ [[<Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemNugget:6>], 
                                   [null, <Thaumcraft:WandRod:0>, null],
                                   [<Thaumcraft:WandRod:0>, null, null]] );
+
+// Thaumium Shears (2 Greatwood + 2 Thaumium)
+recipes.remove(<WitchingGadgets:item.WG_ThaumiumShears>);
+mods.thaumcraft.Arcane.addShaped("THAUMIUM",
+/* Output                     */ <WitchingGadgets:item.WG_ThaumiumShears>,
+/* Aspects                    */ "terra 3, ordo 5",
+/* InputArray                 */ [[null, <Thaumcraft:ItemResource:2>, null],
+                                  [<Thaumcraft:blockWoodenDevice:6>, null, <Thaumcraft:ItemResource:2>],
+                                  [null, <Thaumcraft:blockWoodenDevice:6>, null]] );
 
 // Have to replace all the pages to add arcane crafting
 mods.thaumcraft.Research.clearPages("THAUMIUM");
