@@ -16,7 +16,9 @@ Founders of the pack :
  - AQUOI-LORDE, NexWiz and myself
 
 Big thanks to my close testers :
- - BaIzD1ThOn, HypeShadow, Pokebulbbi, 5parte, Vertf
+ - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
 
 And also huge thanks to the online players who submitted and shared opinions & reports about the pack that made it through development :
 - CloudyOrangeFox, goofy_fermat5688369, hron84
+
+Special mention to temakisushi / awesome_hippo, who made useful mods for the pack.
