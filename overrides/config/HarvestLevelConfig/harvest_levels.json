@@ -70,13 +70,6 @@
         "axe": 1
       }
     },
-    {
-      "name": "minecraft:bed",
-      "metadata": -1,
-      "tools": {
-        "axe": 1
-      }
-    },
 
     {
       "name": "Thaumcraft:blockMagicalLog",
