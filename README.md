@@ -15,10 +15,13 @@ Project leaded by Thenemex
 Founders of the pack :
  - AQUOI-LORDE, NexWiz and myself
 
-Big thanks to my close testers :
+Big thanks to my active and passed close testers :
  - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
 
-And also huge thanks to the online players who submitted and shared opinions & reports about the pack that made it through development :
+Huge thanks to Discord members sharing their in-game experience, and their ideas that got implemented to the pack :
+- NotSenna
+
+And also thanks to the online players who submitted and shared opinions & reports online about the pack that made it through development :
 - CloudyOrangeFox, goofy_fermat5688369, hron84
 
-Special mention to temakisushi / awesome_hippo, who made useful mods for the pack.
+Special mention to temakisushi aka awesome_hippo, who made useful mods for the pack.
