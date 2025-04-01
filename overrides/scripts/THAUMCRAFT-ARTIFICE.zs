@@ -15,6 +15,14 @@ val oreDictCoalBlocks = <ore:allCoalBlocks>;
 oreDictCoalBlocks.add(<minecraft:coal_block>);
 oreDictCoalBlocks.add(<GardenStuff:stone_block>);
 
+# Adding new oredict for Enhanced Thaumium Tools
+val oreDictEnhancedThaumiumTools = <ore:enhancedThaumiumTools>;
+oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemSwordElemental>);
+oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemShovelElemental>);
+oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemPickaxeElemental>);
+oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemAxeElemental>);
+oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemHoeElemental>);
+
 # Furnace
 // Adding the research
 recipes.remove(<minecraft:furnace>);
