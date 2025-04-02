@@ -113,6 +113,10 @@ for i, el_magicalPlank in magicalPlanksArray {
 # Editing item crafts
 // 1 Chest = 8 Greatwood Logs / 8 Silverwood Planks
 recipes.remove(<minecraft:chest>);
+recipes.addShaped(<minecraft:chest>,
+                  [[<ore:logWood>, <ore:plankWood>, <ore:logWood>],
+                   [<ore:plankWood>, <minecraft:iron_block>, <ore:plankWood>],
+                   [<ore:logWood>, <ore:plankWood>, <ore:logWood>]]);
 recipes.addShaped(<minecraft:chest> * 2,
                   [[<Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockMagicalLog:0>, <Thaumcraft:blockMagicalLog:0>],
                    [<Thaumcraft:blockMagicalLog:0>, null, <Thaumcraft:blockMagicalLog:0>],
