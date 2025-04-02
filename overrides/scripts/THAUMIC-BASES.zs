@@ -36,6 +36,18 @@ mods.thaumcraft.Crucible.addRecipe("TB.Ashroom",
 /* AspectString                 */ "lucrum 16, praecantatio 10, aer 5, ignis 5, aqua 5, terra 5, ordo 6, perditio 6");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Ashroom");
 
+# Anvils
+// Thaumium Anvil (88 vis of each)
+mods.thaumcraft.Arcane.removeRecipe(<thaumicbases:thaumicAnvil:0>);
+mods.thaumcraft.Arcane.addShaped("TB.ThaumicAnvil",
+/* Output                     */ <thaumicbases:thaumicAnvil:0>,
+/* Aspects                    */ "aer 111, aqua 111, terra 111, ignis 111, ordo 111, perditio 111",
+/* InputArray                 */ [[<ore:blockThaumium>, <ore:blockThaumium>, <ore:blockThaumium>],
+                                  [null, <ore:ingotThaumium>, null],
+                                  [<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>]] );
+mods.thaumcraft.Research.addPrereq("TB.ThaumicAnvil", "INFUSION", true);
+mods.thaumcraft.Research.refreshResearchRecipe("TB.ThaumicAnvil");
+
 # Wands nerf
 // Thaumic Wand Rod (3 Thaumium Block + 4 Salis Mundis
 mods.thaumcraft.Arcane.removeRecipe(<thaumicbases:resource:3>);
@@ -45,6 +57,7 @@ mods.thaumcraft.Arcane.addShaped("ROD_tbthaumium",
 /* InputArray                 */ [[null, <Thaumcraft:ItemResource:14>, <Thaumcraft:blockCosmeticSolid:4>],
                                   [<Thaumcraft:ItemResource:14>, <Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:14>],
                                   [<Thaumcraft:blockCosmeticSolid:4>, <Thaumcraft:ItemResource:14>, null]] );
+mods.thaumcraft.Research.addPrereq("ROD_tbthaumium", "INFUSION", true);
 mods.thaumcraft.Research.refreshResearchRecipe("ROD_tbthaumium");
 
 # Void Block (Replacement)
