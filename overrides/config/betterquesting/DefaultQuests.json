@@ -26,7 +26,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "§r This first questline will guide from the spawn to §7§lIron§r age.\nYou will learn how to make your first furnace \u0026 iron tools from Thaumcraft mechanics."
+          "desc:8": "§r This first questline will guide from the spawn to §7§lIron§r age.\nYou will learn how to make your first furnace \u0026 iron tools from Thaumcraft mechanics.\n\nIt\u0027s very advised, if you already know the basics of Thaumcraft, to follow this guide till the Thaumometer Quest is complete.\nDoing the opposite can lock up your game and give an harder time to progress (don\u0027t do aspects combinaison before told to do so or other researchs than the ones told to).\n\nHave a nice game !"
         }
       },
       "tasks:9": {
@@ -105,7 +105,7 @@
         },
         "1:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 1,
+          "allowSmelt:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 1,
           "allowCraft:1": 1,
@@ -334,7 +334,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To acquire and learn new knowledge, you will need a Research Table.\n\nThis one can be built by putting 2 Tables next to each other, and by right-clicking them with the §7§lScribing Tools§r.\n\nYou can use one of these fragments of knowledge to gain a few aspects for your future researchs."
+          "desc:8": "To acquire and learn new knowledge, you will need a Research Table.\n\nThis one can be built by putting 2 Tables next to each other, and by right-clicking them with the §7§lScribing Tools§r."
         }
       },
       "tasks:9": {
@@ -362,56 +362,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:choice",
-          "index:3": 0,
-          "choices:9": {
-            "0:10": {
-              "id:8": "thaumicbases:knoseFragment",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "thaumicbases:knoseFragment",
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "thaumicbases:knoseFragment",
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "thaumicbases:knoseFragment",
-              "Count:3": 1,
-              "Damage:2": 3,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "thaumicbases:knoseFragment",
-              "Count:3": 1,
-              "Damage:2": 4,
-              "OreDict:8": ""
-            },
-            "5:10": {
-              "id:8": "thaumicbases:knoseFragment",
-              "Count:3": 1,
-              "Damage:2": 5,
-              "OreDict:8": ""
-            },
-            "6:10": {
-              "id:8": "thaumicbases:knoseFragment",
-              "Count:3": 1,
-              "Damage:2": 6,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "6:10": {
       "questID:3": 6,
@@ -462,20 +413,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:glass_bottle",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "7:10": {
       "questID:3": 7,
@@ -544,20 +482,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:paper",
-              "Count:3": 10,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "8:10": {
       "questID:3": 8,
@@ -680,11 +605,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 0,
-          "ignoreNBT:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:furnace",
@@ -693,7 +618,7 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -731,11 +656,11 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 0,
-          "ignoreNBT:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:iron_pickaxe",
@@ -750,7 +675,7 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -782,7 +707,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "For the last quest of the starting questline, we will ask you to make a §e§lThaumometer§r out of Gold, Shards and Glass.\nThis device allows for scanning items, blocks, entities, yourself and other players to gain new research aspects ; every thing is only scannable once !\n\nTo scan something, you must have discovered all the \"child\" aspects of the aspects contained within.\nFor exemple : you can scan Snow, as it contains §b§lGelum§r, combined from §c§lIgnis§r and §7§lPerditio§r. Or you can combine them in the research table ; two paths to choose.\nYou already know §b§lPotentia§r, §b§lVitreus§r, §2§lPermutatio§r and §lMetallum§r from your previous researchs.\n\nHere\u0027s a walkthrough / optimized path to get to tier 6 aspects and be able to scan everything without losing too much aspects :\n\n§\n§c§lVictus§r (tier 1)\n- Combine §a§lTerra§r + §b§lAqua§r\n§l§a§lHerba§r (tier 2)\n- Scan a Grass block, or combine §c§lVictus§r + §a§lTerra§\n§r\n§4§\n\n§\n§r§7§lMortuus§r (tier 2)\n- Combine §c§lVictus §r+ §r§r§7§lPerditio§r\n§r\n§l§r§lMotus§r (tier 1)\n- Scan a §nTrapdoor§r, or combine §l§e§lAer §r+ §lOrdo\n§\n§0§1§2§3§4§3§4§5§6§7§8§9§a§a§b§c§d§e§f§4§l§lBestia§r (tier 2)\n- Scan a §nSquid§r, or combine §lMotus§r + §4§l§c§lVictus§r\n§d§\n\n§7§lSpiritus§r (tier 3) and §7§lVinculum§r (tier 2)\n- Scan § §nSoul Sand§r, or combine §7§lMortuus§r + §c§lVictus§r\n- Combine §lMotus§r + §7§lPerditio§r (for the second, or scan §nAmber§r)\n§6§lCognitio§r (tier 4)\n- Scan §l§r§nPaper§r, or combine §7§lSpiritus§r + §c§lIgnis§r\n§b§lSensus§r (tier 4)\n- Scan §nFlowers§r / §nInks§r, or combine §7§lSpiritus§r + §e§lAer§r\n§lHumanus§r (tier 5)\n- Scan §nRotten Flesh§r, or combine §6§lCognitio§r + §4§lBestia§r\n§9§lInstrumentum§r (tier 6)\n- Scan §nFlint§r / §nTable§r, or combine §lHumanus§r + §lOrdo§r\n\nThere you go, you can scan almost anything ! If you are missing some aspects, try discovering them on your own or google it to find the last ones !\nYou are free to continue researchs on your own or continue to the next questline (on next update !)"
+          "desc:8": "For the last quest of the starting questline, we will ask you to make a §e§lThaumometer§r out of Gold, Shards and Glass.\nThis device allows for scanning items, blocks, entities, yourself and other players to gain new research aspects ; every thing is only scannable once !\n\nTo scan something, you must have discovered all the \"child\" aspects of the aspects contained within.\nFor exemple : you can scan Snow, as it contains §b§lGelum§r, combined from §c§lIgnis§r and §7§lPerditio§r. Or you can combine them in the research table ; two paths to choose.\nYou already know §b§lPotentia§r, §b§lVitreus§r, §2§lPermutatio§r and §lMetallum§r from your previous researchs.\n\nHere\u0027s a walkthrough / optimized path to get to tier 6 aspects and be able to scan everything without losing too much aspects :\n\n§\n§c§lVictus§r (tier 1)\n- Combine §a§lTerra§r + §b§lAqua§r\n§l§a§lHerba§r (tier 2)\n- Scan a Grass block, or combine §c§lVictus§r + §a§lTerra§\n§r\n§4§\n\n§\n§r§7§lMortuus§r (tier 2)\n- Combine §c§lVictus §r+ §r§r§7§lPerditio§r\n§r\n§l§r§lMotus§r (tier 1)\n- Scan a §nTrapdoor§r, or combine §l§e§lAer §r+ §lOrdo\n§\n§0§1§2§3§4§3§4§5§6§7§8§9§a§a§b§c§d§e§f§4§l§lBestia§r (tier 2)\n- Scan a §nSquid§r, or combine §lMotus§r + §4§l§c§lVictus§r\n§d§\n\n§7§lSpiritus§r (tier 3) and §7§lVinculum§r (tier 2)\n- Scan § §nSoul Sand§r, or combine §7§lMortuus§r + §c§lVictus§r\n- Combine §lMotus§r + §7§lPerditio§r (for the second, or scan §nAmber§r)\n§6§lCognitio§r (tier 4)\n- Scan §l§r§nPaper§r, or combine §7§lSpiritus§r + §c§lIgnis§r\n§b§lSensus§r (tier 4)\n- Scan §nFlowers§r / §nInks§r, or combine §7§lSpiritus§r + §e§lAer§r\n§lHumanus§r (tier 5)\n- Scan §nRotten Flesh§r, or combine §6§lCognitio§r + §4§lBestia§r\n§9§lInstrumentum§r (tier 6)\n- Scan §nFlint§r / §nTable§r, or combine §lHumanus§r + §lOrdo§r\n\nThere you go, you can scan almost anything ! If you are missing some aspects, try discovering them on your own or google it to find the last ones !\nYou are free to continue researchs on your own or continue to the next questline to get to mid-game."
         }
       },
       "tasks:9": {
@@ -802,6 +727,1088 @@
             }
           },
           "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "12:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:blockMetalDevice",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bubble bath !",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "Let\u0027s introduce you to alchemy / cauldron crafting !\nTo obtain a §7§lCrucible§r, you\u0027ll need to use you wand on a mundane cauldron.\nIt works like it\u0027s conterpart needing water for operations ; but it will also need some strong heat source beneath it to make the water boiling.\nSome §c§lLava§r will do the work for now, beware to not burn everything around it !\nYou can see that the water is boiling by looking at the bubbles poping at the water\u0027s surface.\n\nAs always for all the quests, you can find some more information in your Thaumonomicon, by reading your completed researchs."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cauldron",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:blockMetalDevice",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemResource",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Peaceful fire",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "For your first craft with the cauldron, you\u0027re going to need to research the Nitor (in the alchemy tab, aright to the center).\nOnce your research is done, you can have a look at the recipe :\nIt asks to throw a Glowstone in a Crucible with 5 §c§lIgnis§r, 8 §e§lLux§r and 5 §9§l§b§lPotentia§r.\n\nSome time before, you were ask to make a §rThaumometer to scan items and blocks ;\nSo you can see that, for exemple, a Grass block contains 1 §a§a§lTerra§r and 1§a§l Herba§r, if you throw 1 Grass in a hot Crucible it will consume the item and transfer it\u0027s aspects to the Crucible.\nSo if you throw 5 Grass blocks, the Cauldron will contain 5 Terra and Terra.\n\nWe\u0027ll help you for this first one : you can find the needed aspects in §l§nCoal§r and §l§nTorches§r.§r\nYou just have to drop the right amount of them in the Crucible, and then drop 1 Glowstone Powder (the item shown on the crucible recipe) when all the needed aspects are present in the Crucible.\n\nNow you just made a Nitor ! It\u0027s a magical light source than can be placed in the world.\nIt also emits some formidable heat, enough to heat a Crucible to make the water boils : safer than Lava !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:ItemResource",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemResource",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Fuel or Explosive ?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "An Alumentum is an unstable material that can burn twice the items that coal can in a Furnace.\nIt can also be thrown on blocks with right click to trigger a small explosion.\n\n§l§7§lPerditio§r can be found easily in Cobblestone, Sand or Gunpowder\n\nThe research can be found below the Nitor\u0027s one."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:ItemResource",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemResource",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Better than Iron",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "Thaumium is one of the most useful materials in Thaumcraft ; you can make decent armor and tools with it : the pickaxe got 400 durability to get rid of the scrappy Iron pick.\nThe Thaumium tools also got the mining level of the Diamond pick ; that means it can harvest Obsidian and Glowstone easily.\n\nFor making the tools, you would also need the Greatwood Wand Core research in the wandcraft tab ; you can\u0027t use mundane wood sticks to craft them.\nThe Crucible recipe needs §d§d§d§l§l§l§5§5§5§l§l§lPraecantatio§r§r§r. This aspect can be hard to find : \nIt can be found in big amounts in Greatwood/Silverwood logs (will need at least an iron axe).\nYou will discover later some other resources that got this aspect ; be sure to scan everything new you discover !\n\nThe research can be found below at the center-bottom of the Alchemy tab.\nIf it\u0027s not visible yet, try scanning more things in the world."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:ItemResource",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [
+        14,
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:blockMetalDevice",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Liquid Aspects",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "The next step will focus on Essentia : this mechanic allows for extracting aspects from items and putting it in a liquid form.\n\nYou will need to research §l§7§lEssentia Distillation§r§r§r, then to craft the Alchemical Furnace and between 1-5 Alembics.\n\nTo make the furnace working, put the furnace down and a pile of maximum 5 alembics on top of it.\nIn the furnace\u0027s interface, the top slot is for items to \"burn\", and the bottom one for burnables.\nThe progress bar is at the right, and the internal storage of Essentia is at the left ; if it\u0027s internal buffer is full you won\u0027t be able to burn new items down.\n\nThe essentia will then be extracted to the different alembics at the top :\nEach alembic can store a maximum of 32 of one unique essentia aspect, that means you can only extract a maximum of 5 different unique aspects at the same time from the furnace.\n\nFinally, the essentia can be extracted from the alembics by using pipe network linked to Warded jars ; but the easiest and quickest way is to right click the alembics will a Jar or a Phial in your hand."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:blockStoneDevice",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "Thaumcraft:blockMetalDevice",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:BlockJarFilledItem",
+            "Count:3": 1,
+            "tag:10": {
+              "Aspects:9": {
+                "0:10": {
+                  "amount:3": 64,
+                  "key:8": "praecantatio"
+                }
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Making Essentia",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "Let\u0027s show your skill ! For this quest you will make a jar filled with 64 §l§a§lTerra§r, and a Phial of §l§7§lPerditio§r.\n\nThe Goggles of Revealing can be used for seeing that aspect is present in the Alembics.\nYou can empty an alembic by sneak right-clicking it with an empty hand ; the same also works for Jars !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:BlockJarFilledItem",
+              "Count:3": 1,
+              "tag:10": {
+                "Aspects:9": {
+                  "0:10": {
+                    "amount:3": 64,
+                    "key:8": "terra"
+                  }
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "Thaumcraft:ItemEssence",
+              "Count:3": 1,
+              "tag:10": {
+                "Aspects:9": {
+                  "0:10": {
+                    "amount:3": 8,
+                    "key:8": "perditio"
+                  }
+                }
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemGoggles",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Seeing the invisible",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "Did you always want to see what aspects are currently present in your cauldron when failing a recipe ? Or seeing what aspects there\u0027s in a node while tapping it ?\n\nYour wishes are exhausted ! The research for these Goggles can be found in the Artifice Tab, next to the Thaumometer.\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:ItemGoggles",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:WandCasting",
+            "Count:3": 1,
+            "tag:10": {
+              "cap:8": "gold",
+              "rod:8": "greatwood"
+            },
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "A better wand !",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "This mundane wood and iron wand is starting to be all rusty ... An that vis penality of 10% is really annoying !\n\nDoing some researchs in the Thaumaturgy tab, you discovered some new wand cores and caps to make a better wand for the time being !\n\nA wand made of §n§l§4§lGreatwood§r and capped with §l§e§lGold§r is cheap, have no penalty of vis cost and a good vis storage of 50, double the one from your old wand.\n\nCaps adds only for vis cost reduction, and Wand cores for vis storage \u0026 wand passive abilities."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:WandCap",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "Thaumcraft:WandRod",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:WandCasting",
+              "Count:3": 1,
+              "tag:10": {
+                "cap:8": "gold",
+                "rod:8": "greatwood"
+              },
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemPickThaumium",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Decent tools",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "Being tired of using these scrappy iron tools that break super quickly ? Thaumium tools cost a bit more but they have 400 durabilty !\n\nYou will need Greatwood Wand Cores to make the tool rod, and of course a good amount of Thaumium.\n\nNow that you got a durable axe, you can make your hands on huge quantities of §5§lPraecantatio§r for making even more Thaumium if needed !\nThe full armor and sword are also decent till you reach mid-game.\nBe aware that diamond tools break on the first hit, some equivalent tools will be discovered later with the same durability as diamond."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:ItemPickThaumium",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "Thaumcraft:ItemAxeThaumium",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "21:10": {
+      "questID:3": 21,
+      "preRequisites:11": [
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:blockStoneDevice",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Matrix Infusion",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "There you are, reaching the most important crafting mechanic of Thaumcraft : Infusion.\n\nYou will need to craft all components first, as indicated on this quest, and some more pedestals (a multiple of 4).\nRead carefully the research and put together blocs as shown on the Mystical Construct. Once it\u0027s done, check your wand has enough vis and right click the Matrix bloc with it, and tada !\nThe 4 pillars should form, and the Matrix bloc will start turning on itself and moving.\n\nDepending on your needs, you will need a certain number of pedestals around your Matrix ; you always should put them following a symmetry (that\u0027s why we asked to get a multiple of 4).\nAny non-symmetric placement of pedestals and/or stabilizers (candles, mob heads ...) will result in more instability.\nMatrix instability will cause odd things to occur while doing an Infusion recipe : items jumping of pedestals or disappearing, asking for more Essentia, or worse ...)\n\nTo realize an Infusion, first research anything that will use it, like the Enhanced Thaumium Tools at the left of the Infusion one.\n- The item at the center will be placed under the Matrix bloc on the pedestal.\n- Items circling around it need to be put on the pedestals around (placing them is the most symmetrical way possible helps with instability)\n- Aspects are needed in the form of Essentia stored in recipients (their placement doesn\u0027t influence instability)\n- And the fourth parameter : Instability. Each recipe got it\u0027s own instability factor.\nThey are : Negligeable, Minor, Moderate, High, Very High and Dangerous.\nThe current stability value of your matrix can be known using some special device. Try scanning your moving block of Matrix, maybe you\u0027ll discover something !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:blockStoneDevice",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "Thaumcraft:blockStoneDevice",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "Thaumcraft:blockCosmeticSolid",
+              "Count:3": 4,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "Thaumcraft:blockCosmeticSolid",
+              "Count:3": 4,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "22:10": {
+      "questID:3": 22,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemChestplateRobe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Vis cost reduction",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "A good §n§l§r§lVis Cost Reduction§r keeps all Thaumaturge happy !\n\nWhen you put your cursor on your wand in your inventory, next to the maximum vis storage you can find a value written like \"§7§l§c§l§r§l (avg vis cost 100 %)§r \"\nThe % value tells you how much vis will cost any craft based on it\u0027s original recipe.\nIron caps give 110% vis cost, and Gold caps give 100% ; you\u0027ll discover some better caps later with researchs.\n\nOther items like armor and wearables can give Vis cost reduction ; you already got one ! Have a look at your Revealing Goggles.\nIf you got a Wooden wand (110% cost) and Goggles (5% reduction) put on : the vis cost will be §n110-5 \u003d §l105%§n§r avg vis cost.\n\nIn the Artfice tab you can find a research about §b§lEnchanted Fabric§r, not too far from the Thaumometer research.\nThis research give access to a new magic item, used to make some Vis cost reduction armor (more like a robe \u003d almost no defense).\n\nWhen wore fully, this armor set gives 5% vis cost reduction + 5% from the goggles results in 10% with the 4 slots occupied !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:ItemChestplateRobe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "Thaumcraft:ItemLeggingsRobe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "Thaumcraft:ItemBootsRobe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "23:10": {
+      "questID:3": 23,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemSwordElemental",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "enhancedThaumiumTools"
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Diamond Pickaxe ! Oh wait ...",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "You finally built your matrix and reached mid-game ! \nTo be sure you actually built it, we\u0027ll ask for you to research and make one of the 5 Enhanced Thaumium Tools of your choice.\n\nHaving a little bit more Essentia than asked and replacement side-items is good practice, in case your recipe becomes unstable and something bad happens.\n\n §lGood luck and welcome to mid-game Thaumaturge !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Thaumcraft:ItemSwordElemental",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "enhancedThaumiumTools"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "/say VAR_NAME just reached mid-game !"
+        }
+      }
+    },
+    "24:10": {
+      "questID:3": 24,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Tools Durability",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "In this pack, most of Vanilla tools and armor have edited durability. In instance :\n\n- §lIron§r Tools have 15 Durability.\n- §e§lGold§r and §b§lDiamond§r Tools have 1 Durability.\n- §lIron§r, §e§lGold§r and §b§lDiamond§r Armor have 10 Durability.\n\nTo get around this, you must reach §d§5§lThaumium§r Tools that got 400 durability.\nOther stronger tools and materials will be discovered further is your playthrough !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "25:10": {
+      "questID:3": 25,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:enchanting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Enchanting (Expert changes)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "In this pack, accessing Enchanting is much harder than usual and has been pushed further into mid-game.\n\n- At early-game, the most you can do is combine looted Enchanted Books and Tools in an §7§l§8§l§7§lAnvil§r.\n- Once reaching mid-game and doing a bit of research, §7§lMatrix Infusion Enchantment§r can be used as usual.\n- In late mid-game, the vanilla §7§l§c§lEnchanting Table§r can be researched once the player is warped enough.\n- Finally at late-game, the §c§lOsmotic Enchanter§r is accessible."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "26:10": {
+      "questID:3": 26,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:fire",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Nether changes",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "Nether has been changed drastically in terms of Mob AI and Ore Generation. Down here can be found :\n\n- Nether Ores that got x2 output,\n- Nether Shard Ores with it\u0027s own research tab and decent output,\n\nBut be aware, this dimension is now pretty dangerous and trying to harvest it\u0027s ore wealth will awaken all tha rage contained in this dimension ...\n You know the risks !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "27:10": {
+      "questID:3": 27,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemInkwell",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Research (Expert changes)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "\u0027\u0027When beginning your research, you shouldn\u0027t start as your usual Thaumcraft playthrough, as you won\u0027t access your Thaumometer before doing some crucial researchs.\nThe imposed path by the expert mode, is :\n\n- Do not make combinaisons unless asked in the questline, or if you know what you\u0027re doing.\n- Research §n§nStone Furnace§r§r then §n§nIron Tools§r§r.\n- Once reaching Thaumometer, you can make your aspects as usual.\n- Research §n§nNitor§r§r, §n§nAlumentum§r§r and §n§nThaumium§r§r as usual, then you can go for Alchemical Furnace and Infusion.\n\nThis note is mostly dedicated for experienced players, so they don\u0027t go and run out of aspects at the start of their playthrough.\nThe questlines explain how to reach mid-game (Matrix Infusion) through the expert changes."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "28:10": {
+      "questID:3": 28,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thaumcraftneiplugin:Aspect",
+            "Count:3": 1,
+            "tag:10": {
+              "Aspects:9": {
+                "0:10": {
+                  "amount:3": 2,
+                  "key:8": "praecantatio"
+                }
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "List of all Scanned Items",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "In this pack, there\u0027s two ways to see all the items scanned that contains a specific Aspect :\n §n§r§n§r§o§7§o(This note mostly concerns players that have crafted §e§l§oThaumometer§r§7)§r\n\n- In your Thaumonomicon, in the research \"§nAspects of Magic§r\" at the center of§o§r§n Basic Information§r tab.\nYou\u0027ll find a list of all the aspects you discovered yet ; and if you put your cursor on the aspect of your choice, it will show a list of all items scanned that contains this aspect, and how much they got.\n\n- When typing \"§n@NEI§r\" in your inventory\u0027s searchbar, you will get the list of all aspects. (\"?\" means an aspect not yet discovered)\nIf you right-click or press U on the aspect of your choice, a first tab will open. If you navigate with the top arrows you will found the same list as the first options, but much well organized AND with shown names of items and all NEI functions."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "29:10": {
+      "questID:3": 29,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gadomancy:ItemCreativeNode",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Node Tracker",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "Keeping memory of all the Aura Nodes you encountered on your journey can be a mess.\n§7§o(This note is mostly dedicated to player that crafted §e§l§oRevealing Goggles§7)§r\n\nOnce you scanned an Aura Node, it can be found back easily if you are wearing any kind of Revealing Goggles :\nIf you press \"I\", a menu will open with a list of all the nodes you scanned from now : you can select a node with \"Mark\", this will pop an arrow atop of your screen.\nTo remove it, just return in the menu and press \"Clear Arrow\" at the top.\n\nBe aware that if you delete a node from this menu, you can\u0027t bring it back as you can\u0027t scan twice the same node/item."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "30:10": {
+      "questID:3": 30,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:skull",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "New mob AI",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "For this modpack, the AI of most mobs is much more developed and mobs now have brand new brain cells and abilities.\n\nHandle with care your new encounters and be aware that for a long time of your playthrough, mobs will be hunting you and not the other way around !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "31:10": {
+      "questID:3": 31,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Botania:cosmetic",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 31,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": 10,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Quests update",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 1,
+          "desc:8": "This quest allows to load the§n§r §nNew Questlines§r (if there are some), coming after a modpack\u0027s update."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 1,
+          "index:3": 0,
+          "command:8": "/bq_admin default load"
+        }
+      }
+    },
+    "32:10": {
+      "questID:3": 32,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ImmersiveEngineering:tool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bug Reports",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "If you encounter some bugs or issues in your playthrough, you can report them via :\n\n- CurseForge Comments\n- GitHub issues tracker\n- Discord server\n\nThe best way for issues would be on GitHub, as it will keep an archive of everything that happened before.\n\nI\u0027m also very hyped to hear your feedback on the pack, you can talk with the Dev\u0027 team on the Discord server ! :-)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
@@ -909,6 +1916,195 @@
           "bg_image:8": "",
           "bg_size:3": 256,
           "desc:8": "You step into a new world, but you\u0027ll soon discover that the rules aren\u0027t the same down here.\nBe quick while the sun is still high, the night won\u0027t be forgiving !"
+        }
+      },
+      "order:3": 1
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 48,
+          "x:3": 12,
+          "y:3": 12,
+          "id:3": 12,
+          "sizeY:3": 48
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 36,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 12,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 60,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 48,
+          "x:3": 180,
+          "y:3": 24,
+          "id:3": 16,
+          "sizeY:3": 48
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 36,
+          "id:3": 17,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 84,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 132,
+          "id:3": 19,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 84,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 48,
+          "x:3": 240,
+          "y:3": 84,
+          "id:3": 21,
+          "sizeY:3": 48
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 132,
+          "id:3": 22,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 96,
+          "id:3": 23,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Alchemy",
+          "icon:10": {
+            "id:8": "Thaumcraft:blockMetalDevice",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Now that you learnt research and wandcrafting, the next step will be Cauldron crafting and Essentia manipulation right in the path of midgame."
+        }
+      },
+      "order:3": 2
+    },
+    "2:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 12,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 60,
+          "id:3": 25,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 60,
+          "id:3": 26,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 12,
+          "id:3": 27,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 60,
+          "id:3": 28,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 12,
+          "id:3": 29,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 156,
+          "y:3": 12,
+          "id:3": 30,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 60,
+          "id:3": 31,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 12,
+          "id:3": 32,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Information",
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "General informations about the pack before starting !"
         }
       },
       "order:3": 0
