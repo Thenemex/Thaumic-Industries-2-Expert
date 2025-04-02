@@ -183,11 +183,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 1,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "Thaumcraft:WandCasting",
@@ -200,7 +200,7 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -658,7 +658,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -1126,7 +1126,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 1,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -1204,7 +1204,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
@@ -1259,7 +1259,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -1385,7 +1385,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -1448,7 +1448,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -1497,7 +1497,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "In this pack, most of Vanilla tools and armor have edited durability. In instance :\n\n- §lIron§r Tools have 15 Durability.\n- §e§lGold§r and §b§lDiamond§r Tools have 1 Durability.\n- §lIron§r, §e§lGold§r and §b§lDiamond§r Armor have 10 Durability.\n\nTo get around this, you must reach §d§5§lThaumium§r Tools that got 400 durability.\nOther stronger tools and materials will be discovered further is your playthrough !"
+          "desc:8": "In this pack, most of Vanilla tools and armor have edited durability. In instance :\n\n- §lIron§r Tools have 15 Durability.\n- §e§lGold§r and §b§lDiamond§r Tools have 1 Durability.\n- §l§4§lBow§r, §lIron§r§§, §e§lGold§r and §b§lDiamond§r Armor have 10 Durability.\n\nTo get around this, you must reach §d§5§lThaumium§r Tools that got 400 durability.\nOther stronger tools and materials will be discovered further is your playthrough !"
         }
       },
       "tasks:9": {
@@ -1812,6 +1812,126 @@
         }
       },
       "rewards:9": {}
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:crafting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Custom Harvest Level",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "This modpack got §nCustom Harvest Level§r on most utility blocks : this means they will need a §nspecific Tool§r with a §nspecific Mining Level§r.\nFor exemple, a Chest will only drop when harvested with - at least, a Stone Axe.\n\nThe WAILA UI at the top of your screen is updated to show these informations ; when you look at the block while sneaking, it will say 2 important things :\n\n- If the block is §nCurrently Harvestable§r : The checkmark will go green if you got the §ncorrect §nTool AND Mining level§r.\n- The tool needed to harvest the block : It only tells the Tool type needed, and not the Mining Level.\n\nSome other natural blocs like Diamond Ore, Greatwood Logs, Glowstone got their own mining level adjusted to the expert progress path.\nThe full list can be found in the GitHub under path §o§r\"§7§e§6§6info§r/§7§6harvest-levels.txt§r\"."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "34:10": {
+      "questID:3": 34,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemResource",
+            "Count:3": 1,
+            "tag:10": {
+              "ench:9": {
+                "0:10": {
+                  "lvl:2": 1,
+                  "id:2": 35
+                },
+                "1:10": {
+                  "lvl:2": 1,
+                  "id:2": 21
+                }
+              }
+            },
+            "Damage:2": 18,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "How to support us",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "If you really love the pack and can afford to give us a little something, there\u0027s two main ways to support the development :\n\n- Donate through GitHub / CurseForge / Discord link (all links go to GitHub Sponsors).\n- Use the discount for Bisect server hosting, via the blue banner on the modpack\u0027s curseforge page.\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "WitchingGadgets:item.WG_Bag",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Bagpacks",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -2036,14 +2156,14 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 12,
           "y:3": 60,
           "id:3": 25,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 60,
           "y:3": 60,
           "id:3": 26,
           "sizeY:3": 24
@@ -2057,7 +2177,7 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 108,
           "y:3": 60,
           "id:3": 28,
           "sizeY:3": 24
@@ -2078,7 +2198,7 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 252,
           "y:3": 60,
           "id:3": 31,
           "sizeY:3": 24
@@ -2088,6 +2208,27 @@
           "x:3": 204,
           "y:3": 12,
           "id:3": 32,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 156,
+          "y:3": 60,
+          "id:3": 33,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 12,
+          "id:3": 34,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 60,
+          "id:3": 35,
           "sizeY:3": 24
         }
       },
