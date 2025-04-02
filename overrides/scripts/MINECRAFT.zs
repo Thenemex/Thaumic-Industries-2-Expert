@@ -100,12 +100,17 @@ oreDict_logWood.add(<minecraft:log:0>);
 oreDict_logWood.add(<minecraft:log:1>);
 oreDict_logWood.add(<minecraft:log:2>);
 
-# Added new oreDict for mundane wood planks
+# Adding an oreDict for both Coal types
+val oreDictAllCoals = <ore:allCoals>;
+oreDictAllCoals.add(<minecraft:coal:0>);
+oreDictAllCoals.add(<minecraft:coal:1>);
+
+# Adding new oreDict for mundane wood planks
 val oreDictMundaneWoodPlanks = <ore:mundaneWoodPlanks>;
 for i, el_mundanePlank in planksArray {
     oreDictMundaneWoodPlanks.add(el_mundanePlank); }
 
-# Added new oreDict for magical wood planks
+# Adding new oreDict for magical wood planks
 val oreDictMagicalWoodPlanks = <ore:magicalWoodPlanks>;
 for i, el_magicalPlank in magicalPlanksArray {
     oreDictMagicalWoodPlanks.add(el_magicalPlank); }
