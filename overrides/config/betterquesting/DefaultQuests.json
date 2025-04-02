@@ -98,7 +98,7 @@
               "id:8": "minecraft:coal",
               "Count:3": 10,
               "Damage:2": 0,
-              "OreDict:8": ""
+              "OreDict:8": "allCoals"
             }
           },
           "taskID:8": "bq_standard:retrieval"
