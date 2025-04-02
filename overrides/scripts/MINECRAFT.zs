@@ -156,7 +156,7 @@ recipes.addShapedMirrored(<minecraft:stick> * 3,
 
 // 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
 recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
-                                                 <minecraft:iron_ore>, <minecraft:coal>] );
+                                                 <minecraft:iron_ore>, <ore:allCoals>] );
 
 // 1 Clay Block = 4 Clay
 recipes.addShapeless(<minecraft:clay_ball> * 4, [<minecraft:clay>]);
