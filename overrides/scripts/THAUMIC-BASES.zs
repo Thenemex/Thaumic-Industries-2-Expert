@@ -1,5 +1,11 @@
 // Recipes for Thaumic Bases
 
+# Removals
+// Removed Void Seed - broken item not working properly.
+mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:voidSeed>);
+mods.thaumcraft.Research.clearPrereqs("TB.VoidSeed");
+mods.thaumcraft.Research.removeResearch("TB.VoidSeed");
+
 # Flowers
 // Aurelia
 mods.thaumcraft.Aspects.set(<thaumicbases:aurelia>, "herba 1, lux 1, sensus 1, victus 1");
