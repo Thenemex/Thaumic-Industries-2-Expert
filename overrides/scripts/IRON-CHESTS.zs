@@ -42,7 +42,7 @@ game.setLocalization("fr_FR", "tnmx.ic.woodtoiron_1", "A la suite de plusieurs r
 // Iron Chest (1 Chest + 1 Thaumium + 6 Iron + 1 Iron block
 mods.thaumcraft.Arcane.addShaped("WOODTOIRON",
 /* Output                     */ <IronChest:BlockIronChest:0>,
-/* Aspects                    */ "aer 5, terra 12, ordo 20",
+/* Aspects                    */ "ordo 15, terra 22, aer 6",
 /* InputArray                 */ [[<minecraft:iron_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:iron_ingot>],
                                   [<minecraft:iron_ingot>, <minecraft:chest>, <minecraft:iron_ingot>],
                                   [<minecraft:iron_ingot>, <minecraft:iron_block>, <minecraft:iron_ingot>]] );
@@ -126,7 +126,7 @@ game.setLocalization("fr_FR", "tnmx.ic.irontogold_1", "En experimentant avec vot
 // Gold Chest (1 Chest + 1 Thaumium + 6 Gold + 1 Iron Gold)
 mods.thaumcraft.Arcane.addShaped("IRONTOGOLD",
 /* Output                     */ <IronChest:BlockIronChest:1>,
-/* Aspects                    */ "aer 12, terra 24, ordo 40",
+/* Aspects                    */ "ordo 24, terra 40, aer 10",
 /* InputArray                 */ [[<minecraft:gold_ingot>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>],
                                   [<minecraft:gold_ingot>, <IronChest:BlockIronChest:0>, <minecraft:gold_ingot>],
                                   [<minecraft:gold_ingot>, <minecraft:gold_block>, <minecraft:gold_ingot>]] );
