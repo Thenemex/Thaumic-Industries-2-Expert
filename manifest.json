@@ -6,13 +6,14 @@
         "id": "forge-10.13.4.1614",
         "primary": true
       }
-    ]
+    ],
+    "recommendedRam": 8192
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Thaumic Industries 2 - Expert",
-  "version": "2.6.1.6",
-  "author": "Thenemex",
+  "version": "2.6.2.1",
+  "author": "",
   "files": [
     {
       "projectID": 231275,
@@ -142,6 +143,11 @@
     {
       "projectID": 228019,
       "fileID": 2233282,
+      "required": true
+    },
+    {
+      "projectID": 1018962,
+      "fileID": 6151131,
       "required": true
     },
     {
