@@ -92,6 +92,14 @@ mods.thaumcraft.Crucible.addRecipe("TB.Redlon",
 /* AspectString                 */ "machina 256, potentia 256, victus 4, herba 4");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Redlon");
 
+// Lucrite (1 Golden Carrot = 1 Lucrite)
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:lucriteSeeds>);
+mods.thaumcraft.Crucible.addRecipe("TB.Lucrite",
+/* OutputStack                  */ <thaumicbases:lucriteSeeds>,
+/* InputStack                   */ <minecraft:golden_carrot>,
+/* AspectString                 */ "lucrum 512, metallum 128, fames 256, victus 4, herba 4");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Lucrite");
+
 // Briar (1 Rose Bush = 1 Briar)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:briar>);
 mods.thaumcraft.Crucible.addRecipe("TB.Briar",
