@@ -26,6 +26,32 @@ mods.thaumcraft.Aspects.set(<thaumicbases:aureliaPetal>, "herba 1");
 mods.thaumcraft.Aspects.set(<thaumicbases:resource:5>, "herba 1");
 <thaumicbases:aurelia>.addTooltip(format.red("ONLY DECORATIVE"));
 
+// Rosa Mysteria
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:knoseSeed>);
+mods.thaumcraft.Crucible.addRecipe("TB.Knose",
+/* OutputStack                  */ <thaumicbases:knoseSeed>,
+/* InputStack                   */ <minecraft:double_plant:4>, // Rose Bush
+/* AspectString                 */ "cognitio 128, sano 64, victus 8");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Knose");
+// Knose seed block
+mods.thaumcraft.Aspects.set(<thaumicbases:knose>, "herba 1, victus 1");
+
+// Fluxium
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:flaxium>);
+mods.thaumcraft.Crucible.addRecipe("TB.Flaxium",
+/* OutputStack                  */ <thaumicbases:flaxium>,
+/* InputStack                   */ <minecraft:red_flower:2>, // Allium
+/* AspectString                 */ "praecantatio 16, permutatio 16, perditio 8, limus 2");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Flaxium");
+
+// Primal Shroom (1 Vishroom = 1 Primal Shroom)
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:ashroom>);
+mods.thaumcraft.Crucible.addRecipe("TB.Ashroom",
+/* OutputStack                  */ <thaumicbases:ashroom>,
+/* InputStack                   */ <Thaumcraft:blockCustomPlant:5>,
+/* AspectString                 */ "lucrum 16, praecantatio 10, aer 5, ignis 5, aqua 5, terra 5, ordo 6, perditio 6");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Ashroom");
+
 // Briar (1 Rose Bush = 1 Briar)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:briar>);
 mods.thaumcraft.Crucible.addRecipe("TB.Briar",
@@ -37,24 +63,6 @@ mods.thaumcraft.Aspects.set(<thaumicbases:briar>, "aer 2, herba 3, victus 5, san
 <thaumicbases:briar>.addTooltip(format.red("ONLY DECORATIVE"));
 // Briar Drops
 mods.thaumcraft.Aspects.set(<thaumicbases:resource:6>, "herba 1, victus 1");
-
-// Primal Shroom (1 Vishroom = 1 Primal Shroom)
-mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:ashroom>);
-mods.thaumcraft.Crucible.addRecipe("TB.Ashroom",
-/* OutputStack                  */ <thaumicbases:ashroom>,
-/* InputStack                   */ <Thaumcraft:blockCustomPlant:5>, 
-/* AspectString                 */ "lucrum 16, praecantatio 10, aer 5, ignis 5, aqua 5, terra 5, ordo 6, perditio 6");
-mods.thaumcraft.Research.refreshResearchRecipe("TB.Ashroom");
-
-// Rosa Mysteria
-mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:knoseSeed>);
-mods.thaumcraft.Crucible.addRecipe("TB.Knose",
-/* OutputStack                  */ <thaumicbases:knoseSeed>,
-/* InputStack                   */ <minecraft:double_plant:4>, // Rose Bush
-/* AspectString                 */ "cognitio 128, sano 64, victus 8");
-mods.thaumcraft.Research.refreshResearchRecipe("TB.Knose");
-// Knose seed block
-mods.thaumcraft.Aspects.set(<thaumicbases:knose>, "herba 1, victus 1");
 
 # Thauminite
 // Thauminite Caps (1 Charged Thaumium Cap + 5 Thauminite Nuggets + 3 Salis Mundus
