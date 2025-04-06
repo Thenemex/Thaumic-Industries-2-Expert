@@ -100,6 +100,14 @@ mods.thaumcraft.Crucible.addRecipe("TB.Lucrite",
 /* AspectString                 */ "lucrum 512, metallum 128, fames 256, victus 4, herba 4");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Lucrite");
 
+// Plax Seeds (1 Seeds = 1 Plax)
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:plaxSeed>);
+mods.thaumcraft.Crucible.addRecipe("TB.Plax",
+/* OutputStack                  */ <thaumicbases:plaxSeed>,
+/* InputStack                   */ <minecraft:wheat_seeds>,
+/* AspectString                 */ "pannus 256, fabrico 128, instrumentum 64, victus 4, herba 4");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Plax");
+
 // Briar (1 Rose Bush = 1 Briar)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:briar>);
 mods.thaumcraft.Crucible.addRecipe("TB.Briar",
