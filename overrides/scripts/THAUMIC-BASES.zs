@@ -68,6 +68,22 @@ mods.thaumcraft.Crucible.addRecipe("TB.Metalleat",
 /* AspectString                 */ "metallum 128, lucrum 64, ordo 40, victus 4, herba 4");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Metalleat");
 
+// Lazullia Seeds (1 Wheat seed = 1 Lazullia)
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:lazulliaSeeds>);
+mods.thaumcraft.Crucible.addRecipe("TB.Lazullia",
+/* OutputStack                  */ <thaumicbases:lazulliaSeeds>,
+/* InputStack                   */ <minecraft:wheat_seeds>,
+/* AspectString                 */ "lucrum 128, sensus 128, victus 4, herba 4");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Lazullia");
+
+// Rainbow Cacti (1 Cactus = 1 Rainbow Cacti
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:rainbowCactus>);
+mods.thaumcraft.Crucible.addRecipe("TB.RainbowCacti",
+/* OutputStack                  */ <thaumicbases:rainbowCactus>,
+/* InputStack                   */ <minecraft:cactus>,
+/* AspectString                 */ "sensus 1024, permutatio 192, victus 4, herba 4");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.RainbowCacti");
+
 // Briar (1 Rose Bush = 1 Briar)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:briar>);
 mods.thaumcraft.Crucible.addRecipe("TB.Briar",
