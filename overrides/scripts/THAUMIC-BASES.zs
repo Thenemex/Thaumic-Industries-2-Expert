@@ -60,6 +60,14 @@ mods.thaumcraft.Crucible.addRecipe("TB.Glieonia",
 /* AspectString                 */ "lux 64, praecantatio 18, victus 4, herba 4");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Glieonia");
 
+// Metalleat Seeds (1 Wheat seed = 1 Metalleat)
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:metalleatSeeds>);
+mods.thaumcraft.Crucible.addRecipe("TB.Metalleat",
+/* OutputStack                  */ <thaumicbases:metalleatSeeds>,
+/* InputStack                   */ <minecraft:wheat_seeds>,
+/* AspectString                 */ "metallum 128, lucrum 64, ordo 40, victus 4, herba 4");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Metalleat");
+
 // Briar (1 Rose Bush = 1 Briar)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:briar>);
 mods.thaumcraft.Crucible.addRecipe("TB.Briar",
