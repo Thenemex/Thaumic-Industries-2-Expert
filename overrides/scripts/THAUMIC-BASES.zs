@@ -11,6 +11,14 @@ mods.thaumcraft.Research.clearPrereqs("TB.NodeLinker");
 mods.thaumcraft.Research.removeResearch("TB.NodeLinker");
 
 # Flowers
+// Sweed seeds
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:sweedSeeds>);
+mods.thaumcraft.Crucible.addRecipe("TB.BasicPlants",
+/* OutputStack                  */ <thaumicbases:sweedSeeds>,
+/* InputStack                   */ <minecraft:tallgrass:1>, // Grass
+/* AspectString                 */ "motus 8, victus 4, herba 2, aer 32, aqua 32");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.BasicPlants");
+
 // Aurelia
 mods.thaumcraft.Aspects.set(<thaumicbases:aurelia>, "herba 1, lux 1, sensus 1, victus 1");
 // Aurelia Drops
@@ -45,6 +53,8 @@ mods.thaumcraft.Crucible.addRecipe("TB.Knose",
 /* InputStack                   */ <minecraft:double_plant:4>, // Rose Bush
 /* AspectString                 */ "cognitio 128, sano 64, victus 8");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Knose");
+// Knose seed block
+mods.thaumcraft.Aspects.set(<thaumicbases:knose>, "herba 1, victus 1");
 
 # Thauminite
 // Thauminite Caps (1 Charged Thaumium Cap + 5 Thauminite Nuggets + 3 Salis Mundus
