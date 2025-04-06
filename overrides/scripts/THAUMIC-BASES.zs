@@ -11,7 +11,7 @@ mods.thaumcraft.Research.clearPrereqs("TB.NodeLinker");
 mods.thaumcraft.Research.removeResearch("TB.NodeLinker");
 
 # Flowers
-// Sweed seeds
+// Sweed seeds (1 Grass = 1 Sweed)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:sweedSeeds>);
 mods.thaumcraft.Crucible.addRecipe("TB.BasicPlants",
 /* OutputStack                  */ <thaumicbases:sweedSeeds>,
@@ -19,14 +19,14 @@ mods.thaumcraft.Crucible.addRecipe("TB.BasicPlants",
 /* AspectString                 */ "motus 8, victus 4, herba 2, aer 32, aqua 32");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.BasicPlants");
 
-// Aurelia
+// Aurelia (1 Pink Tulip = 1 Aurelia)
 mods.thaumcraft.Aspects.set(<thaumicbases:aurelia>, "herba 1, lux 1, sensus 1, victus 1");
 // Aurelia Drops
 mods.thaumcraft.Aspects.set(<thaumicbases:aureliaPetal>, "herba 1");
 mods.thaumcraft.Aspects.set(<thaumicbases:resource:5>, "herba 1");
 <thaumicbases:aurelia>.addTooltip(format.red("ONLY DECORATIVE"));
 
-// Rosa Mysteria
+// Rosa Mysteria (1 Rose Bush = 1 Rosa)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:knoseSeed>);
 mods.thaumcraft.Crucible.addRecipe("TB.Knose",
 /* OutputStack                  */ <thaumicbases:knoseSeed>,
@@ -36,11 +36,11 @@ mods.thaumcraft.Research.refreshResearchRecipe("TB.Knose");
 // Knose seed block
 mods.thaumcraft.Aspects.set(<thaumicbases:knose>, "herba 1, victus 1");
 
-// Fluxium
+// Fluxium (1 Allium = 1 Fluxium)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:flaxium>);
 mods.thaumcraft.Crucible.addRecipe("TB.Flaxium",
 /* OutputStack                  */ <thaumicbases:flaxium>,
-/* InputStack                   */ <minecraft:red_flower:2>, // Allium
+/* InputStack                   */ <minecraft:red_flower:2>,
 /* AspectString                 */ "praecantatio 16, permutatio 16, perditio 8, limus 2");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Flaxium");
 
@@ -51,6 +51,14 @@ mods.thaumcraft.Crucible.addRecipe("TB.Ashroom",
 /* InputStack                   */ <Thaumcraft:blockCustomPlant:5>,
 /* AspectString                 */ "lucrum 16, praecantatio 10, aer 5, ignis 5, aqua 5, terra 5, ordo 6, perditio 6");
 mods.thaumcraft.Research.refreshResearchRecipe("TB.Ashroom");
+
+// Glieonia Seed (1 Azure Bluet = 1 Glieonia)
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:glieoniaSeed>);
+mods.thaumcraft.Crucible.addRecipe("TB.Glieonia",
+/* OutputStack                  */ <thaumicbases:glieoniaSeed>,
+/* InputStack                   */ <minecraft:red_flower:3>,
+/* AspectString                 */ "lux 64, praecantatio 18, victus 4, herba 4");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Glieonia");
 
 // Briar (1 Rose Bush = 1 Briar)
 mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:briar>);
