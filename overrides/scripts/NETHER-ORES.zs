@@ -1,6 +1,7 @@
 // Recipes for Nether Ores
 
 # Aspects
+mods.thaumcraft.Aspects.set(<NetherOres:netherOresBlockHellfish>, "ira 3, bestia 3, terra 2, ignis 1, vinculum 1, infernus 1"); // Infested Netherrack
 // Vanilla
 mods.thaumcraft.Aspects.set(<NetherOres:tile.netherores.ore.0:0>, "infernus 1, potentia 3, terra 1, ignis 1"); // Coal
 mods.thaumcraft.Aspects.set(<NetherOres:tile.netherores.ore.0:3>, "infernus 1, metallum 5, terra 1"); // Iron
