@@ -39,6 +39,7 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:blockFluidDeath>, "mortuus 4, venenum 4,
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockTube:0>, "aqua 1, metallum 1"); // Essentia Tube
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemResource:13>, "cognitio 1"); // Jar Label
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemEssence:1>, "vacuos 1"); // Filled Glass Phial
+mods.thaumcraft.Aspects.set(<Thaumcraft:BlockJarFilledItem>, "vitreus 1"); // Filled Warded Jar
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemCrystalEssence:0>, "vitreus 1"); // Crystallized Essence
 
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockCosmeticSolid:14>, "terra 1, alienis 1"); // Crusted Stone
