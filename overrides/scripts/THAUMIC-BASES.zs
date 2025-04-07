@@ -133,13 +133,13 @@ mods.thaumcraft.Research.refreshResearchRecipe("CAP_thauminite");
 mods.thaumcraft.Research.addPrereq("CAP_thauminite", "CAP_thaumium", true);
 
 # Anvils
-// Thaumium Anvil (88 vis of each)
+// Thaumium Anvil (27+3 Thaumium + 1 Primal Charm)
 mods.thaumcraft.Arcane.removeRecipe(<thaumicbases:thaumicAnvil:0>);
 mods.thaumcraft.Arcane.addShaped("TB.ThaumicAnvil",
 /* Output                     */ <thaumicbases:thaumicAnvil:0>,
-/* Aspects                    */ "aer 111, aqua 111, terra 111, ignis 111, ordo 111, perditio 111",
+/* Aspects                    */ "aer 30, aqua 30, terra 50, ignis 30, ordo 50, perditio 30",
 /* InputArray                 */ [[<ore:blockThaumium>, <ore:blockThaumium>, <ore:blockThaumium>],
-                                  [null, <ore:ingotThaumium>, null],
+                                  [null, <Thaumcraft:ItemResource:15>, null],
                                   [<ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>]] );
 mods.thaumcraft.Research.addPrereq("TB.ThaumicAnvil", "INFUSION", true);
 mods.thaumcraft.Research.refreshResearchRecipe("TB.ThaumicAnvil");
