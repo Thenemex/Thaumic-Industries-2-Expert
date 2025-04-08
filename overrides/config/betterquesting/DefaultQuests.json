@@ -1533,7 +1533,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "In this pack, accessing Enchanting is much harder than usual and has been pushed further into mid-game.\n\n- At early-game, the most you can do is combine looted Enchanted Books and Tools in an §7§l§8§l§7§lAnv\n- Once reaching mid-game and doing a bit of research, §7§lMatrix Infusion Enchantment§r can be used as usual.\n- In late mid-game, the vanilla §7§l§c§lEnchanting Table§r can be researched once the player is warped enough.\n- Finally at late-game, the §c§lOsmotic Enchanter§r is accessible.\n\nFor the different Anvils choice, you got :\n- Vanilla §7§lIron Anvil§r for early-game, working as usual.\n- §5§lThaumium Anvil§r from §nThaumic Bases§r (bottom right corner), accessible just after unlocking Thaumium - deletes the increasing cost of repairs."
+          "desc:8": "In this pack, accessing Enchanting is much harder than usual and has been pushed further into mid-game.\n\n- At early-game, the most you can do is combine looted Enchanted Books and Tools in an §7§l§8§l§7§lAnv\n- Once reaching mid-game and doing a bit of research, §7§lMatrix Infusion Enchantment§r can be used as usual.\n- In late mid-game, the vanilla §7§l§c§lEnchanting Table§r can be researched once the player is warped enough.\n- Finally at late-game, the §c§lOsmotic Enchanter§r is accessible.\n\nFor the different Anvils choice, you got :\n- Vanilla §7§lIron Anvil§r for early-game, working as usual.\n- §5§lThaumium Anvil§r from §nThaumic Bases§r (bottom right corner), accessible just after unlocking Thaumium. It deletes the increasing cost of repairs."
         }
       },
       "tasks:9": {
