@@ -1,5 +1,9 @@
 // Recipes for Thaumic Bases
 
+# Bugs
+// Forgotten prereqs for Void Wand Core
+mods.thaumcraft.Research.addPrereq("TB.SMB", "ROD_tbvoid", true); // Salis Mundus Block
+
 # Removals
 // Removing Void Seed - broken item not working properly.
 mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:voidSeed>);
