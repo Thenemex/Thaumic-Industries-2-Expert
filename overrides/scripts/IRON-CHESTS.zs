@@ -163,7 +163,7 @@ game.setLocalization("tnmx.ic.goldtoblack_2", "They were all bathing in flux, an
 mods.thaumcraft.Infusion.addRecipe("GOLDTOBLACK",
 /* Input                        */ <IronChest:BlockIronChest:1>,
 /* Ingredients                  */ [<Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>],
-/* Essentia                     */ "alienis 35, metallum 80, tenebrae 28, vacuos 45",
+/* Essentia                     */ "alienis 12, metallum 80, tenebrae 16, vacuos 45",
 /* Output                       */ <IronChest:BlockIronChest:6>,
 /* Instability                  */ 8);
 mods.thaumcraft.Research.addInfusionPage("GOLDTOBLACK", <IronChest:BlockIronChest:6>);
