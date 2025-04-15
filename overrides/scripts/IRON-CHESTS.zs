@@ -162,10 +162,10 @@ game.setLocalization("tnmx.ic.goldtoblack_2", "They were all bathing in flux, an
 // Black Chest (1 Gold Chest + 1 Focus : Portable Hole + 1 Thaumium + 6 Void Metal + 4 Obsidian Tiles)
 mods.thaumcraft.Infusion.addRecipe("GOLDTOBLACK",
 /* Input                        */ <IronChest:BlockIronChest:1>,
-/* Ingredients                  */ [<Thaumcraft:ItemResource:2>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>,  <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:FocusPortableHole>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>],
-/* Essentia                     */ "alienis 12, metallum 50, fabrico 30, lucrum 25, tenebrae 22, vacuos 45",
+/* Ingredients                  */ [<Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:ItemResource:16>, <Thaumcraft:blockCosmeticSolid:1>],
+/* Essentia                     */ "alienis 35, metallum 80, tenebrae 28, vacuos 45",
 /* Output                       */ <IronChest:BlockIronChest:6>,
-/* Instability                  */ 10);
+/* Instability                  */ 8);
 mods.thaumcraft.Research.addInfusionPage("GOLDTOBLACK", <IronChest:BlockIronChest:6>);
 mods.thaumcraft.Research.addPage("GOLDTOBLACK", "tnmx.ic.goldtoblack_4");
 game.setLocalization("tnmx.ic.goldtoblack_4", "You quickly realised a chest of this size will be super useful for tidying all your mess, but you will have to hide it so your mates can't discover what it really is. <BR> You are sure you'll find a way to change the external appearance of the Black Chest to keep the irradiating warp and it's irresistible call of the void contained within it's walls ...");
