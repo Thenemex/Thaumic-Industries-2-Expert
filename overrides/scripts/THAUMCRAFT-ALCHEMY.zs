@@ -46,6 +46,14 @@ mods.thaumcraft.Crucible.addRecipe("TALLOW",
 /* AspectString                 */ "corpus 3, praecantatio 5");
 mods.thaumcraft.Research.refreshResearchRecipe("TALLOW");
 
+// Dupe : Slime Balls (1 = 2)
+mods.thaumcraft.Crucible.removeRecipe(<minecraft:slime_ball>);
+mods.thaumcraft.Crucible.addRecipe("ALCHEMICALDUPLICATION",
+/* OutputStack                  */ <minecraft:slime_ball> * 2,
+/* InputStack                   */ <minecraft:slime_ball>,
+/* AspectString                 */ "limus 1, aqua 2, victus 2");
+mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
+
 # Essentia
 // Glass Phial (1 Wood Slab + 1 Cluster + 3 Sand)
 mods.thaumcraft.Arcane.addShaped("PHIAL",
