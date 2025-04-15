@@ -69,6 +69,14 @@ mods.thaumcraft.Research.addPrereq("VOIDGOGGLES", "MIRROR", true);
 mods.thaumcraft.Research.addPrereq("VOIDGOGGLES", "OCULUS", true);
 
 # Resources
+// Warped Unbalanced Shard
+mods.thaumcraft.Crucible.removeRecipe(<TaintedMagic:ItemMaterial:3>);
+mods.thaumcraft.Crucible.addRecipe("UNBALANCEDSHARDS",
+/* OutputStack                  */ <TaintedMagic:ItemMaterial:3>,
+/* InputStack                   */ <Thaumcraft:ItemShard:6>, // Balanced Shard
+/* AspectString                 */ "alienis 16");
+mods.thaumcraft.Research.refreshResearchRecipe("UNBALANCEDSHARDS");
+
 // Shadowmetal Ingot (1 Thaumium = 1 Shadowmetal)
 mods.thaumcraft.Crucible.removeRecipe(<TaintedMagic:ItemMaterial:0>);
 mods.thaumcraft.Crucible.addRecipe("SHADOWMETAL",
