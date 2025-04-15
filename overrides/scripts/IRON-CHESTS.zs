@@ -229,7 +229,7 @@ game.setLocalization("tnmx.ic.blacktocrystal_1", "You were so obsessed with your
 mods.thaumcraft.Crucible.addRecipe("BLACKTOCRYSTAL",
 /* OutputStack                  */ <IronChest:BlockIronChest:5>,
 /* InputStack                   */ <IronChest:BlockIronChest:6>,
-/* AspectString                 */ "fabrico 10, ordo 15, tenebrae 8, vitreus 42");
+/* AspectString                 */ "fabrico 10, instrumentum 5, vitreus 40");
 mods.thaumcraft.Research.addCruciblePage("BLACKTOCRYSTAL", <IronChest:BlockIronChest:5>);
 // Setting aspects
 mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:5>, "vitreus 15, fabrico 8, ordo 5");
