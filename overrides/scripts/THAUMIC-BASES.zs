@@ -5,7 +5,7 @@
 mods.thaumcraft.Research.addPrereq("TB.SMB", "ROD_tbvoid", true); // Salis Mundus Block
 
 # Removals
-// Removing Void Seed - broken item not working properly.
+// Removing Void Seed - Broken item not working properly.
 mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:voidSeed>);
 mods.thaumcraft.Research.clearPrereqs("TB.VoidSeed");
 mods.thaumcraft.Research.removeResearch("TB.VoidSeed");
@@ -13,6 +13,11 @@ mods.thaumcraft.Research.removeResearch("TB.VoidSeed");
 mods.thaumcraft.Arcane.removeRecipe(<thaumicbases:nodeLinker>);
 mods.thaumcraft.Research.clearPrereqs("TB.NodeLinker");
 mods.thaumcraft.Research.removeResearch("TB.NodeLinker");
+// Removing Quicksilver recipe - Can't balance it without deleting the recipe from Thaumaturgical Knowledge
+mods.thaumcraft.Research.clearPrereqs("TB.Quicksilver");
+mods.thaumcraft.Research.clearPrereqs("TB.SM");
+mods.thaumcraft.Research.removeResearch("TB.Quicksilver");
+mods.thaumcraft.Research.addPrereq("TB.SM", "TB.Amber", false);
 
 # Flowers
 // Sweed seeds (1 Grass = 1 Sweed)
