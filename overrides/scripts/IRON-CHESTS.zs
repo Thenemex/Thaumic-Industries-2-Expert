@@ -39,7 +39,7 @@ game.setLocalization("fr_FR", "tc.research_text.WOODTOIRON", "Le double de place
 mods.thaumcraft.Research.addPage("WOODTOIRON", "tnmx.ic.woodtoiron_1");
 game.setLocalization("tnmx.ic.woodtoiron_1", "After some researchs and experiments with wood and metal, you found that the mundane chest can be enhanced to contain more items by covering the inside with a thin thaumium layer, and reinforcing the outside with a strong iron plating. The result is an iron-looking chest that can contains the same amount as a double wood chest.<BR>You noticed that - because of the strong outside metal plating, this new chest cannot merge with another chest like the wood chest would do.");
 game.setLocalization("fr_FR", "tnmx.ic.woodtoiron_1", "A la suite de plusieurs recherches et experiences en utilisant bois et metaux, vous remarquez une faille dans la structure du coffre en bois. Celui-ci peut etre ameliore pour contenir davantage d'objets en recouvrant l'interieur d'une fine couche de thaumium, et en renforcant l'exterieur avec un blindage de fer renforce . Le resultat est un semblant de coffre en fer qui peut contenir autant d'objets d'un double coffre en bois.<BR> Du a son blindage exterieur, ce nouveau coffre ne peut plus fusionner avec un autre coffre comme le ferait un coffre en bois.");
-// Iron Chest (1 Chest + 1 Thaumium + 6 Iron + 1 Iron block
+// Iron Chest (1 Chest + 1 Thaumium + 6 Iron + 1 Iron block)
 mods.thaumcraft.Arcane.addShaped("WOODTOIRON",
 /* Output                     */ <IronChest:BlockIronChest:0>,
 /* Aspects                    */ "ordo 15, terra 22, aer 6",
