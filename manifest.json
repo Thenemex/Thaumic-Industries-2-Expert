@@ -13,7 +13,7 @@
   "manifestVersion": 1,
   "name": "Thaumic Industries 2 - Expert",
   "version": "2.6.2.3",
-  "author": "",
+  "author": "Thenemex",
   "files": [
     {
       "projectID": 242480,
@@ -93,11 +93,6 @@
     {
       "projectID": 224472,
       "fileID": 2530879,
-      "required": true
-    },
-    {
-      "projectID": 1154331,
-      "fileID": 6079808,
       "required": true
     },
     {
@@ -223,11 +218,6 @@
     {
       "projectID": 66675,
       "fileID": 2277488,
-      "required": true
-    },
-    {
-      "projectID": 523867,
-      "fileID": 3450199,
       "required": true
     },
     {
@@ -583,6 +573,11 @@
     {
       "projectID": 224712,
       "fileID": 2298772,
+      "required": true
+    },
+    {
+      "projectID": 1154331,
+      "fileID": 6476450,
       "required": true
     },
     {
