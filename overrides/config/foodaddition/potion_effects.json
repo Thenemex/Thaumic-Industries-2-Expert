@@ -1,0 +1,9 @@
+[
+  {
+    "item": "minecraft:apple",
+    "meta": 0,
+    "effects": [
+      { "id": 10, "duration": 20, "amplifier": 1 }
+    ]
+  }
+]
