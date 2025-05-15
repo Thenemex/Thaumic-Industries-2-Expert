@@ -19,5 +19,7 @@ Wolf
 Squid
     Water Breathing I   10s
 
+- Mushrooms Based :
+Mushroom Stew, Magic Fungar
 
-
+    Nausea          II  30s

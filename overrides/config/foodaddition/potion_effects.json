@@ -106,5 +106,17 @@
     "item": "foodaddition:CookedCalamari", "meta": 0,
     "effects": [
       { "id": 13, "duration": 10, "amplifier": 1 } ]
+  },
+
+  {
+    "item": "minecraft:mushroom_stew", "meta": 0,
+    "effects": [
+      { "id": 9, "duration": 30, "amplifier": 2 } ]
+  },
+  {
+    "item": "TaintedMagic:ItemMagicFunguar", "meta": 0,
+    "effects": [
+      { "id": 9, "duration": 30, "amplifier": 2 } ]
   }
+
 ]
