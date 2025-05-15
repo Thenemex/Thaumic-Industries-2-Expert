@@ -1,11 +1,23 @@
 List of food items that have potion effects upon eating them :
 
-- Raw Porkchop, Raw Beef,Raw Chicken
-- Raw Fish, Raw Salmon, Clownfish
-- Raw Mutton, Raw Wolf Meat, Raw Horse Meat, Raw Calamari :
-
+ - Raw Meat :
+Pig, Cow, Chicken, Fish, Salmon, Clownfish, Sheep, Horse, Squid, Wolf
     Nausea          I   20s
     Slowness        I   30s
     Weakness        II  30s
     Mining Fatigue  II  30s
     Hunger          IV  10s
+
+ - Rare Cooked Meat :
+Horse
+    Speed           I   10s
+    Jump Boost      I   10s
+
+Wolf
+    Strength        I   5s
+
+Squid
+    Water Breathing I   10s
+
+
+
