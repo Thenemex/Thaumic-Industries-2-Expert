@@ -22,4 +22,32 @@ Squid
 - Mushrooms Based :
 Mushroom Stew, Magic Fungar
 
-    Nausea          II  30s
+    Nausea          I   10s
+    Blurred Vision  I   45s
+
+ - - - - - - - - - - - - - - - - - - - -
+
+Taint Poison        24
+Flux Flu            25
+Flux Phage          26
+Unnaturel Hunger    27
+Warp Ward           28
+Deadly Gaze         29
+Anti-Wither         30
+Binding             31
+Taint Withdrawl     32
+Blurred Vision      33
+Sun Scorned         34
+Thaumarhia          35
+
+Golem Buff          36
+Achromatic          37
+Eldritch            38
+Vis Affinity        39
+Vis Boost           40
+
+Vis Generation      41
+
+Item Vacuum         42
+Static Shock        43
+Photosynthesis      44
