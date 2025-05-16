@@ -22,8 +22,14 @@ Squid
 - Mushrooms Based :
 Mushroom Stew, Magic Fungar
 
-    Nausea          I   10s
+    Nausea          I   20s
     Blurred Vision  I   45s
+
+- Zombie Brain :
+
+    Flux Flu        II  300s
+    Thaumarhia      I   30s
+    Unntrl Hunger   I   30s
 
  - - - - - - - - - - - - - - - - - - - -
 

@@ -111,14 +111,22 @@
   {
     "item": "minecraft:mushroom_stew", "meta": 0,
     "effects": [
-      { "id": 9, "duration": 10, "amplifier": 1 },
+      { "id": 9, "duration": 20, "amplifier": 1 },
       { "id": 33, "duration": 45, "amplifier": 1 } ]
   },
   {
     "item": "TaintedMagic:ItemMagicFunguar", "meta": 0,
     "effects": [
-      { "id": 9, "duration": 10, "amplifier": 1 },
+      { "id": 9, "duration": 20, "amplifier": 1 },
       { "id": 33, "duration": 45, "amplifier": 1 } ]
+  },
+
+  {
+    "item": "Thaumcraft:ItemZombieBrain", "meta": 0,
+    "effects": [
+      { "id": 25, "duration": 300, "amplifier": 2 },
+      { "id": 35, "duration": 30, "amplifier": 1 },
+      { "id": 27, "duration": 30, "amplifier": 1 } ]
   }
 
 ]
