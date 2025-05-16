@@ -31,6 +31,13 @@ Mushroom Stew, Magic Fungar
     Thaumarhia      I   30s
     Unntrl Hunger   I   30s
 
+- Rotten Flesh :
+
+    Poison          II  10s
+    Wither          II  10s
+    Blindness       I   10s
+    Hunger          IV  10s
+
  - - - - - - - - - - - - - - - - - - - -
 
 Taint Poison        24

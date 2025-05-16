@@ -6,8 +6,7 @@
       { "id": 4, "duration": 30, "amplifier": 2 },
       { "id": 9, "duration": 20, "amplifier": 1 },
       { "id": 18, "duration": 30, "amplifier": 2 },
-      { "id": 17, "duration": 10, "amplifier": 4 }
-    ]
+      { "id": 17, "duration": 10, "amplifier": 4 } ]
   },
   {
     "item": "minecraft:beef", "meta": 0,
@@ -127,6 +126,15 @@
       { "id": 25, "duration": 300, "amplifier": 2 },
       { "id": 35, "duration": 30, "amplifier": 1 },
       { "id": 27, "duration": 30, "amplifier": 1 } ]
+  },
+
+  {
+    "item": "minecraft:rotten_flesh", "meta": 0,
+    "effects": [
+      { "id": 19, "duration": 10, "amplifier": 2 },
+      { "id": 20, "duration": 10, "amplifier": 2 },
+      { "id": 15, "duration": 10, "amplifier": 1 },
+      { "id": 17, "duration": 10, "amplifier": 4 } ]
   }
 
 ]
