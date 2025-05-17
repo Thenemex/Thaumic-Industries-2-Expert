@@ -129,6 +129,15 @@ mods.thaumcraft.Aspects.set(<thaumicbases:briar>, "aer 2, herba 3, victus 5, san
 // Briar Drops
 mods.thaumcraft.Aspects.set(<thaumicbases:resource:6>, "herba 1, victus 1");
 
+# Tobacco
+// Wisdom Tobacco
+mods.thaumcraft.Crucible.removeRecipe(<thaumicbases:tobaccoPowder:4>);
+mods.thaumcraft.Crucible.addRecipe("TB.Tobacco.Wisdom",
+/* OutputStack                  */ <thaumicbases:tobaccoPowder:4>, // Wisdom
+/* InputStack                   */ <thaumicbases:tobaccoPowder:0>, // Mundane
+/* AspectString                 */ "aer 8, cognitio 24, praecantatio 4");
+mods.thaumcraft.Research.refreshResearchRecipe("TB.Tobacco.Wisdom");
+
 # Thauminite
 // Thauminite Caps (1 Charged Thaumium Cap + 5 Thauminite Nuggets + 3 Salis Mundus
 mods.thaumcraft.Arcane.removeRecipe(<thaumicbases:resource:2>);
