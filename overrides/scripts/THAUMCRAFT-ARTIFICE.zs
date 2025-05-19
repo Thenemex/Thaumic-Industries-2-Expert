@@ -29,7 +29,7 @@ recipes.remove(<minecraft:furnace>);
 mods.thaumcraft.Research.addResearch("VANILLAFURNACE",
 /* TabKey                         */ "ARTIFICE",
 /* AspectList                     */ "ignis 2, perditio 6, terra 6",
-/* X                              */ 1,
+/* X                              */ 0,
 /* Y                              */ -5,
 /* Complexity                     */ 1,
 /* ItemStack                      */ <minecraft:furnace>);
@@ -53,6 +53,8 @@ recipes.addShaped(<minecraft:furnace>,
                    [<Thaumcraft:blockCosmeticSolid:6>, null, <Thaumcraft:blockCosmeticSolid:6>],
                    [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]]);
 mods.thaumcraft.Research.addCraftingPage("VANILLAFURNACE", <minecraft:furnace>);
+// Prereqs
+mods.thaumcraft.Research.addPrereq("VANILLAFURNACE", "EARLYCOOKING", false);
 
 # Iron Tools
 recipes.remove(<minecraft:iron_pickaxe>);
@@ -60,7 +62,7 @@ recipes.remove(<minecraft:iron_axe>);
 mods.thaumcraft.Research.addResearch("IRONTOOLS",
 /* TabKey                         */ "ARTIFICE",
 /* AspectList                     */ "metallum 15, ordo 10, terra 6, vitreus 6",
-/* X                              */ -1,
+/* X                              */ -2,
 /* Y                              */ -5,
 /* Complexity                     */ 1,
 /* ItemStack                      */ <minecraft:iron_pickaxe>);

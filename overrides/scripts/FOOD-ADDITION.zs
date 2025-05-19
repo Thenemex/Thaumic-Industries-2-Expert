@@ -30,14 +30,14 @@ val cookedMeatArray = [<minecraft:cooked_porkchop>,
 mods.thaumcraft.Research.addResearch("EARLYCOOKING",
 /* TabKey                         */ "ARTIFICE",
 /* AspectList                     */ "ignis 5, potentia 5, fames 10",
-/* X                              */ 0,
+/* X                              */ 2,
 /* Y                              */ -5,
 /* Complexity                     */ 0,
 /* ItemStack                      */ <minecraft:porkchop>);
 game.setLocalization("tc.research_name.EARLYCOOKING", "Early cooking");
 game.setLocalization("tc.research_text.EARLYCOOKING", "Vegetables are good for health");
 mods.thaumcraft.Research.addPage("EARLYCOOKING", "tnmx.artifice.earlycooking_1");
-game.setLocalization("tnmx.artifice.earlycooking_1", "Well you just spawned in this damned world, and you can't make a furnace yet ... But you have a book and a wand filled with some vis !<BR> By focusing a bit of your Ignis vis into a bunch of raw meats and some coal, you found a way to cooked a small amount of food (with loss in the process).<LINE> If you're willing to sacrifice some Fire Shards in the process, it doubles the output of cooked meat !");
+game.setLocalization("tnmx.artifice.earlycooking_1", "Well you just spawned in this damned world, and you can't make a furnace yet ... But you have a book and a wand filled with some vis !<BR> By focusing a bit of your Ignis vis into a bunch of raw meats and some coal, you found a way to cooked a small amount of food (with loss in the process).<LINE> If you're willing to sacrifice some Fire Shards in the process, it doubles the output of cooked meat !<BR> These recipes work for all kinds of raw meats.");
 // Adding the recipes
 for i, el_rawMeat in rawMeatArray {
     var cookedMeat = cookedMeatArray[i];
