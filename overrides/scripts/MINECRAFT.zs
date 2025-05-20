@@ -148,36 +148,36 @@ recipes.addShaped(<minecraft:chest>,
                    [<Thaumcraft:blockWoodenDevice:7>, null, <Thaumcraft:blockWoodenDevice:7>],
                    [<Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>, <Thaumcraft:blockWoodenDevice:7>]]);
 
-// 1 Wood -> 2 Planks
+# Plank/Sticks
+// 1 Log -> 1 Plank
 for i, el_plank in planksArray {
     recipes.remove(el_plank);
-    recipes.addShapeless(el_plank * 2, [logsArray[i]]); }
-
-// 1 Magical Wood = 3 Planks
+    recipes.addShapeless(el_plank * 1, [logsArray[i]]);
+}
+// 1 Magical Log = 2 Plank
 for i, el_plank in magicalPlanksArray {
-    var log = magicalLogsArray[i];
     recipes.remove(el_plank);
-    recipes.addShapeless(el_plank * 3, [log]); }
-recipes.addShapeless(<minecraft:planks:1> * 3, [<thaumicbases:genLogs:1>]); // Nether [TB]
-recipes.addShapeless(<minecraft:planks:2> * 3, [<thaumicbases:genLogs:0>]); // Peaceful [TB]
-
-// 2 Planks -> 2 Sticks
+    recipes.addShapeless(el_plank * 2, [magicalLogsArray[i]]);
+}
+recipes.addShapeless(<minecraft:planks:1> * 2, [<thaumicbases:genLogs:1>]); // Nether [TB]
+recipes.addShapeless(<minecraft:planks:2> * 2, [<thaumicbases:genLogs:0>]); // Peaceful [TB]
+// 2 Planks -> 1 Stick
 recipes.remove(<minecraft:stick>);
-recipes.addShapedMirrored(<minecraft:stick> * 2,
+recipes.addShapedMirrored(<minecraft:stick> * 1,
                           [[oreDictMundaneWoodPlanks, null],
                            [oreDictMundaneWoodPlanks, null]]);
-// 2 Magical Planks = 3 Sticks
-recipes.addShapedMirrored(<minecraft:stick> * 3,
+// 2 Magical Planks = 2 Sticks
+recipes.addShapedMirrored(<minecraft:stick> * 2,
                           [[oreDictMagicalWoodPlanks, null],
                            [oreDictMagicalWoodPlanks, null]]);
+
 
 // 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
 recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
                                                  <minecraft:iron_ore>, <ore:allCoals>] );
-
+# Uncompressing recipes
 // 1 Clay Block = 4 Clay
 recipes.addShapeless(<minecraft:clay_ball> * 4, [<minecraft:clay>]);
-
 // 1 Block of Flesh = 9 Rotten Flesh
 recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<Thaumcraft:blockTaint:2>]);
 
