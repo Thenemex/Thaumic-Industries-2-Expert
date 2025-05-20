@@ -41,13 +41,21 @@ game.setLocalization("tnmx.artifice.earlycooking_1", "Well you just spawned in t
 // Adding the recipes
 for i, el_rawMeat in rawMeatArray {
     var cookedMeat = cookedMeatArray[i];
-// 4 Raw Meat + 1 Coal = 1 Cooked meat (2 ignis vis)
+// 8 Raw Meat + 1 Coal = 2 Cooked meat (2 ignis vis)
     mods.thaumcraft.Arcane.addShaped("EARLYCOOKING",
     /* Output                     */ cookedMeat * 2,
     /* Aspects                    */ "ignis 2",
     /* InputArray                 */ [[el_rawMeat, el_rawMeat, el_rawMeat],
                                       [el_rawMeat, <minecraft:coal>, el_rawMeat],
-                                      [el_rawMeat, el_rawMeat, el_rawMeat]] ); }
+                                      [el_rawMeat, el_rawMeat, el_rawMeat]] );
+// 4 Raw Meat + 1 Fire Shard = 2 Cooked meat (2 ignis vis)
+    mods.thaumcraft.Arcane.addShaped("EARLYCOOKING",
+    /* Output                     */ cookedMeat * 4,
+    /* Aspects                    */ "ignis 2",
+    /* InputArray                 */ [[el_rawMeat, el_rawMeat, el_rawMeat],
+                                      [el_rawMeat, <Thaumcraft:ItemShard:1>, el_rawMeat],
+                                      [el_rawMeat, el_rawMeat, el_rawMeat]] );
+}
 mods.thaumcraft.Research.addArcanePage("EARLYCOOKING", <minecraft:cooked_porkchop>);
 // Prereqs
 mods.thaumcraft.Research.setRound("EARLYCOOKING", true);
