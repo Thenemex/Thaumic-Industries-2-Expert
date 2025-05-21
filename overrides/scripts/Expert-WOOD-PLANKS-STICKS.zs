@@ -93,7 +93,7 @@ for i, el_plank in planksArray {
                                       [el_plank, null, null],
                                       [null, null, null]] ); }
 mods.thaumcraft.Research.addArcanePage("WOOD_WANDCRAFT", <minecraft:stick>);
-// ToDo Magical woods
+// ToDo Magical woods logs
 // Prereqs
 mods.thaumcraft.Research.setRound("WOOD_WANDCRAFT", true);
 mods.thaumcraft.Research.setAutoUnlock("WOOD_WANDCRAFT", true);
