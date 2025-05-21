@@ -82,7 +82,7 @@ for i, el_plank in planksArray {
     mods.thaumcraft.Arcane.addShapeless("WOOD_WANDCRAFT",
     /* Output                        */ el_plank * 2,
     /* Aspects                       */ "terra 1",
-    /* InputArray                    */ [logsArray[i]]); }
+    /* InputArray                    */ [logsArray[i]] ); }
 mods.thaumcraft.Research.addArcanePage("WOOD_WANDCRAFT", <minecraft:planks:0>);
 // 2 Planks -> 2 Sticks
 for i, el_plank in planksArray {
