@@ -49,7 +49,7 @@ oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemAxeElemental>);
 oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemHoeElemental>);
 
 # Cooking meat in early-game (without furnace)
-// Adding research in artifice
+// Adding the auto-unlocked research
 mods.thaumcraft.Research.addResearch("EARLYCOOKING",
 /* TabKey                         */ "ARTIFICE",
 /* AspectList                     */ "ignis 5, potentia 5, fames 10",
@@ -77,8 +77,7 @@ for i, el_rawMeat in rawMeatArray {
     /* Aspects                    */ "ignis 2",
     /* InputArray                 */ [[el_rawMeat, el_rawMeat, el_rawMeat],
                                       [el_rawMeat, <Thaumcraft:ItemShard:1>, el_rawMeat],
-                                      [el_rawMeat, el_rawMeat, el_rawMeat]] );
-}
+                                      [el_rawMeat, el_rawMeat, el_rawMeat]] ); }
 mods.thaumcraft.Research.addArcanePage("EARLYCOOKING", <minecraft:cooked_porkchop>);
 // Prereqs
 mods.thaumcraft.Research.setRound("EARLYCOOKING", true);
