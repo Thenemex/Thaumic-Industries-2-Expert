@@ -77,6 +77,23 @@ game.setLocalization("tc.research_name.WOOD_WANDCRAFT", "Making planks");
 game.setLocalization("tc.research_text.WOOD_WANDCRAFT", "More sticks !");
 mods.thaumcraft.Research.addPage("WOOD_WANDCRAFT", "tnmx.artifice.wood_wandcraft_1");
 game.setLocalization("tnmx.artifice.wood_wandcraft_1", "Damn these trees, the logs are so poor they only give so little when transformed to planks and sticks ...<BR> When using some terra vis from you wand, you can almost double the amount you got from mundane and magical logs !");
+// 1 Log -> 2 Planks
+for i, el_plank in planksArray {
+    mods.thaumcraft.Arcane.addShapeless("WOOD_WANDCRAFT",
+    /* Output                        */ el_plank * 2,
+    /* Aspects                       */ "terra 1",
+    /* InputArray                    */ [logsArray[i]]); }
+mods.thaumcraft.Research.addArcanePage("WOOD_WANDCRAFT", <minecraft:planks:0>);
+// 2 Planks -> 2 Sticks
+for i, el_plank in planksArray {
+    mods.thaumcraft.Arcane.addShaped("WOOD_WANDCRAFT",
+    /* Output                     */ <minecraft:stick> * 2,
+    /* Aspects                    */ "perditio 1",
+    /* InputArray                 */ [[el_plank, null, null],
+                                      [el_plank, null, null],
+                                      [null, null, null]] ); }
+mods.thaumcraft.Research.addArcanePage("WOOD_WANDCRAFT", <minecraft:stick>);
+// ToDo Magical woods
 // Prereqs
 mods.thaumcraft.Research.setRound("WOOD_WANDCRAFT", true);
 mods.thaumcraft.Research.setAutoUnlock("WOOD_WANDCRAFT", true);
