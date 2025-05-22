@@ -93,7 +93,21 @@ for i, el_plank in planksArray {
                                       [el_plank, null, null],
                                       [null, null, null]] ); }
 mods.thaumcraft.Research.addArcanePage("WOOD_WANDCRAFT", <minecraft:stick>);
-// ToDo Magical woods logs
+// 1 Magical Log -> 3 Planks
+for i, el_plank in magicalPlanksArray {
+    mods.thaumcraft.Arcane.addShapeless("WOOD_WANDCRAFT",
+    /* Output                        */ el_plank * 3,
+    /* Aspects                       */ "terra 1",
+    /* InputArray                    */ [magicalLogsArray[i]] ); }
+mods.thaumcraft.Research.addArcanePage("WOOD_WANDCRAFT", <Thaumcraft:blockWoodenDevice:6>);
+// 2 Magical Planks -> 3 Sticks
+for i, el_plank in magicalPlanksArray {
+    mods.thaumcraft.Arcane.addShaped("WOOD_WANDCRAFT",
+    /* Output                     */ <minecraft:stick> * 3,
+    /* Aspects                    */ "perditio 1",
+    /* InputArray                 */ [[el_plank, null, null],
+                                      [el_plank, null, null],
+                                      [null, null, null]] ); }
 // Prereqs
 mods.thaumcraft.Research.setRound("WOOD_WANDCRAFT", true);
 mods.thaumcraft.Research.setAutoUnlock("WOOD_WANDCRAFT", true);
