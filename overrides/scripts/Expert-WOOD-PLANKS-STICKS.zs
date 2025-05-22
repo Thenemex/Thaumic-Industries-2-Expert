@@ -76,7 +76,7 @@ mods.thaumcraft.Research.addResearch("WOOD_WANDCRAFT",
 game.setLocalization("tc.research_name.WOOD_WANDCRAFT", "Making planks");
 game.setLocalization("tc.research_text.WOOD_WANDCRAFT", "More sticks !");
 mods.thaumcraft.Research.addPage("WOOD_WANDCRAFT", "tnmx.artifice.wood_wandcraft_1");
-game.setLocalization("tnmx.artifice.wood_wandcraft_1", "Damn these trees, the logs are so poor they only give so little when transformed to planks and sticks ...<BR> When using some terra vis from you wand, you can almost double the amount you got from mundane and magical logs !");
+game.setLocalization("tnmx.artifice.wood_wandcraft_1", "Damn these trees, the logs are so poor they only give so little when transformed to planks and sticks ...<BR> When using some terra vis from you wand, you can almost double the amount you got from mundane and magical logs !<LINE>NB : If you make sticks from magical planks, it will the same amount as the magical logs (3 sticks)");
 // 1 Log -> 2 Planks
 for i, el_plank in planksArray {
     mods.thaumcraft.Arcane.addShapeless("WOOD_WANDCRAFT",
@@ -108,6 +108,10 @@ for i, el_plank in magicalPlanksArray {
     /* InputArray                 */ [[el_plank, null, null],
                                       [el_plank, null, null],
                                       [null, null, null]] ); }
+
+# Crucible recipes
+// ToDo+
+
 // Prereqs
 mods.thaumcraft.Research.setRound("WOOD_WANDCRAFT", true);
 mods.thaumcraft.Research.setAutoUnlock("WOOD_WANDCRAFT", true);
