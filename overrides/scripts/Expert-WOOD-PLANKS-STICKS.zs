@@ -108,14 +108,25 @@ for i, el_plank in magicalPlanksArray {
     /* InputArray                 */ [[el_plank, null, null],
                                       [el_plank, null, null],
                                       [null, null, null]] ); }
-
-# Crucible recipes
-// ToDo+
-
 // Prereqs
 mods.thaumcraft.Research.setRound("WOOD_WANDCRAFT", true);
 mods.thaumcraft.Research.setAutoUnlock("WOOD_WANDCRAFT", true);
 mods.thaumcraft.Research.addPrereq("WOOD_WANDCRAFT", "ARCTABLE", false);
+
+# Crucible recipes
+// Adding the research
+mods.thaumcraft.Research.addResearch("WOOD_CRUCIBLE",
+/* TabKey                         */ "ALCHEMY",
+/* AspectList                     */ "arbor 5, herba 5, victus 5, terra 5",
+/* X                              */ 2,
+/* Y                              */ -3,
+/* Complexity                     */ 0,
+/* ItemStack                      */ <minecraft:stick>);
+game.setLocalization("tc.research_name.WOOD_CRUCIBLE", "Making more planks");
+game.setLocalization("tc.research_text.WOOD_CRUCIBLE", "EVEN more sticks !");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("WOOD_CRUCIBLE", "CRUCIBLE", false);
+mods.thaumcraft.Research.setSecondary("WOOD_CRUCIBLE", true);
 
 # Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
 for i, el_wood in logsArray {
