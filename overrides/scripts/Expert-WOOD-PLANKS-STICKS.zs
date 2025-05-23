@@ -99,6 +99,14 @@ for i, el_plank in magicalPlanksArray {
     /* Output                        */ el_plank * 3,
     /* Aspects                       */ "terra 1",
     /* InputArray                    */ [magicalLogsArray[i]] ); }
+mods.thaumcraft.Arcane.addShapeless("WOOD_WANDCRAFT",
+    /* Output                        */ <minecraft:planks:1> * 3,
+    /* Aspects                       */ "terra 1",
+    /* InputArray                    */ [<thaumicbases:genLogs:1>] ); // Nether [TB]
+mods.thaumcraft.Arcane.addShapeless("WOOD_WANDCRAFT",
+    /* Output                        */ <minecraft:planks:2> * 3,
+    /* Aspects                       */ "terra 1",
+    /* InputArray                    */ [<thaumicbases:genLogs:0>] ); // Peaceful [TB]
 mods.thaumcraft.Research.addArcanePage("WOOD_WANDCRAFT", <Thaumcraft:blockWoodenDevice:6>);
 // 2 Magical Planks -> 3 Sticks
 for i, el_plank in magicalPlanksArray {
@@ -124,6 +132,8 @@ mods.thaumcraft.Research.addResearch("WOOD_CRUCIBLE",
 /* ItemStack                      */ <minecraft:stick>);
 game.setLocalization("tc.research_name.WOOD_CRUCIBLE", "Making more planks");
 game.setLocalization("tc.research_text.WOOD_CRUCIBLE", "EVEN more sticks !");
+mods.thaumcraft.Research.addPage("WOOD_CRUCIBLE", "tnmx.artifice.wood_crucible_1");
+game.setLocalization("tnmx.artifice.wood_crucible_1", ".");
 // Prereqs
 mods.thaumcraft.Research.addPrereq("WOOD_CRUCIBLE", "CRUCIBLE", false);
 mods.thaumcraft.Research.setSecondary("WOOD_CRUCIBLE", true);
