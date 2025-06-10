@@ -82,6 +82,13 @@ val armorArray = [<minecraft:iron_helmet>,
                   <minecraft:diamond_leggings>,
                   <minecraft:diamond_boots>,
                   <minecraft:bow>] as IItemStack[];
+// Array of vanilla logs // ToDo Integrate that in the mod
+val logsArray = [<minecraft:log:0>,
+                 <minecraft:log:1>,
+                 <minecraft:log:2>,
+                 <minecraft:log:3>,
+                 <minecraft:log2:0>,
+                 <minecraft:log2:1>] as IItemStack[];
 
 # Adding missing vanilla logs to OreDict logWood
 val oreDict_logWood = <ore:logWood>;
@@ -93,6 +100,12 @@ oreDict_logWood.add(<minecraft:log:2>);
 val oreDictAllCoals = <ore:allCoals>;
 oreDictAllCoals.add(<minecraft:coal:0>);
 oreDictAllCoals.add(<minecraft:coal:1>);
+
+# Burning Woods/Fire into Charcoal - Patching charcoal dupe bug
+for i, el_wood in logsArray {
+    furnace.remove(<*>, el_wood);
+    furnace.addRecipe(<minecraft:coal:1>, el_wood); }
+
 
 # Editing item crafts
 // 1 Chest = 8 Greatwood Logs / 8 Silverwood Planks
