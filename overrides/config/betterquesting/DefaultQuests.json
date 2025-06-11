@@ -1533,7 +1533,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "In this pack, accessing Enchanting is much harder than usual and has been pushed further into mid-game.\n\n- At early-game, the most you can do is combine looted Enchanted Books and Tools in an §7§l§8§l§7§lAnv\n- Once reaching mid-game and doing a bit of research, §7§lMatrix Infusion Enchantment§r can be used as usual.\n- In late mid-game, the vanilla §7§l§c§lEnchanting Table§r can be researched once the player is warped enough.\n- Finally at late-game, the §c§lOsmotic Enchanter§r is accessible.\n\nFor the different Anvils choice, you got :\n- Vanilla §7§lIron Anvil§r for early-game, working as usual.\n- §5§lThaumium Anvil§r from §nThaumic Bases§r (bottom right corner), accessible just after unlocking Thaumium. It deletes the increasing cost of repairs."
+          "desc:8": "In this pack, accessing Enchanting is much harder than usual and has been pushed further into mid-game.\n\n- At early-game, the most you can do is combine looted Enchanted Books and Tools in an §7§l§8§l§7§lAnv\n- Once reaching mid-game and doing a bit of research, §7§lMatrix Infusion Enchantment§r can be used as usual.\n- In late mid-game, the vanilla §7§l§c§lEnchanting Table§r can be researched once the player is warped enough.\n- Finally at late-game, the §c§lOsmotic Enchanter§r is accessible.\n\nFor the different Anvils choice, you got :\n- Vanilla §7§lIron Anvil§r for early-game, working as usual.\n- §5§lThaumium Anvil§r from §nThaumic Bases§r (bottom right corner), accessible just after unlocking Thaumium - deletes the increasing cost of repairs."
         }
       },
       "tasks:9": {
@@ -1932,6 +1932,78 @@
         }
       },
       "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:planks",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "mundanePlanks"
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Processing Wood (Expert Changes)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "The usual recipes for converting Wood Logs into Planks, and Planks into Sticks have been changed for your worst nightmares ...\nAt spawn, the best you can get with you bare hands are 1 Plank and Stick out of the usual materials.\n\nA new Thaumonomicon tab named \"Lumberjack\" is here to help you get more output out of these damned Wood logs :\nFor the moment, only 3 new researches are present :\n\n§l - Workbench\n - Arcane§r (Wandcraft)§l\n - Crucible\n§r\nThe more you progress into this tab, the more you will improve the output amount you get when processing wood !"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "37:10": {
+      "questID:3": 37,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:porkchop",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Food (Expert changes)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "In this world, you always want proper food and cooked meat.\nTrying to eat uncooked, rotten or brainy meat will make you really sick !\n\nOn the other hand, rare meats have special benefic effects when cooked !\nFor exemple, Cooked Horse Meat allows you to jump higher and run faster for a short time."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -2198,14 +2270,14 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 300,
           "y:3": 60,
           "id:3": 31,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 252,
           "y:3": 12,
           "id:3": 32,
           "sizeY:3": 24
@@ -2219,16 +2291,30 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 300,
           "y:3": 12,
           "id:3": 34,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 252,
           "y:3": 60,
           "id:3": 35,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 60,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 12,
+          "id:3": 37,
           "sizeY:3": 24
         }
       },
