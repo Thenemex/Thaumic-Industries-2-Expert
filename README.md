@@ -10,10 +10,10 @@ Reporting bugs & problems here on GitHub : https://github.com/Thenemex/Thaumic-I
 https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relations/dependencies
 
 ### Helpers & Authors
-Project leaded by Thenemex
+Project currenlty leaded by Thenemex
 
 Founders of the pack :
- - AQUOI-LORDE, NexWiz and myself
+ - AQUOI-LORDE, NexWiz and Thenemex
 
 Big thanks to my active and passed close testers :
  - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
@@ -21,7 +21,7 @@ Big thanks to my active and passed close testers :
 Huge thanks to Discord members sharing their in-game experience, and their ideas that got implemented to the pack :
 - NotSenna, Reykjavik
 
-And also thanks to the online players who submitted and shared opinions & report issues online about the pack that made it through development :
+And also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
 - CloudyOrangeFox, goofy_fermat5688369, hron84, Khulturg
 
 Special mention to temakisushi aka awesome_hippo, who made useful mods for the pack.
