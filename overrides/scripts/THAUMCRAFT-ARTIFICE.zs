@@ -187,9 +187,9 @@ mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockWoodenDevice:0>);
 mods.thaumcraft.Arcane.addShaped("BELLOWS",
 /* Output                     */ <Thaumcraft:blockWoodenDevice:0>,
 /* Aspects                    */ "aer 15, ordo 8",
-/* InputArray                 */ [[<ore:magicalWoodPlanks>, <ore:magicalWoodPlanks>, null],
+/* InputArray                 */ [[<ore:magicalPlanks>, <ore:magicalPlanks>, null],
                                   [<minecraft:leather>, <Thaumcraft:ItemShard:0>, <Thaumcraft:ItemResource:2>],
-                                  [<ore:magicalWoodPlanks>, <ore:magicalWoodPlanks>, null]] );
+                                  [<ore:magicalPlanks>, <ore:magicalPlanks>, null]] );
 mods.thaumcraft.Research.refreshResearchRecipe("BELLOWS");
 mods.thaumcraft.Research.addPrereq("BELLOWS", "THAUMIUM", true);
 
