@@ -21,7 +21,7 @@ Big thanks to my active and passed close testers :
 Huge thanks to Discord members sharing their in-game experience, and their ideas that got implemented to the pack :
 - NotSenna, Reykjavik
 
-And also thanks to the online players who submitted and shared opinions & reports online about the pack that made it through development :
-- CloudyOrangeFox, goofy_fermat5688369, hron84
+And also thanks to the online players who submitted and shared opinions & report issues online about the pack that made it through development :
+- CloudyOrangeFox, goofy_fermat5688369, hron84, Khulturg
 
 Special mention to temakisushi aka awesome_hippo, who made useful mods for the pack.
