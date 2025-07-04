@@ -10,3 +10,8 @@ recipes.addShaped(<minecraft:ender_pearl>,
                   [[<EnderZoo:enderFragment>, <EnderZoo:enderFragment>, <EnderZoo:enderFragment>],
                    [<EnderZoo:enderFragment>, <EnderZoo:enderFragment>, <EnderZoo:enderFragment>],
                    [<EnderZoo:enderFragment>, <EnderZoo:enderFragment>, <EnderZoo:enderFragment>]]);
+
+# Charge Nerfs
+recipes.remove(<EnderZoo:blockConfusingCharge>);
+recipes.remove(<EnderZoo:blockEnderCharge>);
+recipes.remove(<EnderZoo:blockConcussionCharge>);
