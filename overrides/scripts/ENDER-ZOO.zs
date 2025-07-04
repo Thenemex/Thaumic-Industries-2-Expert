@@ -2,4 +2,5 @@
 
 # Aspects
 mods.thaumcraft.Aspects.set(<EnderZoo:witheringDust>, "perditio 1, mortuus 1"); // Withering Dust
-// ToDo Ender fragment aspects + new recipe for Ender Pearl
+mods.thaumcraft.Aspects.set(<EnderZoo:enderFragment>, "perditio 1, alienis 1"); // Ender Fragment
+// ToDo New recipe for Ender Pearl from 9 frags
