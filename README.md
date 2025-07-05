@@ -13,15 +13,15 @@ https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relati
 Project currenlty leaded by Thenemex
 
 Founders of the pack :
- - AQUOI-LORDE, NexWiz and Thenemex
+ - Thenemex, NexWiz and AQUOI-LORDE
 
 Big thanks to my active and passed close testers :
  - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
 
 Huge thanks to Discord members sharing their in-game experience, and their ideas that got implemented to the pack :
-- NotSenna, Reykjavik
+- Apfiz, NotSenna, Reykjavik
 
 And also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
-- Apfiz, CloudyOrangeFox, goofy_fermat5688369, hron84
+- CloudyOrangeFox, goofy_fermat5688369, hron84
 
 Special mention to temakisushi aka awesome_hippo, who made useful mods for the pack.
