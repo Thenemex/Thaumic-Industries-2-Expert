@@ -18,3 +18,15 @@ mods.thaumcraft.Infusion.addRecipe("ENCHANTER",
 mods.thaumcraft.Research.refreshResearchRecipe("ENCHANTER");
 // Adding the Primordial Pearl as prereq for the Osmotic Enchanter
 mods.thaumcraft.Research.addPrereq("ENCHANTER", "PRIMPEARL", true);
+
+# Ichorium
+// 9 Nuggets -> 1 Ingot
+recipes.addShaped(<ThaumicTinkerer:kamiResource:2>,
+                  [[<ThaumicTinkerer:kamiResource:3>, <ThaumicTinkerer:kamiResource:3>, <ThaumicTinkerer:kamiResource:3>],
+                   [<ThaumicTinkerer:kamiResource:3>, <ThaumicTinkerer:kamiResource:3>, <ThaumicTinkerer:kamiResource:3>],
+                   [<ThaumicTinkerer:kamiResource:3>, <ThaumicTinkerer:kamiResource:3>, <ThaumicTinkerer:kamiResource:3>]]);
+
+# Aspects
+mods.thaumcraft.Aspects.set(<ThaumicTinkerer:kamiResource:3>, "aer 1, ignis 1, aqua 1, terra 1, ordo 1, perditio 1"); // Ichorium Nugget
+mods.thaumcraft.Aspects.set(<ThaumicTinkerer:kamiResource:2>, "aer 10, ignis 10, aqua 10, terra 10, ordo 10, perditio 10"); // Ichorium
+
