@@ -17,16 +17,16 @@ val voidToolsArray = [<Thaumcraft:ItemSwordVoid>,
 // Void seed (1 Wheat Seed = 1 Void Seed)
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:17>);
 mods.thaumcraft.Crucible.addRecipe("ELDRITCHMINOR",
-/* OutputStack                  */ <Thaumcraft:ItemResource:17>,
-/* InputStack                   */ <minecraft:wheat_seeds>, 
+/* OutputStack                  */ <Thaumcraft:ItemResource:17>, // Void Seed
+/* InputStack                   */ <minecraft:wheat_seeds>, // Wheat Seed
 /* AspectString                 */ "alienis 8, tenebrae 6, vacuos 10");
 mods.thaumcraft.Research.refreshResearchRecipe("ELDRITCHMINOR");
 
 // Void metal
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:16>);
 mods.thaumcraft.Crucible.addRecipe("VOIDMETAL",
-/* OutputStack                  */ <Thaumcraft:ItemResource:16>,
-/* InputStack                   */ <Thaumcraft:ItemResource:17>, 
+/* OutputStack                  */ <Thaumcraft:ItemNugget:7> * 8, // Voidmetal Nuggets
+/* InputStack                   */ <Thaumcraft:ItemResource:17>, // Void Seed
 /* AspectString                 */ "metallum 12");
 mods.thaumcraft.Research.refreshResearchRecipe("VOIDMETAL");
 
@@ -151,7 +151,7 @@ mods.thaumcraft.Research.addPage("VOIDMETAL", "tnmx.eldritch.<Thaumcraft:ItemRes
 // Adding English & French
 game.setLocalization("tnmx.eldritch.<Thaumcraft:ItemResource:16>.1", "By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR> A strange and half remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic; but with the very essence where magic is drawn from: Darkness and the Void that dwells between the stars.<BR> The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but");
 game.setLocalization("fr_FR", "tnmx.eldritch.<Thaumcraft:ItemResource:16>.1", "En infusant de la magie dans du metal vous avez reussi a creer du Thaumium. C'etait une decouverte de valeur, mais le temps est venu de laisser le thaumium aux amateurs et a ceux qui n'osent pas se mouiller.<BR>Un reve fou et a moitie oublie vous a donne le besoin d'essayer quelque chose de... Different. Que se passerait il si au lieu d'infuser du metal avec juste de la magie, vous l'infusiez avec l'essence meme de la source de la magie: Les Tenebres et le vide qui demeure entre les etoiles.<BR>Le metal qui en resulte est lisse et chaud au toucher... De facon troublante.");
-mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <Thaumcraft:ItemResource:16>);
+mods.thaumcraft.Research.addCruciblePage("VOIDMETAL", <Thaumcraft:ItemNugget:7>);
 mods.thaumcraft.Research.addPage("VOIDMETAL", "tnmx.eldritch.<Thaumcraft:ItemResource:16>.3");
 game.setLocalization("tnmx.eldritch.<Thaumcraft:ItemResource:16>.3", "when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devastating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favorably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal ; being harmed by it seems to temporarily sap your strength.");
 game.setLocalization("fr_FR", "tnmx.eldritch.<Thaumcraft:ItemResource:16>.3", "Il est presque aussi souple que l'or le rendant facile a travailler, mais quand il est frappe il devient aussi dur que du thaumium et parfois meme plus dur. Encore plus impressionant tous les dommages sauf les plus devastateurs se reparent d'eux memes, le metal reprenant lentement sa forme d'origine.<BR> Le seul point negatif est qu'il est plus difficile a enchanter que du thaumium, mais toujours meilleur que des materiaux basiques comme du fer.<BR>Vous avez decouvert que la prudence est de mise quand on manipule ce metal ; votre force semble temporairement disparaitre lorsque vous etes blesse par celui-ci.");
