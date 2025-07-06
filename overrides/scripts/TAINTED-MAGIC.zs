@@ -77,10 +77,10 @@ mods.thaumcraft.Crucible.addRecipe("UNBALANCEDSHARDS",
 /* AspectString                 */ "alienis 16");
 mods.thaumcraft.Research.refreshResearchRecipe("UNBALANCEDSHARDS");
 
-// Shadowmetal Ingot (1 Thaumium = 1 Shadowmetal)
+// Shadowmetal Ingot (1 Thaumium = 8 Shadowmetal nuggets)
 mods.thaumcraft.Crucible.removeRecipe(<TaintedMagic:ItemMaterial:0>);
 mods.thaumcraft.Crucible.addRecipe("SHADOWMETAL",
-/* Output                       */ <TaintedMagic:ItemMaterial:0>,
+/* Output                       */ <TaintedMagic:ItemMaterial:8> * 8,
 /* Input                        */ <Thaumcraft:ItemResource:2>,
 /* Essentia                     */ "alienis 2, metallum 8, perditio 3, tenebrae 12, vacuos 5");
 
@@ -137,7 +137,7 @@ mods.thaumcraft.Research.addPage("SHADOWMETAL", "tnmx.tm.shadowmetal_1");
 // Adding English
 game.setLocalization("tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tm.text.SHADOWMETAL.tnmx.tm.shadowmetal_1", "Once upon a time you were transmuting something in your crucible. After botching a recipe, you accidentally dropped some magic metal into the bubbling mess; to your surprise, out came a mysterious metal ingot.<BR>You have decided to name it Shadow Metal. It is extremely heavy and seems very durable, but it is highly unstable and difficult to craft with. You will likely have to use it alongside another magical metal.<BR>You place your ear against this strange substance and hear faint whispers. Are you going mad? Who knows");
 // Re-adding all the pages with arcane crafting
-mods.thaumcraft.Research.addCruciblePage("SHADOWMETAL", <TaintedMagic:ItemMaterial:0>);
+mods.thaumcraft.Research.addCruciblePage("SHADOWMETAL", <TaintedMagic:ItemMaterial:8>);
 for i, el_shadowTool in shadowToolsArray {
     mods.thaumcraft.Research.addArcanePage("SHADOWMETAL", el_shadowTool); }
 # Research Prereqs
