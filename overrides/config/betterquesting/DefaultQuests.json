@@ -853,7 +853,7 @@
     "14:10": {
       "questID:3": 14,
       "preRequisites:11": [
-        13
+        12
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -904,7 +904,7 @@
     "15:10": {
       "questID:3": 15,
       "preRequisites:11": [
-        13
+        12
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -955,7 +955,6 @@
     "16:10": {
       "questID:3": 16,
       "preRequisites:11": [
-        14,
         15
       ],
       "properties:10": {
@@ -1886,7 +1885,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "If you really love the pack and can afford to give us a little something, there\u0027s two main ways to support the development :\n\n- Donate through GitHub / CurseForge / Discord link (all links go to GitHub Sponsors).\n- Use the discount for Bisect server hosting, via the blue banner on the modpack\u0027s curseforge page.\n\nReally huge thanks and hugs if you chose to support the pack financially \u003c3"
+          "desc:8": "If you really love the pack and can afford to give us a little something, there\u0027s two main ways to support the development :\n\n- Donate through GitHub / CurseForge / Discord link (all links go to GitHub Sponsors).\n- Use the discount for Wabbanode server hosting, via the blue banner on the modpack\u0027s curseforge page.\n\nReally huge thanks and hugs if you chose to support the pack financially \u003c3"
         }
       },
       "tasks:9": {
@@ -2117,84 +2116,84 @@
         "0:10": {
           "sizeX:3": 48,
           "x:3": 12,
-          "y:3": 12,
+          "y:3": 48,
           "id:3": 12,
           "sizeY:3": 48
         },
         "1:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 36,
+          "y:3": 60,
           "id:3": 13,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 84,
           "y:3": 12,
           "id:3": 14,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 60,
+          "x:3": 84,
+          "y:3": 120,
           "id:3": 15,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 48,
-          "x:3": 180,
-          "y:3": 24,
+          "x:3": 132,
+          "y:3": 48,
           "id:3": 16,
           "sizeY:3": 48
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 36,
+          "x:3": 204,
+          "y:3": 60,
           "id:3": 17,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 84,
+          "y:3": 168,
           "id:3": 18,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": 132,
+          "x:3": 132,
+          "y:3": 168,
           "id:3": 19,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": 84,
+          "x:3": 36,
+          "y:3": 120,
           "id:3": 20,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 48,
-          "x:3": 240,
-          "y:3": 84,
+          "x:3": 192,
+          "y:3": 108,
           "id:3": 21,
           "sizeY:3": 48
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 132,
+          "x:3": 84,
+          "y:3": 168,
           "id:3": 22,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 192,
-          "y:3": 96,
+          "x:3": 144,
+          "y:3": 120,
           "id:3": 23,
           "sizeY:3": 24
         }
