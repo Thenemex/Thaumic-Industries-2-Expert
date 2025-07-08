@@ -42,6 +42,8 @@ mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLeaves:1>, "herba 2, pra
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLeaves:2>, "herba 2, praecantatio 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLeaves:3>, "herba 2, praecantatio 1");
 
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.WispyCloud>, "aer 4, tempestas 2, volatus 2"); // Wispy Cloud
+
 // ToDo Refactor with array
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:5>, "herba 4, arbor 2, praecantatio 2"); // Tree of Time Sapling
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:6>, "herba 4, arbor 2, praecantatio 1"); // Tree of Transformation Sapling
@@ -49,5 +51,13 @@ mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:7>, "herba 4, arbor 2
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:8>, "herba 4, arbor 2, praecantatio 1"); // Sorting Tree Sapling
 
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:9>, "herba 4, arbor 2, sensus 8"); // Rainbow Oak Sapling
+
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.AuroraDoubleSlab>, "gelum 2, vitreus 2"); // Aurora Double Slab
+
+// ToDo Refactor with array
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLogSpecial:0>, "arbor 4, praecantatio 5, sano 8, sensus 8"); // Timewood Clock
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLogSpecial:1>, "arbor 4, praecantatio 5, lucrum 4, sensus 2"); // Heart of Transformation
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLogSpecial:2>, "arbor 4, praecantatio 5, lucrum 16, perfodio 8, terra 6"); // Minewood Core
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLogSpecial:3>, "arbor 4, praecantatio 5, ordo 8, cognitio 8"); // Sortingwood Engine
 
 mods.thaumcraft.Aspects.set(<TwilightForest:item.magicBeans>, "herba 4, superbia 4, lucrum 4"); // Magic Beans
