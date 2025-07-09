@@ -8,6 +8,22 @@ recipes.remove(<TwilightForest:item.chainBlock>);
 // Renaming the item
 <TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>.displayName = "Twilight Catalyst";
 <TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>.addTooltip(format.yellow("The key to another dimension ... "));
+// Adding the research
+mods.thaumcraft.Research.addResearch("TWILIGHTCATALYST",
+/* TabKey                         */ "ARTIFICE",
+/* AspectList                     */ "iter 15, praecantatio 10, sensus 6, tenebrae 6, lucrum 5, alienis 2",
+/* X                              */ -5,
+/* Y                              */ 1,
+/* Complexity                     */ 5,
+/* ItemStack                      */ <TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>);
+game.setLocalization("tc.research_name.TWILIGHTCATALYST", "The Twilight");
+game.setLocalization("fr_FR", "tc.research_name.TWILIGHTCATALYST", "Le Crepuscule");
+game.setLocalization("tc.research_text.TWILIGHTCATALYST", "The key to another dimension !");
+game.setLocalization("fr_FR", "tc.research_text.TWILIGHTCATALYST", "La clé vers un autre monde !");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("TWILIGHTCATALYST", "INFUSION", false);
+// Warping
+mods.thaumcraft.Warp.addToResearch("TWILIGHTCATALYST", 2);
 
 # Aspects
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleDoor>, "gelum 2, machina 2"); // Blue Castle Door
