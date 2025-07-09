@@ -1,13 +1,15 @@
 // Recipes for Twilight Forest mod
 
+val catalyst = <TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>;
+
 # Nerfs
 // Remove Block & Chain recipe
 recipes.remove(<TwilightForest:item.chainBlock>);
 
 # Research for portal
 // Renaming the item
-<TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>.displayName = "Twilight Catalyst";
-<TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>.addTooltip(format.yellow("The key to another dimension ... "));
+catalyst.displayName = "Twilight Catalyst";
+catalyst.addTooltip(format.yellow("The key to another dimension ... "));
 // Adding the research
 mods.thaumcraft.Research.addResearch("TWILIGHTCATALYST",
 /* TabKey                         */ "ARTIFICE",
@@ -15,16 +17,24 @@ mods.thaumcraft.Research.addResearch("TWILIGHTCATALYST",
 /* X                              */ -5,
 /* Y                              */ 1,
 /* Complexity                     */ 5,
-/* ItemStack                      */ <TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>);
+/* ItemStack                      */ catalyst);
 game.setLocalization("tc.research_name.TWILIGHTCATALYST", "The Twilight");
 game.setLocalization("fr_FR", "tc.research_name.TWILIGHTCATALYST", "Le Crepuscule");
 game.setLocalization("tc.research_text.TWILIGHTCATALYST", "The key to another dimension !");
 game.setLocalization("fr_FR", "tc.research_text.TWILIGHTCATALYST", "La clé vers un autre monde !");
 mods.thaumcraft.Research.addPage("TWILIGHTCATALYST", "tnmx.twf.twilightcatalyst_1");
 game.setLocalization("tnmx.twf.twilightcatalyst_1", "In this world, most of the rules are changed.<BR> The portal to the Twilight won't open with a mundane diamond. You need something much more complex and valuable than this, or else the Twilight won't allow you in ...<LINE>You'll find here the infusion for making the Catalyst to open the door to this world.");
-
+// Catalyst (1 Primal Charm + 1 Salis Mundis + 4 Thaumium + 2 Diamonds + 1 Emerald)
+mods.thaumcraft.Infusion.addRecipe("TWILIGHTCATALYST",
+/* Input                        */ <Thaumcraft:ItemResource:15>,
+/* Ingredients                  */ [<Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:2>, <minecraft:diamond>, <Thaumcraft:ItemResource:2>, <minecraft:emerald>, <Thaumcraft:ItemResource:2>, <minecraft:diamond>, <Thaumcraft:ItemResource:2>],
+/* Essentia                     */ "arbor 80, praecantatio 42, sensus 30, iter 25, tenebrae 18, ordo 16, auram 5",
+/* Output                       */ catalyst,
+/* Instability                  */ 4);
+mods.thaumcraft.Research.addInfusionPage("TWILIGHTCATALYST", catalyst);
 // Prereqs
 mods.thaumcraft.Research.addPrereq("TWILIGHTCATALYST", "INFUSION", false);
+mods.thaumcraft.Research.addPrereq("TWILIGHTCATALYST", "THAUMIUM", true);
 // Warping
 mods.thaumcraft.Warp.addToResearch("TWILIGHTCATALYST", 2);
 
