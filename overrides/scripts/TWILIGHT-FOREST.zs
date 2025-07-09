@@ -4,6 +4,11 @@
 // Remove Block & Chain recipe
 recipes.remove(<TwilightForest:item.chainBlock>);
 
+# Research for portal
+// Renaming the item
+<TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>.displayName = "Twilight Catalyst";
+<TwilightForestPortalCatalyst:TwilightForestPortalCatalyst>.addTooltip(format.yellow("The key to another dimension ... "));
+
 # Aspects
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleDoor>, "gelum 2, machina 2"); // Blue Castle Door
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleDoorVanished>, "gelum 2, iter 2"); // Blue Castle Door (Opened)
