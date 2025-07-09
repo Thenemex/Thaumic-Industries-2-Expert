@@ -1,5 +1,9 @@
 // Recipes for Twilight Forest mod
 
+# Nerfs
+// Remove Block & Chain recipe
+recipes.remove(<TwilightForest:item.chainBlock>);
+
 # Aspects
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleDoor>, "gelum 2, machina 2"); // Blue Castle Door
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleDoorVanished>, "gelum 2, iter 2"); // Blue Castle Door (Opened)
