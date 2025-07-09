@@ -17,12 +17,12 @@ mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFTowerDevice:12>, "arbor 4, ma
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.HugeStalk>, "arbor 8, herba 4, victus 2"); // Huge Stalk
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFPlant:11>, "herba 1, mortuus 1, perditio 1"); // Dried Bush
 
-// Nagastone Head // ToDo Refactor with array
+// Nagastone Head
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:0>, "terra 2, ordo 4, lucrum 2, sensus 2");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:1>, "terra 2, ordo 4, lucrum 2, sensus 2");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:2>, "terra 2, ordo 4, lucrum 2, sensus 2");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:3>, "terra 2, ordo 4, lucrum 2, sensus 2");
-// Nagastone // ToDo Refactor with array
+// Nagastone
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:4>, "terra 2, ordo 1, motus 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:5>, "terra 2, ordo 1, motus 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:6>, "terra 2, ordo 1, motus 1");
@@ -36,7 +36,6 @@ mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:13>, "terra 2, ordo
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:14>, "terra 2, ordo 1, motus 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFNagastone:15>, "terra 2, ordo 1, motus 1");
 
-// ToDo Refactor with array
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLeaves:0>, "herba 2, praecantatio 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLeaves:1>, "herba 2, praecantatio 1");
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLeaves:2>, "herba 2, praecantatio 1");
@@ -44,7 +43,6 @@ mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLeaves:3>, "herba 2, pra
 
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.WispyCloud>, "aer 4, tempestas 2, volatus 2"); // Wispy Cloud
 
-// ToDo Refactor with array
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:5>, "herba 4, arbor 2, praecantatio 2"); // Tree of Time Sapling
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:6>, "herba 4, arbor 2, praecantatio 1"); // Tree of Transformation Sapling
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:7>, "herba 4, arbor 2, praecantatio 1"); // Miners Tree Sapling
@@ -54,10 +52,42 @@ mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFSapling:9>, "herba 4, arbor 2
 
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.AuroraDoubleSlab>, "gelum 2, vitreus 2"); // Aurora Double Slab
 
-// ToDo Refactor with array
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLogSpecial:0>, "arbor 4, praecantatio 5, sano 8, sensus 8"); // Timewood Clock
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLogSpecial:1>, "arbor 4, praecantatio 5, lucrum 4, sensus 2"); // Heart of Transformation
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLogSpecial:2>, "arbor 4, praecantatio 5, lucrum 16, perfodio 8, terra 6"); // Minewood Core
 mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMagicLogSpecial:3>, "arbor 4, praecantatio 5, ordo 8, cognitio 8"); // Sortingwood Engine
 
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMazestone:0>, "terra 2, vinculum 1, tutamen 1"); // Mazestone
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMazestone:1>, "terra 2, vinculum 1, tutamen 1"); // Mazestone Brick
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMazestone:2>, "terra 2, vinculum 1, tutamen 1"); // Chiseled Mazestone
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMazestone:3>, "terra 2, vinculum 1, tutamen 1"); // Decorative Mazestone Brick
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMazestone:4>, "terra 2, vinculum 1, tutamen 1"); // Cracked Mazestone Brick
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMazestone:5>, "terra 2, vinculum 1, tutamen 1"); // Mossy Mazestone Brick
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMazestone:6>, "terra 2, vinculum 1, tutamen 1"); // Mazestone Mosaic
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFMazestone:7>, "terra 2, vinculum 1, tutamen 1"); // Mazestone Border
+
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFTowerStone:0>, "arbor 2"); // Towerwood Planks
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFTowerStone:1>, "arbor 2, fabrico 1"); // Encased Towerwood
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFTowerStone:2>, "arbor 2, perditio 1"); // Cracked Towerwood
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFTowerStone:3>, "arbor 2, herba 1"); // Mossy Towerwood
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFTowerStone:4>, "arbor 2, vinculum 1, bestia 1"); // Infested Towerwood
+
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.FluffyCloud>, "aer 4, tempestas 2, volatus 2"); // Fluffy Cloud
+
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFRoots:1>, "arbor 1, victus 1, praecantatio 1"); // Liveroots
+
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFUnderBrick:1>, "terra 2, herba 1, tenebrae 1"); // Mossy Underbrick
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFUnderBrick:2>, "terra 2, perditio 1, tenebrae 1"); // Cracked Underbrick
+
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.TFFireflyJar>, "vitreus 2, lux 1"); // Firefly Jar
+
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.AuroraPillar>, "gelum 2, vitreus 2"); // Aurora Pillar
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleBrick:0>, "terra 2, vitreus 1, fabrico 1"); // Castle Brick
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleBrick:1>, "terra 2, fabrico 1"); // Worn Castle Brick
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleBrick:2>, "terra 2, perditio 1, fabrico 1"); // Cracked Castle Brick
+mods.thaumcraft.Aspects.set(<TwilightForest:tile.CastleBrick:3>, "terra 2, sensus 1, fabrico 1"); // Castle Roof Tile
+
+mods.thaumcraft.Aspects.set(<TwilightForest:item.magicMapFocus>, "volatus 2, sensus 2, ordo 1, instrumentum 1"); // Magic Map Focus
+mods.thaumcraft.Aspects.set(<TwilightForest:item.emptyOreMap>, "lucrum 32, cognitio 4, praecantatio 3, iter 2"); // Blank Maze/Ore Map
+mods.thaumcraft.Aspects.set(<TwilightForest:item.nagaScale>, "tutamen 4, motus 2, bestia 1, corpus 1"); // Naga Scale
 mods.thaumcraft.Aspects.set(<TwilightForest:item.magicBeans>, "herba 4, superbia 4, lucrum 4"); // Magic Beans
