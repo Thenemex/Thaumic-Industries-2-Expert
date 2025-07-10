@@ -129,8 +129,6 @@ recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecra
 # Uncompressing recipes
 // 1 Clay Block = 4 Clay
 recipes.addShapeless(<minecraft:clay_ball> * 4, [<minecraft:clay>]);
-// 1 Block of Flesh = 9 Rotten Flesh
-recipes.addShapeless(<minecraft:rotten_flesh> * 9, [<Thaumcraft:blockTaint:2>]);
 
 // Stairs
 for i, el_component in stairsComponentArray {
