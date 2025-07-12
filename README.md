@@ -19,7 +19,7 @@ Big thanks to my active and passed close testers :
  - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
 
 Huge thanks to Discord members sharing their in-game experience, and their ideas that got implemented to the pack :
-- Apfiz, NotSenna, Reykjavik
+- Arctic_Howler, Apfiz, NotSenna, Reykjavik
 
 And also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
 - CloudyOrangeFox, goofy_fermat5688369, hron84
