@@ -48,6 +48,10 @@ oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemPickaxeElemental>);
 oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemAxeElemental>);
 oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemHoeElemental>);
 
+# Adding prereqs
+// Adding Thaumium Helmet of Revealing as prereq for Thaumium Fortress Helmet of Revealing
+mods.thaumcraft.Research.addPrereq("HELMGOGGLES", "REVEALING_HELM", true);
+
 # Cooking meat in early-game (without furnace)
 // Adding the auto-unlocked research
 mods.thaumcraft.Research.addResearch("EARLYCOOKING",
@@ -261,7 +265,6 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 mods.thaumcraft.Research.refreshResearchRecipe("ARMORFORTRESS");
 // Prereqs
 mods.thaumcraft.Research.addPrereq("ARMORFORTRESS", "ENCHFABRIC", true);
-
 
 # Aspects
 // Removing Alienis from Banners
