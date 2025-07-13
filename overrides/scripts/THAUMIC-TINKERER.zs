@@ -18,6 +18,7 @@ mods.thaumcraft.Infusion.addRecipe("ENCHANTER",
 mods.thaumcraft.Research.refreshResearchRecipe("ENCHANTER");
 // Adding the Primordial Pearl as prereq for the Osmotic Enchanter
 mods.thaumcraft.Research.addPrereq("ENCHANTER", "PRIMPEARL", true);
+mods.thaumcraft.Research.addPrereq("ENCHANTER", "ENCHANTINGTABLE", true);
 
 # Ichorium
 // 9 Nuggets -> 1 Ingot
