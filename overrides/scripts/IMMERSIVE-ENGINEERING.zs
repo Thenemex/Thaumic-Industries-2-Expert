@@ -26,6 +26,7 @@ mods.thaumcraft.Aspects.set(<ImmersiveEngineering:metalDecoration:11>, "metallum
 
 mods.thaumcraft.Aspects.set(<ImmersiveEngineering:stoneDecoration:0>, "terra 2, fabrico 1"); // Hempcrete
 mods.thaumcraft.Aspects.set(<ImmersiveEngineering:stoneSlab:0>, "terra 1"); // Hempcrete Slab
+mods.thaumcraft.Aspects.set(<ImmersiveEngineering:hemp>, "herba 2, victus 1, pannus 1"); // Industrial Hemp
 mods.thaumcraft.Aspects.set(<ImmersiveEngineering:seed:0>, "herba 1"); // Industrial Hemp Seeds
 mods.thaumcraft.Aspects.set(<ImmersiveEngineering:material:3>, "messis 1, herba 1"); // Industrial Hemp Fiber
 mods.thaumcraft.Aspects.set(<ImmersiveEngineering:material:4>, "fabrico 2, arbor 1"); // Tough Fabric
