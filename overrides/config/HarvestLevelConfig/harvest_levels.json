@@ -92,6 +92,13 @@
         "axe": 1
       }
     },
+    {
+      "name": "Thaumcraft:blockMetalDevice",
+      "metadata": 0,
+      "tools": {
+        "pickaxe": 2
+      }
+    },
 
     {
       "name": "IronChest:BlockIronChest",
