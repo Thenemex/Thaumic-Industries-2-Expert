@@ -1,0 +1,17 @@
+{
+  "burningDefault": 8,
+  "disableInNether": false,
+  "disableInEnd": false,
+  "disableEntities": false,
+  "entities": [
+    {
+      "id": "LavaSlime",
+      "light": 12
+    },
+    {
+      "id": "Creeper",
+      "light": 15,
+      "special": "creeper_charged"
+    }
+  ]
+}
