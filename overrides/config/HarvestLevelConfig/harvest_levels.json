@@ -70,6 +70,13 @@
         "axe": 1
       }
     },
+    {
+      "name": "minecraft:cauldron",
+      "metadata": -1,
+      "tools": {
+        "pickaxe": 2
+      }
+    },
 
     {
       "name": "Thaumcraft:blockMagicalLog",

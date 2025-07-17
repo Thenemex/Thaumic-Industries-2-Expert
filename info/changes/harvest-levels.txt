@@ -12,6 +12,7 @@ Vanilla:
 129     Emerald Ore             Pickaxe     Diamond
 130     Ender Chest             Pickaxe     Diamond
 146     Trapped Chest           Axe         Stone
+380     Cauldron                Pickaxe     Iron
 
 Thaumcraft:
 -------------------------------
