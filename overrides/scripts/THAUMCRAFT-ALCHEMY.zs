@@ -57,8 +57,8 @@ mods.thaumcraft.Research.refreshResearchRecipe("ALCHEMICALDUPLICATION");
 # Essentia
 // Glass Phial (1 Wood Slab + 1 Cluster + 3 Sand)
 mods.thaumcraft.Arcane.addShaped("PHIAL",
-/* Output                     */ <Thaumcraft:ItemEssence:0> * 2,
-/* Aspects                    */ "ignis 20, terra 10, ordo 15",
+/* Output                     */ <Thaumcraft:ItemEssence:0>,
+/* Aspects                    */ "ignis 10, terra 5, ordo 7",
 /* InputArray                 */ [[null, <ore:slabWood>, null],
                                   [<ore:sand>, oreDictCrystalClusters, <ore:sand>],
                                   [null, <ore:sand>, null]] );
