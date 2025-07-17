@@ -1,5 +1,16 @@
 // Recipes for Thaumcraft - Thaumaturgy
 
+# Wands
+// Silverwood Wand Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:WandRod:2>);
+mods.thaumcraft.Infusion.addRecipe("ROD_silverwood",
+/* Input                        */ <Thaumcraft:blockMagicalLog:1>,
+/* Ingredients                  */ [<Thaumcraft:ItemShard:6>, <Thaumcraft:ItemShard:0>, <Thaumcraft:ItemShard:1>, <Thaumcraft:ItemShard:2>, <Thaumcraft:ItemShard:3>, <Thaumcraft:ItemShard:4>, <Thaumcraft:ItemShard:5>],
+/* Essentia                     */ "aer 18, ignis 18, aqua 18, terra 18, ordo 18, perditio 18, praecantatio 25",
+/* Output                       */ <Thaumcraft:WandRod:2>,
+/* Instability                  */ 5);
+mods.thaumcraft.Research.refreshResearchRecipe("ROD_silverwood");
+
 # Nodes Mechanics
 // Node Transducer (1 Advanced Node Stabilizer + 1 Essentia Mirror + 2 Redstone Blocks + 2 Arcane Stone Bricks +
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:11>);
