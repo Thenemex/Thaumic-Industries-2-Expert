@@ -35,11 +35,6 @@ oreDictShards.add(<Thaumcraft:ItemShard:4>);
 oreDictShards.add(<Thaumcraft:ItemShard:5>);
 oreDictShards.add(<Thaumcraft:ItemShard:6>);
 
-# Adding new oredict for Coal/Charcoal blocks
-val oreDictCoalBlocks = <ore:allCoalBlocks>;
-oreDictCoalBlocks.add(<minecraft:coal_block>);
-oreDictCoalBlocks.add(<GardenStuff:stone_block>);
-
 # Adding new oredict for Enhanced Thaumium Tools
 val oreDictEnhancedThaumiumTools = <ore:enhancedThaumiumTools>;
 oreDictEnhancedThaumiumTools.add(<Thaumcraft:ItemSwordElemental>);
@@ -88,35 +83,6 @@ mods.thaumcraft.Research.setRound("EARLYCOOKING", true);
 mods.thaumcraft.Research.setAutoUnlock("EARLYCOOKING", true);
 
 # Furnace
-// Adding the research
-recipes.remove(<minecraft:furnace>);
-mods.thaumcraft.Research.addResearch("VANILLAFURNACE",
-/* TabKey                         */ "ARTIFICE",
-/* AspectList                     */ "ignis 2, perditio 6, terra 6",
-/* X                              */ 0,
-/* Y                              */ -5,
-/* Complexity                     */ 1,
-/* ItemStack                      */ <minecraft:furnace>);
-game.setLocalization("tc.research_name.VANILLAFURNACE", "Stone Furnace");
-game.setLocalization("fr_FR", "tc.research_name.VANILLAFURNACE", "Four en pierre");
-game.setLocalization("tc.research_text.VANILLAFURNACE", "It burns !");
-game.setLocalization("fr_FR", "tc.research_text.VANILLAFURNACE", "Ca cuit !");
-mods.thaumcraft.Research.addPage("VANILLAFURNACE", "tnmx.artifice.vanillafurnace_1");
-game.setLocalization("tnmx.artifice.vanillafurnace_1", "After some struggles on your first steps through this world, you finally discover how to smelt items like your ancestors did.");
-game.setLocalization("fr_FR", "tnmx.artifice.vanillafurnace_1", "Apres avoir rencontre des difficultes lors de vos premiers pas dans ce monde, vous avez enfin decouvert une voie pour cuire des objets comme vos ancetres.");
-// Adding the craft
-mods.thaumcraft.Arcane.addShaped("VANILLAFURNACE",
-/* Output                     */ <minecraft:furnace>,
-/* Aspects                    */ "ignis 10, ordo 5, perditio 5, terra 10",
-/* InputArray                 */ [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-                                  [<minecraft:cobblestone>, oreDictShards, <minecraft:cobblestone>],
-                                  [<minecraft:cobblestone>, oreDictCoalBlocks, <minecraft:cobblestone>]] );
-mods.thaumcraft.Research.addArcanePage("VANILLAFURNACE", <minecraft:furnace>);
-recipes.addShaped(<minecraft:furnace>,
-                  [[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>],
-                   [<Thaumcraft:blockCosmeticSolid:6>, null, <Thaumcraft:blockCosmeticSolid:6>],
-                   [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]]);
-mods.thaumcraft.Research.addCraftingPage("VANILLAFURNACE", <minecraft:furnace>);
 // Prereqs
 mods.thaumcraft.Research.addPrereq("VANILLAFURNACE", "EARLYCOOKING", false);
 
