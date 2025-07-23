@@ -232,7 +232,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "To write an remember all your researchs on magic, you will need a special book called a Thaumonomicon.\n\nAcquiring it is a bit tricky : you will need to right-click a §l§6Bookshelf§r with your wand (no vis required).\n\nThis book is the central point of the modpack ; all the researchs have to be done through it.\n\nUsing a wand on a block structure to turn it into something else is called \"Mystical Construct\" ; more can be learn in the Thaumonomicon as always."
+          "desc:8": "To write an remember all your researchs on magic, you will need a special book called a Thaumonomicon.\n\nAcquiring it is a bit tricky : you will need to right-click a §l§6Bookshelf§r with your wand (no vis required).\n\nThis book is the central point of the modpack ; all the researchs have to be done through it.\n\nUsing a wand on a block structure to turn it into something else is called \"Mystical Construct\" ; more can be learn in the Thaumonomicon as always.\n\nBe sure to have a good reading at everything that is unlocked in the first 5 tabs, then come back to the quests :P"
         }
       },
       "tasks:9": {
@@ -334,7 +334,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To acquire and learn new knowledge, you will need a Research Table.\n\nThis one can be built by putting 2 Tables next to each other, and by right-clicking them with the §7§lScribing Tools§r."
+          "desc:8": "To acquire and learn new knowledge, you will need a Research Table.\nThis one can be built by putting 2 Tables next to each other, and by right-clicking them with the §7§lScribing Tools§r.\n\nBut first you need to craft that peculiar item !\n\nThe recipe will ask for the phial you just made, a feather and some black ink."
         }
       },
       "tasks:9": {
@@ -391,7 +391,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Noww you need to make a Glass Phial (which is a component of the Research Table craft), but we don\u0027t have any furnace to make glass on hand !\n\nThere are a few ways :\n - You can craft §l§7§ra §l§7§lGlass Phial§r without glass in the Arcane Worktable (have a look at your Thaumonomicon).\n - Some furnaces can be found in Villages, to make glass and vanilla glass bottles.\n - Champions will drop some loot bags with some potions that you can drink, giving you an empty bottle.\n - Witchs can also drop you an empty bottle, if you\u0027re brave enough to fight it !"
+          "desc:8": "Now you need to make a Glass Phial (which is a component of the Research Table craft), but we don\u0027t have any furnace to make glass on hand !\n\nYou can find the recipe in the Thaumonomicon tab named §7§l§d§l§e§6§lAlchemy§r,§r or with NEI.\n\n6 Shards, some sand and wood will be needed for that recipe, alongside a bit of vis from your wand."
         }
       },
       "tasks:9": {
@@ -407,7 +407,7 @@
               "id:8": "Thaumcraft:ItemEssence",
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "glassPhial"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -599,26 +599,13 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "Finally you can make a Furnace !\nLike the glass phial (if you didn\u0027t take the shortcut), this is an arcane craft and will require some vis in your Wand.\n\nFor memo, you can fill your Wand by killing mobs and having it in you main inventory bar, or by harvesting Aura Nodes (they are rare and not quite visible with the human eye yet).\n\nLittle warning before disaster, the Stone Furnace needs at least an Iron Pickaxe to be harvested.\nBe sure to complete the quest before putting in your world !"
+          "desc:8": "Finally you can make a Furnace !\n\nThis recipe is a bit special, it is a 3x3x3 §6§6§lMystical Construct§r.\nYou need to place down the exact structure, and then to sneak right-click with your wand (with sufficient vis) on the trigger block (Here it is the §7§lCoal Block§r).\n\nIf all the stars are aligned, the structure shall be transformed into a little cutie stone furnace !\n\nWhen you got your first furnace, hit the checkbox to get to the next quest !\n\nFor memo, you can fill your Wand by killing mobs and having it in you main inventory bar, or by harvesting Aura Nodes (they are rare and not quite visible with the human eye yet).\n\n\n§c§l§n/!\\§r Little warning before disaster, the §7§lStone Furnace§r needs at least an Iron Pickaxe to be harvested."
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecraft:furnace",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
