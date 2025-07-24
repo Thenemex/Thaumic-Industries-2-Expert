@@ -259,7 +259,8 @@
     "4:10": {
       "questID:3": 4,
       "preRequisites:11": [
-        3
+        3,
+        2
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -277,7 +278,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "repeat_relative:1": 1,
           "name:8": "Arcane Worktable",
           "lockedProgress:1": 0,
@@ -418,7 +419,8 @@
     "7:10": {
       "questID:3": 7,
       "preRequisites:11": [
-        5
+        5,
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2026,6 +2028,42 @@
         }
       },
       "rewards:9": {}
+    },
+    "39:10": {
+      "questID:3": 39,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:torch",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Dynamic Lights",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "A Client version of §6§lDynamic Lights§r is present on the modpack !\n\nThis mod has been made by a friend (§7§lawesome_hippo§r), and allows to have that functionnality without Optifine, and without trading performance !\n\nThe default keys are :\n\n- \"§a§lM§r\", for turning it on/off\n- \"§b§lL§r\", for the configuration gui"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -2243,7 +2281,7 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 36,
           "y:3": 12,
           "id:3": 24,
           "sizeY:3": 24
@@ -2257,14 +2295,14 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 132,
           "y:3": 108,
           "id:3": 26,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 84,
           "y:3": 12,
           "id:3": 27,
           "sizeY:3": 24
@@ -2278,28 +2316,28 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 132,
           "y:3": 12,
           "id:3": 29,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 180,
           "y:3": 12,
           "id:3": 30,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 276,
           "y:3": 108,
           "id:3": 31,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 276,
           "y:3": 12,
           "id:3": 32,
           "sizeY:3": 24
@@ -2313,7 +2351,7 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 276,
           "y:3": 60,
           "id:3": 34,
           "sizeY:3": 24
@@ -2327,23 +2365,30 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 36,
           "y:3": 108,
           "id:3": 36,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 84,
           "y:3": 108,
           "id:3": 37,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 156,
+          "x:3": 180,
           "y:3": 108,
           "id:3": 38,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 60,
+          "id:3": 39,
           "sizeY:3": 24
         }
       },
