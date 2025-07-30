@@ -24,3 +24,7 @@ Thaumcraft:
 Iron Chests:
 -------------------------------
 942     Chests                  Pickaxe     Iron
+
+Witching Gadgets
+-------------------------------
+1204    Wooden Devices          Axe         Stone

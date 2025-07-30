@@ -78,6 +78,10 @@
       }
     },
 
+
+
+
+
     {
       "name": "Thaumcraft:blockMagicalLog",
       "metadata": -1,
@@ -100,11 +104,27 @@
       }
     },
 
+
+
+
+
     {
       "name": "IronChest:BlockIronChest",
       "metadata": -1,
       "tools": {
         "pickaxe": 2
+      }
+    },
+
+
+
+
+
+    {
+      "name": "WitchingGadgets:WG_WoodenDevice",
+      "metadata": -1,
+      "tools": {
+        "axe": 1
       }
     }
   ]
