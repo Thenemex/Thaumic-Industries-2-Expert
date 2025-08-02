@@ -172,9 +172,9 @@ recipes.addShaped(<minecraft:gold_ingot>,
                    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
                    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
     
-# Setting Iron tools to 15 durability
+# Setting Iron tools to 20 durability
 for i, el_ironTool in ironArray {
-    el_ironTool.maxDamage = 15;
+    el_ironTool.maxDamage = 20;
     el_ironTool.addTooltip(format.gold("You can only break a few blocks with this")); }
 
 # Setting vanilla Tools & Armor durability to very low - Have to use magical tools (Thaumium, etc...)
