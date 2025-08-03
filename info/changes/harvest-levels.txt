@@ -19,6 +19,7 @@ Thaumcraft:
 176     Greatwood               Axe         Iron
 176     Silverwood              Axe         Iron
 185     Crucible                Pickaxe     Iron
+185     Arcane Alembic          Pickaxe     Iron
 189     Tables                  Axe         Stone
 
 Iron Chests:

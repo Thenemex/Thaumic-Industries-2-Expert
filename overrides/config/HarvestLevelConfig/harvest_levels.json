@@ -103,6 +103,13 @@
         "pickaxe": 2
       }
     },
+    {
+      "name": "Thaumcraft:blockMetalDevice",
+      "metadata": 1,
+      "tools": {
+        "pickaxe": 2
+      }
+    },
 
 
 
