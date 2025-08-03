@@ -126,9 +126,19 @@ recipes.addShaped(<minecraft:chest>,
 // 1 Iron ore + 1 Coal + 1 Flint + 1 Clay -> 1 Iron Nugget
 recipes.addShapeless(<Thaumcraft:ItemNugget:0>, [<minecraft:clay_ball>, <minecraft:flint>,
                                                  <minecraft:iron_ore>, <ore:allCoals>] );
+
+# Gold Ingots can only be crafted with gold nuggets and not coins
+recipes.remove(<minecraft:gold_ingot>);
+recipes.addShaped(<minecraft:gold_ingot>,
+                  [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
+                   [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
+                   [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
+
 # Uncompressing recipes
 // 1 Clay Block = 4 Clay
 recipes.addShapeless(<minecraft:clay_ball> * 4, [<minecraft:clay>]);
+// 1 Gold Block = 9 Gold Ingot
+recipes.addShapeless(<minecraft:gold_ingot> * 9, [<minecraft:gold_block>]);
 
 // Stairs
 for i, el_component in stairsComponentArray {
@@ -164,13 +174,6 @@ recipes.remove(<minecraft:sandstone:2>);
 recipes.addShapedMirrored(<minecraft:sandstone:2>,
                           [[<ore:sandstone>, <ore:sandstone>],
                            [<ore:sandstone>, <ore:sandstone>]]);
-
-# Gold Ingots can only be crafted with gold nuggets and not coins
-recipes.remove(<minecraft:gold_ingot>);
-recipes.addShaped(<minecraft:gold_ingot>,
-                  [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
-                   [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
-                   [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
     
 # Setting Iron tools to 20 durability
 for i, el_ironTool in ironArray {
