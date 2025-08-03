@@ -2,30 +2,35 @@ Lists of Blocks that have a customized expert harvest level :
 
 Vanilla:
 -------------------------------
-54      Chest                   Axe         Stone
-56      Diamond Ore             Pickaxe     Diamond
-58      Crafting Table          Axe         Stone
-61      Furnace                 Pickaxe     Iron
-62      Lit Furnace             Pickaxe     Iron
-89      Glowstone               Pickaxe     Diamond
-116     Enchanting Table        Pickaxe     Diamond
-129     Emerald Ore             Pickaxe     Diamond
-130     Ender Chest             Pickaxe     Diamond
-146     Trapped Chest           Axe         Stone
-380     Cauldron                Pickaxe     Iron
+54      Chest                       Axe         Stone
+56      Diamond Ore                 Pickaxe     Diamond
+58      Crafting Table              Axe         Stone
+61      Furnace                     Pickaxe     Iron
+62      Lit Furnace                 Pickaxe     Iron
+89      Glowstone                   Pickaxe     Diamond
+116     Enchanting Table            Pickaxe     Diamond
+129     Emerald Ore                 Pickaxe     Diamond
+130     Ender Chest                 Pickaxe     Diamond
+146     Trapped Chest               Axe         Stone
+153     Nether Quartz Ore           Pickaxe     Iron
+380     Cauldron                    Pickaxe     Iron
 
 Thaumcraft:
 -------------------------------
-176     Greatwood               Axe         Iron
-176     Silverwood              Axe         Iron
-185     Crucible                Pickaxe     Iron
-185     Arcane Alembic          Pickaxe     Iron
-189     Tables                  Axe         Stone
+176     Greatwood                   Axe         Iron
+176     Silverwood                  Axe         Iron
+185:0   Crucible                    Pickaxe     Iron
+185:1   Arcane Alembic              Pickaxe     Iron
+189:X   Tables                      Axe         Stone
 
 Iron Chests:
 -------------------------------
-942     Chests                  Pickaxe     Iron
+942:X   Chests                      Pickaxe     Iron
 
 Witching Gadgets
 -------------------------------
-1204    Wooden Devices          Axe         Stone
+1204:X  Wooden Devices              Axe         Stone
+
+Dense Ores
+-------------------------------
+1217:7  Dense Nether Quartz Ore     Pickaxe     Iron

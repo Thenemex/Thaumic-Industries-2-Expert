@@ -71,6 +71,13 @@
       }
     },
     {
+      "name": "minecraft:quartz_ore",
+      "metadata": -1,
+      "tools": {
+        "pickaxe": 2
+      }
+    },
+    {
       "name": "minecraft:cauldron",
       "metadata": -1,
       "tools": {
@@ -132,6 +139,18 @@
       "metadata": -1,
       "tools": {
         "axe": 1
+      }
+    },
+
+
+
+
+
+    {
+      "name": "denseores:block0",
+      "metadata": 7,
+      "tools": {
+        "pickaxe": 2
       }
     }
   ]
