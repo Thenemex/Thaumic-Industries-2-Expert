@@ -21,7 +21,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : -70,
+            "posY" : -80,
             "width" : 196,
             "height" : 30,
 			imageWidth : 100,
@@ -41,7 +41,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : -40,
+            "posY" : -50,
             "width" : 196,
             "height" : 30,
 			imageWidth : 100,
@@ -61,7 +61,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : 0,
+            "posY" : -10,
             "width" : 196,
             "height" : 20,
 			imageWidth : 100,
@@ -81,7 +81,7 @@
             "hoverTextColor" : 3125670,
             "texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : 20,
+            "posY" : 10,
             "width" : 196,
             "height" : 20,
             imageWidth : 100,
@@ -93,6 +93,26 @@
                 "link": "https://discord.gg/pZQjSNjD9c"
             }
         },
+
+        "server":
+        {
+            "text" : "Create a Server",
+            "normalTextColor" : 12303291,
+            "hoverTextColor" : 3125670,
+            "texture" : "Textures:btn.png",
+            "posX" : 97,
+            "posY" : 30,
+            "width" : 196,
+            "height" : 20,
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type": "openLink",
+                "link": "https://www.wabbanode.com/affiliate/thaumic2expert"
+            }
+        },
                     
         "quit":
         {
@@ -101,13 +121,13 @@
 			"hoverTextColor" : 14483456,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : 40,
+            "posY" : 50,
             "width" : 196,
             "height" : 20,
 			imageWidth : 100,
 			imageHeight : 50,
 			"alignment" : "left_center",
-			"hoverText" : "Reste encore un peu !",
+			"hoverText" : "Don't leave yet !",
             "action" : 
             {
                 "type" : "quit"
@@ -121,7 +141,7 @@
 			"hoverTextColor" : 3125670,
 			"texture" : "Textures:btn.png",
             "posX" : 97,
-            "posY" : 70,
+            "posY" : 80,
             "width" : 196,
             "height" : 20,
 			imageWidth : 100,
