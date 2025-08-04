@@ -77,6 +77,8 @@
         "discord":
         {
             "text" : "Discord",
+            "normalTextColor" : 12303291,
+            "hoverTextColor" : 3125670,
             "texture" : "Textures:btn.png",
             "posX" : 97,
             "posY" : 20,
