@@ -223,7 +223,7 @@ game.setLocalization("tnmx.alchemy.silversaplingdupe_1", "These damned Silverwoo
 mods.thaumcraft.Crucible.addRecipe("SILVERSAPLINGDUPE",
 /* OutputStack                  */ <Thaumcraft:blockCustomPlant:1> * 2,
 /* InputStack                   */ <Thaumcraft:blockCustomPlant:1>,
-/* AspectString                 */ "ordo 80, praecantatio 24, arbor 8, herba 4, victus 4, auram 2");
+/* AspectString                 */ "ordo 64, praecantatio 20, arbor 8, herba 4, victus 4, auram 2");
 mods.thaumcraft.Research.addCruciblePage("SILVERSAPLINGDUPE", <Thaumcraft:blockCustomPlant:1>);
 // Setting aspects
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockCustomPlant:1>, "herba 2, arbor 1, praecantatio 4, ordo 3"); // Silverwood Sapling
