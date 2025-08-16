@@ -18,10 +18,10 @@ Founders of the pack :
 Big thanks to my active and passed close testers :
  - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
 
-Huge thanks to Discord members sharing their in-game experience, and their ideas that got implemented to the pack :
-- Arctic_Howler, Apfiz, NotSenna, Reykjavik
+Huge thanks to the Testing team, sharing their in-game experience, and their ideas that got implemented to the pack :
+- Arctic_Howler, Apfiz, NotSenna
 
 And also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
-- CloudyOrangeFox, goofy_fermat5688369, hron84
+- CloudyOrangeFox, goofy_fermat5688369, hron84, MinilinkMask, Reykjavik
 
 Special mention to temakisushi aka awesome_hippo, who made useful mods for the pack.
