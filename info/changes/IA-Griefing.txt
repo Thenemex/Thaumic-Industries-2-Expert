@@ -19,3 +19,13 @@ Thaumcraft:
 190     Hungry Chest
 192     Arcane Levitator
 195:*   Warded Jar(s)
+
+
+
+Lists of Blocks that CAN'T be griefed by mobs (Blacklist) :
+
+Thaumic Horizons:
+-------------------------------
+1105    Curative Vat (Glass)
+1106    Curative Vat (Wood)
+1107    Curative Vat (Interior)
