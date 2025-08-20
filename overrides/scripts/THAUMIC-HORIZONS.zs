@@ -34,6 +34,10 @@ recipes.addShaped(<ThaumicHorizons:dustTH>,
 recipes.addShapeless(<minecraft:gunpowder> * 9, [<ThaumicHorizons:dustTH>]);
 
 # Aspects
+mods.thaumcraft.Aspects.set(<ThaumicHorizons:vat>, "vitreus 5, ordo 2, sensus 1"); // VAT Glass
+mods.thaumcraft.Aspects.set(<ThaumicHorizons:vatSolid>, "machina 5, fabrico 3, arbor 2, metallum 1"); // VAT Wood
+mods.thaumcraft.Aspects.set(<ThaumicHorizons:vatInterior>, "sano 6, aqua 5, limus 2, aer 1"); // VAT Interior
+
 mods.thaumcraft.Aspects.set(<ThaumicHorizons:brainTH>, "cognitio 27, corpus 13, exanimis 13"); // Lump of Brain
 mods.thaumcraft.Aspects.set(<ThaumicHorizons:boneTH>, "mortuus 13, corpus 6"); // Bone
 mods.thaumcraft.Aspects.set(<ThaumicHorizons:eyeTH>, "sensus 13, bestia 13, venenum 13"); // Eye Cluster
