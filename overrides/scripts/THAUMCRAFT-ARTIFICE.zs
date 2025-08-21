@@ -201,6 +201,28 @@ mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALPICK", true);
 mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALSHOVEL", true);
 mods.thaumcraft.Research.addPrereq("ARCANEBORE", "JARVOID", true);
 
+# Enhanced Thaumium Tools
+// Pickaxe of the Core (1 Thaumium Pickaxe + 2 Fire Shards + 1 Gold Cluster + 1 Iron Cluster + 1 Thaumium + 1 Salis Mundus + 1 Greatwood Staff Core + 1 Diamond Pick
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemPickaxeElemental>);
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALPICK",
+/* Input                        */ <Thaumcraft:ItemPickThaumium>, // Thaumium Pickaxe
+/* Ingredients                  */ [<Thaumcraft:ItemNugget:31>,   // Native Gold Cluster
+                                    <Thaumcraft:ItemResource:2>,  // Thaumium Ingot
+                                    <Thaumcraft:ItemNugget:16>,   // Native Iron Cluster
+                                    <Thaumcraft:ItemShard:1>,     // Fire Shard
+                                    <minecraft:diamond_pickaxe>,  // Diamond Pickaxe
+                                    <Thaumcraft:WandRod:50>,      // Greatwood Staff Core
+                                    <Thaumcraft:ItemResource:14>, // Salis Mundus
+                                    <Thaumcraft:ItemShard:1>],    // Fire Shard
+/* Essentia                     */ "metallum 40, ignis 24, perfodio 12, sensus 12, praecantatio 10",
+/* Output                       */ <Thaumcraft:ItemPickaxeElemental>,
+/* Instability                  */ 4);
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALPICK");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "PUREIRON", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "PUREGOLD", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "ROD_GREATWOOD_STAFF", true);
+
 # Fortress Armor
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetFortress>);
