@@ -21,7 +21,7 @@ mods.thaumcraft.Research.addResearch("TWILIGHTCATALYST",
 game.setLocalization("tc.research_name.TWILIGHTCATALYST", "The Twilight");
 game.setLocalization("fr_FR", "tc.research_name.TWILIGHTCATALYST", "Le Crepuscule");
 game.setLocalization("tc.research_text.TWILIGHTCATALYST", "The key to another dimension !");
-game.setLocalization("fr_FR", "tc.research_text.TWILIGHTCATALYST", "La clé vers un autre monde !");
+game.setLocalization("fr_FR", "tc.research_text.TWILIGHTCATALYST", "La cle vers un autre monde !");
 mods.thaumcraft.Research.addPage("TWILIGHTCATALYST", "tnmx.twf.twilightcatalyst_1");
 game.setLocalization("tnmx.twf.twilightcatalyst_1", "In this world, most of the rules are changed.<BR> The portal to the Twilight won't open with a mundane diamond. You need something much more complex and valuable than this, or else the Twilight won't allow you in ...<LINE>You'll find here the infusion for making the Catalyst to open the door to this world.");
 // Catalyst (1 Primal Charm + 1 Salis Mundis + 4 Thaumium + 2 Diamonds + 1 Emerald)
