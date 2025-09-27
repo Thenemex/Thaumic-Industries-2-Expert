@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Thaumic Industries 2 - Expert",
-  "version": "2.7.0.12",
+  "version": "2.7.0.13",
   "author": "",
   "files": [
     {
@@ -122,7 +122,7 @@
     },
     {
       "projectID": 1162488,
-      "fileID": 6827303,
+      "fileID": 7016994,
       "required": true
     },
     {
@@ -267,7 +267,7 @@
     },
     {
       "projectID": 227914,
-      "fileID": 6785715,
+      "fileID": 7022904,
       "required": true
     },
     {
@@ -567,7 +567,7 @@
     },
     {
       "projectID": 1238321,
-      "fileID": 6892764,
+      "fileID": 7015356,
       "required": true
     },
     {
