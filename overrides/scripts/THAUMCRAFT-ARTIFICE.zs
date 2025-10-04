@@ -223,6 +223,25 @@ mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "PUREIRON", true);
 mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "PUREGOLD", true);
 mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "ROD_GREATWOOD_STAFF", true);
 
+// Axe of the Stream (1 Thaumium Axe + 1 Water Shard + 1 Water Bucket + 1 Greatwood Log + 1 Silverwood Log + 1 Thaumium + 1 Salis Mundus + 1 Greatwood Staff Core + 1 Diamond Axe
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAxeElemental>);
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
+/* Input                        */ <Thaumcraft:ItemAxeThaumium>,   // Thaumium Axe
+/* Ingredients                  */ [<Thaumcraft:blockMagicalLog:0>, // Greatwood Log
+                                    <Thaumcraft:ItemResource:2>,    // Thaumium Ingot
+                                    <Thaumcraft:blockMagicalLog:1>, // Silverwood Log
+                                    <minecraft:water_bucket>,       // Water Bucket
+                                    <minecraft:diamond_axe>,        // Diamond Axe
+                                    <Thaumcraft:WandRod:50>,        // Greatwood Staff Core
+                                    <Thaumcraft:ItemResource:14>,   // Salis Mundus
+                                    <Thaumcraft:ItemShard:2>],      // Water Shard
+/* Essentia                     */ "aqua 48, metallum 40, praecantatio 24, instrumentum 32, arbor 80",
+/* Output                       */ <Thaumcraft:ItemAxeElemental>,
+/* Instability                  */ 6);
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALAXE");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ELEMENTALAXE", "ROD_GREATWOOD_STAFF", true);
+
 # Fortress Armor
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetFortress>);
