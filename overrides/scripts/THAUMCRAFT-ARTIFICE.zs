@@ -260,8 +260,8 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
 mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSWORD");
 // Prereqs
 mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "ROD_GREATWOOD_STAFF", true);
-mods.thaumcraft.Research.addPrereq("BELLOWS", "ROD_GREATWOOD_STAFF", true);
-mods.thaumcraft.Research.addPrereq("PRIMALARROW", "ROD_GREATWOOD_STAFF", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "BELLOWS", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "PRIMALARROW", true);
 
 # Fortress Armor
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
