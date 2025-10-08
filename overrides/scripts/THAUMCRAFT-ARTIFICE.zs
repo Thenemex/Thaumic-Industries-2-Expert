@@ -201,6 +201,68 @@ mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALPICK", true);
 mods.thaumcraft.Research.addPrereq("ARCANEBORE", "ELEMENTALSHOVEL", true);
 mods.thaumcraft.Research.addPrereq("ARCANEBORE", "JARVOID", true);
 
+# Enhanced Thaumium Tools
+// Pickaxe of the Core
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemPickaxeElemental>);
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALPICK",
+/* Input                        */ <Thaumcraft:ItemPickThaumium>, // Thaumium Pickaxe
+/* Ingredients                  */ [<Thaumcraft:ItemNugget:31>,   // Native Gold Cluster
+                                    <Thaumcraft:ItemResource:2>,  // Thaumium Ingot
+                                    <Thaumcraft:ItemNugget:16>,   // Native Iron Cluster
+                                    <Thaumcraft:ItemShard:1>,     // Fire Shard
+                                    <minecraft:diamond_pickaxe>,  // Diamond Pickaxe
+                                    <Thaumcraft:WandRod:50>,      // Greatwood Staff Core
+                                    <Thaumcraft:ItemResource:14>, // Salis Mundus
+                                    <Thaumcraft:ItemShard:1>],    // Fire Shard
+/* Essentia                     */ "metallum 40, ignis 24, perfodio 12, sensus 12, praecantatio 10",
+/* Output                       */ <Thaumcraft:ItemPickaxeElemental>,
+/* Instability                  */ 4);
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALPICK");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "PUREIRON", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "PUREGOLD", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "ROD_GREATWOOD_STAFF", true);
+
+// Axe of the Stream
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAxeElemental>);
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
+/* Input                        */ <Thaumcraft:ItemAxeThaumium>,    // Thaumium Axe
+/* Ingredients                  */ [<Thaumcraft:blockMagicalLog:0>, // Greatwood Log
+                                    <Thaumcraft:ItemResource:2>,    // Thaumium Ingot
+                                    <Thaumcraft:blockMagicalLog:1>, // Silverwood Log
+                                    <minecraft:water_bucket>,       // Water Bucket
+                                    <minecraft:diamond_axe>,        // Diamond Axe
+                                    <Thaumcraft:WandRod:50>,        // Greatwood Staff Core
+                                    <Thaumcraft:ItemResource:14>,   // Salis Mundus
+                                    <Thaumcraft:ItemShard:2>],      // Water Shard
+/* Essentia                     */ "aqua 48, metallum 40, praecantatio 24, instrumentum 32, arbor 80",
+/* Output                       */ <Thaumcraft:ItemAxeElemental>,
+/* Instability                  */ 6);
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALAXE");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ELEMENTALAXE", "ROD_GREATWOOD_STAFF", true);
+
+// Sword of the Zephyr
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemSwordElemental>);
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
+/* Input                        */ <Thaumcraft:ItemSwordThaumium>,    // Thaumium Axe
+/* Ingredients                  */ [<minecraft:potion:16418>,         // Splash Potion of Speed II
+                                    <Thaumcraft:ItemResource:2>,      // Thaumium Ingot
+                                    <Thaumcraft:PrimalArrow:0>,       // Air Arrow
+                                    <Thaumcraft:blockWoodenDevice:0>, // Arcane Bellows
+                                    <minecraft:diamond_sword>,        // Diamond Sword
+                                    <Thaumcraft:WandRod:50>,          // Greatwood Staff Core
+                                    <Thaumcraft:ItemResource:14>,     // Salis Mundus
+                                    <Thaumcraft:ItemShard:0>],        // Aer Shard
+/* Essentia                     */ "aer 24, metallum 40, motus 15, potentia 48, praecantatio 30",
+/* Output                       */ <Thaumcraft:ItemSwordElemental>,
+/* Instability                  */ 4);
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSWORD");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "ROD_GREATWOOD_STAFF", true);
+mods.thaumcraft.Research.addPrereq("BELLOWS", "ROD_GREATWOOD_STAFF", true);
+mods.thaumcraft.Research.addPrereq("PRIMALARROW", "ROD_GREATWOOD_STAFF", true);
+
 # Fortress Armor
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetFortress>);
