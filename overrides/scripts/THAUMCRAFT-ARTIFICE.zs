@@ -263,6 +263,25 @@ mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "ROD_GREATWOOD_STAFF", true
 mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "BELLOWS", true);
 mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "PRIMALARROW", true);
 
+// Shovel of the Earthmover
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemShovelElemental>);
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALSHOVEL",
+/* Input                        */ <Thaumcraft:ItemShovelThaumium>, // Thaumium Shovel
+/* Ingredients                  */ [<minecraft:grass>,              // Grass Block
+                                    <Thaumcraft:ItemResource:2>,    // Thaumium Ingot
+                                    <minecraft:mycelium>,           // Mycelium
+                                    <minecraft:red_flower:7>,       // Pink Tulip
+                                    <minecraft:diamond_shovel>,     // Diamond Shovel
+                                    <Thaumcraft:WandRod:50>,        // Greatwood Staff Core
+                                    <Thaumcraft:ItemResource:14>,   // Salis Mundus
+                                    <Thaumcraft:ItemShard:3>],      // Earth Shard
+/* Essentia                     */ "terra 48, metallum 40, ordo 24, instrumentum 32, fabrico 20",
+/* Output                       */ <Thaumcraft:ItemShovelElemental>,
+/* Instability                  */ 4);
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSHOVEL");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ELEMENTALSHOVEL", "ROD_GREATWOOD_STAFF", true);
+
 # Fortress Armor
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetFortress>);
