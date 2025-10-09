@@ -282,6 +282,25 @@ mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSHOVEL");
 // Prereqs
 mods.thaumcraft.Research.addPrereq("ELEMENTALSHOVEL", "ROD_GREATWOOD_STAFF", true);
 
+// Hoe of the Growth
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHoeElemental>);
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALHOE",
+/* Input                        */ <Thaumcraft:ItemHoeThaumium>,  // Thaumium Shovel
+/* Ingredients                  */ [<minecraft:golden_carrot>,    // Golden Carrot
+                                    <Thaumcraft:ItemResource:2>,  // Thaumium Ingot
+                                    <minecraft:speckled_melon>,   // Glistering Melon
+                                    <Thaumcraft:ItemShard:5>,     // Perditio Shard
+                                    <minecraft:diamond_hoe>,      // Diamond Hoe
+                                    <Thaumcraft:WandRod:50>,      // Greatwood Staff Core
+                                    <Thaumcraft:ItemResource:14>, // Salis Mundus
+                                    <Thaumcraft:ItemShard:4>],    // Ordo Shard
+/* Essentia                     */ "auram 8, metallum 40, meto 12, messis 80, praecantatio 48",
+/* Output                       */ <Thaumcraft:ItemHoeElemental>,
+/* Instability                  */ 6);
+mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALHOE");
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ELEMENTALHOE", "ROD_GREATWOOD_STAFF", true);
+
 # Fortress Armor
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetFortress>);
