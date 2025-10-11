@@ -192,6 +192,25 @@ mods.thaumcraft.Infusion.addRecipe("BOOTSTRAVELLER",
 /* Instability                  */ 3);
 mods.thaumcraft.Research.refreshResearchRecipe("BOOTSTRAVELLER");
 
+# Thaumostatic Harness
+// Thaumostatic Harness
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:HoverHarness>);
+mods.thaumcraft.Infusion.addRecipe("HOVERHARNESS",
+/* Input                        */ <minecraft:leather_chestplate:32767>,
+/* Ingredients                  */ [<Thaumcraft:ItemShard:0>,         // Air Shard
+                                    <Thaumcraft:ItemShard:0>,         // .
+                                    <Thaumcraft:blockWoodenDevice:6>, // Greatwood Planks
+                                    <Thaumcraft:blockWoodenDevice:6>, // .
+                                    <minecraft:comparator>,           // Redstone Comparator
+                                    <minecraft:gold_ingot>,           // Gold Ingot
+                                    <minecraft:gold_ingot>,          // .
+                                    <minecraft:iron_ingot>,           // Iron Ingot
+                                    <minecraft:iron_ingot>],          // .
+/* Essentia                     */ "volatus 32, potentia 32, machina 32, iter 16",
+/* Output                       */ <Thaumcraft:HoverHarness>,
+/* Instability                  */ 6);
+mods.thaumcraft.Research.refreshResearchRecipe("HOVERHARNESS");
+
 # Arcane Bore
 // Arcane Bore (1 Deconstruction Table + 1 Thaumometer + 2 Gold + 1 Elemental Pickaxe + 1 Elemental Shovel + 1 Void Jar)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
