@@ -205,7 +205,7 @@ mods.thaumcraft.Research.addPrereq("ARCANEBORE", "JARVOID", true);
 // Pickaxe of the Core
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemPickaxeElemental>);
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALPICK",
-/* Input                        */ <Thaumcraft:ItemPickThaumium>, // Thaumium Pickaxe
+/* Input                        */ <Thaumcraft:ItemPickThaumium:32767>, // Thaumium Pickaxe
 /* Ingredients                  */ [<Thaumcraft:ItemNugget:31>,   // Native Gold Cluster
                                     <Thaumcraft:ItemResource:2>,  // Thaumium Ingot
                                     <Thaumcraft:ItemNugget:16>,   // Native Iron Cluster
@@ -226,7 +226,7 @@ mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "ROD_GREATWOOD_STAFF", true)
 // Axe of the Stream
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAxeElemental>);
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
-/* Input                        */ <Thaumcraft:ItemAxeThaumium>,    // Thaumium Axe
+/* Input                        */ <Thaumcraft:ItemAxeThaumium:32767>,    // Thaumium Axe
 /* Ingredients                  */ [<Thaumcraft:blockMagicalLog:0>, // Greatwood Log
                                     <Thaumcraft:ItemResource:2>,    // Thaumium Ingot
                                     <Thaumcraft:blockMagicalLog:1>, // Silverwood Log
@@ -245,7 +245,7 @@ mods.thaumcraft.Research.addPrereq("ELEMENTALAXE", "ROD_GREATWOOD_STAFF", true);
 // Sword of the Zephyr
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemSwordElemental>);
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
-/* Input                        */ <Thaumcraft:ItemSwordThaumium>,    // Thaumium Axe
+/* Input                        */ <Thaumcraft:ItemSwordThaumium:32767>,    // Thaumium Axe
 /* Ingredients                  */ [<minecraft:potion:16418>,         // Splash Potion of Speed II
                                     <Thaumcraft:ItemResource:2>,      // Thaumium Ingot
                                     <Thaumcraft:PrimalArrow:0>,       // Air Arrow
@@ -266,7 +266,7 @@ mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "PRIMALARROW", true);
 // Shovel of the Earthmover
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemShovelElemental>);
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALSHOVEL",
-/* Input                        */ <Thaumcraft:ItemShovelThaumium>, // Thaumium Shovel
+/* Input                        */ <Thaumcraft:ItemShovelThaumium:32767>, // Thaumium Shovel
 /* Ingredients                  */ [<minecraft:grass>,              // Grass Block
                                     <Thaumcraft:ItemResource:2>,    // Thaumium Ingot
                                     <minecraft:mycelium>,           // Mycelium
@@ -285,7 +285,7 @@ mods.thaumcraft.Research.addPrereq("ELEMENTALSHOVEL", "ROD_GREATWOOD_STAFF", tru
 // Hoe of the Growth
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHoeElemental>);
 mods.thaumcraft.Infusion.addRecipe("ELEMENTALHOE",
-/* Input                        */ <Thaumcraft:ItemHoeThaumium>,  // Thaumium Shovel
+/* Input                        */ <Thaumcraft:ItemHoeThaumium:32767>,  // Thaumium Shovel
 /* Ingredients                  */ [<minecraft:golden_carrot>,    // Golden Carrot
                                     <Thaumcraft:ItemResource:2>,  // Thaumium Ingot
                                     <minecraft:speckled_melon>,   // Glistering Melon
@@ -305,7 +305,7 @@ mods.thaumcraft.Research.addPrereq("ELEMENTALHOE", "ROD_GREATWOOD_STAFF", true);
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHelmetFortress>);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
-/* Input                        */ <Thaumcraft:ItemHelmetThaumium>,
+/* Input                        */ <Thaumcraft:ItemHelmetThaumium:32767>,
 /* Ingredients                  */ [<minecraft:emerald>, <minecraft:blaze_rod>, <minecraft:gold_ingot>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <minecraft:gold_ingot>, <minecraft:blaze_rod>],
 /* Essentia                     */ "metallum 48, tutamen 16, praecantatio 40, sensus 16",
 /* Output                       */ <Thaumcraft:ItemHelmetFortress>,
@@ -314,7 +314,7 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 // Fortress Chestplate (1 Thaumium Chestplate + 5 Thaumium + 2 Gold + 2 Enchanted Fabric + 1 Belt)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemChestplateFortress>);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
-/* Input                        */ <Thaumcraft:ItemChestplateThaumium>,
+/* Input                        */ <Thaumcraft:ItemChestplateThaumium:32767>,
 /* Ingredients                  */ [<Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:7>, <minecraft:gold_ingot>, <Thaumcraft:ItemBaubleBlanks:2>, <minecraft:gold_ingot>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>],
 /* Essentia                     */ "metallum 72, tutamen 24, praecantatio 40, sensus 24",
 /* Output                       */ <Thaumcraft:ItemChestplateFortress>,
@@ -323,7 +323,7 @@ mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
 // Fortress Leggings (1 Thaumium Leggings + 4 Thaumium + 1 Gold + 2 Enchanted Fabric)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemLeggingsFortress>);
 mods.thaumcraft.Infusion.addRecipe("ARMORFORTRESS",
-/* Input                        */ <Thaumcraft:ItemLeggingsThaumium>,
+/* Input                        */ <Thaumcraft:ItemLeggingsThaumium:32767>,
 /* Ingredients                  */ [<minecraft:gold_ingot>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:7>],
 /* Essentia                     */ "metallum 60, tutamen 20, praecantatio 40, sensus 20",
 /* Output                       */ <Thaumcraft:ItemLeggingsFortress>,
