@@ -175,6 +175,23 @@ mods.thaumcraft.Arcane.addShaped("WARDEDARCANA",
 mods.thaumcraft.Research.refreshResearchRecipe("WARDEDARCANA");
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockCosmeticOpaque:2>, "vitreus 3, tutamen 1");
 
+# Traveler Boots
+// Boots of the Traveler
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:BootsTraveller>);
+mods.thaumcraft.Infusion.addRecipe("BOOTSTRAVELLER",
+/* Input                        */ <Thaumcraft:ItemBootsRobe:32767>,
+/* Ingredients                  */ [<Thaumcraft:ItemShard:0>,    // Air Shard
+                                    <Thaumcraft:ItemShard:0>,    // .
+                                    <Thaumcraft:ItemResource:7>, // Enchanted Fabric
+                                    <Thaumcraft:ItemResource:7>, // .
+                                    <minecraft:potion:8226>,     // Potion of Speed II
+                                    <minecraft:feather>,         // Feather
+                                    <minecraft:fish:32767>],     // Fish
+/* Essentia                     */ "volatus 50, iter 20, motus 32, aer 15, praecantatio 12, lucrum 24",
+/* Output                       */ <Thaumcraft:BootsTraveller>,
+/* Instability                  */ 3);
+mods.thaumcraft.Research.refreshResearchRecipe("BOOTSTRAVELLER");
+
 # Arcane Bore
 // Arcane Bore (1 Deconstruction Table + 1 Thaumometer + 2 Gold + 1 Elemental Pickaxe + 1 Elemental Shovel + 1 Void Jar)
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
