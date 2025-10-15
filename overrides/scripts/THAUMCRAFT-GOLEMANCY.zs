@@ -21,3 +21,14 @@ mods.thaumcraft.Arcane.addShaped("HUNGRYCHEST",
                                   [<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemNugget:0>, <Thaumcraft:blockWoodenDevice:6>],
                                   [<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>]] );
 mods.thaumcraft.Research.refreshResearchRecipe("HUNGRYCHEST");
+
+# Golem Core
+// Golem Animation Core (empty)
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemGolemCore:100>);
+mods.thaumcraft.Arcane.addShaped("COREGATHER",
+/* Output                     */ <Thaumcraft:ItemGolemCore:100>,
+/* Aspects                    */ "ordo 20, ignis 20",
+/* InputArray                 */ [[<minecraft:brick>, <minecraft:brick_block>, <minecraft:brick>],
+                                  [<minecraft:brick_block>, <Thaumcraft:ItemResource:1>, <minecraft:brick_block>],
+                                  [<minecraft:brick>, <minecraft:brick_block>, <minecraft:brick>]] );
+mods.thaumcraft.Research.refreshResearchRecipe("COREGATHER");
