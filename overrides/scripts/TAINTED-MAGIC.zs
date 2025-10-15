@@ -82,7 +82,7 @@ mods.thaumcraft.Crucible.removeRecipe(<TaintedMagic:ItemMaterial:0>);
 mods.thaumcraft.Crucible.addRecipe("SHADOWMETAL",
 /* Output                       */ <TaintedMagic:ItemMaterial:8> * 8,
 /* Input                        */ <Thaumcraft:ItemResource:2>,
-/* Essentia                     */ "alienis 2, metallum 8, perditio 3, tenebrae 12, vacuos 5");
+/* Essentia                     */ "alienis 3, metallum 11, perditio 5, tenebrae 13, vacuos 7");
 
 # Tools
 // Shadowmetal Sword (3.2 Shadowmetal + 1 Obsidian Staff + 1 Primal Charm)
