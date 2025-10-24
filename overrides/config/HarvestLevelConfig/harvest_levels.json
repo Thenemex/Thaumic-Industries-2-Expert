@@ -1,157 +1,175 @@
 {
-  "blocks":[
-    {
-      "name": "minecraft:chest",
-      "metadata": -1,
-      "tools": {
-        "axe": 1
-      }
-    },
-    {
-      "name": "minecraft:diamond_ore",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 3
-      }
-    },
-    {
-      "name": "minecraft:crafting_table",
-      "metadata": -1,
-      "tools": {
-        "axe": 1
-      }
-    },
-    {
-      "name": "minecraft:furnace",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 2
-      }
-    },
-    {
-      "name": "minecraft:lit_furnace",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 2
-      }
-    },
-    {
-      "name": "minecraft:glowstone",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 3
-      }
-    },
-    {
-      "name": "minecraft:enchanting_table",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 3
-      }
-    },
-    {
-      "name": "minecraft:emerald_ore",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 3
-      }
-    },
-    {
-      "name": "minecraft:ender_chest",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 3
-      }
-    },
-    {
-      "name": "minecraft:trapped_chest",
-      "metadata": -1,
-      "tools": {
-        "axe": 1
-      }
-    },
-    {
-      "name": "minecraft:quartz_ore",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 2
-      }
-    },
-    {
-      "name": "minecraft:cauldron",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 2
-      }
-    },
+    "blocks":[
+        {
+            "name": "minecraft:chest",
+            "metadata": -1,
+            "tools": {
+                "axe": 1
+            }
+        },
+        {
+            "name": "minecraft:diamond_ore",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 3
+            }
+        },
+        {
+            "name": "minecraft:crafting_table",
+            "metadata": -1,
+            "tools": {
+                "axe": 1
+            }
+        },
+        {
+            "name": "minecraft:furnace",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 2
+            }
+        },
+        {
+            "name": "minecraft:lit_furnace",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 2
+            }
+        },
+        {
+            "name": "minecraft:glowstone",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 3
+            }
+        },
+        {
+            "name": "minecraft:enchanting_table",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 3
+            }
+        },
+        {
+            "name": "minecraft:emerald_ore",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 3
+            }
+        },
+        {
+            "name": "minecraft:ender_chest",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 3
+            }
+        },
+        {
+            "name": "minecraft:trapped_chest",
+            "metadata": -1,
+            "tools": {
+                "axe": 1
+            }
+        },
+        {
+            "name": "minecraft:quartz_ore",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 2
+            }
+        },
+        {
+            "name": "minecraft:cauldron",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 2
+            }
+        },
 
 
 
 
 
-    {
-      "name": "Thaumcraft:blockMagicalLog",
-      "metadata": -1,
-      "tools": {
-        "axe": 2
-      }
-    },
-    {
-      "name": "Thaumcraft:blockTable",
-      "metadata": -1,
-      "tools": {
-        "axe": 1
-      }
-    },
-    {
-      "name": "Thaumcraft:blockMetalDevice",
-      "metadata": 0,
-      "tools": {
-        "pickaxe": 2
-      }
-    },
-    {
-      "name": "Thaumcraft:blockMetalDevice",
-      "metadata": 1,
-      "tools": {
-        "pickaxe": 2
-      }
-    },
+        {
+            "name": "Thaumcraft:blockMagicalLog",
+            "metadata": -1,
+            "tools": {
+                "axe": 2
+            }
+        },
+        {
+            "name": "Thaumcraft:blockTable",
+            "metadata": -1,
+            "tools": {
+                "axe": 1
+            }
+        },
+        {
+            "name": "Thaumcraft:blockMetalDevice",
+            "metadata": 0,
+            "tools": {
+                "pickaxe": 2
+            }
+        },
+        {
+            "name": "Thaumcraft:blockMetalDevice",
+            "metadata": 1,
+            "tools": {
+                "pickaxe": 2
+            }
+        },
 
 
 
 
 
-    {
-      "name": "IronChest:BlockIronChest",
-      "metadata": -1,
-      "tools": {
-        "pickaxe": 2
-      }
-    },
+        {
+            "name": "IronChest:BlockIronChest",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 2
+            }
+        },
+
+
+
+
+        {
+            "name": "NetherOres:tile.netherores.ore.0",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 3
+            }
+        },
+        {
+            "name": "NetherOres:tile.netherores.ore.1",
+            "metadata": -1,
+            "tools": {
+                "pickaxe": 3
+            }
+        },
 
 
 
 
 
-    {
-      "name": "WitchingGadgets:WG_WoodenDevice",
-      "metadata": -1,
-      "tools": {
-        "axe": 1
-      }
-    },
+        {
+            "name": "WitchingGadgets:WG_WoodenDevice",
+            "metadata": -1,
+            "tools": {
+                "axe": 1
+            }
+        },
 
 
 
 
 
-    {
-      "name": "denseores:block0",
-      "metadata": 7,
-      "tools": {
-        "pickaxe": 2
-      }
-    }
-  ]
+        {
+            "name": "denseores:block0",
+            "metadata": 7,
+            "tools": {
+                "pickaxe": 2
+            }
+        }
+    ]
 }

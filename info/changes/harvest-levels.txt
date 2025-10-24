@@ -27,6 +27,11 @@ Iron Chests:
 -------------------------------
 942:X   Chests                      Pickaxe     Iron
 
+Nether Ores:
+-------------------------------
+976:X   Nether ores                 Pickaxe     Diamond
+977:X   Nether ores                 Pickaxe     Diamond
+
 Witching Gadgets
 -------------------------------
 1204:X  Wooden Devices              Axe         Stone
