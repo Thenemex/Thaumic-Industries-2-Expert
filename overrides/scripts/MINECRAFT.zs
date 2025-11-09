@@ -219,3 +219,5 @@ mods.thaumcraft.Aspects.set(<minecraft:experience_bottle>, "cognitio 8"); // Bot
 mods.thaumcraft.Aspects.set(<minecraft:map>, "cognitio 4, iter 2"); // Empty Map
 mods.thaumcraft.Aspects.set(<minecraft:firework_charge>, "ignis 2, perditio 2, sensus 1"); // Firework Charge
 mods.thaumcraft.Aspects.set(<minecraft:fireworks>, "ignis 2, perditio 2, motus 2"); // Firework Rocket
+
+mods.thaumcraft.Aspects.set(<minecraft:nether_star>, "alienis 15, auram 15, ordo 15, lux 15, infernus 15, superbia 15"); // Nether Star
