@@ -2420,7 +2420,7 @@
       "home_anchor_x:5": 0.0,
       "hardcore:1": 0,
       "home_image:8": "tc:textures\\gui\\main_title.png",
-      "party_enable:1": 0,
+      "party_enable:1": 1,
       "pack_version:3": 0,
       "editMode:1": 0,
       "home_offset_x:3": -500,
