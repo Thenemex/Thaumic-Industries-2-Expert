@@ -268,7 +268,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALPICK");
 // Prereqs
 mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "PUREIRON", true);
 mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "PUREGOLD", true);
-mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "ROD_GREATWOOD_STAFF", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALPICK", "ROD_greatwood_staff", true);
 
 // Axe of the Stream
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemAxeElemental>);
@@ -287,7 +287,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
 /* Instability                  */ 6);
 mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALAXE");
 // Prereqs
-mods.thaumcraft.Research.addPrereq("ELEMENTALAXE", "ROD_GREATWOOD_STAFF", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALAXE", "ROD_greatwood_staff", true);
 
 // Sword of the Zephyr
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemSwordElemental>);
@@ -306,7 +306,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
 /* Instability                  */ 4);
 mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSWORD");
 // Prereqs
-mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "ROD_GREATWOOD_STAFF", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "ROD_greatwood_staff", true);
 mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "BELLOWS", true);
 mods.thaumcraft.Research.addPrereq("ELEMENTALSWORD", "PRIMALARROW", true);
 
@@ -327,7 +327,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALSHOVEL",
 /* Instability                  */ 4);
 mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALSHOVEL");
 // Prereqs
-mods.thaumcraft.Research.addPrereq("ELEMENTALSHOVEL", "ROD_GREATWOOD_STAFF", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALSHOVEL", "ROD_greatwood_staff", true);
 
 // Hoe of the Growth
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemHoeElemental>);
@@ -346,7 +346,7 @@ mods.thaumcraft.Infusion.addRecipe("ELEMENTALHOE",
 /* Instability                  */ 6);
 mods.thaumcraft.Research.refreshResearchRecipe("ELEMENTALHOE");
 // Prereqs
-mods.thaumcraft.Research.addPrereq("ELEMENTALHOE", "ROD_GREATWOOD_STAFF", true);
+mods.thaumcraft.Research.addPrereq("ELEMENTALHOE", "ROD_greatwood_staff", true);
 
 # Fortress Armor
 // Fortress Helmet (1 Thaumium Helmet + 3 Thaumium + 2 Gold + 2 Blaze Rods + 1 Emerald)
