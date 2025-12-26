@@ -4,4 +4,4 @@ IDEAS.txt
 CHANGELOG.txt
 *.zip
 .stakpak/session*
-.kate-swp
+*.kate-swp
