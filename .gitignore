@@ -1,7 +1,7 @@
-# IntelliJ
 .idea/
-
-# Local files
 Copy.bat
 IDEAS.txt
 CHANGELOG.txt
+*.zip
+.stakpak/session*
+.kate-swp

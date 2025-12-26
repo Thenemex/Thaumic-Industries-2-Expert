@@ -1,8 +1,0 @@
-{
-  "useRemoteConfig": true,
-  "remoteConfigUrl": "https://serializationisbad.dogboy.io/serializationisbad.json",
-  "executeBlocking": true,
-  "patchModules": [],
-  "classAllowlist": [],
-  "packageAllowlist": []
-}
