@@ -22,6 +22,6 @@ Huge thanks to the Testing team, sharing their in-game experience, and their ide
 - Arctic_Howler, Apfiz, MinilinkMask, NotSenna, Vatko
 
 And also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
-- A Random Spirit, Big Dick Johnson, CloudyOrangeFox, delanius, goofy_fermat5688369, hron84, Lomikk, Reykjavik, Tenebry, wh1te
+- A Random Spirit, Big D*#! Johnson, CloudyOrangeFox, delanius, demycat, goofy_fermat5688369, hron84, Lomikk, Reykjavik, Tenebry, wh1te
 
 Special mention to temakisushi aka awesome_hippo, who made useful mods for the pack.
