@@ -32,3 +32,41 @@ mods.thaumcraft.Arcane.addShaped("COREGATHER",
                                   [<minecraft:brick_block>, <Thaumcraft:ItemResource:1>, <minecraft:brick_block>],
                                   [<minecraft:brick>, <minecraft:brick_block>, <minecraft:brick>]] );
 mods.thaumcraft.Research.refreshResearchRecipe("COREGATHER");
+
+# Metadata 32676 patch
+// Golem Core : Use
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:8>);
+mods.thaumcraft.Infusion.addRecipe("COREUSE",
+/* Input                        */ <Thaumcraft:ItemGolemCore:1>,       // Golem Animation Core : Empty
+/* Ingredients                  */ [<minecraft:comparator>,            // Comparator
+                                    <minecraft:flint_and_steel:32767>, // Flint & Steel
+                                    <minecraft:shears>,                // Shears
+                                    <minecraft:lever>],                // Lever
+/* Essentia                     */ "humanus 20, instrumentum 20, machina 20",
+/* Output                       */ <Thaumcraft:ItemGolemCore:8>,
+/* Instability                  */ 2);
+mods.thaumcraft.Research.refreshResearchRecipe("COREUSE");
+
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:11>);
+mods.thaumcraft.Infusion.addRecipe("COREFISHING",
+/* Input                        */ <Thaumcraft:ItemGolemCore:3>,   // Golem Animation Core : Harvest
+/* Ingredients                  */ [<minecraft:fishing_rod:32767>, // Fishing Rod
+                                    <minecraft:fish:0>,            // Raw Fish
+                                    <minecraft:fish:3>,            // Pufferfish
+                                    <minecraft:fish:1>],           // Raw Salmon
+/* Essentia                     */ "aqua 16, bestia 16, meto 16",
+/* Output                       */ <Thaumcraft:ItemGolemCore:11>, // Golem Animation Core : Fishing
+/* Instability                  */ 2);
+mods.thaumcraft.Research.refreshResearchRecipe("COREFISHING");
+
+mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:7>);
+mods.thaumcraft.Infusion.addRecipe("CORELUMBER",
+/* Input                        */ <Thaumcraft:ItemGolemCore:3>,         // Golem Animation Core : Harvest
+/* Ingredients                  */ [<Thaumcraft:ItemAxeElemental:32767>, // Axe of the Stream
+                                    <minecraft:iron_axe:32767>,          // Iron Axe
+                                    <minecraft:iron_axe:32767>,          // ...
+                                    <minecraft:iron_axe:32767>],         // ...
+/* Essentia                     */ "instrumentum 16, arbor 16, meto 16",
+/* Output                       */ <Thaumcraft:ItemGolemCore:7>,
+/* Instability                  */ 2);
+mods.thaumcraft.Research.refreshResearchRecipe("CORELUMBER");
