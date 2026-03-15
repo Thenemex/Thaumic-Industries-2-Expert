@@ -33,23 +33,6 @@ mods.thaumcraft.Arcane.addShaped("COREGATHER",
                                   [<minecraft:brick>, <minecraft:brick_block>, <minecraft:brick>]] );
 mods.thaumcraft.Research.refreshResearchRecipe("COREGATHER");
 
-// Golem Core : Fishing
-mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:11>);
-mods.thaumcraft.Infusion.addRecipe("COREFISHING",
-/* Input                        */ <Thaumcraft:ItemGolemCore:3>,   // Golem Animation Core : Harvest
-/* Ingredients                  */ [<minecraft:fishing_rod:32767>, // Fishing Rod
-                                    <minecraft:fish:0>,            // Raw Fish
-                                    <Thaumcraft:ItemShard:2>,      // Water Shard
-                                    <minecraft:fish:2>,            // Clownfish
-                                    <minecraft:fish:3>,            // Pufferfish - Redo with ENCHANTED BOOK
-                                    <foodaddition:RawCalamari>,    // Raw Calamari
-                                    <minecraft:waterlily>,         // Lily Pad
-                                    <minecraft:fish:1>],           // Raw Salmon
-/* Essentia                     */ "aqua 45, bestia 24, instrumentum 32, ordo 40, meto 20",
-/* Output                       */ <Thaumcraft:ItemGolemCore:11>, // Golem Animation Core : Fishing
-/* Instability                  */ 6);
-mods.thaumcraft.Research.refreshResearchRecipe("COREFISHING");
-
 # Metadata 32676 patch
 // Golem Core : Use
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemGolemCore:8>);
