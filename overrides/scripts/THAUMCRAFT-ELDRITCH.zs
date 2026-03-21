@@ -50,7 +50,7 @@ game.setLocalization("fr_FR", "tnmx.eldritch.enchantingtable_1", "Les voix dans 
 // Adding craft
 mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE",
 /* Input                        */ <Thaumcraft:ItemThaumonomicon:0>,
-/* Ingredients                  */ [<minecraft:carpet:14>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>, <Thaumcraft:blockCosmeticSolid:0>,<WitchingGadgets:WG_MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:1>, <WitchingGadgets:WG_MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:0>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>],
+/* Ingredients                  */ [<minecraft:carpet:14>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>, <Thaumcraft:blockCosmeticSolid:0>,<WitchingGadgets:MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:1>, <WitchingGadgets:MetalDevice:7>, <Thaumcraft:blockCosmeticSolid:0>, <minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>],
 /* Essentia                     */ "alienis 42, cognitio 150, fabrico 22, lucrum 50, praecantatio 92, tenebrae 30",
 /* Output                       */ <minecraft:enchanting_table>,
 /* Instability                  */ 8);
@@ -158,7 +158,7 @@ game.setLocalization("fr_FR", "tnmx.eldritch.<Thaumcraft:ItemResource:16>.3", "I
 // Re-adding all the pages with arcane crafting
 for i, el_voidTool in voidToolsArray {
     mods.thaumcraft.Research.addArcanePage("VOIDMETAL", el_voidTool); }
-mods.thaumcraft.Research.addCraftingPage("VOIDMETAL", <WitchingGadgets:WG_MetalDevice:7>);
+mods.thaumcraft.Research.addCraftingPage("VOIDMETAL", <WitchingGadgets:MetalDevice:7>);
 mods.thaumcraft.Research.addCraftingPage("VOIDMETAL", <Thaumcraft:ItemResource:16>);
 
 # Research Prereqs

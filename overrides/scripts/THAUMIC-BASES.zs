@@ -175,7 +175,7 @@ mods.thaumcraft.Research.refreshResearchRecipe("ROD_tbthaumium");
 mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:voidAnvil>);
 mods.thaumcraft.Infusion.addRecipe("TB.VoidAnvil",
 /* Input                        */ <thaumicbases:thaumicAnvil>,
-/* Ingredients                  */ [<WitchingGadgets:WG_MetalDevice:7>, <WitchingGadgets:WG_MetalDevice:7>, <WitchingGadgets:WG_MetalDevice:7>, <WitchingGadgets:WG_MetalDevice:7>, <WitchingGadgets:WG_MetalDevice:7>],
+/* Ingredients                  */ [<WitchingGadgets:MetalDevice:7>, <WitchingGadgets:MetalDevice:7>, <WitchingGadgets:MetalDevice:7>, <WitchingGadgets:MetalDevice:7>, <WitchingGadgets:MetalDevice:7>],
 /* Essentia                     */ "fabrico 32, instrumentum 24, ordo 48, telum 24",
 /* Output                       */ <thaumicbases:voidAnvil>,
 /* Instability                  */ 4);

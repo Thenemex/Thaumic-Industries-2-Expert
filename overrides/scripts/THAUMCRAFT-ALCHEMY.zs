@@ -23,7 +23,7 @@ var thaumToolsArray = [<Thaumcraft:ItemSwordThaumium>,
                        <Thaumcraft:ItemAxeThaumium>,
                        <Thaumcraft:ItemShovelThaumium>,
                        <Thaumcraft:ItemHoeThaumium>,
-                       <WitchingGadgets:item.WG_ThaumiumShears>,
+                       <WitchingGadgets:ThaumiumShears>,
                        <Thaumcraft:ItemHelmetThaumium>,
                        <Thaumcraft:ItemChestplateThaumium>,
                        <Thaumcraft:ItemLeggingsThaumium>,
@@ -186,9 +186,9 @@ mods.thaumcraft.Arcane.addShaped("THAUMIUM",
                                   [<Thaumcraft:WandRod:0>, null, null]] );
 
 // Thaumium Shears (2 Greatwood + 2 Thaumium)
-recipes.remove(<WitchingGadgets:item.WG_ThaumiumShears>);
+recipes.remove(<WitchingGadgets:ThaumiumShears>);
 mods.thaumcraft.Arcane.addShaped("THAUMIUM",
-/* Output                     */ <WitchingGadgets:item.WG_ThaumiumShears>,
+/* Output                     */ <WitchingGadgets:ThaumiumShears>,
 /* Aspects                    */ "terra 3, ordo 5",
 /* InputArray                 */ [[null, <Thaumcraft:ItemResource:2>, null],
                                   [<Thaumcraft:blockWoodenDevice:6>, null, <Thaumcraft:ItemResource:2>],
