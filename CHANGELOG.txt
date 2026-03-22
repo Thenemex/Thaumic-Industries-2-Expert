@@ -29,7 +29,48 @@
 
 
     2.7.2
-#
+# Nightrunner update (part. 2)
+
+## Mods added :
+- JustAnotherSpawner, Witching Gadgets : Patched
+
+## Mods updated :
+- NemexLib, Salis Arcana, TC4NEIP:Patched, TC4:Patched, TC4Tweaks, TCI2:Core, Thaumic Concilium, Thaumic Horizons, Thaumic Renaissance, UniMixins
+
+## Mods removed :
+- IncreaseMobs, IncreaseWitherSpawn, Witching Gagdets
+
+## Bugs patched
+- Golem equiped with Dart launchers are now able to hit players
+- Patched a bug with some Crucible recipes not showing when looking for usages - Some rare unoptimized recipes might not show as well
+- Prevented the duplication of a single item dropped in multiple crucibles at once
+- Disassembling a golem that has already been killed won't duplicate their held item anymore
+- Aura nodes don't trigger permanent chunk loading anymore on a server
+- Interacting with the Boiler from Automagy with a fake player won't result in a crash anymore
+- Hell Wisps, Blazes, Wither Skeletons & others now spawn as usual in the Nether
+- Patched an animation issue with Runic Matrix altars with super high stability values
+- Patched a crash caused by Food Addition when killing a Chort from Thaumic Concilium
+
+## Gameplay modifications :
+- Huge overhaul of all mob spawn mechanics
+- Crimson towers will now generate rarely in your world, be ready for a fight !
+- Witch burning sites will now generate rarely in villages
+- Added compatibility with damaged tools/weapons for ALL recipes in Golemancy tab
+- Unified the Crucible recipes under Alchemy tab for :
+  - Wool to String, Redstone dupe
+- Set round tree logs for Witchery & Tainted Magic mods
+- Set detailed tree leaves for Tainted Magic mod
+- Added Russian translation for Witching Gagdets and Thaumic Renaissance
+
+## Expert changes :
+- Enhanced Golem Core : Fishing infusion recipe
+- Enhanced Golem Core : Chop infusion recipe
+- Paranoid Warriors are now a bit slower and easier to kill
+- Thaumaturges now only spawn rarely in Magical Forest and Plains biomes
+- Added new mob, Crimson Rangers will only spawn rarely in Plains biomes
+- Withered Thaumaturges will only spawn in Plains & Flower biomes
+- Two new agressive mobs will now spawn in the Nether
+- Removed the 16 apples given when spawning
 
 ## Server pack :
 - Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
