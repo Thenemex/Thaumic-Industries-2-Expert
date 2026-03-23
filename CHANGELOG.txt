@@ -32,13 +32,13 @@
 # Nightrunner update (part. 2)
 
 ## Mods added :
-- JustAnotherSpawner, Witching Gadgets : Patched
+- BetterFPS, JustAnotherSpawner, SmoothFont, Witching Gadgets : Patched
 
 ## Mods updated :
 - NemexLib, Salis Arcana, TC4NEIP:Patched, TC4:Patched, TC4Tweaks, TCI2:Core, Thaumic Concilium, Thaumic Horizons, Thaumic Renaissance, UniMixins
 
 ## Mods removed :
-- IncreaseMobs, IncreaseWitherSpawn, Witching Gagdets
+- Fastcraft, IncreaseMobs, IncreaseWitherSpawn, Witching Gagdets
 
 ## Bugs patched
 - Golem equiped with Dart launchers are now able to hit players
@@ -60,6 +60,7 @@
   - Wool to String, Redstone dupe
 - Set round tree logs for Witchery & Tainted Magic mods
 - Set detailed tree leaves for Tainted Magic mod
+- Text and numbers will be much clearer to read, even with very small font size
 - Added Russian translation for Witching Gagdets and Thaumic Renaissance
 
 ## Expert changes :
