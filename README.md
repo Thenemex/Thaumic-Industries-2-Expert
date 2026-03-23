@@ -15,13 +15,13 @@ Project currenlty leaded by Thenemex
 Founders of the pack :
  - Thenemex, NexWiz and AQUOI-LORDE
 
-Big thanks to my active and passed close testers :
- - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
-
 Huge thanks to the Testing team, sharing their in-game experience, and their ideas that got implemented to the pack :
 - Arctic_Howler, Apfiz, MinilinkMask, NotSenna, Vatko
 
+Big thanks to my passed close testers :
+- BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
+
 And also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
-- A Random Spirit, Big D*#! Johnson, CloudyOrangeFox, delanius, demycat, goofy_fermat5688369, hron84, Lomikk, Reykjavik, Tenebry, wh1te
+- A Random Spirit, Big D*#! Johnson, CloudyOrangeFox, delanius, demycat, goofy_fermat5688369, hron84, Lomikk, neverwindy, Reykjavik, Tenebry, wh1te
 
 Special mention to temakisushi aka awesome_hippo, who made useful mods for the pack.
