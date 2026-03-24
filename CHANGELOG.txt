@@ -1,6 +1,6 @@
 
 
-    2.7.1.x
+    2.7.2.x
 #
 
 ##
@@ -28,6 +28,22 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    2.7.2.1
+# Spawn caps & rates patch
+
+## Gameplay modifications :
+- Reduced the spawn rate of monsters
+- Reduced the spawn cap & rate of water creatures
+- Reduced the spawn cap & rate of Thaumaturges and Crimson Rangers
+
+## Server pack :
+- Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     2.7.2
 # Nightrunner update (part. 2)
 
@@ -35,7 +51,7 @@
 - BetterFPS, JustAnotherSpawner, SmoothFont, Witching Gadgets : Patched
 
 ## Mods updated :
-- NemexLib, Salis Arcana, TC4NEIP:Patched, TC4:Patched, TC4Tweaks, TCI2:Core, Thaumic Concilium, Thaumic Horizons, Thaumic Renaissance, UniMixins
+- NemexLib, Salis Arcana, TC4NEI:Patched, TC4:Patched, TC4Tweaks, TCI2:Core, Thaumic Concilium, Thaumic Horizons, Thaumic Renaissance, UniMixins
 
 ## Mods removed :
 - Fastcraft, IncreaseMobs, IncreaseWitherSpawn, Witching Gagdets
