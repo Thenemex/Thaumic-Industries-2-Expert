@@ -1,13 +1,13 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 5,
   "generalSettings": {
-    "detectATLauncherInstance": true,
-    "detectCurseManifest": true,
-    "detectMultiMCManifest": true,
-    "detectMCUpdaterInstance": true,
-    "detectTechnicPack": true,
-    "detectModrinthPack": true,
+    "detectATLauncherInstance": false,
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "detectModrinthPack": false,
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
@@ -70,7 +70,7 @@
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
-    "refreshRate": 2,
+    "refreshRate": 5,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
@@ -101,8 +101,7 @@
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": true
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "en_US",
@@ -117,30 +116,29 @@
       "useAsMain": false,
       "isInstance": false,
       "activityType": 0,
+      "statusDisplayType": 0,
       "partyPrivacy": 1,
       "details": "{getFirst(menu.message, dimension.message)}",
-      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "detailsUrl": "",
+      "gameState": "",
+      "gameStateUrl": "",
+      "appName": "",
       "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
       "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "largeImageUrl": "",
       "smallImageKey": "{getFirst(server.icon, pack.icon)}",
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "smallImageUrl": "",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
       "localhost": "https://api.mcsrvstat.us/icon/localhost",
       "Thenemex": "https://crafatar.com/avatars/63a3d0d54d6640638f1082e43111199e",
-      "default": "https://via.placeholder.com/256.png",
       "thaumicindustries2.mcserver.us": "https://api.mcsrvstat.us/icon/thaumicindustries2.mcserver.us"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",
