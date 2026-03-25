@@ -36,6 +36,9 @@
 - Reduced the spawn cap & rate of water creatures
 - Reduced the spawn cap & rate of Thaumaturges and Crimson Rangers
 
+## UI Changes :
+- Tweaked some details for Discord Rich Presence
+
 ## Server pack :
 - Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
 - A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
