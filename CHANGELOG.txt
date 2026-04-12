@@ -28,6 +28,26 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    2.7.2.2
+#
+
+# Mods added :
+- Armored Arms
+
+# Mods updated :
+- Thaumic Horizons
+
+## Gameplay modifications :
+- All armors with arm sleeves will now render in first person on your arm/hand
+
+## Server pack :
+- Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     2.7.2.1
 # Spawn caps & rates patch
 
