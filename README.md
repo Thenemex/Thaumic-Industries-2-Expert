@@ -15,8 +15,9 @@ Project currenlty leaded by Thenemex
 Founders of the pack :
  - Thenemex, NexWiz and AQUOI-LORDE
 
-Huge thanks to the Testing team, sharing their in-game experience, and their ideas that got implemented to the pack :
-- Arctic_Howler, Apfiz, MinilinkMask, NotSenna, Vatko
+Huge thanks to the active and retired members of the Testing team, sharing their in-game experience, and their ideas that got implemented to the pack :
+- Arctic_Howler, MinilinkMask, NotSenna
+- Apfiz, sleeping_reaper, Vatko
 
 Big thanks to close friends that bring their help to the project :
 - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
