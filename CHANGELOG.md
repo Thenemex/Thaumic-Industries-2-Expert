@@ -28,6 +28,40 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    2.7.2.4
+#
+
+## Gameplay modifications :
+- Disabled /home & related commands
+
+## Server pack :
+- Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+    2.7.2.3
+# Quests patch
+
+WARNINGS :
+- Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
+
+## Quest modifications :
+- Changed the requirement for Iron Nuggets from crafting to retrieval task
+- Deleted the additionnal task checking for the Thaumcraft Crucible.
+- Added more information and hints in multiple quests to help the new players
+- Added a note about crashs in the info-quest for updating quests
+
+## Server pack :
+- Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     2.7.2.2
 # First-person hand armor patch
 
