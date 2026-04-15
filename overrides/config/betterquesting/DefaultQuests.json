@@ -748,7 +748,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "Let\u0027s introduce you to alchemy / cauldron crafting !\nTo obtain a §7§lCrucible§r, you\u0027ll need to use you wand on a mundane cauldron.\nIt works like it\u0027s conterpart needing water for operations ; but it will also need some strong heat source beneath it to make the water boiling.\nSome §c§lLava§r will do the work for now, beware to not burn everything around it !\nYou can see that the water is boiling by looking at the bubbles poping at the water\u0027s surface.\n\nAs always for all the quests, you can find some more information in your Thaumonomicon, by reading your completed researchs."
+          "desc:8": "Let\u0027s introduce you to alchemy / cauldron crafting !\nTo obtain a §7§lCrucible§r, you\u0027ll need to use you wand on a mundane cauldron.\n\nIt works like it\u0027s conterpart needing water for operations ; but it will also need some strong heat source beneath it to make the water boiling.\nSome §c§lLava§r will do the work for now, beware to not burn everything around it !\nYou can see that the water is boiling by looking at the bubbles poping at the water\u0027s surface.\n\nAs always for all the quests, you can find some more information in your Thaumonomicon, by reading your completed researchs.\n\n\n§9§n§b§n§a§6§a§d§6§3§n- Tips for clumsy Thaumaturges :§r§r \n\nPutting too much aspects in your cauldron will cause it to overflow and spread §d§lFlux§r (baaad) around it.\n\nThe best way to deal with it, first is to empty your cauldron if you\u0027re done by sneak + right click it with your wand.\n\nIf it did spread some Flux, take a water bucket and replace each Flux bloc with the water source, then regrab it with your bucket.\n\nIf you don\u0027t take care of Flux, it will start to corrupt your biome and blocks and spawn bad mobs ..."
         }
       },
       "tasks:9": {
@@ -762,23 +762,6 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:cauldron",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "Thaumcraft:blockMetalDevice",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1747,7 +1730,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 1,
-          "desc:8": "This quest allows to load the§n§r §nNew Questlines§r (if there are some), coming after a modpack\u0027s update."
+          "desc:8": "This quest allows to load the§n§r §nNew Questlines§r (if there are some), coming after a modpack\u0027s update.\n\nTo run the command, you will need to check the button, then to claim the quest. (It can be claimed multiple times, no worries)\n\n - - -\n\n§c§n§l/!\\§r Don\u0027t run this command if you\u0027re playing on a §9§bServer§r and you aren\u0027t the owner/admin !\n\n -\u003e This will very likely §c§lcrash§r your game without additionnal effects.\n\nSame if you\u0027re playing on §bLAN§r, run the command §nbefore§r opening the game to LAN."
         }
       },
       "tasks:9": {
