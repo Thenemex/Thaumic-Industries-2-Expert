@@ -64,7 +64,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "After making your stone tools, you need to get some §7§l§riron ores ; they will make an introduction into thaumaturgy with the basics.\n\nOnce you got your clusters and some flints, clay balls and coal, you can make your first §l§7Iron nuggets§r."
+          "desc:8": "After making your stone tools, you need to get some §7§l§riron ores ; they will make an introduction into thaumaturgy with the basics.\n\nOnce you got your clusters and some flints, clay balls and coal, you can make your first §l§7Iron nuggets§r.\n\n§l§c§n§l/!\\§r If you\u0027re stuck at \"1/2 tasks completed\", there\u0027s a little arrow at the bottom right corner to check the next task !"
         }
       },
       "tasks:9": {
@@ -105,11 +105,11 @@
         },
         "1:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 1,
-          "index:3": 1,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "Thaumcraft:ItemNugget",
@@ -118,7 +118,7 @@
               "OreDict:8": ""
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -154,7 +154,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "Now that you got some nuggets, you can now make your first wand !\n\nIt\u0027s not the greatest (made out of mundane wood and iron), but it allows you to start collecting vis by draining nodes or killing mobs.\n\nYou can have a look at the vis storage by sneaking with it in your hand, or looking at it in your inventory."
+          "desc:8": "Now that you got some nuggets, you can now make your first wand !\n\nWands allow to store vis, a form of magic allowing to store the §l§6§l§rsix §l§6§lPrimal Aspects§r, for later use (crafting, combat \u0026 more !)\n\nIt\u0027s not the greatest (made out of mundane wood and iron), but it allows you to start collecting vis by draining nodes or killing mobs.\n\nYou can have a look at the vis storage by sneaking with it in your hand, or looking at it in your inventory.\n\n§c§n§l/!\\§r If you\u0027re stuck at \"1/2 tasks completed\", there\u0027s a little arrow at the bottom right corner to check the next task !"
         }
       },
       "tasks:9": {
@@ -392,7 +392,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now you need to make a Glass Phial (which is a component of the Research Table craft), but we don\u0027t have any furnace to make glass on hand !\n\nYou can find the recipe in the Thaumonomicon tab named §7§l§d§l§e§6§lAlchemy§r,§r or with NEI.\n\n6 Shards, some sand and wood will be needed for that recipe, alongside a bit of vis from your wand."
+          "desc:8": "Now you need to make a Glass Phial (which is a component of the Research Table craft), but we don\u0027t have any furnace to make glass on hand !\n\nYou can find the recipe in the Thaumonomicon tab named §7§l§d§l§e§6§lAlchemy§r,§r or with NEI.\n\n6 Shards, some sand and wood will be needed for that recipe, alongside a bit of vis from your wand.\n\nIf you\u0027re lacking some §c§lIgnis§r vis in your wand, go out to touch grass and kill some monsters.\nAnimals are not magically complex enough to drop some §c§lIgnis§r vis balls !"
         }
       },
       "tasks:9": {
@@ -477,6 +477,7 @@
             "3:10": {
               "id:8": "Thaumcraft:ItemResearchNotes",
               "Count:3": 1,
+              "tag:10": {},
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -696,7 +697,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "For the last quest of the starting questline, we will ask you to make a §e§lThaumometer§r out of Gold, Shards and Glass.\nThis device allows for scanning items, blocks, entities, yourself and other players to gain new research aspects ; every thing is only scannable once !\n\nTo scan something, you must have discovered all the \"child\" aspects of the aspects contained within.\nFor exemple : you can scan Snow, as it contains §b§lGelum§r, combined from §c§lIgnis§r and §7§lPerditio§r. Or you can combine them in the research table ; two paths to choose.\nYou already know §b§lPotentia§r, §b§lVitreus§r, §2§lPermutatio§r and §lMetallum§r from your previous researchs.\n\nHere\u0027s a walkthrough / optimized path to get to tier 6 aspects and be able to scan everything without losing too much aspects :\n\n§\n§c§lVictus§r (tier 1)\n- Combine §a§lTerra§r + §b§lAqua§r\n§l§a§lHerba§r (tier 2)\n- Scan a Grass block, or combine §c§lVictus§r + §a§lTerra§\n§r\n§4§\n\n§\n§r§7§lMortuus§r (tier 2)\n- Combine §c§lVictus §r+ §r§r§7§lPerditio§r\n§r\n§l§r§lMotus§r (tier 1)\n- Scan a §nTrapdoor§r, or combine §l§e§lAer §r+ §lOrdo\n§\n§0§1§2§3§4§3§4§5§6§7§8§9§a§a§b§c§d§e§f§4§l§lBestia§r (tier 2)\n- Scan a §nSquid§r, or combine §lMotus§r + §4§l§c§lVictus§r\n§d§\n\n§7§lSpiritus§r (tier 3) and §7§lVinculum§r (tier 2)\n- Scan § §nSoul Sand§r, or combine §7§lMortuus§r + §c§lVictus§r\n- Combine §lMotus§r + §7§lPerditio§r (for the second, or scan §nAmber§r)\n§6§lCognitio§r (tier 4)\n- Scan §l§r§nPaper§r, or combine §7§lSpiritus§r + §c§lIgnis§r\n§b§lSensus§r (tier 4)\n- Scan §nFlowers§r / §nInks§r, or combine §7§lSpiritus§r + §e§lAer§r\n§lHumanus§r (tier 5)\n- Scan §nRotten Flesh§r, or combine §6§lCognitio§r + §4§lBestia§r\n§9§lInstrumentum§r (tier 6)\n- Scan §nFlint§r / §nTable§r, or combine §lHumanus§r + §lOrdo§r\n\nThere you go, you can scan almost anything ! If you are missing some aspects, try discovering them on your own or google it to find the last ones !\nYou are free to continue researchs on your own or continue to the next questline to get to mid-game."
+          "desc:8": "For the last quest of the starting questline, we will ask you to make a §e§lThaumometer§r out of Gold, Shards and Glass.\nThis device allows for scanning items, blocks, entities, yourself and other players to gain new research aspects ; every thing is only scannable once !\n\nTo scan something, you must have discovered all the \"child\" aspects of the aspects contained within.\nFor exemple : you can scan Snow, as it contains §b§lGelum§r, combined from §c§lIgnis§r and §7§lPerditio§r. Or you can combine them in the research table ; two paths to choose.\nYou already know §b§lPotentia§r, §b§lVitreus§r, §2§lPermutatio§r and §lMetallum§r from your previous researchs.\n\nHere\u0027s a walkthrough / optimized path to get to tier 6 aspects and be able to scan everything without losing too much aspects :\n\n§\n§c§lVictus§r (tier 1)\n- Combine §a§lTerra§r + §b§lAqua§r\n§l§a§lHerba§r (tier 2)\n- Scan a Grass block, or combine §c§lVictus§r + §a§lTerra§\n§r\n§4§\n\n§\n§r§7§lMortuus§r (tier 2)\n- Combine §c§lVictus §r+ §r§r§7§lPerditio§r\n§r\n§l§r§lMotus§r (tier 1)\n- Scan a §nTrapdoor§r, or combine §l§e§lAer §r+ §lOrdo\n§\n§0§1§2§3§4§3§4§5§6§7§8§9§a§a§b§c§d§e§f§4§l§lBestia§r (tier 2)\n- Scan a §nSquid§r, or combine §lMotus§r + §4§l§c§lVictus§r\n§d§\n\n§7§lSpiritus§r (tier 3) and §7§lVinculum§r (tier 2)\n- Scan § §nSoul Sand§r, or combine §7§lMortuus§r + §c§lVictus§r\n- Combine §lMotus§r + §7§lPerditio§r (for the second, or scan §nAmber§r)\n§6§lCognitio§r (tier 4)\n- Scan §l§r§nPaper§r, or combine §7§lSpiritus§r + §c§lIgnis§r\n§b§lSensus§r (tier 4)\n- Scan §nFlowers§r / §nInks§r, or combine §7§lSpiritus§r + §e§lAer§r\n§lHumanus§r (tier 5)\n- Scan §nRotten Flesh§r, or combine §6§lCognitio§r + §4§lBestia§r\n§9§lInstrumentum§r (tier 6)\n- Scan §nFlint§r / §nTable§r, or combine §lHumanus§r + §lOrdo§r\n\nThere you go, you can scan almost anything ! If you are missing some aspects, try discovering them on your own or google it to find the last ones !\nYou are free to continue researchs on your own or continue to the next questline to get to mid-game (unlocks Alchemy \u0026 Infusion)."
         }
       },
       "tasks:9": {
@@ -1428,7 +1429,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "You finally built your matrix and reached mid-game ! \nTo be sure you actually built it, we\u0027ll ask for you to research and make one of the 5 Enhanced Thaumium Tools of your choice.\n\nHaving a little bit more Essentia than asked and replacement side-items is good practice, in case your recipe becomes unstable and something bad happens.\n\n §lGood luck and welcome to mid-game Thaumaturge !"
+          "desc:8": "You finally built your matrix and reached mid-game ! \nTo be sure you actually built it, we\u0027ll ask for you to research and make one of the 5 Enhanced Thaumium Tools of your choice.\n\nHaving a little bit more Essentia than asked and replacement side-items is good practice, in case your recipe becomes unstable and something bad happens.\n\nThese researchs should show on the left from the Infusion research in the Artifice tab.\nIf you don\u0027t see any of them, try to go in the bottom left corner of the Thaumaturgy tab, and do a bit of research until you reach one named \"Magic Staves\".\nThe enhanced Thaumium magic tools require you to research that special staff, that will act as the Stick for these tools !\n\n §lGood luck and welcome to §6§lMid-Game §r§lThaumaturge !"
         }
       },
       "tasks:9": {
@@ -1896,7 +1897,7 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "WitchingGadgets:item.WG_Bag",
+            "id:8": "WitchingGadgets:Bag",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2420,7 +2421,7 @@
       "home_anchor_x:5": 0.0,
       "hardcore:1": 0,
       "home_image:8": "tc:textures\\gui\\main_title.png",
-      "party_enable:1": 1,
+      "party_enable:1": 0,
       "pack_version:3": 0,
       "editMode:1": 0,
       "home_offset_x:3": -500,
