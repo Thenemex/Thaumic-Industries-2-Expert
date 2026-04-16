@@ -1,0 +1,14 @@
+{
+  "_name": "pyramidJungleDispenser",
+  "min": 2,
+  "max": 2,
+  "loot": [
+    {
+      "weight": 30,
+      "id": "minecraft:arrow",
+      "damage": 0,
+      "min": 2,
+      "max": 7
+    }
+  ]
+}

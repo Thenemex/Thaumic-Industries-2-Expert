@@ -1,0 +1,347 @@
+{
+  "_name": "pyramidDesertyChest",
+  "min": 2,
+  "max": 7,
+  "loot": [
+    {
+      "weight": 3,
+      "id": "minecraft:diamond",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 10,
+      "id": "minecraft:iron_ingot",
+      "damage": 0,
+      "min": 1,
+      "max": 5
+    },
+    {
+      "weight": 15,
+      "id": "minecraft:gold_ingot",
+      "damage": 0,
+      "min": 2,
+      "max": 7
+    },
+    {
+      "weight": 2,
+      "id": "minecraft:emerald",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 20,
+      "id": "minecraft:bone",
+      "damage": 0,
+      "min": 4,
+      "max": 6
+    },
+    {
+      "weight": 16,
+      "id": "minecraft:rotten_flesh",
+      "damage": 0,
+      "min": 3,
+      "max": 7
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:saddle",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:iron_horse_armor",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:golden_horse_armor",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:diamond_horse_armor",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 6,
+      "id": "Botania:blackLotus",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "Botania:overgrowthSeed",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 8,
+      "id": "TravellersGear:simpleGear",
+      "damage": 6,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "title",
+              "function": "string",
+              "value": "TG.personaltitle.archchancellor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 5,
+      "id": "HardcoreEnderExpansion:adventurers_diary",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "HardcoreEnderExpansion:temple_caller",
+      "damage": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "keep": "chylex.hee.world.loot.WeightedRandomKnowledgeNote",
+      "id": "HardcoreEnderExpansion:knowledge_note",
+      "damage": 0,
+      "nbt": false,
+      "count": 1
+    },
+    {
+      "weight": 5,
+      "id": "Thaumcraft:ItemLootBag",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "Thaumcraft:ItemResource",
+      "damage": 2,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 5,
+      "id": "Thaumcraft:ItemResource",
+      "damage": 6,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 4,
+      "id": "Thaumcraft:ItemLootBag",
+      "damage": 1,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 4,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 4,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 1,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 4,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 2,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 4,
+      "id": "Thaumcraft:ItemResource",
+      "damage": 9,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemLootBag",
+      "damage": 2,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemThaumonomicon",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemSwordThaumium",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemPickThaumium",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemAxeThaumium",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemHoeThaumium",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemRingRunic",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 3,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 4,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 5,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 6,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 7,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemBaubleBlanks",
+      "damage": 8,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "Thaumcraft:ItemAmuletVis",
+      "damage": 0,
+      "min": 1,
+      "max": 1,
+      "enchant": 0,
+      "enchant_chance": 0,
+      "functions": [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "name": "aqua",
+              "function": "int",
+              "value": "300~300"
+            },
+            {
+              "name": "terra",
+              "function": "int",
+              "value": "100~100"
+            },
+            {
+              "name": "ignis",
+              "function": "int",
+              "value": "100~100"
+            },
+            {
+              "name": "ordo",
+              "function": "int",
+              "value": "400~400"
+            },
+            {
+              "name": "perditio",
+              "function": "int",
+              "value": "300~300"
+            },
+            {
+              "name": "aer",
+              "function": "int",
+              "value": "0~0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "id": "Automagy:baubleEnderDisjunction",
+      "damage": 1,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 3,
+      "id": "Automagy:phialExtra",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    }
+  ]
+}

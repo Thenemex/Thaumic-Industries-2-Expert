@@ -1,0 +1,84 @@
+{
+  "_name": "ieVillageCrates",
+  "min": 3,
+  "max": 9,
+  "loot": [
+    {
+      "weight": 20,
+      "id": "ImmersiveEngineering:material",
+      "damage": 0,
+      "min": 2,
+      "max": 7
+    },
+    {
+      "weight": 8,
+      "id": "ImmersiveEngineering:material",
+      "damage": 11,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 5,
+      "id": "ImmersiveEngineering:material",
+      "damage": 12,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 16,
+      "id": "ImmersiveEngineering:metal",
+      "damage": 0,
+      "min": 2,
+      "max": 5
+    },
+    {
+      "weight": 10,
+      "id": "ImmersiveEngineering:metal",
+      "damage": 1,
+      "min": 1,
+      "max": 4
+    },
+    {
+      "weight": 10,
+      "id": "ImmersiveEngineering:metal",
+      "damage": 2,
+      "min": 1,
+      "max": 4
+    },
+    {
+      "weight": 8,
+      "id": "ImmersiveEngineering:metal",
+      "damage": 7,
+      "min": 1,
+      "max": 4
+    },
+    {
+      "weight": 5,
+      "id": "ImmersiveEngineering:blueprint",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 2,
+      "id": "ImmersiveEngineering:blueprint",
+      "damage": 1,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 1,
+      "id": "ImmersiveEngineering:blueprint",
+      "damage": 2,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 5,
+      "id": "ImmersiveEngineering:shader",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    }
+  ]
+}

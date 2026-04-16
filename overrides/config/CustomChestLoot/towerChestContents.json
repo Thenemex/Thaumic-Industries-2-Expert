@@ -1,0 +1,14 @@
+{
+  "_name": "towerChestContents",
+  "min": 0,
+  "max": 0,
+  "loot": [
+    {
+      "weight": 8,
+      "id": "WitchingGadgets:Material",
+      "damage": 8,
+      "min": 1,
+      "max": 1
+    }
+  ]
+}
