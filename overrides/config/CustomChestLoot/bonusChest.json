@@ -1,7 +1,7 @@
 {
   "_name": "bonusChest",
-  "min": 10,
-  "max": 10,
+  "min": 15,
+  "max": 15,
   "loot": [
     {
       "weight": 10,
@@ -55,6 +55,13 @@
     {
       "weight": 3,
       "id": "minecraft:rotten_flesh",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 3,
+      "id": "minecraft:poisonous_potato",
       "damage": 0,
       "min": 1,
       "max": 2
