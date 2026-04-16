@@ -11,20 +11,6 @@
       "max": 3
     },
     {
-      "weight": 10,
-      "id": "minecraft:iron_ingot",
-      "damage": 0,
-      "min": 1,
-      "max": 5
-    },
-    {
-      "weight": 15,
-      "id": "minecraft:gold_ingot",
-      "damage": 0,
-      "min": 2,
-      "max": 7
-    },
-    {
       "weight": 2,
       "id": "minecraft:emerald",
       "damage": 0,
@@ -123,13 +109,6 @@
       "max": 1
     },
     {
-      "weight": 1,
-      "id": "HardcoreEnderExpansion:temple_caller",
-      "damage": 0,
-      "min": 0,
-      "max": 1
-    },
-    {
       "keep": "chylex.hee.world.loot.WeightedRandomKnowledgeNote",
       "id": "HardcoreEnderExpansion:knowledge_note",
       "damage": 0,
@@ -140,13 +119,6 @@
       "weight": 5,
       "id": "Thaumcraft:ItemLootBag",
       "damage": 0,
-      "min": 1,
-      "max": 3
-    },
-    {
-      "weight": 5,
-      "id": "Thaumcraft:ItemResource",
-      "damage": 2,
       "min": 1,
       "max": 3
     },
@@ -196,41 +168,6 @@
       "weight": 1,
       "id": "Thaumcraft:ItemLootBag",
       "damage": 2,
-      "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
-      "id": "Thaumcraft:ItemThaumonomicon",
-      "damage": 0,
-      "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
-      "id": "Thaumcraft:ItemSwordThaumium",
-      "damage": 0,
-      "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
-      "id": "Thaumcraft:ItemPickThaumium",
-      "damage": 0,
-      "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
-      "id": "Thaumcraft:ItemAxeThaumium",
-      "damage": 0,
-      "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
-      "id": "Thaumcraft:ItemHoeThaumium",
-      "damage": 0,
       "min": 1,
       "max": 1
     },
@@ -335,13 +272,6 @@
       "damage": 1,
       "min": 1,
       "max": 1
-    },
-    {
-      "weight": 3,
-      "id": "Automagy:phialExtra",
-      "damage": 0,
-      "min": 1,
-      "max": 3
     }
   ]
 }
