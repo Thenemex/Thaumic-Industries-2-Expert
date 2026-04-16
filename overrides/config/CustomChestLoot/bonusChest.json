@@ -32,6 +32,27 @@
       "max": 2
     },
     {
+      "weight": 5,
+      "id": "minecraft:sign",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:tallgrass",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
+      "weight": 5,
+      "id": "minecraft:deadbush",
+      "damage": 0,
+      "min": 1,
+      "max": 2
+    },
+    {
       "weight": 3,
       "id": "minecraft:rotten_flesh",
       "damage": 0,
