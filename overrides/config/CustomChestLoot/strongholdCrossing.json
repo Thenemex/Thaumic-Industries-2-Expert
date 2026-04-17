@@ -1,7 +1,7 @@
 {
   "_name": "strongholdCrossing",
   "min": 1,
-  "max": 15,
+  "max": 5,
   "loot": [
     {
       "weight": 5,
