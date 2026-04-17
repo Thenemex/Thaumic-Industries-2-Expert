@@ -4,6 +4,20 @@
   "max": 4,
   "loot": [
     {
+      "weight": 15,
+      "id": "minecraft:bread",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
+      "weight": 15,
+      "id": "minecraft:apple",
+      "damage": 0,
+      "min": 1,
+      "max": 3
+    },
+    {
       "weight": 10,
       "id": "minecraft:ender_pearl",
       "damage": 0,

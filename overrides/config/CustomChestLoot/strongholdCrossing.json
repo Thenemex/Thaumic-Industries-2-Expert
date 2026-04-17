@@ -1,22 +1,8 @@
 {
   "_name": "strongholdCrossing",
   "min": 1,
-  "max": 5,
+  "max": 15,
   "loot": [
-    {
-      "weight": 10,
-      "id": "minecraft:iron_ingot",
-      "damage": 0,
-      "min": 1,
-      "max": 5
-    },
-    {
-      "weight": 5,
-      "id": "minecraft:gold_ingot",
-      "damage": 0,
-      "min": 1,
-      "max": 3
-    },
     {
       "weight": 5,
       "id": "minecraft:redstone",
@@ -46,24 +32,10 @@
       "max": 3
     },
     {
-      "weight": 1,
-      "id": "minecraft:iron_pickaxe",
-      "damage": 0,
-      "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
+      "weight": 50,
       "id": "minecraft:enchanted_book",
       "damage": 0,
       "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
-      "id": "HardcoreEnderExpansion:temple_caller",
-      "damage": 0,
-      "min": 0,
       "max": 1
     },
     {
@@ -77,13 +49,6 @@
       "weight": 4,
       "id": "Thaumcraft:ItemLootBag",
       "damage": 0,
-      "min": 1,
-      "max": 3
-    },
-    {
-      "weight": 4,
-      "id": "Thaumcraft:ItemResource",
-      "damage": 2,
       "min": 1,
       "max": 3
     },
@@ -123,11 +88,11 @@
       "max": 2
     },
     {
-      "weight": 3,
+      "weight": 20,
       "id": "Thaumcraft:ItemResource",
       "damage": 9,
       "min": 1,
-      "max": 2
+      "max": 10
     },
     {
       "weight": 1,
@@ -137,37 +102,23 @@
       "max": 1
     },
     {
-      "weight": 1,
+      "weight": 5,
       "id": "Thaumcraft:ItemThaumonomicon",
       "damage": 0,
       "min": 1,
       "max": 1
     },
     {
-      "weight": 1,
-      "id": "Thaumcraft:ItemSwordThaumium",
-      "damage": 0,
+      "weight": 5,
+      "id": "Thaumcraft:ItemEldritchObject",
+      "damage": 1,
       "min": 1,
       "max": 1
     },
     {
-      "weight": 1,
-      "id": "Thaumcraft:ItemPickThaumium",
-      "damage": 0,
-      "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
-      "id": "Thaumcraft:ItemAxeThaumium",
-      "damage": 0,
-      "min": 1,
-      "max": 1
-    },
-    {
-      "weight": 1,
-      "id": "Thaumcraft:ItemHoeThaumium",
-      "damage": 0,
+      "weight": 5,
+      "id": "ThaumicConcilium:ItemResource",
+      "damage": 3,
       "min": 1,
       "max": 1
     },
@@ -272,13 +223,6 @@
       "damage": 1,
       "min": 1,
       "max": 1
-    },
-    {
-      "weight": 3,
-      "id": "Automagy:phialExtra",
-      "damage": 0,
-      "min": 1,
-      "max": 3
     }
   ]
 }
