@@ -1,10 +1,10 @@
 {
   "_name": "ThaumicConcilium:cultist_tower",
-  "min": 2,
-  "max": 8,
+  "min": 1,
+  "max": 10,
   "loot": [
     {
-      "weight": 6,
+      "weight": 1,
       "id": "Thaumcraft:ItemEldritchObject",
       "damage": 1,
       "min": 1,
@@ -16,13 +16,6 @@
       "damage": 9,
       "min": 1,
       "max": 3
-    },
-    {
-      "weight": 20,
-      "id": "Thaumcraft:ItemResource",
-      "damage": 18,
-      "min": 10,
-      "max": 20
     },
     {
       "weight": 2,

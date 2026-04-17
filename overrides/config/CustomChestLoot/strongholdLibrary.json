@@ -32,13 +32,6 @@
       "max": 1
     },
     {
-      "weight": 30,
-      "id": "minecraft:enchanted_book",
-      "damage": 0,
-      "min": 10,
-      "max": 20
-    },
-    {
       "weight": 8,
       "id": "TravellersGear:simpleGear",
       "damage": 6,
@@ -242,6 +235,76 @@
       "weight": 1,
       "id": "Automagy:baubleEnderDisjunction",
       "damage": 1,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
+      "min": 1,
+      "max": 1
+    },
+    {
+      "weight": 30,
+      "id": "minecraft:enchanted_book",
+      "damage": 0,
       "min": 1,
       "max": 1
     }
