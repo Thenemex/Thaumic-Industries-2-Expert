@@ -1,6 +1,6 @@
 {
   "_name": "strongholdLibrary",
-  "min": 1,
+  "min": 5,
   "max": 15,
   "loot": [
     {
