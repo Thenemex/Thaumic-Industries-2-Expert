@@ -7,21 +7,7 @@
 -
 
 ## Server pack :
-- Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
-- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
-
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-
-    2.7.3
-# Small Food update
-
-##
--
-
-## Server pack :
-- Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
 - A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
 
 
@@ -29,13 +15,45 @@
 
 
     2.7.2.4
-#
+# Loot Tables & Arm Wear patch
 
-## Gameplay modifications :
+## Mods added :
+- Custom Chest Loot
+
+# Mods updated
+- Armored Arms
+
+## Bugs patched :
+- Arm wear doesn't disappear anymore when a "sleeve-less" armor is equiped
+- Pontifex Robes now works properly with Armored Arms mod
+
+## Expert changes :
 - Disabled /home & related commands
+- Changed items from chest loot tables :
+  - Bonus Chest : 
+    - Removed Apple, Bread, Wood Logs/Planks, Wooden & Stone Pickaxe/Axe, Botania Lexicon, Black lotus
+    - Added Dirt, Sand, Sign, Dandelion, Poppy, Grass, Dead Bush, Rotten Flesh, Poisonous Potato
+  - Dungeon :
+    - Removed Bread, Iron/Thaumium/Manasteel, Bucket, Thaumium Tools, Thaumonomicon/Botania Lexicon, Phial of Enchanter, BM Catalysts & Binding Agent, Temple Caller
+  - Mineshaft Corridor :
+    - Removed Bread, Iron/Gold/Thaumium, Iron Pickaxe, Thaumium Tools, Thaumonomicon, Phial of Enchanter, Temple Caller
+  - Desert & Jungle Temple :
+    - Removed Iron/Gold/Thaumium, Thaumium Tools, Thaumonomicon, Phial of Enchanter, Temple Caller
+  - Jungle Temple Dispenser :
+    - Added Primal Arrows
+  - Stronghold Corridor & Crossing :
+    - Removed Iron/Gold/Thaumium, Iron Pickaxe, Thaumium Tools, Thaumonomicon, Phial of Enchanter, Temple Caller
+  - Stronghold Library :
+    - Removed Thaumium, Thaumium Tools, Phial of Enchanter, Temple Caller 
+    - Added Crimson Rites, Crimson Annales, and a lot more Enchanted Books & Knowledge Fragments
+  - Crimson Cultist Tower :
+    - Removed Voidmetal Nugget, Triple Meat Treat
+    - Added Primal Arrows, Ring of Protection
+  - Village Blacksmith :
+    - Removed Apple, Bread, Iron/Gold/Thaumium, Iron Pickaxe, Phial of Enchanter, Temple Caller
 
 ## Server pack :
-- Available via renting at https://www.wabbanode.com/affiliate/thaumic2expert
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
 - A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
 
 
@@ -113,7 +131,7 @@ WARNINGS :
 ## Mods removed :
 - Fastcraft, IncreaseMobs, IncreaseWitherSpawn, Witching Gagdets
 
-## Bugs patched
+## Bugs patched :
 - Golem equiped with Dart launchers are now able to hit players
 - Patched a bug with some Crucible recipes not showing when looking for usages - Some rare unoptimized recipes might not show as well
 - Prevented the duplication of a single item dropped in multiple crucibles at once
