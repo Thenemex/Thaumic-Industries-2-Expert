@@ -14,6 +14,28 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    2.7.2.5
+# Light Level & Gadomancy patch
+
+## Mods added :
+- Better Foliage - Legacy Edition, Forgelin: Legacy, Gadomancy GTNH, Light Level Overlay Reloaded
+
+## Mods deleted :
+- Better Foliage, Gadomancy
+
+## Bugs Patched :
+- The light level overlay is now working again (F7 Keybind)
+- Deleted mobs from Thaumic Concilium in the Twilight Forest
+- Patched some bugs related to Gadomancy
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     2.7.2.4
 # Loot Tables & Arm Wear patch
 
@@ -51,7 +73,7 @@
     - Added Primal Arrows, Ring of Protection
   - Village Blacksmith :
     - Removed Apple, Bread, Iron/Gold/Thaumium, Iron Pickaxe, Phial of Enchanter, Temple Caller
-
+  
 ## Server pack :
 - Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
 - A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
