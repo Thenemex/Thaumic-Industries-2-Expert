@@ -1,0 +1,18 @@
+
++ Angelica                  2.1.4
++ ArchaicFix                0.7.9       LATEST
++ CodeChickenCore GTNH      1.4.10
++ CodeChickenLib GTNH       1.3.0       LATEST
++ GTNHLib                   0.9.35
++ Hodgepodge                2.7.85
++ lwjgl3ify                 3.0.14
++ NotEnoughIDs GTNH         2.1.10      LATEST
+
+
+- NotEnoughIDs              1.4.3.4
+- Client Dynamic Light      2.0
+- FoamFix                   1.0.4
+- BetterFPS                 1.0.1
+- FW Borderless             1.3.0b
+- TickDynamic               0.1.5
+- CodeChickenCore + Lib
