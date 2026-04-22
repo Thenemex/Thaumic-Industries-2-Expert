@@ -9,6 +9,9 @@ REM     Git -> Java 25 Edition (Config + Local + Scripts)
 @robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\local" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\local" /MIR
 @robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\scripts" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\scripts" /MIR
 
+REM     Instance : Delete unused icon
+@del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries 2 - Expert\config\itlt\icon2.png"
+
 REM     Instance -> Java 25 Edition (Mods)
 @robocopy "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries 2 - Expert\mods" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods" /MIR
 
@@ -28,8 +31,15 @@ REM     Java 25 Edition : Add GTNH Mods
 REM     Java 25 Edition : Write additional info for Custom Main Menu
 @robocopy "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\CustomMainMenu" "D:\Thaumic-Industries\temp" /MIR
 @PowerShell "(GC D:\Thaumic-Industries\temp\mainmenu.json)|%%{$_ -Replace '\", \"posX\" : 2',' - Java 25 Edition\", \"posX\" : 2'}|SC D:\Thaumic-Industries\temp\mainmenu.json"
-@robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\CustomMainMenu" /MIR
-@del /Q "D:\Thaumic-Industries\temp\mainmenu.json"
+@robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\CustomMainMenu" /MIR /MOV
 
 REM     Java 25 Edition : Edit window main title for ITLT
+@xcopy /Y "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\itlt.cfg" "D:\Thaumic-Industries\temp"
+@PowerShell "(GC D:\Thaumic-Industries\temp\itlt.cfg)|%%{$_ -Replace 'Thaumic Industries','Thaumic Industries - Java 25 Edition'}|SC D:\Thaumic-Industries\temp\itlt.cfg"
+@robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config" /MOV
 
+REM     Java 25 Edition : Rename & delete unused icon
+@del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\itlt\icon.png"
+@robocopy "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\itlt" "D:\Thaumic-Industries\temp" /MIR /MOV
+@ren "D:\Thaumic-Industries\temp\icon2.png" "icon.png"
+@robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\itlt" /MIR /MOV
