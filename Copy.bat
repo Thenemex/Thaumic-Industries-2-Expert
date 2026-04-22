@@ -43,3 +43,8 @@ REM     Java 25 Edition : Rename & delete unused icon
 @robocopy "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\itlt" "D:\Thaumic-Industries\temp" /MIR /MOV
 @ren "D:\Thaumic-Industries\temp\icon2.png" "icon.png"
 @robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\itlt" /MIR /MOV
+
+REM     Java 25 Edition : Edit ClientID for Discord Rich Presence
+@xcopy /Y "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\craftpresence.json" "D:\Thaumic-Industries\temp"
+@PowerShell "(GC D:\Thaumic-Industries\temp\craftpresence.json)|%%{$_ -Replace '829696570161234000','1496625271032254665'}|SC D:\Thaumic-Industries\temp\craftpresence.json"
+@robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config" /MOV
