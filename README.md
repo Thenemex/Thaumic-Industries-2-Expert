@@ -27,4 +27,6 @@ Also thanks to the online players who shared opinions & report issues online abo
 To finish, thanks too to close friends that had bring their help to the project :
 - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
 
-Special mention to temakisushi aka awesome_hippo, who made useful mods for the pack.
+Special thanks to Ekanel8 ; without him the Java 25 Edition would still only be a draft on the table ! <3
+
+Special mention to Temakisushi/Awesome_Hippo, who made useful mods for the pack and learned me how to make mods !
