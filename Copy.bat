@@ -48,3 +48,6 @@ REM     Java 25 Edition : Edit ClientID for Discord Rich Presence
 @xcopy /Y "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\craftpresence.json" "D:\Thaumic-Industries\temp"
 @PowerShell "(GC D:\Thaumic-Industries\temp\craftpresence.json)|%%{$_ -Replace '829696570161234000','1496625271032254665'}|SC D:\Thaumic-Industries\temp\craftpresence.json"
 @robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config" /MOV
+
+REM     Java 25 Edition : Copy text file needed for server launch
+@xcopy /Y "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\info\java25_edition\java9args.txt" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition"
