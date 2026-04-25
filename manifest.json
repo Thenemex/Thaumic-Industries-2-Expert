@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Thaumic Industries",
-  "version": "2.7.2.6",
+  "version": "2.7.2.6.1",
   "author": "",
   "files": [
     {
@@ -347,7 +347,7 @@
     },
     {
       "projectID": 227914,
-      "fileID": 7970407,
+      "fileID": 7883184,
       "required": true,
       "isLocked": false
     },
