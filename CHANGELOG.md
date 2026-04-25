@@ -14,6 +14,36 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    2.7.2.6
+# Mapping update
+
+## Mods added :
+- Antique Atlas
+
+## Mods removed :
+- JourneyMap
+
+## Mods updated :
+- Thaumic Horizons, Unimixins
+
+## Bugs patched :
+- Vortex creation doesn't create a memory leak anymore
+
+## Expert changes :
+- Disabled /home & related commands
+- Replaced JourneyMap with Antique Atlas
+
+## UI Changes :
+- Renamed the window title to fit the recent modpack change of name
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     2.7.2.5
 # Light Level & Gadomancy patch
 
