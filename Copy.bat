@@ -19,6 +19,7 @@ REM     Java 25 Edition : Delete Mods
 @rmdir /S /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\1.7.10"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\CodeChickenCore-1.7.10-1.0.7.48-universal.jar"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\[1.7.10] Client Dynamic Light-2.0.jar"
+@del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\AppleCore-mc1.7.10-3.1.1.jar"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\BetterFps-1.0.1.jar"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\FoamFix-1.7.10-universal-1.0.4.jar"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\FullscreenWindowed-1.7.10-1.3.0b.jar"
