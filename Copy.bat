@@ -31,7 +31,7 @@ REM     Java 25 Edition : Add GTNH Mods
 
 REM     Java 25 Edition : Write additional info for Custom Main Menu
 @robocopy "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\CustomMainMenu" "D:\Thaumic-Industries\temp" /MIR
-@PowerShell "(GC D:\Thaumic-Industries\temp\mainmenu.json)|%%{$_ -Replace '\", \"posX\" : 2','-1 - Java 25 Edition\", \"posX\" : 2'}|SC D:\Thaumic-Industries\temp\mainmenu.json"
+@PowerShell "(GC D:\Thaumic-Industries\temp\mainmenu.json)|%%{$_ -Replace '\", \"posX\" : 2','-2 - Java 25 Edition\", \"posX\" : 2'}|SC D:\Thaumic-Industries\temp\mainmenu.json"
 @robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\CustomMainMenu" /MIR /MOV
 
 REM     Java 25 Edition : Edit window main title for ITLT
