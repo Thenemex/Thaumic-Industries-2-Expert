@@ -14,11 +14,13 @@ Vanilla:
 
 Thaumcraft:
 -------------------------------
-178:4   Ethereal Bloom
-183:*   Crystal Cluster(s)
-190     Hungry Chest
-192     Arcane Levitator
-195:*   Warded Jar(s)
+181:0   Greatwood Sapling
+181:1   Silverwood Sapling
+181:4   Ethereal Bloom
+186:*   Crystal Cluster(s)
+193     Hungry Chest
+195     Arcane Levitator
+198:*   Warded Jar(s)
 
 
 
@@ -26,6 +28,10 @@ Lists of Blocks that CAN'T be griefed by mobs (Blacklist) :
 
 Thaumic Horizons:
 -------------------------------
+181:2   Shimmerleaf
+181:3   Cinderpearl
+181:5   Vishroom
+186:7   Strange Crystals
 1105    Curative Vat (Glass)
 1106    Curative Vat (Wood)
 1107    Curative Vat (Interior)
