@@ -14,6 +14,35 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    2.7.2.7
+#
+
+## Mods updated :
+- Armored Arms, Gadomancy GTNH, TC4Patched - UPDATE GTNH + TC4
+
+## Bugs patched
+- Removed Concilium mobs from spawning in the Eldritch dim
+- Patched the issue when you cannot join the server because of some odd error with setParentsHidden(...)
+
+## Gameplay modifications :
+- Light Level Overlay now only shows the dark areas (F4 keybind)
+- Set aspects for :
+  - Antique Atlas, Dense Ores
+
+## Expert changes :
+- Rebalanced aspects in Netherrack
+- Removed recipe for Dirt Chest 9002 [NOVA]
+- Mobs now can't gried Native TC4 Flowers and Strange Crystals
+
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     2.7.2.6.1
 # Server patch
 
