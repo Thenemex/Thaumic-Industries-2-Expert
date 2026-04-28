@@ -153,7 +153,7 @@ recipes.remove(<minecraft:paper>);
 recipes.addShapeless(<minecraft:paper> * 3,
                      [<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]);
 
-# Wood slab bug with oreDict :
+# Wood slab bug with oreDict : // ToDo patch this with modding + add reverse recipe
 // Added the three lines on the crafting table
 recipes.remove(<minecraft:wooden_slab:0>);
 recipes.addShaped(<minecraft:wooden_slab:0> * 6,
@@ -191,8 +191,10 @@ for i, el_armor in armorArray {
     el_armor.addTooltip(format.green("Low durability, find a magical way instead !")); }
     
 # Aspects
-// Removing the Praecantatio in the Sculpted Sandstone
+// Removing Praecantatio in the Sculpted Sandstone
 mods.thaumcraft.Aspects.set(<minecraft:sandstone:1>, "perditio 3, terra 3");
+// Removing Infernus in Netherrack
+mods.thaumcraft.Aspects.set(<minecraft:netherrack>, "terra 2, ignis 1");
 // Stained Glass Pane
 for i, el_glassPane in stainedGlassPaneArray {
     mods.thaumcraft.Aspects.set(el_glassPane, "vitreus 1"); }
