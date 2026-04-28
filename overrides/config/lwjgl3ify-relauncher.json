@@ -1,0 +1,20 @@
+{
+  "javaInstallationsCache": [
+    "C:\\Users\\TNMX7\\Documents\\jdk-25.0.2\\bin\\javaw.exe"
+  ],
+  "javaInstallation": 0,
+  "minMemoryMB": 512,
+  "maxMemoryMB": 8448,
+  "garbageCollector": "G1GC",
+  "customOptions": [],
+  "hideSettingsOnLaunch": false,
+  "forwardLogs": false,
+  "allowDebugger": false,
+  "waitForDebugger": false,
+  "mixinDebug": false,
+  "mixinDebugExport": false,
+  "mixinDebugCount": false,
+  "fmlDebugAts": false,
+  "rfbDumpClasses": false,
+  "rfbDumpPerTransformer": false
+}
