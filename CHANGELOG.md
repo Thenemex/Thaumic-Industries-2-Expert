@@ -15,10 +15,10 @@
 
 
     2.7.2.7
-#
+# Bug patch : Maze, Light Level and Aspects
 
 ## Mods updated :
-- Armored Arms, Gadomancy GTNH, TC4Patched - UPDATE GTNH + TC4
+- Armored Arms, Gadomancy GTNH, TC4Patched
 
 ## Bugs patched
 - Removed Concilium mobs from spawning in the Eldritch dim
@@ -33,7 +33,6 @@
 - Rebalanced aspects in Netherrack
 - Removed recipe for Dirt Chest 9002 [NOVA]
 - Mobs now can't gried Native TC4 Flowers and Strange Crystals
-
 
 ## Server pack :
 - Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
