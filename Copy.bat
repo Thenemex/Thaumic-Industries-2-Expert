@@ -24,6 +24,7 @@ REM     Java 25 Edition : Delete Mods
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\BetterFps-1.0.1.jar"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\FoamFix-1.7.10-universal-1.0.4.jar"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\FullscreenWindowed-1.7.10-1.3.0b.jar"
+@del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\gadomancy-1.7.10-1.0.7.3.jar"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\NotEnoughIDs-1.4.3.4.jar"
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\mods\TickDynamic-1.7.10-0.1.5.jar"
 
