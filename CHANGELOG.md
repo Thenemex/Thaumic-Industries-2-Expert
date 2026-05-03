@@ -14,6 +14,26 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    2.7.2.7.1
+# Ticking Node patch
+
+## Mods added :
+- Gadomancy
+
+## Mods deleted :
+- Gadomancy GTNH
+
+## Bugs patched :
+- The game doesn't crash because of ticking TileEntity Node upon re-entering a world
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     2.7.2.7
 # Bug patch : Maze, Light Level and Aspects
 
