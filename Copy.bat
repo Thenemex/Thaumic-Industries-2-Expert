@@ -10,6 +10,12 @@ REM     Git -> Java 25 Edition (Config + Local + Scripts)
 @robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\local" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\local" /MIR
 @robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\scripts" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\scripts" /MIR
 
+REM     Instance : Turn on SA patch for node regen rate ONLY for Java 25 Edition
+@xcopy /Y "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\salisarcana\bugfixes.cfg" "D:\Thaumic-Industries\temp"
+@PowerShell "(GC D:\Thaumic-Industries\temp\bugfixes.cfg)|%%{$_ -Replace 'B:nodesRechargeInGameTime=false','B:nodesRechargeInGameTime=true'}|SC D:\Thaumic-Industries\temp\bugfixes.cfg"
+@PowerShell "(GC D:\Thaumic-Industries\temp\bugfixes.cfg)|%%{$_ -Replace 'B:nodesRememberBeingDrained=false','B:nodesRememberBeingDrained=true'}|SC D:\Thaumic-Industries\temp\bugfixes.cfg"
+@robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\salisarcana" /MOV
+
 REM     Instance : Delete unused icon
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries 2 - Expert\config\itlt\icon2.png"
 
