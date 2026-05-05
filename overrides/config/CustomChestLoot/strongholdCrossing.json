@@ -39,13 +39,6 @@
       "max": 1
     },
     {
-      "keep": "chylex.hee.world.loot.WeightedRandomKnowledgeNote",
-      "id": "HardcoreEnderExpansion:knowledge_note",
-      "damage": 0,
-      "nbt": false,
-      "count": 1
-    },
-    {
       "weight": 4,
       "id": "Thaumcraft:ItemLootBag",
       "damage": 0,
