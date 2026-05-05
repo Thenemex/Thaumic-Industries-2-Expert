@@ -14,6 +14,35 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.0
+# Java 25 Major Update
+
+## Mods added :
+- Angelica, AppleCore GTNH, ArchaicFix, CodeChickenCore GTNH, CodeChickenLib GTNH, Gadomancy GTNH, GTNHLib, Hodgepodge, lwjgl3ify, NotEnoughIDs GTNH
+
+## Mods removed :
+- Hardcore Ender Expansion
+- Client Dynamic Light, CodeChickenCore, CodeChickenLib, AppleCore, BetterFPS, FoamFix, FW Borderless, Gadomancy, NotEnoughIDs, TickDynamic
+
+## Gameplay modifications :
+- Greatly improved global performance (FPS, TPS, Chunk-loading)
+- Added compatibility with shaders (unsupported - disable BetterFoliage in F8 menu)
+- Removed Modded End dimension generation -> You likely want to delete DIM1 folder for generating it again without modded blocks
+
+## Bugs patched :
+- Removed Concilium mobs from spawning in The End dim
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     2.7.2.7.2
 # Ticking Node patch (again !)
 
