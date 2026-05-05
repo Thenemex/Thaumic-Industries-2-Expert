@@ -4,6 +4,7 @@
 + ArchaicFix                0.7.9       LATEST
 + CodeChickenCore GTNH      1.4.10
 + CodeChickenLib GTNH       1.3.0       LATEST
++ Gadomancy GTNH            1.5.10      LATEST
 + GTNHLib                   0.9.35
 + Hodgepodge                2.7.85
 + lwjgl3ify                 3.0.14
@@ -15,5 +16,6 @@
 - BetterFPS                 1.0.1
 - FoamFix                   1.0.4
 - FW Borderless             1.3.0b
+- Gadomancy                 1.0.7.3
 - NotEnoughIDs              1.4.3.4
 - TickDynamic               0.1.5
