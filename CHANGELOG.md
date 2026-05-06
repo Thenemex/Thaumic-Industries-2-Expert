@@ -1,10 +1,13 @@
 
 
-    3.0.0.1
+    3.0.0.
 #
 
 ##
 -
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
 
 ## Server pack :
 - Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
@@ -20,6 +23,12 @@
 ## Bugs patched :
 - Nether Quartz used to crash the game when harvested
 - Dense Nether Quartz used to not drop anything when harvested
+
+# Expert Changes :
+- Removed Burned Witch [Concilium] from spawning in the Nether
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
 
 ## Server pack :
 - Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
