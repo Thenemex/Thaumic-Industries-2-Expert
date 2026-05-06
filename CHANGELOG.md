@@ -1,6 +1,6 @@
 
 
-    2.7.2.x
+    3.0.0.1
 #
 
 ##
@@ -14,8 +14,23 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.0.0.1
+# Nether crashes patch
+
+## Bugs patched :
+- Nether Quartz used to crash the game when harvested
+- Dense Nether Quartz used to not drop anything when harvested
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     3.0
-# Java 25 Major Update
+# Java 25 - Major Update !
 
 ## Mods added :
 - Angelica, AppleCore GTNH, ArchaicFix, CodeChickenCore GTNH, CodeChickenLib GTNH, Gadomancy GTNH, GTNHLib, Hodgepodge, lwjgl3ify, NotEnoughIDs GTNH
