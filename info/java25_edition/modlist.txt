@@ -1,6 +1,6 @@
 
-+ Angelica                  2.1.4
-+ AppleCore GTNH            3.3.9       LATEST
++ Angelica                  2.1.21      LATEST
++ AppleCore GTNH            3.3.9
 + ArchaicFix                0.7.9       LATEST
 + CodeChickenCore GTNH      1.4.10
 + CodeChickenLib GTNH       1.3.0       LATEST
@@ -8,7 +8,7 @@
 + GTNHLib                   0.9.35
 + Hodgepodge                2.7.85
 + lwjgl3ify                 3.0.14
-+ NotEnoughIDs GTNH         2.1.10      LATEST
++ NotEnoughIDs GTNH         2.1.10
 
 - CodeChickenCore + Lib
 - Client Dynamic Light      2.0
