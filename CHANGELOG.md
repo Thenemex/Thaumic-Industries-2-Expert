@@ -17,6 +17,26 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.0.0.2
+# Terrain Flicker patch
+
+## Mods updated :
+- Angelica, Armored Arms, FalsePatternLib, Thaumic Horizons
+
+## Bugs patched :
+- Terrain doesn't flicker quickly anymore on some rare computers
+- Fixed some memory leaks related to Planar Vortex [TH]
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
     3.0.0.1
 # Nether crashes patch
 
@@ -24,7 +44,7 @@
 - Nether Quartz used to crash the game when harvested
 - Dense Nether Quartz used to not drop anything when harvested
 
-# Expert Changes :
+## Expert Changes :
 - Removed Burned Witch [Concilium] from spawning in the Nether
 
 ## Installation instructions :

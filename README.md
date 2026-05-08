@@ -22,7 +22,7 @@ Huge thanks to both active and retired members of the Testing team, sharing thei
 Lovely hugs to haunted (and Bubila) who made online video content about the modpack !
 
 Also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
-- A Random Spirit, Aythem, Big Johnson, buchi0, CloudyOrangeFox, delanius, demycat, goofy_fermat5688369, hron84, Lomikk, neverwindy, Reykjavik, vision_cool, Tenebry, wh1te
+- A Random Spirit, Aythem, Big Johnson, buchi0, CloudyOrangeFox, Dead The Fallow, delanius, demycat, goofy_fermat5688369, hron84, Lomikk, neverwindy, Reykjavik, vision_cool, Tenebry, wh1te
 
 To finish, thanks too to close friends that had bring their help to the project :
 - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
