@@ -17,6 +17,29 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.0.0.3
+# Nether crashes patch (again !)
+
+## Mods updated :
+- Gadomancy GTNH, NemexLib
+
+## Bugs patched :
+- Patched two memory leaks related to Planar Vortexs [TH]
+
+## Expert Changes :
+- Removed Burned Witch [Concilium] from spawning in the Nether
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     3.0.0.2
 # Terrain Flicker patch
 
