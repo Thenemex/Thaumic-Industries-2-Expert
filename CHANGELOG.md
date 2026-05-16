@@ -17,6 +17,26 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.0.0.4
+# Commands update
+
+## Mods updated :
+- NemexLib, Thaumic Horizons
+
+## Gameplay modifications :
+- Added a few utility commands, allowing you to spoil yourself on research triggers or parents
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     3.0.0.3.1
 # Duplicate Baubles patch
 
