@@ -1,6 +1,20 @@
 {
+  "_comment": "Khendrel Knights will now drop dirt ",
   "_name": "enderzoo.DireSlime",
-  "drops": [],
+  "drops": [
+    {
+      "function": "all",
+      "functions": [
+        {
+          "function": "default",
+          "value": true
+        }, {
+          "function": "add",
+          "id": "dirt"
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": []
 }
