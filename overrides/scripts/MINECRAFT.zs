@@ -195,6 +195,8 @@ for i, el_armor in armorArray {
 mods.thaumcraft.Aspects.set(<minecraft:sandstone:1>, "perditio 3, terra 3");
 // Removing Infernus in Netherrack
 mods.thaumcraft.Aspects.set(<minecraft:netherrack>, "terra 2, ignis 1");
+mods.thaumcraft.Aspects.set(<minecraft:netherbrick>, "terra 1, ignis 2");
+mods.thaumcraft.Aspects.set(<minecraft:nether_brick>, "terra 3, ignis 5");
 // Stained Glass Pane
 for i, el_glassPane in stainedGlassPaneArray {
     mods.thaumcraft.Aspects.set(el_glassPane, "vitreus 1"); }

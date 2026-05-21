@@ -38,3 +38,6 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:blockCosmeticSlabStone:1>, "terra 1"); /
 
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemNugget:7>, "metallum 1"); // Voidmetal Nugget
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemManaBean:0>, "fames 1"); // Mana Bean
+
+// Multiblocks
+mods.thaumcraft.Aspects.set(<Thaumcraft:blockArcaneFurnace>, "terra 8, ignis 8, tenebrae 5, infernus 5"); // Infernal Furnace
