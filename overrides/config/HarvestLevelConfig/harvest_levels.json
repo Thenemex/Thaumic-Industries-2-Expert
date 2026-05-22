@@ -150,6 +150,12 @@
             "tools": {
                 "pickaxe": 2
             }
+        }, {
+            "name": "Thaumcraft:blockChestHungry",
+            "metadata": -1,
+            "tools": {
+                "axe": 1
+            }
         },
 
 

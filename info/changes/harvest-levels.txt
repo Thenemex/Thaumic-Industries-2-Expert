@@ -25,11 +25,11 @@ Vanilla:
 
 Thaumcraft:
 -------------------------------
-176     Greatwood                   Axe         Iron
-176     Silverwood                  Axe         Iron
+176     Greatwood/Silverwood        Axe         Iron
 185:0   Crucible                    Pickaxe     Iron
 185:1   Arcane Alembic              Pickaxe     Iron
 189:X   Tables                      Axe         Stone
+190     Hungry Chest                Axe         Stone
 
 Iron Chests:
 -------------------------------
