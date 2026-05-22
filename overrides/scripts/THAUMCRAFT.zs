@@ -39,5 +39,12 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:blockCosmeticSlabStone:1>, "terra 1"); /
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemNugget:7>, "metallum 1"); // Voidmetal Nugget
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemManaBean:0>, "fames 1"); // Mana Bean
 
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:3>, "praecantatio 3, metallum 2, aer 4"); // Apprentices Ring of Aer
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:4>, "praecantatio 3, metallum 2, terra 4"); // Apprentices Ring of Terra
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:5>, "praecantatio 3, metallum 2, ignis 4"); // Apprentices Ring of Ignis
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:6>, "praecantatio 3, metallum 2, aqua 4"); // Apprentices Ring of Aqua
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:7>, "praecantatio 3, metallum 2, ordo 4"); // Apprentices Ring of Ordo
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:8>, "praecantatio 3, metallum 2, perditio 4"); // Apprentices Ring of Perditio
+
 // Multiblocks
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockArcaneFurnace>, "terra 8, ignis 8, tenebrae 5, infernus 5"); // Infernal Furnace
