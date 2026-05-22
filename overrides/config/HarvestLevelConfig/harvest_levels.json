@@ -36,6 +36,13 @@
             }
         },
         {
+            "name": "minecraft:soul_sand",
+            "metadata": -1,
+            "tools": {
+                "shovel": 3
+            }
+        },
+        {
             "name": "minecraft:glowstone",
             "metadata": -1,
             "tools": {
