@@ -1,90 +1,120 @@
 {
     "blocks":[
         {
+            "name": "minecraft:grass",
+            "metadata": -1,
+            "tools": {
+                "shovel": 1
+            }
+        }, {
+            "name": "minecraft:dirt",
+            "metadata": 0,
+            "tools": {
+                "shovel": 1
+            }
+        }, {
+            "name": "minecraft:dirt",
+            "metadata": 2,
+            "tools": {
+                "shovel": 1
+            }
+        }, {
+            "name": "minecraft:sand",
+            "metadata": 0,
+            "tools": {
+                "shovel": 1
+            }
+        }, {
+            "name": "minecraft:sand",
+            "metadata": 1,
+            "tools": {
+                "shovel": 1
+            }
+        }, {
+            "name": "minecraft:gravel",
+            "metadata": 0,
+            "tools": {
+                "shovel": 1
+            }
+        }, {
             "name": "minecraft:chest",
             "metadata": -1,
             "tools": {
                 "axe": 1
             }
-        },
-        {
+        }, {
             "name": "minecraft:diamond_ore",
             "metadata": -1,
             "tools": {
                 "pickaxe": 3
             }
-        },
-        {
+        }, {
             "name": "minecraft:crafting_table",
             "metadata": -1,
             "tools": {
                 "axe": 1
             }
-        },
-        {
+        }, {
             "name": "minecraft:furnace",
             "metadata": -1,
             "tools": {
                 "pickaxe": 2
             }
-        },
-        {
+        }, {
             "name": "minecraft:lit_furnace",
             "metadata": -1,
             "tools": {
                 "pickaxe": 2
             }
-        },
-        {
+        }, {
             "name": "minecraft:soul_sand",
             "metadata": -1,
             "tools": {
                 "shovel": 3
             }
-        },
-        {
+        }, {
             "name": "minecraft:glowstone",
             "metadata": -1,
             "tools": {
                 "pickaxe": 3
             }
-        },
-        {
+        }, {
+            "name": "minecraft:mycelium",
+            "metadata": 0,
+            "tools": {
+                "shovel": 1
+            }
+        }, {
             "name": "minecraft:enchanting_table",
             "metadata": -1,
             "tools": {
                 "pickaxe": 3
             }
-        },
-        {
+        }, {
             "name": "minecraft:emerald_ore",
             "metadata": -1,
             "tools": {
                 "pickaxe": 3
             }
-        },
-        {
+        }, {
             "name": "minecraft:ender_chest",
             "metadata": -1,
             "tools": {
                 "pickaxe": 3
             }
-        },
-        {
+        }, {
             "name": "minecraft:trapped_chest",
             "metadata": -1,
             "tools": {
                 "axe": 1
             }
-        },
-        {
+        }, {
             "name": "minecraft:quartz_ore",
             "metadata": -1,
             "tools": {
                 "pickaxe": 2
             }
-        },
-        {
+        }, {
             "name": "minecraft:cauldron",
             "metadata": -1,
             "tools": {
@@ -102,22 +132,19 @@
             "tools": {
                 "axe": 2
             }
-        },
-        {
+        }, {
             "name": "Thaumcraft:blockTable",
             "metadata": -1,
             "tools": {
                 "axe": 1
             }
-        },
-        {
+        }, {
             "name": "Thaumcraft:blockMetalDevice",
             "metadata": 0,
             "tools": {
                 "pickaxe": 2
             }
-        },
-        {
+        }, {
             "name": "Thaumcraft:blockMetalDevice",
             "metadata": 1,
             "tools": {
@@ -146,8 +173,7 @@
             "tools": {
                 "pickaxe": 3
             }
-        },
-        {
+        }, {
             "name": "NetherOres:tile.netherores.ore.1",
             "metadata": -1,
             "tools": {

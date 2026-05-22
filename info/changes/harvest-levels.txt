@@ -2,6 +2,12 @@ Lists of Blocks that have a customized expert harvest level :
 
 Vanilla:
 -------------------------------
+2       Grass                       Shovel      Stone
+3       Dirt                        Shovel      Stone
+3:2     Podzol                      Shovel      Stone
+12      Sand                        Shovel      Stone
+12:1    Red Sand                    Shovel      Stone
+13      Gravel                      Shovel      Stone
 54      Chest                       Axe         Stone
 56      Diamond Ore                 Pickaxe     Diamond
 58      Crafting Table              Axe         Stone
@@ -9,6 +15,7 @@ Vanilla:
 62      Lit Furnace                 Pickaxe     Iron
 88      Soul Sand                   Shovel      Diamond
 89      Glowstone                   Pickaxe     Diamond
+110     Mycelium                    Shovel      Stone
 116     Enchanting Table            Pickaxe     Diamond
 129     Emerald Ore                 Pickaxe     Diamond
 130     Ender Chest                 Pickaxe     Diamond
