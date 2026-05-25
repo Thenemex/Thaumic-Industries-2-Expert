@@ -26,14 +26,14 @@
 ## Mods updated :
 - ArchaicFix, NemexLib, TCI2:Core, Thaumic Horizons
 
-# Bugs patched :
+## Bugs patched :
 - Golem won't duplicate anymore upon dying in rare cases
 
-# Gameplay modifications :
+## Gameplay modifications :
 - Set aspects for Infernal Furnace
 - Set aspects for all 6 Apprentice Rings
 
-# Expert changes :
+## Expert changes :
 - Animals now spawn less frequently
 - Set mining level for Soul Sand to Diamond Shovel
 - Set mining level for Dirt/Sand/Gravel to Stone Shovel
