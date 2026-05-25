@@ -17,6 +17,43 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.0.1
+# Expert & QoL overhaul update
+
+## Mods removed :
+- FTB Library, FTB Utilities, NotEnoughResources
+
+## Mods updated :
+- ArchaicFix, NemexLib, TCI2:Core, Thaumic Horizons
+
+# Bugs patched :
+- Golem won't duplicate anymore upon dying in rare cases
+
+# Gameplay modifications :
+- Set aspects for Infernal Furnace
+- Set aspects for all 6 Apprentice Rings
+
+# Expert changes :
+- Animals now spawn less frequently
+- Set mining level for Soul Sand to Diamond Shovel
+- Set mining level for Dirt/Sand/Gravel to Stone Shovel
+- Set mining level for Hungry Chest to Stone Axe
+- Khndrel Keght will now drop Dirt when killed
+- Teleposer now cannot move Mob spawners & Aura nodes
+- Replaced the additionnal recipe for Stone Furnace with an Arcane Recipe
+- Balanced aspects for Nether Brick
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     3.0.0.5
 # Node Dynamic Reach crash
 
