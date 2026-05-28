@@ -1,4 +1,5 @@
 {
+  "_comment": "Creeper have a 1% chance of spawning charged",
   "_name": "Creeper",
   "drops": [],
   "pre_stats": [],
