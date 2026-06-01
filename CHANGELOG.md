@@ -1,10 +1,34 @@
 
 
-    3.0.0.
+    3.0.1.
 #
 
 ##
 -
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+    3.0.1.1
+# Khndrel & Enderman patch
+
+## Mods updated :
+- FalsePatternLib, Thaumic Horizons, UniMixins
+
+## Bugs patched :
+- Endermans used to not spawn at all
+
+## Expert changes :
+- Monsters now wear armor a bit more frequently
+- Khendrel now have 100% chance of spawning
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
