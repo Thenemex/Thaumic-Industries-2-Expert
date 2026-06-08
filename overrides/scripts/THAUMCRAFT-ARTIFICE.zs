@@ -291,7 +291,7 @@ mods.thaumcraft.Research.addPrereq("ELEMENTALAXE", "ROD_greatwood_staff", true);
 
 // Sword of the Zephyr
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:ItemSwordElemental>);
-mods.thaumcraft.Infusion.addRecipe("ELEMENTALAXE",
+mods.thaumcraft.Infusion.addRecipe("ELEMENTALSWORD",
 /* Input                        */ <Thaumcraft:ItemSwordThaumium:32767>,    // Thaumium Axe
 /* Ingredients                  */ [<minecraft:potion:16418>,         // Splash Potion of Speed II
                                     <Thaumcraft:ItemResource:2>,      // Thaumium Ingot
