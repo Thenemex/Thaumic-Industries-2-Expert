@@ -3,5 +3,22 @@
   "_name": "Creeper",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [
+    {
+      "count": 0.01,
+      "function": "all",
+      "functions" : [
+        {
+          "function": "nbt",
+          "tags": [
+            {
+              "function": "boolean",
+              "name": "powered",
+              "value": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
