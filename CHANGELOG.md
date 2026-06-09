@@ -17,6 +17,32 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.0.1.2
+# Creepers & Zephyr Sword patch
+
+## Mods updated :
+- Armored Arms, FalsePatternLib, Gadomancy GTNH
+
+## Bugs Patched :
+- The Zephyr Sword recipe used to be linked to the Axe of the Stream research
+
+## Expert changes :
+- Creepers now have a 1% chance of spawning charged
+
+## Gameplay modifications :
+- Merged redundant ethereal familiar recipes
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     3.0.1.1
 # Khndrel & Enderman patch
 
