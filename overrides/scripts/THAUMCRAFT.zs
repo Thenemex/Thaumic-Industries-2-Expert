@@ -48,3 +48,4 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:8>, "praecantatio 3, me
 
 // Multiblocks
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockArcaneFurnace>, "terra 8, ignis 8, tenebrae 5, infernus 5"); // Infernal Furnace
+mods.thaumcraft.Aspects.set(<Thaumcraft:blockStoneDevice:7>, "aer 3, ordo 5, praecantatio 1, terra 2"); // Infusion Pillar
