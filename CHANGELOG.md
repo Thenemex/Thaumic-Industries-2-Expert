@@ -11,7 +11,7 @@
 
 ## Server pack :
 - Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
-- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+- A guide is present on the [Discord](https://discord.gg/JrfCRJf49J) server for manual installation
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -37,7 +37,7 @@
 
 ## Server pack :
 - Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
-- A guide is present on the [Discord](https://discord.gg/pZQjSNjD9c) server for manual installation
+- A guide is present on the [Discord](https://discord.gg/JrfCRJf49J) server for manual installation
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
