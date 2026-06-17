@@ -57,4 +57,4 @@ REM     Java 25 Edition : Edit ClientID for Discord Rich Presence
 @robocopy "D:\Thaumic-Industries\temp" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config" /MOV
 
 REM     Java 25 Edition : Copy text file needed for server launch
-@xcopy /Y "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\info\java25_edition\java9args.txt" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition"
+@xcopy /Y "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\java9args.txt" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition"
