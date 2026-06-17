@@ -18,7 +18,7 @@
 
 
     3.0.1.3
-# Discord change
+# Aspect tweaks & Discord transfer
 
 ## Mods Updated :
 - TC4Tweaks, TCI2:Core
