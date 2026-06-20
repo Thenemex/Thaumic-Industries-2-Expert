@@ -184,3 +184,10 @@ mods.thaumcraft.Research.refreshResearchRecipe("TB.VoidAnvil");
 # Misc
 // Void Metal Block
 recipes.remove(<thaumicbases:voidBlock>);
+
+# Aspects
+// Thauminite
+mods.thaumcraft.Aspects.set(<thaumicbases:resource:0>, "metallum 1"); // Thauminite Nugget
+mods.thaumcraft.Aspects.set(<thaumicbases:resource:1>, "metallum 3, praecantatio 1, vitreus 2"); // Thauminite Ingot
+mods.thaumcraft.Aspects.set(<thaumicbases:thauminiteBlock>, "metallum 18, praecantatio 6, vitreus 13"); // Thauminite Block
+mods.thaumcraft.Aspects.set(<thaumicbases:resource:2>, "aer 6, praecantatio 5, metallum 4, ordo 3, ignis 3, vitreus 2"); // Thauminite Cap
