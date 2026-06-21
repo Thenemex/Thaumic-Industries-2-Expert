@@ -24,14 +24,28 @@
 - SkinPort
 
 ## Mods updated
-- AppleCore GTNH, GTNH Lib, NEID GTNH, WG:Patched
+- Angelica, AppleCore GTNH, CodeChickenCore GTNH, GTNH Lib, HodgePodge, NEID GTNH, WG:Patched
 
 ## Bugs Patched :
+- Item Duplication can't be achieved anymore via item frames
+- Villager trading used to desync in rare cases
 - NEI Localization for Infernal Blast Furnace and Spinning Wheel is now showing properly
+- Wand Pedestal won't duplicate vis anymore
+- Enchantment glint used to be applied on every render pass
+- Removed duplicate sounds when closing a GUI
+- Thrown eggs now have the right particles, and not the snowball ones
+- Tall Grass doesn't affect the 3rd person perspective anymore 
+- Fireballs don't stay frozen anymore when chunks unload
+- Thaumcraft tree leaves don't tick frequently anymore
+- Fixed some lightning glitches caused by vanilla GL state
+- Fixed entities having a bugged gravity
+- Fixed fence right clicking useless animation
 
-## Gameplay Modification :
-- Set aspects for item : Thauminite, Death Info
-- Set aspects for multiblock : Infusion Pillar (Top part)
+## Gameplay Modifications :
+- Raised the maximum level for Anvil recipes to 100
+- Set aspects for items : Thauminite, Death Info
+- Set aspects for entities : Aspect Orb
+- Set aspects for multiblocks : Infusion Pillar (Top part)
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
