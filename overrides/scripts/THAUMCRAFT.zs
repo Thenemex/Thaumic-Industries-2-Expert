@@ -46,6 +46,9 @@ mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:6>, "praecantatio 3, me
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:7>, "praecantatio 3, metallum 2, ordo 4"); // Apprentices Ring of Ordo
 mods.thaumcraft.Aspects.set(<Thaumcraft:ItemBaubleBlanks:8>, "praecantatio 3, metallum 2, perditio 4"); // Apprentices Ring of Perditio
 
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemResearchNotes:0>, "cognitio 1, sensus 1"); // Research Notes
+mods.thaumcraft.Aspects.set(<Thaumcraft:ItemResearchNotes:64>, "cognitio 5"); // Discovery
+
 // Multiblocks
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockArcaneFurnace>, "terra 8, ignis 8, tenebrae 5, infernus 5"); // Infernal Furnace
 mods.thaumcraft.Aspects.set(<Thaumcraft:blockStoneDevice:7>, "aer 3, ordo 5, praecantatio 1, terra 2"); // Infusion Pillar (Bottom)
