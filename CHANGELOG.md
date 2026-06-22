@@ -21,7 +21,10 @@
 # QoL minor update
 
 ## Mods added :
-- SkinPort
+- NotEnoughItems GTNH, SkinPort, TC NEI Additions
+
+## Mods removed :
+- NotEnoughItems, NEI Addons
 
 ## Mods updated
 - Angelica, AppleCore GTNH, CodeChickenCore GTNH, GTNH Lib, HodgePodge, NEID GTNH, WG:Patched
@@ -43,7 +46,7 @@
 
 ## Gameplay Modifications :
 - Raised the maximum level for Anvil recipes to 100
-- Set aspects for items : Thauminite, Death Info
+- Set aspects for items : Research Notes, Discovery, Thauminite, Death Info
 - Set aspects for entities : Aspect Orb
 - Set aspects for multiblocks : Infusion Pillar (Top part)
 
