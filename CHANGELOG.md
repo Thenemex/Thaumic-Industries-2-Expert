@@ -27,7 +27,7 @@
 - NotEnoughItems, NEI Addons
 
 ## Mods updated
-- Angelica, AppleCore GTNH, CodeChickenCore GTNH, GTNH Lib, HodgePodge, NEID GTNH, WG:Patched
+- Angelica, AppleCore GTNH, CodeChickenCore GTNH, GTNH Lib, HodgePodge, Lwjgl3ify, NEID GTNH, WG:Patched
 
 ## Bugs Patched :
 - Item Duplication can't be achieved anymore via item frames
@@ -45,6 +45,8 @@
 - Fixed fence right clicking useless animation
 
 ## Gameplay Modifications :
+- Enhanced NEI gui with modern features !
+- You can check on NEI now what research is missing for a certain recipe
 - Raised the maximum level for Anvil recipes to 100
 - Set aspects for items : Research Notes, Discovery, Thauminite, Death Info
 - Set aspects for entities : Aspect Orb
