@@ -23,6 +23,9 @@
 ## Bugs patched :
 - Engineer's Manual used to reset the global GUI size upon opening/reading it
 
+## Expert changes :
+- Disabled death knell ability from Wither Boss
+
 ## Gameplay modifications :
 - Set aspects to entities : Mana Burst
 
