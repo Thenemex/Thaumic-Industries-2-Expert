@@ -27,6 +27,7 @@
 - Disabled death knell ability from Wither Boss
 
 ## Gameplay modifications :
+- Set aspects for items : Snowbell/Mandrake/Artichoke/Wolfsbane/Belladonna seeds & grown products
 - Set aspects to entities : Mana Burst
 
 ## Installation instructions :
