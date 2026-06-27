@@ -32,7 +32,7 @@ WARNINGS :
 
 ## Gameplay modifications :
 - Set aspects for items : Snowbell/Mandrake/Artichoke/Wolfsbane/Belladonna seeds & grown products
-- Set aspects to entities : Mana Burst
+- Set aspects to entities : Mana Burst, Spark
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
