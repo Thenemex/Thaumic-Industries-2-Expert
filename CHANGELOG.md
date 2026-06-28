@@ -24,6 +24,7 @@ WARNINGS :
 - Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
 
 ## Bugs patched :
+- Talisman Ring crucible recipe used to not work and didn't show in NEI
 - Parties are now turned back on in the Quests ! Don't forget to refresh your quests
 - Engineer's Manual used to reset the global GUI size upon opening/reading it
 
