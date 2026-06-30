@@ -196,14 +196,12 @@ game.setLocalization("tc.research_text.BLACKTODIAMOND", "My precious ...");
 game.setLocalization("fr_FR", "tc.research_text.BLACKTODIAMOND", "Mon precieux ...");
 mods.thaumcraft.Research.addPage("BLACKTODIAMOND", "tnmx.ic.blacktodiamond_1");
 game.setLocalization("tnmx.ic.blacktodiamond_1", "It would not be possible to count all the diamonds and precious stones that have been wasted in the process ... <BR> But there it is ! You succeeded in concealing and shutting the mouth of this warped void from the Black chest, into something more usual.");
-// Diamond Chest (1 Black Chest + 4 Diamonds + 3 Mirrored Glass + 1 Primal Charm
-mods.thaumcraft.Arcane.addShaped("BLACKTODIAMOND",
-/* Output                     */ <IronChest:BlockIronChest:2>,
-/* Aspects                    */ "aer 10, terra 25, ordo 18",
-/* InputArray                 */ [[<minecraft:diamond>, <Thaumcraft:ItemResource:10>, <minecraft:diamond>],
-                                  [<Thaumcraft:ItemResource:10>, <IronChest:BlockIronChest:6>, <Thaumcraft:ItemResource:10>],
-                                  [<minecraft:diamond>, <Thaumcraft:ItemResource:15>, <minecraft:diamond>]] );
-mods.thaumcraft.Research.addArcanePage("BLACKTODIAMOND", <IronChest:BlockIronChest:2>);
+// Diamond Chest (1 Black Chest + 20 Vitreus + 20 Lucrum)
+mods.thaumcraft.Crucible.addRecipe("BLACKTODIAMOND",
+/* OutputStack                  */ <IronChest:BlockIronChest:2>,
+/* InputStack                   */ <IronChest:BlockIronChest:6>,
+/* AspectString                 */ "fabrico 10, instrumentum 5, vitreus 20, lucrum 20");
+mods.thaumcraft.Research.addCruciblePage("BLACKTODIAMOND", <IronChest:BlockIronChest:2>);
 // Setting aspects
 mods.thaumcraft.Aspects.set(<IronChest:BlockIronChest:2>, "lucrum 15, metallum 8, vitreus 5");
 // Prereqs
@@ -225,7 +223,7 @@ game.setLocalization("tc.research_text.BLACKTOCRYSTAL", "I can see the dust behi
 game.setLocalization("fr_FR", "tc.research_text.BLACKTOCRYSTAL", "Je vois meme la poussiere en dessous !");
 mods.thaumcraft.Research.addPage("BLACKTOCRYSTAL", "tnmx.ic.blacktocrystal_1");
 game.setLocalization("tnmx.ic.blacktocrystal_1", "You were so obsessed with your plan of hiding the true nature of the Black chest, that something had to go wrong ... <BR> In your quest of hiding the dark warped void ; it started to be one with the structural integrity of the chest and all the essentia you dumped within. <LINE> This chest is so clear that you can see right through it, showing the blocks hidden behind and the items you put within !");
-// Crystal Chest (1 Black Chest + 80 Vitreus)
+// Crystal Chest (1 Black Chest + 40 Vitreus)
 mods.thaumcraft.Crucible.addRecipe("BLACKTOCRYSTAL",
 /* OutputStack                  */ <IronChest:BlockIronChest:5>,
 /* InputStack                   */ <IronChest:BlockIronChest:6>,
