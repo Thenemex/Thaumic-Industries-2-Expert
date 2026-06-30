@@ -8,7 +8,7 @@
   "garbageCollector": "G1GC",
   "customOptions": [],
   "hideSettingsOnLaunch": false,
-  "forwardLogs": false,
+  "forwardLogs": true,
   "allowDebugger": false,
   "waitForDebugger": false,
   "mixinDebug": false,
