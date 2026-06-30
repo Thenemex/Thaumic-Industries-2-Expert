@@ -23,13 +23,13 @@ scheduleBackups = true
 
 # Seconds between automatic backup runs (whole numbers only).
 # Example: 1800 = every 30 minutes, 3600 = hourly.
-backupIntervalSeconds = 1800
+backupIntervalSeconds = 1200
 
 # Maximum backups kept per world.
 # After a successful backup, oldest snapshots are removed if this would be exceeded.
 # Recommended value: 5. Values lower than 3 can be used to save space, but risks data loss if a catastrophic error occured several backups ago.
 # Values below 1 disable automatic removal.
-maxStoredBackups = 5
+maxStoredBackups = 10
 
 # Snapshot storage: "zip" or "none".
 # "zip" uses zip for compression. "none" stores an uncompressed folder.

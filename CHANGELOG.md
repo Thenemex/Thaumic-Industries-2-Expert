@@ -20,8 +20,15 @@
     3.0.2.2
 #
 
+## Mods added :
+- Chronos Backups
+
 ## Expert changes :
 - Cheapen the crucible recipe for Black Chest : Diamond Concealment upgrade
+
+## Gameplay modifications :
+- Backups will now run every 20 minutes, with a maximum history of 10
+- Only chunks with a minimum of 120 seconds activity in them will be saved, making for much lighter backup files
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
