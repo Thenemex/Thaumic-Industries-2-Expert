@@ -18,10 +18,16 @@
 
 
     3.0.2.2
-#
+# Backups & Bag of Tricks patch
 
 ## Mods added :
 - Chronos Backups
+
+## Mods updated
+- WG:Patched
+
+## Bugs patched
+- Removed crashes and duplication glitches from Bag of Tricks GUI
 
 ## Expert changes :
 - Cheapen the crucible recipe for Black Chest : Diamond Concealment upgrade
