@@ -1,0 +1,56 @@
+# Chronos Backup
+#
+# These values load once when Minecraft starts (client or dedicated server). Editing this file requires a full restart-reloading the world does not apply changes.
+#
+# The name of the folder that will contain the backups.
+# Example: "chronos"
+backupFolderName = "backups"
+
+# Whether chunk pruning is enabled for backup snapshots.
+# If false, Chronos copies the world snapshot without pruning any chunk data.
+pruneChunks = true
+
+# Minimum playtime (in seconds) for a region to count toward snapshot pruning.
+# The lower the value, the more chunks are kept in the backup.
+pruneTimeRequirementSeconds = 120
+
+# Max worker threads used by native pruning.
+# 0 uses auto thread selection, positive values cap parallelism.
+pruneMaxWorkerThreads = 0
+
+# Whether to run backups on a timer. If false, only manual /chronos backups run.
+scheduleBackups = true
+
+# Seconds between automatic backup runs (whole numbers only).
+# Example: 1800 = every 30 minutes, 3600 = hourly.
+backupIntervalSeconds = 1800
+
+# Maximum backups kept per world.
+# After a successful backup, oldest snapshots are removed if this would be exceeded.
+# Recommended value: 5. Values lower than 3 can be used to save space, but risks data loss if a catastrophic error occured several backups ago.
+# Values below 1 disable automatic removal.
+maxStoredBackups = 5
+
+# Snapshot storage: "zip" or "none".
+# "zip" uses zip for compression. "none" stores an uncompressed folder.
+compressionMethod = "zip"
+
+# Paths to exclude from the backup snapshot copy (names anywhere under the world, or relative paths
+# with /).
+copyBlacklist = [
+  "voxy",
+  "voxyserver",
+  "dynmap",
+  "bluemap",
+  "DistantHorizons.sqlite",
+  "DistantHorizons.sqlite-wal",
+  "DistantHorizons.sqlite-shm",
+  "ledger.sqlite"
+]
+
+# Minimum permission level (0-4) required to run /chronos.
+# 4 matches highly sensitive vanilla commands (e.g. /stop), 0 allows any command source that can run commands.
+commandRequiredPermissionLevel = 4
+
+# Internal: Config format version (updated automatically when the layout changes).
+configVersion = 1
