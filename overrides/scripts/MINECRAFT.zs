@@ -191,8 +191,9 @@ for i, el_armor in armorArray {
     el_armor.addTooltip(format.green("Low durability, find a magical way instead !")); }
     
 # Aspects
-// Removing Praecantatio in the Sculpted Sandstone
-mods.thaumcraft.Aspects.set(<minecraft:sandstone:1>, "perditio 3, terra 3");
+// Removing Praecantatio
+mods.thaumcraft.Aspects.set(<minecraft:sandstone:1>, "perditio 3, terra 3"); // Sculpted Sandstone
+mods.thaumcraft.Aspects.set(<minecraft:nether_wart>, "herba 1, infernus 1, ignis 1"); // Nether Wart
 // Removing Infernus in Netherrack
 mods.thaumcraft.Aspects.set(<minecraft:netherrack>, "terra 2, ignis 1");
 mods.thaumcraft.Aspects.set(<minecraft:netherbrick>, "terra 1, ignis 2");

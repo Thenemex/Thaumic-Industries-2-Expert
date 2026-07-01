@@ -31,6 +31,7 @@
 
 ## Expert changes :
 - Cheapen the crucible recipe for Black Chest : Diamond Concealment upgrade
+- Removed Praecantatio aspect from Nether Wart
 
 ## Gameplay modifications :
 - Backups will now run every 20 minutes, with a maximum history of 10
