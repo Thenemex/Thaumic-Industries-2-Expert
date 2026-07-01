@@ -12,7 +12,7 @@ pruneChunks = true
 
 # Minimum playtime (in seconds) for a region to count toward snapshot pruning.
 # The lower the value, the more chunks are kept in the backup.
-pruneTimeRequirementSeconds = 120
+pruneTimeRequirementSeconds = 180
 
 # Max worker threads used by native pruning.
 # 0 uses auto thread selection, positive values cap parallelism.
@@ -23,13 +23,13 @@ scheduleBackups = true
 
 # Seconds between automatic backup runs (whole numbers only).
 # Example: 1800 = every 30 minutes, 3600 = hourly.
-backupIntervalSeconds = 1200
+backupIntervalSeconds = 1800
 
 # Maximum backups kept per world.
 # After a successful backup, oldest snapshots are removed if this would be exceeded.
 # Recommended value: 5. Values lower than 3 can be used to save space, but risks data loss if a catastrophic error occured several backups ago.
 # Values below 1 disable automatic removal.
-maxStoredBackups = 10
+maxStoredBackups = 5
 
 # Snapshot storage: "zip" or "none".
 # "zip" uses zip for compression. "none" stores an uncompressed folder.

@@ -34,8 +34,8 @@
 - Removed Praecantatio aspect from Nether Wart
 
 ## Gameplay modifications :
-- Backups will now run every 20 minutes, with a maximum history of 10
-- Only chunks with a minimum of 120 seconds activity in them will be saved, making for much lighter backup files
+- Backups will now run every 30 minutes, with a maximum history of 5
+- Only chunks with a minimum of 180 seconds activity in them will be saved, making for much lighter backup files
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
