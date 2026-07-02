@@ -24,12 +24,13 @@
 - Chronos Backups
 
 ## Mods updated
-- WG:Patched
+- NemexLib, TCI:Core, WG:Patched
 
 ## Bugs patched
 - Removed crashes and duplication glitches from Bag of Tricks GUI
 
 ## Expert changes :
+- Added an alternative recipe for Vis Filter, without needing to find a Silverwood tree
 - Cheapen the crucible recipe for Black Chest : Diamond Concealment upgrade
 - Removed Praecantatio aspect from Nether Wart
 
