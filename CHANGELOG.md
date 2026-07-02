@@ -21,7 +21,7 @@
 # Backups & Bag of Tricks patch
 
 ## Mods added :
-- Chronos Backups
+- Chronos Backups, FOV Effects Backport
 
 ## Mods updated
 - NemexLib, TCI:Core, WG:Patched
@@ -37,6 +37,7 @@
 ## Gameplay modifications :
 - Backups will now run every 30 minutes, with a maximum history of 5
 - Only chunks with a minimum of 180 seconds activity in them will be saved, making for much lighter backup files
+- Added a new graphical setting, allowing to control how much the FOV actually extends when sprinting
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
