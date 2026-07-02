@@ -206,6 +206,7 @@ for i, el_thaumTool in thaumToolsArray {
     mods.thaumcraft.Research.addArcanePage("THAUMIUM", el_thaumTool); }
 // Prereqs (Greatwood Wand Core)
 mods.thaumcraft.Research.addPrereq("THAUMIUM", "ROD_greatwood", true);
+// ToDo Readd this one via modding
 
 # Adding a dupe recipe & research for the Silverwood Sapling
 // Adding the research (English)
@@ -235,3 +236,4 @@ mods.thaumcraft.Research.addPrereq("SILVERSAPLINGDUPE", "THAUMATORIUM", true);
 mods.thaumcraft.Research.addPrereq("SILVERSAPLINGDUPE", "INFUSION", true); // Mid-game check
 mods.thaumcraft.Research.setSpikey("SILVERSAPLINGDUPE", true);
 mods.thaumcraft.Research.setConcealed("SILVERSAPLINGDUPE", false);
+// ToDo Remove Thaumatorium and add trigger scanning for Silverwood Sapling
