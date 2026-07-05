@@ -6,11 +6,13 @@ More information about downloads and everything here on the CurseForge page : ht
 
 Reporting bugs & problems here on GitHub : https://github.com/Thenemex/Thaumic-Industries-2-Expert/issues
 
+Link to the RDG discord server : https://discord.gg/JrfCRJf49J
+
 ### Mod-list
 https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relations/dependencies
 
 ### Helpers, Authors & Content Creators
-Project currenlty leaded by Thenemex
+Project currenlty leaded by Thenemex, inside of RoughDayGames development group.
 
 Founders of the pack :
  - Thenemex, NexWiz and AQUOI-LORDE
@@ -22,7 +24,7 @@ Huge thanks to both active and retired members of the Testing team, sharing thei
 Lovely hugs to haunted (and Bubila) who made online video content about the modpack !
 
 Also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
-- A Random Spirit, air, Arkanix, Aythem, Big Johnson, buchi0, CloudyOrangeFox, Dead The Fallow, delanius, demycat, goofy_fermat5688369, hron84, Lomikk, neverwindy, Reykjavik, sanyekasod, vision_cool, Tenebry, wh1te
+- A Random Spirit, air, Arkanix, Aythem, Big Johnson, buchi0, CloudyOrangeFox, Dead The Fallow, delanius, demycat, goofy_fermat5688369, hron84, kee, Lomikk, Mustache Powa, neverwindy, Reykjavik, sanyekasod, vision_cool, Tenebry, wh1te
 
 To finish, thanks too to close friends that had bring their help to the project :
 - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf

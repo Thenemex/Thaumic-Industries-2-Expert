@@ -18,7 +18,7 @@
 
 
     3.0.2.2
-# Backups & Bag of Tricks patch
+# Backups, Vis Filter and misc changes
 
 ## Mods added :
 - Chronos Backups, FOV Effects Backport
