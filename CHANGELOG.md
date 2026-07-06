@@ -31,6 +31,7 @@
 
 ## Expert changes :
 - Crucible aspect decay speed now scales up with how full is it
+- All special nodes will now have their reach/ability scaling up with its aspect count and brightness
 
 ## Gameplay modifications :
 - Nodes now regenerate over game time clock, not real time.
