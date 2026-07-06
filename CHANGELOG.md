@@ -24,10 +24,18 @@
 - Salis Arcana
 
 ## Bugs patched :
-- 
+- Fixed glitchy block bounds from Essentia Reservoirs and Urns/Crates
+- Arcane Bore now checks less frequently for centi-vis networks in the area to drain from
+- Inventory aspect overlay used to show the wrong aspects on rare occasions
+- Thaumcraft particles used to not pause when the game was paused
+
+## Expert changes :
+- Crucible aspect decay speed now scales up with how full is it
 
 ## Gameplay modifications :
-- 
+- Nodes now regenerate over game time clock, not real time.
+- Infusion enchantment recipes can now be completed in creative mode without XP
+- Replaced the Thaumonomicon's font with a more readable one
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
