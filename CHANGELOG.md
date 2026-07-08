@@ -18,7 +18,7 @@
 
 
     3.0.2.3
-#
+# Nodes scaling & download issues patch
 
 ## Mods updated :
 - Salis Arcana
