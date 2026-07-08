@@ -23,7 +23,11 @@
 ## Mods updated :
 - Salis Arcana
 
+## Mods downgraded :
+- Lwjgl3ify
+
 ## Bugs patched :
+- Library download exceptions won't happen anymore with the lzma file 
 - Fixed glitchy block bounds from Essentia Reservoirs and Urns/Crates
 - Arcane Bore now checks less frequently for centi-vis networks in the area to drain from
 - Inventory aspect overlay used to show the wrong aspects on rare occasions
