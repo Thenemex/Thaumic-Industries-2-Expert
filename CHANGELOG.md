@@ -23,6 +23,14 @@
 ## Mods added :
 - Campfire Backport
 
+## Expert changes :
+- Added a campfire to help you cook food on early-game !
+- The wooden campfire will take 30 seconds to cook food, and will die out after 5 minutes
+- Campfire can be lit on fire via multiple means, including casting ignis vis from your wan
+
+## Gameplay modifications :
+- Extracting sugar from reed will now give brown sugar instead, that is eatable
+
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
 
