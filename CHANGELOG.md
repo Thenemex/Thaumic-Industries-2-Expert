@@ -23,6 +23,9 @@
 ## Mods added :
 - Campfire Backport
 
+# Bugs patched :
+- Researching Ichor is now possible and won't bug out anymore
+
 ## Expert changes :
 - Added a campfire to help you cook food on early-game !
 - The wooden campfire will take 30 seconds to cook food, and will die out after 5 minutes

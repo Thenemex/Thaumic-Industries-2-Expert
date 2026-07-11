@@ -1,11 +1,5 @@
 // Recipes for Thaumic Tinkerer
 
-# Deleting items
-// Removing Focus : Dislocation - It can move energized nodes ...
-mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:focusDislocation>);
-mods.thaumcraft.Research.clearPrereqs("FOCUS_DISLOCATION");
-mods.thaumcraft.Research.removeResearch("FOCUS_DISLOCATION");
-
 # Osmotic Enchanter
 // Osmotic Enchanter (1 Enchantment Table + 1 Spellbinding Cloth)
 mods.thaumcraft.Infusion.removeRecipe(<ThaumicTinkerer:enchanter>);
