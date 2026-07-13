@@ -25,6 +25,7 @@
 
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
+- Eating mushroom-based food and brains now give the right potion effects
 
 ## Expert changes :
 - Added a campfire to help you cook food on early-game !
