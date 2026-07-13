@@ -40,27 +40,115 @@ Mushroom Stew, Magic Fungar
 
  - - - - - - - - - - - - - - - - - - - -
 
-Taint Poison        24
-Flux Flu            25
-Flux Phage          26
-Unnaturel Hunger    27
-Warp Ward           28
-Deadly Gaze         29
+Vis Boost           24
+Vis Generation      25
+Item Vacuum         26
+Static Shock        27
+Photosynthesis      28
+
+Taint Poison        29
 Anti-Wither         30
 Binding             31
 Taint Withdrawl     32
-Blurred Vision      33
-Sun Scorned         34
-Thaumarhia          35
+Vine Wrapped        33
+Spikey              34
+Sprouting           35
+Grotesque           36
+In Love             37
+Undead's Curse      38
+Chilled             39
+Snow Trail          40
+Floating            41
+Hellish Aura        42
+Brewing Expertise   43
+Frog's Leg          44
+Amphibian           45
+Knockback Res.      46
+Demon Cloaking      47
+Insanity            48
+Sticky Items        49
+Vampiric Aura       50
+Bleeding            51
+Swimming            52
+Soul Burn           53
+Swim Boost          54
+Resized             55
+Tinting             56
+Ender Inhibition    57
+Ill Fitting         58
+Flammable           59
+Slippery            60
+Mortal Coil         61
+Absorb Magic        62
+Poison Weapons      63
+Reflect Projectiles 64
+Reflect Damage      65
+Attract Projectiles 66
+Repell              67
+Stout Belly         68
+Feel No Pain        69
+Blood Seal          70
+Gas Mask            71
+Disease             72
+Luck                73
+Worship             74
+Sticky Potion Efcts 75
+Wolfsbane           76
 
-Golem Buff          36
-Achromatic          37
-Eldritch            38
-Vis Affinity        39
-Vis Boost           40
+Flux Flu            77
+Flux Phage          78
+Unnatural Hunger    79
+Warp Ward           80
+Deadly Gaze         81
+Blurred Vision      82
+Sun Scorned         83
+Thaumarhia          84
 
-Vis Generation      41
+Increased Luck      85
 
-Item Vacuum         42
-Static Shock        43
-Photosynthesis      44
+Fire Imbued         86
+Wated Imbued        87
+Golem Buff          88
+Earth Imbued        89
+Air Imbued          90
+
+Soul Cross          91
+Emptiness           92
+Emptiness           93
+Bloodthirst         94
+Allure              95
+Absolution          96
+Achromatic          97
+Eldritch            98
+Grue's Prey         99
+Drowning            100
+Boost               101
+Whirlwind           102
+Inhibit             103
+Flight              104
+Reciprocation       105
+Flame Cloak         106
+Ice Cloak           107
+Heavy Heart         108
+Fire Fuse           109
+Planar Binding      110
+Soul Fray           111
+Soul Harden         112
+Deafness            113
+Feather Fall        114
+AddHeart            115
+RemoveHeart         116
+Enslaved            117
+Feather Fall        118
+Overheating         119
+Conductive          120
+Sticky              121
+Dissolving          122
+Cinder Coat         123
+Paralysed           124
+Queasy              125
+Reincarnate         126
+Sinking             127
+Volatility          128
+Waking Nightmare    129
+Vis Affinity        130
