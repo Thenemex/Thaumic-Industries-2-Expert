@@ -26,6 +26,7 @@
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
 - Eating mushroom-based food and brains now give the right potion effects
+- Arcane Pressure Plate doesn't look like a block anymore
 
 ## Expert changes :
 - Added a campfire to help you cook food on early-game !
