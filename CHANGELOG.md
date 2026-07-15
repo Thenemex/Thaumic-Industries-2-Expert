@@ -23,6 +23,9 @@
 ## Mods added :
 - Campfire Backport
 
+## Mods updated :
+- Food Addition, Thaumic Horizons
+
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
 - Eating mushroom-based food and brains now give the right potion effects
