@@ -24,7 +24,7 @@
 - Campfire Backport
 
 ## Mods updated :
-- Food Addition, Thaumic Horizons
+- Food Addition, FOV Effects Backport, Thaumic Horizons
 
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
