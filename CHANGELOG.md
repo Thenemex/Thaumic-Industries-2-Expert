@@ -24,7 +24,7 @@
 - Campfire Backport
 
 ## Mods updated :
-- Food Addition, FOV Effects Backport, Thaumic Horizons
+- Food Addition, FOV Effects Backport, NemexLib, TCI2:Core Thaumic Horizons
 
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
@@ -34,7 +34,9 @@
 ## Expert changes :
 - Added a campfire to help you cook food on early-game !
 - The wooden campfire will take 30 seconds to cook food, and will die out after 5 minutes
-- Campfire can be lit on fire via multiple means, including casting ignis vis from your wan
+- Campfire can be lit on fire via multiple means, including casting ignis vis from your wand
+- Added a mystical construct recipe for turning block of flesh into leather -> UPDATE TCI2:CORE + CONFIG
+- Set higher output amount for arcane recipe, in Alternative Vis Filter research -> UPDATE TCI2:CORE
 
 ## Gameplay modifications :
 - Extracting sugar from reed will now give brown sugar instead, that is eatable
