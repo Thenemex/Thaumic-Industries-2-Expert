@@ -154,7 +154,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "Now that you got some nuggets, you can now make your first wand !\n\nWands allow to store vis, a form of magic allowing to store the §l§6§l§rsix §l§6§lPrimal Aspects§r, for later use (crafting, combat \u0026 more !)\n\nIt\u0027s not the greatest (made out of mundane wood and iron), but it allows you to start collecting vis by draining nodes or killing mobs.\n\nYou can have a look at the vis storage by sneaking with it in your hand, or looking at it in your inventory.\n\n§c§n§l/!\\§r If you\u0027re stuck at \"1/2 tasks completed\", there\u0027s a little arrow at the bottom right corner to check the next task !"
+          "desc:8": "Now that you got some nuggets, you can now make your first wand !\n\nWands allow to store vis, a form of magic allowing to store the §l§6§l§rsix §l§6§lPrimal Aspects§r, for later use (crafting, combat \u0026 more !)\n\nIt\u0027s not the greatest (made out of mundane wood and iron), but it allows you to start collecting vis by draining nodes or killing mobs.\n\nYou can have a look at the vis storage by sneaking with it in your hand, or looking at it in your inventory.\nThe primal aspects are called (from top to bottom) : §l§e§lAer§r, §a§lTerra§r, §c§lIgnis§r, §9§b§lAqua§r, §lOrdo§r, §7§8§lPerditio§r.\n\n§c§n§l/!\\§r If you\u0027re stuck at \"1/2 tasks completed\", there\u0027s a little arrow at the bottom right corner to check the next task !"
         }
       },
       "tasks:9": {
@@ -232,7 +232,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "To write an remember all your researchs on magic, you will need a special book called a Thaumonomicon.\n\nAcquiring it is a bit tricky : you will need to right-click a §l§6Bookshelf§r with your wand (no vis required).\n\nThis book is the central point of the modpack ; all the researchs have to be done through it.\n\nUsing a wand on a block structure to turn it into something else is called \"Mystical Construct\" ; more can be learn in the Thaumonomicon as always.\n\nBe sure to have a good reading at everything that is unlocked in the first 5 tabs, then come back to the quests :P"
+          "desc:8": "To write an remember all your researchs on magic, you will need a special book called a Thaumonomicon.\n\nAcquiring it is a bit tricky : you will need to right-click a §l§6Bookshelf§r with your wand (no vis required).\n\nThis book is the central point of the modpack ; all the researchs have to be done through it.\n\nUsing a wand on a block structure to turn it into something else is called \"Mystical Construct\" ; more can be learn in the Thaumonomicon as always.\n\nBe sure to have a good reading at everything that is unlocked in the first 5 tabs, then come back to the quests :P\n\n\nIf you cannot find cows nor obtain leather, you can sneak right-click a §5§d§lBlock of Flesh§r with your wand having a little bit more than 15-16 of §l§e§lAer§r, §c§lIgnis§r and §lOrdo§r !"
         }
       },
       "tasks:9": {
@@ -1930,7 +1930,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "The usual recipes for converting Wood Logs into Planks, and Planks into Sticks have been changed for your worst nightmares ...\nAt spawn, the best you can get with you bare hands are 1 Plank and Stick out of the usual materials.\n\nA new Thaumonomicon tab named \"Lumberjack\" is here to help you get more output out of these damned Wood logs :\nFor the moment, only 3 new researches are present :\n\n§l - Workbench\n - Arcane§r (Wandcraft)§l\n - Crucible\n§r\nThe more you progress into this tab, the more you will improve the output amount you get when processing wood !"
+          "desc:8": "The usual recipes for converting Wood Logs into Planks, and Planks into Sticks have been changed for your worst nightmares ...\nAt spawn, the best you can get with you bare hands are 1 Plank and Stick out of the usual materials.\nOnce you\u0027ll obtain a magic wand, you\u0027ll be able to harvest wood logs by sneak right-clicking them !\n\nA new Thaumonomicon tab named \"Lumberjack\" is here to help you get more output out of these damned Wood logs :\nFor the moment, only 4 new types of research are present :\n\n§l - Workbench\n - Arcane§r (Wandcraft)§l\n - Crucible\n - Casting §r(Mystical Construct)\n§r\nThe more you progress into this tab, the more you will improve the output amount you get when processing wood !"
         }
       },
       "tasks:9": {
@@ -1966,7 +1966,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "In this world, you always want proper food and cooked meat.\nTrying to eat uncooked, rotten or brainy meat will make you really sick !\n\nOn the other hand, rare meats have special benefic effects when cooked !\nFor exemple, Cooked Horse Meat allows you to jump higher and run faster for a short time."
+          "desc:8": "In this world, you always want proper food and cooked meat.\nTrying to eat uncooked, rotten or brainy meat will make you really sick ...\nIf you don\u0027t have diabete, you can extract brown sugar from reeds and eat it ! \n\nOn the other hand, rare meats have special benefic effects when cooked :\n - For exemple, Cooked Horse Meat allows you to jump higher and run faster for a short time."
         }
       },
       "tasks:9": {
@@ -2265,7 +2265,7 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 12,
           "y:3": 12,
           "id:3": 24,
           "sizeY:3": 24
@@ -2279,14 +2279,14 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 108,
           "y:3": 108,
           "id:3": 26,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 60,
           "y:3": 12,
           "id:3": 27,
           "sizeY:3": 24
@@ -2300,28 +2300,28 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 108,
           "y:3": 12,
           "id:3": 29,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 156,
           "y:3": 12,
           "id:3": 30,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 240,
           "y:3": 108,
           "id:3": 31,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 240,
           "y:3": 12,
           "id:3": 32,
           "sizeY:3": 24
@@ -2335,7 +2335,7 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 240,
           "y:3": 60,
           "id:3": 34,
           "sizeY:3": 24
@@ -2349,30 +2349,23 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 12,
           "y:3": 108,
           "id:3": 36,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 60,
           "y:3": 108,
           "id:3": 37,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 156,
           "y:3": 108,
           "id:3": 38,
-          "sizeY:3": 24
-        },
-        "15:10": {
-          "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 60,
-          "id:3": 39,
           "sizeY:3": 24
         }
       },
@@ -2404,7 +2397,7 @@
       "home_anchor_x:5": 0.0,
       "hardcore:1": 0,
       "home_image:8": "tc:textures\\gui\\main_title.png",
-      "party_enable:1": 1,
+      "party_enable:1": 0,
       "pack_version:3": 0,
       "editMode:1": 0,
       "home_offset_x:3": -500,

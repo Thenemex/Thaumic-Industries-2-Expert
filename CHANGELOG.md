@@ -20,6 +20,9 @@
     3.1
 # Food major update
 
+WARNINGS :
+- Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
+
 ## Mods added :
 - Campfire Backport
 
@@ -35,8 +38,8 @@
 - Added a campfire to help you cook food on early-game !
 - The wooden campfire will take 30 seconds to cook food, and will die out after 5 minutes
 - Campfire can be lit on fire via multiple means, including casting ignis vis from your wand
-- Added a mystical construct recipe for turning block of flesh into leather -> UPDATE TCI2:CORE + CONFIG
-- Set higher output amount for arcane recipe, in Alternative Vis Filter research -> UPDATE TCI2:CORE
+- Added a mystical construct recipe for turning block of flesh into leather
+- Set higher output amount for arcane recipe, in Alternative Vis Filter research
 
 ## Gameplay modifications :
 - Extracting sugar from reed will now give brown sugar instead, that is eatable
