@@ -24,7 +24,7 @@ WARNINGS :
 - Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
 
 ## Mods added :
-- Campfire Backport
+- Campfire Backport, JarJar
 
 ## Mods updated :
 - Food Addition, FOV Effects Backport, NemexLib, TCI2:Core Thaumic Horizons
@@ -43,6 +43,7 @@ WARNINGS :
 
 ## Gameplay modifications :
 - Extracting sugar from reed will now give brown sugar instead, that is eatable
+- Game will now launch a little bit more quickly
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
