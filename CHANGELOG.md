@@ -27,7 +27,7 @@ WARNINGS :
 - Campfire Backport, JarJar
 
 ## Mods updated :
-- Food Addition, FOV Effects Backport, NemexLib, TCI2:Core Thaumic Horizons
+- Food Addition, FOV Effects Backport, NemexLib, TCI:Core, Thaumic Horizons
 
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
@@ -38,7 +38,7 @@ WARNINGS :
 - Added a campfire to help you cook food on early-game !
 - The wooden campfire will take 30 seconds to cook food, and will die out after 5 minutes
 - Campfire can be lit on fire via multiple means, including casting ignis vis from your wand
-- Added a mystical construct recipe for turning block of flesh into leather
+- Added a mystical construct recipe for turning block of flesh into leather, that can only be used once per player per world
 - Set higher output amount for arcane recipe, in Alternative Vis Filter research
 
 ## Gameplay modifications :
