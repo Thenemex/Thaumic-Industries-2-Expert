@@ -44,6 +44,7 @@ WARNINGS :
 ## Gameplay modifications :
 - Extracting sugar from reed will now give brown sugar instead, that is eatable
 - Game will now launch a little bit more quickly
+- Changed some texts in quests
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
