@@ -38,6 +38,7 @@ WARNINGS :
 - Added a campfire to help you cook food on early-game !
 - The wooden campfire will take 30 seconds to cook food, and will die out after 5 minutes
 - Campfire can be lit on fire via multiple means, including casting ignis vis from your wand
+- Regular campfire will ask for 5 Ignis vis to be turned on, and soul for 100 vis
 - Added a mystical construct recipe for turning block of flesh into leather, that can only be used once per player per world
 - Infusion research now requires Alchemical Furnace & Arcane Alembic to be scanned as prereq
 - Set higher output amount for arcane recipe, in Alternative Vis Filter research
