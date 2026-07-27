@@ -86,6 +86,14 @@ mods.thaumcraft.Research.setAutoUnlock("EARLYCOOKING", true);
 // Prereqs
 mods.thaumcraft.Research.addPrereq("VANILLAFURNACE", "EARLYCOOKING", false);
 
+# Alternative Leather
+// Prereqs
+mods.thaumcraft.Research.addPrereq("ALTERNATIVELEATHER", "EARLYCOOKING", false);
+
+# Campfire
+// Prereqs
+mods.thaumcraft.Research.addPrereq("CAMPFIRE", "EARLYCOOKING", false);
+
 # Iron Tools
 recipes.remove(<minecraft:iron_pickaxe>);
 recipes.remove(<minecraft:iron_axe>);
