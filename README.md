@@ -18,13 +18,13 @@ Founders of the pack :
  - Thenemex, NexWiz and AQUOI-LORDE
 
 Huge thanks to both active and retired members of the Testing team, sharing their in-game experience, and their ideas that got implemented to the pack :
-- Arctic_Howler, MinilinkMask, NotSenna
+- Arctic_Howler, MinilinkMask, NotSenna, buchi0
 - Apfiz, sleeping_reaper, Vatko
 
 Lovely hugs to haunted (and Bubila) who made online video content about the modpack !
 
 Also thanks to the online players who shared opinions & report issues online about the pack that made it through development :
-- A Random Spirit, air, Arkanix, Aythem, Big Johnson, buchi0, CloudyOrangeFox, Dead The Fallow, delanius, demycat, goofy_fermat5688369, hron84, kee, Lomikk, Mustache Powa, neverwindy, Reykjavik, sanyekasod, Viking_fra_nord, vision_cool, Tenebry, wh1te
+- A Random Spirit, air, Arkanix, Aythem, Big Johnson, CloudyOrangeFox, Dead The Fallow, delanius, demycat, goofy_fermat5688369, hron84, kee, Lomikk, Mustache Powa, neverwindy, Reykjavik, sanyekasod, Viking_fra_nord, vision_cool, Tenebry, The Lich Guy, wh1te
 
 To finish, thanks too to close friends that had bring their help to the project :
 - BaIzD1ThOn, HypeShadow, Pokebulbbi, RaiKoo54, 5parte, Vertf
