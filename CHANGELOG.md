@@ -27,13 +27,14 @@ WARNINGS :
 - Campfire Backport, JarJar
 
 ## Mods updated :
-- Chronos Backups, Food Addition, FOV Effects Backport, NemexLib, TC4Patched, TC4Tweaks, TCI:Core, Thaumic Horizons
+- Chronos Backups, Food Addition, FOV Effects Backport, Lwjgl3ify, NemexLib, TC4Patched, TC4Tweaks, TCI:Core, Thaumic Horizons
 
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
 - Wandering inside nether Dark Shrine won't give an opaque screen anymore
 - Eating mushroom-based food and brains now give the right potion effects
 - Arcane Pressure Plate doesn't look like a block anymore
+- Downloading GTNH libraries for Java 25 will not give an error
 
 ## Expert changes :
 - Added a campfire to help you cook food on early-game !
