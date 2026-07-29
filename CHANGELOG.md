@@ -27,7 +27,7 @@ WARNINGS :
 - Campfire Backport, JarJar
 
 ## Mods updated :
-- Food Addition, FOV Effects Backport, NemexLib, TC4Patched TCI:Core, Thaumic Horizons
+- Chronos Backups, Food Addition, FOV Effects Backport, NemexLib, TC4Patched TCI:Core, Thaumic Horizons
 
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
