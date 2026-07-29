@@ -27,10 +27,11 @@ WARNINGS :
 - Campfire Backport, JarJar
 
 ## Mods updated :
-- Food Addition, FOV Effects Backport, NemexLib, TCI:Core, Thaumic Horizons
+- Food Addition, FOV Effects Backport, NemexLib, TC4Patched TCI:Core, Thaumic Horizons
 
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
+- Wandering inside nether Dark Shrine won't give an opaque screen anymore
 - Eating mushroom-based food and brains now give the right potion effects
 - Arcane Pressure Plate doesn't look like a block anymore
 
