@@ -27,14 +27,19 @@ WARNINGS :
 - Campfire Backport, JarJar
 
 ## Mods updated :
-- Chronos Backups, Food Addition, FOV Effects Backport, Lwjgl3ify, NemexLib, TC4Patched, TC4Tweaks, TCI:Core, Thaumic Horizons
+- Angelica, Chronos Backups, Food Addition, FOV Effects Backport, GTNHLib, Hodgepodge, Lwjgl3ify, NemexLib, NotEnoughItems GTNH, TC4Patched, TC4Tweaks, TCI:Core, Thaumic Horizons
 
 # Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
 - Wandering inside nether Dark Shrine won't give an opaque screen anymore
 - Eating mushroom-based food and brains now give the right potion effects
+- Golem bell markers now reload properly when leaving and reentering a world
 - Arcane Pressure Plate doesn't look like a block anymore
-- Downloading GTNH libraries for Java 25 will not give an error
+- Prevented Wither Skeleton to try to burn in the sunlight
+- Downloading GTNH libraries for Java 25 will not give an error for lzma-1.0.0
+- The End Portal is back to its normal texture and color
+- Fixed some issues related to shaders and clouds
+- Color Lightning for shaders is back to work !
 
 ## Expert changes :
 - Added a campfire to help you cook food on early-game !
