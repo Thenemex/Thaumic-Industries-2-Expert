@@ -1,6 +1,6 @@
 
 
-    3.0.2.
+    3.1.0.
 #
 
 ##
@@ -29,7 +29,7 @@ WARNINGS :
 ## Mods updated :
 - Angelica, Chronos Backups, Food Addition, FOV Effects Backport, GTNHLib, Hodgepodge, Lwjgl3ify, NemexLib, NotEnoughItems GTNH, TC4Patched, TC4Tweaks, TCI:Core, Thaumic Horizons
 
-# Bugs patched :
+## Bugs patched :
 - Researching Ichor is now possible and won't bug out anymore
 - Wandering inside nether Dark Shrine won't give an opaque screen anymore
 - Eating mushroom-based food and brains now give the right potion effects
