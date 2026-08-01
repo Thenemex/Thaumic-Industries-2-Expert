@@ -20,8 +20,11 @@
     3.1.0.1
 #
 
+## Mods updated :
+- TC4Patched
+
 ## Bugs patched :
-- Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs -> UPDATE TC4PATCHED
+- Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs
 
 ## Gameplay modifications :
 - Set a new simple recipe for Sanguim Scientem guide book
