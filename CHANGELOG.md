@@ -17,17 +17,23 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-    3.1.0.1
-#
+    3.1.1
+# QoL and Patchs minor update
 
 ## Mods updated :
-- TC4Patched
+-TC4Patched
 
 ## Bugs patched :
 - Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs
+- Excavation Focus and Primal Crusher are now able to harvest blocks properly
+- Thaumaturges and Guards won't have beef anymore when simply looking at each other
 
 ## Gameplay modifications :
 - Set a new simple recipe for Sanguim Scientem guide book
+- Greatwood, Silverwood and Warpwood Leaves now decay faster, like the other trees
+
+## Expert changes :
+- MAKE DARK SHRINE FOG MORE INTENSE
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
