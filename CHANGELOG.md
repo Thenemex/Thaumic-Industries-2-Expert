@@ -33,7 +33,7 @@
 - Greatwood, Silverwood and Warpwood Leaves now decay faster, like the other trees
 
 ## Expert changes :
-- MAKE DARK SHRINE FOG MORE INTENSE
+- Set entropy fog inside Dark Shrine to be more intense
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
