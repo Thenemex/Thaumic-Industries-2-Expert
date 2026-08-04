@@ -16,7 +16,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -24,10 +24,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Information",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "This first questline will guide you from spawn through the §7§lIron§r age.\nYou will learn how to make your first furnace \u0026 §l§7§l§riron§r tools using Thaumcraft.\n\nDue to changes made to§n§r core progression, it is §nhighly recommended§n§r to follow this guide until the §6Thaumometer§o§r Quest is complete, even if you are familiar with Thaumcraft.\n\nNot following the questlines can get make things even more challenging than they\u0027re supposed to be by making it harder to complete core research.\n\nThe questlines will guide you through discovering most of the thaumcraft aspects, and will advise you on what research to complete, and when.\n\nGood luck, and have fun!"
         }
@@ -100,7 +100,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -108,10 +108,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Iron Nuggets",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "After crafting stone tools, you\u0027ll need to gather §7§l§riron ore; Iron will let you get started in Thaumcraft by allowing you to craft your first wand.\n\nThe knowledge of how to make a§8 §l§r§7Stone Furnace§r currently eludes you. In order to get the iron nuggets needed to cap a wand, you\u0027ll need to resort to a simpler, less efficient method for the time being.\n\nOnce you have gathered iron ore, flint, clay balls and coal, you can craft your first §l§7Iron Nuggets§r. Make sure you §ngather all of the ingredients first§r before crafting them into nuggets, or this quest may not detect the raw materials properly. \n\n§l§c§n§l/!\\§r If you\u0027re stuck at \"1/2 tasks completed\", there\u0027s a little arrow at the bottom right corner to check the next task!"
         }
@@ -182,7 +182,7 @@
             },
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -190,10 +190,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Your First Wand",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Now that you have some§7§7 Iron Nuggets§7§r, you can craft your first wand. \n\nWands allow you to store vis, a form of magical energy composed of 6 §l§6§lPrimal Aspects§r, for future use (crafting, combat \u0026 more!).\n\nIt\u0027s not the greatest (made out of mundane wood and iron), but it allows you to start collecting vis by draining nodes or killing mobs.\n\nYou can check how much vis your wand has stored by looking in the upper left corner of your screen while holding your wand. To see exactly how much vis you have stored, you can sneak with it in your hand, or hover over it in your inventory.\n\n§c§n§l/!\\§r If you\u0027re stuck at \"1/2 tasks completed\", there\u0027s a little arrow at the bottom right corner to check the next task!"
         }
@@ -233,7 +233,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -241,12 +241,12 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "The Thaumonomicon",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
-          "desc:8": "To record all of your thaumaturgical research, you will need a special book called a Thaumonomicon.\n\nAcquiring it is a bit tricky: you will need to right-click a §l§6Bookshelf§r with your wand (no vis required).\n\nThis book is the core of the modpack; all research must be done through it.\n\nUsing a wand on a block structure to turn it into something else is called a \"§6Mystical Construct§r\"; you can learn more about §6Mystical Constructs§r, and many other things, in the Thaumonomicon.\n\nBe sure to thoroughly read everything unlocked in the first 5 tabs, then come back to the quests :P\r\n\r\n\r\nIf you cannot find cows nor obtain leather, you can sneak right-click a §5§d§l§r§5§dBlock of Flesh§r with your wand having a little bit more than 15-16 of §l§e§lAer§r, §c§lIgnis§r and §lOrdo§r !"
+          "desc:8": "To record all of your thaumaturgical research, you will need a special book called a Thaumonomicon.\n\nAcquiring it is a bit tricky: you will need to right-click a §l§6Bookshelf§r with your wand (no vis required).\n\nThis book is the core of the modpack; all research must be done through it.\n\nUsing a wand on a block structure to turn it into something else is called a \"§6Mystical Construct§r\"; you can learn more about §6Mystical Constructs§r, and many other things, in the Thaumonomicon.\n\nBe sure to thoroughly read everything unlocked in the first 5 tabs, then come back to the quests :p\n\n§e§l§n/!\\ §rIf you\u0027re struggling to find cows or obtain leather, you can sneak right-click a §5§d§l§r§5§dBlock of Flesh§r with a wand containing 15 §l§e§lAer§r, 15 §c§lIgnis§r and 15 §lOrdo§  §rto turn it into 3 leather, just enough for 3 books to make a bookshelf. Note that this can only be done once per player."
         }
       },
       "questID:3": 3,
@@ -284,7 +284,7 @@
             "Damage:2": 15,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -292,10 +292,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "OR",
           "name:8": "Arcane Worktable",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "If you want to craft items using the vis stored in your wand, a standard crafting table won\u0027t cut it. You will need to create a special worktable that can channel vis into your crafts.\n\nThe Arcane Worktable can be made by right-clicking a Table with your wand (no vis required)."
         }
@@ -342,7 +342,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -350,10 +350,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Research Table",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "To perform research, you will need a Research Table.\n\nYou can create a Research Table by putting 2 Tables next to each other, then right-click them with a set of §7§lScribing Tools§r.\n\nTo craft §7§lScribing Tools§r, §ryou will need a phial, black ink, and a feather, as well as a wand with 5 §f§lOrdo§r, §r3 §l§f§l§e§lAer§l§r, and 3 §l§bAqua§r§l§l§r.§r Remember, in order to craft using vis stored in a wand, you must use an Arcane Workbench."
         }
@@ -393,7 +393,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -401,10 +401,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Glass Phial",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "In order to craft a set of §7Scribing Tools§r, you will need a phial. Unfortunately, the knowledge of how to craft a §l§7§l§8§l§7Furnace§r hot enough to melt sand into glass still eludes you.\n\nYou, however, have come up with a cruder method that will allow you to bypass a furnace by using an §c§l§l§cFire Shard Cluster§r, crafted from 6 §cFire §rshards.\n\nAn §cFire Shard Cluster§r, 3 sand, a wood slab, as well as 10§l §l§c§r§l§cIgnis§r, 7 §l§f§l§f§f§lOrdo§r, and 5 §aTerra§r vis from your wand should allow you to make one phial.\n\r\nYou can find the exact recipe under the Thaumonomicon §6Alchemy tab§r,§r or by using NEI.\n\nIf you\u0027re lacking §c§l§l§l§r§cIgnis§r vis in your wand, go out and kill some monsters. Make sure you keep your wand in your hot bar so it can properly absorb vis.\nPassive animals are §nnot§r magically complex enough to drop §c§l§r§cIgnis§r."
         }
@@ -463,7 +463,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -471,10 +471,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Paper \u0027n\u0027 Ink",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "To perform research, you\u0027ll need paper, ink to refill your inkwell, and §7§lScribing Tools§r to write with.\n\nYou can use the §7§lScribing Tools§r from your Research Table, or make another set to keep with you.\n\nTo get a §6Research Note§r, open your Thaumonomicon and click on the research you want to study. \nThis consumes 1 paper and a small amount of durability from your §7§lScribing Tools§r, and gives you a §6Research Note§r in return.\n\nThe first research you\u0027ll want to unlock is the §4§k§f§e§d§c§b§8§l§7§lStone Furnace. §r\nThe research for the §l§8§l§7§lStone Furnace§r can be found under the Artifice tab, at the top of the page.\n\nThe next quest will guide you through performing research (more information on research can be found within your §5§2§a§rThaumonomicon)."
         }
@@ -502,7 +502,7 @@
             "Damage:2": 64,
             "tag:10": {
               "copies:3": 0,
-              "key:8": "VANILLAFURNACE",
+              "color:3": 4210752,
               "complete:1": 1,
               "hexgrid:9": {
                 "0:10": {
@@ -548,11 +548,11 @@
                   "hexq:1": 0
                 }
               },
-              "color:3": 4210752
+              "key:8": "VANILLAFURNACE"
             },
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -560,10 +560,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Your First Research",
-          "repeatTime:3": -1,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "Now that have a §6Research Note§r linked to the research you want, you need to study it. To study it. put it in your Research Table, in the free slot next to your §7Scribing Tools.§r\nA sheet of paper for the research you have selected will pop up on the right.\n\nTo complete the research, you must link all of the initial aspects together; to link an aspect to another you need an aspect that is §ncomposed of or a compound§r§n of§r the aspect next to it, also referred to as a parent or child aspect.\nFor the moment, you only know the 6 primal aspects : §l§l§r§l§e§lAer§r -§r §c§lIgnis§r§r - §l§9§lAqua§r - §a§lTerra§r - §8§lPerditio§r - §lOrdo§r .\n\nThey are many more aspects of higher tiers, called §lCompound Aspects§r. To discover higher tier aspects, you can mix two aspects together at the Research Table. \nTo combine aspects at the research table, you need to select two aspects from the list on the left, which will slot them into the two sockets on the bottom left. You can then press the §5purple§r button to try to combine them.\n\n§e§lWARNING :§r§m§r§o Not all combinations will work, and invalid combinations will result in losing the aspect points used. Be sure to follow the guide if you aren\u0027t sure where to go with aspects \u0026 research, as losing too many aspects can make things more challenging. If you run out of primal aspects, those mad thaumaturges running around might still have some fragments of knowledge you could use.\n\n§rFor this first research, the §8§l§7§lStone Furnace§r, we will walk you through it: you have the following 3 starting aspects: §a§lTerr§r§aa§r,§§ §c§lIgnis§r and §8§l§7§l§8§lPerditio§r.\n\nAll three have a §lCompound Aspect§r with Ordo; so you can place one Ordo in the middle of the grid.\nTo place an aspect on the grid, you have to hold left click on an aspect, then drag your cursor over the slot you want on the grid; then release.\n\nKnowing that you can only link aspects by using parent or children aspects, you will have to discover the three §lOrdo§r compound aspects we mentioned earlier.\nThey are the following:\n - §b§lVitreus§r, a compound of §lOrdo§r and §a§lTerra§r\n - §b§0§r§b§lPotentia§r§r, a compound of§l Ordo§r and §c§lIgnis§r\n - §2§lPermutatio§l§r, a compound of §lOrdo§r and §l§8§lPerditio§r\nYou can place these new 3 tier 1 §lcompound aspects§r (primal are considered tier 0), where they need to go to link to their \"children\" aspects.\n\n§b§lVitreus §rwill sit between §a§lTerra §rand §lOrdo, §bPotentia§r will sit between §lOrdo§r and §c§lIgnis§r, and §2§lPermutatio§r will sit between §lOrdo§r and§8§l Perditio.§l§r\n\nIf you did it correctly, the note at the top should roll up into a scroll. Put the scroll in your hand and right click to read the completed §6Research Note§r, which will unlock the entry in your Thaumonomicon. Sometimes, performing new research will unlock new pages and entries under research you\u0027ve already unlocked.\n\nOnce you have unlocked the research for the §8§l§7§lStone Furnace§r, click the checkbox to unlock the next quest."
         }
@@ -590,7 +590,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -598,10 +598,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Stone Furnace",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Finally, you\u0027ve unlocked the secrets to shaping stone, coal, and magic into a §8§l§7§lStone Furnace.§r\n\nThis recipe is special: it is a 3x3x3 §6§6§lMystical Construct§r.\n\nRefer to the diagram within the Thaumonomicon entry for the §8§l§7§lStone Furnace§r to see the blocks you need, as well as the exact structure you need to place them in. Make sure each of the stone slabs are on the \"bottom\" of each block, as depicted in the diagram. Then, sneak right-click with your wand (with sufficient vis) on the trigger block (for the Stone Furnace, it is the§7§l §nCoal Block§r§r §7§l§n§rin the center§r). \n\nFor this §l§6§lMystical Construct§r, your wand needs 10 §c§lIgnis§r, 10 §a§lTerra§r, 5 §lOrdo§r, and 5 §8§lPerditio§r.\n\r\nAs a reminder, you can fill your Wand by killing mobs while your wand is in your hot bar, or by draining Aura Nodes (Nodes are rare and hard to spot with the naked eye).\n\nIf you placed all the blocks correctly and have enough vis in your wand, it will transform into a Stone Furnace! \n\r\nOnce you\u0027ve made your first furnace, click the checkbox to unlock the next quest.\n\n§4§c§l§n/!\\§r Note that the Stone Furnace needs to be mined with at least an Iron Pickaxe in order to harvest it;§r §n§o§o§o§o§o§r§nMining the furnace with stone tools will §ldestroy§r§o§o§n§r§n it\n§r\n"
         }
@@ -647,7 +647,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -655,10 +655,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Iron Tools",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Now that you have a §8§l§7§lStone Furnace§r, you can now research how to make Iron Tools!\n\nThe research for Iron Tools is located next to the §8§l§7§lStone Furnace§r, under the §6Artifice§r tab of the Thaumonomicon. This research became available once you unlocked the §8§l§7§lStone Furnace§r.\n\nWhen you put the §6Research Note§r into the table, you should see one of the starter aspects marked as a \"?\". This is an undiscovered aspect.\n\nThe new compound aspect you\u0027ll need to complete this research is §7§lMetallum§r, a tier 2 aspect made from §b§lVitreus§r and §a§lTerra§r.\n\nYou\u0027ll have to complete this research on your own; Now that you have discovered §7§lMetallum§r, it should be easy.\n\nTo complete this quest, you\u0027ll need to craft an Iron Pickaxe and an Iron Axe using the Iron Tools research you just performed.\n\nAn Iron Pickaxe is needed for mining the few pieces of Gold ore you need for the next quest.\n\nAn Iron Axe is needed so you can harvest the two magical trees: Greatwood and Silverwood.\n\n§c§l§n/!\\§r Iron tools aren\u0027t super durable (only 20 durability). They\u0027re only used to unlock better materials, so make sure you use them sparingly."
         }
@@ -698,7 +698,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -706,10 +706,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "OR",
           "name:8": "Scanning the World",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "For the final quest of the starting questline, you\u0027ll have to make a §e§l§6Thaumometer§r out of Gold, Shards and Glass.\nThis device allows you to scan items, blocks, entities, yourself, and other players to gain new research aspects; once you\u0027ve scanned something, you can\u0027t scan that same thing again.\n\nTo scan something, you must have discovered all the \"child\" aspects of the aspects contained within.\nFor example: you can scan Snow or Snowballs, as they contain §b§lGelum§r, a compound aspect of §c§lIgnis§r and §7§lPerditio§r. Alternatively, you could combine §c§lIgnis§r and §7§lPerditio§r in the research table to unlock§b§l Gelum§r.\nYou\u0027ve already discovered §b§lPotentia§r, §b§lVitreus§r, §2§lPermutatio§r and §lMetallum§r from your previous research.\n\nHere\u0027s an optimized path to unlock most of the common aspects, up to tier 6, which will allow you to scan most things.\n\n§\n§c§lVictus§r (tier 1)\n- Combine §a§lTerra§r + §b§lAqua§r\n§l§a§lHerba§r (tier 2)\n- Scan a Grass block, or combine §c§lVictus§r + §a§lTerra§\n§r\n§4§\n§\n§r§7§lMortuus§r (tier 2)\n- Combine §c§lVictus §r+ §r§r§7§lPerditio§r\n§\n§l§r§lMotus§r (tier 1)\n- Scan a §nTrapdoor§r, or combine §l§e§lAer §r+ §lOrdo\n§\n§0§1§2§3§4§3§4§5§6§7§8§9§a§a§b§c§d§e§f§4§l§lBestia§r (tier 2)\n- Scan a §nSquid§r, or combine §lMotus§r + §4§l§c§lVictus§r\n§d§\n§7§lSpiritus§r (tier 3) and §7§lVinculum§r (tier 2)\n- Scan § §nSoul Sand§r, or combine §7§lMortuus§r + §c§lVictus§r\n- Scan §nAmber§r, or §rCombine §lMotus§r + §7§lPerditio§r\n§6§lCognitio§r (tier 4)\n- Scan §l§r§nPaper§r, or combine §7§lSpiritus§r + §c§lIgnis§r\n§b§lSensus§r (tier 4)\n- Scan §nFlowers§r or §nInk§r, or combine §7§lSpiritus§r + §e§lAer§r\n§lHumanus§r (tier 5)\n- Scan §nRotten Flesh§r, or combine §6§lCognitio§r + §4§lBestia§r\n§9§lInstrumentum§r (tier 6)\n- Scan §nFlint§r or a §nTable§r, or combine §lHumanus§r + §lOrdo§r\n\nYou can now scan almost everything, which will unlock even more §lcompound aspects§r. If you are still missing some aspects after scanning a bunch of stuff, try discovering them on your own, or google it to find the last ones.\n\nYou can scan yourself by hovering over your character with your §6T§6haumometer§r in your inventory. You can scan items in an inventory by hovering over an item in an inventory with your §6Thaumometer§r. You can scan everything in a Chest at once by sneaking and scanning the Chest. Scanning nodes will grant you aspect points for each of the vis types in that node, so if you run low on aspects, go on a journey to find some new nodes.\n\nYou are free to continue researching and exploring on your own, or you can continue to the next questline to guide you through the mid-game (unlocking Alchemy \u0026 Infusion)."
         }
@@ -750,7 +750,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -758,10 +758,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Bubble bath !",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Let\u0027s introduce you to alchemy / cauldron crafting !\nTo obtain a §7§lCrucible§r, you\u0027ll need to use you wand on a mundane cauldron.\n\nIt works like it\u0027s conterpart needing water for operations ; but it will also need some strong heat source beneath it to make the water boiling.\nSome §c§lLava§r will do the work for now, beware to not burn everything around it !\nYou can see that the water is boiling by looking at the bubbles poping at the water\u0027s surface.\n\nAs always for all the quests, you can find some more information in your Thaumonomicon, by reading your completed researchs.\n\n\n§9§n§b§n§a§6§a§d§6§3§n- Tips for clumsy Thaumaturges :§r§r \n\nPutting too much aspects in your cauldron will cause it to overflow and spread §d§lFlux§r (baaad) around it.\n\nThe best way to deal with it, first is to empty your cauldron if you\u0027re done by sneak + right click it with your wand.\n\nIf it did spread some Flux, take a water bucket and replace each Flux bloc with the water source, then regrab it with your bucket.\n\nIf you don\u0027t take care of Flux, it will start to corrupt your biome and blocks and spawn bad mobs ..."
         }
@@ -801,7 +801,7 @@
             "Damage:2": 1,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -809,10 +809,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Peaceful fire",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "For your first craft with the cauldron, you\u0027re going to need to research the Nitor (in the alchemy tab, aright to the center).\nOnce your research is done, you can have a look at the recipe :\nIt asks to throw a Glowstone in a Crucible with 5 §c§lIgnis§r, 8 §e§lLux§r and 5 §9§l§b§lPotentia§r.\n\nSome time before, you were ask to make a §rThaumometer to scan items and blocks ;\nSo you can see that, for exemple, a Grass block contains 1 §a§a§lTerra§r and 1§a§l Herba§r, if you throw 1 Grass in a hot Crucible it will consume the item and transfer it\u0027s aspects to the Crucible.\nSo if you throw 5 Grass blocks, the Cauldron will contain 5 Terra and Terra.\n\nWe\u0027ll help you for this first one : you can find the needed aspects in §l§nCoal§r and §l§nTorches§r.§r\nYou just have to drop the right amount of them in the Crucible, and then drop 1 Glowstone Powder (the item shown on the crucible recipe) when all the needed aspects are present in the Crucible.\n\nNow you just made a Nitor ! It\u0027s a magical light source than can be placed in the world.\nIt also emits some formidable heat, enough to heat a Crucible to make the water boils : safer than Lava !"
         }
@@ -852,7 +852,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -860,10 +860,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Fuel or Explosive ?",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "An Alumentum is an unstable material that can burn twice the items that coal can in a Furnace.\nIt can also be thrown on blocks with right click to trigger a small explosion.\n\n§l§7§lPerditio§r can be found easily in Cobblestone, Sand or Gunpowder\n\nThe research can be found below the Nitor\u0027s one."
         }
@@ -903,7 +903,7 @@
             "Damage:2": 2,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -911,10 +911,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Better than Iron",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Thaumium is one of the most useful materials in Thaumcraft ; you can make decent armor and tools with it : the pickaxe got 400 durability to get rid of the scrappy Iron pick.\nThe Thaumium tools also got the mining level of the Diamond pick ; that means it can harvest Obsidian and Glowstone easily.\n\nFor making the tools, you would also need the Greatwood Wand Core research in the wandcraft tab ; you can\u0027t use mundane wood sticks to craft them.\nThe Crucible recipe needs §d§d§d§l§l§l§5§5§5§l§l§lPraecantatio§r§r§r. This aspect can be hard to find : \nIt can be found in big amounts in Greatwood/Silverwood logs (will need at least an iron axe).\nYou will discover later some other resources that got this aspect ; be sure to scan everything new you discover !\n\nThe research can be found below at the center-bottom of the Alchemy tab.\nIf it\u0027s not visible yet, try scanning more things in the world."
         }
@@ -960,7 +960,7 @@
             "Damage:2": 1,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -968,10 +968,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Liquid Aspects",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "The next step will focus on Essentia : this mechanic allows for extracting aspects from items and putting it in a liquid form.\n\nYou will need to research §l§7§lEssentia Distillation§r§r§r, then to craft the Alchemical Furnace and between 1-5 Alembics.\n\nTo make the furnace working, put the furnace down and a pile of maximum 5 alembics on top of it.\nIn the furnace\u0027s interface, the top slot is for items to \"burn\", and the bottom one for burnables.\nThe progress bar is at the right, and the internal storage of Essentia is at the left ; if it\u0027s internal buffer is full you won\u0027t be able to burn new items down.\n\nThe essentia will then be extracted to the different alembics at the top :\nEach alembic can store a maximum of 32 of one unique essentia aspect, that means you can only extract a maximum of 5 different unique aspects at the same time from the furnace.\n\nFinally, the essentia can be extracted from the alembics by using pipe network linked to Warded jars ; but the easiest and quickest way is to right click the alembics will a Jar or a Phial in your hand."
         }
@@ -1041,7 +1041,7 @@
             },
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1049,10 +1049,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Making Essentia",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Let\u0027s show your skill ! For this quest you will make a jar filled with 64 §l§a§lTerra§r, and a Phial of §l§7§lPerditio§r.\n\nThe Goggles of Revealing can be used for seeing that aspect is present in the Alembics.\nYou can empty an alembic by sneak right-clicking it with an empty hand ; the same also works for Jars !"
         }
@@ -1092,7 +1092,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1100,10 +1100,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Seeing the invisible",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Did you always want to see what aspects are currently present in your cauldron when failing a recipe ? Or seeing what aspects there\u0027s in a node while tapping it ?\n\nYour wishes are exhausted ! The research for these Goggles can be found in the Artifice Tab, next to the Thaumometer.\n"
         }
@@ -1174,7 +1174,7 @@
             },
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1182,10 +1182,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "A better wand !",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "This mundane wood and iron wand is starting to be all rusty ... An that vis penality of 10% is really annoying !\n\nDoing some researchs in the Thaumaturgy tab, you discovered some new wand cores and caps to make a better wand for the time being !\n\nA wand made of §n§l§4§lGreatwood§r and capped with §l§e§lGold§r is cheap, have no penalty of vis cost and a good vis storage of 50, double the one from your old wand.\n\nCaps adds only for vis cost reduction, and Wand cores for vis storage \u0026 wand passive abilities."
         }
@@ -1231,7 +1231,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1239,10 +1239,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Decent tools",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Being tired of using these scrappy iron tools that break super quickly ? Thaumium tools cost a bit more but they have 400 durabilty !\n\nYou will need Greatwood Wand Cores to make the tool rod, and of course a good amount of Thaumium.\n\nNow that you got a durable axe, you can make your hands on huge quantities of §5§lPraecantatio§r for making even more Thaumium if needed !\nThe full armor and sword are also decent till you reach mid-game.\nBe aware that diamond tools break on the first hit, some equivalent tools will be discovered later with the same durability as diamond."
         }
@@ -1300,7 +1300,7 @@
             "Damage:2": 2,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1308,10 +1308,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Matrix Infusion",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "There you are, reaching the most important crafting mechanic of Thaumcraft : Infusion.\n\nYou will need to craft all components first, as indicated on this quest, and some more pedestals (a multiple of 4).\nRead carefully the research and put together blocs as shown on the Mystical Construct. Once it\u0027s done, check your wand has enough vis and right click the Matrix bloc with it, and tada !\nThe 4 pillars should form, and the Matrix bloc will start turning on itself and moving.\n\nDepending on your needs, you will need a certain number of pedestals around your Matrix ; you always should put them following a symmetry (that\u0027s why we asked to get a multiple of 4).\nAny non-symmetric placement of pedestals and/or stabilizers (candles, mob heads ...) will result in more instability.\nMatrix instability will cause odd things to occur while doing an Infusion recipe : items jumping of pedestals or disappearing, asking for more Essentia, or worse ...)\n\nTo realize an Infusion, first research anything that will use it, like the Enhanced Thaumium Tools at the left of the Infusion one.\n- The item at the center will be placed under the Matrix bloc on the pedestal.\n- Items circling around it need to be put on the pedestals around (placing them is the most symmetrical way possible helps with instability)\n- Aspects are needed in the form of Essentia stored in recipients (their placement doesn\u0027t influence instability)\n- And the fourth parameter : Instability. Each recipe got it\u0027s own instability factor.\nThey are : Negligeable, Minor, Moderate, High, Very High and Dangerous.\nThe current stability value of your matrix can be known using some special device. Try scanning your moving block of Matrix, maybe you\u0027ll discover something !"
         }
@@ -1363,7 +1363,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1371,10 +1371,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Vis cost reduction",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "A good §n§l§r§lVis Cost Reduction§r keeps all Thaumaturge happy !\n\nWhen you put your cursor on your wand in your inventory, next to the maximum vis storage you can find a value written like \"§7§l§c§l§r§l (avg vis cost 100 %)§r \"\nThe % value tells you how much vis will cost any craft based on it\u0027s original recipe.\nIron caps give 110% vis cost, and Gold caps give 100% ; you\u0027ll discover some better caps later with researchs.\n\nOther items like armor and wearables can give Vis cost reduction ; you already got one ! Have a look at your Revealing Goggles.\nIf you got a Wooden wand (110% cost) and Goggles (5% reduction) put on : the vis cost will be §n110-5 \u003d §l105%§n§r avg vis cost.\n\nIn the Artfice tab you can find a research about §b§lEnchanted Fabric§r, not too far from the Thaumometer research.\nThis research give access to a new magic item, used to make some Vis cost reduction armor (more like a robe \u003d almost no defense).\n\nWhen wore fully, this armor set gives 5% vis cost reduction + 5% from the goggles results in 10% with the 4 slots occupied !"
         }
@@ -1414,7 +1414,7 @@
             "Damage:2": 0,
             "OreDict:8": "enhancedThaumiumTools"
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1422,10 +1422,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Diamond Pickaxe ! Oh wait ...",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "You finally built your matrix and reached mid-game ! \nTo be sure you actually built it, we\u0027ll ask for you to research and make one of the 5 Enhanced Thaumium Tools of your choice.\n\nHaving a little bit more Essentia than asked and replacement side-items is good practice, in case your recipe becomes unstable and something bad happens.\n\nThese researchs should show on the left from the Infusion research in the Artifice tab.\nIf you don\u0027t see any of them, try to go in the bottom left corner of the Thaumaturgy tab, and do a bit of research until you reach one named \"Magic Staves\".\nThe enhanced Thaumium magic tools require you to research that special staff, that will act as the Stick for these tools !\n\n §lGood luck and welcome to §6§lMid-Game §r§lThaumaturge !"
         }
@@ -1460,7 +1460,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1468,12 +1468,12 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Tool Durability",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
-          "desc:8": "In this pack, most Vanilla tools and armor have had their durability edited. For example:\n\n- §lIron§r Tools have 20 Durability.\n- §e§lGold§r and §b§lDiamond§r Tools have 1 Durability.\n- §l§4§lBows§r, §lIron§r§§, §e§lGold§r and §b§lDiamond§r Armor have 10 Durability.\n- §d§5§lThaumium§r Tools have 400 durability. \nOther stronger tools and materials will be discovered as you delve deeper into Thaumic Industries!"
+          "desc:8": "In this pack, most Vanilla tools and armor have had their durability edited. For example:\n\n- §lIron§r Tools have 20 Durability.\n- §e§lGold§r and §b§lDiamond§r Tools have 1 Durability.\n- §l§4§lBows§r, §lIron§r§§, §e§lGold§r and §b§lDiamond§r Armor have 10 Durability.\n- §d§5§lThaumium§r Tools have 400 durability. \nYou will discover stronger tools and materials as you delve deeper into Thaumic Industries!"
         }
       },
       "questID:3": 24,
@@ -1496,7 +1496,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1504,10 +1504,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Enchanting (Expert changes)",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "In this pack, accessing Enchanting is much harder than usual and has been pushed further into mid-game.\n\n- In the early-game, the most you can do is combine looted Enchanted Books and Tools in an §7§l§8§l§7§lAnvil§r.\n- §rOnce you\u0027ve reached mid-game after doing a bit of research, §7§lMatrix Infusion Enchantning §rcan be used.\n- In the late mid-game, the vanilla §7§l§c§lEnchanting Table§r can be researched once the player has enough warp.\n- In the late-game, the §c§lOsmotic Enchanter§r can be used.\n\nThere are multiple options for anvils in this pack:\n- Vanilla §7§lIron Anvil§r for early-game, works as usual.\n- §5§lThaumium Anvil§r from §nThaumic Bases§r (bottom right corner), accessible just after unlocking Thaumium - deletes the increasing cost of repairs.\n-§5§d§l§5§l Void Metal Anvil §rfrom §nThaumic Bases§r, accessible in the late-game. All repairs and enchanting done will always cost 7 levels, and the anvil will repair itself whenever the block is updated."
         }
@@ -1532,7 +1532,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1540,10 +1540,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Nether Changes",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "The Nether has been changed drastically in terms of Mob AI and Ore Generation. You can now find the following in the Nether:\n\n- Nether Ores that provide double the overworld ore output.\n- Nether Shard Ores with their own research tab and pretty decent output.\n\nBe warned, this dimension is now very dangerous, and trying to harvest its ores will drive the native inhabitants into a frenzy. Good luck, and mine responsibly (or not, your call)."
         }
@@ -1568,7 +1568,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1576,12 +1576,12 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Research (Expert changes)",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
-          "desc:8": "When beginning your research, you shouldn\u0027t treat it as your usual Thaumcraft playthrough, as you won\u0027t have access to your Thaumometer before doing some crucial research.\nDue to the expert nature of this modpack, we highly advise following the questline and these following instructions:\n\n- Do not make §lCompounds Aspects§r unless you are asked to as part of a quest until you finish the First Steps questline, or if you know what you\u0027re doing.\n- Research the §n§nStone Furnace§r§r, then §n§nIron Tools§r§r.\n- Once you craft the Thaumometer, you can safely make compound aspects and perform whatever research you\u0027d like.\n- Research §n§nNitor§r§r, §n§nAlumentum§r§r and §n§nThaumium§r§r as usual, then you can research the Alchemical Furnace and Infusion.\n\nThis note is mostly dedicated to experienced players so that they don\u0027t run out of aspects at the start of their playthrough. If you do run out of aspects, kill some Mad Thaumaturges or loot some structures to get Knowledge Fragments.\n\nThe questlines explain how to reach mid-game (Matrix Infusion) through the expert changes."
+          "desc:8": "When beginning your research, you shouldn\u0027t treat it like your usual Thaumcraft playthrough, as you won\u0027t have access to your Thaumometer before doing some crucial research.\nDue to the expert nature of this modpack, we highly advise following the questline and these following instructions:\n\n- Do not make §lCompounds Aspects§r unless you are asked to as part of a quest until you finish the First Steps questline, or if you know what you\u0027re doing.\n- Research the §n§nStone Furnace§r§r, then §n§nIron Tools§r§r.\n- Once you craft the Thaumometer, you can safely make compound aspects and perform whatever research you\u0027d like.\n- Research §n§nNitor§r§r, §n§nAlumentum§r§r and §n§nThaumium§r§r as usual, then you can research the Alchemical Furnace and Infusion.\n\nThis note is mostly dedicated to experienced players so that they don\u0027t run out of aspects at the start of their playthrough. If you do run out of aspects, kill some Mad Thaumaturges or loot some structures to get Knowledge Fragments.\n\nThe questlines explain how to reach mid-game (Matrix Infusion) through the expert changes."
         }
       },
       "questID:3": 27,
@@ -1612,7 +1612,7 @@
             },
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1620,10 +1620,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "List of All Scanned Items",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "In this pack, there are two ways to see all of the items you\u0027ve scanned that contain a specific Aspect.\n\n§o(This note is for players who have crafted the §6§l§n§l§r§6§o§lThaumometer§r)\n\n- In your Thaumonomicon, in the research titled \"§nAspects of Magic§r\" at the center of§o§r§n Basic Information§r tab.\nHere, you\u0027ll find a list of all the aspects you have discovered so far. If you hover your cursor over an aspect in this list, it will show you all of the items you\u0027ve scanned that contain that aspect, and how much of that aspect is within that item.\n\n- When typing \"§n@NEI§r\" in your inventory\u0027s searchbar, you will get the list of all aspects. (\"?\" means an aspect not yet discovered)\nIf you right-click or press U on an aspect of your choice, a tab will open showing parent aspects for that aspect.\nIf you left-click or press R on an aspect of your choice, a tab will open showing you all of the items you\u0027ve scanned that contain that aspect, as well as the names of those items, and because you\u0027re in NEI, you can look at the recipes involving those items as well."
         }
@@ -1648,7 +1648,7 @@
             "Damage:2": 2,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1656,10 +1656,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Node Tracker",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Keeping track of all the Aura Nodes you encounter on your journeys can be challenging.\n§7§o(This note is for players who have crafted §e§l§o§6§l§oGoggles of Revealing§7)§r\n\nOnce you have scanned an Aura Node, you can find it again easily if you are wearing any kind of §6Goggles of Revealing§r.\n\nIf you press \"I\", a menu will open with a list of all the nodes you have scanned; you can select a node by clicking the \"Mark\" button next to a node in the list. This will create an arrow at the top of your screen leading you to that node.\nTo remove the arrow, just return to the Node Tracker menu and press \"Clear Arrow\" at the top.\n\nBe aware that if you delete a node from this menu, you can\u0027t add it back to the list because you can\u0027t scan the same node/item twice."
         }
@@ -1684,7 +1684,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1692,10 +1692,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "New Mob AI",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "Keeping in line with the expert nature of this modpack, many mobs have had their AI greatly enhanced, and many mobs have new abilities.\n\nBe extra careful when dealing with mobs, and be warned that for most of early and midgame, the mobs will be hunting you instead."
         }
@@ -1721,7 +1721,7 @@
             "tag:10": {},
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": 10,
           "isSilent:1": 1,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1729,10 +1729,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Quests update",
-          "repeatTime:3": 10,
-          "autoClaim:1": 0,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 0,
           "globalShare:1": 0,
           "desc:8": "This quest allows you to load the§n§r §nNew Questlines§r (if there are any), after a modpack\u0027s update.\n\nTo run the command, you will need to check the button, then claim the quest. (It can be claimed multiple times, no worries)\n\n - - -\n\n§c§n§l/!\\§r Don\u0027t run this command if you\u0027re playing on a §9§bServer§r and you aren\u0027t the owner/admin !\n\n -\u003e This will very likely §c§lcrash§r your game.\n\nIf you\u0027re playing on §bLAN§r, run the command §nbefore§r opening the game to §bLAN§r, or it will also likely §c§lcrash§r your game."
         }
@@ -1765,7 +1765,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1773,10 +1773,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Bug Reports",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "If you encounter any bugs or issues during your playthrough, you can report them via:\n\n- CurseForge Comments\n- GitHub issues tracker\n- Discord server\n\nThe best place to report issues is on GitHub, as it keeps an archive of all work done and bugs fixed.\n\nI\u0027m also very hyped to hear your feedback on the pack, you can talk with the Dev team on the Discord server! :-)"
         }
@@ -1801,7 +1801,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1809,10 +1809,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Custom Harvest Level",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "This modpack uses §nCustom Harvest Levels§r on most utility blocks: this means that in order to harvest a block, you will need a §nSpecific Tool§r with a §nSpecific Mining Level§r.\nFor example, a Chest will only drop when harvested with at least a Stone Axe.\n\nThe WAILA UI at the top of your screen properly displays this information. When you look at a block while sneaking, it will display 2 important things:\n\n- If the block is §nCurrently Harvestable§r; The checkmark will go green if you have the §nCorrect Tool AND Mining level§r.\n- The type of tool needed to harvest the block; It will only show the type needed (Shovel, Pickaxe, Axe, etc), and not the Mining Level.\n\nSome other natural blocks like Diamond Ore, Greatwood Logs, and Glowstone have had their mining level adjusted as well.\n\nDirt, sand, and gravel must be mined using a shovel; mining it with the wrong tool won\u0027t drop anything.\n\nThe full list can be found in the GitHub under path §o§r\"§7§e§6§6info§r/§7§6harvest-levels.txt§r\"."
         }
@@ -1838,18 +1838,18 @@
             "tag:10": {
               "ench:9": {
                 "0:10": {
-                  "id:2": 35,
-                  "lvl:2": 1
+                  "lvl:2": 1,
+                  "id:2": 35
                 },
                 "1:10": {
-                  "id:2": 21,
-                  "lvl:2": 1
+                  "lvl:2": 1,
+                  "id:2": 21
                 }
               }
             },
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1857,10 +1857,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "How to Support Us",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "If you really love the pack and can afford to give us a little something, there\u0027s two main ways to support the development:\n\n- Donate through GitHub / CurseForge / Discord link (all links go to GitHub Sponsors).\n- Use the discount for Wabbanode server hosting, via the blue banner on the modpack\u0027s curseforge page.\n\nReally huge thanks and hugs if you chose to support the pack financially \u003c3"
         }
@@ -1885,7 +1885,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1893,10 +1893,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Bagpacks",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "We chose not to include Iron Backpacks in this modpack because of how easy it makes it for players to carry around a huge amount of items.\n\nThe only option for expanding your inventory in this pack is by using §d§lBags of Tricks§r from §nWitching Gadgets§r, or by using the Traveling Trunk from Thaumcraft.\n\nThe research for the §d§lBag of Tricks§r can be found at the bottom right of the §nWitching Gadgets§r tab, linked to the Spinning Wheel.\n\nIf you find your inventory filling up with Botania Flowers, you can craft a Flower Pouch using 5 wool and 1 Mystical Petal."
         }
@@ -1921,7 +1921,7 @@
             "Damage:2": 0,
             "OreDict:8": "mundanePlanks"
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1929,10 +1929,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Processing Wood (Expert Changes)",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "The usual recipes for converting Wood Logs into Planks, and Planks into Sticks, have been made much more expensive.\n\nIn the beginning, the best you can do with your bare hands is turn 1 Log into 1 Plank and 2 Planks into 1 Stick.\n\nA new Thaumonomicon tab titled \"Lumberjack\" has been added to make crafting with wood more efficient, so long as you have the research unlocked and the needed tools.\n\nAt the moment, Lumberjack adds the following ways to craft with wood more efficiently:\n\n§l -§r Using the§l Workbench\n -§r Using your wand; §lArcane§r (Wandcraft)§l\n - §rUsing the§l Crucible\n§r\nThe more you progress through the Lumberjack tab, the more efficiently you can process wood. You can even eventually produce more planks per log than in Vanilla!"
         }
@@ -1957,7 +1957,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -1965,12 +1965,12 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Food (Expert Changes)",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
-          "desc:8": "In this modpack, you really only want to eat proper food and cooked meat.\n\nTrying to eat uncooked, rotten or brainy meat will make you really sick.\n\nOn the other hand, rare meats will grant special beneficial effects when cooked!\n\n\nOnce you have access to a Thaumonomicon, the §eMystical Construct§r recipe for the §cCampfire§r can be seen atop the Artifice tab in its research ; cooking food in the campfire will give you new alternative grilled food, a bit different from your usual cooked steaks !"
+          "desc:8": "In this modpack, you really only want to eat proper food and cooked meat.\n\nTrying to eat uncooked, rotten or brainy meat will make you really sick.\n\nOn the other hand, rare meats will grant special beneficial effects when cooked!\n\nOnce you have access to a Thaumonomicon, the §e§6Mystical Construct§r recipe for the §cCampfire§r can be found at the top of the Artifice tab. Cooking food on a campfire will create grilled food. Grilled food provides less saturation than standard cooked food, but will grant a potion effect based on the grilled meat."
         }
       },
       "questID:3": 37,
@@ -1993,7 +1993,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -2001,10 +2001,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Twilight Forest Changes",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "The §d§5Twilight Forest§r has not been changed much, apart from the following:\n\n - The §l§e§lUncrafting Table\u0027s §rability to reverse-craft items has been disabled.\n - The portal to the §5Twilight Forest§o§o§r won\u0027t open with a diamond as usual; you\u0027ll need to research a new catalyst item in the §l§7§lArtifice§r tab, after unlocking Infusion in the mid-game.\n\nAlmost all of the blocks and items have had their aspects revised to fit with the balancing of an Expert Modpack."
         }
@@ -2029,7 +2029,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "repeatTime:3": -1,
           "isSilent:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "isMain:1": 0,
@@ -2037,10 +2037,10 @@
           "repeat_relative:1": 1,
           "questLogic:8": "AND",
           "name:8": "Dynamic Lights",
-          "repeatTime:3": -1,
-          "autoClaim:1": 1,
-          "taskLogic:8": "AND",
+          "snd_complete:8": "minecraft:entity.player.levelup",
           "simultaneous:1": 0,
+          "taskLogic:8": "AND",
+          "autoClaim:1": 1,
           "globalShare:1": 0,
           "desc:8": "A Client version of §6§lDynamic Lights§r is present on the modpack!\n\nThis mod was made by a friend (§7§lawesome_hippo§r), and adds dynamic lighting without Optifine and without trading off any performance!\n\nThe default keys are:\n\n- \"§a§lM§r\", to turn it on/off\n- \"§b§lL§r\", to access the configuration gui"
         }
@@ -2058,14 +2058,14 @@
           "name:8": "First Steps",
           "desc:8": "You\u0027ve stepped into a new world, but you\u0027ll soon discover that the rules aren\u0027t what you\u0027re used to.\n\nYou should make the most of the daylight while you have it; you sense that night here is unforgiving.",
           "visibility:8": "NORMAL",
-          "bg_size:3": 256,
+          "bg_image:8": "",
           "icon:10": {
             "id:8": "Thaumcraft:blockTable",
             "Count:3": 1,
             "Damage:2": 15,
             "OreDict:8": ""
           },
-          "bg_image:8": ""
+          "bg_size:3": 256
         }
       },
       "quests:9": {
@@ -2163,14 +2163,14 @@
           "name:8": "Alchemy",
           "desc:8": "Now that you know how to perform research and have your first wand, you can begin the next steps into Alchemy. With your new friend the Crucible, new crafting recipes and Essentia manipulation will carry you into the midgame.",
           "visibility:8": "NORMAL",
-          "bg_size:3": 256,
+          "bg_image:8": "",
           "icon:10": {
             "id:8": "Thaumcraft:blockMetalDevice",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "bg_image:8": ""
+          "bg_size:3": 256
         }
       },
       "quests:9": {
@@ -2268,14 +2268,14 @@
           "name:8": "Information",
           "desc:8": "This section contains general information about the pack, including some of the basic changes.",
           "visibility:8": "NORMAL",
-          "bg_size:3": 256,
+          "bg_image:8": "",
           "icon:10": {
             "id:8": "minecraft:writable_book",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "bg_image:8": ""
+          "bg_size:3": 256
         }
       },
       "quests:9": {
@@ -2395,13 +2395,13 @@
       "home_offset_x:3": -500,
       "home_image:8": "tc:textures\\gui\\main_title.png",
       "livesDef:3": 3,
-      "pack_name:8": "",
-      "hardcore:1": 0,
-      "editMode:1": 0,
-      "party_enable:1": 1,
       "pack_version:3": 0,
-      "home_anchor_y:5": 0.0,
-      "home_offset_y:3": 0
+      "party_enable:1": 1,
+      "editMode:1": 1,
+      "hardcore:1": 0,
+      "pack_name:8": "",
+      "home_offset_y:3": 0,
+      "home_anchor_y:5": 0.0
     }
   },
   "format:8": "2.0.0"

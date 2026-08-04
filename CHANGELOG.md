@@ -20,20 +20,24 @@
     3.1.1
 # QoL and Patchs minor update
 
+WARNINGS :
+- Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
+
 ## Mods updated :
--TC4Patched
+- TC4Patched
 
 ## Bugs patched :
 - Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs
 - Excavation Focus and Primal Crusher are now able to harvest blocks properly
 - Thaumaturges and Guards won't have beef anymore when simply looking at each other
 
+## Expert changes :
+- Set entropy fog inside Dark Shrine to be more intense
+
 ## Gameplay modifications :
 - Set a new simple recipe for Sanguim Scientem guide book
 - Greatwood, Silverwood and Warpwood Leaves now decay faster, like the other trees
-
-## Expert changes :
-- Set entropy fog inside Dark Shrine to be more intense
+- Tweaked some texts in quests
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
