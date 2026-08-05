@@ -105,12 +105,15 @@ mods.thaumcraft.Research.addResearch("IRONTOOLS",
 /* Complexity                     */ 1,
 /* ItemStack                      */ <minecraft:iron_pickaxe>);
 game.setLocalization("tc.research_name.IRONTOOLS", "Iron Tools");
-game.setLocalization("fr_FR", "tc.research_name.IRONTOOLS", "Outils en Fer");
 game.setLocalization("tc.research_text.IRONTOOLS", "Finally I can mine gold ...");
-game.setLocalization("fr_FR", "tc.research_text.IRONTOOLS", "Je peux enfin miner de l'or ...");
-mods.thaumcraft.Research.addPage("IRONTOOLS", "tnmx.artifice.irontools_1");
 game.setLocalization("tnmx.artifice.irontools_1", "This furnace is a bit slow, but still a blessing ! I can finally get my hand on some iron bars.<LINE>This metal is in fact pretty weak, but I need some mining tool to get the gold I need for my researchs ...<BR>So I started drawing and figured I can mine a few blocks with an iron pickaxe infused with some aspects from my wand to strengthen it.<BR>I can also make other weak tools with these bars");
+game.setLocalization("fr_FR", "tc.research_name.IRONTOOLS", "Outils en Fer");
+game.setLocalization("fr_FR", "tc.research_text.IRONTOOLS", "Je peux enfin miner de l'or ...");
 game.setLocalization("fr_FR", "tnmx.artifice.irontools_1", "Ce four est un lent a cuire les minerais, mais il reste tres utile ! Je peux enfin obtenir quelques lingots de fer.<LINE>Malheureusement ce materiau est assez fragile et peu vigoureux, mais il me faut absolument de quoi miner le peu d'or dont j'ai besoin pour mes recherches ...<BR>J'ai ainsi commence a travailler dessus ; le resultat est une pioche en fer renforcee avec les aspects de ma baguette magique ; qui ne pourra miner que quelques blocs. D'autres outils peuvent egalement etre fabriques avec ces lingots.");
+game.setLocalization("ru_RU", "tc.research_name.IRONTOOLS", "Железные инструменты");
+game.setLocalization("ru_RU", "tc.research_text.IRONTOOLS", "Наконец-то я могу добывать золото...");
+game.setLocalization("ru_RU", "tnmx.artifice.irontools_1", "Эта печь слишком медленно плавит руду, но всё равно очень полезна! Наконец-то я могу получить несколько железных слитков.<LINE>К сожалению, этот материал довольно хрупкий и непрочный, но мне совершенно необходимо чем-то добыть то небольшое количество золота, которое нужно для моих исследований...<BR>Итак, я принялся за работу; в результате получилась железная кирка, усиленная аспектами моей волшебной палочки, которая сможет добыть лишь несколько блоков. Из этих слитков также можно изготовить и другие инструменты.");
+mods.thaumcraft.Research.addPage("IRONTOOLS", "tnmx.artifice.irontools_1");
 // Adding the crafts
 // Iron Pickaxe (3.2 Iron + 2 sticks)
 mods.thaumcraft.Arcane.addShaped("IRONTOOLS",
