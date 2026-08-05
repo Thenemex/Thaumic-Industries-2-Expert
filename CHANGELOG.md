@@ -24,7 +24,7 @@ WARNINGS :
 - Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
 
 ## Mods updated :
-- TC4Patched
+- TC4Patched, TCI:Core
 
 ## Mods downgraded :
 - Gadomancy GTNH
@@ -36,6 +36,7 @@ WARNINGS :
 - Thaumaturges and Guards won't have beef anymore when simply looking at each other
 
 ## Expert changes :
+- Enhanced Flint and Steel into an arcane recipe, in its own separate research
 - Set entropy fog inside Dark Shrine to be more intense
 
 ## Gameplay modifications :
