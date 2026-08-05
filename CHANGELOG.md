@@ -26,9 +26,13 @@ WARNINGS :
 ## Mods updated :
 - TC4Patched
 
+## Mods downgraded :
+- Gadomancy GTNH
+
 ## Bugs patched :
 - Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs
 - Excavation Focus and Primal Crusher are now able to harvest blocks properly
+- Ethereal Familiar infusion recipes are now working back
 - Thaumaturges and Guards won't have beef anymore when simply looking at each other
 
 ## Expert changes :
