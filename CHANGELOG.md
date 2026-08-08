@@ -21,7 +21,7 @@
 #
 
 ## Mods added :
-- ServerUtilities - GTNH
+- ServerUtilities - GTNH // ToDo Config
 
 ## Mods updated :
 - TC4:Patched, TCI:Core
