@@ -94,6 +94,10 @@ mods.thaumcraft.Research.addPrereq("ALTERNATIVELEATHER", "EARLYCOOKING", false);
 // Prereqs
 mods.thaumcraft.Research.addPrereq("CAMPFIRE", "EARLYCOOKING", false);
 
+# Flint and Steel
+// Prereqs
+mods.thaumcraft.Research.addPrereq("FLINTANDSTEEL", "IRONTOOLS", false);
+
 # Iron Tools
 recipes.remove(<minecraft:iron_pickaxe>);
 recipes.remove(<minecraft:iron_axe>);
