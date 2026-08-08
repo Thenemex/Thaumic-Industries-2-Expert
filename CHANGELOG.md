@@ -25,6 +25,7 @@
 
 ## Bugs patched :
 - Wand Focus : Excavation with Enlarge upgrade is now working properly
+- Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
