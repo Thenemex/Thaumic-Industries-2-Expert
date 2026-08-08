@@ -20,12 +20,19 @@
     3.1.1.1
 #
 
+## Mods added :
+- ServerUtilities - GTNH
+
 ## Mods updated :
 - TC4:Patched, TCI:Core
 
 ## Bugs patched :
 - Wand Focus : Excavation with Enlarge upgrade is now working properly
 - Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs
+
+## Gameplay modifications :
+- Added back the UI from FTB Utilities, with claimable chunks & such
+- Linked Flint and Steel research to Iron Tools
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
