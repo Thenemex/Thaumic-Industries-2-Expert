@@ -11,16 +11,12 @@
 		"name": "",
 		"reverse": false
 	},
-	"serverutilities.stat.time_afk": {
-		"name": "",
-		"reverse": false
-	},
 	"stat.jump": {
 		"name": "",
 		"reverse": false
 	},
-	"example.Stat || Full list of usable stats can be dumped with /dump_stats": {
-		"name": "The name that appears in the gui, leave empty/remove for default",
-		"reverse": "(true || false) whether lower numbers should appear highest in the leaderboard"
+	"stat.walkOneCm": {
+		"name": "",
+		"reverse": false
 	}
 }

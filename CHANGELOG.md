@@ -21,7 +21,7 @@
 #
 
 ## Mods added :
-- ServerUtilities - GTNH // ToDo Config
+- ServerUtilities GTNH
 
 ## Mods updated :
 - TC4:Patched, TCI:Core
@@ -31,7 +31,7 @@
 - Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs
 
 ## Gameplay modifications :
-- Added back the UI from FTB Utilities, with claimable chunks & such
+- Added back the UI from FTB Utilities, with claimable chunks & leaderboards
 - Linked Flint and Steel research to Iron Tools
 
 ## Installation instructions :

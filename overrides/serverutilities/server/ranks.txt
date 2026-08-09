@@ -3,28 +3,24 @@
 [player]
 default_player_rank: true
 priority: 1
-serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 50
-serverutilities.homes.max: 1
+serverutilities.claims.max_chunks: 10
+serverutilities.chunkloader.max_chunks: 1
+serverutilities.homes.max: 0
 serverutilities.homes.warmup: 5s
 serverutilities.homes.cooldown: 5s
-serverutilities.chunkloader.decay: 2w
-example.permission: true
-example.other_permission: false
-example.permission_with_value: 0
+serverutilities.chunkloader.decay: 12h
 
 [vip]
 priority: 20
 serverutilities.chat.name_format: <&bVIP {name}&r>
-serverutilities.claims.max_chunks: 500
-serverutilities.chunkloader.max_chunks: 100
-serverutilities.homes.max: 25
+serverutilities.claims.max_chunks: 16
+serverutilities.chunkloader.max_chunks: 4
+serverutilities.homes.max: 0
 serverutilities.homes.warmup: 0s
 serverutilities.homes.cooldown: 1s
 serverutilities.homes.cross_dim: true
+serverutilities.chunkloader.decay: 1w
 serverutilities.warps.cross_dim: true
-example.other_permission: true
-example.permission_with_value: 15
 
 [admin]
 default_op_rank: true
@@ -36,6 +32,5 @@ serverutilities.claims.bypass_limits: true
 serverutilities.homes.max: 100
 serverutilities.homes.warmup: 0s
 serverutilities.homes.cooldown: 0s
-serverutilities.homes.cross_dim: true
-serverutilities.warps.cross_dim: true
-example.permission_with_value: 100
+serverutilities.homes.cross_dim: famse
+serverutilities.warps.cross_dim: false

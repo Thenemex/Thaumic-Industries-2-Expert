@@ -1,13 +1,13 @@
 {
 	"serverutilities": {
-		"my_team": true,
-		"settings": true,
-		"admin_panel": true,
-		"toggle.gamemode": true,
-		"toggle.rain": true,
-		"toggle.day": true,
-		"toggle.night": true,
-		"heal": true,
+		"my_team": false,
+		"settings": false,
+		"admin_panel": false,
+		"toggle.gamemode": false,
+		"toggle.rain": false,
+		"toggle.day": false,
+		"toggle.night": false,
+		"heal": false,
 		"claimed_chunks": true,
 		"trash_can": true,
 		"leaderboards": true
