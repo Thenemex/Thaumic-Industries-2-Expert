@@ -37,6 +37,7 @@
 ## Expert changes :
 - Set the chunk claim map background translucent (and removed world map)
 - Set new arcane recipe for Petal Apothecary
+- Removed the potion effect of Ill Fitting from Witchery
 
 ## Gameplay modifications :
 - Added back the UI from FTB Utilities, with claimable chunks & leaderboards
