@@ -18,7 +18,7 @@
 
 
     3.1.1.1
-#
+# Armor Stripping nerf & HLC patches
 
 ## Mods added :
 - ServerUtilities GTNH
