@@ -27,15 +27,20 @@
 - Server Tab Info
 
 ## Mods updated :
-- TC4:Patched, TCI:Core, NemexLib
+- Angelica, TC4:Patched, TCI:Core, NemexLib
 
 ## Bugs patched :
 - Wand Focus : Excavation with Enlarge upgrade is now working properly
 - Golems with Lumber Core can now harvest properly Greatwood and Silverwood logs
+- Added fixes for loading SDL, and fallback to OpenGL if it fails 
+
+## Expert changes :
+- Set the chunk claim map background translucent (and removed world map)
 
 ## Gameplay modifications :
 - Added back the UI from FTB Utilities, with claimable chunks & leaderboards
 - Linked Flint and Steel research to Iron Tools
+- Added some localization for ru_RU
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
