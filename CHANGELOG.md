@@ -23,8 +23,11 @@
 ## Mods added :
 - ServerUtilities GTNH
 
+## Mods removed :
+- Server Tab Info
+
 ## Mods updated :
-- TC4:Patched, TCI:Core
+- TC4:Patched, TCI:Core, NemexLib
 
 ## Bugs patched :
 - Wand Focus : Excavation with Enlarge upgrade is now working properly
