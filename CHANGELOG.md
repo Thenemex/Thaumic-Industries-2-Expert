@@ -36,6 +36,7 @@
 
 ## Expert changes :
 - Set the chunk claim map background translucent (and removed world map)
+- Set new arcane recipe for Petal Apothecary
 
 ## Gameplay modifications :
 - Added back the UI from FTB Utilities, with claimable chunks & leaderboards

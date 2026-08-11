@@ -29,3 +29,15 @@ for i, el_petalBlock in petalBlocksArray {
 // Buried Petals
 for i, el_buriedPetal in buriedPetalsArray {
     mods.thaumcraft.Aspects.set(el_buriedPetal, "herba 2, sensus 1"); }
+
+# Recipes
+// Petal Apothecary
+recipes.remove(<Botania:altar:0>);
+mods.thaumcraft.Arcane.addShaped("ARCANESTONE",
+/* Output                     */ <Botania:altar:0>, // Petal Apothecary
+/* Aspects                    */ "terra 120, aqua 55, ordo 20",
+/* InputArray                 */ [[<Thaumcraft:blockCosmeticSlabStone>, <Botania:petal:32767>, <Thaumcraft:blockCosmeticSlabStone>],
+                                  [null, <Thaumcraft:blockCosmeticSolid:7>, null],
+                                  [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:blockCosmeticSolid:6>]] );
+mods.thaumcraft.Research.addArcanePage("ARCANESTONE", <Botania:altar:0>);
+// ToDo Lock behind infusion with a new recipe
