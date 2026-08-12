@@ -3,3 +3,6 @@
 
 # Local files
 IDEAS.txt
+# Prism instance build
+dist/
+.build-prism/
