@@ -1,5 +1,6 @@
 
 
+
     3.1.1.
 #
 
@@ -17,10 +18,36 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.1.1.2
+# Nether patchs & Witchery nerfs
+
+## Mods updated :
+- Angelica, TC4:Patched
+
+## Bugs patched :
+- Raise Land potion brew cannot lift Bedrock anymore
+- Fixed the sign GUI texture gone pink and missing
+- Dark Shrine generation sometimes used to freeze the server main thread
+- Added fixes for SDL loading
+
+## Expert changes :
+- Tweaked the fog intensity inside a nether Dark Shrine
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/JrfCRJf49J) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     3.1.1.1.1
 # Broken scripts patch
 
-## Mods updated
+## Mods updated :
 - TCI:Core
 
 ## Bugs patched :
