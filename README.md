@@ -13,10 +13,8 @@ Link to the RDG discord server : https://discord.gg/JrfCRJf49J
 Download `TCIe.<version>_Java_25.zip` from the [releases](https://github.com/Thenemex/Thaumic-Industries-2-Expert/releases) page and drag it into the Prism Launcher window. Java 25 installs itself on first launch.
 
 Build it with `node scripts/build-prism.js --source <prism-instance-dir>`.
-### Mod-list
-https://www.curseforge.com/minecraft/modpacks/thaumic-industries-2-expert/relations/dependencies
 
-### Helpers, Authors & Content Creators
+## Helpers, Authors & Content Creators
 Project currenlty leaded by Thenemex, inside of RoughDayGames development group.
 
 Founders of the pack :
