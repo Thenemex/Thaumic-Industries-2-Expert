@@ -22,7 +22,10 @@ Thaumcraft:
 195     Arcane Levitator
 198:*   Warded Jar(s)
 
-
+Campfire Backport :
+-------------------------------
+1633    Soul Campfire Base
+1634    Campfire Base
 
 Lists of Blocks that CAN'T be griefed by mobs (Blacklist) :
 
