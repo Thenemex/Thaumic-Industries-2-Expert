@@ -22,7 +22,7 @@
 # Food update (pt.2)
 
 ## Mods updated :
-- Food Addition
+- Food Addition, WG:Patched
 
 ## Mods downgraded :
 - Angelica
@@ -30,8 +30,13 @@
 ## Bugs patched :
 - Dissolved now have their original skin turned back on
 
+## Expert changes :
+- Set 100% chance of explosion on Nether Ores
+- Mobs can now grief campfire
+
 ## Gameplay modifications :
 - Cooking meat through the campfire will now grant you 8 unique new food items !
+- Coloring the Bag of Tricks now gives more intense colors -> UPDATE WG PATCHED
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
