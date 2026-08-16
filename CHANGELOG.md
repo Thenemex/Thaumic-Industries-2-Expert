@@ -33,10 +33,11 @@
 ## Expert changes :
 - Set 100% chance of explosion on Nether Ores
 - Mobs can now grief campfire
+- Set limits for Server Utilities (chunk claims, commands, etc...)
 
 ## Gameplay modifications :
 - Cooking meat through the campfire will now grant you 8 unique new food items !
-- Coloring the Bag of Tricks now gives more intense colors -> UPDATE WG PATCHED
+- Coloring the Bag of Tricks now gives more intense colors
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
