@@ -1,12 +1,14 @@
 @echo OFF
 
-REM     Git -> Instance (Config + Scripts)
+REM     Git -> Instance (Config + Scripts + ServerUtils)
 @robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\config" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries 2 - Expert\config" /MIR
 @robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\scripts" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries 2 - Expert\scripts" /MIR
+@robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\serverutilities" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries 2 - Expert\serverutilities" /MIR
 @del /Q "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries 2 - Expert\config\lwjgl3ify-relauncher.json"
-REM     Git -> Java 25 Edition (Config + Scripts)
+REM     Git -> Java 25 Edition (Config + Scripts + ServerUtils)
 @robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\config" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config" /MIR
 @robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\scripts" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\scripts" /MIR
+@robocopy "C:\Users\TNMX7\IdeaProjects\Thaumic-Industries-2-Expert\overrides\serverutilities" "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\serverutilities" /MIR
 
 REM     Instance : Turn on SA patch for node regen rate ONLY for Java 25 Edition
 @xcopy /Y "C:\Jeux\CurseForge\Minecraft\Instances\Thaumic Industries - Java 25 Edition\config\salisarcana\bugfixes.cfg" "D:\Thaumic-Industries\temp"
