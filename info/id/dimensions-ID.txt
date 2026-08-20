@@ -22,7 +22,7 @@ Thaumic Horizons :
 
 Thaumic Tinkerer :
 -------------------------------
-        I:"Bedrock dimension id"=-19
+    I:"Bedrock dimension id"=-19
 
 Twilight Forest :
 -------------------------------
