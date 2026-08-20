@@ -22,13 +22,14 @@
 # Food update (pt.2)
 
 ## Mods updated :
-- Food Addition, NemexLib, WG:Patched
+- Food Addition, NemexLib, TC4Tweaks, WG:Patched
 
 ## Mods downgraded :
 - Angelica
 
 ## Bugs patched :
 - Dissolved now have their original skin turned back on
+- Fixed a weird crash happening in outer world dimension
 
 ## Expert changes :
 - Set 100% chance of explosion on Nether Ores
