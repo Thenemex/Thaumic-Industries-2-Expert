@@ -33,6 +33,7 @@
 
 ## Expert changes :
 - Set 100% chance of explosion on Nether Ores
+- Nether Quartz now behaves back like other ores in the Nether
 - Mobs can now grief campfire
 - Set limits for Server Utilities (chunk claims, commands, etc...)
 
