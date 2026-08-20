@@ -22,7 +22,7 @@
 # Food update (pt.2)
 
 ## Mods updated :
-- Food Addition, WG:Patched
+- Food Addition, NemexLib, WG:Patched
 
 ## Mods downgraded :
 - Angelica
