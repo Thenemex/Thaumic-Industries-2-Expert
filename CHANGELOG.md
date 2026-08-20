@@ -22,14 +22,16 @@
 # Food update (pt.2)
 
 ## Mods updated :
-- Food Addition, NemexLib, TC4Tweaks, WG:Patched
+- Food Addition, NemexLib, TC4Patched TC4Tweaks, WG:Patched
 
 ## Mods downgraded :
 - Angelica
 
 ## Bugs patched :
 - Dissolved now have their original skin turned back on
+- Oblivion Jar use to not drop when harvesting it
 - Fixed a weird crash happening in outer world dimension
+- Fixed a console spam caused by Magic Cookies golem decoration icons
 
 ## Expert changes :
 - Set 100% chance of explosion on Nether Ores
