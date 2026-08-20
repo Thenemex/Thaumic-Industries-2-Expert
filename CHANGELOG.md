@@ -22,7 +22,7 @@
 # Food update (pt.2)
 
 ## Mods updated :
-- Food Addition, NemexLib, TC4Patched TC4Tweaks, WG:Patched
+- Food Addition, NemexLib, TC4Patched, TC4Tweaks, WG:Patched
 
 ## Mods downgraded :
 - Angelica
@@ -38,6 +38,7 @@
 - Nether Quartz now behaves back like other ores in the Nether
 - Mobs can now grief campfire
 - Set limits for Server Utilities (chunk claims, commands, etc...)
+- Disabled chunk claiming in all dimensions, except overworld
 
 ## Gameplay modifications :
 - Cooking meat through the campfire will now grant you 8 unique new food items !
