@@ -1,0 +1,22 @@
+{
+  "_comment": [
+    "Multi-file config layout:",
+    "- both_side_required.json = mods/files required on both server and client",
+    "- client_required.json   = client-only mods/files that are still required",
+    "- client_optional.json   = client-only mods/files that are allowed but optional",
+    "- server_only.json       = server-only mods/files for overview/setup",
+    "- deny.json              = hard block list",
+    "",
+    "Collect workflow:",
+    "- set collectMode=true and add your UUID to collectWhitelist",
+    "- join once with the reference client pack",
+    "- the mod overwrites both_side_required.json, client_optional.json and server_only.json",
+    "- move any client-only mandatory mods manually from client_optional.json to client_required.json"
+  ],
+  "strict": true,
+  "strictFiles": true,
+  "collectMode": true,
+  "collectWhitelist": [],
+  "customMessage": "Please use the official modpack.",
+  "packLink": ""
+}

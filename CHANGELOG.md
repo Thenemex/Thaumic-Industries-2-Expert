@@ -21,6 +21,9 @@
     3.1.2.1
 #
 
+## Mods added :
+- Mod Whitelist
+
 ## Mods updated :
 - Forgelin:Legacy
 
