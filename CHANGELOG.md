@@ -27,6 +27,9 @@
 ## Mods updated :
 - Forgelin:Legacy
 
+## Bugs patched :
+- The Teams button is now showing in your inventory
+
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
 
