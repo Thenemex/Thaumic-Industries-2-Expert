@@ -1,4 +1,22 @@
 {
-  "mods": [],
-  "files": []
+  "mods": [
+    {
+      "modid": "angelica",
+      "version": "*"
+    },
+    {
+      "modid": "lwjgl3ify",
+      "version": "*"
+    }
+  ],
+  "files": [
+    {
+      "name": "angelica-2.1.53.jar",
+      "sha256": "d8dbe5c9f28924fbe5023efddc83906f69a1c5d2d284ca460a7c0dc345fbb817"
+    },
+    {
+      "name": "lwjgl3ify-3.0.28.jar",
+      "sha256": "3bde4010dfeecf4ba04526e31ef1def714b36539dd070fd0b48e205f99e675da"
+    }
+  ]
 }

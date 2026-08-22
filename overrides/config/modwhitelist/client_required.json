@@ -1,4 +1,1150 @@
 {
-  "mods": [],
-  "files": []
+  "mods": [
+    {
+      "modid": "<cofh asm>",
+      "version": "*"
+    },
+    {
+      "modid": "advancedvanilla2",
+      "version": "*"
+    },
+    {
+      "modid": "aiimprovements",
+      "version": "*"
+    },
+    {
+      "modid": "angelica",
+      "version": "*"
+    },
+    {
+      "modid": "antiqueatlas",
+      "version": "*"
+    },
+    {
+      "modid": "aobd",
+      "version": "*"
+    },
+    {
+      "modid": "applecore",
+      "version": "*"
+    },
+    {
+      "modid": "archaicfix",
+      "version": "*"
+    },
+    {
+      "modid": "armoredarms",
+      "version": "*"
+    },
+    {
+      "modid": "automagy",
+      "version": "*"
+    },
+    {
+      "modid": "awwayoftime",
+      "version": "*"
+    },
+    {
+      "modid": "baubles",
+      "version": "*"
+    },
+    {
+      "modid": "baubles|expanded",
+      "version": "*"
+    },
+    {
+      "modid": "benway_knowledge",
+      "version": "*"
+    },
+    {
+      "modid": "betterboat",
+      "version": "*"
+    },
+    {
+      "modid": "betterfoliage",
+      "version": "*"
+    },
+    {
+      "modid": "betterquesting",
+      "version": "*"
+    },
+    {
+      "modid": "bibliocraft",
+      "version": "*"
+    },
+    {
+      "modid": "biggerpacketsplz",
+      "version": "*"
+    },
+    {
+      "modid": "bloodarsenal",
+      "version": "*"
+    },
+    {
+      "modid": "bookshelf",
+      "version": "*"
+    },
+    {
+      "modid": "botania",
+      "version": "*"
+    },
+    {
+      "modid": "botaniavisualizer",
+      "version": "*"
+    },
+    {
+      "modid": "bq_standard",
+      "version": "*"
+    },
+    {
+      "modid": "campfirebackport",
+      "version": "*"
+    },
+    {
+      "modid": "chronosbackups",
+      "version": "*"
+    },
+    {
+      "modid": "cleanview",
+      "version": "*"
+    },
+    {
+      "modid": "codechickencore",
+      "version": "*"
+    },
+    {
+      "modid": "cofhcore",
+      "version": "*"
+    },
+    {
+      "modid": "controlling",
+      "version": "*"
+    },
+    {
+      "modid": "cosmeticarmorreworked",
+      "version": "*"
+    },
+    {
+      "modid": "craftarcanum",
+      "version": "*"
+    },
+    {
+      "modid": "craftingtweaks",
+      "version": "*"
+    },
+    {
+      "modid": "craftpresence",
+      "version": "*"
+    },
+    {
+      "modid": "customchestloot",
+      "version": "*"
+    },
+    {
+      "modid": "custommainmenu",
+      "version": "*"
+    },
+    {
+      "modid": "debug",
+      "version": "*"
+    },
+    {
+      "modid": "denseores",
+      "version": "*"
+    },
+    {
+      "modid": "ding",
+      "version": "*"
+    },
+    {
+      "modid": "dummycore",
+      "version": "*"
+    },
+    {
+      "modid": "enderzoo",
+      "version": "*"
+    },
+    {
+      "modid": "falsepatternlib",
+      "version": "*"
+    },
+    {
+      "modid": "fastleafdecay",
+      "version": "*"
+    },
+    {
+      "modid": "foodaddition",
+      "version": "*"
+    },
+    {
+      "modid": "forbiddenmagic",
+      "version": "*"
+    },
+    {
+      "modid": "forgelin",
+      "version": "*"
+    },
+    {
+      "modid": "forgottenrelics",
+      "version": "*"
+    },
+    {
+      "modid": "foveffectsbackport",
+      "version": "*"
+    },
+    {
+      "modid": "fpsreducer",
+      "version": "*"
+    },
+    {
+      "modid": "gadomancy",
+      "version": "*"
+    },
+    {
+      "modid": "gardencontainers",
+      "version": "*"
+    },
+    {
+      "modid": "gardencore",
+      "version": "*"
+    },
+    {
+      "modid": "gardenstuff",
+      "version": "*"
+    },
+    {
+      "modid": "gardentrees",
+      "version": "*"
+    },
+    {
+      "modid": "gravestone",
+      "version": "*"
+    },
+    {
+      "modid": "gtnhlib",
+      "version": "*"
+    },
+    {
+      "modid": "gtnhlib core",
+      "version": "*"
+    },
+    {
+      "modid": "gtnhmixins",
+      "version": "*"
+    },
+    {
+      "modid": "guideapi",
+      "version": "*"
+    },
+    {
+      "modid": "hardcorewither",
+      "version": "*"
+    },
+    {
+      "modid": "harvest",
+      "version": "*"
+    },
+    {
+      "modid": "harvestlevelconfig",
+      "version": "*"
+    },
+    {
+      "modid": "helpfixer",
+      "version": "*"
+    },
+    {
+      "modid": "hodgepodge",
+      "version": "*"
+    },
+    {
+      "modid": "immersiveengineering",
+      "version": "*"
+    },
+    {
+      "modid": "immersiveintegration",
+      "version": "*"
+    },
+    {
+      "modid": "inventorytweaks",
+      "version": "*"
+    },
+    {
+      "modid": "ironchest",
+      "version": "*"
+    },
+    {
+      "modid": "itlt",
+      "version": "*"
+    },
+    {
+      "modid": "jarjar",
+      "version": "*"
+    },
+    {
+      "modid": "jctweaks",
+      "version": "*"
+    },
+    {
+      "modid": "justanotherspawner",
+      "version": "*"
+    },
+    {
+      "modid": "lavamonsters",
+      "version": "*"
+    },
+    {
+      "modid": "llor",
+      "version": "*"
+    },
+    {
+      "modid": "lwjgl3ify",
+      "version": "*"
+    },
+    {
+      "modid": "magiccookie",
+      "version": "*"
+    },
+    {
+      "modid": "mcpatcherforge",
+      "version": "*"
+    },
+    {
+      "modid": "mdeco",
+      "version": "*"
+    },
+    {
+      "modid": "minetweaker3",
+      "version": "*"
+    },
+    {
+      "modid": "mixinbooterlegacy",
+      "version": "*"
+    },
+    {
+      "modid": "mixinextras",
+      "version": "*"
+    },
+    {
+      "modid": "mixingasm",
+      "version": "*"
+    },
+    {
+      "modid": "mjutils",
+      "version": "*"
+    },
+    {
+      "modid": "mobproperties",
+      "version": "*"
+    },
+    {
+      "modid": "modtweaker2",
+      "version": "*"
+    },
+    {
+      "modid": "modwhitelist",
+      "version": "*"
+    },
+    {
+      "modid": "mousetweaks",
+      "version": "*"
+    },
+    {
+      "modid": "neid",
+      "version": "*"
+    },
+    {
+      "modid": "neiintegration",
+      "version": "*"
+    },
+    {
+      "modid": "nemexlib",
+      "version": "*"
+    },
+    {
+      "modid": "netherores",
+      "version": "*"
+    },
+    {
+      "modid": "netherportalfix",
+      "version": "*"
+    },
+    {
+      "modid": "nmsot",
+      "version": "*"
+    },
+    {
+      "modid": "notenoughitems",
+      "version": "*"
+    },
+    {
+      "modid": "notfine",
+      "version": "*"
+    },
+    {
+      "modid": "nova",
+      "version": "*"
+    },
+    {
+      "modid": "playerapi",
+      "version": "*"
+    },
+    {
+      "modid": "potionextensioncore",
+      "version": "*"
+    },
+    {
+      "modid": "questbook",
+      "version": "*"
+    },
+    {
+      "modid": "reauth",
+      "version": "*"
+    },
+    {
+      "modid": "resourceloader",
+      "version": "*"
+    },
+    {
+      "modid": "salisarcana",
+      "version": "*"
+    },
+    {
+      "modid": "samsocean",
+      "version": "*"
+    },
+    {
+      "modid": "sanguimancy",
+      "version": "*"
+    },
+    {
+      "modid": "sdnf",
+      "version": "*"
+    },
+    {
+      "modid": "serverutilities",
+      "version": "*"
+    },
+    {
+      "modid": "skinport",
+      "version": "*"
+    },
+    {
+      "modid": "smoothfont",
+      "version": "*"
+    },
+    {
+      "modid": "smoothfontcore",
+      "version": "*"
+    },
+    {
+      "modid": "spark",
+      "version": "*"
+    },
+    {
+      "modid": "specialai",
+      "version": "*"
+    },
+    {
+      "modid": "spongemixins",
+      "version": "*"
+    },
+    {
+      "modid": "storagedrawers",
+      "version": "*"
+    },
+    {
+      "modid": "symcalc",
+      "version": "*"
+    },
+    {
+      "modid": "taintedmagic",
+      "version": "*"
+    },
+    {
+      "modid": "talismans 2",
+      "version": "*"
+    },
+    {
+      "modid": "tc4patched",
+      "version": "*"
+    },
+    {
+      "modid": "tc4tweak",
+      "version": "*"
+    },
+    {
+      "modid": "tc_integration",
+      "version": "*"
+    },
+    {
+      "modid": "tcbotaniaexoflame",
+      "version": "*"
+    },
+    {
+      "modid": "tci2core",
+      "version": "*"
+    },
+    {
+      "modid": "tcneiadditions",
+      "version": "*"
+    },
+    {
+      "modid": "tcnodetracker",
+      "version": "*"
+    },
+    {
+      "modid": "tcreborn",
+      "version": "*"
+    },
+    {
+      "modid": "thaumcraft",
+      "version": "*"
+    },
+    {
+      "modid": "thaumcraftmobaspects",
+      "version": "*"
+    },
+    {
+      "modid": "thaumcraftneiplugin",
+      "version": "*"
+    },
+    {
+      "modid": "thaumcraftneipluginpatched",
+      "version": "*"
+    },
+    {
+      "modid": "thaumicbases",
+      "version": "*"
+    },
+    {
+      "modid": "thaumicconcilium",
+      "version": "*"
+    },
+    {
+      "modid": "thaumicdyes",
+      "version": "*"
+    },
+    {
+      "modid": "thaumicexploration",
+      "version": "*"
+    },
+    {
+      "modid": "thaumichorizons",
+      "version": "*"
+    },
+    {
+      "modid": "thaumictinkerer",
+      "version": "*"
+    },
+    {
+      "modid": "thaumictinkerer-preloader",
+      "version": "*"
+    },
+    {
+      "modid": "thaumores",
+      "version": "*"
+    },
+    {
+      "modid": "travellersgear",
+      "version": "*"
+    },
+    {
+      "modid": "ttcore",
+      "version": "*"
+    },
+    {
+      "modid": "twilightforest",
+      "version": "*"
+    },
+    {
+      "modid": "twilightforestportalcatalyst",
+      "version": "*"
+    },
+    {
+      "modid": "unidict",
+      "version": "*"
+    },
+    {
+      "modid": "unilib",
+      "version": "*"
+    },
+    {
+      "modid": "unimixins",
+      "version": "*"
+    },
+    {
+      "modid": "unimixins-compat",
+      "version": "*"
+    },
+    {
+      "modid": "unimixins-mixin",
+      "version": "*"
+    },
+    {
+      "modid": "waila",
+      "version": "*"
+    },
+    {
+      "modid": "wawla",
+      "version": "*"
+    },
+    {
+      "modid": "witchery",
+      "version": "*"
+    },
+    {
+      "modid": "witcherypatch",
+      "version": "*"
+    },
+    {
+      "modid": "witchinggadgets",
+      "version": "*"
+    }
+  ],
+  "files": [
+    {
+      "name": "+unimixins-all-1.7.10-0.3.1.jar",
+      "sha256": "ad0ea4f92daf7bf7ec5c10e16258425e47929126954aea5d80df69ce26cd7318"
+    },
+    {
+      "name": "[1.7.10] EnderZooPatched-1.1.jar",
+      "sha256": "02cc68378a926d48886d156823d822b58c75e0c5235bb818b2ec9c73e81c7ccb"
+    },
+    {
+      "name": "[1.7.10] Food Addition-2.4.jar",
+      "sha256": "9c31551c5f03c20fa36fbb38d40b1f99d5890282be6056b7f6834e707b71c2bd"
+    },
+    {
+      "name": "[1.7.10] Harvest Level Config-1.0.jar",
+      "sha256": "b1b5b497d82dde4baf3d39396c468dbeccb7c444c9277b2d0215289831a6b7ae"
+    },
+    {
+      "name": "[1.7.10] NemexLib-1.11.5.jar",
+      "sha256": "60bc6f26c30e8be3a03dbc30978f9e37333d180f7a4a7fb531a089c93fdc6de1"
+    },
+    {
+      "name": "[1.7.10] Thaumcraft4Patched-1.13.jar",
+      "sha256": "ef988fa8cd0f88a1dbe27f3d904917eeb930ee1030f190e08b4cca61ae91a408"
+    },
+    {
+      "name": "[1.7.10] ThaumcraftNEIPluginPatched-1.0.0.4.jar",
+      "sha256": "0af148f0faacdd7f1bcc83f3c049f326c7b64682e3f09b10c30beba40d022d85"
+    },
+    {
+      "name": "[1.7.10] Thaumic_Industries_Core-1.15.0.1.jar",
+      "sha256": "60e0465e4824e9f42206c68af580fad36754950bffd5a9cf6b25360ebc2646ea"
+    },
+    {
+      "name": "[1.7.10] Thaumic_Renaissance-1.5.3.jar",
+      "sha256": "8438f1ec7f24ef4b9c550359a4f5e876ed028efdf6aa28ea637f98d5d4d61b44"
+    },
+    {
+      "name": "[1.7.10] WitchingGadgetsPatched-1.2.1.1.jar",
+      "sha256": "75322819aac4556dcecb5315117e15545d1292e0cdc392b736c7afaa59d0f21d"
+    },
+    {
+      "name": "AdvancedVanilla2.jar",
+      "sha256": "1873fd66655ab1809b365492de7c445154242fd5dde6b92a7688a9bd8e4cd1c9"
+    },
+    {
+      "name": "AIImprovements-1.7.10-0.0.1b8.jar",
+      "sha256": "d3acb330462ce6c6bc9393d5f2b1dc986e1349b377b023c86d4ccb7236e8bcf4"
+    },
+    {
+      "name": "angelica-2.1.53.jar",
+      "sha256": "d8dbe5c9f28924fbe5023efddc83906f69a1c5d2d284ca460a7c0dc345fbb817"
+    },
+    {
+      "name": "antiqueatlas-1.7.10-4.4.4.jar",
+      "sha256": "b5f254eca8a77b11a0f62acde7a5f883baf750b626c785df835f03de2a2d4220"
+    },
+    {
+      "name": "AOBD-2.9.2.jar",
+      "sha256": "814be9fcddf80d6b35f13b96bbdacc366ca71656300b26968b190215bde62e0c"
+    },
+    {
+      "name": "AppleCore-3.3.11.jar",
+      "sha256": "4b3b5351567cba454b8a69c016356de74e02efdfe034877d7835666c544639a1"
+    },
+    {
+      "name": "archaicfix-0.8.0.jar",
+      "sha256": "15d0de52361ab20057e14c2a0bec7b8614c63bcef1b010490506ea00ae79011e"
+    },
+    {
+      "name": "ArmoredArms-v1.3.8-1.7.10-release.jar",
+      "sha256": "5d99f28743c07090c3b1a80de68d4b8bdc035cab00dfcfb278d2e4f693e0f135"
+    },
+    {
+      "name": "Automagy-1.7.10-0.28.2.jar",
+      "sha256": "4c1d78e0adee1754675d93ffbadc8c9fe205710cb77538b953e57810f9528efc"
+    },
+    {
+      "name": "BaublesExpanded-2.2.0-GTNH.jar",
+      "sha256": "72629775c4acd983b964271b9888f29447ebd87edf34142ee828dd33bbcb0ded"
+    },
+    {
+      "name": "BetterBoat-1.7.10-1.1.0.jar",
+      "sha256": "f0ca4c597accec71f741562eae25f3654a68d7399bda84ce134092ad122f5878"
+    },
+    {
+      "name": "BetterFoliage-LegacyEdition-1.2.4.jar",
+      "sha256": "ee2ea446d1db17052c12b02ed11559a8bb0a21cddf72fa1b71d11e2df7428eae"
+    },
+    {
+      "name": "BetterQuesting-3.0.328.jar",
+      "sha256": "1be0bdcdeb916d1a47d4cc89a4c3accddf58329b60b58baeddc06f41c156d363"
+    },
+    {
+      "name": "BiblioCraft[v1.11.7][MC1.7.10].jar",
+      "sha256": "6c6cdba3b5fc7ceedb4441063d41482b0ee0736dd7354931dc599ec1de1f33ef"
+    },
+    {
+      "name": "biggerpacketsplz-upto1.7.10-1.2.jar",
+      "sha256": "4b9ed398fc798632f5a7783be06d628f44893c8265982e811968c3a3f333f5e9"
+    },
+    {
+      "name": "BloodArsenal-1.7.10-1.2-5.jar",
+      "sha256": "fe65c9a59ee1a4395f9372df3d373996f73b0dce70643b1eff5f7c3854d20444"
+    },
+    {
+      "name": "BloodMagic-1.7.10-1.3.3-17.jar",
+      "sha256": "6b6f8693ad4fb4ce4de8de9a2bc9f8d5433f80b3e3bbdd227a1909c8c31ee938"
+    },
+    {
+      "name": "Bookshelf-1.7.10-1.0.4.187.jar",
+      "sha256": "64e9f6ebee8171f178cd01dc774537f4e303cc305cfd70e8c2ee5e6aaf9296ea"
+    },
+    {
+      "name": "Born in a Barn 1.7.x.jar",
+      "sha256": "cd6dcfcfd7825aa34c9948a97b90b5913ac205da4b26852084337960322148c3"
+    },
+    {
+      "name": "Botania r1.8-249.jar",
+      "sha256": "056aef1c2971c783d7553b1b33ba411467dd2a263476b76c1325038e7ed5d079"
+    },
+    {
+      "name": "BotaniaVisualizer-1.7.2-1.0a.jar",
+      "sha256": "4b866b2c6f68687e54db0697dbbb40bdd53febf86a218f33d9bba273a3f13543"
+    },
+    {
+      "name": "campfirebackport-1.7.10-1.11.3.jar",
+      "sha256": "4cfed5e942f9afec0af201b30c3a0c2590f144d555d703f4ab043ef94b5817de"
+    },
+    {
+      "name": "chronosbackups-1.7.10-1.1.0-forge.jar",
+      "sha256": "92c51bc7f77830433a6df6e4f09ea8d329645b0ce94af052f647409c3aa63eb0"
+    },
+    {
+      "name": "CleanView-1.7.10-v2.jar",
+      "sha256": "8a49737c9897fd78b6897af0cea3357cb4c7e029dc6bd8fb893b52b2ebca42a3"
+    },
+    {
+      "name": "CodeChickenCore-1.4.16.jar",
+      "sha256": "c965f63fdde8451afbb056551128eef2452b9273366bcd098624ee5e17954954"
+    },
+    {
+      "name": "CodeChickenLib-1.3.0.jar",
+      "sha256": "44f57f35713a11c922a527b457af77dbd0c79b50dad86f8354b471ba105c1264"
+    },
+    {
+      "name": "CoFHCore-[1.7.10]3.1.4-329.jar",
+      "sha256": "acefa71392eff745dcfd6d6d5e49b6586e2e4e103d1260f4674f622152ef6f60"
+    },
+    {
+      "name": "Controlling-1.7.10-1.0.0.8.jar",
+      "sha256": "233f5dac426020b9ddd8585b2a0005e632128e4fba1be75d99a356e099d7f58f"
+    },
+    {
+      "name": "CosmeticArmorReworked-1.7.10-v7.jar",
+      "sha256": "fb718bdd35b1d99cc20514723a3b577a951344ab2c92d3edc7b071e1727c25a6"
+    },
+    {
+      "name": "CraftArcanum-1.1.1.jar",
+      "sha256": "c6efc39a0acd1656cfe91b303eb656e395d5443fbd6ed49e7d838ccab6831f49"
+    },
+    {
+      "name": "craftingtweaks-mc1.7.10-1.0.88.jar",
+      "sha256": "47412d9d54d937cce802d2e27f208019d81290a2c62fe34e73950f8ae9ccceee"
+    },
+    {
+      "name": "CraftPresence-2.7.1+1.7.10-forge.jar",
+      "sha256": "d3034a7e7a242346c8ee59eb98ffdf2da409639c6468df01a63282d64b555511"
+    },
+    {
+      "name": "CustomChestLoot-1.7.10-2.0.1.jar",
+      "sha256": "153ecf4fe484dcff9d042580a82ef52aa683e03b678a7b4aa2604192204ab160"
+    },
+    {
+      "name": "CustomMainMenu-MC1.7.10-1.9.2.jar",
+      "sha256": "6bf9159226ee1fd21741c72ede559bcc26045bf538d66cba398807fcb2187bbf"
+    },
+    {
+      "name": "denseores-1.6.2.jar",
+      "sha256": "e1ed114a61c4581b050f8db9932aa14bac4ac322994be51015ebc8e4cad66287"
+    },
+    {
+      "name": "Ding-MC1.7.10v2.jar",
+      "sha256": "1790a2267ee028fe2a2e802f2636bd26efb4f847051a8149a686a28b8381edda"
+    },
+    {
+      "name": "DummyCore1.13.jar",
+      "sha256": "0264a91857ef350ec29c6dcca8c7fab87cf20819984ed8efc99e495402350875"
+    },
+    {
+      "name": "falsepatternlib-mc1.7.10-1.12.2.jar",
+      "sha256": "bc92d152b2036324b98df0f4510b76b94826b57610f96177e74387b3f399cf39"
+    },
+    {
+      "name": "FastLeafDecay-1.7.10-1.4.jar",
+      "sha256": "17cf47a96cd31da7bd13f72d1afe97f35df601297446b21e30e051e9ae2107e2"
+    },
+    {
+      "name": "Forbidden Magic-1.7.10-0.575.jar",
+      "sha256": "d6b239a05a630cfb3b6de01fe14a8674ec14ef8fb34ea75d1ad45b79565d8636"
+    },
+    {
+      "name": "forgelin-mc1.7.10-2.4.3-2.4.10-cf.jar",
+      "sha256": "04f5d02b4b02ba736e657bc07453617f4e6657be63e3ce9b0cacf214afedd0d3"
+    },
+    {
+      "name": "ForgottenRelics-1.7.3-[Final].jar",
+      "sha256": "c63341435bdefa63138da887eeaa61fa83056710ad386e35bc6742b97390332b"
+    },
+    {
+      "name": "fov-effects-backport-1.7.10-1.0.1.jar",
+      "sha256": "fe8c33129cd93cb94f8edd9eed437df0a1781249981bcd85e920ea7f87bbdf5e"
+    },
+    {
+      "name": "FpsReducer-mc1.7.10-1.10.3.jar",
+      "sha256": "2915ea69cc612bf045619917f678c9fb58dc1b37d7e04c932f663a58a397c516"
+    },
+    {
+      "name": "gadomancy-1.5.11.jar",
+      "sha256": "8ab5c2c0fd12abdacdedc5b973b8839d4435ef39abe21ec8ed50b9116daea077"
+    },
+    {
+      "name": "GardenStuff-1.7.10-1.7.0.jar",
+      "sha256": "a1cfba20d02ea5ba5f5a646a85caca9e23aca777f4ed47707657bc0f83a45831"
+    },
+    {
+      "name": "GraveStone Mod 0.7.10.3.jar",
+      "sha256": "3118408a45396b1c89e8ddd19e1813eadffd3ac13e274e9086b48cde165cd88f"
+    },
+    {
+      "name": "gtnhlib-0.11.30.jar",
+      "sha256": "80d990267d392260b526cf42717bedda2c1174dea725ee80e8513027d4216f48"
+    },
+    {
+      "name": "Guide-API-1.7.10-1.0.1-20.jar",
+      "sha256": "d0359053d4f8299509889d6b3632b06bdc11251b93af8aa4385b08f435316439"
+    },
+    {
+      "name": "Hardcore Wither-1.7.10-1.1.3-21-universal.jar",
+      "sha256": "9031d1cf2e35835a0a63d0d6e7e23da954f08b771d7bd9ef7550d905c73cf64a"
+    },
+    {
+      "name": "Harvest-1.7.10-1.0.0-2.jar",
+      "sha256": "6c205c97de8efd9f589bfa3aa36337dcc976d4d4f099280a09b157260e288a33"
+    },
+    {
+      "name": "HelpFixer-1.0.7.jar",
+      "sha256": "8d9dac6b95915285b2a1a7e433d1a28a1933266e89d99248eb363d30c49e4c0b"
+    },
+    {
+      "name": "hodgepodge-2.7.172.jar",
+      "sha256": "4a702fa27bca6f8af86141a19365077ecd3f26813f1e2513ad2c361b6600e459"
+    },
+    {
+      "name": "ImmersiveEngineering-0.7.7.jar",
+      "sha256": "f2bc83bccc64e0a8be8ebcb7f14704491a701e42958cc3389c704cf8ff411f33"
+    },
+    {
+      "name": "immersiveintegration-0.6.8.jar",
+      "sha256": "b6ca939d86fd24c28e3552a748939ee18763838b0a02d68f60e281ece2232be0"
+    },
+    {
+      "name": "InventoryTweaks-1.59-dev-152.jar",
+      "sha256": "03aa8f9a012c2a34748648b8556c4391ca985bce744c4a589001c222f978ba04"
+    },
+    {
+      "name": "ironchest-1.7.10-6.0.62.742-universal.jar",
+      "sha256": "a300fcf2c43ab26eb1eb380a13efdcc6c1c46f0a502da219a4b58337df52ef7b"
+    },
+    {
+      "name": "itlt-1.7.x-1.0.3.jar",
+      "sha256": "22d67d13ba4ac7a93a42776437b9a1232d0094e6774b7cd65bba196e1b0ef309"
+    },
+    {
+      "name": "jarjar-0.3.7-beta.jar",
+      "sha256": "2a226462baf75af8c2af33a836f73dc7300172f52dad27d3cd13a18122c7e677"
+    },
+    {
+      "name": "jctweaks-1.7.10-1.25.jar",
+      "sha256": "bc8f6c88e48dccaadd17fad4a8559fff79e3e0f7ab93955761196df47150da8e"
+    },
+    {
+      "name": "JustAnotherSpawner-0.17.8.jar",
+      "sha256": "affc740db531095c6a027f47002006aeb6f6181a70f1af3cf0e5e182254f59ee"
+    },
+    {
+      "name": "LavaMonsters-1.7.10-2.2.1.jar",
+      "sha256": "8f946f8f8b9fcbf390679fa6d5d75143b8488bc3f71ddd6adf528111170d4c27"
+    },
+    {
+      "name": "LLOverlayReloaded-1.0.7-mc1.7.10.jar",
+      "sha256": "cfbac1df988db0c8e46dd7c68dd27c4e00919e56e22853db9d26008c4d15b7a0"
+    },
+    {
+      "name": "lwjgl3ify-3.0.28.jar",
+      "sha256": "3bde4010dfeecf4ba04526e31ef1def714b36539dd070fd0b48e205f99e675da"
+    },
+    {
+      "name": "MagicalDecorations-0.3.5.jar",
+      "sha256": "baf5dd7eba381e15af0c31704df9b608889416fbec6ca6d705aac64348dff7d1"
+    },
+    {
+      "name": "MagicCookies-1.0.7.1.jar",
+      "sha256": "3cbd3a945ba8b4aae9211c4f55a3401c69eda3126cf5bc4064a6ee5cd2f944aa"
+    },
+    {
+      "name": "MineTweaker3-1.7.10-3.0.10B.jar",
+      "sha256": "6756b33668f0c63fd4a4b05ccbbd70e365f5e753b56cf07cc39d564e6e4fdced"
+    },
+    {
+      "name": "mjutils-1.6.1.jar",
+      "sha256": "94eb7bbbdebc0aeaa0fc3e1f50f7e669f78f600ccab0b465b7afc5f395471222"
+    },
+    {
+      "name": "MobProperties-1.7.10-1.0.2.jar",
+      "sha256": "123cf0872b16c3fb0044c3f34132e788ae57eee6f8591fc108a4a7bf29c1681b"
+    },
+    {
+      "name": "ModTweaker2-0.9.6.jar",
+      "sha256": "dee791c989e12cda1a32cb65081e24d40d727b9b6d99a38750fe6b9478983669"
+    },
+    {
+      "name": "modwhitelist-1.7.10-1.0.0.jar",
+      "sha256": "e199658cc7435d3582a3bfb4ff459d4c00b9f80c68f3b064f358df9bc144197c"
+    },
+    {
+      "name": "MouseTweaks-2.4.4-mc1.7.10.jar",
+      "sha256": "8b141026e0be476978015a789680f2e550c1bef4518065ff5dbf5ad640ea2164"
+    },
+    {
+      "name": "NEIIntegration-MC1.7.10-1.1.2.jar",
+      "sha256": "62d7c59e992f91ca3c6f26844e3dfa6b853db57d92f3b80cce0fb565ec07d1d2"
+    },
+    {
+      "name": "NetherOres-[1.7.10]2.3.1-22.jar",
+      "sha256": "ded13b173b2e2abec12870b5b38d19dd3a25a14161c9699c925878ef12ccdd4a"
+    },
+    {
+      "name": "netherportalfix-mc1.7.10-1.1.0.jar",
+      "sha256": "85592ebce362268018bbbcdb943625b3841982de14136b70ccd139a9ace71d92"
+    },
+    {
+      "name": "NoMobSpawningOnTrees-1.2.0-mc1.7.10.jar",
+      "sha256": "c3c19dd8ebe701add87183effacde288831be301765de5853c59b6be818910c8"
+    },
+    {
+      "name": "notenoughIDs-2.1.11.jar",
+      "sha256": "40bae977b2ffcd464ca8b6c1fd4db530332bb90b14d891c33d8ac25ca6be3b3f"
+    },
+    {
+      "name": "NotEnoughItems-2.8.114-GTNH.jar",
+      "sha256": "fe2c74485e47a337cb0899f14206370471397031418414294478e528c6720528"
+    },
+    {
+      "name": "NOVA-2015-10-09-universal.jar",
+      "sha256": "8986f56ab8241670f0cba2a6a77b24405a32ed15376e2a6eff3e54ddb60fa034"
+    },
+    {
+      "name": "OceanFloor-1.7.10-1.0.0.jar",
+      "sha256": "5a81451b955f59e282d4ab42a700f48f9779e6cdf14e61c1c714d138be225022"
+    },
+    {
+      "name": "PlayerAPI-1.7.10-1.4.jar",
+      "sha256": "a46d9a24cd195767cbaf3752ecebc9ecf5484c526dcc5b23d06431fdfcd1a259"
+    },
+    {
+      "name": "PotionExtension-1.7.10-1.1.0.jar",
+      "sha256": "c38181924ffbf3ec21d8527381a1751b65ac6207ee82da2d38d7f43c3e191e5a"
+    },
+    {
+      "name": "questbook-3.0.0-1.7.10.jar",
+      "sha256": "76ffea3bd173dd60acd7e540c7e5b87afb098ee0d15ab69e455669f770ae7efc"
+    },
+    {
+      "name": "RealBench-1.2.0.jar",
+      "sha256": "d2466a8c756c79a2e62d349f71edb98c7063c83432f4b0e2838c362a2cf5f794"
+    },
+    {
+      "name": "ReAuth-1.7.10-Forge-4.0.7.jar",
+      "sha256": "e8bbf2e7320210bbe3fd826b07742b0c3695499eca4aa3d4d380ba415c656bc6"
+    },
+    {
+      "name": "ResourceLoader-MC1.7.10-1.3.jar",
+      "sha256": "3c0c928be271565d79154f3b18cc0d6ed3d3a923107e84078018bb63a6c0387a"
+    },
+    {
+      "name": "salisarcana-v2.6.0.jar",
+      "sha256": "f9cefe7e82310802715a94f3529237bf88dfac53da0293e54494bd418589e778"
+    },
+    {
+      "name": "Sanguimancy-1.7.10-1.1.9-35.jar",
+      "sha256": "830e69776e015e8042711d1e3e3f7740bfa923850ae63b8a547aadd2efea22ea"
+    },
+    {
+      "name": "sdnf-1.0.jar",
+      "sha256": "09ae9dd31c85734bff7929bb569577ce5c0b5c580ebc3e3eeef6cbc743aabadf"
+    },
+    {
+      "name": "serializationisbad-1.5.2.jar",
+      "sha256": "2031c8edce4b124f29a33c9ba892b9049d19fcff4c711e2aa276d051cf0d5d31"
+    },
+    {
+      "name": "ServerUtilities-2.4.3.jar",
+      "sha256": "15f5885e95ed11d500bc75cd648367f1da022f7be2b2da138c775622137e96f3"
+    },
+    {
+      "name": "SkinPort-1.7.10-v10d.jar",
+      "sha256": "6f5d80220e6f763623ef16802c991da2cec6396099915f6137f6b41b483e939b"
+    },
+    {
+      "name": "SmoothFont-1.7.10-1.15.3.jar",
+      "sha256": "535bb759b7d0fcd321e083043a8945b0dc60a111caa2e0978c753cded44dd5ac"
+    },
+    {
+      "name": "spark-1.10.19-forge1710.jar",
+      "sha256": "35e37dcd29dd1b92b9cbb064165889ee9a501384dd5fa58cfcc727a5e18f3366"
+    },
+    {
+      "name": "SpecialAI-1.7.10-1.1.2.jar",
+      "sha256": "4f7fdd2d242b83ff76038784ca120f11abc6aeaf12a50f78aad23102999250a4"
+    },
+    {
+      "name": "StandardExpansion-3.0.181.jar",
+      "sha256": "ee25aa11d3fd1cda5e8a1366591fe4d3a917136b866b173e0505410c55b99ffb"
+    },
+    {
+      "name": "StorageDrawers-1.7.10-1.10.9.jar",
+      "sha256": "cf64063e6c54f120c7a4573113d12442834286bf397bd9e277d1ddf5a1498156"
+    },
+    {
+      "name": "symcalc-0.14.jar",
+      "sha256": "a6b18f643f068972d436421e809f0795fdd76d518d6231f4431dbb9fc22c7528"
+    },
+    {
+      "name": "Tainted-Magic-1.7.10-8.1.1.jar",
+      "sha256": "2fbf1f56a1b8cbdfb80296904e4a5a8f6ac585b0423053a170b49259193da824"
+    },
+    {
+      "name": "Talismans2-1.7.10-1.1.6.jar",
+      "sha256": "9ac38912a2cee555fc9df33172522e3b617cfb4ae8d1dd33ef1019ca92b3abd2"
+    },
+    {
+      "name": "tc_integration-1.0.1-1.7.10.jar",
+      "sha256": "a7194696d94e06c74ce524b96e6845c424114e468237451ae9fc439534bfa1d6"
+    },
+    {
+      "name": "TCBotaniaExoflame-1.7.10-1.4.jar",
+      "sha256": "924d98cb9f37b2ebd0fe35590f4bebab18ed1987bdd09dc5ca8ab9244ae2b6b0"
+    },
+    {
+      "name": "tcneiadditions-1.5.14-pre.jar",
+      "sha256": "ae9d68f6029ff80e5481e43958bd59a300029fb86f3fada7865b92f271b44a66"
+    },
+    {
+      "name": "tcnodetracker-1.7.10-1.1.2.jar",
+      "sha256": "9257961c710d44ba4deed68e66854a2d564421ad6228af2c683ddb1d5d185085"
+    },
+    {
+      "name": "Thaumaturgical Knowledge-0.1.5.2 - 1.7.10.jar",
+      "sha256": "378d4ef6765196d7d1e9efad015ed169d0c1d23438fd6e147aa84cae99185baa"
+    },
+    {
+      "name": "Thaumcraft-1.7.10-4.2.3.5.jar",
+      "sha256": "3dba9786966974701578a658d1bb369bf35bdf5f363079f5ac9c4910a39113be"
+    },
+    {
+      "name": "Thaumcraft4Tweaks-1.5.47.jar",
+      "sha256": "5f3d3cac7a437b748c49241cb5db3e2a04cd796723de27e2d8a34328429c2b69"
+    },
+    {
+      "name": "ThaumcraftMobAspects-1.7.2-2A.jar",
+      "sha256": "a9e5f3b49fcac4f899fb508435edb112881668860023006cd84020410557a1fe"
+    },
+    {
+      "name": "thaumcraftneiplugin-1.7.10-1.7a.jar",
+      "sha256": "d39e6c8fc27709b04d58ec4c1b625648776dbf01cdf7af2d51388ee215d5d4e8"
+    },
+    {
+      "name": "Thaumic-Dyes-[1.7.10] 1.10.5-0.jar",
+      "sha256": "9ae14c952ac4987aae139cb1026cfdd47f52a3a0cbe1eda5978bff048829d65a"
+    },
+    {
+      "name": "ThaumicBases-1.3.1710.4.jar",
+      "sha256": "4a1463028fe07e4997ab45c54867832c1ddb200df34ae88bb1056e165b48193d"
+    },
+    {
+      "name": "ThaumicConcilium-1.1.1.jar",
+      "sha256": "afa1ab5eaa8f82ddafd4fe024cfad14d5fdee130cdda2e220d65fb52f98be7a7"
+    },
+    {
+      "name": "ThaumicExploration-1.7.10-1.1-53.jar",
+      "sha256": "ac85715fdf40a162d4b360b962a14d64a373535d002c04e4b24dfa51aeaa4b01"
+    },
+    {
+      "name": "ThaumicHorizons-1.8.21.jar",
+      "sha256": "946cda75e5a17785507e2a5dcc6798d718900952545a812be32b7b34c11f60b8"
+    },
+    {
+      "name": "ThaumicTinkerer-2.5-1.7.10-164.jar",
+      "sha256": "7aeb6d77a24c96a05324ba22c34b5a682d468daf8adf3c8540136b417f4727f1"
+    },
+    {
+      "name": "thaumores-1.6.0.jar",
+      "sha256": "eddcd08b5d6096b51f3c9c6293684ad7b62d76dec776e9c000d6125cc4f3953f"
+    },
+    {
+      "name": "TravellersGear-1.7.10-1.16.6.jar",
+      "sha256": "f4bc72fb618cfcb682c4d8b63cd379daf8f3e75d784778a6b7a511ab786923df"
+    },
+    {
+      "name": "ttCore-MC1.7.10-0.1.1-78.jar",
+      "sha256": "e8230c7633cfdf71155b3c1b1cb73fa34cc600d3465f33dd3642faf11ee8fa63"
+    },
+    {
+      "name": "Twilight Forest Portal Catalyst-1.7.10 [Version 3].jar",
+      "sha256": "977524a3510ef183a8a7d3c329d52e84e4c20746b28eb2c50cb6fb22c317180f"
+    },
+    {
+      "name": "TwilightForest-2.4.3.jar",
+      "sha256": "1b2fde1a60832af141022fdefdb17ce29790029514ddd0578754db1e9ea8ddc5"
+    },
+    {
+      "name": "UniDict-1.7.10-2.9.2.jar",
+      "sha256": "c0bd43272f975df886653da10bccf973d5870b5168f1a0a0929a4f3584dab028"
+    },
+    {
+      "name": "UniLib-1.2.1+1.7.10-forge.jar",
+      "sha256": "4270b8afe1a78f1e62542d48344ed3398e55c348de89837af568a4d25a2e0d22"
+    },
+    {
+      "name": "Waila-1.5.10_1.7.10.jar",
+      "sha256": "44423d7c43bde9274e1dbc1b00d6bd14ec7cb2572326eeefa9c6dd6fab47930b"
+    },
+    {
+      "name": "Wawla-1.0.5.120.jar",
+      "sha256": "7dd1a08c97a7b453eb761a75006f56e6acfa841d3eb723792f0ee5710bff5829"
+    },
+    {
+      "name": "witchery-1.7.10-0.24.1.jar",
+      "sha256": "68c331f624cea6c0827a31e96a6dce2e75461227c42da70f11ba765a8c6a8cec"
+    },
+    {
+      "name": "WitcheryPatch-1.7.10-1.0.0.jar",
+      "sha256": "d46b2e41483228bebaa94f8e4d7d1c5cfa4a05ae57d0c489b5eee384dacab983"
+    }
+  ]
 }
