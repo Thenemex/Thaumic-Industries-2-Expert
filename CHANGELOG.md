@@ -27,6 +27,12 @@ WARNINGS :
 
 ## Bugs patched :
 - NPC trading used to not check item metadata and tags
+- Setting your spawn on a soul campfire doesn't require sneaking and an empty hand anymore
+- Soul campfire doesn't destroy itself anymore on burn-out
+
+## Expert changes :
+- Both campfires now can't be estinguish using a wand
+- Both campfires now can't be harvested with silk touch
 
 ## Gameplay modifications :
 - Added an info quest for the soul campfire
