@@ -1,9 +1,35 @@
 
 
-    3.1.2.
+    3.1.3.
 # TEMPLATE
 
 ## 
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/JrfCRJf49J) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+    3.1.3.1
+# 
+
+WARNINGS :
+- Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
+
+## Mods updated :
+- Armored Arms, TC4Patched
+
+## Bugs patched :
+- NPC trading used to not check item metadata and tags
+
+## Gameplay modifications :
+- Added an info quest for the soul campfire
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
