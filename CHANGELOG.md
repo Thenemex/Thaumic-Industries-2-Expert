@@ -23,7 +23,7 @@ WARNINGS :
 - Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
 
 ## Mods updated :
-- Armored Arms, NemexLib, TC4Patched
+- Armored Arms, NemexLib, TC4Patched, TCI:Core
 
 ## Bugs patched :
 - NPC trading used to not check item metadata and tags
@@ -31,6 +31,7 @@ WARNINGS :
 - Soul campfire doesn't destroy itself anymore on burn-out
 
 ## Expert changes :
+- Added a mystical construct recipe to obtain a Silverwood sapling, but will only work once per player 
 - Both campfires now can't be estinguish using a wand
 - Both campfires now can't be harvested with silk touch
 
