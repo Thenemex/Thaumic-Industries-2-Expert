@@ -23,7 +23,7 @@ WARNINGS :
 - Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
 
 ## Mods updated :
-- Armored Arms, TC4Patched
+- Armored Arms, NemexLib, TC4Patched
 
 ## Bugs patched :
 - NPC trading used to not check item metadata and tags
