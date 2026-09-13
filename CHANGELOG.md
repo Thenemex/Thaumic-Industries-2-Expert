@@ -31,7 +31,8 @@ WARNINGS :
 - Soul campfire doesn't destroy itself anymore on burn-out
 
 ## Expert changes :
-- Added a mystical construct recipe to obtain a Silverwood sapling, but will only work once per player 
+- Added a mystical construct recipe to obtain a Silverwood sapling, but will only work once per player
+- Added a temporary arcane recipe for Blood Altar
 - Both campfires now can't be estinguish using a wand
 - Both campfires now can't be harvested with silk touch
 
