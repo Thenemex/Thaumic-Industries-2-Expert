@@ -22,6 +22,9 @@
 WARNINGS :
 - Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
 
+## Mods added :
+- Mods Info
+
 ## Mods updated :
 - Armored Arms, NemexLib, TC4Patched, TCI:Core
 
@@ -38,6 +41,7 @@ WARNINGS :
 
 ## Gameplay modifications :
 - Added an info quest for the soul campfire
+- Added a new NEI handler, showing villager trades and entity loot
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
