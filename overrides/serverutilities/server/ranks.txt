@@ -32,5 +32,5 @@ serverutilities.claims.bypass_limits: true
 serverutilities.homes.max: 100
 serverutilities.homes.warmup: 0s
 serverutilities.homes.cooldown: 0s
-serverutilities.homes.cross_dim: famse
+serverutilities.homes.cross_dim: false
 serverutilities.warps.cross_dim: false
