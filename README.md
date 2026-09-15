@@ -6,7 +6,7 @@ More information about downloads and everything here on the CurseForge page : ht
 
 Reporting bugs & problems here on GitHub : https://github.com/Thenemex/Thaumic-Industries-2-Expert/issues
 
-Link to the RDG discord server : https://discord.gg/JrfCRJf49J
+Link to the RDG discord server : https://discord.gg/fpD6DzKFSh
 
 ## Helpers, Authors & Content Creators
 Project currenlty leaded by Thenemex, inside of RoughDayGames development group.
