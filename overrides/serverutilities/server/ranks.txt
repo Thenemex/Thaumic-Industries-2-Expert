@@ -6,31 +6,21 @@ priority: 1
 serverutilities.claims.max_chunks: 16
 serverutilities.chunkloader.max_chunks: 1
 serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
 serverutilities.chunkloader.decay: 4h
 
 [vip]
 priority: 20
-serverutilities.chat.name_format: <&bVIP {name}&r>
-serverutilities.claims.max_chunks: 64
-serverutilities.chunkloader.max_chunks: 16
+serverutilities.chat.name_format: <&bVIP&r {name}>
+serverutilities.claims.max_chunks: 32
+serverutilities.chunkloader.max_chunks: 4
 serverutilities.homes.max: 0
-serverutilities.homes.warmup: 0s
-serverutilities.homes.cooldown: 1s
-serverutilities.homes.cross_dim: true
-serverutilities.chunkloader.decay: 1w
-serverutilities.warps.cross_dim: true
+serverutilities.chunkloader.decay: 12h
 
 [admin]
 default_op_rank: true
 priority: 100
-serverutilities.chat.name_format: <&2{name}&r>
-serverutilities.claims.max_chunks: 5000
-serverutilities.chunkloader.max_chunks: 1000
+serverutilities.chat.name_format: <&cADMIN&r {name}>
+serverutilities.claims.max_chunks: 10000
+serverutilities.chunkloader.max_chunks: 100
 serverutilities.claims.bypass_limits: true
-serverutilities.homes.max: 100
-serverutilities.homes.warmup: 0s
-serverutilities.homes.cooldown: 0s
-serverutilities.homes.cross_dim: false
-serverutilities.warps.cross_dim: false
+serverutilities.homes.max: 0
