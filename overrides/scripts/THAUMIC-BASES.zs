@@ -181,6 +181,17 @@ mods.thaumcraft.Infusion.addRecipe("TB.VoidAnvil",
 /* Instability                  */ 4);
 mods.thaumcraft.Research.refreshResearchRecipe("TB.VoidAnvil");
 
+# Scythe OTWEO (Replacement)
+// Scythe Of The White-Eyed One
+mods.thaumcraft.Infusion.removeRecipe(<thaumicbases:herobrinesScythe>);
+mods.thaumcraft.Infusion.addRecipe("TB.HerobrinesScythe",
+/* Input                        */ <Thaumcraft:ItemHoeVoid>,
+/* Ingredients                  */ [<Thaumcraft:WandRod:100>, <ForbiddenMagic:StarBlock>, <Thaumcraft:ItemBucketDeath>, <Thaumcraft:ItemBucketDeath>, <WitchingGadgets:MetalDevice:7>],
+/* Essentia                     */ "alienis 64, auram 32, mortuus 128, telum 128, potentia 64",
+/* Output                       */ <thaumicbases:herobrinesScythe>,
+/* Instability                  */ 7);
+mods.thaumcraft.Research.refreshResearchRecipe("TB.HerobrinesScythe");
+
 # Misc
 // Void Metal Block
 recipes.remove(<thaumicbases:voidBlock>);
