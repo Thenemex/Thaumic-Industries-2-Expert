@@ -17,7 +17,7 @@
 
 
     3.1.3.1
-# 
+# Silverwood recipe & campfire patch
 
 WARNINGS :
 - Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
