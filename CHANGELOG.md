@@ -23,7 +23,7 @@ WARNINGS :
 - Changes has been made to quests : trigger the update via the "!" quest in Information, or type "/bq_admin default load" in your game (with admin rights).
 
 ## Mods added :
-- Mods Info
+- Mod Whitelist, Mods Info
 
 ## Mods updated :
 - Armored Arms, NemexLib, TC4Patched, TCI:Core
