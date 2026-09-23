@@ -16,6 +16,27 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+    3.1.3.2
+# 
+
+## Mods updated :
+- CodeChickenCore GTNH, Chronos Backups, GTNHLib, NEI GTNH, Thaumic Horizons
+
+## Bugs patched :
+- Ethereal Shard used to crash the game upon being jared
+- Patched item dupe coming from blood sample cloning
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/fpD6DzKFSh) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
     3.1.3.1
 # Silverwood recipe & campfire patch
 
