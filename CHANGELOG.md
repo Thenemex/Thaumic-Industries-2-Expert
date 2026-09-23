@@ -20,11 +20,12 @@
 # 
 
 ## Mods updated :
-- CodeChickenCore GTNH, Chronos Backups, GTNHLib, NEI GTNH, Thaumic Horizons
+- CodeChickenCore GTNH, Chronos Backups, GTNHLib, Lwjgl3ify, NEI GTNH, Thaumic Horizons
 
 ## Bugs patched :
 - Ethereal Shard used to crash the game upon being jared
 - Patched item dupe coming from blood sample cloning
+- Computers setuped with non-ASCII characters can now launch the game without issues
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
