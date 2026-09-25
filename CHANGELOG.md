@@ -20,12 +20,24 @@
 # 
 
 ## Mods updated :
-- CodeChickenCore GTNH, Chronos Backups, GTNHLib, Lwjgl3ify, NEI GTNH, Thaumic Horizons
+- AppleCore GTNH, CodeChickenCore GTNH, Chronos Backups, GTNHLib, Lwjgl3ify, NEI GTNH, Salis Arcana, Thaumic Horizons
 
 ## Bugs patched :
+- Magical leaves connected to a log used to not drop saplings
 - Ethereal Shard used to crash the game upon being jared
 - Patched item dupe coming from blood sample cloning
+- Patched item dupe caused by Entropy Traveling Trunk picking up dead items
+- Wand Focus : Portable Hole is now properly synced between server and client
+- Warded blocks used to stock metadata in their NBT tags
+- Instable nodes used to still shoot orbs in an unloaded chunk
+- Nodes don't render behind transparent blocks, if the node is actually placed in front of them
 - Computers setuped with non-ASCII characters can now launch the game without issues
+
+## Gameplay modifications :
+- Void reservoirs can now be emptied directly into a jar if it is facing downwards 
+- Golem Fetter now instantly turns on if it is receiving redstone power upon being placed
+- Wand average vis cost tooltip is now more accurate
+- Aspect orbs will now immediately despawn if they enter a chunk where they can't be ticked
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
