@@ -26,11 +26,14 @@
 - Magical leaves connected to a log used to not drop saplings
 - Ethereal Shard used to crash the game upon being jared
 - Patched item dupe coming from blood sample cloning
+- Patched item dupe caused by a player UUID entity cloning
 - Patched item dupe caused by Entropy Traveling Trunk picking up dead items
+- Patched item dupe related to Bibliocraft Armor Stand, hoppers and world save 
 - Wand Focus : Portable Hole is now properly synced between server and client
 - Warded blocks used to stock metadata in their NBT tags
 - Instable nodes used to still shoot orbs in an unloaded chunk
 - Nodes don't render behind transparent blocks, if the node is actually placed in front of them
+- Particles are now oriented from the render view entity instead of the player (MC-46445)
 - Computers setuped with non-ASCII characters can now launch the game without issues
 
 ## Gameplay modifications :
