@@ -20,7 +20,7 @@
 # 
 
 ## Mods updated :
-- AppleCore GTNH, CodeChickenCore GTNH, Chronos Backups, GTNHLib, Lwjgl3ify, NEI GTNH, Salis Arcana, Thaumic Horizons
+- AppleCore GTNH, CodeChickenCore GTNH, Chronos Backups, GTNHLib, Lwjgl3ify, NEI GTNH, Salis Arcana, Thaumic Horizons, Witching Gadgets : Patched
 
 ## Bugs patched :
 - Magical leaves connected to a log used to not drop saplings
@@ -28,7 +28,9 @@
 - Patched item dupe coming from blood sample cloning
 - Patched item dupe caused by a player UUID entity cloning
 - Patched item dupe caused by Entropy Traveling Trunk picking up dead items
-- Patched item dupe related to Bibliocraft Armor Stand, hoppers and world save 
+- Patched item dupe related to Bibliocraft's Armor Stand, hoppers and world save
+- Patched item dupe related to Witching Gadgets's Cutting Table and golems
+- Cutting Table used to crash the client when wrong items were put in with hoppers and such
 - Wand Focus : Portable Hole is now properly synced between server and client
 - Warded blocks used to stock metadata in their NBT tags
 - Instable nodes used to still shoot orbs in an unloaded chunk
