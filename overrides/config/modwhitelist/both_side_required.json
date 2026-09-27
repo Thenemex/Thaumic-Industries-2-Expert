@@ -647,8 +647,8 @@
       "sha256": "8438f1ec7f24ef4b9c550359a4f5e876ed028efdf6aa28ea637f98d5d4d61b44"
     },
     {
-      "name": "[1.7.10] WitchingGadgetsPatched-1.2.1.1.jar",
-      "sha256": "75322819aac4556dcecb5315117e15545d1292e0cdc392b736c7afaa59d0f21d"
+      "name": "[1.7.10] WitchingGadgetsPatched-1.3.jar",
+      "sha256": "0c2b1f42ff73a627e2261834f181ea3c11116a9e6545b88e5cbc01eb10df1c08"
     },
     {
       "name": "AdvancedVanilla2.jar",
@@ -675,8 +675,8 @@
       "sha256": "814be9fcddf80d6b35f13b96bbdacc366ca71656300b26968b190215bde62e0c"
     },
     {
-      "name": "AppleCore-3.3.11.jar",
-      "sha256": "4b3b5351567cba454b8a69c016356de74e02efdfe034877d7835666c544639a1"
+      "name": "AppleCore-3.3.13.jar",
+      "sha256": "aedbe88524f75fe9ee1126e173999c2167c9dfe80bb26ff99be13fab403f372d"
     },
     {
       "name": "archaicfix-0.8.0.jar",
@@ -743,16 +743,16 @@
       "sha256": "4cfed5e942f9afec0af201b30c3a0c2590f144d555d703f4ab043ef94b5817de"
     },
     {
-      "name": "chronosbackups-1.7.10-1.1.2-forge.jar",
-      "sha256": "c193d9036f49c7e715c32415d59108b0e36afa41c0d5fbffc49deb5e4947543c"
+      "name": "chronosbackups-1.7.10-1.1.3-forge.jar",
+      "sha256": "e99aea3d04d3a093149bf497b25915ccae265d874056d293745a98c2656648d6"
     },
     {
       "name": "CleanView-1.7.10-v2.jar",
       "sha256": "8a49737c9897fd78b6897af0cea3357cb4c7e029dc6bd8fb893b52b2ebca42a3"
     },
     {
-      "name": "CodeChickenCore-1.4.16.jar",
-      "sha256": "c965f63fdde8451afbb056551128eef2452b9273366bcd098624ee5e17954954"
+      "name": "CodeChickenCore-1.4.22.jar",
+      "sha256": "0ff66294703701f156fb493265bf5b3572c4566127ce895095332d2cfe9205c1"
     },
     {
       "name": "CodeChickenLib-1.3.0.jar",
@@ -843,8 +843,8 @@
       "sha256": "3118408a45396b1c89e8ddd19e1813eadffd3ac13e274e9086b48cde165cd88f"
     },
     {
-      "name": "gtnhlib-0.11.30.jar",
-      "sha256": "80d990267d392260b526cf42717bedda2c1174dea725ee80e8513027d4216f48"
+      "name": "gtnhlib-0.11.51.jar",
+      "sha256": "9d31e3a5011b39a111536a43f1c2bf74e83a037f5789cf66da3d482e2686adf7"
     },
     {
       "name": "Guide-API-1.7.10-1.0.1-20.jar",
@@ -863,8 +863,8 @@
       "sha256": "8d9dac6b95915285b2a1a7e433d1a28a1933266e89d99248eb363d30c49e4c0b"
     },
     {
-      "name": "hodgepodge-2.7.172.jar",
-      "sha256": "4a702fa27bca6f8af86141a19365077ecd3f26813f1e2513ad2c361b6600e459"
+      "name": "hodgepodge-2.7.211.jar",
+      "sha256": "54fce9d0dc526ade1587d4a3b08cd49846292f29ba8ac33b07ca246d62ea29d6"
     },
     {
       "name": "ImmersiveEngineering-0.7.7.jar",
@@ -907,8 +907,8 @@
       "sha256": "cfbac1df988db0c8e46dd7c68dd27c4e00919e56e22853db9d26008c4d15b7a0"
     },
     {
-      "name": "lwjgl3ify-3.0.28.jar",
-      "sha256": "3bde4010dfeecf4ba04526e31ef1def714b36539dd070fd0b48e205f99e675da"
+      "name": "lwjgl3ify-3.0.35.jar",
+      "sha256": "1c9e373309a5e8742aadb14a50659ba85ab84893efd95acbbde0574a137889ab"
     },
     {
       "name": "MagicalDecorations-0.3.5.jar",
@@ -971,6 +971,10 @@
       "sha256": "fe2c74485e47a337cb0899f14206370471397031418414294478e528c6720528"
     },
     {
+      "name": "NotEnoughItems-2.8.150-GTNH.jar",
+      "sha256": "c3f9c8643b0876c891f511a209685bd2308b0f0d7f04f803fd028aef42a91b12"
+    },
+    {
       "name": "NOVA-2015-10-09-universal.jar",
       "sha256": "8986f56ab8241670f0cba2a6a77b24405a32ed15376e2a6eff3e54ddb60fa034"
     },
@@ -1003,8 +1007,8 @@
       "sha256": "3c0c928be271565d79154f3b18cc0d6ed3d3a923107e84078018bb63a6c0387a"
     },
     {
-      "name": "salisarcana-v2.6.0.jar",
-      "sha256": "f9cefe7e82310802715a94f3529237bf88dfac53da0293e54494bd418589e778"
+      "name": "salisarcana-v2.7.0.jar",
+      "sha256": "d4c0a9216973cb460a0553147b1ebb396113810eae7b64231a89a7f26c993b74"
     },
     {
       "name": "Sanguimancy-1.7.10-1.1.9-35.jar",
@@ -1019,8 +1023,8 @@
       "sha256": "2031c8edce4b124f29a33c9ba892b9049d19fcff4c711e2aa276d051cf0d5d31"
     },
     {
-      "name": "ServerUtilities-2.4.3.jar",
-      "sha256": "15f5885e95ed11d500bc75cd648367f1da022f7be2b2da138c775622137e96f3"
+      "name": "ServerUtilities-2.4.13.jar",
+      "sha256": "c0f39d77079e87be38bcb26c91b888803594f2546102c2d6d6fefca15add3a35"
     },
     {
       "name": "SkinPort-1.7.10-v10d.jar",
@@ -1111,8 +1115,8 @@
       "sha256": "ac85715fdf40a162d4b360b962a14d64a373535d002c04e4b24dfa51aeaa4b01"
     },
     {
-      "name": "ThaumicHorizons-1.8.21.jar",
-      "sha256": "946cda75e5a17785507e2a5dcc6798d718900952545a812be32b7b34c11f60b8"
+      "name": "ThaumicHorizons-1.8.25.jar",
+      "sha256": "c8ec2c02cd37f35603b64e50f8d027b60e9cd7aafd59c974e5b9f92d20485ba2"
     },
     {
       "name": "ThaumicTinkerer-2.5-1.7.10-164.jar",
