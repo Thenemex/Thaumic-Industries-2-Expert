@@ -17,7 +17,7 @@
 
 
     3.1.3.2
-# 
+# Mod updates & misc bug patches
 
 ## Mods updated :
 - AppleCore GTNH, CodeChickenCore GTNH, Chronos Backups, GTNHLib, Lwjgl3ify, NEI GTNH, Salis Arcana, Thaumic Horizons, Witching Gadgets : Patched
