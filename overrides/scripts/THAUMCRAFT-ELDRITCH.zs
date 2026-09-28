@@ -41,12 +41,15 @@ mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE",
 /* Complexity                     */ 3,
 /* ItemStack                      */ <minecraft:enchanting_table>);
 game.setLocalization("tc.research_name.ENCHANTINGTABLE", "Enchanting table");
-game.setLocalization("fr_FR", "tc.research_name.ENCHANTINGTABLE", "Table d'enchantement");
 game.setLocalization("tc.research_text.ENCHANTINGTABLE", "Enchantment from the void");
-game.setLocalization("fr_FR", "tc.research_text.ENCHANTINGTABLE", "Enchantement par le vide");
-mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "tnmx.eldritch.enchantingtable_1");
 game.setLocalization("tnmx.eldritch.enchantingtable_1", "Whispers from the void are beginning to drive you mad, but in the middle you heard a a singular voice. Guided by this voice, you started to write and conceive a device that can - in theory, enchant weapons and armory with the power of the void.<LINE>This process wouldn't use any additional items like the infusion enchantement, but will devour large amount of XP from the user.");
+game.setLocalization("fr_FR", "tc.research_name.ENCHANTINGTABLE", "Table d'enchantement");
+game.setLocalization("fr_FR", "tc.research_text.ENCHANTINGTABLE", "Enchantement par le vide");
 game.setLocalization("fr_FR", "tnmx.eldritch.enchantingtable_1", "Les voix dans votre tete commencent a vous rendre completement fou ; mais parmi ces voix, une se distingue du reste : guide par cette voix, vous commencez ainsi frenetiquement a ecrire une nouvelle recherche. Elle traite d'un nouveau dispositif occulte qui permettrait d'enchanter armes et armures avec le pouvoir infini du vide.<LINE>L'enchantement n'utiliserait aucun objet additionnel contrairement a l'infusion, mais il devorerait des quantites immenses d'XP de l'utilisateur.");
+game.setLocalization("ru_RU", "tc.research_name.ENCHANTINGTABLE", "Стол зачарований");
+game.setLocalization("ru_RU", "tc.research_text.ENCHANTINGTABLE", "Зачарования из пустоты");
+game.setLocalization("ru_RU", "tnmx.eldritch.enchantingtable_1", "Голоса в вашей голове начинают сводить вас с ума; но среди этих голосов один выделяется среди остальных: ведомые этим голосом, вы начинаете лихорадочно записывать новое исследование. Оно описывает новое оккультное приспособление, которое позволит зачаровывать оружие и броню бесконечной силой пустоты.<LINE>Зачарование не будет использовать никаких дополнительных предметов в отличие от зачаровывания наполнением, но оно будет поглощать огромное количество опыта пользователя.");
+mods.thaumcraft.Research.addPage("ENCHANTINGTABLE", "tnmx.eldritch.enchantingtable_1");
 // Adding craft
 mods.thaumcraft.Infusion.addRecipe("ENCHANTINGTABLE",
 /* Input                        */ <Thaumcraft:ItemThaumonomicon:0>,
