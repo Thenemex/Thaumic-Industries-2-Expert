@@ -1,9 +1,20 @@
 
 
-    3.1.3.
-# TEMPLATE
+    3.1.3.4
+# 
 
-## 
+## Mods updated :
+- TC4Patched
+
+## Bugs patched :
+- Shambling Husks used to not drop stolen stuff once killed
+- Entity Deconstructor used to randomly crash the game with skeletons
+- Alchemite used to destroy blocks inside claimed chunks with explosions turned off
+- Chameleon tools used to destroy blocks inside claimed chunks with its 3x3 mining abilities
+
+## Expert changes :
+- Disabled head-mounting ability from Mad Thaumaturges
+- Disabled special ai abilities on Shambling Husks
 
 ## Installation instructions :
 - Instructions can be found in the modpack description, in the spoiler at the beginning of the page
