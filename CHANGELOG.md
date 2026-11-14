@@ -1,10 +1,26 @@
 
 
-    3.1.3.4
+    3.1.3.
 # 
 
+## 
+
+## Installation instructions :
+- Instructions can be found in the modpack description, in the spoiler at the beginning of the page
+
+## Server pack :
+- Available via renting at [Wabbanode](https://www.wabbanode.com/affiliate/thaumic2expert) for automatic setup
+- A guide is present on the [Discord](https://discord.gg/fpD6DzKFSh) server for manual installation
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+    3.1.3.4
+# Mad guys nerf & misc patches
+
 ## Mods updated :
-- TC4Patched
+- FOV Effects Backport, TC4Patched
 
 ## Bugs patched :
 - Shambling Husks used to not drop stolen stuff once killed
