@@ -17,7 +17,7 @@
 
 
     3.1.3.5
-# 
+# Nether Quartz ore patch
 
 ## Mods updated :
 - TC4Patched
