@@ -17,7 +17,7 @@
 
 
     3.1.3.6
-# 
+# Gravestone & XP Talisman patch
 
 ## Mods updated :
 - TC4Patched
